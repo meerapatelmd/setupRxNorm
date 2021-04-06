@@ -305,7 +305,6 @@ run_setup <-
                                          render_only = render_only),
                         current_row_count)  %>%
                   dplyr::select(sr_datetime,
-                                sr_version,
                                 sr_release_date,
                                 sr_schema,
                                 dplyr::everything())
