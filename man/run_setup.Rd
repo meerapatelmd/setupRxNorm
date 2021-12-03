@@ -6,11 +6,14 @@
 \usage{
 run_setup(
   conn,
+  conn_fun = "pg13::local_connect()",
   schema = "rxnorm",
   rrf_path,
+  postprocessing = c("rxnorm_to_brand_and_generic"),
   verbose = TRUE,
   render_sql = TRUE,
   render_only = FALSE,
+  checks = c("conn_status", "conn_type"),
   log_schema = "public",
   log_table_name = "setup_rxnorm_log",
   log_release_date
@@ -34,13 +37,4 @@ The CSV files unpacked from a RxNorm Full Monthly Release download from
 \url{https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html} are loaded into Postgres.The
 file release dates are taken along with the table names and row
 counts are logged to a separate table after the loading is completed.
-}
-\seealso{
-\code{\link[pg13]{schema_exists}},\code{\link[pg13]{drop_cascade}},\code{\link[pg13]{send}},\code{\link[pg13]{ls_tables}},\code{\link[pg13]{c("query", "query")}},\code{\link[pg13]{render_row_count}},\code{\link[pg13]{table_exists}},\code{\link[pg13]{read_table}},\code{\link[pg13]{drop_table}},\code{\link[pg13]{write_table}}
-\code{\link[SqlRender]{render}}
-\code{\link[purrr]{map}},\code{\link[purrr]{set_names}}
-\code{\link[dplyr]{bind}},\code{\link[dplyr]{rename}},\code{\link[dplyr]{mutate}},\code{\link[dplyr]{select}},\code{\link[dplyr]{reexports}}
-\code{\link[tidyr]{pivot_wider}}
-\code{\link[cli]{cat_line}}
-\code{\link[tibble]{as_tibble}}
 }

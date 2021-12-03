@@ -11,14 +11,6 @@
 #' @param log_schema Schema for the table that logs the process, Default: 'public'
 #' @param log_table_name Name of log table, Default: 'setup_rxnorm_log'
 #' @param log_release_date (Required) \href{https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html}{RxNorm Monthly} Release Date.
-#' @seealso
-#'  \code{\link[pg13]{schema_exists}},\code{\link[pg13]{drop_cascade}},\code{\link[pg13]{send}},\code{\link[pg13]{ls_tables}},\code{\link[pg13]{c("query", "query")}},\code{\link[pg13]{render_row_count}},\code{\link[pg13]{table_exists}},\code{\link[pg13]{read_table}},\code{\link[pg13]{drop_table}},\code{\link[pg13]{write_table}}
-#'  \code{\link[SqlRender]{render}}
-#'  \code{\link[purrr]{map}},\code{\link[purrr]{set_names}}
-#'  \code{\link[dplyr]{bind}},\code{\link[dplyr]{rename}},\code{\link[dplyr]{mutate}},\code{\link[dplyr]{select}},\code{\link[dplyr]{reexports}}
-#'  \code{\link[tidyr]{pivot_wider}}
-#'  \code{\link[cli]{cat_line}}
-#'  \code{\link[tibble]{as_tibble}}
 #' @rdname run_setup
 #' @export
 #' @importFrom pg13 schema_exists drop_cascade send ls_tables query render_row_count table_exists read_table drop_table write_table
@@ -29,22 +21,30 @@
 #' @importFrom cli cat_line cat_boxx
 #' @importFrom tibble as_tibble
 
-
-
-
 run_setup <-
   function(conn,
+           conn_fun = "pg13::local_connect()",
            schema = "rxnorm",
            rrf_path,
+           postprocessing = c("rxnorm_to_brand_and_generic"),
            verbose = TRUE,
            render_sql = TRUE,
            render_only = FALSE,
+           checks = c("conn_status", "conn_type"),
            log_schema = "public",
            log_table_name = "setup_rxnorm_log",
            log_release_date) {
 
     if (missing(log_release_date)) {
       stop("`log_release_date` is required.")
+    }
+
+    if (missing(conn)) {
+      conn <- eval(rlang::parse_expr(conn_fun))
+      on.exit(pg13::dc(conn = conn),
+              add = TRUE,
+              after = TRUE)
+
     }
 
     rrf_path <- path.expand(rrf_path)
@@ -239,7 +239,8 @@ run_setup <-
                sql_statement = sql_statement,
                verbose = verbose,
                render_sql = render_sql,
-               render_only = render_only)
+               render_only = render_only,
+               checks = checks)
 
     rrfs <- list.files(path = rrf_path,
                        pattern = "[.]{1}RRF$|[.]{1}rrf$",
@@ -258,7 +259,11 @@ run_setup <-
               rrf_path = rrf)
 
       pg13::send(conn = conn,
-                 sql_statement = sql)
+                 sql_statement = sql,
+                 verbose = verbose,
+                 render_sql = render_sql,
+                 render_only = render_only,
+                 checks = checks)
 
 
     }
@@ -333,6 +338,20 @@ run_setup <-
                       float = "center")
         print(tibble::as_tibble(updated_log))
         cli::cat_line()
+
+
+        for (i in seq_along(postprocessing)) {
+
+          postprocess <- postprocessing[i]
+
+          run_postprocessing(conn = conn,
+                             postprocess = postprocess,
+                             verbose = verbose,
+                             render_sql = render_sql,
+                             render_only = render_only,
+                             checks = checks)
+
+        }
 
 
 
