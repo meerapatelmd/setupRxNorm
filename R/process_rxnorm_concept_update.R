@@ -180,13 +180,13 @@ process_rxnorm_concept_update <-
         arrange(desc(level_of_separation))
 
 
-      pg13::write_table(conn_fun = "pg13::local_connect()",
+      pg13::write_table(conn_fun = conn_fun,
                         schema = "rxrel",
                         table_name = "rxnorm_updated_path",
                         data = final_a,
                         drop_existing = TRUE)
 
-      pg13::write_table(conn_fun = "pg13::local_connect()",
+      pg13::write_table(conn_fun = conn_fun,
                         schema = "rxrel",
                         table_name = "rxnorm_updated",
                         data = final_b,
@@ -197,7 +197,7 @@ process_rxnorm_concept_update <-
 
       for (final_table in final_tables) {
 
-        pg13::drop_table(conn_fun = "pg13::local_connect()",
+        pg13::drop_table(conn_fun = conn_fun,
                          schema = "rxrel",
                          table = final_table)
 
@@ -232,7 +232,13 @@ process_rxnorm_concept_update <-
     "
 
     pg13::send(conn_fun = "pg13::local_connect()",
-               sql_statement = sql_statement)
+               sql_statement = sql_statement,
+               conn = conn,
+               conn_fun = conn_fun,
+               checks = checks,
+               verbose = verbose,
+               render_sql = render_sql,
+               render_only = render_only)
 
 
     sql_statement <-
@@ -250,11 +256,29 @@ process_rxnorm_concept_update <-
     );
     "
 
-    pg13::send(conn_fun = "pg13::local_connect()",
-               sql_statement = sql_statement)
+    pg13::send(conn = conn,
+               conn_fun = conn_fun,
+               sql_statement = sql_statement,
+               checks = checks,
+               verbose = verbose,
+               render_sql = render_sql,
+               render_only = render_only)
 
 
+    pg13::drop_table(conn_fun = conn_fun,
+                     schema = "rxrel",
+                     table = "rxnorm_concept_update2")
 
+    pg13::drop_table(conn_fun = conn_fun,
+                     schema = "rxrel",
+                     table = "tmp_rxnorm_concept_update0")
+
+    pg13::drop_table(conn_fun = conn_fun,
+                     schema = "rxrel",
+                     table = "tmp_rxnorm_concept_update")
+
+    log_processing(target_table = "rxnorm_updated")
+    log_processing(target_table = "rxnorm_updated_path")
     log_processing(target_table = "rxnorm_concept_update")
 
 
