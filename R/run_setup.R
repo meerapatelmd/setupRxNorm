@@ -26,7 +26,7 @@ run_setup <-
            conn_fun = "pg13::local_connect()",
            schema = "rxnorm",
            rrf_path,
-           postprocessing = c("rxnorm_to_brand_and_generic"),
+           postprocessing = c("rxnorm_to_brand_and_generic", "rxnorm_concept_update"),
            verbose = TRUE,
            render_sql = TRUE,
            render_only = FALSE,
