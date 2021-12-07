@@ -175,9 +175,9 @@ process_rxnorm_concept_update <-
         dplyr::group_by(maps_to_rxcui0) %>%
         dplyr::arrange(desc(level_of_separation),
                        .by_group = TRUE) %>%
-        dplyr::filter(row_number() == 1) %>%
+        dplyr::filter(dplyr::row_number() == 1) %>%
         dplyr::ungroup() %>%
-        dplyr::arrange(desc(level_of_separation))
+        dplyr::arrange(dplyr::desc(level_of_separation))
 
 
       pg13::write_table(conn_fun = conn_fun,
