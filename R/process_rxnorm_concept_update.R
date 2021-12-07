@@ -158,13 +158,13 @@ process_rxnorm_concept_update <-
 
       output <-
         output %>%
-        map(select, -level_of_separation) %>%
-        reduce(left_join) %>%
-        distinct()
+        purrr::map(select, -level_of_separation) %>%
+        purrr::educe(left_join) %>%
+        dplyr::distinct()
 
       final_a <-
       output %>%
-        pivot_longer(cols = matches("[1-9]{1,}$"),
+        tidyr::pivot_longer(cols = matches("[1-9]{1,}$"),
                      names_to = "level_of_separation",
                      names_prefix = "maps_to_rxcui",
                      values_to = "maps_to_rxcui",
@@ -172,12 +172,12 @@ process_rxnorm_concept_update <-
 
       final_b <-
       final_a %>%
-        group_by(maps_to_rxcui0) %>%
+        dplyr::group_by(maps_to_rxcui0) %>%
         dplyr::arrange(desc(level_of_separation),
                        .by_group = TRUE) %>%
         dplyr::filter(row_number() == 1) %>%
-        ungroup() %>%
-        arrange(desc(level_of_separation))
+        dplyr::ungroup() %>%
+        dplyr::arrange(desc(level_of_separation))
 
 
       pg13::write_table(conn_fun = conn_fun,
@@ -231,8 +231,7 @@ process_rxnorm_concept_update <-
     ;
     "
 
-    pg13::send(conn_fun = "pg13::local_connect()",
-               sql_statement = sql_statement,
+    pg13::send(sql_statement = sql_statement,
                conn = conn,
                conn_fun = conn_fun,
                checks = checks,
