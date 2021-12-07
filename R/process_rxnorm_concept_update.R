@@ -15,15 +15,13 @@ process_rxnorm_concept_update <-
            render_only = FALSE) {
 
 
-    if (missing(conn)) {
-
-      conn <- eval(rlang::parse_expr(glue::glue(conn_fun)))
-      on.exit(pg13::dc(conn = conn,
-                       verbose = verbose))
-    }
-
-
     if (requires_processing(target_table = "rxnorm_concept_update")) {
+      if (missing(conn)) {
+
+        conn <- eval(rlang::parse_expr(glue::glue(conn_fun)))
+        on.exit(pg13::dc(conn = conn,
+                         verbose = verbose))
+      }
       sql_statement <-
       "
       create schema if not exists rxrel;
