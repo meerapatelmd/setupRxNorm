@@ -6,7 +6,7 @@
 \usage{
 process_rxnorm_concept_update(
   conn,
-  conn_fun = "pg13::local_connect()",
+  conn_fun = "pg13::local_connect(verbose = {verbose})",
   checks = "",
   verbose = TRUE,
   render_sql = TRUE,

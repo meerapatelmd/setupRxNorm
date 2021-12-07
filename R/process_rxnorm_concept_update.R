@@ -8,11 +8,19 @@
 
 process_rxnorm_concept_update <-
   function(conn,
-           conn_fun = "pg13::local_connect()",
+           conn_fun = "pg13::local_connect(verbose = {verbose})",
            checks = "",
            verbose = TRUE,
            render_sql = TRUE,
            render_only = FALSE) {
+
+
+    if (missing(conn)) {
+
+      conn <- eval(rlang::parse_expr(glue::glue(conn_fun)))
+      on.exit(pg13::dc(conn = conn,
+                       verbose = verbose))
+    }
 
 
     if (requires_processing(target_table = "rxnorm_concept_update")) {
@@ -46,7 +54,6 @@ process_rxnorm_concept_update <-
       ;
       "
       pg13::send(conn = conn,
-                 conn_fun = conn_fun,
                  sql_statement = sql_statement,
                  checks = checks,
                  verbose = verbose,
@@ -69,7 +76,6 @@ process_rxnorm_concept_update <-
         )
 
       pg13::send(conn = conn,
-                 conn_fun = conn_fun,
                  sql_statement = sql_statement,
                  checks = checks,
                  verbose = verbose,
@@ -106,7 +112,6 @@ process_rxnorm_concept_update <-
       )
 
     pg13::send(conn = conn,
-               conn_fun = conn_fun,
                sql_statement = sql_statement,
                checks = checks,
                verbose = verbose,
@@ -115,7 +120,6 @@ process_rxnorm_concept_update <-
 
     row_count <-
       pg13::query(conn = conn,
-                  conn_fun = conn_fun,
                   sql_statement = glue::glue("SELECT COUNT(*) FROM rxrel.tmp_rxnorm_concept_update{i};"),
                   checks = checks,
                   verbose = verbose,
@@ -126,7 +130,6 @@ process_rxnorm_concept_update <-
 
     if (row_count == 0) {
       pg13::send(conn = conn,
-                 conn_fun = conn_fun,
                  sql_statement = glue::glue("DROP TABLE rxrel.tmp_rxnorm_concept_update{i};"),
                  checks = checks,
                  verbose = verbose,
@@ -144,7 +147,6 @@ process_rxnorm_concept_update <-
         output[[final_table]] <-
           pg13::query(
             conn = conn,
-            conn_fun = conn_fun,
             sql_statement = glue::glue("SELECT * FROM rxrel.{final_table};"),
             checks = checks,
             verbose = verbose,
@@ -164,7 +166,7 @@ process_rxnorm_concept_update <-
 
       final_a <-
       output %>%
-        tidyr::pivot_longer(cols = matches("[1-9]{1,}$"),
+        tidyr::pivot_longer(cols = dplyr::matches("[1-9]{1,}$"),
                      names_to = "level_of_separation",
                      names_prefix = "maps_to_rxcui",
                      values_to = "maps_to_rxcui",
@@ -173,20 +175,20 @@ process_rxnorm_concept_update <-
       final_b <-
       final_a %>%
         dplyr::group_by(maps_to_rxcui0) %>%
-        dplyr::arrange(desc(level_of_separation),
+        dplyr::arrange(dplyr::desc(level_of_separation),
                        .by_group = TRUE) %>%
         dplyr::filter(dplyr::row_number() == 1) %>%
         dplyr::ungroup() %>%
         dplyr::arrange(dplyr::desc(level_of_separation))
 
 
-      pg13::write_table(conn_fun = conn_fun,
+      pg13::write_table(conn = conn,
                         schema = "rxrel",
                         table_name = "rxnorm_updated_path",
                         data = final_a,
                         drop_existing = TRUE)
 
-      pg13::write_table(conn_fun = conn_fun,
+      pg13::write_table(conn = conn,
                         schema = "rxrel",
                         table_name = "rxnorm_updated",
                         data = final_b,
@@ -197,7 +199,7 @@ process_rxnorm_concept_update <-
 
       for (final_table in final_tables) {
 
-        pg13::drop_table(conn_fun = conn_fun,
+        pg13::drop_table(conn = conn,
                          schema = "rxrel",
                          table = final_table)
 
@@ -233,7 +235,6 @@ process_rxnorm_concept_update <-
 
     pg13::send(sql_statement = sql_statement,
                conn = conn,
-               conn_fun = conn_fun,
                checks = checks,
                verbose = verbose,
                render_sql = render_sql,
@@ -256,7 +257,6 @@ process_rxnorm_concept_update <-
     "
 
     pg13::send(conn = conn,
-               conn_fun = conn_fun,
                sql_statement = sql_statement,
                checks = checks,
                verbose = verbose,
@@ -264,15 +264,15 @@ process_rxnorm_concept_update <-
                render_only = render_only)
 
 
-    pg13::drop_table(conn_fun = conn_fun,
+    pg13::drop_table(conn = conn,
                      schema = "rxrel",
                      table = "rxnorm_concept_update2")
 
-    pg13::drop_table(conn_fun = conn_fun,
+    pg13::drop_table(conn = conn,
                      schema = "rxrel",
                      table = "tmp_rxnorm_concept_update0")
 
-    pg13::drop_table(conn_fun = conn_fun,
+    pg13::drop_table(conn = conn,
                      schema = "rxrel",
                      table = "tmp_rxnorm_concept_update")
 
