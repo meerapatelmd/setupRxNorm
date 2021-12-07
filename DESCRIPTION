@@ -2,12 +2,12 @@ Package: setupRxNorm
 Title: R Package to Instantiate RxNorm in Postgres
 Version: 0.1.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Meera",
+           family = "Patel, MD",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "patelmeeray@gmail.com",
+           comment = c(ORCID = "0000-0002-3401-3948"))
+Description: Instantiate and execute custom processing scripts for RxNorm's monthly release.
 License: MIT + file LICENSE
 Suggests: 
     testthat (>= 3.0.0)
@@ -17,4 +17,9 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Imports: 
+    tidyverse,
+    pg13,
+    glue,
     magrittr
+Remotes:
+    meerapatelmd/pg13
