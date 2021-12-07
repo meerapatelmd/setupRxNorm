@@ -158,8 +158,8 @@ process_rxnorm_concept_update <-
 
       output <-
         output %>%
-        purrr::map(select, -level_of_separation) %>%
-        purrr::educe(left_join) %>%
+        purrr::map(dplyr::select, -level_of_separation) %>%
+        purrr::reduce(dplyr::left_join) %>%
         dplyr::distinct()
 
       final_a <-
