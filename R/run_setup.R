@@ -40,6 +40,7 @@ run_setup <-
       stop("`log_release_date` is required.")
     }
 
+
     if (missing(conn)) {
       conn <- eval(rlang::parse_expr(conn_fun))
       on.exit(pg13::dc(conn = conn),
@@ -68,6 +69,17 @@ run_setup <-
       stop(glue::glue("The expected files were not found in {rrf_path}: {glue::glue_collapse(expected_files)}."))
 
     }
+
+
+    loaded_version <-
+    get_rxnorm_version(conn = conn,
+                       checks = checks,
+                       verbose = verbose,
+                       render_sql = render_sql,
+                       render_only = render_only)
+
+
+    if (loaded_version != log_release_date) {
 
     if (pg13::schema_exists(conn = conn,
                         schema = schema)) {
@@ -359,6 +371,8 @@ run_setup <-
         print(tibble::as_tibble(updated_log))
         cli::cat_line()
 
+    }
+
 
         for (i in seq_along(postprocessing)) {
 
@@ -375,4 +389,5 @@ run_setup <-
 
 
 
-      }
+    }
+
