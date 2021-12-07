@@ -20,6 +20,7 @@
 #' @importFrom tidyr pivot_wider
 #' @importFrom cli cat_line cat_boxx
 #' @importFrom tibble as_tibble
+#' @importFrom glue glue glue_collapse
 
 run_setup <-
   function(conn,
@@ -48,6 +49,25 @@ run_setup <-
     }
 
     rrf_path <- path.expand(rrf_path)
+
+    expected_files <-
+      c(
+        'RXNATOMARCHIVE.RRF',
+        'RXNCONSO.RRF',
+        'RXNCUI.RRF',
+        'RXNCUICHANGES.RRF',
+        'RXNDOC.RRF',
+        'RXNREL.RRF',
+        'RXNSAB.RRF',
+        'RXNSAT.RRF',
+        'RXNSTY.RRF'
+      )
+
+    if (!(all(expected_files %in% list.files(path = rrf_path)))) {
+
+      stop(glue::glue("The expected files were not found in {rrf_path}: {glue::glue_collapse(expected_files)}."))
+
+    }
 
     if (pg13::schema_exists(conn = conn,
                         schema = schema)) {
