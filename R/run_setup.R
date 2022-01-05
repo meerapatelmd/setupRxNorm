@@ -378,12 +378,25 @@ run_setup <-
 
           postprocess <- postprocessing[i]
 
+          if (postprocess == "rxnorm_concept_update") {
+
+
+            process_rxnorm_concept_update(conn = conn,
+                                          render_sql = render_sql,
+                                          render_only = render_only,
+                                          checks = checks)
+
+
+          } else {
+
           run_postprocessing(conn = conn,
                              postprocess = postprocess,
                              verbose = verbose,
                              render_sql = render_sql,
                              render_only = render_only,
                              checks = checks)
+
+          }
 
         }
 
