@@ -29,42 +29,47 @@ process_rxnorm_validity_status <-
            verbose = TRUE,
            render_sql = TRUE,
            render_only = FALSE) {
-
     if (missing(conn)) {
       conn <- eval(rlang::parse_expr(conn_fun))
       on.exit(pg13::dc(conn = conn),
-              add = TRUE,
-              after = TRUE)
-
+        add = TRUE,
+        after = TRUE
+      )
     }
 
-    if (requires_processing(conn = conn,
-                            target_schema = destination_schema, target_table = "rxnorm_validity_status", verbose = verbose, render_sql =  render_sql)) {
+    if (requires_processing(
+      conn = conn,
+      target_schema = destination_schema,
+      target_table = "rxnorm_validity_status",
+      verbose = verbose,
+      render_sql = render_sql
+    )) {
+      link <- "https://rxnav.nlm.nih.gov/REST/version.json"
+      Sys.sleep(3)
+      ver_resp <-
+        GET(link)
 
-    link <- "https://rxnav.nlm.nih.gov/REST/version.json"
-    Sys.sleep(3)
-    ver_resp <-
-       GET(link)
+      if (status_code(ver_resp) != 200) {
+        cli::cli_abort("API call to {.url {link}} returned Status Code {status_code(updated_rxcui)}.")
+      }
 
-     if (status_code(ver_resp) != 200) {
-
-       cli::cli_abort("API call to {.url {link}} returned Status Code {status_code(updated_rxcui)}.")
-
-     }
-
-     key <- content(ver_resp)
+      key <- content(ver_resp)
 
 
       rxnorm_statuses <-
-        c("Active",
+        c(
+          "Active",
           "Remapped",
           "Obsolete",
           "Quantified",
-          "NotCurrent")
+          "NotCurrent"
+        )
 
       out <-
-        vector(mode = "list",
-               length = length(rxnorm_statuses))
+        vector(
+          mode = "list",
+          length = length(rxnorm_statuses)
+        )
       names(out) <-
         rxnorm_statuses
 
@@ -82,7 +87,6 @@ process_rxnorm_validity_status <-
       )
 
       for (rxnorm_status in rxnorm_statuses) {
-
         cli::cli_progress_update()
         Sys.sleep(.1)
 
@@ -90,52 +94,56 @@ process_rxnorm_validity_status <-
           glue::glue("https://rxnav.nlm.nih.gov/REST/allstatus.json?status={rxnorm_status}")
         status_key <-
           c(key,
-            link = link)
+            link = link
+          )
 
         status_results <-
-        R.cache::loadCache(dirs = "setupRxNorm",
-                           key = status_key)
+          R.cache::loadCache(
+            dirs = "setupRxNorm",
+            key = status_key
+          )
 
         if (is.null(status_results)) {
-        Sys.sleep(2.9)
-        updated_rxcui <-
-          GET(link)
+          Sys.sleep(2.9)
+          updated_rxcui <-
+            GET(link)
 
-      if (status_code(updated_rxcui) != 200) {
-
-        cli::cli_abort("API call to {.url {link}} returned Status Code {status_code(updated_rxcui)}.")
-
-      }
+          if (status_code(updated_rxcui) != 200) {
+            cli::cli_abort("API call to {.url {link}} returned Status Code {status_code(updated_rxcui)}.")
+          }
 
 
-      status_content <-
-      content(x = updated_rxcui,
-              as = "parsed")[[1]][[1]] %>%
-        transpose() %>%
-        map(unlist) %>%
-        as_tibble() %>%
-        transmute(
-          rxcui,
-          code = rxcui,
-          str = name,
-          tty,
-          status = rxnorm_status
-        )
+          status_content <-
+            content(
+              x = updated_rxcui,
+              as = "parsed"
+            )[[1]][[1]] %>%
+            transpose() %>%
+            map(unlist) %>%
+            as_tibble() %>%
+            transmute(
+              rxcui,
+              code = rxcui,
+              str = name,
+              tty,
+              status = rxnorm_status
+            )
 
-      R.cache::saveCache(dirs = "setupRxNorm",
-                         key = status_key,
-                         object = status_content)
+          R.cache::saveCache(
+            dirs = "setupRxNorm",
+            key = status_key,
+            object = status_content
+          )
 
-      status_results <-
-        R.cache::loadCache(dirs = "setupRxNorm",
-                           key = status_key)
-
-
+          status_results <-
+            R.cache::loadCache(
+              dirs = "setupRxNorm",
+              key = status_key
+            )
         }
 
         out[[rxnorm_status]] <-
           status_results
-
       }
 
 
@@ -144,8 +152,10 @@ process_rxnorm_validity_status <-
 
       out <-
         bind_rows(out) %>%
-        mutate("rxnorm_api_version" =
-                 rxnorm_api_version)
+        mutate(
+          "rxnorm_api_version" =
+            rxnorm_api_version
+        )
 
 
       tmp_csv <- tempfile()
@@ -159,7 +169,7 @@ process_rxnorm_validity_status <-
 
       sql_statement <-
         glue::glue(
-      "
+          "
       DROP SCHEMA IF EXISTS {processing_schema} CASCADE;
 
       CREATE SCHEMA {processing_schema};
@@ -358,175 +368,175 @@ process_rxnorm_validity_status <-
       )
       ;
       "
+        )
+
+
+      pg13::send(
+        conn = conn,
+        sql_statement = sql_statement,
+        checks = checks,
+        verbose = verbose,
+        render_sql = render_sql,
+        render_only = render_only
       )
 
 
-      pg13::send(conn = conn,
-                 sql_statement = sql_statement,
-                 checks = checks,
-                 verbose = verbose,
-                 render_sql = render_sql,
-                 render_only = render_only)
+      # Some concepts map to a new output_rxcui, but
+      # the source RxNorm RRF table does not have any info
+      # regarding that RxCUI so an API call is made to get
+      # the properties from RxNav
 
-
-# Some concepts map to a new output_rxcui, but
-# the source RxNorm RRF table does not have any info
-# regarding that RxCUI so an API call is made to get
-# the properties from RxNav
-
-sql_statement <-
-  glue::glue(
-"
+      sql_statement <-
+        glue::glue(
+          "
 SELECT DISTINCT input_rxcui
 FROM {processing_schema}.rxnorm_concept_status6
 WHERE
   output_code_cardinality = 0
   AND input_rxcui IS NOT NULL
 "
-)
+        )
 
-input_rxcuis_to_call <-
-pg13::query(conn = conn,
-           sql_statement = sql_statement,
-           checks = checks,
-           verbose = verbose,
-           render_sql = render_sql,
-           render_only = render_only) %>%
-  unlist() %>%
-  unname()
+      input_rxcuis_to_call <-
+        pg13::query(
+          conn = conn,
+          sql_statement = sql_statement,
+          checks = checks,
+          verbose = verbose,
+          render_sql = render_sql,
+          render_only = render_only
+        ) %>%
+        unlist() %>%
+        unname()
 
-cli::cli_progress_bar(
-  format = paste0(
-    "{pb_spin} Calling {.url {link}} ",
-    "[{pb_current}/{pb_total}]   ETA:{pb_eta}"
-  ),
-  format_done = paste0(
-    "{col_green(symbol$tick)} Downloaded {pb_total} files ",
-    "in {pb_elapsed}."
-  ),
-  total = length(input_rxcuis_to_call),
-  clear = FALSE
-)
-
-output <-
-  vector(
-    mode = "list",
-    length = length(input_rxcuis_to_call))
-
-names(output) <-
-  input_rxcuis_to_call
-
-for (rxcui in input_rxcuis_to_call) {
-
-  cli::cli_progress_update()
-  Sys.sleep(0.05)
-
-  link <-
-    glue::glue("https://rxnav.nlm.nih.gov/REST/rxcui/{rxcui}/historystatus.json")
-
-  rxcui_key <-
-    c(key,
-      link = link)
-
-
-  rxcui_content <-
-  R.cache::loadCache(
-    dirs = "setupRxNorm",
-    key = rxcui_key
-  )
-
-  if (is.null(rxcui_content)) {
-
-      Sys.sleep(2.9)
-      rxcui_resp <-
-      GET(
-        url = link
-
+      cli::cli_progress_bar(
+        format = paste0(
+          "{pb_spin} Calling {.url {link}} ",
+          "[{pb_current}/{pb_total}]   ETA:{pb_eta}"
+        ),
+        format_done = paste0(
+          "{col_green(symbol$tick)} Downloaded {pb_total} files ",
+          "in {pb_elapsed}."
+        ),
+        total = length(input_rxcuis_to_call),
+        clear = FALSE
       )
 
-      if (status_code(rxcui_resp) != 200) {
+      output <-
+        vector(
+          mode = "list",
+          length = length(input_rxcuis_to_call)
+        )
 
-        cli::cli_abort("API call to {.url {link}} returned Status Code {status_code(rxcui_resp)}.")
+      names(output) <-
+        input_rxcuis_to_call
 
-      }
+      for (rxcui in input_rxcuis_to_call) {
+        cli::cli_progress_update()
+        Sys.sleep(0.05)
 
-      rxcui_out <-
-      content(rxcui_resp,
-              as = "parsed")
+        link <-
+          glue::glue("https://rxnav.nlm.nih.gov/REST/rxcui/{rxcui}/historystatus.json")
 
-      if (!is.null(rxcui_out)) {
-         rxcui_out <-
-           rxcui_out$rxcuiStatusHistory$derivedConcepts$remappedConcept %>%
-           map(unlist) %>%
-           map(as_tibble_row) %>%
-           bind_rows()
-
-      } else {
-
-        rxcui_out <-
-          tribble(
-            ~remappedRxCui,
-            ~remappedName,
-            ~remappedTTY
+        rxcui_key <-
+          c(key,
+            link = link
           )
 
 
+        rxcui_content <-
+          R.cache::loadCache(
+            dirs = "setupRxNorm",
+            key = rxcui_key
+          )
+
+        if (is.null(rxcui_content)) {
+          Sys.sleep(2.9)
+          rxcui_resp <-
+            GET(
+              url = link
+            )
+
+          if (status_code(rxcui_resp) != 200) {
+            cli::cli_abort("API call to {.url {link}} returned Status Code {status_code(rxcui_resp)}.")
+          }
+
+          rxcui_out <-
+            content(rxcui_resp,
+              as = "parsed"
+            )
+
+          if (!is.null(rxcui_out)) {
+            rxcui_out <-
+              rxcui_out$rxcuiStatusHistory$derivedConcepts$remappedConcept %>%
+              map(unlist) %>%
+              map(as_tibble_row) %>%
+              bind_rows()
+          } else {
+            rxcui_out <-
+              tribble(
+                ~remappedRxCui,
+                ~remappedName,
+                ~remappedTTY
+              )
+          }
+
+
+          R.cache::saveCache(
+            dirs = "setupRxNorm",
+            key = rxcui_key,
+            object = rxcui_out
+          )
+
+          rxcui_content <-
+            rxcui_out
+        }
+
+        output[[as.character(rxcui)]] <-
+          rxcui_content
       }
 
+      output2 <-
+        output %>%
+        bind_rows(.id = "input_rxcui") %>%
+        transmute(
+          input_rxcui,
+          output_code = remappedRxCui,
+          output_str = remappedName,
+          output_tty = remappedTTY
+        ) %>%
+        group_by(input_rxcui) %>%
+        arrange(as.integer(output_code),
+          .by_group = TRUE
+        ) %>%
+        mutate(
+          output_code_cardinality =
+            length(unique(output_code)),
+          output_codes =
+            paste(unique(output_code),
+              collapse = "|"
+            )
+        ) %>%
+        dplyr::filter(row_number() == 1) %>%
+        ungroup() %>%
+        mutate(
+          output_source = "RxNav REST API",
+          output_source_version = rxnorm_api_version
+        )
 
-      R.cache::saveCache(
-        dirs = "setupRxNorm",
-        key = rxcui_key,
-        object = rxcui_out
+
+      tmp_csv <- tempfile()
+      readr::write_csv(
+        x = output2,
+        file = tmp_csv,
+        na = "",
+        quote = "all"
       )
 
-      rxcui_content <-
-        rxcui_out
 
-
-  }
-
-  output[[as.character(rxcui)]] <-
-    rxcui_content
-
-
-
-}
-
-output2 <-
-output %>%
-  bind_rows(.id = "input_rxcui") %>%
-  transmute(
-    input_rxcui,
-    output_code = remappedRxCui,
-    output_str = remappedName,
-    output_tty = remappedTTY) %>%
-  group_by(input_rxcui) %>%
-  arrange(as.integer(output_code),
-          .by_group = TRUE) %>%
-  mutate(output_code_cardinality =
-           length(unique(output_code)),
-         output_codes =
-           paste(unique(output_code),
-                 collapse = "|")) %>%
-  dplyr::filter(row_number() == 1) %>%
-  ungroup() %>%
-  mutate(output_source ="RxNav REST API",
-         output_source_version = rxnorm_api_version)
-
-
-tmp_csv <- tempfile()
-readr::write_csv(
-  x = output2,
-  file = tmp_csv,
-  na = "",
-  quote = "all"
-)
-
-
-sql_statement <-
-  glue::glue(
-    "
+      sql_statement <-
+        glue::glue(
+          "
       DROP TABLE IF EXISTS {processing_schema}.rxnorm_concept_status7_a_i;
       CREATE TABLE {processing_schema}.rxnorm_concept_status7_a_i (
               input_rxcui     INTEGER NOT NULL,
@@ -629,53 +639,56 @@ sql_statement <-
         FROM {processing_schema}.rxnorm_concept_status9_b
       )
       ;
-    ")
+    "
+        )
 
 
-pg13::send(conn = conn,
-           sql_statement = sql_statement,
-           checks = checks,
-           verbose = verbose,
-           render_sql = render_sql,
-           render_only = render_only)
+      pg13::send(
+        conn = conn,
+        sql_statement = sql_statement,
+        checks = checks,
+        verbose = verbose,
+        render_sql = render_sql,
+        render_only = render_only
+      )
 
 
-sql_statement <-
-  glue::glue("CREATE SCHEMA IF NOT EXISTS {destination_schema};
+      sql_statement <-
+        glue::glue("CREATE SCHEMA IF NOT EXISTS {destination_schema};
              DROP TABLE IF EXISTS {destination_schema}.rxnorm_validity_status;
              CREATE TABLE {destination_schema}.rxnorm_validity_status AS (
                SELECT *
                FROM {processing_schema}.rxnorm_concept_status10
              );")
 
-pg13::send(conn = conn,
-           sql_statement = sql_statement,
-           checks = checks,
-           verbose = verbose,
-           render_sql = render_sql,
-           render_only = render_only)
+      pg13::send(
+        conn = conn,
+        sql_statement = sql_statement,
+        checks = checks,
+        verbose = verbose,
+        render_sql = render_sql,
+        render_only = render_only
+      )
 
 
-if (rm_processing_schema) {
+      if (rm_processing_schema) {
+        pg13::send(
+          conn = conn,
+          sql_statement = glue::glue("DROP SCHEMA {processing_schema} CASCADE;"),
+          checks = checks,
+          verbose = verbose,
+          render_sql = render_sql,
+          render_only = render_only
+        )
+      }
 
-
-  pg13::send(conn = conn,
-             sql_statement = glue::glue("DROP SCHEMA {processing_schema} CASCADE;"),
-             checks = checks,
-             verbose = verbose,
-             render_sql = render_sql,
-             render_only = render_only)
-
-}
-
-log_processing(conn = conn,
-               target_schema = destination_schema,
-               target_table = "rxnorm_validity_status",
-               verbose = verbose,
-               render_sql = render_sql)
-
-
-
+      log_processing(
+        conn = conn,
+        target_schema = destination_schema,
+        target_table = "rxnorm_validity_status",
+        verbose = verbose,
+        render_sql = render_sql
+      )
     }
   }
 
