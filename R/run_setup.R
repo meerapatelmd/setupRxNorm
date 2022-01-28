@@ -35,7 +35,6 @@ run_setup <-
            log_schema = "public",
            log_table_name = "setup_rxnorm_log",
            log_release_date) {
-
     if (missing(log_release_date)) {
       stop("`log_release_date` is required.")
     }
@@ -44,55 +43,58 @@ run_setup <-
     if (missing(conn)) {
       conn <- eval(rlang::parse_expr(conn_fun))
       on.exit(pg13::dc(conn = conn),
-              add = TRUE,
-              after = TRUE)
-
+        add = TRUE,
+        after = TRUE
+      )
     }
 
     rrf_path <- path.expand(rrf_path)
 
     expected_files <-
       c(
-        'RXNATOMARCHIVE.RRF',
-        'RXNCONSO.RRF',
-        'RXNCUI.RRF',
-        'RXNCUICHANGES.RRF',
-        'RXNDOC.RRF',
-        'RXNREL.RRF',
-        'RXNSAB.RRF',
-        'RXNSAT.RRF',
-        'RXNSTY.RRF'
+        "RXNATOMARCHIVE.RRF",
+        "RXNCONSO.RRF",
+        "RXNCUI.RRF",
+        "RXNCUICHANGES.RRF",
+        "RXNDOC.RRF",
+        "RXNREL.RRF",
+        "RXNSAB.RRF",
+        "RXNSAT.RRF",
+        "RXNSTY.RRF"
       )
 
     if (!(all(expected_files %in% list.files(path = rrf_path)))) {
-
       stop(glue::glue("The expected files were not found in {rrf_path}: {glue::glue_collapse(expected_files)}."))
-
     }
 
 
     loaded_version <-
-    get_rxnorm_version(conn = conn,
-                       checks = checks,
-                       verbose = verbose,
-                       render_sql = render_sql,
-                       render_only = render_only)
+      get_rxnorm_version(
+        conn = conn,
+        checks = checks,
+        verbose = verbose,
+        render_sql = render_sql,
+        render_only = render_only
+      )
 
 
     if (loaded_version != log_release_date) {
+      if (pg13::schema_exists(
+        conn = conn,
+        schema = schema
+      )) {
+        pg13::drop_cascade(
+          conn = conn,
+          schema = schema,
+          verbose = verbose,
+          render_sql = render_sql,
+          render_only = render_only
+        )
+      }
 
-    if (pg13::schema_exists(conn = conn,
-                        schema = schema)) {
-      pg13::drop_cascade(conn = conn,
-                         schema = schema,
-                         verbose = verbose,
-                         render_sql = render_sql,
-                         render_only = render_only)
-    }
-
-    sql_statement <-
-    SqlRender::render(
-      sql = "
+      sql_statement <-
+        SqlRender::render(
+          sql = "
             CREATE SCHEMA @schema;
             SET search_path TO @schema;
             DROP TABLE IF EXISTS rxncui;
@@ -264,143 +266,164 @@ run_setup <-
               empty       TEXT
             );
               ",
-      schema = schema
-    )
+          schema = schema
+        )
 
-    pg13::send(conn = conn,
-               sql_statement = sql_statement,
-               verbose = verbose,
-               render_sql = render_sql,
-               render_only = render_only,
-               checks = checks)
+      pg13::send(
+        conn = conn,
+        sql_statement = sql_statement,
+        verbose = verbose,
+        render_sql = render_sql,
+        render_only = render_only,
+        checks = checks
+      )
 
-    rrfs <- list.files(path = rrf_path,
-                       pattern = "[.]{1}RRF$|[.]{1}rrf$",
-                       full.names = TRUE)
+      rrfs <- list.files(
+        path = rrf_path,
+        pattern = "[.]{1}RRF$|[.]{1}rrf$",
+        full.names = TRUE
+      )
 
-    for (rrf in rrfs) {
+      for (rrf in rrfs) {
+        tbl <- stringr::str_replace(
+          string = tolower(basename(rrf)),
+          pattern = "(^.*)([.]{1})(rrf$)",
+          replacement = "\\1"
+        )
 
-      tbl <- stringr::str_replace(string = tolower(basename(rrf)),
-                                  pattern = "(^.*)([.]{1})(rrf$)",
-                                  replacement = "\\1")
+        sql <- SqlRender::render(
+          "COPY @schema.@tableName FROM '@rrf_path' WITH DELIMITER E'|' CSV QUOTE E'\b';",
+          schema = schema,
+          tableName = tbl,
+          rrf_path = rrf
+        )
 
-      sql <- SqlRender::render(
-              "COPY @schema.@tableName FROM '@rrf_path' WITH DELIMITER E'|' CSV QUOTE E'\b';",
+        pg13::send(
+          conn = conn,
+          sql_statement = sql,
+          verbose = verbose,
+          render_sql = render_sql,
+          render_only = render_only,
+          checks = checks
+        )
+      }
+
+
+      # Log
+      table_names <-
+        pg13::ls_tables(
+          conn = conn,
+          schema = schema,
+          verbose = verbose,
+          render_sql = render_sql
+        )
+
+      current_row_count <-
+        table_names %>%
+        purrr::map(function(x) {
+          pg13::query(
+            conn = conn,
+            sql_statement = pg13::render_row_count(
               schema = schema,
-              tableName = tbl,
-              rrf_path = rrf)
+              tableName = x
+            )
+          )
+        }) %>%
+        purrr::set_names(tolower(table_names)) %>%
+        dplyr::bind_rows(.id = "Table") %>%
+        dplyr::rename(Rows = count) %>%
+        tidyr::pivot_wider(
+          names_from = "Table",
+          values_from = "Rows"
+        ) %>%
+        dplyr::mutate(
+          sr_datetime = Sys.time(),
+          sr_release_date = log_release_date,
+          sr_schema = schema
+        ) %>%
+        dplyr::select(
+          sr_datetime,
+          sr_release_date,
+          sr_schema,
+          dplyr::everything()
+        )
 
-      pg13::send(conn = conn,
-                 sql_statement = sql,
-                 verbose = verbose,
-                 render_sql = render_sql,
-                 render_only = render_only,
-                 checks = checks)
 
 
+      if (pg13::table_exists(
+        conn = conn,
+        schema = log_schema,
+        table_name = log_table_name
+      )) {
+        updated_log <-
+          dplyr::bind_rows(
+            pg13::read_table(
+              conn = conn,
+              schema = log_schema,
+              table = log_table_name,
+              verbose = verbose,
+              render_sql = render_sql,
+              render_only = render_only
+            ),
+            current_row_count
+          ) %>%
+          dplyr::select(
+            sr_datetime,
+            sr_release_date,
+            sr_schema,
+            dplyr::everything()
+          )
+      } else {
+        updated_log <- current_row_count
+      }
+
+      pg13::drop_table(
+        conn = conn,
+        schema = log_schema,
+        table = log_table_name,
+        verbose = verbose,
+        render_sql = render_sql,
+        render_only = render_only
+      )
+
+      pg13::write_table(
+        conn = conn,
+        schema = log_schema,
+        table_name = log_table_name,
+        data = updated_log,
+        verbose = verbose,
+        render_sql = render_sql,
+        render_only = render_only
+      )
+
+      cli::cat_line()
+      cli::cat_boxx("Log Results",
+        float = "center"
+      )
+      print(tibble::as_tibble(updated_log))
+      cli::cat_line()
     }
 
 
-    #Log
-        table_names <-
-          pg13::ls_tables(conn = conn,
-                          schema = schema,
-                          verbose = verbose,
-                          render_sql = render_sql)
+    for (i in seq_along(postprocessing)) {
+      postprocess <- postprocessing[i]
 
-        current_row_count <-
-          table_names %>%
-          purrr::map(function(x) pg13::query(conn = conn,
-                                             sql_statement = pg13::render_row_count(schema = schema,
-                                                                                  tableName = x))) %>%
-          purrr::set_names(tolower(table_names)) %>%
-          dplyr::bind_rows(.id = "Table") %>%
-          dplyr::rename(Rows = count) %>%
-          tidyr::pivot_wider(names_from = "Table",
-                             values_from = "Rows") %>%
-          dplyr::mutate(sr_datetime = Sys.time(),
-                        sr_release_date = log_release_date,
-                        sr_schema = schema) %>%
-          dplyr::select(sr_datetime,
-                        sr_release_date,
-                        sr_schema,
-                        dplyr::everything())
-
-
-
-        if (pg13::table_exists(conn = conn,
-                                schema = log_schema,
-                                table_name = log_table_name)) {
-
-                updated_log <-
-                  dplyr::bind_rows(
-                        pg13::read_table(conn = conn,
-                                         schema = log_schema,
-                                         table = log_table_name,
-                                         verbose = verbose,
-                                         render_sql = render_sql,
-                                         render_only = render_only),
-                        current_row_count)  %>%
-                  dplyr::select(sr_datetime,
-                                sr_release_date,
-                                sr_schema,
-                                dplyr::everything())
-
-        } else {
-          updated_log <- current_row_count
-        }
-
-        pg13::drop_table(conn = conn,
-                         schema = log_schema,
-                         table = log_table_name,
-                         verbose = verbose,
-                         render_sql = render_sql,
-                         render_only = render_only)
-
-        pg13::write_table(conn = conn,
-                          schema = log_schema,
-                          table_name = log_table_name,
-                          data = updated_log,
-                          verbose = verbose,
-                          render_sql = render_sql,
-                          render_only = render_only)
-
-        cli::cat_line()
-        cli::cat_boxx("Log Results",
-                      float = "center")
-        print(tibble::as_tibble(updated_log))
-        cli::cat_line()
-
+      if (postprocess == "rxnorm_validity_status") {
+        process_rxnorm_validity_status(
+          conn = conn,
+          render_sql = render_sql,
+          render_only = render_only,
+          checks = checks
+        )
+      } else {
+        run_postprocessing(
+          conn = conn,
+          postprocess = postprocess,
+          verbose = verbose,
+          render_sql = render_sql,
+          render_only = render_only,
+          checks = checks
+        )
+      }
     }
-
-
-        for (i in seq_along(postprocessing)) {
-
-          postprocess <- postprocessing[i]
-
-          if (postprocess == "rxnorm_validity_status") {
-
-
-            process_rxnorm_validity_status(conn = conn,
-                                          render_sql = render_sql,
-                                          render_only = render_only,
-                                          checks = checks)
-
-
-          } else {
-
-          run_postprocessing(conn = conn,
-                             postprocess = postprocess,
-                             verbose = verbose,
-                             render_sql = render_sql,
-                             render_only = render_only,
-                             checks = checks)
-
-          }
-
-        }
-
-
-
-    }
-
+  }
