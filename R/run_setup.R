@@ -27,7 +27,7 @@ run_setup <-
            conn_fun = "pg13::local_connect()",
            schema = "rxnorm",
            rrf_path,
-           postprocessing = c("rxnorm_to_brand_and_generic", "rxnorm_concept_update"),
+           postprocessing = c("rxnorm_to_brand_and_generic", "rxnorm_validity_status"),
            verbose = TRUE,
            render_sql = TRUE,
            render_only = FALSE,
@@ -378,10 +378,10 @@ run_setup <-
 
           postprocess <- postprocessing[i]
 
-          if (postprocess == "rxnorm_concept_update") {
+          if (postprocess == "rxnorm_validity_status") {
 
 
-            process_rxnorm_concept_update(conn = conn,
+            process_rxnorm_validity_status(conn = conn,
                                           render_sql = render_sql,
                                           render_only = render_only,
                                           checks = checks)

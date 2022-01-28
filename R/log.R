@@ -36,6 +36,7 @@ requires_processing <-
   function(conn,
            conn_fun = "pg13::local_connect()",
            checks = "",
+           target_schema = "rxrel",
            target_table,
            verbose = TRUE,
            render_sql = TRUE,
@@ -51,6 +52,12 @@ requires_processing <-
                          verbose = verbose,
                          render_sql = render_sql,
                          render_only = render_only)
+
+    if (
+      pg13::table_exists(conn = conn,
+                         conn_fun = conn_fun,
+                         schema = "public",
+                         table_name = glue::glue("setup_{target_schema}_log"))) {
     out <-
     pg13::query(
       conn = conn,
@@ -60,7 +67,7 @@ requires_processing <-
     glue::glue(
       "
       SELECT *
-      FROM public.setup_rxrel_log
+      FROM public.setup_{target_schema}_log
       WHERE
         target_table = '{target_table}' AND
         rxn_version = '{rxn_version}';"),
@@ -69,6 +76,16 @@ requires_processing <-
     render_only = render_only)
 
     nrow(out) == 0
+
+    } else {
+
+
+      TRUE
+
+
+    }
+
+
   }
 
 
@@ -83,6 +100,7 @@ log_processing <-
   function(conn,
            conn_fun = "pg13::local_connect()",
            checks = "",
+           target_schema = 'rxrel',
            target_table,
            verbose = TRUE,
            render_sql = TRUE,
@@ -107,7 +125,7 @@ log_processing <-
         glue::glue(
           "
             SELECT COUNT(*)
-            FROM rxrel.{target_table};
+            FROM {target_schema}.{target_table};
           "),
       verbose = verbose,
       render_sql = render_sql,
@@ -121,7 +139,15 @@ log_processing <-
       sql_statement =
     glue::glue(
       "
-      INSERT INTO public.setup_rxrel_log
+      CREATE TABLE IF NOT EXISTS public.setup_{target_schema}_log (
+      {target_schema}_datetime timestamp without time zone NOT NULL,
+      rxn_version VARCHAR(30) NOT NULL,
+      target_table VARCHAR(60) NOT NULL,
+      target_table_rows BIGINT NOT NULL
+      )
+      ;
+
+      INSERT INTO public.setup_{target_schema}_log
       VALUES('{Sys.time()}', '{rxn_version}', '{target_table}', '{target_table_rows}');"),
     checks = checks,
     verbose = verbose,
