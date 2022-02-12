@@ -29,6 +29,7 @@ process_rxnorm_validity_status <-
            verbose = TRUE,
            render_sql = TRUE,
            render_only = FALSE) {
+
     if (missing(conn)) {
       conn <- eval(rlang::parse_expr(conn_fun))
       on.exit(pg13::dc(conn = conn),
@@ -38,22 +39,14 @@ process_rxnorm_validity_status <-
     }
 
     if (requires_processing(
-      conn = conn,
-      target_schema = destination_schema,
-      target_table = "rxnorm_validity_status",
-      verbose = verbose,
-      render_sql = render_sql
-    )) {
-      link <- "https://rxnav.nlm.nih.gov/REST/version.json"
-      Sys.sleep(3)
-      ver_resp <-
-        GET(link)
+          conn = conn,
+          target_schema = destination_schema,
+          target_table = "rxnorm_validity_status",
+          verbose = verbose,
+          render_sql = render_sql)) {
 
-      if (status_code(ver_resp) != 200) {
-        cli::cli_abort("API call to {.url {link}} returned Status Code {status_code(updated_rxcui)}.")
-      }
-
-      key <- content(ver_resp)
+      key  <- get_rxnav_api_version()
+      dirs <- file.path("setupRxNorm", version_key$version, "RxNorm Validity Status")
 
 
       rxnorm_statuses <-
@@ -99,7 +92,7 @@ process_rxnorm_validity_status <-
 
         status_results <-
           R.cache::loadCache(
-            dirs = "setupRxNorm",
+            dirs = dirs,
             key = status_key
           )
 
@@ -108,9 +101,7 @@ process_rxnorm_validity_status <-
           updated_rxcui <-
             GET(link)
 
-          if (status_code(updated_rxcui) != 200) {
-            cli::cli_abort("API call to {.url {link}} returned Status Code {status_code(updated_rxcui)}.")
-          }
+          abort_on_api_error(updated_rxcui)
 
 
           status_content <-
@@ -130,14 +121,14 @@ process_rxnorm_validity_status <-
             )
 
           R.cache::saveCache(
-            dirs = "setupRxNorm",
+            dirs = dirs,
             key = status_key,
             object = status_content
           )
 
           status_results <-
             R.cache::loadCache(
-              dirs = "setupRxNorm",
+              dirs = dirs,
               key = status_key
             )
         }
@@ -446,7 +437,7 @@ WHERE
 
         rxcui_content <-
           R.cache::loadCache(
-            dirs = "setupRxNorm",
+            dirs = dirs,
             key = rxcui_key
           )
 
@@ -457,9 +448,7 @@ WHERE
               url = link
             )
 
-          if (status_code(rxcui_resp) != 200) {
-            cli::cli_abort("API call to {.url {link}} returned Status Code {status_code(rxcui_resp)}.")
-          }
+          abort_on_api_error(rxcui_resp)
 
           rxcui_out <-
             content(rxcui_resp,
@@ -483,7 +472,7 @@ WHERE
 
 
           R.cache::saveCache(
-            dirs = "setupRxNorm",
+            dirs = dirs,
             key = rxcui_key,
             object = rxcui_out
           )
