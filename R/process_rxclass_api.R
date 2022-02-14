@@ -98,9 +98,6 @@ collect_rxclass_graph <-
         )
     }
 
-
-
-    # Remove ATC because redundant with OMOP
     class_df <-
       class_df %>%
       dplyr::filter(classType %in% class_types) %>%
@@ -114,7 +111,7 @@ collect_rxclass_graph <-
     cli::cli_progress_bar(
       format = paste0(
         "[{as.character(Sys.time())}] {pb_spin} {.strong {classType}}: {classId} {className} ",
-        "({pb_current}/{pb_total})\t\tElapsed:{pb_elapsed}"
+        "({pb_current}/{pb_total})\tETA:{time_remaining}\tElapsed:{pb_elapsed}"
       ),
       format_done = paste0(
         "[{as.character(Sys.time())}] {col_green(symbol$tick)} Collected {pb_total} graphs ",
@@ -124,13 +121,19 @@ collect_rxclass_graph <-
       clear = FALSE
     )
 
+    # Total time it would take from scratch
+    # 3 seconds * total calls that need to be made
+    grand_total_calls <- nrow(class_df)
+
+    time_remaining <- as.character(lubridate::duration(seconds = (grand_total_calls)*3))
     for (kk in 1:nrow(class_df)) {
       cli::cli_progress_update()
-      Sys.sleep(0.01)
+      # Sys.sleep(0.01)
 
       classId      <- class_df$classId[kk]
       className    <- class_df$className[kk]
       classType    <- class_df$classType[kk]
+      time_remaining <- as.character(lubridate::duration(seconds = (grand_total_calls-kk)*3))
 
       http_request <-
         glue::glue("/REST/rxclass/classGraph.json?classId={classId}")
