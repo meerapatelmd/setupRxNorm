@@ -29,75 +29,42 @@ collect_rxclass_graph <-
     service_domain <- "https://rxnav.nlm.nih.gov"
 
     version_key <- get_rxnav_api_version()
-    dirs        <- file.path("setupRxNorm", version_key$version, "RxClass")
+
 
     # If the version folder was not present in the cache, it means that
     # this is a brand new version
-    version_dir <- file.path(R.cache::getCacheRootPath(), "setupRxNorm", version_key$version)
-    if (!dir.exists(version_dir)) {
-      pkg_dir <- file.path(R.cache::getCacheRootPath(), "setupRxNorm")
-      cached_versions <-
-      list.dirs(path = pkg_dir,
-                full.names = FALSE,
-                recursive = FALSE)
-
-      cli::cli_alert_info(
-        "New version {.emph {version_key$version}} is available at {.url {service_domain}}.")
-      cli::cli_text(
-        "Prior versions include:")
-      names(cached_versions) <- "*"
-      cli::cli_bullets(cached_versions)
-
-    }
-
-    http_request <- "/REST/rxclass/allClasses.json"
-    url <-
-      paste0(
-        service_domain,
-        http_request
-      )
-
-
-    key <-
+    # ---
+    # setupRxNorm /
+    #     07-Feb-2022 /
+    #        MESHPA /
+    #        TC /
+    #        VA /
+    #        ...
+    full_path_ls <-
       list(
-        version_key,
-        url
+        pkg     = file.path(R.cache::getCacheRootPath(), "setupRxNorm"),
+        version = file.path(R.cache::getCacheRootPath(), "setupRxNorm", version_key$version),
+        rxclass = file.path(R.cache::getCacheRootPath(), "setupRxNorm", version_key$version, "RxClass API"),
+        class_types =
+          file.path(R.cache::getCacheRootPath(), "setupRxNorm", version_key$version, "RxClass API", class_types) %>%
+          set_names(class_types) %>%
+          as.list()
       )
 
-    class_df <-
-      R.cache::loadCache(
-        dirs = dirs,
-        key = key
+
+    dirs_ls <-
+      list(
+        pkg     = file.path("setupRxNorm"),
+        version = file.path("setupRxNorm", version_key$version),
+        rxclass = file.path("setupRxNorm", version_key$version, "RxClass API"),
+        class_types =
+          file.path("setupRxNorm", version_key$version, "RxClass API", class_types) %>%
+          set_names(class_types) %>%
+          as.list()
       )
 
 
-    if (is.null(class_df)) {
-      resp <-
-        GET(url = url)
-
-
-      abort_on_api_error(response = resp)
-
-      class_df <-
-        content(resp) %>%
-        pluck("rxclassMinConceptList") %>%
-        pluck("rxclassMinConcept") %>%
-        map(as_tibble_row) %>%
-        bind_rows()
-
-      R.cache::saveCache(
-        dirs = dirs,
-        key = key,
-        object = class_df
-      )
-
-      class_df <-
-        R.cache::loadCache(
-          dirs = dirs,
-          key = key
-        )
-    }
-
+    class_df <- get_rxnav_classes()
     class_df <-
       class_df %>%
       dplyr::filter(classType %in% class_types) %>%
@@ -107,11 +74,14 @@ collect_rxclass_graph <-
       arrange(classType) %>%
       mutate(classType = as.character(classType))
 
+    cli::cli_text(
+      "[{as.character(Sys.time())}] {.emph {'Collecting...'}}"
+    )
 
     cli::cli_progress_bar(
       format = paste0(
-        "[{as.character(Sys.time())}] {pb_spin} {.strong {classType}}: {classId} {className} ",
-        "({pb_current}/{pb_total})\tETA:{time_remaining}\tElapsed:{pb_elapsed}"
+        "[{as.character(Sys.time())}] {.strong {classType}}: {classId} {className} ",
+        "({pb_current}/{pb_total})  ETA:{time_remaining}  Elapsed:{pb_elapsed}"
       ),
       format_done = paste0(
         "[{as.character(Sys.time())}] {col_green(symbol$tick)} Collected {pb_total} graphs ",
@@ -130,11 +100,11 @@ collect_rxclass_graph <-
       cli::cli_progress_update()
       # Sys.sleep(0.01)
 
-      classId      <- class_df$classId[kk]
-      className    <- class_df$className[kk]
-      classType    <- class_df$classType[kk]
+      classId        <- class_df$classId[kk]
+      className      <- class_df$className[kk]
+      classType      <- class_df$classType[kk]
       time_remaining <- as.character(lubridate::duration(seconds = (grand_total_calls-kk)*3))
-
+      dirs_kk        <- dirs_ls$class_types[[classType]]
       http_request <-
         glue::glue("/REST/rxclass/classGraph.json?classId={classId}")
 
@@ -152,7 +122,7 @@ collect_rxclass_graph <-
 
       results <-
         R.cache::loadCache(
-          dirs = dirs,
+          dirs = dirs_kk,
           key = key
         )
 
@@ -168,10 +138,20 @@ collect_rxclass_graph <-
           map(function(x) map(x, as_tibble_row)) %>%
           map(bind_rows)
 
+        if (length(output0)==0) {
 
-        if (length(output0) == 1) {
           R.cache::saveCache(
-            dirs = dirs,
+            dirs = dirs_kk,
+            key = key,
+            object = list(
+              NODE = NULL,
+              EDGE = NULL
+            )
+          )
+
+        } else if (length(output0) == 1) {
+          R.cache::saveCache(
+            dirs = dirs_kk,
             key = key,
             object = list(
               NODE = output0[[1]],
@@ -181,7 +161,7 @@ collect_rxclass_graph <-
         } else if (length(output0) == 2) {
 
             R.cache::saveCache(
-              dirs = dirs,
+              dirs = dirs_kk,
               key = key,
               object = list(
                 NODE = output0[[1]],
@@ -204,28 +184,42 @@ load_rxclass_graph <-
     service_domain <- "https://rxnav.nlm.nih.gov"
 
     version_key <- get_rxnav_api_version()
-    dirs        <- file.path("setupRxNorm", version_key$version, "RxClass")
-
-    http_request <- "/REST/rxclass/allClasses.json"
-    url <-
-      paste0(
-        service_domain,
-        http_request
-      )
 
 
-    key <-
+    # If the version folder was not present in the cache, it means that
+    # this is a brand new version
+    # ---
+    # setupRxNorm /
+    #     07-Feb-2022 /
+    #        MESHPA /
+    #        TC /
+    #        VA /
+    #        ...
+    full_path_ls <-
       list(
-        version_key,
-        url
+        pkg     = file.path(R.cache::getCacheRootPath(), "setupRxNorm"),
+        version = file.path(R.cache::getCacheRootPath(), "setupRxNorm", version_key$version),
+        rxclass = file.path(R.cache::getCacheRootPath(), "setupRxNorm", version_key$version, "RxClass API"),
+        class_types =
+          file.path(R.cache::getCacheRootPath(), "setupRxNorm", version_key$version, "RxClass API", class_types) %>%
+          set_names(class_types) %>%
+          as.list()
       )
 
-    class_df <-
-      R.cache::loadCache(
-        dirs = dirs,
-        key = key
+
+    dirs_ls <-
+      list(
+        pkg     = file.path("setupRxNorm"),
+        version = file.path("setupRxNorm", version_key$version),
+        rxclass = file.path("setupRxNorm", version_key$version, "RxClass API"),
+        class_types =
+          file.path("setupRxNorm", version_key$version, "RxClass API", class_types) %>%
+          set_names(class_types) %>%
+          as.list()
       )
 
+
+    class_df <- get_rxnav_classes()
     class_df <-
       class_df %>%
       dplyr::filter(classType %in% class_types) %>%
@@ -242,6 +236,8 @@ load_rxclass_graph <-
       classId <- class_df$classId[kk]
       className <- class_df$className[kk]
       classType <- class_df$classType[kk]
+      dirs_kk        <- dirs_ls$class_types[[classType]]
+
       http_request <-
         glue::glue("/REST/rxclass/classGraph.json?classId={classId}")
       url <-
@@ -258,7 +254,7 @@ load_rxclass_graph <-
 
       output[[kk]] <-
         R.cache::loadCache(
-          dirs = dirs,
+          dirs = dirs_kk,
           key = key
         )
 
@@ -267,10 +263,62 @@ load_rxclass_graph <-
     names(output) <-
       class_df$classId
 
+    output %>%
+      transpose() %>%
+      map(bind_rows)
 
-    output
+
 
 
   }
 
 
+class_types <-
+  c(
+    "MESHPA",
+    "EPC",
+    "MOA",
+    "PE",
+    "PK",
+    "TC",
+    "VA",
+    "DISEASE",
+    "CHEM",
+    "SCHEDULE",
+    "STRUCT",
+    "DISPOS")
+
+for (class_type in class_types) {
+
+  dir <- file.path(getwd(), "inst", "csv", class_type)
+  cave::dir.create_path(dir)
+
+  class_type_node_csv <-
+    file.path(dir, "node.csv")
+
+  if (!file.exists(class_type_node_csv)) {
+
+    class_type_data <- load_rxclass_graph(class_types = class_type)
+
+    readr::write_csv(
+      x = class_type_data$NODE,
+      file = class_type_node_csv
+    )
+
+  }
+
+  class_type_edge_csv <-
+    file.path(dir, "edge.csv")
+
+  if (!file.exists(class_type_edge_csv)) {
+
+    class_type_data <- load_rxclass_graph(class_types = class_type)
+
+    readr::write_csv(
+      x = class_type_data$EDGE,
+      file = class_type_edge_csv
+    )
+
+  }
+
+}
