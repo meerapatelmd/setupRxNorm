@@ -7,6 +7,7 @@
 #' @import tidyverse
 #' @import cli
 #' @import httr
+#' @import purrr
 #' @rdname collect_rxclass_graph
 #' @export
 collect_rxclass_graph <-
@@ -81,11 +82,11 @@ collect_rxclass_graph <-
     cli::cli_progress_bar(
       format = paste0(
         "[{as.character(Sys.time())}] {.strong {classType}}: {classId} {className} ",
-        "({pb_current}/{pb_total})  ETA:{time_remaining}  Elapsed:{pb_elapsed}"
+        "({cli::pb_current}/{cli::pb_total})  ETA:{time_remaining}  Elapsed:{cli::pb_elapsed}"
       ),
       format_done = paste0(
-        "[{as.character(Sys.time())}] {col_green(symbol$tick)} Collected {pb_total} graphs ",
-        "in {pb_elapsed}."
+        "[{as.character(Sys.time())}] {cli::col_green(cli::symbol$tick)} Collected {cli::pb_total} graphs ",
+        "in {cli::pb_elapsed}."
       ),
       total = nrow(class_df),
       clear = FALSE

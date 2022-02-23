@@ -86,8 +86,8 @@ load_rxclass_graph <-
       class_df$classId
 
     output %>%
-      transpose() %>%
-      map(bind_rows)
+      purrr::transpose() %>%
+      purrr::map(bind_rows)
 
 
 
