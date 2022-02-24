@@ -85,7 +85,7 @@ collect_rxclass_graph <-
         "({cli::pb_current}/{cli::pb_total})  ETA:{time_remaining}  Elapsed:{cli::pb_elapsed}"
       ),
       format_done = paste0(
-        "[{as.character(Sys.time())}] {cli::col_green(cli::symbol$tick)} Collected {cli::pb_total} graphs ",
+        "[{as.character(Sys.time())}] {cli::col_green(cli::symbol$tick)} Collected {cli::pb_total} {classType} graphs ",
         "in {cli::pb_elapsed}."
       ),
       total = nrow(class_df),
