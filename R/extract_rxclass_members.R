@@ -61,20 +61,19 @@ extract_rxclass_members <-
       dplyr::filter(relaSources %in% rela_sources) %>%
       dplyr::filter(classType %in% class_types)
 
-
-    huxtable::print_screen(
-    huxtable::hux(
-      lookup
-    ))
-
-    secretary::press_enter()
-
     if (nrow(lookup)==0) {
 
       cli::cli_abort(
         "Relationships from {glue::glue_collapse(glue::single_quote(rela_sources), sep = ', ', last = ', and ')} to
         {glue::glue_collapse(glue::single_quote(class_types), sep = ', ', last = ', and ')} doesn't exist."
       )
+
+    } else {
+
+        huxtable::hux(lookup) %>%
+        huxtable::theme_article() %>%
+        huxtable::print_screen()
+
 
     }
 
