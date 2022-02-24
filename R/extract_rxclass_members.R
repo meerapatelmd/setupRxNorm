@@ -63,9 +63,36 @@ extract_rxclass_members <-
 
     if (nrow(lookup)==0) {
 
+      tibble::tribble(
+        ~classType, ~relaSources,
+        "ATC1-4", "ATC",
+        "CHEM", "DAILYMED",
+        "CHEM", "FDASPL",
+        "CHEM", "MEDRT",
+        "DISEASE", "MEDRT",
+        "DISPOS", "SNOMEDCT",
+        "EPC", "DAILYMED",
+        "EPC", "FDASPL",
+        "MESHPA", "MESH",
+        "MOA", "DAILYMED",
+        "MOA", "FDASPL",
+        "MOA", "MEDRT",
+        "PE", "DAILYMED",
+        "PE", "FDASPL",
+        "PE", "MEDRT",
+        "PK", "MEDRT",
+        "SCHEDULE", "RXNORM",
+        "STRUCT", "SNOMEDCT",
+        "TC", "FMTSME",
+        "VA", "VA") %>%
+      huxtable::hux() %>%
+        huxtable::theme_article() %>%
+        huxtable::print_screen()
+
       cli::cli_abort(
         "Relationships from {glue::glue_collapse(glue::single_quote(rela_sources), sep = ', ', last = ', and ')} to
-        {glue::glue_collapse(glue::single_quote(class_types), sep = ', ', last = ', and ')} doesn't exist."
+        {glue::glue_collapse(glue::single_quote(class_types), sep = ', ', last = ', and ')} doesn't exist. Options are
+        printed above."
       )
 
     } else {
