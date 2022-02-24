@@ -110,9 +110,26 @@ for (class_type in class_types) {
 
 
     #class_type_data <- load_rxclass_graph(class_types = class_type)
-    node <- readr::read_csv(class_type_node_csv, show_col_types = FALSE)
+    node <- readr::read_csv(class_type_node_csv, col_types = readr::cols(.default = "c"), show_col_types = FALSE)
     edge <-
-      readr::read_csv(class_type_edge_csv, show_col_types = FALSE) %>%
+      readr::read_csv(class_type_edge_csv, col_types = readr::cols(.default = "c"), show_col_types = FALSE)
+
+    if (nrow(edge) == 0) {
+
+      readr::write_csv(
+        x = edge,
+        file = class_type_concept_ancestor_csv
+      )
+
+
+
+
+    } else {
+
+
+
+    edge <-
+    edge %>%
       # filter for hierarchical relationships
       dplyr::filter(rela == 'isa')
 
@@ -204,98 +221,167 @@ for (class_type in class_types) {
 
     }
 
+    tmp_ca_dir <-
+      file.path(dir, "tmp")
 
-    output2 <-
-      output %>%
-      map(select, -rela) %>%
-      reduce(left_join) %>%
-      select(starts_with("parent_")) %>%
-      rename_all(str_remove_all, "parent_") %>%
-      dplyr::distinct()
+    if (dir.exists(tmp_ca_dir)) {
 
-    # Recurse for each column level
-    # Since number of columns is driven by loop above, it
-    # needs to extracted for the recursion
-    level_cols <- colnames(output2)
+      unlink(tmp_ca_dir, recursive = TRUE)
 
-    output2 <-
-      output2 %>%
-      # Adding an identifier per path to recurse later
-      rowid_to_column("rowid")
+    }
+    dir.create(tmp_ca_dir)
 
 
-    output3 <-
-      split(output2,
-            output2$rowid) %>%
-      map(select, -rowid)
+    tmp_ca_files <- vector()
+    for (i in seq_along(output)) {
 
-    # For each path, need to recurse through the
-    # different levels
-    output4 <- list()
-    for (a in seq_along(output3)) {
-      output4[[a]] <- list()
-      path_row <- output3[[a]]
-      path_row <-
-      path_row %>%
-        pivot_longer(cols = everything(),
-                     names_to = "level_of_separation",
-                     values_to = "descendant_concept_code",
-                     values_drop_na = TRUE,
-                     names_transform = as.integer) %>%
-        select(descendant_concept_code,
-               level_of_separation) %>%
-        # Offset levels by 1
-        mutate(level_of_separation =
-                 level_of_separation-1)
+      tmp_ca_file <-
+        file.path(tmp_ca_dir, sprintf("%s.csv", i))
 
-      for (b in 1:nrow(path_row)) {
+      readr::write_csv(
+        x = output[[i]] %>% select(-rela),
+        file = tmp_ca_file
+      )
 
-        if (b == 1) {
+      tmp_ca_files <-
+      c(tmp_ca_files,
+        tmp_ca_file)
 
-          ancestor_concept_code <-
-            path_row$descendant_concept_code[b]
-
-          output4[[a]][[1]] <-
-            path_row %>%
-            dplyr::transmute(
-              ancestor_concept_code = ancestor_concept_code,
-              descendant_concept_code,
-              level_of_separation
-            )
-
-        } else {
-
-          ancestor_concept_code_b <-
-            output4[[a]][[b-1]]$descendant_concept_code[2]
-
-          output4[[a]][[b]] <-
-            output4[[a]][[b-1]] %>%
-            slice(-1) %>%
-            dplyr::transmute(
-              ancestor_concept_code = ancestor_concept_code_b,
-              descendant_concept_code,
-              level_of_separation = level_of_separation-1
-            )
-
-
-        }
-      }
     }
 
-    output5 <-
-      output4 %>%
-      map(bind_rows)
+    tmp_concept_ancestor_csv <-
+      file.path(dir, "tmp_concept_ancestor.csv")
 
+    # SCHEDULE class type does not have multiple levels
+    if (length(tmp_ca_files == 1)) {
+      tmp_concept_ancestor <-
+      readr::read_csv(tmp_ca_files[1],
+                      col_types = readr::cols(.default = "c"),
+                      show_col_types = FALSE)
 
-    output6 <-
-      bind_rows(output5) %>%
+      readr::write_csv(
+        x = tmp_concept_ancestor,
+        file = tmp_concept_ancestor_csv
+      )
+
+    } else {
+
+    tmp_concept_ancestor <-
+      dplyr::left_join(
+        readr::read_csv(tmp_ca_files[1],
+                        col_types = readr::cols(.default = "c"),
+                        show_col_types = FALSE),
+        readr::read_csv(tmp_ca_files[2],
+                        col_types = readr::cols(.default = "c"),
+                        show_col_types = FALSE)) %>%
       dplyr::distinct()
 
 
     readr::write_csv(
-      x = output6,
+      x = tmp_concept_ancestor,
+      file = tmp_concept_ancestor_csv
+    )
+
+    for (i in 3:length(tmp_ca_files)) {
+
+
+        tmp_concept_ancestor <-
+        dplyr::left_join(
+        tmp_concept_ancestor,
+        readr::read_csv(tmp_ca_files[i],
+                        col_types = readr::cols(.default = "c"),
+                        show_col_types = FALSE)) %>%
+          dplyr::distinct()
+
+
+        readr::write_csv(
+          x = tmp_concept_ancestor,
+          file = tmp_concept_ancestor_csv
+        )
+
+
+    }
+
+    }
+
+    # Max Level is needed to know the
+    # endpoint of the loop later on
+    max_level <- length(tmp_ca_files)
+
+    tmp_concept_ancestor <-
+      readr::read_csv(tmp_concept_ancestor_csv,
+                      col_types = readr::cols(.default = "c"))
+
+    unlink(tmp_ca_dir, recursive = TRUE)
+    dir.create(tmp_ca_dir)
+
+    tmp_concept_ancestor2 <-
+      tmp_concept_ancestor %>%
+      select(starts_with("parent_")) %>%
+      rename_all(str_remove_all, "parent_") %>%
+      dplyr::distinct()
+
+    tmp_concept_ancestor3 <-
+      tmp_concept_ancestor2 %>%
+      # Adding an identifier per path to recurse later
+      rowid_to_column("rowid")
+
+    readr::write_csv(
+      x = tmp_concept_ancestor3,
+      file = tmp_concept_ancestor_csv
+    )
+
+    tmp_concept_ancestor4 <-
+      pivot_longer(tmp_concept_ancestor3,
+                   cols = !rowid,
+                   names_to = "levels_of_separation",
+                   values_to = "descendant_concept_code",
+                   values_drop_na = FALSE,
+                   names_transform = as.integer)
+
+    tmp_concept_ancestor5 <- list()
+    for (i in 1:max_level) {
+
+      # Ancestor of a given rowid at the level i
+      tmp_concept_ancestor5[[i]] <-
+      tmp_concept_ancestor4 %>%
+        group_by(rowid) %>%
+        dplyr::filter(levels_of_separation == i) %>%
+        ungroup() %>%
+        dplyr::filter(!is.na(descendant_concept_code)) %>%
+        transmute(rowid,
+                  ancestor_concept_code = descendant_concept_code) %>%
+        distinct() %>%
+        left_join(tmp_concept_ancestor4,
+                  by = "rowid") %>%
+        dplyr::filter(!is.na(descendant_concept_code)) %>%
+        distinct() %>%
+        dplyr::mutate(levels_of_separation =
+                        levels_of_separation-i) %>%
+        dplyr::filter(levels_of_separation >= 0)
+
+    }
+
+    tmp_concept_ancestor6 <-
+      bind_rows(tmp_concept_ancestor5) %>%
+      select(-rowid) %>%
+      distinct() %>%
+      group_by(ancestor_concept_code,
+               descendant_concept_code) %>%
+      summarize(min_levels_of_separation = min(levels_of_separation),
+                max_levels_of_separation = max(levels_of_separation),
+                .groups = "drop") %>%
+      ungroup()
+
+    readr::write_csv(
+      x =  tmp_concept_ancestor6,
       file = class_type_concept_ancestor_csv
     )
+
+    unlink(tmp_ca_dir, recursive = TRUE)
+    file.remove(tmp_concept_ancestor_csv)
+
+    }
 
 
       }
