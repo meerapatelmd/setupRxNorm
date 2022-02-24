@@ -1,0 +1,11 @@
+concept_code_1,relationship_id,relationship_source,relationship_type,concept_code_2,concept_name_2,vocabulary_id_1,vocabulary_id_2,concept_name_1
+SCHEDULE0,Subsumes,RXNORM,INDIRECT,235404,barbital sodium,SCHEDULE,RxNorm,NA
+SCHEDULE0,Subsumes,RXNORM,INDIRECT,32926,paregoric,SCHEDULE,RxNorm,NA
+SCHEDULE3,Subsumes,RXNORM,DIRECT,32926,paregoric,SCHEDULE,RxNorm,NA
+SCHEDULE4,Subsumes,RXNORM,DIRECT,235404,barbital sodium,SCHEDULE,RxNorm,NA
+SCHEDULE0,Subsumes,RXNORM,INDIRECT,NA,NA,SCHEDULE,SCHEDULE,NA
+SCHEDULE3,Subsumes,RXNORM,DIRECT,NA,NA,SCHEDULE,SCHEDULE,NA
+SCHEDULE4,Subsumes,RXNORM,DIRECT,NA,NA,SCHEDULE,SCHEDULE,NA
+235404,Mapped from,RXNORM,DIRECT,NA,NA,RxNorm,SCHEDULE,barbital sodium
+32926,Mapped from,RXNORM,DIRECT,NA,NA,RxNorm,SCHEDULE,paregoric
+NA,Maps to,RXNORM,DIRECT,NA,NA,SCHEDULE,SCHEDULE,NA
