@@ -1,0 +1,283 @@
+concept_code_1,relationship_id,relationship_source,relationship_type,concept_code_2,concept_name_2,vocabulary_id_1,vocabulary_id_2,concept_name_1
+N0000000025,Subsumes,MEDRT,DIRECT,103,mercaptopurine,PK,RxNorm,NA
+N0000000025,Subsumes,MEDRT,DIRECT,3407,digoxin,PK,RxNorm,NA
+N0000000027,Subsumes,MEDRT,DIRECT,203212,ipratropium bromide,PK,RxNorm,NA
+N0000000030,Subsumes,MEDRT,INDIRECT,4124,ethinyl estradiol,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,1000112,medroxyprogesterone acetate,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,1191,aspirin,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,1202,atenolol,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,133008,amoxicillin trihydrate,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,1347,beclomethasone,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,1348,beclomethasone dipropionate,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,140587,celecoxib,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,142153,albuterol sulfate,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,142442,naproxen sodium,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,161,acetaminophen,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,17128,lansoprazole,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,18631,azithromycin,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,203136,ranitidine hydrochloride,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,203212,ipratropium bromide,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,235412,codeine polistirex,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,235743,metformin hydrochloride,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,253155,azithromycin dihydrate,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,2541,cimetidine,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,2670,codeine,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,2672,codeine phosphate,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,314293,acetylsalicylate sodium,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,3407,digoxin,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,36761,ibuprofen lysine,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,38413,torsemide,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,4099,"estrogens, conjugated (USP)",PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,4124,ethinyl estradiol,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,435,albuterol,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,4603,furosemide,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,4719,gemfibrozil,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,48203,clavulanate,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,5487,hydrochlorothiazide,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,55471,ranitidine bismuth citrate,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,5640,ibuprofen,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,596,alprazolam,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,6691,medroxyprogesterone,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,6809,metformin,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,723,amoxicillin,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,7258,naproxen,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,831418,clavulanate potassium,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,91104,codeine sulfate,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,91251,cimetidine hydrochloride,PK,RxNorm,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,9143,ranitidine,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,1000112,medroxyprogesterone acetate,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,1191,aspirin,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,1202,atenolol,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,133008,amoxicillin trihydrate,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,1347,beclomethasone,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,1348,beclomethasone dipropionate,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,140587,celecoxib,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,142153,albuterol sulfate,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,142442,naproxen sodium,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,161,acetaminophen,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,17128,lansoprazole,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,203136,ranitidine hydrochloride,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,203212,ipratropium bromide,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,235412,codeine polistirex,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,235743,metformin hydrochloride,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,2541,cimetidine,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,2670,codeine,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,2672,codeine phosphate,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,314293,acetylsalicylate sodium,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,3407,digoxin,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,36761,ibuprofen lysine,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,38413,torsemide,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,4099,"estrogens, conjugated (USP)",PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,4124,ethinyl estradiol,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,435,albuterol,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,4603,furosemide,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,4719,gemfibrozil,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,48203,clavulanate,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,5487,hydrochlorothiazide,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,55471,ranitidine bismuth citrate,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,5640,ibuprofen,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,596,alprazolam,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,6691,medroxyprogesterone,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,6809,metformin,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,723,amoxicillin,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,7258,naproxen,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,831418,clavulanate potassium,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,91104,codeine sulfate,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,91251,cimetidine hydrochloride,PK,RxNorm,NA
+N0000000042,Subsumes,MEDRT,DIRECT,9143,ranitidine,PK,RxNorm,NA
+N0000000043,Subsumes,MEDRT,DIRECT,1000112,medroxyprogesterone acetate,PK,RxNorm,NA
+N0000000043,Subsumes,MEDRT,DIRECT,17128,lansoprazole,PK,RxNorm,NA
+N0000000043,Subsumes,MEDRT,DIRECT,18631,azithromycin,PK,RxNorm,NA
+N0000000043,Subsumes,MEDRT,DIRECT,253155,azithromycin dihydrate,PK,RxNorm,NA
+N0000000043,Subsumes,MEDRT,DIRECT,6691,medroxyprogesterone,PK,RxNorm,NA
+N0000000045,Subsumes,MEDRT,DIRECT,1347,beclomethasone,PK,RxNorm,NA
+N0000000045,Subsumes,MEDRT,DIRECT,1348,beclomethasone dipropionate,PK,RxNorm,NA
+N0000000045,Subsumes,MEDRT,DIRECT,140587,celecoxib,PK,RxNorm,NA
+N0000000045,Subsumes,MEDRT,DIRECT,203212,ipratropium bromide,PK,RxNorm,NA
+N0000000045,Subsumes,MEDRT,DIRECT,4124,ethinyl estradiol,PK,RxNorm,NA
+N0000000046,Subsumes,MEDRT,DIRECT,596,alprazolam,PK,RxNorm,NA
+N0000008289,Subsumes,MEDRT,DIRECT,4124,ethinyl estradiol,PK,RxNorm,NA
+N0000000025,Subsumes,MEDRT,DIRECT,103,mercaptopurine,PK,PK,NA
+N0000000025,Subsumes,MEDRT,DIRECT,3407,digoxin,PK,PK,NA
+N0000000027,Subsumes,MEDRT,DIRECT,203212,ipratropium bromide,PK,PK,NA
+N0000000030,Subsumes,MEDRT,INDIRECT,4124,ethinyl estradiol,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,1000112,medroxyprogesterone acetate,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,1191,aspirin,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,1202,atenolol,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,133008,amoxicillin trihydrate,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,1347,beclomethasone,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,1348,beclomethasone dipropionate,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,140587,celecoxib,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,142153,albuterol sulfate,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,142442,naproxen sodium,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,161,acetaminophen,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,17128,lansoprazole,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,18631,azithromycin,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,203136,ranitidine hydrochloride,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,203212,ipratropium bromide,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,235412,codeine polistirex,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,235743,metformin hydrochloride,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,253155,azithromycin dihydrate,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,2541,cimetidine,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,2670,codeine,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,2672,codeine phosphate,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,314293,acetylsalicylate sodium,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,3407,digoxin,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,36761,ibuprofen lysine,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,38413,torsemide,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,4099,"estrogens, conjugated (USP)",PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,4124,ethinyl estradiol,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,435,albuterol,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,4603,furosemide,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,4719,gemfibrozil,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,48203,clavulanate,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,5487,hydrochlorothiazide,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,55471,ranitidine bismuth citrate,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,5640,ibuprofen,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,596,alprazolam,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,6691,medroxyprogesterone,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,6809,metformin,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,723,amoxicillin,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,7258,naproxen,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,831418,clavulanate potassium,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,91104,codeine sulfate,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,91251,cimetidine hydrochloride,PK,PK,NA
+N0000000041,Subsumes,MEDRT,INDIRECT,9143,ranitidine,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,1000112,medroxyprogesterone acetate,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,1191,aspirin,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,1202,atenolol,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,133008,amoxicillin trihydrate,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,1347,beclomethasone,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,1348,beclomethasone dipropionate,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,140587,celecoxib,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,142153,albuterol sulfate,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,142442,naproxen sodium,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,161,acetaminophen,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,17128,lansoprazole,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,203136,ranitidine hydrochloride,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,203212,ipratropium bromide,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,235412,codeine polistirex,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,235743,metformin hydrochloride,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,2541,cimetidine,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,2670,codeine,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,2672,codeine phosphate,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,314293,acetylsalicylate sodium,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,3407,digoxin,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,36761,ibuprofen lysine,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,38413,torsemide,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,4099,"estrogens, conjugated (USP)",PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,4124,ethinyl estradiol,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,435,albuterol,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,4603,furosemide,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,4719,gemfibrozil,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,48203,clavulanate,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,5487,hydrochlorothiazide,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,55471,ranitidine bismuth citrate,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,5640,ibuprofen,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,596,alprazolam,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,6691,medroxyprogesterone,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,6809,metformin,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,723,amoxicillin,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,7258,naproxen,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,831418,clavulanate potassium,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,91104,codeine sulfate,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,91251,cimetidine hydrochloride,PK,PK,NA
+N0000000042,Subsumes,MEDRT,DIRECT,9143,ranitidine,PK,PK,NA
+N0000000043,Subsumes,MEDRT,DIRECT,1000112,medroxyprogesterone acetate,PK,PK,NA
+N0000000043,Subsumes,MEDRT,DIRECT,17128,lansoprazole,PK,PK,NA
+N0000000043,Subsumes,MEDRT,DIRECT,18631,azithromycin,PK,PK,NA
+N0000000043,Subsumes,MEDRT,DIRECT,253155,azithromycin dihydrate,PK,PK,NA
+N0000000043,Subsumes,MEDRT,DIRECT,6691,medroxyprogesterone,PK,PK,NA
+N0000000045,Subsumes,MEDRT,DIRECT,1347,beclomethasone,PK,PK,NA
+N0000000045,Subsumes,MEDRT,DIRECT,1348,beclomethasone dipropionate,PK,PK,NA
+N0000000045,Subsumes,MEDRT,DIRECT,140587,celecoxib,PK,PK,NA
+N0000000045,Subsumes,MEDRT,DIRECT,203212,ipratropium bromide,PK,PK,NA
+N0000000045,Subsumes,MEDRT,DIRECT,4124,ethinyl estradiol,PK,PK,NA
+N0000000046,Subsumes,MEDRT,DIRECT,596,alprazolam,PK,PK,NA
+N0000008289,Subsumes,MEDRT,DIRECT,4124,ethinyl estradiol,PK,PK,NA
+103,Mapped from,MEDRT,DIRECT,103,mercaptopurine,RxNorm,PK,mercaptopurine
+3407,Mapped from,MEDRT,DIRECT,3407,digoxin,RxNorm,PK,digoxin
+203212,Mapped from,MEDRT,DIRECT,203212,ipratropium bromide,RxNorm,PK,ipratropium bromide
+4124,Mapped from,MEDRT,DIRECT,4124,ethinyl estradiol,RxNorm,PK,ethinyl estradiol
+1000112,Mapped from,MEDRT,DIRECT,1000112,medroxyprogesterone acetate,RxNorm,PK,medroxyprogesterone acetate
+1191,Mapped from,MEDRT,DIRECT,1191,aspirin,RxNorm,PK,aspirin
+1202,Mapped from,MEDRT,DIRECT,1202,atenolol,RxNorm,PK,atenolol
+133008,Mapped from,MEDRT,DIRECT,133008,amoxicillin trihydrate,RxNorm,PK,amoxicillin trihydrate
+1347,Mapped from,MEDRT,DIRECT,1347,beclomethasone,RxNorm,PK,beclomethasone
+1348,Mapped from,MEDRT,DIRECT,1348,beclomethasone dipropionate,RxNorm,PK,beclomethasone dipropionate
+140587,Mapped from,MEDRT,DIRECT,140587,celecoxib,RxNorm,PK,celecoxib
+142153,Mapped from,MEDRT,DIRECT,142153,albuterol sulfate,RxNorm,PK,albuterol sulfate
+142442,Mapped from,MEDRT,DIRECT,142442,naproxen sodium,RxNorm,PK,naproxen sodium
+161,Mapped from,MEDRT,DIRECT,161,acetaminophen,RxNorm,PK,acetaminophen
+17128,Mapped from,MEDRT,DIRECT,17128,lansoprazole,RxNorm,PK,lansoprazole
+18631,Mapped from,MEDRT,DIRECT,18631,azithromycin,RxNorm,PK,azithromycin
+203136,Mapped from,MEDRT,DIRECT,203136,ranitidine hydrochloride,RxNorm,PK,ranitidine hydrochloride
+235412,Mapped from,MEDRT,DIRECT,235412,codeine polistirex,RxNorm,PK,codeine polistirex
+235743,Mapped from,MEDRT,DIRECT,235743,metformin hydrochloride,RxNorm,PK,metformin hydrochloride
+253155,Mapped from,MEDRT,DIRECT,253155,azithromycin dihydrate,RxNorm,PK,azithromycin dihydrate
+2541,Mapped from,MEDRT,DIRECT,2541,cimetidine,RxNorm,PK,cimetidine
+2670,Mapped from,MEDRT,DIRECT,2670,codeine,RxNorm,PK,codeine
+2672,Mapped from,MEDRT,DIRECT,2672,codeine phosphate,RxNorm,PK,codeine phosphate
+314293,Mapped from,MEDRT,DIRECT,314293,acetylsalicylate sodium,RxNorm,PK,acetylsalicylate sodium
+36761,Mapped from,MEDRT,DIRECT,36761,ibuprofen lysine,RxNorm,PK,ibuprofen lysine
+38413,Mapped from,MEDRT,DIRECT,38413,torsemide,RxNorm,PK,torsemide
+4099,Mapped from,MEDRT,DIRECT,4099,"estrogens, conjugated (USP)",RxNorm,PK,"estrogens, conjugated (USP)"
+435,Mapped from,MEDRT,DIRECT,435,albuterol,RxNorm,PK,albuterol
+4603,Mapped from,MEDRT,DIRECT,4603,furosemide,RxNorm,PK,furosemide
+4719,Mapped from,MEDRT,DIRECT,4719,gemfibrozil,RxNorm,PK,gemfibrozil
+48203,Mapped from,MEDRT,DIRECT,48203,clavulanate,RxNorm,PK,clavulanate
+5487,Mapped from,MEDRT,DIRECT,5487,hydrochlorothiazide,RxNorm,PK,hydrochlorothiazide
+55471,Mapped from,MEDRT,DIRECT,55471,ranitidine bismuth citrate,RxNorm,PK,ranitidine bismuth citrate
+5640,Mapped from,MEDRT,DIRECT,5640,ibuprofen,RxNorm,PK,ibuprofen
+596,Mapped from,MEDRT,DIRECT,596,alprazolam,RxNorm,PK,alprazolam
+6691,Mapped from,MEDRT,DIRECT,6691,medroxyprogesterone,RxNorm,PK,medroxyprogesterone
+6809,Mapped from,MEDRT,DIRECT,6809,metformin,RxNorm,PK,metformin
+723,Mapped from,MEDRT,DIRECT,723,amoxicillin,RxNorm,PK,amoxicillin
+7258,Mapped from,MEDRT,DIRECT,7258,naproxen,RxNorm,PK,naproxen
+831418,Mapped from,MEDRT,DIRECT,831418,clavulanate potassium,RxNorm,PK,clavulanate potassium
+91104,Mapped from,MEDRT,DIRECT,91104,codeine sulfate,RxNorm,PK,codeine sulfate
+91251,Mapped from,MEDRT,DIRECT,91251,cimetidine hydrochloride,RxNorm,PK,cimetidine hydrochloride
+9143,Mapped from,MEDRT,DIRECT,9143,ranitidine,RxNorm,PK,ranitidine
+103,Maps to,MEDRT,DIRECT,103,mercaptopurine,PK,PK,mercaptopurine
+3407,Maps to,MEDRT,DIRECT,3407,digoxin,PK,PK,digoxin
+203212,Maps to,MEDRT,DIRECT,203212,ipratropium bromide,PK,PK,ipratropium bromide
+4124,Maps to,MEDRT,DIRECT,4124,ethinyl estradiol,PK,PK,ethinyl estradiol
+1000112,Maps to,MEDRT,DIRECT,1000112,medroxyprogesterone acetate,PK,PK,medroxyprogesterone acetate
+1191,Maps to,MEDRT,DIRECT,1191,aspirin,PK,PK,aspirin
+1202,Maps to,MEDRT,DIRECT,1202,atenolol,PK,PK,atenolol
+133008,Maps to,MEDRT,DIRECT,133008,amoxicillin trihydrate,PK,PK,amoxicillin trihydrate
+1347,Maps to,MEDRT,DIRECT,1347,beclomethasone,PK,PK,beclomethasone
+1348,Maps to,MEDRT,DIRECT,1348,beclomethasone dipropionate,PK,PK,beclomethasone dipropionate
+140587,Maps to,MEDRT,DIRECT,140587,celecoxib,PK,PK,celecoxib
+142153,Maps to,MEDRT,DIRECT,142153,albuterol sulfate,PK,PK,albuterol sulfate
+142442,Maps to,MEDRT,DIRECT,142442,naproxen sodium,PK,PK,naproxen sodium
+161,Maps to,MEDRT,DIRECT,161,acetaminophen,PK,PK,acetaminophen
+17128,Maps to,MEDRT,DIRECT,17128,lansoprazole,PK,PK,lansoprazole
+18631,Maps to,MEDRT,DIRECT,18631,azithromycin,PK,PK,azithromycin
+203136,Maps to,MEDRT,DIRECT,203136,ranitidine hydrochloride,PK,PK,ranitidine hydrochloride
+235412,Maps to,MEDRT,DIRECT,235412,codeine polistirex,PK,PK,codeine polistirex
+235743,Maps to,MEDRT,DIRECT,235743,metformin hydrochloride,PK,PK,metformin hydrochloride
+253155,Maps to,MEDRT,DIRECT,253155,azithromycin dihydrate,PK,PK,azithromycin dihydrate
+2541,Maps to,MEDRT,DIRECT,2541,cimetidine,PK,PK,cimetidine
+2670,Maps to,MEDRT,DIRECT,2670,codeine,PK,PK,codeine
+2672,Maps to,MEDRT,DIRECT,2672,codeine phosphate,PK,PK,codeine phosphate
+314293,Maps to,MEDRT,DIRECT,314293,acetylsalicylate sodium,PK,PK,acetylsalicylate sodium
+36761,Maps to,MEDRT,DIRECT,36761,ibuprofen lysine,PK,PK,ibuprofen lysine
+38413,Maps to,MEDRT,DIRECT,38413,torsemide,PK,PK,torsemide
+4099,Maps to,MEDRT,DIRECT,4099,"estrogens, conjugated (USP)",PK,PK,"estrogens, conjugated (USP)"
+435,Maps to,MEDRT,DIRECT,435,albuterol,PK,PK,albuterol
+4603,Maps to,MEDRT,DIRECT,4603,furosemide,PK,PK,furosemide
+4719,Maps to,MEDRT,DIRECT,4719,gemfibrozil,PK,PK,gemfibrozil
+48203,Maps to,MEDRT,DIRECT,48203,clavulanate,PK,PK,clavulanate
+5487,Maps to,MEDRT,DIRECT,5487,hydrochlorothiazide,PK,PK,hydrochlorothiazide
+55471,Maps to,MEDRT,DIRECT,55471,ranitidine bismuth citrate,PK,PK,ranitidine bismuth citrate
+5640,Maps to,MEDRT,DIRECT,5640,ibuprofen,PK,PK,ibuprofen
+596,Maps to,MEDRT,DIRECT,596,alprazolam,PK,PK,alprazolam
+6691,Maps to,MEDRT,DIRECT,6691,medroxyprogesterone,PK,PK,medroxyprogesterone
+6809,Maps to,MEDRT,DIRECT,6809,metformin,PK,PK,metformin
+723,Maps to,MEDRT,DIRECT,723,amoxicillin,PK,PK,amoxicillin
+7258,Maps to,MEDRT,DIRECT,7258,naproxen,PK,PK,naproxen
+831418,Maps to,MEDRT,DIRECT,831418,clavulanate potassium,PK,PK,clavulanate potassium
+91104,Maps to,MEDRT,DIRECT,91104,codeine sulfate,PK,PK,codeine sulfate
+91251,Maps to,MEDRT,DIRECT,91251,cimetidine hydrochloride,PK,PK,cimetidine hydrochloride
+9143,Maps to,MEDRT,DIRECT,9143,ranitidine,PK,PK,ranitidine
