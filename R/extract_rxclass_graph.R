@@ -121,6 +121,8 @@ for (class_type in class_types) {
         file = class_type_concept_ancestor_csv
       )
 
+      return("")
+
 
 
 
@@ -148,7 +150,7 @@ for (class_type in class_types) {
     # get the roots
     root <-
       edge2 %>%
-      dplyr::filter(!(parent %in% child)) %>%
+      dplyr::filter(!(parent %in% edge2$child)) %>%
       dplyr::distinct(parent) %>%
       unlist() %>%
       unname()
@@ -253,20 +255,20 @@ for (class_type in class_types) {
       file.path(dir, "tmp_concept_ancestor.csv")
 
     # SCHEDULE class type does not have multiple levels
-    if (length(tmp_ca_files == 1)) {
-      tmp_concept_ancestor <-
+    if (length(tmp_ca_files) == 1) {
+      tmp_concept_ancestor0 <-
       readr::read_csv(tmp_ca_files[1],
                       col_types = readr::cols(.default = "c"),
                       show_col_types = FALSE)
 
       readr::write_csv(
-        x = tmp_concept_ancestor,
+        x = tmp_concept_ancestor0,
         file = tmp_concept_ancestor_csv
       )
 
-    } else {
+    } else if (length(tmp_ca_files)==2) {
 
-    tmp_concept_ancestor <-
+    tmp_concept_ancestor0 <-
       dplyr::left_join(
         readr::read_csv(tmp_ca_files[1],
                         col_types = readr::cols(.default = "c"),
@@ -276,31 +278,47 @@ for (class_type in class_types) {
                         show_col_types = FALSE)) %>%
       dplyr::distinct()
 
-
     readr::write_csv(
-      x = tmp_concept_ancestor,
+      x = tmp_concept_ancestor0,
       file = tmp_concept_ancestor_csv
     )
 
-    for (i in 3:length(tmp_ca_files)) {
 
+    } else {
 
-        tmp_concept_ancestor <-
+      tmp_concept_ancestor0 <-
         dplyr::left_join(
-        tmp_concept_ancestor,
-        readr::read_csv(tmp_ca_files[i],
-                        col_types = readr::cols(.default = "c"),
-                        show_col_types = FALSE)) %>%
-          dplyr::distinct()
+          readr::read_csv(tmp_ca_files[1],
+                          col_types = readr::cols(.default = "c"),
+                          show_col_types = FALSE),
+          readr::read_csv(tmp_ca_files[2],
+                          col_types = readr::cols(.default = "c"),
+                          show_col_types = FALSE)) %>%
+        dplyr::distinct()
+
+      tmp_concept_ancestor <- list()
+      tmp_concept_ancestor[[1]] <-
+        tmp_concept_ancestor0
+
+      for (xx in 3:length(tmp_ca_files)) {
 
 
-        readr::write_csv(
-          x = tmp_concept_ancestor,
-          file = tmp_concept_ancestor_csv
-        )
+
+          tmp_concept_ancestor[[length(tmp_concept_ancestor)+1]] <-
+          dplyr::left_join(
+          tmp_concept_ancestor[[length(tmp_concept_ancestor)]],
+          readr::read_csv(tmp_ca_files[xx],
+                          col_types = readr::cols(.default = "c"),
+                          show_col_types = FALSE)) %>%
+            dplyr::distinct()
 
 
-    }
+      }
+
+    readr::write_csv(
+      x = tmp_concept_ancestor[[length(tmp_concept_ancestor)]],
+      file = tmp_concept_ancestor_csv
+    )
 
     }
 
