@@ -29,7 +29,7 @@ extract_rxclass_members <-
                "VA",
                "DISEASE",
                "DISPOS",
-               "CHEM",
+               # "CHEM",
                "SCHEDULE",
                "STRUCT")) {
 
@@ -208,6 +208,8 @@ extract_rxclass_members <-
 
     unlink(tmp_dir,
            recursive = TRUE)
+
+    unlink(tmp_dir)
 
   }
   }
