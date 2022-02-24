@@ -61,6 +61,14 @@ extract_rxclass_members <-
       dplyr::filter(relaSources %in% rela_sources) %>%
       dplyr::filter(classType %in% class_types)
 
+
+    huxtable::print_screen(
+    huxtable::hux(
+      lookup
+    ))
+
+    secretary::press_enter()
+
     if (nrow(lookup)==0) {
 
       cli::cli_abort(
@@ -139,7 +147,8 @@ extract_rxclass_members <-
     unlink(tmp_dir, recursive = TRUE)
     dir.create(tmp_dir)
 
-    members_data <- load_rxclass_members(rela_sources = rela_source)
+    members_data <- load_rxclass_members(rela_sources = rela_source,
+                                         class_types = class_type)
     for (aa in seq_along(members_data)) {
       output <- list()
       class_id <- names(members_data)[aa]
