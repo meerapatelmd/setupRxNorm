@@ -1,3 +1,16 @@
+#' @title
+#' Extract RxClass Graph
+#'
+#' @details
+#' Some class types such as DISEASE follow a cyclical hierarchical pattern that
+#' can recurse into infinity if a limit is imposed when writing the Concept Ancestor
+#' csv file. Concept Ancestor processing is completed when a subsequent level of
+#' parent and children is a dataframe that is a duplicate of a previous level's.
+#'
+#' @rdname extract_rxclass_graph
+#' @export
+
+
 extract_rxclass_graph <-
   function(class_types =
   c(
@@ -13,6 +26,20 @@ extract_rxclass_graph <-
     "SCHEDULE",
     "STRUCT",
     "DISPOS")) {
+
+
+    cli::cli_progress_bar(
+      format = paste0(
+        "[{as.character(Sys.time())}] {.strong {classType}} {.file {fileType}} ",
+        "({cli::pb_current}/{cli::pb_total}) Elapsed:{cli::pb_elapsed}"
+      ),
+      format_done = paste0(
+        "[{as.character(Sys.time())}] {cli::col_green(cli::symbol$tick)} Wrote {cli::pb_total} csvs ",
+        "in {cli::pb_elapsed}."
+      ),
+      total = length(class_types)*3, # 3 for nodes, edges, and concept_ancestor
+      clear = FALSE
+    )
 
 for (class_type in class_types) {
 
@@ -33,6 +60,12 @@ for (class_type in class_types) {
   class_type_node_csv <-
     file.path(dir, "node.csv")
 
+  # objects for the progress bar
+  classType <- class_type
+  fileType  <-  "node.csv"
+  cli::cli_progress_update()
+  Sys.sleep(0.01)
+
   if (!file.exists(class_type_node_csv)) {
 
     class_type_data <- load_rxclass_graph(class_types = class_type)
@@ -43,6 +76,12 @@ for (class_type in class_types) {
     )
 
   }
+
+  # objects for the progress bar
+  classType <- class_type
+  fileType  <-  "edge.csv"
+  cli::cli_progress_update()
+  Sys.sleep(0.01)
 
   class_type_edge_csv <-
     file.path(dir, "edge.csv")
@@ -58,6 +97,11 @@ for (class_type in class_types) {
 
   }
 
+  # objects for the progress bar
+  classType <- class_type
+  fileType  <-  "concept_ancestor.csv"
+  cli::cli_progress_update()
+  Sys.sleep(0.01)
 
   class_type_concept_ancestor_csv <-
     file.path(dir, "concept_ancestor.csv")
@@ -65,10 +109,10 @@ for (class_type in class_types) {
   if (!file.exists(class_type_concept_ancestor_csv)) {
 
 
-    class_type_data <- load_rxclass_graph(class_types = class_type)
-    node <- class_type_data$NODE
+    #class_type_data <- load_rxclass_graph(class_types = class_type)
+    node <- readr::read_csv(class_type_node_csv, show_col_types = FALSE)
     edge <-
-      class_type_data$EDGE %>%
+      readr::read_csv(class_type_edge_csv, show_col_types = FALSE) %>%
       # filter for hierarchical relationships
       dplyr::filter(rela == 'isa')
 
@@ -96,6 +140,7 @@ for (class_type in class_types) {
     j <- 0
     output <- list()
     while (continue == TRUE) {
+
       j <- j + 1
 
       if (j == 1) {
@@ -133,7 +178,16 @@ for (class_type in class_types) {
             sprintf("parent_%s", j+1)
           )
 
-        if (nrow(next_children) == 0) {
+        # Has the dataframe already been retrieved?
+        # If this is a duplicate dataframe, this means that there might be a
+        # possible cyclical relationship in the hierarchy
+        qa_output <-
+        output %>%
+          purrr::map(unname) %>%
+          purrr::map(function(x) identical(x, unname(next_children))) %>%
+          purrr::keep(~.==TRUE)
+
+        if (nrow(next_children) == 0|length(qa_output)>0) {
 
           continue <- FALSE
 
