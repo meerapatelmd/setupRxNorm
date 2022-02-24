@@ -208,7 +208,7 @@ extract_rxclass_members <-
     )
 
     unlink(tmp_dir,
-           recursive = FALSE)
+           recursive = TRUE)
 
   }
   }
