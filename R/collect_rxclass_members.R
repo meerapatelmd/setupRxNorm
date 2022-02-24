@@ -1,9 +1,15 @@
 #' @title
 #' Collect RxClass Members Data
-#' @param class_types Vector of desired classTypes. This vector is also
+#' @param rela_sources Vector of desired classTypes. This vector is also
 #' in the order of the API calls will be made. Can be one or more of the following:
-#' "MESHPA", "EPC", "MOA", "PE", "PK", "DISEASE", "DISPOS", "CHEM",
-#' "SCHEDULE", "STRUCT", "TC", "VA", "ATC1-4".
+#' 'DAILYMED',
+#' 'MESH',
+#' 'FDASPL',
+#' 'FMTSME',
+#' 'VA',
+#' 'MEDRT',
+#' 'RXNORM',
+#' 'SNOMEDCT'.
 #' @import tidyverse
 #' @import cli
 #' @import httr
@@ -12,8 +18,7 @@
 
 
 collect_rxclass_members <-
-  function(class_types = c("MESHPA","EPC","MOA","PE","PK","TC","VA","DISEASE","DISPOS","CHEM", "SCHEDULE","STRUCT"),
-           rela_sources =
+  function(rela_sources =
            c(
              'DAILYMED',
              'MESH',
@@ -23,7 +28,52 @@ collect_rxclass_members <-
              'MEDRT',
              'RXNORM',
              'SNOMEDCT'
-           )) {
+           ),
+           class_types =
+             c(
+               "MESHPA",
+               "EPC",
+               "MOA",
+               "PE",
+               "PK",
+               "TC",
+               "VA",
+               "DISEASE",
+               "DISPOS",
+               "CHEM",
+               "SCHEDULE",
+               "STRUCT")) {
+
+
+    # Derived from https://lhncbc.nlm.nih.gov/RxNav/applications/RxClassIntro.html
+    # to reduce the number of API calls needed per relaSource
+    lookup <-
+      tibble::tribble(
+                      ~classType, ~relaSources,
+                      "ATC1-4", "ATC",
+                      "CHEM", "DAILYMED",
+                      "CHEM", "FDASPL",
+                      "CHEM", "MEDRT",
+                      "DISEASE", "MEDRT",
+                      "DISPOS", "SNOMEDCT",
+                      "EPC", "DAILYMED",
+                      "EPC", "FDASPL",
+                      "MESHPA", "MESH",
+                      "MOA", "DAILYMED",
+                      "MOA", "FDASPL",
+                      "MOA", "MEDRT",
+                      "PE", "DAILYMED",
+                      "PE", "FDASPL",
+                      "PE", "MEDRT",
+                      "PK", "MEDRT",
+                      "SCHEDULE", "RXNORM",
+                      "STRUCT", "SNOMEDCT",
+                      "TC", "FMTSME",
+                      "VA", "VA") %>%
+      dplyr::filter(relaSources %in% rela_sources) %>%
+      dplyr::filter(classType %in% class_types)
+
+    class_types <- unique(lookup$classType)
 
     service_domain <- "https://rxnav.nlm.nih.gov"
 
@@ -66,7 +116,7 @@ collect_rxclass_members <-
     rels_df  <- get_rxnav_relationships()
     rels_df <-
     rels_df %>%
-      dplyr::filter(relaSource == rela_sources)
+      dplyr::filter(relaSource %in% rela_sources)
 
     class_df <- get_rxnav_classes()
     class_df <-
@@ -76,7 +126,9 @@ collect_rxclass_members <-
         classType =
           factor(classType, levels = class_types)) %>%
       arrange(classType) %>%
-      mutate(classType = as.character(classType))
+      mutate(classType = as.character(classType)) %>%
+      inner_join(lookup,
+                 by = "classType")
 
     cli::cli_text(
       "[{as.character(Sys.time())}] {.emph {'Collecting...'}}"
@@ -88,33 +140,38 @@ cli::cli_progress_bar(
     "({cli::pb_current}/{cli::pb_total})  ETA:{time_remaining}  Elapsed:{cli::pb_elapsed}"
       ),
   format_done = paste0(
-    "[{as.character(Sys.time())}] {cli::col_green(symbol$tick)} Collected {cli::pb_total} graphs ",
+    "[{as.character(Sys.time())}] {cli::col_green(symbol$tick)} Collected {cli::pb_total} {classType} graphs ",
     "in {cli::pb_elapsed}."
     ),
-  total = nrow(class_df)*nrow(rels_df),
+  total = nrow(class_df),
   clear = FALSE
     )
 
     # Total time it would take from scratch
     # 3 seconds * total calls that need to be made
-    grand_total_calls <- nrow(class_df)*nrow(rels_df)
+    grand_total_calls <- nrow(class_df)
 
-    time_remaining <- as.character(lubridate::duration(seconds = (grand_total_calls)*3))
 
     for (kk in 1:nrow(class_df)) {
       classId        <- class_df$classId[kk]
       className      <- class_df$className[kk]
       classType      <- class_df$classType[kk]
-      time_remaining <- as.character(lubridate::duration(seconds = (grand_total_calls-kk)*3*nrow(rels_df)))
       dirs_kk        <- dirs_ls$class_types[[classType]]
+      relaSource     <- class_df$relaSources[kk]
 
 
-      for (ll in 1:nrow(rels_df)) {
+      time_remaining <-
+        as.character(
+          lubridate::duration(
+            seconds =
+              3*(grand_total_calls-kk)
+          )
+        )
 
-        cli::cli_progress_update()
+      cli::cli_progress_update()
 
       http_request <-
-        glue::glue("/REST/rxclass/classMembers.json?classId={classId}&relaSource={rels_df$relaSource[ll]}")
+        glue::glue("/REST/rxclass/classMembers.json?classId={classId}&relaSource={relaSource}")
 
       url <-
         paste0(
@@ -157,7 +214,6 @@ cli::cli_progress_bar(
           object = content(resp)
         )
         }
-      }
       }
     }
 }
