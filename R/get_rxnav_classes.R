@@ -1,5 +1,19 @@
 get_rxnav_classes <-
-  function() {
+  function(class_types = c(
+               "MESHPA",
+               "EPC",
+               "MOA",
+               "PE",
+               "PK",
+               "TC",
+               "VA",
+               "DISEASE",
+               "CHEM",
+               "SCHEDULE",
+               "STRUCT",
+               "DISPOS")) {
+
+
   service_domain <- "https://rxnav.nlm.nih.gov"
 
 version_key <- get_rxnav_api_version()
