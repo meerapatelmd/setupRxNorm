@@ -96,7 +96,7 @@ extract_rxclass_members <-
         "inst",
         "RxClass API",
         version_key$version,
-        "csv",
+        "staged",
         class_type,
         "members")
 
