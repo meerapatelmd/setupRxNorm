@@ -1,12 +1,41 @@
 load_rxclass_members <-
-  function(class_types,
-           rela_sources) {
+  function(rela_sources,
+           class_types) {
 
-    collect_rxclass_members(class_types = class_types,
-                            rela_sources = rela_sources)
+    collect_rxclass_members(rela_sources = rela_sources,
+                            class_types = class_types)
+
+    # Derived from https://lhncbc.nlm.nih.gov/RxNav/applications/RxClassIntro.html
+    # to reduce the number of API calls needed per relaSource
+    lookup <-
+      tibble::tribble(
+        ~classType, ~relaSources,
+        "ATC1-4", "ATC",
+        "CHEM", "DAILYMED",
+        "CHEM", "FDASPL",
+        "CHEM", "MEDRT",
+        "DISEASE", "MEDRT",
+        "DISPOS", "SNOMEDCT",
+        "EPC", "DAILYMED",
+        "EPC", "FDASPL",
+        "MESHPA", "MESH",
+        "MOA", "DAILYMED",
+        "MOA", "FDASPL",
+        "MOA", "MEDRT",
+        "PE", "DAILYMED",
+        "PE", "FDASPL",
+        "PE", "MEDRT",
+        "PK", "MEDRT",
+        "SCHEDULE", "RXNORM",
+        "STRUCT", "SNOMEDCT",
+        "TC", "FMTSME",
+        "VA", "VA") %>%
+      dplyr::filter(relaSources %in% rela_sources)  %>%
+      dplyr::filter(classType %in% class_types)
+
+    class_types <- unique(lookup$classType)
 
     service_domain <- "https://rxnav.nlm.nih.gov"
-
     version_key <- get_rxnav_api_version()
 
 
@@ -45,7 +74,7 @@ load_rxclass_members <-
     rels_df  <- get_rxnav_relationships()
     rels_df <-
       rels_df %>%
-      dplyr::filter(relaSource == rela_sources)
+      dplyr::filter(relaSource %in% rela_sources)
 
     class_df <- get_rxnav_classes()
     class_df <-
@@ -55,7 +84,9 @@ load_rxclass_members <-
         classType =
           factor(classType, levels = class_types)) %>%
       arrange(classType) %>%
-      mutate(classType = as.character(classType))
+      mutate(classType = as.character(classType)) %>%
+      inner_join(lookup,
+                 by = "classType")
 
     cli::cli_text(
       "[{as.character(Sys.time())}] {.emph {'Collecting...'}}"
@@ -70,94 +101,99 @@ load_rxclass_members <-
         "[{as.character(Sys.time())}] {cli::col_green(symbol$tick)} Collected {cli::pb_total} graphs ",
         "in {cli::pb_elapsed}."
       ),
-      total = nrow(class_df)*nrow(rels_df),
+      total = nrow(class_df),
       clear = FALSE
     )
 
     # Total time it would take from scratch
     # 3 seconds * total calls that need to be made
-    grand_total_calls <- nrow(class_df)*nrow(rels_df)
-
-    time_remaining <- as.character(lubridate::duration(seconds = (grand_total_calls)*3))
+    grand_total_calls <- nrow(class_df)
 
     output <- list()
     for (kk in 1:nrow(class_df)) {
       classId        <- class_df$classId[kk]
       className      <- class_df$className[kk]
       classType      <- class_df$classType[kk]
-      time_remaining <- as.character(lubridate::duration(seconds = (grand_total_calls-kk)*3*nrow(rels_df)))
       dirs_kk        <- dirs_ls$class_types[[classType]]
-      output[[kk]]   <- list()
+      relaSource     <- class_df$relaSources[kk]
 
 
-      for (ll in 1:nrow(rels_df)) {
+      time_remaining <-
+        as.character(
+          lubridate::duration(
+            seconds =
+              3*(grand_total_calls-kk)
+          )
+        )
 
-        cli::cli_progress_update()
+      cli::cli_progress_update()
 
-        http_request <-
-          glue::glue("/REST/rxclass/classMembers.json?classId={classId}&relaSource={rels_df$relaSource[ll]}")
+      http_request <-
+        glue::glue("/REST/rxclass/classMembers.json?classId={classId}&relaSource={relaSource}")
 
-        url <-
-          paste0(
-            service_domain,
-            http_request
+      url <-
+        paste0(
+          service_domain,
+          http_request
+        )
+
+      key <-
+        list(
+          version_key,
+          url
+        )
+
+      results <-
+        R.cache::loadCache(
+          dirs = dirs_kk,
+          key = key
+        )
+
+
+      if (is.null(results)) {
+        Sys.sleep(3)
+        resp <-
+          GET(url = url)
+
+        if (length(content(resp)) == 0) {
+
+          R.cache::saveCache(
+            dirs = dirs_kk,
+            key = key,
+            object = ""
           )
 
-        key <-
-          list(
-            version_key,
-            url
+        } else {
+
+
+          R.cache::saveCache(
+            dirs = dirs_kk,
+            key = key,
+            object = content(resp)
           )
+        }
 
         results <-
           R.cache::loadCache(
             dirs = dirs_kk,
             key = key
           )
-
-
-        if (is.null(results)) {
-          Sys.sleep(3)
-          resp <-
-            GET(url = url)
-
-          if (length(content(resp)) == 0) {
-
-            R.cache::saveCache(
-              dirs = dirs_kk,
-              key = key,
-              object = ""
-            )
-
-          } else {
-
-
-            R.cache::saveCache(
-              dirs = dirs_kk,
-              key = key,
-              object = content(resp)
-            )
-          }
-
-          results <-
-            R.cache::loadCache(
-              dirs = dirs_kk,
-              key = key
-            )
-        }
-
-        output[[kk]][[ll]]      <- results
-        names(output[[kk]])[ll] <- rels_df$relaSource[ll]
-
       }
+
+        output[[kk]]      <- results
+        names(output)[kk] <- relaSource
+
     }
 
     names(output) <-
       class_df$classId
 
 
+    # output %>%
+    #   purrr::transpose() %>%
+    #   map(function(x) purrr::keep(x, ~!identical(., "")))
+    #
     output %>%
-      purrr::transpose() %>%
-      map(function(x) purrr::keep(x, ~!identical(., "")))
+      purrr::keep(~!identical(.,""))
 
   }
