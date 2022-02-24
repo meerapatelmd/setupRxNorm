@@ -111,27 +111,38 @@ extract_rxclass_members <-
 
     }
 
+
     members_csv <-
       file.path(dir, sprintf("%s.csv", rela_source))
 
     cli::cli_progress_update()
     Sys.sleep(0.01)
 
-  output <- list()
   if (!file.exists(members_csv)) {
+    tmp_path_vctr <-
+      c(path_vctr,
+        "tmp",
+        rela_source)
+
+    for (i in 1:length(tmp_path_vctr)) {
+
+      tmp_dir <- paste(tmp_path_vctr[1:i], collapse = .Platform$file.sep)
+
+      if (!dir.exists(tmp_dir)) {
+
+        dir.create(tmp_dir)
+
+      }
+
+    }
+
+    unlink(tmp_dir, recursive = TRUE)
+    dir.create(tmp_dir)
 
     members_data <- load_rxclass_members(rela_sources = rela_source)
-
-    output <-
-      vector(
-        mode = "list",
-        length = length(members_data)
-      )
-    names(output) <-
-      names(members_data)
-
     for (aa in seq_along(members_data)) {
-      output[[aa]] <- list()
+      output <- list()
+      class_id <- names(members_data)[aa]
       member_concepts_data <-
         members_data[[aa]]$drugMemberGroup$drugMember
 
@@ -146,31 +157,49 @@ extract_rxclass_members <-
           map(tibble::as_tibble_row) %>%
           bind_rows() %>%
           pivot_wider(names_from = attrName,
-                      values_from = attrValue)
+                      values_from = attrValue,
+                      values_fn = list)
 
         member_concept_df <-
-        bind_cols(minConcept, nodeAttr)
+        bind_cols(minConcept, nodeAttr) %>%
+          unnest(everything())
 
 
-        output[[aa]][[bb]] <-
+        output[[bb]] <-
           member_concept_df
 
 
       }
 
+      output <-
+        output %>%
+        bind_rows() %>%
+        mutate(classId = class_id)
+
+
+      readr::write_csv(
+        x = output,
+        file = file.path(tmp_dir, sprintf("%s.csv", class_id))
+      )
+
 
     }
 
-    output <-
-      output %>%
-      map(bind_rows) %>%
-      bind_rows(.id = "classId")
+    final_output <-
+    list.files(tmp_dir,
+               full.names = TRUE) %>%
+      map(read_csv,
+          col_types = readr::cols(.default = "c")) %>%
+      bind_rows()
 
 
     readr::write_csv(
-      x = output,
+      x = final_output,
       file = members_csv
     )
+
+    unlink(tmp_dir,
+           recursive = FALSE)
 
   }
   }
