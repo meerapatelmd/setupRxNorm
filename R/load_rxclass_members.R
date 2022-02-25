@@ -1,6 +1,63 @@
 load_rxclass_members <-
-  function(rela_sources,
-           class_types) {
+  function(rela_sources =
+             c(
+               'DAILYMED',
+               'MESH',
+               'FDASPL',
+               'FMTSME',
+               'VA',
+               'MEDRT',
+               'RXNORM',
+               'SNOMEDCT'),
+           class_types =
+             c(
+               "MESHPA",
+               "EPC",
+               "MOA",
+               "PE",
+               "PK",
+               "TC",
+               "VA",
+               "DISEASE",
+               "DISPOS",
+               "CHEM",
+               "SCHEDULE",
+               "STRUCT")) {
+
+
+    rela_sources <-
+      match.arg(
+        arg = rela_sources,
+        choices =
+          c(
+            'DAILYMED',
+            'MESH',
+            'FDASPL',
+            'FMTSME',
+            'VA',
+            'MEDRT',
+            'RXNORM',
+            'SNOMEDCT'),
+        several.ok = TRUE)
+
+
+    class_types <-
+      match.arg(arg = class_types,
+                choices =
+                  c(
+                    "MESHPA",
+                    "EPC",
+                    "MOA",
+                    "PE",
+                    "PK",
+                    "TC",
+                    "VA",
+                    "DISEASE",
+                    "DISPOS",
+                    "CHEM",
+                    "SCHEDULE",
+                    "STRUCT"),
+                several.ok = TRUE)
 
     collect_rxclass_members(rela_sources = rela_sources,
                             class_types = class_types)
@@ -89,16 +146,18 @@ load_rxclass_members <-
                  by = "classType")
 
     cli::cli_text(
-      "[{as.character(Sys.time())}] {.emph {'Collecting...'}}"
+      "[{as.character(Sys.time())}] {.emph {'Loading RxClass Members...'}}"
     )
 
     cli::cli_progress_bar(
       format = paste0(
         "[{as.character(Sys.time())}] {.strong {classType}}: {classId} {className} ",
-        "({cli::pb_current}/{cli::pb_total})  ETA:{time_remaining}  Elapsed:{cli::pb_elapsed}"
+        "RelaSource:{relaSource} ",
+        "({cli::pb_current}/{cli::pb_total})  ETA:{time_remaining}  Elapsed:{cli::pb_elapsed}\n",
+        "[{as.character(Sys.time())}] {.url {url}}"
       ),
       format_done = paste0(
-        "[{as.character(Sys.time())}] {cli::col_green(symbol$tick)} Collected {cli::pb_total} graphs ",
+        "[{as.character(Sys.time())}] {cli::col_green(symbol$tick)} Loaded {cli::pb_total} RxClass members ",
         "in {cli::pb_elapsed}."
       ),
       total = nrow(class_df),
@@ -126,8 +185,6 @@ load_rxclass_members <-
           )
         )
 
-      cli::cli_progress_update()
-
       http_request <-
         glue::glue("/REST/rxclass/classMembers.json?classId={classId}&relaSource={relaSource}")
 
@@ -136,6 +193,8 @@ load_rxclass_members <-
           service_domain,
           http_request
         )
+
+      cli::cli_progress_update()
 
       key <-
         list(

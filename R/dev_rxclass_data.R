@@ -1,3 +1,22 @@
+#' @title FUNCTION_TITLE
+#' @description FUNCTION_DESCRIPTION
+#' @param rela_sources PARAM_DESCRIPTION, Default: c("DAILYMED", "MESH", "FDASPL", "FMTSME", "VA", "MEDRT", "RXNORM",
+#'    "SNOMEDCT")
+#' @param class_types PARAM_DESCRIPTION, Default: c("MESHPA", "EPC", "MOA", "PE", "PK", "TC", "VA", "DISPOS", "SCHEDULE",
+#'    "STRUCT")
+#' @return OUTPUT_DESCRIPTION
+#' @details DETAILS
+#' @rdname dev_rxclass_data
+#' @export
+#' @importFrom tibble tribble
+#' @importFrom dplyr filter bind_rows select mutate distinct
+#' @importFrom cli cat_rule style_bold col_red cli_abort
+#' @importFrom huxtable hux theme_article print_screen
+#' @importFrom readr read_csv cols write_csv
+#' @importFrom purrr set_names
+#' @importFrom xfun sans_ext
+
+
 dev_rxclass_data <-
   function(rela_sources =
              c(
@@ -19,20 +38,99 @@ dev_rxclass_data <-
                "PK",
                "TC",
                "VA",
-               "DISEASE",
+               #"DISEASE",
                "DISPOS",
-               "CHEM",
+               #"CHEM",
                "SCHEDULE",
                "STRUCT"
                )) {
 
 
+
+    lookup <-
+      tibble::tribble(
+        ~classType, ~relaSources,
+        "ATC1-4", "ATC",
+        "CHEM", "DAILYMED",
+        "CHEM", "FDASPL",
+        "CHEM", "MEDRT",
+        "DISEASE", "MEDRT",
+        "DISPOS", "SNOMEDCT",
+        "EPC", "DAILYMED",
+        "EPC", "FDASPL",
+        "MESHPA", "MESH",
+        "MOA", "DAILYMED",
+        "MOA", "FDASPL",
+        "MOA", "MEDRT",
+        "PE", "DAILYMED",
+        "PE", "FDASPL",
+        "PE", "MEDRT",
+        "PK", "MEDRT",
+        "SCHEDULE", "RXNORM",
+        "STRUCT", "SNOMEDCT",
+        "TC", "FMTSME",
+        "VA", "VA") %>%
+      dplyr::filter(relaSources %in% rela_sources) %>%
+      dplyr::filter(classType %in% class_types)
+
+    if (nrow(lookup)==0) {
+
+      cli::cat_rule(cli::style_bold(cli::col_red(" * Error * ")),
+                    line_col = "red")
+
+      tibble::tribble(
+        ~classType, ~relaSources,
+        "ATC1-4", "ATC",
+        "CHEM", "DAILYMED",
+        "CHEM", "FDASPL",
+        "CHEM", "MEDRT",
+        "DISEASE", "MEDRT",
+        "DISPOS", "SNOMEDCT",
+        "EPC", "DAILYMED",
+        "EPC", "FDASPL",
+        "MESHPA", "MESH",
+        "MOA", "DAILYMED",
+        "MOA", "FDASPL",
+        "MOA", "MEDRT",
+        "PE", "DAILYMED",
+        "PE", "FDASPL",
+        "PE", "MEDRT",
+        "PK", "MEDRT",
+        "SCHEDULE", "RXNORM",
+        "STRUCT", "SNOMEDCT",
+        "TC", "FMTSME",
+        "VA", "VA") %>%
+        huxtable::hux() %>%
+        huxtable::theme_article() %>%
+        huxtable::print_screen(colnames = FALSE)
+
+      cli::cli_abort(
+        c("No association between {.var rela_sources} and {.var class_types}. See lookup above for correct combinations.",
+          "x" = "rela_sources: {glue::glue_collapse(glue::single_quote(rela_sources), sep = ', ', last = ', and ')}",
+          "x" = "class_types : {glue::glue_collapse(glue::single_quote(class_types), sep = ', ', last = ', and ')}"),
+        call = NULL,
+        trace = NULL)
+
+    } else {
+
+      huxtable::hux(lookup) %>%
+        huxtable::theme_article() %>%
+        huxtable::print_screen(colnames = FALSE)
+
+
+    }
+
+
     version_key <- get_rxnav_api_version()
 
-    for (class_type in class_types) {
+    for (zz in 1:nrow(lookup)) {
 
+      class_type  <- lookup$classType[zz]
+      rela_source <- lookup$relaSources[zz]
+
+      extract_rxclass_members(class_types = class_type,
+                              rela_sources = rela_source)
       extract_rxclass_graph(class_types = class_type)
-      extract_rxclass_members(class_types = class_type)
 
       # Output Path
       path_vctr   <-

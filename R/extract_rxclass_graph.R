@@ -27,6 +27,8 @@ extract_rxclass_graph <-
     "STRUCT",
     "DISPOS")) {
 
+    cli::cli_h1(text = "RxClass Graph")
+
 
     cli::cli_progress_bar(
       format = paste0(
@@ -59,12 +61,12 @@ for (class_type in class_types) {
 
   class_type_node_csv <-
     file.path(dir, "node.csv")
+  cli::cli_text("[{as.character(Sys.time())}] {.file {class_type_node_csv}} ")
 
   # objects for the progress bar
   classType <- class_type
   fileType  <-  "node.csv"
   cli::cli_progress_update()
-  Sys.sleep(0.01)
 
   if (!file.exists(class_type_node_csv)) {
 
@@ -77,14 +79,14 @@ for (class_type in class_types) {
 
   }
 
+  class_type_edge_csv <-
+    file.path(dir, "edge.csv")
+  cli::cli_text("[{as.character(Sys.time())}] {.file {class_type_edge_csv}} ")
+
   # objects for the progress bar
   classType <- class_type
   fileType  <-  "edge.csv"
   cli::cli_progress_update()
-  Sys.sleep(0.01)
-
-  class_type_edge_csv <-
-    file.path(dir, "edge.csv")
 
   if (!file.exists(class_type_edge_csv)) {
 
@@ -97,14 +99,14 @@ for (class_type in class_types) {
 
   }
 
+  class_type_concept_ancestor_csv <-
+    file.path(dir, "concept_ancestor.csv")
+  cli::cli_text("[{as.character(Sys.time())}] {.file {class_type_concept_ancestor_csv}} ")
+
   # objects for the progress bar
   classType <- class_type
   fileType  <-  "concept_ancestor.csv"
   cli::cli_progress_update()
-  Sys.sleep(0.01)
-
-  class_type_concept_ancestor_csv <-
-    file.path(dir, "concept_ancestor.csv")
 
   if (!file.exists(class_type_concept_ancestor_csv)) {
 
