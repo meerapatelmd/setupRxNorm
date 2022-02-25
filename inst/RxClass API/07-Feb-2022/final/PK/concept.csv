@@ -1,0 +1,96 @@
+vocabulary_id,concept_code,concept_name,concept_class
+PK,N0000000030,Enzymatic Pathway of Metabolism,Class
+PK,N0000000041,Route of Excretion,Class
+PK,N0000000042,Renal Excretion,Class
+PK,N0000000043,Hepatic Excretion,Class
+PK,N0000000045,Fecal Excretion,Class
+PK,N0000000046,Breast Milk Excretion,Class
+PK,N0000000025,Intestinal Metabolism,Class
+PK,N0000000027,Pulmonary Metabolism,Class
+PK,N0000008289,Aromatic hydroxylation,Class
+PK,103,mercaptopurine,Concept
+PK,3407,digoxin,Concept
+PK,203212,ipratropium bromide,Concept
+PK,4124,ethinyl estradiol,Concept
+PK,1000112,medroxyprogesterone acetate,Concept
+PK,1191,aspirin,Concept
+PK,1202,atenolol,Concept
+PK,133008,amoxicillin trihydrate,Concept
+PK,1347,beclomethasone,Concept
+PK,1348,beclomethasone dipropionate,Concept
+PK,140587,celecoxib,Concept
+PK,142153,albuterol sulfate,Concept
+PK,142442,naproxen sodium,Concept
+PK,161,acetaminophen,Concept
+PK,17128,lansoprazole,Concept
+PK,18631,azithromycin,Concept
+PK,203136,ranitidine hydrochloride,Concept
+PK,235412,codeine polistirex,Concept
+PK,235743,metformin hydrochloride,Concept
+PK,253155,azithromycin dihydrate,Concept
+PK,2541,cimetidine,Concept
+PK,2670,codeine,Concept
+PK,2672,codeine phosphate,Concept
+PK,314293,acetylsalicylate sodium,Concept
+PK,36761,ibuprofen lysine,Concept
+PK,38413,torsemide,Concept
+PK,4099,"estrogens, conjugated (USP)",Concept
+PK,435,albuterol,Concept
+PK,4603,furosemide,Concept
+PK,4719,gemfibrozil,Concept
+PK,48203,clavulanate,Concept
+PK,5487,hydrochlorothiazide,Concept
+PK,55471,ranitidine bismuth citrate,Concept
+PK,5640,ibuprofen,Concept
+PK,596,alprazolam,Concept
+PK,6691,medroxyprogesterone,Concept
+PK,6809,metformin,Concept
+PK,723,amoxicillin,Concept
+PK,7258,naproxen,Concept
+PK,831418,clavulanate potassium,Concept
+PK,91104,codeine sulfate,Concept
+PK,91251,cimetidine hydrochloride,Concept
+PK,9143,ranitidine,Concept
+RxNorm,103,mercaptopurine,Concept
+RxNorm,3407,digoxin,Concept
+RxNorm,203212,ipratropium bromide,Concept
+RxNorm,4124,ethinyl estradiol,Concept
+RxNorm,1000112,medroxyprogesterone acetate,Concept
+RxNorm,1191,aspirin,Concept
+RxNorm,1202,atenolol,Concept
+RxNorm,133008,amoxicillin trihydrate,Concept
+RxNorm,1347,beclomethasone,Concept
+RxNorm,1348,beclomethasone dipropionate,Concept
+RxNorm,140587,celecoxib,Concept
+RxNorm,142153,albuterol sulfate,Concept
+RxNorm,142442,naproxen sodium,Concept
+RxNorm,161,acetaminophen,Concept
+RxNorm,17128,lansoprazole,Concept
+RxNorm,18631,azithromycin,Concept
+RxNorm,203136,ranitidine hydrochloride,Concept
+RxNorm,235412,codeine polistirex,Concept
+RxNorm,235743,metformin hydrochloride,Concept
+RxNorm,253155,azithromycin dihydrate,Concept
+RxNorm,2541,cimetidine,Concept
+RxNorm,2670,codeine,Concept
+RxNorm,2672,codeine phosphate,Concept
+RxNorm,314293,acetylsalicylate sodium,Concept
+RxNorm,36761,ibuprofen lysine,Concept
+RxNorm,38413,torsemide,Concept
+RxNorm,4099,"estrogens, conjugated (USP)",Concept
+RxNorm,435,albuterol,Concept
+RxNorm,4603,furosemide,Concept
+RxNorm,4719,gemfibrozil,Concept
+RxNorm,48203,clavulanate,Concept
+RxNorm,5487,hydrochlorothiazide,Concept
+RxNorm,55471,ranitidine bismuth citrate,Concept
+RxNorm,5640,ibuprofen,Concept
+RxNorm,596,alprazolam,Concept
+RxNorm,6691,medroxyprogesterone,Concept
+RxNorm,6809,metformin,Concept
+RxNorm,723,amoxicillin,Concept
+RxNorm,7258,naproxen,Concept
+RxNorm,831418,clavulanate potassium,Concept
+RxNorm,91104,codeine sulfate,Concept
+RxNorm,91251,cimetidine hydrochloride,Concept
+RxNorm,9143,ranitidine,Concept
