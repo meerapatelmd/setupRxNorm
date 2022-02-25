@@ -1,6 +1,24 @@
 load_rxclass_graph <-
   function(class_types) {
 
+    class_types <-
+    match.arg(arg = class_types,
+              choices =
+                c(
+                  "MESHPA",
+                  "EPC",
+                  "MOA",
+                  "PE",
+                  "PK",
+                  "TC",
+                  "VA",
+                  "DISEASE",
+                  "DISPOS",
+                  "CHEM",
+                  "SCHEDULE",
+                  "STRUCT"),
+              several.ok = TRUE)
+
     collect_rxclass_graph(class_types = class_types)
 
     service_domain <- "https://rxnav.nlm.nih.gov"
@@ -51,6 +69,24 @@ load_rxclass_graph <-
       arrange(classType) %>%
       mutate(classType = as.character(classType))
 
+    cli::cli_text(
+      "[{as.character(Sys.time())}] {.emph {'Loading RxClass Graphs...'}}"
+    )
+
+    cli::cli_progress_bar(
+      format = paste0(
+        "[{as.character(Sys.time())}] {.strong {classType}}: {classId} {className} ",
+        "({cli::pb_current}/{cli::pb_total})  ETA:{time_remaining}  Elapsed:{cli::pb_elapsed}\n",
+        "[{as.character(Sys.time())}] {.url {url}}"
+      ),
+      format_done = paste0(
+        "[{as.character(Sys.time())}] {cli::col_green(symbol$tick)} Loaded {cli::pb_total} RxClass graphs ",
+        "in {cli::pb_elapsed}."
+      ),
+      total = nrow(class_df),
+      clear = FALSE
+    )
+
 
     output <- list()
     for (kk in 1:nrow(class_df)) {
@@ -62,11 +98,14 @@ load_rxclass_graph <-
 
       http_request <-
         glue::glue("/REST/rxclass/classGraph.json?classId={classId}")
+
       url <-
         paste0(
           service_domain,
           http_request
         )
+
+      cli::cli_progress_update()
 
       key <-
         list(

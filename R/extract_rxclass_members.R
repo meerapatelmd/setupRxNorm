@@ -33,6 +33,9 @@ extract_rxclass_members <-
                "SCHEDULE",
                "STRUCT")) {
 
+
+    cli::cli_h1(text = "RxClass Members")
+
     # Derived from https://lhncbc.nlm.nih.gov/RxNav/applications/RxClassIntro.html
     # to reduce the number of API calls needed per relaSource
     lookup <-
@@ -63,6 +66,9 @@ extract_rxclass_members <-
 
     if (nrow(lookup)==0) {
 
+      cli::cat_rule(cli::style_bold(cli::col_red(" * Error * ")),
+                    line_col = "red")
+
       tibble::tribble(
         ~classType, ~relaSources,
         "ATC1-4", "ATC",
@@ -90,16 +96,17 @@ extract_rxclass_members <-
         huxtable::print_screen(colnames = FALSE)
 
       cli::cli_abort(
-        "Relationships from {glue::glue_collapse(glue::single_quote(rela_sources), sep = ', ', last = ', and ')} to
-        {glue::glue_collapse(glue::single_quote(class_types), sep = ', ', last = ', and ')} doesn't exist. Options are
-        printed above."
-      )
+        c("No association between {.var rela_sources} and {.var class_types}. See lookup above for correct combinations.",
+          "x" = "rela_sources: {glue::glue_collapse(glue::single_quote(rela_sources), sep = ', ', last = ', and ')}",
+          "x" = "class_types : {glue::glue_collapse(glue::single_quote(class_types), sep = ', ', last = ', and ')}"),
+        call = NULL,
+        trace = NULL)
 
     } else {
 
-        huxtable::hux(lookup) %>%
-        huxtable::theme_article() %>%
-        huxtable::print_screen(colnames = FALSE)
+      huxtable::hux(lookup) %>%
+      huxtable::theme_article() %>%
+      huxtable::print_screen(colnames = FALSE)
 
 
     }
@@ -114,7 +121,7 @@ extract_rxclass_members <-
       ),
       format_done = paste0(
         "[{as.character(Sys.time())}] {cli::col_green(cli::symbol$tick)} Wrote {cli::pb_total} csvs ",
-        "in {cli::pb_elapsed}."
+        "in {cli::pb_elapsed}"
       ),
       total = nrow(lookup),
       clear = FALSE
@@ -148,10 +155,8 @@ extract_rxclass_members <-
 
     members_csv <-
       file.path(dir, sprintf("%s.csv", rela_source))
-
+    cli::cli_text("[{as.character(Sys.time())}] {.file {members_csv}} ")
     cli::cli_progress_update()
-    Sys.sleep(0.01)
-
   if (!file.exists(members_csv)) {
     tmp_path_vctr <-
       c(path_vctr,

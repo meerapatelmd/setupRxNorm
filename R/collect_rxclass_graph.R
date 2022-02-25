@@ -98,8 +98,6 @@ collect_rxclass_graph <-
 
     time_remaining <- as.character(lubridate::duration(seconds = (grand_total_calls)*3))
     for (kk in 1:nrow(class_df)) {
-      cli::cli_progress_update()
-      # Sys.sleep(0.01)
 
       classId        <- class_df$classId[kk]
       className      <- class_df$className[kk]
@@ -114,6 +112,7 @@ collect_rxclass_graph <-
           service_domain,
           http_request
         )
+      cli::cli_progress_update()
 
       key <-
         list(
