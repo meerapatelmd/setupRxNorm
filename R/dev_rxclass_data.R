@@ -493,14 +493,64 @@ dev_rxclass_data <-
       file = file.path(dir, "CONCEPT_ANCESTOR.csv")
     )
 
+    ## README
+
+    readme_df <-
+    tibble::tribble(
+      ~classType, ~relaSources,
+      "ATC1-4", "ATC",
+      "CHEM", "DAILYMED",
+      "CHEM", "FDASPL",
+      "CHEM", "MEDRT",
+      "DISEASE", "MEDRT",
+      "DISPOS", "SNOMEDCT",
+      "EPC", "DAILYMED",
+      "EPC", "FDASPL",
+      "MESHPA", "MESH",
+      "MOA", "DAILYMED",
+      "MOA", "FDASPL",
+      "MOA", "MEDRT",
+      "PE", "DAILYMED",
+      "PE", "FDASPL",
+      "PE", "MEDRT",
+      "PK", "MEDRT",
+      "SCHEDULE", "RXNORM",
+      "STRUCT", "SNOMEDCT",
+      "TC", "FMTSME",
+      "VA", "VA") %>%
+      left_join(lookup,
+                by = c("classType", "relaSources"),
+                keep = TRUE,
+                suffix = c(".default", ".version")) %>%
+      mutate_at(vars(ends_with(".version")),
+                ~ifelse(is.na(.), "", "X")) %>%
+      rename(
+        classType = classType.default,
+        relaSources = relaSources.default,
+        `version classType` = classType.version,
+        `version relaSources` = relaSources.version
+      )
+
+    readme_df_as_lines <-
+    capture.output(huxtable::print_screen(hux(readme_df), colnames = FALSE))
+
+    # Huxtable centers table in output, and this replaces it with an indent
+    readme_df_as_lines <-
+      stringr::str_replace_all(
+        string = readme_df_as_lines,
+        pattern = "(^[ ]{1,})([A-Za-z]{1,}.*?)",
+        replacement = "\t\\2"
+      )
+
     cat(
       "RxClass (setupRxNorm R package)",
+      "Sourced from RxNav's RxClass API: https://lhncbc.nlm.nih.gov/RxNav/APIs/RxClassAPIs.html",
       "patelmeeray@gmail.com",
       "---",
-      "- Sourced from members and graphs via RxNav RESTful API",
-      "- Structure is similar to OMOP Vocabularies",
-      "- This version contains classTypes: ",
-      paste("\t", class_types, collapse = "\n"),
+      glue::glue("RxClass Version:\t\t {version_key$version}"),
+      glue::glue("RxClass API Version: {version_key$apiVersion}"),
+      "Contains: ",
+      paste("\t", readme_df_as_lines, collapse = "\n"),
       sep = "\n",
       file = file.path(dir, "README"),
       append = FALSE
