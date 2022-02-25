@@ -29,7 +29,7 @@ extract_rxclass_members <-
                "VA",
                "DISEASE",
                "DISPOS",
-               # "CHEM",
+               "CHEM",
                "SCHEDULE",
                "STRUCT")) {
 
@@ -87,7 +87,7 @@ extract_rxclass_members <-
         "VA", "VA") %>%
       huxtable::hux() %>%
         huxtable::theme_article() %>%
-        huxtable::print_screen()
+        huxtable::print_screen(colnames = FALSE)
 
       cli::cli_abort(
         "Relationships from {glue::glue_collapse(glue::single_quote(rela_sources), sep = ', ', last = ', and ')} to
@@ -99,7 +99,7 @@ extract_rxclass_members <-
 
         huxtable::hux(lookup) %>%
         huxtable::theme_article() %>%
-        huxtable::print_screen()
+        huxtable::print_screen(colnames = FALSE)
 
 
     }
@@ -171,6 +171,7 @@ extract_rxclass_members <-
     }
 
     unlink(tmp_dir, recursive = TRUE)
+    unlink(tmp_dir)
     dir.create(tmp_dir)
 
     members_data <- load_rxclass_members(rela_sources = rela_source,
