@@ -57,7 +57,8 @@ dev_rxclass_data <-
                "CHEM",
                "SCHEDULE",
                "STRUCT"
-               )) {
+               ),
+           open_readme = TRUE) {
 
 
 
@@ -556,6 +557,7 @@ dev_rxclass_data <-
         replacement = "\t\\2"
       )
 
+    readme_fn <- file.path(dir, "README")
     cat(
       "RxClass (setupRxNorm R package)",
       "Sourced from RxNav's RxClass API: https://lhncbc.nlm.nih.gov/RxNav/APIs/RxClassAPIs.html",
@@ -566,9 +568,17 @@ dev_rxclass_data <-
       "Contains: ",
       paste("\t", readme_df_as_lines, collapse = "\n"),
       sep = "\n",
-      file = file.path(dir, "README"),
+      file = readme_fn,
       append = FALSE
     )
+
+    if (open_readme) {
+
+      file.edit(readme_fn)
+
+    }
+
+
 
 
   }
