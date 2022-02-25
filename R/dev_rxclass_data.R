@@ -8,8 +8,14 @@
 #' A folder at `inst/RxClass API/{version}/omop/{timestamp}` containing
 #' a README with csvs.
 #' @details
-#' Depending on how much of the API responses are cached, this
+#' ATC classTypes and relaSources are excluded by default, but may be
+#' included if desired by adding both 'ATC1-4' to `class_types` and
+#' 'ATC' to `rela_sources`.
+#'
+#' All API responses are cached using both the RxClass Version and API Version
+#' as the key. Depending on how much of the API responses are cached, this
 #' script can take multiple days if not weeks.
+#'
 #' Since the output folder is a timestamp folder, many duplicate versions
 #' can be made each time it is run. There is no QA method that will crosscheck
 #' a previous version against the current version.
