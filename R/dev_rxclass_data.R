@@ -14,16 +14,16 @@ dev_rxclass_data <-
              c(
                "MESHPA",
                "EPC",
-               # "MOA",
-               # "PE",
+               "MOA",
+               "PE",
                "PK",
                "TC",
-               # "VA",
-               # "DISEASE",
-               # "DISPOS",
-               # "CHEM",
-               "SCHEDULE" # ,
-               # "STRUCT"
+               "VA",
+               "DISEASE",
+               "DISPOS",
+               "CHEM",
+               "SCHEDULE",
+               "STRUCT"
                )) {
 
 
@@ -232,13 +232,10 @@ dev_rxclass_data <-
         select(!ends_with(".nodes")) %>%
         distinct()
 
-      readr::write_csv(
-        x = concept_relationship_staged3,
-        file = final_concept_relationship_csv
-      )
 
 
-      }
+
+
 
 
       final_concept_ancestor <-
@@ -247,11 +244,10 @@ dev_rxclass_data <-
       col_types = readr::cols(.default = "c"),
       show_col_types = FALSE)
 
-      final_concept_relationship <-
-        readr::read_csv(
-          final_concept_relationship_csv,
-          col_types = readr::cols(.default = "c"),
-          show_col_types = FALSE)
+      final_concept_relationship <- concept_relationship_staged3
+
+      final_concept_csv <-
+        file.path(dir, "concept.csv")
 
       # All Concept Ancestor concepts are classes
       concept_staged_classes <-
@@ -271,53 +267,146 @@ dev_rxclass_data <-
           vocabulary_id = vocabulary_id_1,
           concept_code = concept_code_1,
           concept_name = concept_name_1,
-          standard_concept = "C") %>%
+          concept_class = "Class") %>%
         distinct()
 
-
+      concept_staged_non_classes <-
       final_concept_relationship %>%
         dplyr::filter(vocabulary_id_1 == class_type,
                       relationship_id != "Subsumes",
                       !(concept_code_1 %in% concept_staged_classes$concept_code)) %>%
-        count(vocabulary_id_1,
-              relationship_id,
-              vocabulary_id_2)
+        transmute(
+          vocabulary_id = vocabulary_id_1,
+          concept_code = concept_code_1,
+          concept_name = concept_name_1,
+          concept_class = "Concept") %>%
+        distinct()
 
-      # QA
-      # Are all the terminal concept codes from the source found as descendant concept codes?
+      concept_staged_rxnorm  <-
+        final_concept_relationship %>%
+        dplyr::filter(vocabulary_id_1 == "RxNorm") %>%
+        transmute(
+          vocabulary_id = vocabulary_id_1,
+          concept_code = concept_code_1,
+          concept_name = concept_name_1,
+          concept_class = "Concept") %>%
+        distinct()
 
-      final_concept_ancestor %>%
-        distinct(descendant_concept_code) %>%
-        mutate(concept_code = descendant_concept_code) %>%
-        full_join(final_concept_relationship %>%
-                    dplyr::filter(vocabulary_id_1 == class_type,
-                                  relationship_id == "Subsumes") %>%
-                    distinct(concept_code_1) %>%
-                    mutate(concept_code = concept_code_1),
-                  by = "concept_code") %>%
-        mutate(category =
-                 case_when(is.na(concept_code_1)  & !is.na(descendant_concept_code) ~ "no_members",
-                          !is.na(concept_code_1)  &  is.na(descendant_concept_code) ~ "no_classes",
-                           TRUE ~ "")) %>%
-        count(category)
+      concept_staged <-
+        bind_rows(concept_staged_classes,
+                  concept_staged_non_classes,
+                  concept_staged_rxnorm)
 
-      final_concept_ancestor %>%
-        distinct(ancestor_concept_code) %>%
-        mutate(concept_code = ancestor_concept_code) %>%
-        full_join(final_concept_relationship %>%
-                    dplyr::filter(vocabulary_id_1 == class_type,
-                                  relationship_id == "Subsumes") %>%
-                    distinct(concept_code_1) %>%
-                    mutate(concept_code = concept_code_1),
-                  by = "concept_code") %>%
-        mutate(category =
-                 case_when(is.na(concept_code_1)  & !is.na(ancestor_concept_code) ~ "no_members",
-                           !is.na(concept_code_1)  &  is.na(ancestor_concept_code) ~ "no_classes",
-                           TRUE ~ "")) %>%
-        count(category)
+      readr::write_csv(
+        x = concept_staged,
+        file = final_concept_csv
+      )
 
-}
+      readr::write_csv(
+        x = final_concept_relationship %>%
+              dplyr::distinct(concept_code_1,
+                              relationship_id,
+                              concept_code_2,
+                              relationship_source,
+                              relationship_type),
+        file = final_concept_relationship_csv
+      )
 
+
+      }
+
+
+    }
+
+
+    load_map <-
+      file.path(getwd(),
+                "inst",
+                "RxClass API",
+                version_key$version,
+                "final",
+                class_types) %>%
+     map(list.files, full.names = TRUE) %>%
+     set_names(class_types) %>%
+     map(
+       function(x)
+         x %>%
+         set_names(toupper(xfun::sans_ext(basename(x)))) %>%
+         as.list) %>%
+        transpose()
+
+
+    load_data <- list()
+    for (i in seq_along(load_map)) {
+
+      load_data[[i]] <-
+      load_map[[i]] %>%
+        map(read_csv,
+            col_types = readr::cols(.default = "c"),
+            show_col_types = FALSE) %>%
+        set_names(names(load_map[[i]]))
+
+
+    }
+    names(load_data) <-
+      names(load_map)
+
+    load_data <-
+      load_data %>%
+      map(bind_rows) %>%
+      map(distinct)
+
+
+    output_folder    <- "omop"
+    output_subfolder <- as.character(Sys.time())
+
+
+    path_vctr   <-
+      c(getwd(),
+        "inst",
+        "RxClass API",
+        version_key$version,
+        output_folder,
+        output_subfolder)
+
+    for (i in 1:length(path_vctr)) {
+
+      dir <- paste(path_vctr[1:i], collapse = .Platform$file.sep)
+
+      if (!dir.exists(dir)) {
+
+        dir.create(dir)
+      }
+
+    }
+
+    readr::write_csv(
+      x = load_data$CONCEPT,
+      file = file.path(dir, "CONCEPT.csv")
+    )
+
+    readr::write_csv(
+      x = load_data$CONCEPT_RELATIONSHIP,
+      file = file.path(dir, "CONCEPT_RELATIONSHIP.csv")
+    )
+
+    readr::write_csv(
+      x = load_data$CONCEPT_ANCESTOR,
+      file = file.path(dir, "CONCEPT_ANCESTOR.csv")
+    )
+
+    cat(
+      "RxClass (setupRxNorm R package)",
+      "patelmeeray@gmail.com",
+      "---",
+      "- Sourced from members and graphs via RxNav RESTful API",
+      "- Structure is similar to OMOP Vocabularies",
+      "- This version contains classTypes: ",
+      paste("\t", class_types, collapse = "\n"),
+      sep = "\n",
+      file = file.path(dir, "README"),
+      append = FALSE
+    )
 
 
   }
