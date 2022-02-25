@@ -38,9 +38,9 @@ dev_rxclass_data <-
                "PK",
                "TC",
                "VA",
-               #"DISEASE",
+               "DISEASE",
                "DISPOS",
-               #"CHEM",
+               "CHEM",
                "SCHEDULE",
                "STRUCT"
                )) {
