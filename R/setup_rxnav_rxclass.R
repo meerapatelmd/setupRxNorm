@@ -93,9 +93,29 @@ setup_rxnav_rxclass <-
     #     "version_class_type",
     #     "version_rela_sources")
 
+
+
+    # Supress warnings for blank
+    # values for RelaSourcs and ClassTypes
+    # that are blank in the lookup
+    quietly_separate <-
+      function(data,
+               col,
+               into,
+               sep) {
+
+        suppressWarnings(
+        tidyr::separate(
+          data = data,
+          col = col,
+          into = into,
+          sep = sep
+        ))
+      }
+
     lookup <-
       lookup %>%
-      separate(col = 1,
+      quietly_separate(col = 1,
                into = c("class_type",
                         "rela_sources",
                         "version_class_type",
@@ -145,14 +165,11 @@ setup_rxnav_rxclass <-
                           "load.sql")) %>%
       paste(collapse = "\n"))
 
-    cat(sql_statement)
-
     pg13::send(conn = conn,
                sql_statement = sql_statement,
                verbose = verbose,
                render_sql = render_sql,
                render_only = render_only,
                checks = checks)
-
 
   }
