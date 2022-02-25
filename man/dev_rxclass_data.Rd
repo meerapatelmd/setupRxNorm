@@ -2,28 +2,34 @@
 % Please edit documentation in R/dev_rxclass_data.R
 \name{dev_rxclass_data}
 \alias{dev_rxclass_data}
-\title{FUNCTION_TITLE}
+\title{Develop RxClass Data for a Release}
 \usage{
 dev_rxclass_data(
   rela_sources = c("DAILYMED", "MESH", "FDASPL", "FMTSME", "VA", "MEDRT", "RXNORM",
     "SNOMEDCT"),
-  class_types = c("MESHPA", "EPC", "MOA", "PE", "PK", "TC", "VA", "DISPOS", "SCHEDULE",
-    "STRUCT")
+  class_types = c("MESHPA", "EPC", "MOA", "PE", "PK", "TC", "VA", "DISEASE", "DISPOS",
+    "CHEM", "SCHEDULE", "STRUCT")
 )
 }
-\arguments{
-\item{rela_sources}{PARAM_DESCRIPTION, Default: c("DAILYMED", "MESH", "FDASPL", "FMTSME", "VA", "MEDRT", "RXNORM",
-"SNOMEDCT")}
-
-\item{class_types}{PARAM_DESCRIPTION, Default: c("MESHPA", "EPC", "MOA", "PE", "PK", "TC", "VA", "DISPOS", "SCHEDULE",
-"STRUCT")}
-}
 \value{
-OUTPUT_DESCRIPTION
+A folder at \verb{inst/RxClass API/\{version\}/omop/\{timestamp\}} containing
+a README with csvs.
 }
 \description{
-FUNCTION_DESCRIPTION
+Collect, load, and extract RxClass API responses
+into CONCEPT, CONCEPT_ANCESTOR, and CONCEPT_RELATIONSHIP csvs
+as part of package installation directory.
 }
 \details{
-DETAILS
+ATC classTypes and relaSources are excluded by default, but may be
+included if desired by adding both 'ATC1-4' to \code{class_types} and
+'ATC' to \code{rela_sources}.
+
+All API responses are cached using both the RxClass Version and API Version
+as the key. Depending on how much of the API responses are cached, this
+script can take multiple days if not weeks.
+
+Since the output folder is a timestamp folder, many duplicate versions
+can be made each time it is run. There is no QA method that will crosscheck
+a previous version against the current version.
 }
