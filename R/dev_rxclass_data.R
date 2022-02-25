@@ -1,11 +1,19 @@
-#' @title FUNCTION_TITLE
-#' @description FUNCTION_DESCRIPTION
-#' @param rela_sources PARAM_DESCRIPTION, Default: c("DAILYMED", "MESH", "FDASPL", "FMTSME", "VA", "MEDRT", "RXNORM",
-#'    "SNOMEDCT")
-#' @param class_types PARAM_DESCRIPTION, Default: c("MESHPA", "EPC", "MOA", "PE", "PK", "TC", "VA", "DISPOS", "SCHEDULE",
-#'    "STRUCT")
-#' @return OUTPUT_DESCRIPTION
-#' @details DETAILS
+#' @title
+#' Develop RxClass Data for a Release
+#' @description
+#' Collect, load, and extract RxClass API responses
+#' into CONCEPT, CONCEPT_ANCESTOR, and CONCEPT_RELATIONSHIP csvs
+#' as part of package installation directory.
+#' @return
+#' A folder at `inst/RxClass API/{version}/omop/{timestamp}` containing
+#' a README with csvs.
+#' @details
+#' Depending on how much of the API responses are cached, this
+#' script can take multiple days if not weeks.
+#' Since the output folder is a timestamp folder, many duplicate versions
+#' can be made each time it is run. There is no QA method that will crosscheck
+#' a previous version against the current version.
+#'
 #' @rdname dev_rxclass_data
 #' @export
 #' @importFrom tibble tribble
