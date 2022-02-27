@@ -48,7 +48,7 @@ dev_rxclass_data <-
                "MESHPA",
                "EPC",
                "MOA",
-               "PE",
+               # "PE",
                "PK",
                "TC",
                "VA",
@@ -59,6 +59,27 @@ dev_rxclass_data <-
                "STRUCT"
                ),
            open_readme = TRUE) {
+
+
+    # open_readme <- TRUE
+    # class_types <-
+    #   c(
+    #     "MESHPA",
+    #     "EPC",
+    #     "MOA",
+    #     "PE",
+    #     "PK",
+    #     "TC",
+    #     "VA",
+    #     "DISEASE",
+    #     "DISPOS",
+    #     "CHEM",
+    #     "SCHEDULE",
+    #     "STRUCT"
+    #   )
+    #
+    # rela_sources <-
+    #   "SNOMEDCT"
 
 
 
@@ -328,9 +349,25 @@ dev_rxclass_data <-
                     class_type,
                     "node.csv"),
           col_types = readr::cols(.default = "c"),
-          show_col_types = FALSE) %>%
-        transmute(concept_code_1 = classId,
-                  concept_name_1 = className)
+          show_col_types = FALSE)
+
+      if (nrow(nodes)>0) {
+
+        nodes <-
+          nodes %>%
+          transmute(concept_code_1 = classId,
+                    concept_name_1 = className)
+
+      } else {
+
+        nodes <-
+          concept_relationship_staged2 %>%
+          dplyr::filter(is.na(concept_name_1)) %>%
+          dplyr::distinct(concept_code_1) %>%
+          dplyr::mutate(concept_name_1 = "(Missing from RxClass API)")
+
+
+      }
 
 
       concept_relationship_staged3 <-
@@ -356,6 +393,9 @@ dev_rxclass_data <-
       final_concept_ancestor_csv,
       col_types = readr::cols(.default = "c"),
       show_col_types = FALSE)
+
+
+      if (nrow(final_concept_ancestor)>0) {
 
       final_concept_relationship <- concept_relationship_staged3
 
@@ -425,6 +465,74 @@ dev_rxclass_data <-
         file = final_concept_relationship_csv
       )
 
+
+      } else {
+
+        final_concept_relationship <- concept_relationship_staged3
+        final_concept_csv <-
+          file.path(dir, "concept.csv")
+
+        concept_staged1 <-
+        final_concept_relationship %>%
+          dplyr::filter(vocabulary_id_1 == class_type,
+                        relationship_id == "Subsumes") %>%
+          transmute(
+            vocabulary_id =
+              dplyr::case_when(
+                vocabulary_id_1 %in% c("DISPOS", "STRUCT") ~ "SNOMEDCT_US",
+                TRUE ~ vocabulary_id_1),
+            concept_code = concept_code_1,
+            concept_name = concept_name_1,
+            concept_class = "Class") %>%
+          distinct()
+
+
+        concept_staged2 <-
+        final_concept_relationship %>%
+          dplyr::filter(vocabulary_id_2 == class_type,
+                        relationship_id == "Subsumes") %>%
+          transmute(
+            vocabulary_id =
+              dplyr::case_when(
+                vocabulary_id_2 %in% c("DISPOS", "STRUCT") ~ "SNOMEDCT_US",
+                TRUE ~ vocabulary_id_2),
+            concept_code = concept_code_2,
+            concept_name = concept_name_2,
+            concept_class = "Concept") %>%
+          distinct()
+
+        concept_staged3 <-
+          final_concept_relationship %>%
+          dplyr::filter(vocabulary_id_2 == "RxNorm",
+                        relationship_id == "Subsumes") %>%
+          transmute(
+            vocabulary_id = vocabulary_id_2,
+            concept_code = concept_code_2,
+            concept_name = concept_name_2,
+            concept_class = "Concept") %>%
+          distinct()
+
+        concept_staged <-
+          bind_rows(concept_staged1,
+                    concept_staged2,
+                    concept_staged3)
+
+        readr::write_csv(
+          x = concept_staged,
+          file = final_concept_csv
+        )
+
+        readr::write_csv(
+          x = final_concept_relationship %>%
+            dplyr::distinct(concept_code_1,
+                            relationship_id,
+                            concept_code_2,
+                            relationship_source,
+                            relationship_type),
+          file = final_concept_relationship_csv
+        )
+
+      }
 
       }
 
