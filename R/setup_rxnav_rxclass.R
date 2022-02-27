@@ -33,7 +33,7 @@ setup_rxnav_rxclass <-
               full.names = TRUE)
     readme_path <-
       file.path(folder_path,
-                "README")
+                "README.md")
     readme <-
       readLines(readme_path)
 
