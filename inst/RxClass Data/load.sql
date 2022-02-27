@@ -96,7 +96,8 @@ DROP TABLE tmp_lookup;
 
 CREATE TABLE IF NOT EXISTS {log_schema}.{log_table_name} (
     srr_datetime TIMESTAMP without time zone,
-    setuprxnorm_rxdata_version varchar(20) NOT NULL,
+    setuprxnorm_rxclass_version varchar(5) NOT NULL,
+    setuprxnorm_rxclass_dt varchar(25) NOT NULL,
     rxclass_version varchar(20) NOT NULL,
     rxclass_api_version varchar(20) NOT NULL
 )
@@ -105,6 +106,7 @@ CREATE TABLE IF NOT EXISTS {log_schema}.{log_table_name} (
 INSERT INTO {log_schema}.{log_table_name}
 VALUES(
   '{Sys.time()}',
+  '{version_number}',
   '{version_timestamp}',
   '{rxclass_version}',
   '{rxclass_api_version}'
