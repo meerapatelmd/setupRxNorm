@@ -37,9 +37,18 @@ setup_rxnav_rxclass <-
     readme <-
       readLines(readme_path)
 
-    # Timestamp folder for the omop outputs
+
+    # Version Number
+    version_number <-
+      readme[4] %>%
+      stringr::str_replace(
+        pattern = "(Version )(.*$)",
+        replacement = "\\2"
+      )
+
+    # Timestamp for the omop outputs
     version_timestamp <-
-      readme[4]
+      readme[5]
 
     # Taking Contents from README
     # to write to Log
