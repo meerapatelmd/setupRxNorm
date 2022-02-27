@@ -665,7 +665,7 @@ dev_rxclass_data <-
         replacement = "\t\\2"
       )
 
-    readme_fn <- file.path(dir, "README")
+    readme_fn <- file.path(dir, "README.md")
     cat(
       "RxClass (setupRxNorm R package)",
       "Sourced from RxNav's RxClass API: https://lhncbc.nlm.nih.gov/RxNav/APIs/RxClassAPIs.html",
