@@ -48,15 +48,15 @@ dev_rxclass_data <-
                "MESHPA",
                "EPC",
                "MOA",
-               # "PE",
+               "PE",
                "PK",
                "TC",
-               # "VA",
-               #"DISEASE",
-               # "DISPOS",
-               #"CHEM",
-               "SCHEDULE" # ,
-               # "STRUCT"
+               "VA",
+               "DISEASE",
+               "DISPOS",
+               "CHEM",
+               "SCHEDULE",
+               "STRUCT"
                ),
            open_readme = TRUE) {
 
