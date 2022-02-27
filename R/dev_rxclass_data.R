@@ -579,7 +579,42 @@ dev_rxclass_data <-
 
 
     output_folder    <- "omop"
-    output_subfolder <- as.character(Sys.time())
+    output_timestamp <- as.character(Sys.time())
+
+
+    prior_output_dirs <-
+    list.dirs(
+      file.path(
+        getwd(),
+        "inst",
+        "RxClass API",
+        version_key$version,
+        "omop"),
+      recursive = FALSE,
+      full.names = TRUE)
+
+    # If there are directories present,
+    # get the next version based on the
+    # prior number. If this is the first
+    # directory,m it will be set to 1.
+    if (length(prior_output_dirs)>0) {
+
+      prior_versions <-
+      as.integer(basename(prior_output_dirs))
+
+      most_recent_version <-
+        max(prior_versions)
+
+
+    } else {
+
+      most_recent_version <- 0
+
+    }
+
+    this_version <-
+      most_recent_version+1
+
 
 
     path_vctr   <-
@@ -588,7 +623,8 @@ dev_rxclass_data <-
         "RxClass API",
         version_key$version,
         output_folder,
-        output_subfolder)
+        this_version
+        )
 
     for (i in 1:length(path_vctr)) {
 
@@ -670,7 +706,7 @@ dev_rxclass_data <-
       "RxClass (setupRxNorm R package)",
       "Sourced from RxNav's RxClass API: https://lhncbc.nlm.nih.gov/RxNav/APIs/RxClassAPIs.html",
       "patelmeeray@gmail.com",
-      glue::glue("{output_subfolder}"),
+      glue::glue("{output_timestamp}"),
       "---",
       glue::glue("RxClass Version:\t\t {version_key$version}"),
       glue::glue("RxClass API Version: {version_key$apiVersion}"),
