@@ -39,7 +39,7 @@ setup_rxnav_rxclass <-
 
     # Timestamp folder for the omop outputs
     version_timestamp <-
-      basename(folder_path)
+      readme[4]
 
     # Taking Contents from README
     # to write to Log
