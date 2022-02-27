@@ -706,7 +706,7 @@ dev_rxclass_data <-
       "RxClass (setupRxNorm R package)",
       "Sourced from RxNav's RxClass API: https://lhncbc.nlm.nih.gov/RxNav/APIs/RxClassAPIs.html",
       "patelmeeray@gmail.com",
-      "Version {this_version}",
+      glue::glue("Version {this_version}"),
       glue::glue("{output_timestamp}"),
       "---",
       glue::glue("RxClass Version:\t\t {version_key$version}"),
