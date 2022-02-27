@@ -48,7 +48,7 @@ dev_rxclass_data <-
                "MESHPA",
                "EPC",
                "MOA",
-               # "PE",
+               "PE",
                "PK",
                "TC",
                "VA",
@@ -655,7 +655,7 @@ dev_rxclass_data <-
       )
 
     readme_df_as_lines <-
-    capture.output(huxtable::print_screen(hux(readme_df), colnames = FALSE))
+    capture.output(huxtable::print_screen(huxtable::hux(readme_df), colnames = FALSE))
 
     # Huxtable centers table in output, and this replaces it with an indent
     readme_df_as_lines <-
