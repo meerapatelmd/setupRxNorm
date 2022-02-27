@@ -7,7 +7,7 @@
 dev_rxclass_data(
   rela_sources = c("DAILYMED", "MESH", "FDASPL", "FMTSME", "VA", "MEDRT", "RXNORM",
     "SNOMEDCT"),
-  class_types = c("MESHPA", "EPC", "MOA", "PK", "TC", "VA", "DISEASE", "DISPOS",
+  class_types = c("MESHPA", "EPC", "MOA", "PE", "PK", "TC", "VA", "DISEASE", "DISPOS",
     "CHEM", "SCHEDULE", "STRUCT"),
   open_readme = TRUE
 )
