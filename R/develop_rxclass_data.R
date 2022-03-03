@@ -20,7 +20,7 @@
 #' can be made each time it is run. There is no QA method that will crosscheck
 #' a previous version against the current version.
 #'
-#' @rdname dev_rxclass_data
+#' @rdname develop_rxclass_data
 #' @export
 #' @importFrom tibble tribble
 #' @importFrom dplyr filter bind_rows select mutate distinct
@@ -31,7 +31,7 @@
 #' @importFrom xfun sans_ext
 
 
-dev_rxclass_data <-
+develop_rxclass_data <-
   function(rela_sources =
              c(
                'DAILYMED',
