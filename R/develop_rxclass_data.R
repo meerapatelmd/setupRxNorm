@@ -135,10 +135,7 @@ develop_rxclass_data <-
         "SCHEDULE", "RXNORM",
         "STRUCT", "SNOMEDCT",
         "TC", "FMTSME",
-        "VA", "VA") %>%
-        huxtable::hux() %>%
-        huxtable::theme_article() %>%
-        huxtable::print_screen(colnames = FALSE)
+        "VA", "VA")
 
       cli::cli_abort(
         c("No association between {.var rela_sources} and {.var class_types}. See lookup above for correct combinations.",
@@ -149,9 +146,7 @@ develop_rxclass_data <-
 
     } else {
 
-      huxtable::hux(lookup) %>%
-        huxtable::theme_article() %>%
-        huxtable::print_screen(colnames = FALSE)
+      print_lookup(lookup = lookup)
 
 
     }
