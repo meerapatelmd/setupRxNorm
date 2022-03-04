@@ -82,30 +82,10 @@ develop_rxclass_data <-
     #   "SNOMEDCT"
 
 
+    lookup <- get_lookup()
 
     lookup <-
-      tibble::tribble(
-        ~classType, ~relaSources,
-        "ATC1-4", "ATC",
-        "CHEM", "DAILYMED",
-        "CHEM", "FDASPL",
-        "CHEM", "MEDRT",
-        "DISEASE", "MEDRT",
-        "DISPOS", "SNOMEDCT",
-        "EPC", "DAILYMED",
-        "EPC", "FDASPL",
-        "MESHPA", "MESH",
-        "MOA", "DAILYMED",
-        "MOA", "FDASPL",
-        "MOA", "MEDRT",
-        "PE", "DAILYMED",
-        "PE", "FDASPL",
-        "PE", "MEDRT",
-        "PK", "MEDRT",
-        "SCHEDULE", "RXNORM",
-        "STRUCT", "SNOMEDCT",
-        "TC", "FMTSME",
-        "VA", "VA") %>%
+      lookup %>%
       dplyr::filter(relaSources %in% rela_sources) %>%
       dplyr::filter(classType %in% class_types)
 
@@ -114,28 +94,8 @@ develop_rxclass_data <-
       cli::cat_rule(cli::style_bold(cli::col_red(" * Error * ")),
                     line_col = "red")
 
-      tibble::tribble(
-        ~classType, ~relaSources,
-        "ATC1-4", "ATC",
-        "CHEM", "DAILYMED",
-        "CHEM", "FDASPL",
-        "CHEM", "MEDRT",
-        "DISEASE", "MEDRT",
-        "DISPOS", "SNOMEDCT",
-        "EPC", "DAILYMED",
-        "EPC", "FDASPL",
-        "MESHPA", "MESH",
-        "MOA", "DAILYMED",
-        "MOA", "FDASPL",
-        "MOA", "MEDRT",
-        "PE", "DAILYMED",
-        "PE", "FDASPL",
-        "PE", "MEDRT",
-        "PK", "MEDRT",
-        "SCHEDULE", "RXNORM",
-        "STRUCT", "SNOMEDCT",
-        "TC", "FMTSME",
-        "VA", "VA")
+
+      print(get_lookup())
 
       cli::cli_abort(
         c("No association between {.var rela_sources} and {.var class_types}. See lookup above for correct combinations.",
