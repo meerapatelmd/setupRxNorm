@@ -1,12 +1,11 @@
-# setupRxNorm 0.1.0.9000  
+# setupRxNorm 1.3.0  
 
-* Add `conn_fun` argument  
-* Add postprocessing step and feature  
+* Added RxClass Data v11 
+* Updated RxClass CONCEPT table output to include concept_class_id  
 
+# setupRxNorm 1.2.0  
 
-# setupRxNorm 0.1.0
+* Added feature that converts RxClass API responses into relational database format  
 
-* Added a `NEWS.md` file to track changes to the package.  
-* Fixed bug at logging step  
 
 
