@@ -1,0 +1,2808 @@
+vocabulary_id,concept_code,concept_name,concept_class
+SNOMEDCT_US,1002243003,(Missing from RxClass API),Class
+SNOMEDCT_US,10135005,(Missing from RxClass API),Class
+SNOMEDCT_US,108417002,(Missing from RxClass API),Class
+SNOMEDCT_US,108616001,(Missing from RxClass API),Class
+SNOMEDCT_US,108643006,(Missing from RxClass API),Class
+SNOMEDCT_US,108661002,(Missing from RxClass API),Class
+SNOMEDCT_US,108665006,(Missing from RxClass API),Class
+SNOMEDCT_US,108709006,(Missing from RxClass API),Class
+SNOMEDCT_US,108775004,(Missing from RxClass API),Class
+SNOMEDCT_US,108780008,(Missing from RxClass API),Class
+SNOMEDCT_US,108793003,(Missing from RxClass API),Class
+SNOMEDCT_US,108828006,(Missing from RxClass API),Class
+SNOMEDCT_US,108860003,(Missing from RxClass API),Class
+SNOMEDCT_US,108940007,(Missing from RxClass API),Class
+SNOMEDCT_US,108966005,(Missing from RxClass API),Class
+SNOMEDCT_US,109030001,(Missing from RxClass API),Class
+SNOMEDCT_US,109072000,(Missing from RxClass API),Class
+SNOMEDCT_US,109101005,(Missing from RxClass API),Class
+SNOMEDCT_US,1119471001,(Missing from RxClass API),Class
+SNOMEDCT_US,1119472008,(Missing from RxClass API),Class
+SNOMEDCT_US,1137664003,(Missing from RxClass API),Class
+SNOMEDCT_US,1156736000,(Missing from RxClass API),Class
+SNOMEDCT_US,116092004,(Missing from RxClass API),Class
+SNOMEDCT_US,116101001,(Missing from RxClass API),Class
+SNOMEDCT_US,116536008,(Missing from RxClass API),Class
+SNOMEDCT_US,1206000,(Missing from RxClass API),Class
+SNOMEDCT_US,123954005,(Missing from RxClass API),Class
+SNOMEDCT_US,129557000,(Missing from RxClass API),Class
+SNOMEDCT_US,14103001,(Missing from RxClass API),Class
+SNOMEDCT_US,14601000,(Missing from RxClass API),Class
+SNOMEDCT_US,15772006,(Missing from RxClass API),Class
+SNOMEDCT_US,169008,(Missing from RxClass API),Class
+SNOMEDCT_US,18679008,(Missing from RxClass API),Class
+SNOMEDCT_US,19768003,(Missing from RxClass API),Class
+SNOMEDCT_US,22091006,(Missing from RxClass API),Class
+SNOMEDCT_US,26244009,(Missing from RxClass API),Class
+SNOMEDCT_US,318711006,(Missing from RxClass API),Class
+SNOMEDCT_US,318945006,(Missing from RxClass API),Class
+SNOMEDCT_US,320073005,(Missing from RxClass API),Class
+SNOMEDCT_US,323363000,(Missing from RxClass API),Class
+SNOMEDCT_US,327298003,(Missing from RxClass API),Class
+SNOMEDCT_US,33252009,(Missing from RxClass API),Class
+SNOMEDCT_US,346312000,(Missing from RxClass API),Class
+SNOMEDCT_US,346322006,(Missing from RxClass API),Class
+SNOMEDCT_US,346324007,(Missing from RxClass API),Class
+SNOMEDCT_US,346625000,(Missing from RxClass API),Class
+SNOMEDCT_US,349842005,(Missing from RxClass API),Class
+SNOMEDCT_US,349846008,(Missing from RxClass API),Class
+SNOMEDCT_US,349847004,(Missing from RxClass API),Class
+SNOMEDCT_US,349849001,(Missing from RxClass API),Class
+SNOMEDCT_US,349854005,(Missing from RxClass API),Class
+SNOMEDCT_US,349917000,(Missing from RxClass API),Class
+SNOMEDCT_US,349920008,(Missing from RxClass API),Class
+SNOMEDCT_US,349921007,(Missing from RxClass API),Class
+SNOMEDCT_US,349955005,(Missing from RxClass API),Class
+SNOMEDCT_US,350062001,(Missing from RxClass API),Class
+SNOMEDCT_US,350066003,(Missing from RxClass API),Class
+SNOMEDCT_US,350075001,(Missing from RxClass API),Class
+SNOMEDCT_US,350268005,(Missing from RxClass API),Class
+SNOMEDCT_US,350361002,(Missing from RxClass API),Class
+SNOMEDCT_US,350467002,(Missing from RxClass API),Class
+SNOMEDCT_US,350555001,(Missing from RxClass API),Class
+SNOMEDCT_US,350556000,(Missing from RxClass API),Class
+SNOMEDCT_US,356415005,(Missing from RxClass API),Class
+SNOMEDCT_US,356844002,(Missing from RxClass API),Class
+SNOMEDCT_US,356845001,(Missing from RxClass API),Class
+SNOMEDCT_US,360204007,(Missing from RxClass API),Class
+SNOMEDCT_US,363560004,(Missing from RxClass API),Class
+SNOMEDCT_US,384952006,(Missing from RxClass API),Class
+SNOMEDCT_US,385560009,(Missing from RxClass API),Class
+SNOMEDCT_US,385576000,(Missing from RxClass API),Class
+SNOMEDCT_US,392573000,(Missing from RxClass API),Class
+SNOMEDCT_US,392574006,(Missing from RxClass API),Class
+SNOMEDCT_US,397359002,(Missing from RxClass API),Class
+SNOMEDCT_US,406456001,(Missing from RxClass API),Class
+SNOMEDCT_US,407035002,(Missing from RxClass API),Class
+SNOMEDCT_US,407314008,(Missing from RxClass API),Class
+SNOMEDCT_US,407316005,(Missing from RxClass API),Class
+SNOMEDCT_US,409206005,(Missing from RxClass API),Class
+SNOMEDCT_US,409217006,(Missing from RxClass API),Class
+SNOMEDCT_US,409227000,(Missing from RxClass API),Class
+SNOMEDCT_US,409390007,(Missing from RxClass API),Class
+SNOMEDCT_US,409403004,(Missing from RxClass API),Class
+SNOMEDCT_US,409407003,(Missing from RxClass API),Class
+SNOMEDCT_US,412551004,(Missing from RxClass API),Class
+SNOMEDCT_US,413358002,(Missing from RxClass API),Class
+SNOMEDCT_US,413481004,(Missing from RxClass API),Class
+SNOMEDCT_US,414350003,(Missing from RxClass API),Class
+SNOMEDCT_US,415151000,(Missing from RxClass API),Class
+SNOMEDCT_US,41549009,(Missing from RxClass API),Class
+SNOMEDCT_US,415513007,(Missing from RxClass API),Class
+SNOMEDCT_US,416587008,(Missing from RxClass API),Class
+SNOMEDCT_US,416636000,(Missing from RxClass API),Class
+SNOMEDCT_US,416897008,(Missing from RxClass API),Class
+SNOMEDCT_US,419304003,(Missing from RxClass API),Class
+SNOMEDCT_US,420156009,(Missing from RxClass API),Class
+SNOMEDCT_US,420268006,(Missing from RxClass API),Class
+SNOMEDCT_US,420383004,(Missing from RxClass API),Class
+SNOMEDCT_US,422403005,(Missing from RxClass API),Class
+SNOMEDCT_US,422745008,(Missing from RxClass API),Class
+SNOMEDCT_US,423081009,(Missing from RxClass API),Class
+SNOMEDCT_US,425628000,(Missing from RxClass API),Class
+SNOMEDCT_US,426230004,(Missing from RxClass API),Class
+SNOMEDCT_US,427059003,(Missing from RxClass API),Class
+SNOMEDCT_US,427208006,(Missing from RxClass API),Class
+SNOMEDCT_US,427386005,(Missing from RxClass API),Class
+SNOMEDCT_US,427395002,(Missing from RxClass API),Class
+SNOMEDCT_US,427510007,(Missing from RxClass API),Class
+SNOMEDCT_US,427620008,(Missing from RxClass API),Class
+SNOMEDCT_US,427804001,(Missing from RxClass API),Class
+SNOMEDCT_US,427808003,(Missing from RxClass API),Class
+SNOMEDCT_US,427876003,(Missing from RxClass API),Class
+SNOMEDCT_US,428242000,(Missing from RxClass API),Class
+SNOMEDCT_US,428617003,(Missing from RxClass API),Class
+SNOMEDCT_US,429168007,(Missing from RxClass API),Class
+SNOMEDCT_US,429318006,(Missing from RxClass API),Class
+SNOMEDCT_US,429319003,(Missing from RxClass API),Class
+SNOMEDCT_US,429453000,(Missing from RxClass API),Class
+SNOMEDCT_US,429694004,(Missing from RxClass API),Class
+SNOMEDCT_US,430162005,(Missing from RxClass API),Class
+SNOMEDCT_US,430817009,(Missing from RxClass API),Class
+SNOMEDCT_US,432062000,(Missing from RxClass API),Class
+SNOMEDCT_US,432251005,(Missing from RxClass API),Class
+SNOMEDCT_US,439123005,(Missing from RxClass API),Class
+SNOMEDCT_US,441755002,(Missing from RxClass API),Class
+SNOMEDCT_US,444715003,(Missing from RxClass API),Class
+SNOMEDCT_US,48698004,(Missing from RxClass API),Class
+SNOMEDCT_US,58760003,(Missing from RxClass API),Class
+SNOMEDCT_US,58805000,(Missing from RxClass API),Class
+SNOMEDCT_US,61457001,(Missing from RxClass API),Class
+SNOMEDCT_US,61946003,(Missing from RxClass API),Class
+SNOMEDCT_US,6425004,(Missing from RxClass API),Class
+SNOMEDCT_US,66349002,(Missing from RxClass API),Class
+SNOMEDCT_US,67440007,(Missing from RxClass API),Class
+SNOMEDCT_US,68402007,(Missing from RxClass API),Class
+SNOMEDCT_US,703645005,(Missing from RxClass API),Class
+SNOMEDCT_US,703677008,(Missing from RxClass API),Class
+SNOMEDCT_US,704315005,(Missing from RxClass API),Class
+SNOMEDCT_US,714008000,(Missing from RxClass API),Class
+SNOMEDCT_US,714010003,(Missing from RxClass API),Class
+SNOMEDCT_US,714013001,(Missing from RxClass API),Class
+SNOMEDCT_US,714427003,(Missing from RxClass API),Class
+SNOMEDCT_US,714587003,(Missing from RxClass API),Class
+SNOMEDCT_US,714682003,(Missing from RxClass API),Class
+SNOMEDCT_US,71770007,(Missing from RxClass API),Class
+SNOMEDCT_US,76385003,(Missing from RxClass API),Class
+SNOMEDCT_US,764132007,(Missing from RxClass API),Class
+SNOMEDCT_US,764133002,(Missing from RxClass API),Class
+SNOMEDCT_US,764134008,(Missing from RxClass API),Class
+SNOMEDCT_US,764135009,(Missing from RxClass API),Class
+SNOMEDCT_US,764136005,(Missing from RxClass API),Class
+SNOMEDCT_US,764138006,(Missing from RxClass API),Class
+SNOMEDCT_US,764140001,(Missing from RxClass API),Class
+SNOMEDCT_US,764143004,(Missing from RxClass API),Class
+SNOMEDCT_US,764306007,(Missing from RxClass API),Class
+SNOMEDCT_US,764374006,(Missing from RxClass API),Class
+SNOMEDCT_US,764413006,(Missing from RxClass API),Class
+SNOMEDCT_US,764885002,(Missing from RxClass API),Class
+SNOMEDCT_US,764890004,(Missing from RxClass API),Class
+SNOMEDCT_US,764891000,(Missing from RxClass API),Class
+SNOMEDCT_US,765158000,(Missing from RxClass API),Class
+SNOMEDCT_US,765319001,(Missing from RxClass API),Class
+SNOMEDCT_US,765342008,(Missing from RxClass API),Class
+SNOMEDCT_US,765344009,(Missing from RxClass API),Class
+SNOMEDCT_US,766779001,(Missing from RxClass API),Class
+SNOMEDCT_US,766784007,(Missing from RxClass API),Class
+SNOMEDCT_US,766793008,(Missing from RxClass API),Class
+SNOMEDCT_US,767562003,(Missing from RxClass API),Class
+SNOMEDCT_US,767565001,(Missing from RxClass API),Class
+SNOMEDCT_US,767568004,(Missing from RxClass API),Class
+SNOMEDCT_US,768545005,(Missing from RxClass API),Class
+SNOMEDCT_US,768601003,(Missing from RxClass API),Class
+SNOMEDCT_US,768628008,(Missing from RxClass API),Class
+SNOMEDCT_US,768630005,(Missing from RxClass API),Class
+SNOMEDCT_US,768632002,(Missing from RxClass API),Class
+SNOMEDCT_US,768668007,(Missing from RxClass API),Class
+SNOMEDCT_US,768669004,(Missing from RxClass API),Class
+SNOMEDCT_US,768670003,(Missing from RxClass API),Class
+SNOMEDCT_US,768676009,(Missing from RxClass API),Class
+SNOMEDCT_US,768679002,(Missing from RxClass API),Class
+SNOMEDCT_US,770368002,(Missing from RxClass API),Class
+SNOMEDCT_US,770369005,(Missing from RxClass API),Class
+SNOMEDCT_US,770370006,(Missing from RxClass API),Class
+SNOMEDCT_US,770371005,(Missing from RxClass API),Class
+SNOMEDCT_US,770372003,(Missing from RxClass API),Class
+SNOMEDCT_US,770374002,(Missing from RxClass API),Class
+SNOMEDCT_US,770376000,(Missing from RxClass API),Class
+SNOMEDCT_US,770377009,(Missing from RxClass API),Class
+SNOMEDCT_US,770389006,(Missing from RxClass API),Class
+SNOMEDCT_US,770391003,(Missing from RxClass API),Class
+SNOMEDCT_US,770620001,(Missing from RxClass API),Class
+SNOMEDCT_US,770621002,(Missing from RxClass API),Class
+SNOMEDCT_US,771677008,(Missing from RxClass API),Class
+SNOMEDCT_US,771678003,(Missing from RxClass API),Class
+SNOMEDCT_US,772035005,(Missing from RxClass API),Class
+SNOMEDCT_US,773258006,(Missing from RxClass API),Class
+SNOMEDCT_US,773388004,(Missing from RxClass API),Class
+SNOMEDCT_US,773389007,(Missing from RxClass API),Class
+SNOMEDCT_US,773963002,(Missing from RxClass API),Class
+SNOMEDCT_US,774308007,(Missing from RxClass API),Class
+SNOMEDCT_US,774310009,(Missing from RxClass API),Class
+SNOMEDCT_US,781024009,(Missing from RxClass API),Class
+SNOMEDCT_US,781548005,(Missing from RxClass API),Class
+SNOMEDCT_US,782817006,(Missing from RxClass API),Class
+SNOMEDCT_US,782818001,(Missing from RxClass API),Class
+SNOMEDCT_US,782819009,(Missing from RxClass API),Class
+SNOMEDCT_US,785331008,(Missing from RxClass API),Class
+SNOMEDCT_US,785333006,(Missing from RxClass API),Class
+SNOMEDCT_US,785334000,(Missing from RxClass API),Class
+SNOMEDCT_US,785335004,(Missing from RxClass API),Class
+SNOMEDCT_US,785336003,(Missing from RxClass API),Class
+SNOMEDCT_US,785337007,(Missing from RxClass API),Class
+SNOMEDCT_US,785338002,(Missing from RxClass API),Class
+SNOMEDCT_US,785339005,(Missing from RxClass API),Class
+SNOMEDCT_US,785866000,(Missing from RxClass API),Class
+SNOMEDCT_US,787863009,(Missing from RxClass API),Class
+SNOMEDCT_US,788312001,(Missing from RxClass API),Class
+SNOMEDCT_US,788316003,(Missing from RxClass API),Class
+SNOMEDCT_US,788321000,(Missing from RxClass API),Class
+SNOMEDCT_US,788326005,(Missing from RxClass API),Class
+SNOMEDCT_US,788327001,(Missing from RxClass API),Class
+SNOMEDCT_US,788397008,(Missing from RxClass API),Class
+SNOMEDCT_US,788630002,(Missing from RxClass API),Class
+SNOMEDCT_US,789083004,(Missing from RxClass API),Class
+SNOMEDCT_US,789250004,(Missing from RxClass API),Class
+SNOMEDCT_US,789252007,(Missing from RxClass API),Class
+SNOMEDCT_US,789270005,(Missing from RxClass API),Class
+SNOMEDCT_US,840519007,(Missing from RxClass API),Class
+SNOMEDCT_US,85063003,(Missing from RxClass API),Class
+SNOMEDCT_US,870488000,(Missing from RxClass API),Class
+SNOMEDCT_US,870489008,(Missing from RxClass API),Class
+SNOMEDCT_US,870491000,(Missing from RxClass API),Class
+SNOMEDCT_US,870492007,(Missing from RxClass API),Class
+SNOMEDCT_US,897674000,(Missing from RxClass API),Class
+SNOMEDCT_US,897720002,(Missing from RxClass API),Class
+SNOMEDCT_US,90802006,(Missing from RxClass API),Class
+SNOMEDCT_US,96246003,(Missing from RxClass API),Class
+SNOMEDCT_US,96302009,(Missing from RxClass API),Class
+SNOMEDCT_US,96308008,(Missing from RxClass API),Class
+SNOMEDCT_US,319442006,Moxisylyte-containing product,Concept
+SNOMEDCT_US,85591001,Timolol-containing product,Concept
+SNOMEDCT_US,4220008,Tolazoline-containing product,Concept
+SNOMEDCT_US,108831007,Metipranolol-containing product,Concept
+SNOMEDCT_US,429346008,Zuclopenthixol-containing product,Concept
+SNOMEDCT_US,87652004,Atenolol-containing product,Concept
+SNOMEDCT_US,68088000,Acebutolol-containing product,Concept
+SNOMEDCT_US,349900007,Betaxolol-containing product,Concept
+SNOMEDCT_US,108430001,Mirtazapine-containing product,Concept
+SNOMEDCT_US,349912006,Alfuzosin-containing product,Concept
+SNOMEDCT_US,349903009,Levobunolol-containing product,Concept
+SNOMEDCT_US,108547003,Bisoprolol-containing product,Concept
+SNOMEDCT_US,108551001,Carvedilol-containing product,Concept
+SNOMEDCT_US,349901006,Celiprolol-containing product,Concept
+SNOMEDCT_US,108544005,Carteolol-containing product,Concept
+SNOMEDCT_US,398674007,Yohimbine-containing product,Concept
+SNOMEDCT_US,108840006,Dapiprazole-containing product,Concept
+SNOMEDCT_US,318638009,Nebivolol-containing product,Concept
+SNOMEDCT_US,409278007,Levobetaxolol-containing product,Concept
+SNOMEDCT_US,129484001,Terazosin-containing product,Concept
+SNOMEDCT_US,350622001,Dihydroergocornine- and dihydroergocristine- and dihydroergocryptine-containing product,Concept
+SNOMEDCT_US,96220002,Flupentixol-containing product,Concept
+SNOMEDCT_US,108556006,Doxazosin-containing product,Concept
+SNOMEDCT_US,77856005,Esmolol-containing product,Concept
+SNOMEDCT_US,349913001,Indoramin-containing product,Concept
+SNOMEDCT_US,46547007,Labetalol-containing product,Concept
+SNOMEDCT_US,26503009,Deserpidine-containing product,Concept
+SNOMEDCT_US,7092007,Metoprolol-containing product,Concept
+SNOMEDCT_US,96200003,Mianserin-containing product,Concept
+SNOMEDCT_US,441605002,Silodosin-containing product,Concept
+SNOMEDCT_US,82896009,Nadolol-containing product,Concept
+SNOMEDCT_US,108559004,Tamsulosin-containing product,Concept
+SNOMEDCT_US,96299009,Oxprenolol-containing product,Concept
+SNOMEDCT_US,108542009,Penbutolol-containing product,Concept
+SNOMEDCT_US,74771007,Phenoxybenzamine-containing product,Concept
+SNOMEDCT_US,82165003,Phentolamine-containing product,Concept
+SNOMEDCT_US,18381001,Pindolol-containing product,Concept
+SNOMEDCT_US,76390000,Practolol-containing product,Concept
+SNOMEDCT_US,76058001,Prazosin-containing product,Concept
+SNOMEDCT_US,55745002,Propranolol-containing product,Concept
+SNOMEDCT_US,96301002,Sotalol-containing product,Concept
+SNOMEDCT_US,31306009,Quinidine-containing product,Concept
+SNOMEDCT_US,47065008,Quinine-containing product,Concept
+SNOMEDCT_US,108418007,Ondansetron-containing product,Concept
+SNOMEDCT_US,108424001,Granisetron-containing product,Concept
+SNOMEDCT_US,322201005,Tropisetron-containing product,Concept
+SNOMEDCT_US,108421009,Dolasetron-containing product,Concept
+SNOMEDCT_US,404851001,Palonosetron-containing product,Concept
+SNOMEDCT_US,409148009,Alosetron-containing product,Concept
+SNOMEDCT_US,108614003,Zafirlukast-containing product,Concept
+SNOMEDCT_US,320883008,Montelukast-containing product,Concept
+SNOMEDCT_US,108644000,Azelastine-containing product,Concept
+SNOMEDCT_US,83532008,Cimetidine-containing product,Concept
+SNOMEDCT_US,108664005,Nizatidine-containing product,Concept
+SNOMEDCT_US,39128000,Famotidine-containing product,Concept
+SNOMEDCT_US,48174005,Ranitidine-containing product,Concept
+SNOMEDCT_US,421279008,Rabeprazole-containing product,Concept
+SNOMEDCT_US,108666007,Lansoprazole-containing product,Concept
+SNOMEDCT_US,317331009,Esomeprazole-containing product,Concept
+SNOMEDCT_US,317317009,Pantoprazole-containing product,Concept
+SNOMEDCT_US,25673006,Omeprazole-containing product,Concept
+SNOMEDCT_US,442540007,Dexlansoprazole-containing product,Concept
+SNOMEDCT_US,703777002,Rilpivirine-containing product,Concept
+SNOMEDCT_US,27479000,Zidovudine-containing product,Concept
+SNOMEDCT_US,395264002,Tenofovir-containing product,Concept
+SNOMEDCT_US,412073001,Adefovir-containing product,Concept
+SNOMEDCT_US,116078005,Efavirenz-containing product,Concept
+SNOMEDCT_US,404855005,Emtricitabine-containing product,Concept
+SNOMEDCT_US,34693000,Zalcitabine-containing product,Concept
+SNOMEDCT_US,19194001,Didanosine-containing product,Concept
+SNOMEDCT_US,432221004,Etravirine-containing product,Concept
+SNOMEDCT_US,108704001,Nevirapine-containing product,Concept
+SNOMEDCT_US,108690008,Stavudine-containing product,Concept
+SNOMEDCT_US,108698001,Lamivudine-containing product,Concept
+SNOMEDCT_US,386155009,Delavirdine-containing product,Concept
+SNOMEDCT_US,327363004,Formestane-containing product,Concept
+SNOMEDCT_US,116115004,Exemestane-containing product,Concept
+SNOMEDCT_US,47124006,Aminoglutethimide-containing product,Concept
+SNOMEDCT_US,108777007,Letrozole-containing product,Concept
+SNOMEDCT_US,108774000,Anastrozole-containing product,Concept
+SNOMEDCT_US,871812009,Sacituzumab govitecan-containing product,Concept
+SNOMEDCT_US,108783005,Irinotecan-containing product,Concept
+SNOMEDCT_US,108779005,Topotecan-containing product,Concept
+SNOMEDCT_US,7959004,Teniposide-containing product,Concept
+SNOMEDCT_US,767582004,Eribulin-containing product,Concept
+SNOMEDCT_US,714671006,Brentuximab vedotin-containing product,Concept
+SNOMEDCT_US,788329003,Polatuzumab vedotin-containing product,Concept
+SNOMEDCT_US,836465002,Enfortumab vedotin-containing product,Concept
+SNOMEDCT_US,332214000,Tacalcitol-containing product,Concept
+SNOMEDCT_US,429022006,Ixabepilone-containing product,Concept
+SNOMEDCT_US,108792008,Vinorelbine-containing product,Concept
+SNOMEDCT_US,56928005,Etoposide-containing product,Concept
+SNOMEDCT_US,64349004,Griseofulvin-containing product,Concept
+SNOMEDCT_US,67735003,Paclitaxel-containing product,Concept
+SNOMEDCT_US,108806006,Docetaxel-containing product,Concept
+SNOMEDCT_US,447182009,Cabazitaxel-containing product,Concept
+SNOMEDCT_US,108827001,Brimonidine-containing product,Concept
+SNOMEDCT_US,330870004,Apraclonidine-containing product,Concept
+SNOMEDCT_US,62782004,Clonidine-containing product,Concept
+SNOMEDCT_US,349934008,Lofexidine-containing product,Concept
+SNOMEDCT_US,108553003,Guanfacine-containing product,Concept
+SNOMEDCT_US,438079000,Dexmedetomidine-containing product,Concept
+SNOMEDCT_US,82951001,Guanabenz-containing product,Concept
+SNOMEDCT_US,84078002,Methyldopa-containing product,Concept
+SNOMEDCT_US,417669009,Pemirolast-containing product,Concept
+SNOMEDCT_US,108627004,Nedocromil-containing product,Concept
+SNOMEDCT_US,21701005,Cromolyn-containing product,Concept
+SNOMEDCT_US,413507000,Amlexanox-containing product,Concept
+SNOMEDCT_US,108859008,Lodoxamide-containing product,Concept
+SNOMEDCT_US,715640009,Fingolimod-containing product,Concept
+SNOMEDCT_US,1039008,Mercaptopurine-containing product,Concept
+SNOMEDCT_US,404878004,Thalidomide-containing product,Concept
+SNOMEDCT_US,88997008,Thiotepa-containing product,Concept
+SNOMEDCT_US,72623000,Thioguanine-containing product,Concept
+SNOMEDCT_US,704193005,Belimumab-containing product,Concept
+SNOMEDCT_US,704649006,Ipilimumab-containing product,Concept
+SNOMEDCT_US,420822000,Uracil-containing product,Concept
+SNOMEDCT_US,714777004,Belatacept-containing product,Concept
+SNOMEDCT_US,108936003,Becaplermin-containing product,Concept
+SNOMEDCT_US,391632007,Alemtuzumab-containing product,Concept
+SNOMEDCT_US,108809004,Rituximab-containing product,Concept
+SNOMEDCT_US,18002004,Auranofin-containing product,Concept
+SNOMEDCT_US,412329008,Azacitidine-containing product,Concept
+SNOMEDCT_US,111165009,Azathioprine-containing product,Concept
+SNOMEDCT_US,108811008,Gemcitabine-containing product,Concept
+SNOMEDCT_US,386640004,Gemtuzumab ozogamicin-containing product,Concept
+SNOMEDCT_US,714783001,Carfilzomib-containing product,Concept
+SNOMEDCT_US,703786007,Teriflunomide-containing product,Concept
+SNOMEDCT_US,108969003,Interleukin-11-containing product,Concept
+SNOMEDCT_US,427812009,Bendamustine-containing product,Concept
+SNOMEDCT_US,704316006,Tofacitinib-containing product,Concept
+SNOMEDCT_US,703790009,Pomalidomide-containing product,Concept
+SNOMEDCT_US,896752005,Trastuzumab emtansine-containing product,Concept
+SNOMEDCT_US,764365009,Dimethyl fumarate-containing product,Concept
+SNOMEDCT_US,428127005,Everolimus-containing product,Concept
+SNOMEDCT_US,714684002,Apremilast-containing product,Concept
+SNOMEDCT_US,29896003,Betamethasone-containing product,Concept
+SNOMEDCT_US,704257002,Vedolizumab-containing product,Concept
+SNOMEDCT_US,1010563006,Monomethyl fumarate-containing product,Concept
+SNOMEDCT_US,763541003,Pembrolizumab-containing product,Concept
+SNOMEDCT_US,420517007,Decitabine-containing product,Concept
+SNOMEDCT_US,704192000,Nivolumab-containing product,Concept
+SNOMEDCT_US,714689007,Secukinumab-containing product,Concept
+SNOMEDCT_US,781308003,Mepolizumab-containing product,Concept
+SNOMEDCT_US,763517001,Talimogene laherparepvec-containing product,Concept
+SNOMEDCT_US,781324002,Ixazomib-containing product,Concept
+SNOMEDCT_US,763603002,Ixekizumab-containing product,Concept
+SNOMEDCT_US,781214008,Reslizumab-containing product,Concept
+SNOMEDCT_US,763505003,Atezolizumab-containing product,Concept
+SNOMEDCT_US,763569006,Lifitegrast-containing product,Concept
+SNOMEDCT_US,2571007,Busulfan-containing product,Concept
+SNOMEDCT_US,763604008,Brodalumab-containing product,Concept
+SNOMEDCT_US,763559000,Ocrelizumab-containing product,Concept
+SNOMEDCT_US,763589007,Dupilumab-containing product,Concept
+SNOMEDCT_US,109133001,Daclizumab-containing product,Concept
+SNOMEDCT_US,108675009,Infliximab-containing product,Concept
+SNOMEDCT_US,763522001,Sarilumab-containing product,Concept
+SNOMEDCT_US,763578000,Guselkumab-containing product,Concept
+SNOMEDCT_US,108761006,Capecitabine-containing product,Concept
+SNOMEDCT_US,108725001,Palivizumab-containing product,Concept
+SNOMEDCT_US,109135008,Basiliximab-containing product,Concept
+SNOMEDCT_US,326914003,Raltitrexed-containing product,Concept
+SNOMEDCT_US,763652003,Benralizumab-containing product,Concept
+SNOMEDCT_US,428013003,3'-deoxyadenosine-containing product,Concept
+SNOMEDCT_US,346530008,Interferon alfa-n1-containing product,Concept
+SNOMEDCT_US,763701005,Baricitinib-containing product,Concept
+SNOMEDCT_US,771665003,Tildrakizumab-containing product,Concept
+SNOMEDCT_US,781611008,Cemiplimab-containing product,Concept
+SNOMEDCT_US,51326002,Carmustine-containing product,Concept
+SNOMEDCT_US,783573003,Ravulizumab-containing product,Concept
+SNOMEDCT_US,783577002,Tagraxofusp-containing product,Concept
+SNOMEDCT_US,787019001,Siponimod-containing product,Concept
+SNOMEDCT_US,398881002,Denileukin diftitox-containing product,Concept
+SNOMEDCT_US,118259007,Etanercept-containing product,Concept
+SNOMEDCT_US,108754007,Glatiramer-containing product,Concept
+SNOMEDCT_US,787746000,Risankizumab-containing product,Concept
+SNOMEDCT_US,327397006,Trastuzumab-containing product,Concept
+SNOMEDCT_US,830102002,Crizanlizumab-containing product,Concept
+SNOMEDCT_US,312063004,Human fibrinogen-containing product,Concept
+SNOMEDCT_US,838478007,Trastuzumab deruxtecan-containing product,Concept
+SNOMEDCT_US,871800005,Ozanimod-containing product,Concept
+SNOMEDCT_US,46009007,Chlorambucil-containing product,Concept
+SNOMEDCT_US,897291006,Satralizumab-containing product,Concept
+SNOMEDCT_US,108763009,Fludarabine-containing product,Concept
+SNOMEDCT_US,1149188006,Voclosporin-containing product,Concept
+SNOMEDCT_US,43879000,Flunisolide-containing product,Concept
+SNOMEDCT_US,1156880006,Dostarlimab-containing product,Concept
+SNOMEDCT_US,109143003,Leflunomide-containing product,Concept
+SNOMEDCT_US,418538001,Nelarabine-containing product,Concept
+SNOMEDCT_US,421457001,Tasonermin-containing product,Concept
+SNOMEDCT_US,61181002,Meprednisone-containing product,Concept
+SNOMEDCT_US,398857009,Alefacept-containing product,Concept
+SNOMEDCT_US,74470007,Cyclophosphamide-containing product,Concept
+SNOMEDCT_US,80906007,Cyclosporine-containing product,Concept
+SNOMEDCT_US,406442003,Omalizumab-containing product,Concept
+SNOMEDCT_US,89265009,Cytarabine-containing product,Concept
+SNOMEDCT_US,77750008,Dacarbazine-containing product,Concept
+SNOMEDCT_US,409401002,Cetuximab-containing product,Concept
+SNOMEDCT_US,385581009,Pimecrolimus-containing product,Concept
+SNOMEDCT_US,7561000,Dexamethasone-containing product,Concept
+SNOMEDCT_US,398728003,Adalimumab-containing product,Concept
+SNOMEDCT_US,421737001,Lenalidomide-containing product,Concept
+SNOMEDCT_US,116109004,Sirolimus-containing product,Concept
+SNOMEDCT_US,414804006,Natalizumab-containing product,Concept
+SNOMEDCT_US,407006005,Efalizumab-containing product,Concept
+SNOMEDCT_US,398907002,Bortezomib-containing product,Concept
+SNOMEDCT_US,116099008,Temozolomide-containing product,Concept
+SNOMEDCT_US,421968008,Thymosin alpha 1-containing product,Concept
+SNOMEDCT_US,326774002,Treosulfan-containing product,Concept
+SNOMEDCT_US,108768000,Estramustine-containing product,Concept
+SNOMEDCT_US,108823002,Amifostine-containing product,Concept
+SNOMEDCT_US,326748008,Etoglucid-containing product,Concept
+SNOMEDCT_US,109129008,Tacrolimus-containing product,Concept
+SNOMEDCT_US,91339009,Trimetrexate-containing product,Concept
+SNOMEDCT_US,412251003,Muromonab-CD3-containing product,Concept
+SNOMEDCT_US,417601005,Clofarabine-containing product,Concept
+SNOMEDCT_US,108800000,Cladribine-containing product,Concept
+SNOMEDCT_US,75927008,Floxuridine-containing product,Concept
+SNOMEDCT_US,3127006,Fluorouracil-containing product,Concept
+SNOMEDCT_US,421459003,Tegafur-containing product,Concept
+SNOMEDCT_US,768672006,Histamine-containing product,Concept
+SNOMEDCT_US,108757000,Ifosfamide-containing product,Concept
+SNOMEDCT_US,108796006,Interferon alfa-2a-containing product,Concept
+SNOMEDCT_US,108797002,Interferon alfa-2b-containing product,Concept
+SNOMEDCT_US,136113003,Interferon gamma-containing product,Concept
+SNOMEDCT_US,768875005,Interferon alfacon-1-containing product,Concept
+SNOMEDCT_US,108939005,Imiquimod-containing product,Concept
+SNOMEDCT_US,324757004,Inosine pranobex-containing product,Concept
+SNOMEDCT_US,768869001,Interferon alfa-n3-containing product,Concept
+SNOMEDCT_US,421412005,Abatacept-containing product,Concept
+SNOMEDCT_US,54391004,Levamisole-containing product,Concept
+SNOMEDCT_US,40999006,Lomustine-containing product,Concept
+SNOMEDCT_US,427299005,Temsirolimus-containing product,Concept
+SNOMEDCT_US,29156002,Mechlorethamine-containing product,Concept
+SNOMEDCT_US,544002,Melphalan-containing product,Concept
+SNOMEDCT_US,108965009,Filgrastim-containing product,Concept
+SNOMEDCT_US,411089001,Pemetrexed-containing product,Concept
+SNOMEDCT_US,68887009,Methotrexate-containing product,Concept
+SNOMEDCT_US,388375003,Sargramostim-containing product,Concept
+SNOMEDCT_US,29089004,Mitobronitol-containing product,Concept
+SNOMEDCT_US,108791001,Mitoxantrone-containing product,Concept
+SNOMEDCT_US,327112008,Molgramostim-containing product,Concept
+SNOMEDCT_US,327123007,Lenograstim-containing product,Concept
+SNOMEDCT_US,108804009,Aldesleukin-containing product,Concept
+SNOMEDCT_US,430307008,Certolizumab pegol-containing product,Concept
+SNOMEDCT_US,444609007,Ofatumumab-containing product,Concept
+SNOMEDCT_US,409331009,Mycophenolic acid-containing product,Concept
+SNOMEDCT_US,108751004,Interferon beta-1b-containing product,Concept
+SNOMEDCT_US,395279009,Anakinra-containing product,Concept
+SNOMEDCT_US,442206008,Plerixafor-containing product,Concept
+SNOMEDCT_US,108749003,Interferon beta-1a-containing product,Concept
+SNOMEDCT_US,434463003,Rilonacept-containing product,Concept
+SNOMEDCT_US,17554004,Paramethasone-containing product,Concept
+SNOMEDCT_US,28149003,Pentostatin-containing product,Concept
+SNOMEDCT_US,786934001,Human C1 esterase inhibitor-containing product,Concept
+SNOMEDCT_US,442318002,Golimumab-containing product,Concept
+SNOMEDCT_US,703376008,Canakinumab-containing product,Concept
+SNOMEDCT_US,52388000,Prednisolone-containing product,Concept
+SNOMEDCT_US,10312003,Prednisone-containing product,Concept
+SNOMEDCT_US,327074002,Antilymphocyte immunoglobulin-containing product,Concept
+SNOMEDCT_US,786963003,Human alpha1 proteinase inhibitor-containing product,Concept
+SNOMEDCT_US,895426008,Bazedoxifene-containing product,Concept
+SNOMEDCT_US,325778008,Cyclofenil-containing product,Concept
+SNOMEDCT_US,109077006,Acarbose-containing product,Concept
+SNOMEDCT_US,386046009,Miglitol-containing product,Concept
+SNOMEDCT_US,109100006,Fomepizole-containing product,Concept
+SNOMEDCT_US,703737005,Ulipristal-containing product,Concept
+SNOMEDCT_US,398916003,Sulbactam-containing product,Concept
+SNOMEDCT_US,412318009,Clavulanic acid-containing product,Concept
+SNOMEDCT_US,410931003,Tazobactam-containing product,Concept
+SNOMEDCT_US,1137658005,Setmelanotide-containing product,Concept
+SNOMEDCT_US,108964008,Epoetin alfa-containing product,Concept
+SNOMEDCT_US,327623006,Epoetin beta-containing product,Concept
+SNOMEDCT_US,385610007,Darbepoetin alfa-containing product,Concept
+SNOMEDCT_US,116093009,Orlistat-containing product,Concept
+SNOMEDCT_US,773185009,Elagolix-containing product,Concept
+SNOMEDCT_US,1144510001,Relugolix-containing product,Concept
+SNOMEDCT_US,407129000,Abarelix-containing product,Concept
+SNOMEDCT_US,326088005,Ganirelix-containing product,Concept
+SNOMEDCT_US,441758000,Degarelix-containing product,Concept
+SNOMEDCT_US,326083001,Cetrorelix-containing product,Concept
+SNOMEDCT_US,319810009,Streptokinase-containing product,Concept
+SNOMEDCT_US,319826005,Urokinase-containing product,Concept
+SNOMEDCT_US,48647005,Pancrelipase-containing product,Concept
+SNOMEDCT_US,127967007,Tenecteplase-containing product,Concept
+SNOMEDCT_US,715493002,Ocriplasmin-containing product,Concept
+SNOMEDCT_US,109000009,Anistreplase-containing product,Concept
+SNOMEDCT_US,108998004,Reteplase-containing product,Concept
+SNOMEDCT_US,108997009,Tissue plasminogen activator-containing product,Concept
+SNOMEDCT_US,27638005,Alteplase-containing product,Concept
+SNOMEDCT_US,370187009,Celecoxib-containing product,Concept
+SNOMEDCT_US,116095002,Rofecoxib-containing product,Concept
+SNOMEDCT_US,329961001,Dexketoprofen-containing product,Concept
+SNOMEDCT_US,108510003,Etodolac-containing product,Concept
+SNOMEDCT_US,385583007,Valdecoxib-containing product,Concept
+SNOMEDCT_US,395289008,Parecoxib-containing product,Concept
+SNOMEDCT_US,419829002,Nepafenac-containing product,Concept
+SNOMEDCT_US,395292007,Etoricoxib-containing product,Concept
+SNOMEDCT_US,108508000,Nabumetone-containing product,Concept
+SNOMEDCT_US,423684002,Deracoxib-containing product,Concept
+SNOMEDCT_US,108512006,Ketorolac-containing product,Concept
+SNOMEDCT_US,125694008,Meloxicam-containing product,Concept
+SNOMEDCT_US,71798005,Fenoprofen-containing product,Concept
+SNOMEDCT_US,424766004,Firocoxib-containing product,Concept
+SNOMEDCT_US,703480002,Nimesulide-containing product,Concept
+SNOMEDCT_US,38268001,Ibuprofen-containing product,Concept
+SNOMEDCT_US,11847009,Naproxen-containing product,Concept
+SNOMEDCT_US,418520004,Vandetanib-containing product,Concept
+SNOMEDCT_US,768537000,Toceranib-containing product,Concept
+SNOMEDCT_US,703638005,Crizotinib-containing product,Concept
+SNOMEDCT_US,703779004,Ruxolitinib-containing product,Concept
+SNOMEDCT_US,429507005,Axitinib-containing product,Concept
+SNOMEDCT_US,704227006,Pertuzumab-containing product,Concept
+SNOMEDCT_US,703586005,Bosutinib-containing product,Concept
+SNOMEDCT_US,703808002,Regorafenib-containing product,Concept
+SNOMEDCT_US,763605009,Cabozantinib-containing product,Concept
+SNOMEDCT_US,703798002,Ponatinib-containing product,Concept
+SNOMEDCT_US,703580004,Afatinib-containing product,Concept
+SNOMEDCT_US,715598009,Ibrutinib-containing product,Concept
+SNOMEDCT_US,704310000,Ceritinib-containing product,Concept
+SNOMEDCT_US,714109005,Lenvatinib-containing product,Concept
+SNOMEDCT_US,715741000,Cobimetinib-containing product,Concept
+SNOMEDCT_US,781316007,Alectinib-containing product,Concept
+SNOMEDCT_US,763614004,Midostaurin-containing product,Concept
+SNOMEDCT_US,763704002,Brigatinib-containing product,Concept
+SNOMEDCT_US,763563007,Neratinib-containing product,Concept
+SNOMEDCT_US,763502000,Acalabrutinib-containing product,Concept
+SNOMEDCT_US,781270007,Netarsudil-containing product,Concept
+SNOMEDCT_US,772039004,Fostamatinib-containing product,Concept
+SNOMEDCT_US,781495006,Dacomitinib-containing product,Concept
+SNOMEDCT_US,782995000,Lorlatinib-containing product,Concept
+SNOMEDCT_US,782991009,Larotrectinib-containing product,Concept
+SNOMEDCT_US,782987004,Gilteritinib-containing product,Concept
+SNOMEDCT_US,787742003,Erdafitinib-containing product,Concept
+SNOMEDCT_US,789195002,Pexidartinib-containing product,Concept
+SNOMEDCT_US,789416006,Upadacitinib-containing product,Concept
+SNOMEDCT_US,789368003,Fedratinib-containing product,Concept
+SNOMEDCT_US,789364001,Entrectinib-containing product,Concept
+SNOMEDCT_US,830103007,Zanubrutinib-containing product,Concept
+SNOMEDCT_US,871709004,Pemigatinib-containing product,Concept
+SNOMEDCT_US,871715004,Tucatinib-containing product,Concept
+SNOMEDCT_US,874907006,Capmatinib-containing product,Concept
+SNOMEDCT_US,874906002,Ripretinib-containing product,Concept
+SNOMEDCT_US,876867006,Selpercatinib-containing product,Concept
+SNOMEDCT_US,926317008,Pralsetinib-containing product,Concept
+SNOMEDCT_US,1144613007,Tirbanibulin-containing product,Concept
+SNOMEDCT_US,1144506004,Margetuximab-containing product,Concept
+SNOMEDCT_US,1148545002,Tepotinib-containing product,Concept
+SNOMEDCT_US,763513002,Tivozanib-containing product,Concept
+SNOMEDCT_US,391634008,Imatinib-containing product,Concept
+SNOMEDCT_US,398685009,Gefitinib-containing product,Concept
+SNOMEDCT_US,414122006,Erlotinib-containing product,Concept
+SNOMEDCT_US,421448007,Sunitinib-containing product,Concept
+SNOMEDCT_US,422756008,Dasatinib-containing product,Concept
+SNOMEDCT_US,425466009,Lapatinib-containing product,Concept
+SNOMEDCT_US,420681006,Sorafenib-containing product,Concept
+SNOMEDCT_US,428468009,Nilotinib-containing product,Concept
+SNOMEDCT_US,443764004,Pazopanib-containing product,Concept
+SNOMEDCT_US,763564001,Naloxegol-containing product,Concept
+SNOMEDCT_US,763565000,Naldemedine-containing product,Concept
+SNOMEDCT_US,764607009,Nalmefene-containing product,Concept
+SNOMEDCT_US,89018006,Naloxone-containing product,Concept
+SNOMEDCT_US,87617007,Naltrexone-containing product,Concept
+SNOMEDCT_US,74022005,Mepenzolate-containing product,Concept
+SNOMEDCT_US,2190009,Trihexyphenidyl-containing product,Concept
+SNOMEDCT_US,350607006,Trimethaphan-containing product,Concept
+SNOMEDCT_US,9190005,Tropicamide-containing product,Concept
+SNOMEDCT_US,37803001,Tubocurarine-containing product,Concept
+SNOMEDCT_US,109113000,Tolterodine-containing product,Concept
+SNOMEDCT_US,73949004,Atropine-containing product,Concept
+SNOMEDCT_US,703923006,Aclidinium-containing product,Concept
+SNOMEDCT_US,767227007,Belladonna alkaloid-containing product,Concept
+SNOMEDCT_US,416385001,Darifenacin-containing product,Concept
+SNOMEDCT_US,77390008,Benztropine-containing product,Concept
+SNOMEDCT_US,439003007,Iobenguane (123-I)-containing product,Concept
+SNOMEDCT_US,715611006,Umeclidinium-containing product,Concept
+SNOMEDCT_US,48899009,Hyoscyamine-containing product,Concept
+SNOMEDCT_US,772943003,Glycopyrronium-containing product,Concept
+SNOMEDCT_US,65041000,Biperiden-containing product,Concept
+SNOMEDCT_US,429328002,Iobenguane (131-I)-containing product,Concept
+SNOMEDCT_US,782999006,Revefenacin-containing product,Concept
+SNOMEDCT_US,57853003,Clidinium-containing product,Concept
+SNOMEDCT_US,73647000,Dipivefrin-containing product,Concept
+SNOMEDCT_US,359380005,Trospium-containing product,Concept
+SNOMEDCT_US,49688004,Hexocyclium-containing product,Concept
+SNOMEDCT_US,82264009,Homatropine-containing product,Concept
+SNOMEDCT_US,818969000,Lachesine-containing product,Concept
+SNOMEDCT_US,64558005,Methixene-containing product,Concept
+SNOMEDCT_US,8348002,Cyclopentolate-containing product,Concept
+SNOMEDCT_US,407031006,Solifenacin-containing product,Concept
+SNOMEDCT_US,703516000,Otilonium-containing product,Concept
+SNOMEDCT_US,349953003,Oxitropium-containing product,Concept
+SNOMEDCT_US,35768004,Oxybutynin-containing product,Concept
+SNOMEDCT_US,41493007,Dicyclomine-containing product,Concept
+SNOMEDCT_US,74798006,Pipenzolate-containing product,Concept
+SNOMEDCT_US,111129004,Poldine-containing product,Concept
+SNOMEDCT_US,421500009,Emepronium-containing product,Concept
+SNOMEDCT_US,53641000,Flavoxate-containing product,Concept
+SNOMEDCT_US,421592007,Propiverine-containing product,Concept
+SNOMEDCT_US,73277004,Mecamylamine-containing product,Concept
+SNOMEDCT_US,407730002,Tiotropium-containing product,Concept
+SNOMEDCT_US,108624006,Ipratropium-containing product,Concept
+SNOMEDCT_US,35035001,Orphenadrine-containing product,Concept
+SNOMEDCT_US,432254002,Fesoterodine-containing product,Concept
+SNOMEDCT_US,349802000,Pirenzepine-containing product,Concept
+SNOMEDCT_US,44990002,Procyclidine-containing product,Concept
+SNOMEDCT_US,36642006,Propantheline-containing product,Concept
+SNOMEDCT_US,770854002,Anisotropine-containing product,Concept
+SNOMEDCT_US,1842003,Diphemanil-containing product,Concept
+SNOMEDCT_US,28415002,Methscopolamine-containing product,Concept
+SNOMEDCT_US,72870001,Scopolamine-containing product,Concept
+SNOMEDCT_US,412496008,Protirelin-containing product,Concept
+SNOMEDCT_US,73805002,Thyrotropin releasing factor-containing product,Concept
+SNOMEDCT_US,327301004,Buserelin-containing product,Concept
+SNOMEDCT_US,126196000,Nafarelin-containing product,Concept
+SNOMEDCT_US,327370004,Triptorelin-containing product,Concept
+SNOMEDCT_US,350364005,Leuprorelin-containing product,Concept
+SNOMEDCT_US,407733000,Thyrotropin alfa-containing product,Concept
+SNOMEDCT_US,126138002,Goserelin-containing product,Concept
+SNOMEDCT_US,126198004,Histrelin-containing product,Concept
+SNOMEDCT_US,325995009,Gonadorelin-containing product,Concept
+SNOMEDCT_US,1002242008,Polystyrene sulfonate-containing product,Concept
+SNOMEDCT_US,763550001,Patiromer-containing product,Concept
+SNOMEDCT_US,66602007,Stanozolol-containing product,Concept
+SNOMEDCT_US,109033004,Testosterone-containing product,Concept
+SNOMEDCT_US,765123002,Tesamorelin-containing product,Concept
+SNOMEDCT_US,326013007,Thyrotrophin-containing product,Concept
+SNOMEDCT_US,772208008,Antidiuretic hormone-containing product,Concept
+SNOMEDCT_US,395275003,Drospirenone-containing product,Concept
+SNOMEDCT_US,22657006,Calcitonin-containing product,Concept
+SNOMEDCT_US,22474002,Aldosterone-containing product,Concept
+SNOMEDCT_US,96359009,Altrenogest-containing product,Concept
+SNOMEDCT_US,126185008,Urofollitropin-containing product,Concept
+SNOMEDCT_US,704267007,Pasireotide-containing product,Concept
+SNOMEDCT_US,126176008,Zeranol-containing product,Concept
+SNOMEDCT_US,414518007,Insulin detemir-containing product,Concept
+SNOMEDCT_US,82166002,Prolactin-containing product,Concept
+SNOMEDCT_US,326451000,Etonogestrel-containing product,Concept
+SNOMEDCT_US,715594006,Metreleptin-containing product,Concept
+SNOMEDCT_US,412219004,Isophane insulin-containing product,Concept
+SNOMEDCT_US,715774000,Insulin degludec-containing product,Concept
+SNOMEDCT_US,68206008,Calcitriol-containing product,Concept
+SNOMEDCT_US,763500008,Abaloparatide-containing product,Concept
+SNOMEDCT_US,385680000,Nesiritide-containing product,Concept
+SNOMEDCT_US,764385008,Angiotensin II-containing product,Concept
+SNOMEDCT_US,85507008,Esterified estrogen-containing product,Concept
+SNOMEDCT_US,788500001,Bremelanotide-containing product,Concept
+SNOMEDCT_US,416742007,Porcine isophane insulin-containing product,Concept
+SNOMEDCT_US,417625002,Porcine regular insulin-containing product,Concept
+SNOMEDCT_US,819984003,Afamelanotide-containing product,Concept
+SNOMEDCT_US,116074007,Desogestrel-containing product,Concept
+SNOMEDCT_US,325781003,Pituitary follicle stimulating hormone-containing product,Concept
+SNOMEDCT_US,96339005,Boldenone-containing product,Concept
+SNOMEDCT_US,703726009,Dienogest-containing product,Concept
+SNOMEDCT_US,420908004,Drostanolone-containing product,Concept
+SNOMEDCT_US,400864005,Chlorotrianisene-containing product,Concept
+SNOMEDCT_US,108943009,Cholecalciferol-containing product,Concept
+SNOMEDCT_US,25085002,Cholecystokinin-containing product,Concept
+SNOMEDCT_US,423440008,Ethynodiol-containing product,Concept
+SNOMEDCT_US,416089000,Human isophane insulin-containing product,Concept
+SNOMEDCT_US,417423002,Human regular insulin-containing product,Concept
+SNOMEDCT_US,109044007,Follitropin beta-containing product,Concept
+SNOMEDCT_US,437760006,Gestodene-containing product,Concept
+SNOMEDCT_US,772981008,Somatropin(rbe)-containing product,Concept
+SNOMEDCT_US,126212009,Insulin glargine-containing product,Concept
+SNOMEDCT_US,111150008,Cortisone-containing product,Concept
+SNOMEDCT_US,325824002,Cosyntropin-containing product,Concept
+SNOMEDCT_US,47140009,Medrysone-containing product,Concept
+SNOMEDCT_US,96370002,Cyproterone-containing product,Concept
+SNOMEDCT_US,87881000,Danazol-containing product,Concept
+SNOMEDCT_US,413963008,Dehydroepiandrosterone-containing product,Concept
+SNOMEDCT_US,772980009,Somatropin(epr)-containing product,Concept
+SNOMEDCT_US,416313002,Bovine isophane insulin-containing product,Concept
+SNOMEDCT_US,116073001,Norgestimate-containing product,Concept
+SNOMEDCT_US,75029008,Deoxycortone-containing product,Concept
+SNOMEDCT_US,404867007,Norelgestromin-containing product,Concept
+SNOMEDCT_US,398823001,Teriparatide-containing product,Concept
+SNOMEDCT_US,30988006,Dienestrol-containing product,Concept
+SNOMEDCT_US,784234005,Estropipate-containing product,Concept
+SNOMEDCT_US,79332009,Diethylstilbestrol-containing product,Concept
+SNOMEDCT_US,412126005,Human chorionic gonadotropin-containing product,Concept
+SNOMEDCT_US,890263000,Polyestradiol-containing product,Concept
+SNOMEDCT_US,715384002,Promestriene-containing product,Concept
+SNOMEDCT_US,325561002,Quinestradol-containing product,Concept
+SNOMEDCT_US,43753001,Dydrogesterone-containing product,Concept
+SNOMEDCT_US,325567003,Tibolone-containing product,Concept
+SNOMEDCT_US,109042006,Follitropin alfa-containing product,Concept
+SNOMEDCT_US,391621007,Lutropin alfa-containing product,Concept
+SNOMEDCT_US,65502005,Epinephrine-containing product,Concept
+SNOMEDCT_US,411532008,Insulin glulisine-containing product,Concept
+SNOMEDCT_US,12839006,Estradiol-containing product,Concept
+SNOMEDCT_US,354050008,Estriol-containing product,Concept
+SNOMEDCT_US,16832004,Conjugated estrogen-containing product,Concept
+SNOMEDCT_US,90017009,Estrone-containing product,Concept
+SNOMEDCT_US,15432003,Ethinyl estradiol-containing product,Concept
+SNOMEDCT_US,28841002,Ethisterone-containing product,Concept
+SNOMEDCT_US,80618000,Ethylestrenol-containing product,Concept
+SNOMEDCT_US,63470003,Fluoxymesterone-containing product,Concept
+SNOMEDCT_US,96380003,Gestrinone-containing product,Concept
+SNOMEDCT_US,427347006,Gestonorone-containing product,Concept
+SNOMEDCT_US,10712001,Glucagon-containing product,Concept
+SNOMEDCT_US,20577002,Choriogonadotropin-containing product,Concept
+SNOMEDCT_US,388452006,Insulin aspart-containing product,Concept
+SNOMEDCT_US,325584009,Allylestrenol-containing product,Concept
+SNOMEDCT_US,16602005,Hydrocortisone-containing product,Concept
+SNOMEDCT_US,56014002,Hydroxyprogesterone-containing product,Concept
+SNOMEDCT_US,109203000,Sermorelin-containing product,Concept
+SNOMEDCT_US,125578008,Somatrem-containing product,Concept
+SNOMEDCT_US,325927008,Terlipressin-containing product,Concept
+SNOMEDCT_US,129495007,Somatropin-containing product,Concept
+SNOMEDCT_US,109032009,Levonorgestrel-containing product,Concept
+SNOMEDCT_US,326328004,Lynestrenol-containing product,Concept
+SNOMEDCT_US,36621009,Medroxyprogesterone-containing product,Concept
+SNOMEDCT_US,38578004,Megestrol-containing product,Concept
+SNOMEDCT_US,126166005,Mesterolone-containing product,Concept
+SNOMEDCT_US,77885004,Mestranol-containing product,Concept
+SNOMEDCT_US,327379003,Lanreotide-containing product,Concept
+SNOMEDCT_US,22274004,Methandriol-containing product,Concept
+SNOMEDCT_US,64240003,Methandrostenolone-containing product,Concept
+SNOMEDCT_US,126167001,Methenolone-containing product,Concept
+SNOMEDCT_US,42348003,Methyltestosterone-containing product,Concept
+SNOMEDCT_US,86162003,Nandrolone-containing product,Concept
+SNOMEDCT_US,111130009,Norepinephrine-containing product,Concept
+SNOMEDCT_US,211009,Norethandrolone-containing product,Concept
+SNOMEDCT_US,63758001,Norethindrone-containing product,Concept
+SNOMEDCT_US,82133001,Norethynodrel-containing product,Concept
+SNOMEDCT_US,82240008,Norgestrel-containing product,Concept
+SNOMEDCT_US,126155003,Octreotide-containing product,Concept
+SNOMEDCT_US,2679000,Oxandrolone-containing product,Concept
+SNOMEDCT_US,6116004,Oxymetholone-containing product,Concept
+SNOMEDCT_US,12369008,Oxytocin-containing product,Concept
+SNOMEDCT_US,388454007,Insulin lispro-containing product,Concept
+SNOMEDCT_US,50318003,Progesterone-containing product,Concept
+SNOMEDCT_US,126100001,Quinestrol-containing product,Concept
+SNOMEDCT_US,68622003,Secretin-containing product,Concept
+SNOMEDCT_US,126222003,Sincalide-containing product,Concept
+SNOMEDCT_US,57819002,Somatostatin-containing product,Concept
+SNOMEDCT_US,69204002,Guanadrel-containing product,Concept
+SNOMEDCT_US,79305004,Guanethidine-containing product,Concept
+SNOMEDCT_US,45311002,Terbutaline-containing product,Concept
+SNOMEDCT_US,703740005,Indacaterol-containing product,Concept
+SNOMEDCT_US,720194004,Vilanterol-containing product,Concept
+SNOMEDCT_US,715600003,Olodaterol-containing product,Concept
+SNOMEDCT_US,349923005,Bambuterol-containing product,Concept
+SNOMEDCT_US,41985001,Bitolterol-containing product,Concept
+SNOMEDCT_US,386171009,Formoterol-containing product,Concept
+SNOMEDCT_US,423317005,Arformoterol-containing product,Concept
+SNOMEDCT_US,108611006,Pirbuterol-containing product,Concept
+SNOMEDCT_US,349925003,Reproterol-containing product,Concept
+SNOMEDCT_US,108605008,Salmeterol-containing product,Concept
+SNOMEDCT_US,349924004,Fenoterol-containing product,Concept
+SNOMEDCT_US,91143003,Albuterol-containing product,Concept
+SNOMEDCT_US,704988006,Hexoprenaline-containing product,Concept
+SNOMEDCT_US,386181008,Isoetharine-containing product,Concept
+SNOMEDCT_US,349926002,Rimiterol-containing product,Concept
+SNOMEDCT_US,108494008,Tacrine-containing product,Concept
+SNOMEDCT_US,108497001,Donepezil-containing product,Concept
+SNOMEDCT_US,323368009,Rivastigmine-containing product,Concept
+SNOMEDCT_US,323377002,Galantamine-containing product,Concept
+SNOMEDCT_US,767857007,Abiraterone-containing product,Concept
+SNOMEDCT_US,703684000,Enzalutamide-containing product,Concept
+SNOMEDCT_US,96381004,Paroxypropione-containing product,Concept
+SNOMEDCT_US,766973006,Apalutamide-containing product,Concept
+SNOMEDCT_US,789166006,Darolutamide-containing product,Concept
+SNOMEDCT_US,385570006,Dutasteride-containing product,Concept
+SNOMEDCT_US,898164002,Clascoterone-containing product,Concept
+SNOMEDCT_US,109035006,Finasteride-containing product,Concept
+SNOMEDCT_US,404866003,Nilutamide-containing product,Concept
+SNOMEDCT_US,96371003,Flutamide-containing product,Concept
+SNOMEDCT_US,53848009,Metyrapone-containing product,Concept
+SNOMEDCT_US,129483007,Mifepristone-containing product,Concept
+SNOMEDCT_US,108766001,Bicalutamide-containing product,Concept
+SNOMEDCT_US,318053000,Potassium canrenoate-containing product,Concept
+SNOMEDCT_US,398699008,Eplerenone-containing product,Concept
+SNOMEDCT_US,13929005,Spironolactone-containing product,Concept
+SNOMEDCT_US,329195003,Sevelamer-containing product,Concept
+SNOMEDCT_US,72824008,Cholestyramine-containing product,Concept
+SNOMEDCT_US,66971004,Colestipol-containing product,Concept
+SNOMEDCT_US,66493003,Theophylline-containing product,Concept
+SNOMEDCT_US,714680006,Roflumilast-containing product,Concept
+SNOMEDCT_US,703957003,Avanafil-containing product,Concept
+SNOMEDCT_US,109123009,Sildenafil-containing product,Concept
+SNOMEDCT_US,763593001,Crisaborole-containing product,Concept
+SNOMEDCT_US,91107009,Caffeine-containing product,Concept
+SNOMEDCT_US,395239000,Cilostazol-containing product,Concept
+SNOMEDCT_US,407979001,Vardenafil-containing product,Concept
+SNOMEDCT_US,407734006,Tadalafil-containing product,Concept
+SNOMEDCT_US,320067009,Enoximone-containing product,Concept
+SNOMEDCT_US,108480007,Milrinone-containing product,Concept
+SNOMEDCT_US,412412006,Inamrinone-containing product,Concept
+SNOMEDCT_US,354056002,Papaveretum-containing product,Concept
+SNOMEDCT_US,58467001,Papaverine-containing product,Concept
+SNOMEDCT_US,75959001,Tamoxifen-containing product,Concept
+SNOMEDCT_US,30466001,Clomiphene-containing product,Concept
+SNOMEDCT_US,404845006,Fulvestrant-containing product,Concept
+SNOMEDCT_US,96378009,Toremifene-containing product,Concept
+SNOMEDCT_US,25142008,Trilostane-containing product,Concept
+SNOMEDCT_US,419530003,Raloxifene-containing product,Concept
+SNOMEDCT_US,321986007,Citalopram-containing product,Concept
+SNOMEDCT_US,108435006,Nefazodone-containing product,Concept
+SNOMEDCT_US,395246009,Escitalopram-containing product,Concept
+SNOMEDCT_US,321963000,Paroxetine-containing product,Concept
+SNOMEDCT_US,321958004,Sertraline-containing product,Concept
+SNOMEDCT_US,108432009,Venlafaxine-containing product,Concept
+SNOMEDCT_US,96213009,Fluvoxamine-containing product,Concept
+SNOMEDCT_US,53640004,Fluoxetine-containing product,Concept
+SNOMEDCT_US,407033009,Duloxetine-containing product,Concept
+SNOMEDCT_US,41470001,Levonordefrin-containing product,Concept
+SNOMEDCT_US,426457000,Droxidopa-containing product,Concept
+SNOMEDCT_US,421308003,Tramazoline-containing product,Concept
+SNOMEDCT_US,65026000,Ephedrine-containing product,Concept
+SNOMEDCT_US,76289007,Xylometazoline-containing product,Concept
+SNOMEDCT_US,41015006,Metaraminol-containing product,Concept
+SNOMEDCT_US,54406003,Methoxamine-containing product,Concept
+SNOMEDCT_US,108539003,Midodrine-containing product,Concept
+SNOMEDCT_US,6232005,Naphazoline-containing product,Concept
+SNOMEDCT_US,29129004,Oxymetazoline-containing product,Concept
+SNOMEDCT_US,54765002,Phenylephrine-containing product,Concept
+SNOMEDCT_US,398882009,Propylhexedrine-containing product,Concept
+SNOMEDCT_US,91435002,Pseudoephedrine-containing product,Concept
+SNOMEDCT_US,703804000,Mirabegron-containing product,Concept
+SNOMEDCT_US,349922000,Dopexamine-containing product,Concept
+SNOMEDCT_US,398965008,Levalbuterol-containing product,Concept
+SNOMEDCT_US,1149380006,Vibegron-containing product,Concept
+SNOMEDCT_US,425138006,Clenbuterol-containing product,Concept
+SNOMEDCT_US,26523005,Dobutamine-containing product,Concept
+SNOMEDCT_US,59187003,Dopamine-containing product,Concept
+SNOMEDCT_US,349929009,Tulobuterol-containing product,Concept
+SNOMEDCT_US,349941002,Xamoterol-containing product,Concept
+SNOMEDCT_US,57845006,Isoproterenol-containing product,Concept
+SNOMEDCT_US,6067003,Metaproterenol-containing product,Concept
+SNOMEDCT_US,89785009,Ritodrine-containing product,Concept
+SNOMEDCT_US,447209009,Alcaftadine-containing product,Concept
+SNOMEDCT_US,320813002,Acrivastine-containing product,Concept
+SNOMEDCT_US,108655000,Cetirizine-containing product,Concept
+SNOMEDCT_US,134506008,Desloratadine-containing product,Concept
+SNOMEDCT_US,108846000,Emedastine-containing product,Concept
+SNOMEDCT_US,391595003,Levocetirizine-containing product,Concept
+SNOMEDCT_US,407069001,Epinastine-containing product,Concept
+SNOMEDCT_US,59456005,Astemizole-containing product,Concept
+SNOMEDCT_US,16037009,Terfenadine-containing product,Concept
+SNOMEDCT_US,320830000,Mizolastine-containing product,Concept
+SNOMEDCT_US,354038002,Ketotifen-containing product,Concept
+SNOMEDCT_US,108438008,Pimozide-containing product,Concept
+SNOMEDCT_US,770926005,Bepotastine-containing product,Concept
+SNOMEDCT_US,41324009,Propiomazine-containing product,Concept
+SNOMEDCT_US,25246002,Allopurinol-containing product,Concept
+SNOMEDCT_US,441610003,Febuxostat-containing product,Concept
+SNOMEDCT_US,326485004,Octoxinol-containing product,Concept
+SNOMEDCT_US,427906003,Lauromacrogol 400-containing product,Concept
+SNOMEDCT_US,109102003,Trientine-containing product,Concept
+SNOMEDCT_US,441993002,Unithiol-containing product,Concept
+SNOMEDCT_US,329482000,Deferiprone-containing product,Concept
+SNOMEDCT_US,70702006,Deferoxamine-containing product,Concept
+SNOMEDCT_US,13664004,Dimercaprol-containing product,Concept
+SNOMEDCT_US,397224000,Succimer-containing product,Concept
+SNOMEDCT_US,429352009,Pentetic acid-containing product,Concept
+SNOMEDCT_US,350076000,Edetate-containing product,Concept
+SNOMEDCT_US,417910004,Deferasirox-containing product,Concept
+SNOMEDCT_US,397225004,Tiopronin-containing product,Concept
+SNOMEDCT_US,4219002,Penicillamine-containing product,Concept
+SNOMEDCT_US,90370005,Benzalkonium-containing product,Concept
+SNOMEDCT_US,34929006,Benzethonium-containing product,Concept
+SNOMEDCT_US,11719000,Cetylpyridinium-containing product,Concept
+SNOMEDCT_US,54142000,Domiphen-containing product,Concept
+SNOMEDCT_US,333179001,Cetrimide-containing product,Concept
+SNOMEDCT_US,350274005,Dequalinium-containing product,Concept
+SNOMEDCT_US,318706009,Moxonidine-containing product,Concept
+SNOMEDCT_US,419010007,Rasagiline-containing product,Concept
+SNOMEDCT_US,763521008,Safinamide-containing product,Concept
+SNOMEDCT_US,21159006,Pargyline-containing product,Concept
+SNOMEDCT_US,108466000,Selegiline-containing product,Concept
+SNOMEDCT_US,763548009,Opicapone-containing product,Concept
+SNOMEDCT_US,116116003,Entacapone-containing product,Concept
+SNOMEDCT_US,108464002,Tolcapone-containing product,Concept
+SNOMEDCT_US,96185000,Tilidine-containing product,Concept
+SNOMEDCT_US,108507005,Tramadol-containing product,Concept
+SNOMEDCT_US,31684002,Buprenorphine-containing product,Concept
+SNOMEDCT_US,13936006,Butorphanol-containing product,Concept
+SNOMEDCT_US,370233009,Dezocine-containing product,Concept
+SNOMEDCT_US,57811004,Dihydrocodeine-containing product,Concept
+SNOMEDCT_US,40974005,Dipipanone-containing product,Concept
+SNOMEDCT_US,409482006,Levomethadyl-containing product,Concept
+SNOMEDCT_US,897041004,Oliceridine-containing product,Concept
+SNOMEDCT_US,85990009,Codeine-containing product,Concept
+SNOMEDCT_US,96191003,Dextromoramide-containing product,Concept
+SNOMEDCT_US,60881009,Diamorphine-containing product,Concept
+SNOMEDCT_US,320972003,Pholcodine-containing product,Concept
+SNOMEDCT_US,414428000,Hydromorphone-containing product,Concept
+SNOMEDCT_US,40648001,Fentanyl-containing product,Concept
+SNOMEDCT_US,96183007,Alfentanil-containing product,Concept
+SNOMEDCT_US,20320002,Hydrocodone-containing product,Concept
+SNOMEDCT_US,370275005,Sufentanil-containing product,Concept
+SNOMEDCT_US,50335004,Levorphanol-containing product,Concept
+SNOMEDCT_US,54544005,Meperidine-containing product,Concept
+SNOMEDCT_US,354055003,Meptazinol-containing product,Concept
+SNOMEDCT_US,51758009,Methadone-containing product,Concept
+SNOMEDCT_US,73572009,Morphine-containing product,Concept
+SNOMEDCT_US,83085007,Nalbuphine-containing product,Concept
+SNOMEDCT_US,108379008,Remifentanil-containing product,Concept
+SNOMEDCT_US,76696004,Noscapine-containing product,Concept
+SNOMEDCT_US,6985007,Opium-containing product,Concept
+SNOMEDCT_US,414984009,Oxycodone-containing product,Concept
+SNOMEDCT_US,370266008,Oxymorphone-containing product,Concept
+SNOMEDCT_US,442004000,Tapentadol-containing product,Concept
+SNOMEDCT_US,39608003,Pentazocine-containing product,Concept
+SNOMEDCT_US,58360000,Phenazocine-containing product,Concept
+SNOMEDCT_US,350306009,Phenoperidine-containing product,Concept
+SNOMEDCT_US,117005003,Propoxyphene-containing product,Concept
+SNOMEDCT_US,108406003,Zolmitriptan-containing product,Concept
+SNOMEDCT_US,108408002,Naratriptan-containing product,Concept
+SNOMEDCT_US,767324002,Frovatriptan-containing product,Concept
+SNOMEDCT_US,395255007,Eletriptan-containing product,Concept
+SNOMEDCT_US,134529000,Almotriptan-containing product,Concept
+SNOMEDCT_US,322822007,Sumatriptan-containing product,Concept
+SNOMEDCT_US,108411001,Rizatriptan-containing product,Concept
+SNOMEDCT_US,67939000,Apomorphine-containing product,Concept
+SNOMEDCT_US,781292006,Brexpiprazole-containing product,Concept
+SNOMEDCT_US,116656002,Bromocriptine-containing product,Concept
+SNOMEDCT_US,386107009,Carbidopa-containing product,Concept
+SNOMEDCT_US,109139002,Cabergoline-containing product,Concept
+SNOMEDCT_US,421915002,Rotigotine-containing product,Concept
+SNOMEDCT_US,51361008,Amantadine-containing product,Concept
+SNOMEDCT_US,15383004,Levodopa-containing product,Concept
+SNOMEDCT_US,349894007,Lisuride-containing product,Concept
+SNOMEDCT_US,108473005,Ropinirole-containing product,Concept
+SNOMEDCT_US,108471007,Pramipexole-containing product,Concept
+SNOMEDCT_US,326066005,Quinagolide-containing product,Concept
+SNOMEDCT_US,108468004,Pergolide-containing product,Concept
+SNOMEDCT_US,715555005,Macitentan-containing product,Concept
+SNOMEDCT_US,427735003,Ambrisentan-containing product,Concept
+SNOMEDCT_US,385558007,Bosentan-containing product,Concept
+SNOMEDCT_US,442539005,Rivaroxaban-containing product,Concept
+SNOMEDCT_US,703906002,Apixaban-containing product,Concept
+SNOMEDCT_US,714687009,Edoxaban-containing product,Concept
+SNOMEDCT_US,763702003,Betrixaban-containing product,Concept
+SNOMEDCT_US,395236007,Fondaparinux-containing product,Concept
+SNOMEDCT_US,398902008,Enfuvirtide-containing product,Concept
+SNOMEDCT_US,890270000,Fostemsavir-containing product,Concept
+SNOMEDCT_US,427805000,Maraviroc-containing product,Concept
+SNOMEDCT_US,789486001,Esketamine-containing product,Concept
+SNOMEDCT_US,2016004,Dextromethorphan-containing product,Concept
+SNOMEDCT_US,333847008,Ketamine-containing product,Concept
+SNOMEDCT_US,406457005,Memantine-containing product,Concept
+SNOMEDCT_US,31692006,Pentamidine-containing product,Concept
+SNOMEDCT_US,787070005,Solriamfetol-containing product,Concept
+SNOMEDCT_US,407038000,Atomoxetine-containing product,Concept
+SNOMEDCT_US,109001008,Antithrombin III-containing product,Concept
+SNOMEDCT_US,89505005,Sulindac-containing product,Concept
+SNOMEDCT_US,398627003,Suprofen-containing product,Concept
+SNOMEDCT_US,109008002,Aprotinin-containing product,Concept
+SNOMEDCT_US,89092006,Tranylcypromine-containing product,Concept
+SNOMEDCT_US,70934008,Demecarium-containing product,Concept
+SNOMEDCT_US,448917007,Azilsartan-containing product,Concept
+SNOMEDCT_US,703667006,Linagliptin-containing product,Concept
+SNOMEDCT_US,703961009,Boceprevir-containing product,Concept
+SNOMEDCT_US,704466001,Telaprevir-containing product,Concept
+SNOMEDCT_US,13965000,Valproic acid-containing product,Concept
+SNOMEDCT_US,108695003,Indinavir-containing product,Concept
+SNOMEDCT_US,703656005,Vemurafenib-containing product,Concept
+SNOMEDCT_US,319718008,Desirudin-containing product,Concept
+SNOMEDCT_US,714795001,Elvitegravir-containing product,Concept
+SNOMEDCT_US,108706004,Nelfinavir-containing product,Concept
+SNOMEDCT_US,703669009,Alogliptin-containing product,Concept
+SNOMEDCT_US,420240007,Benserazide-containing product,Concept
+SNOMEDCT_US,703646006,Dabrafenib-containing product,Concept
+SNOMEDCT_US,715545006,Trametinib-containing product,Concept
+SNOMEDCT_US,714767001,Dolutegravir-containing product,Concept
+SNOMEDCT_US,715615002,Eslicarbazepine-containing product,Concept
+SNOMEDCT_US,714167009,Simeprevir-containing product,Concept
+SNOMEDCT_US,713645002,Sofosbuvir-containing product,Concept
+SNOMEDCT_US,322976008,Vigabatrin-containing product,Concept
+SNOMEDCT_US,398738008,Argatroban-containing product,Concept
+SNOMEDCT_US,763516005,Tavaborole-containing product,Concept
+SNOMEDCT_US,709283009,Idelalisib-containing product,Concept
+SNOMEDCT_US,714788005,Dabigatran-containing product,Concept
+SNOMEDCT_US,715613009,Nintedanib-containing product,Concept
+SNOMEDCT_US,714428008,Paritaprevir-containing product,Concept
+SNOMEDCT_US,432885003,Olaparib-containing product,Concept
+SNOMEDCT_US,423414002,Dicumarol-containing product,Concept
+SNOMEDCT_US,763549001,Palbociclib-containing product,Concept
+SNOMEDCT_US,429398005,Panobinostat-containing product,Concept
+SNOMEDCT_US,781355008,Alirocumab-containing product,Concept
+SNOMEDCT_US,763586000,Evolocumab-containing product,Concept
+SNOMEDCT_US,33664007,Acetazolamide-containing product,Concept
+SNOMEDCT_US,714679008,Racecadotril-containing product,Concept
+SNOMEDCT_US,816104003,Grazoprevir-containing product,Concept
+SNOMEDCT_US,763539004,Rucaparib-containing product,Concept
+SNOMEDCT_US,763515009,Telotristat-containing product,Concept
+SNOMEDCT_US,763537002,Ribociclib-containing product,Concept
+SNOMEDCT_US,108572003,Benazepril-containing product,Concept
+SNOMEDCT_US,116084008,Abacavir-containing product,Concept
+SNOMEDCT_US,418721002,Tipranavir-containing product,Concept
+SNOMEDCT_US,763561009,Niraparib-containing product,Concept
+SNOMEDCT_US,816106001,Voxilaprevir-containing product,Concept
+SNOMEDCT_US,763583008,Enasidenib-containing product,Concept
+SNOMEDCT_US,816101006,Glecaprevir-containing product,Concept
+SNOMEDCT_US,422523009,Vorinostat-containing product,Concept
+SNOMEDCT_US,763592006,Copanlisib-containing product,Concept
+SNOMEDCT_US,129475001,Lopinavir-containing product,Concept
+SNOMEDCT_US,763568003,Letermovir-containing product,Concept
+SNOMEDCT_US,29439004,Captopril-containing product,Concept
+SNOMEDCT_US,816103009,Bictegravir-containing product,Concept
+SNOMEDCT_US,424611009,Carprofen-containing product,Concept
+SNOMEDCT_US,772091004,Encorafenib-containing product,Concept
+SNOMEDCT_US,773137008,Ivosidenib-containing product,Concept
+SNOMEDCT_US,773961000,Lanadelumab-containing product,Concept
+SNOMEDCT_US,781364003,Duvelisib-containing product,Concept
+SNOMEDCT_US,782211002,Talazoparib-containing product,Concept
+SNOMEDCT_US,318913001,Cilazapril-containing product,Concept
+SNOMEDCT_US,108587008,Candesartan-containing product,Concept
+SNOMEDCT_US,788079009,Alpelisib-containing product,Concept
+SNOMEDCT_US,838409003,Avapritinib-containing product,Concept
+SNOMEDCT_US,398929003,Masoprocol-containing product,Concept
+SNOMEDCT_US,840407002,Tazemetostat-containing product,Concept
+SNOMEDCT_US,863938004,Osilodrostat-containing product,Concept
+SNOMEDCT_US,116088006,Amprenavir-containing product,Concept
+SNOMEDCT_US,870753001,Selumetinib-containing product,Concept
+SNOMEDCT_US,108995001,Lepirudin-containing product,Concept
+SNOMEDCT_US,1137617003,Lonafarnib-containing product,Concept
+SNOMEDCT_US,1145347005,Cabotegravir-containing product,Concept
+SNOMEDCT_US,1149274001,Trilaciclib-containing product,Concept
+SNOMEDCT_US,422591002,Cilastatin-containing product,Concept
+SNOMEDCT_US,386142008,Oseltamivir-containing product,Concept
+SNOMEDCT_US,86131002,Metyrosine-containing product,Concept
+SNOMEDCT_US,108575001,Lisinopril-containing product,Concept
+SNOMEDCT_US,321911007,Moclobemide-containing product,Concept
+SNOMEDCT_US,108566003,Moexipril-containing product,Concept
+SNOMEDCT_US,768151007,Rosuvastatin-containing product,Concept
+SNOMEDCT_US,385540001,Olmesartan-containing product,Concept
+SNOMEDCT_US,427002003,Aliskiren-containing product,Concept
+SNOMEDCT_US,81728006,Digitoxin-containing product,Concept
+SNOMEDCT_US,413591007,Atazanavir-containing product,Concept
+SNOMEDCT_US,108578004,Quinapril-containing product,Concept
+SNOMEDCT_US,66859009,Dipyridamole-containing product,Concept
+SNOMEDCT_US,781025005,Metamizole-containing product,Concept
+SNOMEDCT_US,385567007,Drotrecogin alfa-containing product,Concept
+SNOMEDCT_US,108564000,Ramipril-containing product,Concept
+SNOMEDCT_US,349943004,Distigmine-containing product,Concept
+SNOMEDCT_US,39516004,Disulfiram-containing product,Concept
+SNOMEDCT_US,407018001,Fosamprenavir-containing product,Concept
+SNOMEDCT_US,96304005,Simvastatin-containing product,Concept
+SNOMEDCT_US,46913003,Edrophonium-containing product,Concept
+SNOMEDCT_US,15222008,Enalapril-containing product,Concept
+SNOMEDCT_US,414092003,Enalaprilat-containing product,Concept
+SNOMEDCT_US,322817007,Tolfenamic acid-containing product,Concept
+SNOMEDCT_US,108562001,Trandolapril-containing product,Concept
+SNOMEDCT_US,703662000,Zofenopril-containing product,Concept
+SNOMEDCT_US,386180009,Zileuton-containing product,Concept
+SNOMEDCT_US,81947000,Ethacrynic acid-containing product,Concept
+SNOMEDCT_US,96307003,Fluvastatin-containing product,Concept
+SNOMEDCT_US,96305006,Pravastatin-containing product,Concept
+SNOMEDCT_US,54344006,Flurbiprofen-containing product,Concept
+SNOMEDCT_US,424096001,Darunavir-containing product,Concept
+SNOMEDCT_US,108569005,Fosinopril-containing product,Concept
+SNOMEDCT_US,96309000,Losartan-containing product,Concept
+SNOMEDCT_US,129486004,Perindopril-containing product,Concept
+SNOMEDCT_US,56602009,Hydroxyurea-containing product,Concept
+SNOMEDCT_US,60149003,Indomethacin-containing product,Concept
+SNOMEDCT_US,108596008,Cerivastatin-containing product,Concept
+SNOMEDCT_US,76962009,Iproniazid-containing product,Concept
+SNOMEDCT_US,29877002,Isocarboxazid-containing product,Concept
+SNOMEDCT_US,426163004,Imidapril-containing product,Concept
+SNOMEDCT_US,68424007,Isoflurophate-containing product,Concept
+SNOMEDCT_US,400610005,Bivalirudin-containing product,Concept
+SNOMEDCT_US,10099000,Ketoprofen-containing product,Concept
+SNOMEDCT_US,385997009,Nitisinone-containing product,Concept
+SNOMEDCT_US,763542005,Peramivir-containing product,Concept
+SNOMEDCT_US,36537006,Ambenonium-containing product,Concept
+SNOMEDCT_US,386024001,Lovastatin-containing product,Concept
+SNOMEDCT_US,445564003,Ecallantide-containing product,Concept
+SNOMEDCT_US,770315008,Meclofenamic acid-containing product,Concept
+SNOMEDCT_US,392575007,Methazolamide-containing product,Concept
+SNOMEDCT_US,116100000,Zanamivir-containing product,Concept
+SNOMEDCT_US,108581009,Valsartan-containing product,Concept
+SNOMEDCT_US,18335001,Plicamycin-containing product,Concept
+SNOMEDCT_US,429368003,Raltegravir-containing product,Concept
+SNOMEDCT_US,80024007,Neostigmine-containing product,Concept
+SNOMEDCT_US,129487008,Telmisartan-containing product,Concept
+SNOMEDCT_US,9500005,Phenelzine-containing product,Concept
+SNOMEDCT_US,85429009,Physostigmine-containing product,Concept
+SNOMEDCT_US,108600003,Atorvastatin-containing product,Concept
+SNOMEDCT_US,108700005,Saquinavir-containing product,Concept
+SNOMEDCT_US,318990002,Eprosartan-containing product,Concept
+SNOMEDCT_US,27754002,Piroxicam-containing product,Concept
+SNOMEDCT_US,108585000,Irbesartan-containing product,Concept
+SNOMEDCT_US,108693005,Ritonavir-containing product,Concept
+SNOMEDCT_US,443066009,Saxagliptin-containing product,Concept
+SNOMEDCT_US,443585001,Pitavastatin-containing product,Concept
+SNOMEDCT_US,444737005,Romidepsin-containing product,Concept
+SNOMEDCT_US,391874000,Protein C-containing product,Concept
+SNOMEDCT_US,60682004,Echothiophate-containing product,Concept
+SNOMEDCT_US,59953007,Pyridostigmine-containing product,Concept
+SNOMEDCT_US,763538007,Rolapitant-containing product,Concept
+SNOMEDCT_US,429822007,Fosaprepitant-containing product,Concept
+SNOMEDCT_US,398690007,Aprepitant-containing product,Concept
+SNOMEDCT_US,425570003,Maropitant-containing product,Concept
+SNOMEDCT_US,763584002,Etelcalcetide-containing product,Concept
+SNOMEDCT_US,409391006,Cinacalcet-containing product,Concept
+SNOMEDCT_US,781312009,Osimertinib-containing product,Concept
+SNOMEDCT_US,781320006,Necitumumab-containing product,Concept
+SNOMEDCT_US,424401006,Panitumumab-containing product,Concept
+SNOMEDCT_US,714627007,Aflibercept-containing product,Concept
+SNOMEDCT_US,409405006,Bevacizumab-containing product,Concept
+SNOMEDCT_US,416268001,Pegaptanib-containing product,Concept
+SNOMEDCT_US,425256004,Ranibizumab-containing product,Concept
+SNOMEDCT_US,703728005,Perampanel-containing product,Concept
+SNOMEDCT_US,109141001,Riluzole-containing product,Concept
+SNOMEDCT_US,782983000,Amifampridine-containing product,Concept
+SNOMEDCT_US,392658005,Dofetilide-containing product,Concept
+SNOMEDCT_US,413355004,Dalfampridine-containing product,Concept
+SNOMEDCT_US,763570007,Lixisenatide-containing product,Concept
+SNOMEDCT_US,703905003,Albiglutide-containing product,Concept
+SNOMEDCT_US,714081009,Dulaglutide-containing product,Concept
+SNOMEDCT_US,764284009,Semaglutide-containing product,Concept
+SNOMEDCT_US,444907006,Liraglutide-containing product,Concept
+SNOMEDCT_US,417734003,Exenatide-containing product,Concept
+SNOMEDCT_US,704468000,Tasimelteon-containing product,Concept
+SNOMEDCT_US,419588002,Ramelteon-containing product,Concept
+SNOMEDCT_US,420507002,Varenicline-containing product,Concept
+SNOMEDCT_US,53584007,Methacholine-containing product,Concept
+SNOMEDCT_US,31690003,Bethanechol-containing product,Concept
+SNOMEDCT_US,13525006,Acetylcholine-containing product,Concept
+SNOMEDCT_US,33675006,Carbachol-containing product,Concept
+SNOMEDCT_US,409285006,Cevimeline-containing product,Concept
+SNOMEDCT_US,323283001,Nicotine-containing product,Concept
+SNOMEDCT_US,90356005,Pilocarpine-containing product,Concept
+SNOMEDCT_US,424106006,Sitagliptin-containing product,Concept
+SNOMEDCT_US,428807006,Vildagliptin-containing product,Concept
+SNOMEDCT_US,704195003,Belinostat-containing product,Concept
+SNOMEDCT_US,714011004,Eliglustat-containing product,Concept
+SNOMEDCT_US,763501007,Abemaciclib-containing product,Concept
+SNOMEDCT_US,772095008,Binimetinib-containing product,Concept
+SNOMEDCT_US,408044003,Miglustat-containing product,Concept
+SNOMEDCT_US,773521007,Mogamulizumab-containing product,Concept
+SNOMEDCT_US,433327005,Regadenoson-containing product,Concept
+SNOMEDCT_US,771571004,Avatrombopag-containing product,Concept
+SNOMEDCT_US,773263005,Lusutrombopag-containing product,Concept
+SNOMEDCT_US,441995009,Eltrombopag-containing product,Concept
+SNOMEDCT_US,441077008,Romiplostim-containing product,Concept
+SNOMEDCT_US,442750005,Fenofibric acid-containing product,Concept
+SNOMEDCT_US,1144618003,Berotralstat-containing product,Concept
+SNOMEDCT_US,47898004,Verapamil-containing product,Concept
+SNOMEDCT_US,356862006,Lercanidipine-containing product,Concept
+SNOMEDCT_US,108530004,Bepridil-containing product,Concept
+SNOMEDCT_US,108537001,Amlodipine-containing product,Concept
+SNOMEDCT_US,439624003,Clevidipine-containing product,Concept
+SNOMEDCT_US,108402001,Gabapentin-containing product,Concept
+SNOMEDCT_US,319299000,Lacidipine-containing product,Concept
+SNOMEDCT_US,108533002,Isradipine-containing product,Concept
+SNOMEDCT_US,59941008,Diltiazem-containing product,Concept
+SNOMEDCT_US,108535009,Felodipine-containing product,Concept
+SNOMEDCT_US,319206000,Lidoflazine-containing product,Concept
+SNOMEDCT_US,108526002,Nicardipine-containing product,Concept
+SNOMEDCT_US,85272000,Nifedipine-containing product,Concept
+SNOMEDCT_US,87285001,Nimodipine-containing product,Concept
+SNOMEDCT_US,108524004,Nisoldipine-containing product,Concept
+SNOMEDCT_US,421776000,Perhexiline-containing product,Concept
+SNOMEDCT_US,319318006,Mibefradil-containing product,Concept
+SNOMEDCT_US,51908007,Prenylamine-containing product,Concept
+SNOMEDCT_US,8109005,Trimeprazine-containing product,Concept
+SNOMEDCT_US,25014009,Tripelennamine-containing product,Concept
+SNOMEDCT_US,25995007,Triprolidine-containing product,Concept
+SNOMEDCT_US,108845001,Olopatadine-containing product,Concept
+SNOMEDCT_US,56480005,Brompheniramine-containing product,Concept
+SNOMEDCT_US,1594006,Azatadine-containing product,Concept
+SNOMEDCT_US,75501004,Bromodiphenhydramine-containing product,Concept
+SNOMEDCT_US,90882008,Carbinoxamine-containing product,Concept
+SNOMEDCT_US,789360005,Pitolisant-containing product,Concept
+SNOMEDCT_US,75429004,Dexbrompheniramine-containing product,Concept
+SNOMEDCT_US,16031005,Dexchlorpheniramine-containing product,Concept
+SNOMEDCT_US,81646007,Diphenylpyraline-containing product,Concept
+SNOMEDCT_US,9944001,Chlorpheniramine-containing product,Concept
+SNOMEDCT_US,349958007,Cinnarizine-containing product,Concept
+SNOMEDCT_US,45218006,Clemastine-containing product,Concept
+SNOMEDCT_US,108863001,Levocabastine-containing product,Concept
+SNOMEDCT_US,108652002,Loratadine-containing product,Concept
+SNOMEDCT_US,320747007,Mebhydrolin-containing product,Concept
+SNOMEDCT_US,320756004,Mequitazine-containing product,Concept
+SNOMEDCT_US,85354008,Cyclizine-containing product,Concept
+SNOMEDCT_US,26462003,Cyproheptadine-containing product,Concept
+SNOMEDCT_US,36909007,Phenindamine-containing product,Concept
+SNOMEDCT_US,39939003,Phenyltoloxamine-containing product,Concept
+SNOMEDCT_US,81073007,Dimenhydrinate-containing product,Concept
+SNOMEDCT_US,26122009,Dimethindene-containing product,Concept
+SNOMEDCT_US,26458009,Diphenhydramine-containing product,Concept
+SNOMEDCT_US,11841005,Doxepin-containing product,Concept
+SNOMEDCT_US,412380009,Doxylamine-containing product,Concept
+SNOMEDCT_US,14814001,Trimethobenzamide-containing product,Concept
+SNOMEDCT_US,320759006,Oxatomide-containing product,Concept
+SNOMEDCT_US,80165005,Hydroxyzine-containing product,Concept
+SNOMEDCT_US,61623002,Buclizine-containing product,Concept
+SNOMEDCT_US,65092008,Chlorothen-containing product,Concept
+SNOMEDCT_US,84951002,Meclizine-containing product,Concept
+SNOMEDCT_US,49953001,Pheniramine-containing product,Concept
+SNOMEDCT_US,349963006,Pizotyline-containing product,Concept
+SNOMEDCT_US,85408000,Antazoline-containing product,Concept
+SNOMEDCT_US,8372007,Promethazine-containing product,Concept
+SNOMEDCT_US,108650005,Fexofenadine-containing product,Concept
+SNOMEDCT_US,349962001,Pyrilamine-containing product,Concept
+SNOMEDCT_US,108836002,Brinzolamide-containing product,Concept
+SNOMEDCT_US,19583005,Dichlorphenamide-containing product,Concept
+SNOMEDCT_US,108834004,Dorzolamide-containing product,Concept
+SNOMEDCT_US,703681008,Canagliflozin-containing product,Concept
+SNOMEDCT_US,703678003,Dapagliflozin-containing product,Concept
+SNOMEDCT_US,703895009,Empagliflozin-containing product,Concept
+SNOMEDCT_US,764275009,Ertugliflozin-containing product,Concept
+SNOMEDCT_US,714387002,Ledipasvir-containing product,Concept
+SNOMEDCT_US,714429000,Ombitasvir-containing product,Concept
+SNOMEDCT_US,714014007,Daclatasvir-containing product,Concept
+SNOMEDCT_US,816100007,Elbasvir-containing product,Concept
+SNOMEDCT_US,816105002,Velpatasvir-containing product,Concept
+SNOMEDCT_US,816102004,Pibrentasvir-containing product,Concept
+SNOMEDCT_US,12236006,Pancreatin-containing product,Concept
+SNOMEDCT_US,321506004,Sulpiride-containing product,Concept
+SNOMEDCT_US,715585000,Lurasidone-containing product,Concept
+SNOMEDCT_US,62529008,Thiothixene-containing product,Concept
+SNOMEDCT_US,47331002,Chlorpromazine-containing product,Concept
+SNOMEDCT_US,57002000,Chlorprothixene-containing product,Concept
+SNOMEDCT_US,409138007,Fenoldopam-containing product,Concept
+SNOMEDCT_US,32955006,Domperidone-containing product,Concept
+SNOMEDCT_US,26574002,Droperidol-containing product,Concept
+SNOMEDCT_US,425483000,Paliperidone-containing product,Concept
+SNOMEDCT_US,56549003,Metoclopramide-containing product,Concept
+SNOMEDCT_US,29840005,Amoxapine-containing product,Concept
+SNOMEDCT_US,443374004,Asenapine-containing product,Concept
+SNOMEDCT_US,703824001,Ivacaftor-containing product,Concept
+SNOMEDCT_US,446457007,Denosumab-containing product,Concept
+SNOMEDCT_US,326058001,Pioglitazone-containing product,Concept
+SNOMEDCT_US,109085002,Troglitazone-containing product,Concept
+SNOMEDCT_US,326053005,Rosiglitazone-containing product,Concept
+SNOMEDCT_US,323260004,Tetrabenazine-containing product,Concept
+SNOMEDCT_US,764363002,Deutetrabenazine-containing product,Concept
+SNOMEDCT_US,763512007,Valbenazine-containing product,Concept
+SNOMEDCT_US,770887003,Colfosceril-containing product,Concept
+SNOMEDCT_US,418250008,Lucinactant-containing product,Concept
+SNOMEDCT_US,781057006,Poloxamer 188-containing product,Concept
+SNOMEDCT_US,409376009,Calfactant-containing product,Concept
+SNOMEDCT_US,116075008,Poractant alfa-containing product,Concept
+SNOMEDCT_US,420874002,Dimethicone-containing product,Concept
+SNOMEDCT_US,411266003,Triethanolamine-containing product,Concept
+SNOMEDCT_US,108888009,Tyloxapol-containing product,Concept
+SNOMEDCT_US,40905005,Beractant-containing product,Concept
+SNOMEDCT_US,416652002,Delmopinol-containing product,Concept
+SNOMEDCT_US,715582002,Icatibant-containing product,Concept
+SNOMEDCT_US,763557003,Obeticholic acid-containing product,Concept
+SNOMEDCT_US,419872008,Streptodornase-containing product,Concept
+SNOMEDCT_US,765128006,Pegloticase-containing product,Concept
+SNOMEDCT_US,96073006,Talampicillin-containing product,Concept
+SNOMEDCT_US,714785008,Ceftaroline-containing product,Concept
+SNOMEDCT_US,108415005,Dronabinol-containing product,Concept
+SNOMEDCT_US,713763007,Thiamphenicol-containing product,Concept
+SNOMEDCT_US,415715002,Thrombin-containing product,Concept
+SNOMEDCT_US,1148001,Ticarcillin-containing product,Concept
+SNOMEDCT_US,108971003,Ticlopidine-containing product,Concept
+SNOMEDCT_US,12512008,Triamterene-containing product,Concept
+SNOMEDCT_US,404827006,Tyrothricin-containing product,Concept
+SNOMEDCT_US,704476003,Retigabine-containing product,Concept
+SNOMEDCT_US,704464003,Ticagrelor-containing product,Concept
+SNOMEDCT_US,96023008,Virginiamycin-containing product,Concept
+SNOMEDCT_US,371322001,Trovafloxacin-containing product,Concept
+SNOMEDCT_US,18811003,Asparaginase-containing product,Concept
+SNOMEDCT_US,7947003,Aspirin-containing product,Concept
+SNOMEDCT_US,763579008,Glucarpidase-containing product,Concept
+SNOMEDCT_US,703813003,Vismodegib-containing product,Concept
+SNOMEDCT_US,55432002,Azlocillin-containing product,Concept
+SNOMEDCT_US,715566003,Taliglucerase alfa-containing product,Concept
+SNOMEDCT_US,6102009,Baclofen-containing product,Concept
+SNOMEDCT_US,415245003,Recombinant coagulation factor IX-containing product,Concept
+SNOMEDCT_US,714771003,Cobicistat-containing product,Concept
+SNOMEDCT_US,703686003,Linaclotide-containing product,Concept
+SNOMEDCT_US,96044008,Ceftiofur-containing product,Concept
+SNOMEDCT_US,715636000,Teduglutide-containing product,Concept
+SNOMEDCT_US,864003008,Lomitapide-containing product,Concept
+SNOMEDCT_US,407087003,Gemifloxacin-containing product,Concept
+SNOMEDCT_US,371296007,Moxifloxacin-containing product,Concept
+SNOMEDCT_US,407732005,Caspofungin-containing product,Concept
+SNOMEDCT_US,433010006,Recombinant human antithrombin III-containing product,Concept
+SNOMEDCT_US,398689003,Crisantaspase-containing product,Concept
+SNOMEDCT_US,716640004,Elosulfase alfa-containing product,Concept
+SNOMEDCT_US,715596008,Vorapaxar-containing product,Concept
+SNOMEDCT_US,785621006,4-hydroxybutyric acid-containing product,Concept
+SNOMEDCT_US,96018008,Tiamulin-containing product,Concept
+SNOMEDCT_US,439199001,Cefovecin-containing product,Concept
+SNOMEDCT_US,714105004,Dasabuvir-containing product,Concept
+SNOMEDCT_US,714690003,Finafloxacin-containing product,Concept
+SNOMEDCT_US,763606005,Cangrelor-containing product,Concept
+SNOMEDCT_US,781303007,Sonidegib-containing product,Concept
+SNOMEDCT_US,715617005,Asfotase alfa-containing product,Concept
+SNOMEDCT_US,763523006,Sebelipase alfa-containing product,Concept
+SNOMEDCT_US,781377007,Selexipag-containing product,Concept
+SNOMEDCT_US,96090000,Sparfloxacin-containing product,Concept
+SNOMEDCT_US,82312001,Bacampicillin-containing product,Concept
+SNOMEDCT_US,763544006,Plecanatide-containing product,Concept
+SNOMEDCT_US,763608006,Cerliponase alfa-containing product,Concept
+SNOMEDCT_US,763596009,Delafloxacin-containing product,Concept
+SNOMEDCT_US,96054007,Cefprozil-containing product,Concept
+SNOMEDCT_US,763610008,Vestronidase alfa-containing product,Concept
+SNOMEDCT_US,400416009,Capsaicin-containing product,Concept
+SNOMEDCT_US,781266004,Macimorelin-containing product,Concept
+SNOMEDCT_US,34731007,Carbenicillin-containing product,Concept
+SNOMEDCT_US,783691004,Andexanet alfa-containing product,Concept
+SNOMEDCT_US,771981005,Cannabidiol-containing product,Concept
+SNOMEDCT_US,771675000,Erenumab-containing product,Concept
+SNOMEDCT_US,370371004,Cefepime-containing product,Concept
+SNOMEDCT_US,443046000,Cefetamet-containing product,Concept
+SNOMEDCT_US,96055008,Cefodizime-containing product,Concept
+SNOMEDCT_US,96049003,Cefpodoxime-containing product,Concept
+SNOMEDCT_US,96051004,Ceftibuten-containing product,Concept
+SNOMEDCT_US,781150006,Fremanezumab-containing product,Concept
+SNOMEDCT_US,782419003,Galcanezumab-containing product,Concept
+SNOMEDCT_US,782797001,Inotersen-containing product,Concept
+SNOMEDCT_US,773957006,Cenegermin-containing product,Concept
+SNOMEDCT_US,783023005,Emapalumab-containing product,Concept
+SNOMEDCT_US,783019002,Glasdegib-containing product,Concept
+SNOMEDCT_US,789447000,Caplacizumab-containing product,Concept
+SNOMEDCT_US,787415000,Romosozumab-containing product,Concept
+SNOMEDCT_US,404875001,Sacrosidase-containing product,Concept
+SNOMEDCT_US,4937008,Cefaclor-containing product,Concept
+SNOMEDCT_US,13414000,Cefadroxil-containing product,Concept
+SNOMEDCT_US,61651006,Cefamandole-containing product,Concept
+SNOMEDCT_US,81088002,Cefazolin-containing product,Concept
+SNOMEDCT_US,61862008,Methicillin-containing product,Concept
+SNOMEDCT_US,397422004,Cefmetazole-containing product,Concept
+SNOMEDCT_US,370353006,Cefonicid-containing product,Concept
+SNOMEDCT_US,44938006,Cefoperazone-containing product,Concept
+SNOMEDCT_US,3334000,Cefotaxime-containing product,Concept
+SNOMEDCT_US,370355004,Cefotetan-containing product,Concept
+SNOMEDCT_US,422345006,Cefotiam-containing product,Concept
+SNOMEDCT_US,57670008,Cefoxitin-containing product,Concept
+SNOMEDCT_US,96053001,Cefsulodin-containing product,Concept
+SNOMEDCT_US,36893000,Ceftazidime-containing product,Concept
+SNOMEDCT_US,54577009,Ceftizoxime-containing product,Concept
+SNOMEDCT_US,19841008,Ceftriaxone-containing product,Concept
+SNOMEDCT_US,73986003,Cefuroxime-containing product,Concept
+SNOMEDCT_US,789501006,Lefamulin-containing product,Concept
+SNOMEDCT_US,789550000,Istradefylline-containing product,Concept
+SNOMEDCT_US,54887004,Cephalexin-containing product,Concept
+SNOMEDCT_US,702746007,Cephaloridine-containing product,Concept
+SNOMEDCT_US,37628007,Cephalothin-containing product,Concept
+SNOMEDCT_US,370337008,Cephapirin-containing product,Concept
+SNOMEDCT_US,16791000,Cephradine-containing product,Concept
+SNOMEDCT_US,823028008,Lasmiditan-containing product,Concept
+SNOMEDCT_US,833304007,Voxelotor-containing product,Concept
+SNOMEDCT_US,830101009,Cefiderocol-containing product,Concept
+SNOMEDCT_US,838488008,Ubrogepant-containing product,Concept
+SNOMEDCT_US,838492001,Lemborexant-containing product,Concept
+SNOMEDCT_US,860757001,Rimegepant-containing product,Concept
+SNOMEDCT_US,871787004,Eptinezumab-containing product,Concept
+SNOMEDCT_US,371238005,Gatifloxacin-containing product,Concept
+SNOMEDCT_US,116110009,Quinupristin-containing product,Concept
+SNOMEDCT_US,116111008,Dalfopristin-containing product,Concept
+SNOMEDCT_US,57191001,Chloramphenicol-containing product,Concept
+SNOMEDCT_US,326830005,Aclarubicin-containing product,Concept
+SNOMEDCT_US,702749000,Enrofloxacin-containing product,Concept
+SNOMEDCT_US,398923002,Alpha-glucosidase-containing product,Concept
+SNOMEDCT_US,96052006,Cefixime-containing product,Concept
+SNOMEDCT_US,370366006,Cefdinir-containing product,Concept
+SNOMEDCT_US,398849006,Chymopapain-containing product,Concept
+SNOMEDCT_US,70841003,Chymotrypsin-containing product,Concept
+SNOMEDCT_US,428186003,Eptacog alfa-containing product,Concept
+SNOMEDCT_US,7577004,Ciprofloxacin-containing product,Concept
+SNOMEDCT_US,48614001,Clobetasol-containing product,Concept
+SNOMEDCT_US,68422006,Cloxacillin-containing product,Concept
+SNOMEDCT_US,422267005,Colistimethate-containing product,Concept
+SNOMEDCT_US,73074003,Colistin-containing product,Concept
+SNOMEDCT_US,96047001,Cefpirome-containing product,Concept
+SNOMEDCT_US,409204008,Pegvisomant-containing product,Concept
+SNOMEDCT_US,134670005,Rasburicase-containing product,Concept
+SNOMEDCT_US,96195007,Lamotrigine-containing product,Concept
+SNOMEDCT_US,96088001,Lomefloxacin-containing product,Concept
+SNOMEDCT_US,370362008,Loracarbef-containing product,Concept
+SNOMEDCT_US,69331001,Cyclacillin-containing product,Concept
+SNOMEDCT_US,116082007,Modafinil-containing product,Concept
+SNOMEDCT_US,421516006,Conivaptan-containing product,Concept
+SNOMEDCT_US,35300007,Daunorubicin-containing product,Concept
+SNOMEDCT_US,116079002,Valrubicin-containing product,Concept
+SNOMEDCT_US,322124005,Nabilone-containing product,Concept
+SNOMEDCT_US,319304004,Nicorandil-containing product,Concept
+SNOMEDCT_US,703472009,Nifuroxazide-containing product,Concept
+SNOMEDCT_US,108403006,Tiagabine-containing product,Concept
+SNOMEDCT_US,330151006,Deoxyribonuclease-containing product,Concept
+SNOMEDCT_US,73454001,Desmopressin-containing product,Concept
+SNOMEDCT_US,416233001,Micafungin-containing product,Concept
+SNOMEDCT_US,116511002,Oxcarbazepine-containing product,Concept
+SNOMEDCT_US,322047008,Dexfenfluramine-containing product,Concept
+SNOMEDCT_US,108979001,Clopidogrel-containing product,Concept
+SNOMEDCT_US,14706000,Phenethicillin-containing product,Concept
+SNOMEDCT_US,8416000,Dicloxacillin-containing product,Concept
+SNOMEDCT_US,108630006,Dornase alfa-containing product,Concept
+SNOMEDCT_US,391653003,Agalsidase beta-containing product,Concept
+SNOMEDCT_US,421904007,Anidulafungin-containing product,Concept
+SNOMEDCT_US,385682008,Treprostinil-containing product,Concept
+SNOMEDCT_US,922004,Pralidoxime-containing product,Concept
+SNOMEDCT_US,30317002,Cisapride-containing product,Concept
+SNOMEDCT_US,76759004,Disopyramide-containing product,Concept
+SNOMEDCT_US,783681005,Rifamycin-containing product,Concept
+SNOMEDCT_US,410831004,Rifapentine-containing product,Concept
+SNOMEDCT_US,412554007,Rifaximin-containing product,Concept
+SNOMEDCT_US,442901006,Tolvaptan-containing product,Concept
+SNOMEDCT_US,420624001,Ranolazine-containing product,Concept
+SNOMEDCT_US,68444001,Doxorubicin-containing product,Concept
+SNOMEDCT_US,108373009,Sibutramine-containing product,Concept
+SNOMEDCT_US,96091001,Temafloxacin-containing product,Concept
+SNOMEDCT_US,96065002,Temocillin-containing product,Concept
+SNOMEDCT_US,108400009,Topiramate-containing product,Concept
+SNOMEDCT_US,96084004,Enoxacin-containing product,Concept
+SNOMEDCT_US,349848009,Epirubicin-containing product,Concept
+SNOMEDCT_US,96231005,Zolpidem-containing product,Concept
+SNOMEDCT_US,319452005,Iloprost-containing product,Concept
+SNOMEDCT_US,350598002,Moricizine-containing product,Concept
+SNOMEDCT_US,32647002,Ergotamine-containing product,Concept
+SNOMEDCT_US,702750000,Fleroxacin-containing product,Concept
+SNOMEDCT_US,10555000,Tocainide-containing product,Concept
+SNOMEDCT_US,46479001,Encainide-containing product,Concept
+SNOMEDCT_US,424562004,Coagulation factor IX-containing product,Concept
+SNOMEDCT_US,1003716000,Coagulation factor VII-containing product,Concept
+SNOMEDCT_US,319918003,Coagulation factor VIIa-containing product,Concept
+SNOMEDCT_US,78700004,Fenfluramine-containing product,Concept
+SNOMEDCT_US,416117009,"Fibrinolysin, human-containing product",Concept
+SNOMEDCT_US,96067005,Floxacillin-containing product,Concept
+SNOMEDCT_US,96247007,Flumazenil-containing product,Concept
+SNOMEDCT_US,416556006,Furazolidone-containing product,Concept
+SNOMEDCT_US,109088000,Alglucerase-containing product,Concept
+SNOMEDCT_US,412021002,Ovine hyaluronidase-containing product,Concept
+SNOMEDCT_US,29058003,Halcinonide-containing product,Concept
+SNOMEDCT_US,51132001,Hyaluronidase-containing product,Concept
+SNOMEDCT_US,108684009,Rifabutin-containing product,Concept
+SNOMEDCT_US,108786002,Idarubicin-containing product,Concept
+SNOMEDCT_US,420241006,Galsulfase-containing product,Concept
+SNOMEDCT_US,786123000,Bovine hyaluronidase-containing product,Concept
+SNOMEDCT_US,442542004,Milnacipran-containing product,Concept
+SNOMEDCT_US,417416003,Collagenase-containing product,Concept
+SNOMEDCT_US,326166008,Atosiban-containing product,Concept
+SNOMEDCT_US,443312008,Prasugrel-containing product,Concept
+SNOMEDCT_US,96063009,Amdinocillin-containing product,Concept
+SNOMEDCT_US,96064003,Amdinocillin pivoxil-containing product,Concept
+SNOMEDCT_US,82573000,Lidocaine-containing product,Concept
+SNOMEDCT_US,116535007,Triacylglycerol lipase-containing product,Concept
+SNOMEDCT_US,426825005,Retapamulin-containing product,Concept
+SNOMEDCT_US,87395005,Amiloride-containing product,Concept
+SNOMEDCT_US,424323009,Idursulfase-containing product,Concept
+SNOMEDCT_US,354051007,Strychnine-containing product,Concept
+SNOMEDCT_US,416293004,Ziconotide-containing product,Concept
+SNOMEDCT_US,96298001,Mexiletine-containing product,Concept
+SNOMEDCT_US,78174002,Mezlocillin-containing product,Concept
+SNOMEDCT_US,350135006,Moxalactam-containing product,Concept
+SNOMEDCT_US,27658006,Amoxicillin-containing product,Concept
+SNOMEDCT_US,91169009,Nafcillin-containing product,Concept
+SNOMEDCT_US,350324006,Nefopam-containing product,Concept
+SNOMEDCT_US,442790008,Levosimendan-containing product,Concept
+SNOMEDCT_US,108981004,Tirofiban-containing product,Concept
+SNOMEDCT_US,714520003,Amphotericin B-containing product,Concept
+SNOMEDCT_US,31087008,Ampicillin-containing product,Concept
+SNOMEDCT_US,430271006,Desvenlafaxine-containing product,Concept
+SNOMEDCT_US,116534006,Amylase-containing product,Concept
+SNOMEDCT_US,85343003,Nitrofurantoin-containing product,Concept
+SNOMEDCT_US,332799007,Nitrofurazone-containing product,Concept
+SNOMEDCT_US,116104009,Zaleplon-containing product,Concept
+SNOMEDCT_US,49485009,Norfloxacin-containing product,Concept
+SNOMEDCT_US,116065005,Eptifibatide-containing product,Concept
+SNOMEDCT_US,96086002,Ofloxacin-containing product,Concept
+SNOMEDCT_US,319661002,Ancrod-containing product,Concept
+SNOMEDCT_US,83201006,Oxacillin-containing product,Concept
+SNOMEDCT_US,400614001,Papain-containing product,Concept
+SNOMEDCT_US,443149005,Pefloxacin-containing product,Concept
+SNOMEDCT_US,78507004,Penicillin G-containing product,Concept
+SNOMEDCT_US,39359008,Penicillin V-containing product,Concept
+SNOMEDCT_US,40556005,Phenytoin-containing product,Concept
+SNOMEDCT_US,442915008,Besifloxacin-containing product,Concept
+SNOMEDCT_US,96087006,Levofloxacin-containing product,Concept
+SNOMEDCT_US,74575000,Piperacillin-containing product,Concept
+SNOMEDCT_US,370400001,Cefditoren-containing product,Concept
+SNOMEDCT_US,108679003,Grepafloxacin-containing product,Concept
+SNOMEDCT_US,96072001,Pivampicillin-containing product,Concept
+SNOMEDCT_US,108974006,Abciximab-containing product,Concept
+SNOMEDCT_US,109090004,Imiglucerase-containing product,Concept
+SNOMEDCT_US,6960003,Polymyxin B-containing product,Concept
+SNOMEDCT_US,108593000,Epoprostenol-containing product,Concept
+SNOMEDCT_US,786084006,Clostridium histolyticum collagenase-containing product,Concept
+SNOMEDCT_US,5720001,Black widow spider antivenom-containing product,Concept
+SNOMEDCT_US,445499001,Velaglucerase alfa-containing product,Concept
+SNOMEDCT_US,17859000,Polyvalent crotalidae antivenom-containing product,Concept
+SNOMEDCT_US,29175007,Rifampin-containing product,Concept
+SNOMEDCT_US,65965000,Eastern coral snake antivenom-containing product,Concept
+RxNorm,10561,moxisylyte,Concept
+RxNorm,10600,timolol,Concept
+RxNorm,10634,tolazoline,Concept
+RxNorm,10824,metipranolol,Concept
+RxNorm,114176,zuclopenthixol,Concept
+RxNorm,1202,atenolol,Concept
+RxNorm,149,acebutolol,Concept
+RxNorm,1520,betaxolol,Concept
+RxNorm,15996,mirtazapine,Concept
+RxNorm,17300,alfuzosin,Concept
+RxNorm,1813,levobunolol,Concept
+RxNorm,19484,bisoprolol,Concept
+RxNorm,20352,carvedilol,Concept
+RxNorm,20498,celiprolol,Concept
+RxNorm,2116,carteolol,Concept
+RxNorm,220982,yohimbine,Concept
+RxNorm,22298,dapiprazole,Concept
+RxNorm,31555,nebivolol,Concept
+RxNorm,353497,levobetaxolol,Concept
+RxNorm,37798,terazosin,Concept
+RxNorm,4024,"ergoloid mesylates, USP",Concept
+RxNorm,4495,flupenthixol,Concept
+RxNorm,49276,doxazosin,Concept
+RxNorm,49737,esmolol,Concept
+RxNorm,5784,indoramin,Concept
+RxNorm,6185,labetalol,Concept
+RxNorm,62174,deserpidine,Concept
+RxNorm,6918,metoprolol,Concept
+RxNorm,6929,mianserin,Concept
+RxNorm,720825,silodosin,Concept
+RxNorm,7226,nadolol,Concept
+RxNorm,77492,tamsulosin,Concept
+RxNorm,7801,oxprenolol,Concept
+RxNorm,7973,penbutolol,Concept
+RxNorm,8149,phenoxybenzamine,Concept
+RxNorm,8153,phentolamine,Concept
+RxNorm,8332,pindolol,Concept
+RxNorm,8620,practolol,Concept
+RxNorm,8629,prazosin,Concept
+RxNorm,8787,propranolol,Concept
+RxNorm,9947,sotalol,Concept
+RxNorm,9068,quinidine,Concept
+RxNorm,9071,quinine,Concept
+RxNorm,26225,ondansetron,Concept
+RxNorm,26237,granisetron,Concept
+RxNorm,27392,tropisetron,Concept
+RxNorm,68091,dolasetron,Concept
+RxNorm,70561,palonosetron,Concept
+RxNorm,85248,alosetron,Concept
+RxNorm,114970,zafirlukast,Concept
+RxNorm,88249,montelukast,Concept
+RxNorm,18603,azelastine,Concept
+RxNorm,2541,cimetidine,Concept
+RxNorm,42319,nizatidine,Concept
+RxNorm,4278,famotidine,Concept
+RxNorm,9143,ranitidine,Concept
+RxNorm,114979,rabeprazole,Concept
+RxNorm,17128,lansoprazole,Concept
+RxNorm,283742,esomeprazole,Concept
+RxNorm,40790,pantoprazole,Concept
+RxNorm,7646,omeprazole,Concept
+RxNorm,816346,dexlansoprazole,Concept
+RxNorm,1102270,rilpivirine,Concept
+RxNorm,11413,zidovudine,Concept
+RxNorm,117466,tenofovir,Concept
+RxNorm,16521,adefovir,Concept
+RxNorm,195085,efavirenz,Concept
+RxNorm,276237,emtricitabine,Concept
+RxNorm,3363,zalcitabine,Concept
+RxNorm,3364,didanosine,Concept
+RxNorm,475969,etravirine,Concept
+RxNorm,53654,nevirapine,Concept
+RxNorm,59763,stavudine,Concept
+RxNorm,68244,lamivudine,Concept
+RxNorm,83816,delavirdine,Concept
+RxNorm,15070,formestane,Concept
+RxNorm,258494,exemestane,Concept
+RxNorm,677,aminoglutethimide,Concept
+RxNorm,72965,letrozole,Concept
+RxNorm,84857,anastrozole,Concept
+RxNorm,2360232,sacituzumab govitecan,Concept
+RxNorm,51499,irinotecan,Concept
+RxNorm,57308,topotecan,Concept
+RxNorm,10362,teniposide,Concept
+RxNorm,1045453,eribulin,Concept
+RxNorm,1147320,brentuximab vedotin,Concept
+RxNorm,2174090,polatuzumab vedotin,Concept
+RxNorm,2277607,enfortumab vedotin,Concept
+RxNorm,291204,tacalcitol,Concept
+RxNorm,337523,ixabepilone,Concept
+RxNorm,39541,vinorelbine,Concept
+RxNorm,4179,etoposide,Concept
+RxNorm,5021,griseofulvin,Concept
+RxNorm,56946,paclitaxel,Concept
+RxNorm,72962,docetaxel,Concept
+RxNorm,996051,cabazitaxel,Concept
+RxNorm,134615,brimonidine,Concept
+RxNorm,14845,apraclonidine,Concept
+RxNorm,2599,clonidine,Concept
+RxNorm,28863,lofexidine,Concept
+RxNorm,40114,guanfacine,Concept
+RxNorm,48937,dexmedetomidine,Concept
+RxNorm,5033,guanabenz,Concept
+RxNorm,6876,methyldopa,Concept
+RxNorm,19551,pemirolast,Concept
+RxNorm,31563,nedocromil,Concept
+RxNorm,42612,cromolyn,Concept
+RxNorm,46307,amlexanox,Concept
+RxNorm,52151,lodoxamide,Concept
+RxNorm,1012892,fingolimod,Concept
+RxNorm,103,mercaptopurine,Concept
+RxNorm,10432,thalidomide,Concept
+RxNorm,10473,thiotepa,Concept
+RxNorm,10485,thioguanine,Concept
+RxNorm,1092437,belimumab,Concept
+RxNorm,1094833,ipilimumab,Concept
+RxNorm,10995,uracil,Concept
+RxNorm,1112973,belatacept,Concept
+RxNorm,115238,becaplermin,Concept
+RxNorm,117055,alemtuzumab,Concept
+RxNorm,121191,rituximab,Concept
+RxNorm,1227,auranofin,Concept
+RxNorm,1251,azacitidine,Concept
+RxNorm,1256,azathioprine,Concept
+RxNorm,12574,gemcitabine,Concept
+RxNorm,1294580,gemtuzumab ozogamicin,Concept
+RxNorm,1302966,carfilzomib,Concept
+RxNorm,1310520,teriflunomide,Concept
+RxNorm,1311380,interleukin-11,Concept
+RxNorm,134547,bendamustine,Concept
+RxNorm,1357536,tofacitinib,Concept
+RxNorm,1369713,pomalidomide,Concept
+RxNorm,1371041,ado-trastuzumab emtansine,Concept
+RxNorm,1373478,dimethyl fumarate,Concept
+RxNorm,141704,everolimus,Concept
+RxNorm,1492727,apremilast,Concept
+RxNorm,1514,betamethasone,Concept
+RxNorm,1538097,vedolizumab,Concept
+RxNorm,1546433,monomethyl fumarate,Concept
+RxNorm,1547545,pembrolizumab,Concept
+RxNorm,15657,decitabine,Concept
+RxNorm,1597876,nivolumab,Concept
+RxNorm,1599788,secukinumab,Concept
+RxNorm,1720597,mepolizumab,Concept
+RxNorm,1721264,talimogene laherparepvec,Concept
+RxNorm,1723735,ixazomib,Concept
+RxNorm,1745099,ixekizumab,Concept
+RxNorm,1746889,reslizumab,Concept
+RxNorm,1792776,atezolizumab,Concept
+RxNorm,1801820,lifitegrast,Concept
+RxNorm,1828,busulfan,Concept
+RxNorm,1872251,brodalumab,Concept
+RxNorm,1876366,ocrelizumab,Concept
+RxNorm,1876376,dupilumab,Concept
+RxNorm,190353,daclizumab,Concept
+RxNorm,191831,infliximab,Concept
+RxNorm,1923319,sarilumab,Concept
+RxNorm,1928588,guselkumab,Concept
+RxNorm,194000,capecitabine,Concept
+RxNorm,194279,palivizumab,Concept
+RxNorm,196102,basiliximab,Concept
+RxNorm,196239,raltitrexed,Concept
+RxNorm,1989100,benralizumab,Concept
+RxNorm,1989289,cordycepin,Concept
+RxNorm,202912,interferon alfa-n1,Concept
+RxNorm,2047232,baricitinib,Concept
+RxNorm,2053436,tildrakizumab,Concept
+RxNorm,2058826,cemiplimab,Concept
+RxNorm,2105,carmustine,Concept
+RxNorm,2107301,ravulizumab,Concept
+RxNorm,2109055,tagraxofusp,Concept
+RxNorm,2121085,siponimod,Concept
+RxNorm,214470,denileukin diftitox,Concept
+RxNorm,214555,etanercept,Concept
+RxNorm,214582,glatiramer,Concept
+RxNorm,2166040,risankizumab,Concept
+RxNorm,224905,trastuzumab,Concept
+RxNorm,2262279,crizanlizumab,Concept
+RxNorm,2264108,"fibrinogen, human",Concept
+RxNorm,2267582,trastuzumab deruxtecan,Concept
+RxNorm,2288236,ozanimod,Concept
+RxNorm,2346,chlorambucil,Concept
+RxNorm,2391541,satralizumab,Concept
+RxNorm,24698,fludarabine,Concept
+RxNorm,2475166,voclosporin,Concept
+RxNorm,25120,flunisolide,Concept
+RxNorm,2539967,dostarlimab,Concept
+RxNorm,27169,leflunomide,Concept
+RxNorm,274771,nelarabine,Concept
+RxNorm,283746,tasonermin,Concept
+RxNorm,29523,meprednisone,Concept
+RxNorm,299635,alefacept,Concept
+RxNorm,3002,cyclophosphamide,Concept
+RxNorm,3008,cyclosporine,Concept
+RxNorm,302379,omalizumab,Concept
+RxNorm,3041,cytarabine,Concept
+RxNorm,3098,dacarbazine,Concept
+RxNorm,318341,cetuximab,Concept
+RxNorm,321952,pimecrolimus,Concept
+RxNorm,3264,dexamethasone,Concept
+RxNorm,327361,adalimumab,Concept
+RxNorm,342369,lenalidomide,Concept
+RxNorm,35302,sirolimus,Concept
+RxNorm,354770,natalizumab,Concept
+RxNorm,356988,efalizumab,Concept
+RxNorm,358258,bortezomib,Concept
+RxNorm,37776,temozolomide,Concept
+RxNorm,38221,thymalfasin,Concept
+RxNorm,38508,treosulfan,Concept
+RxNorm,4089,estramustine,Concept
+RxNorm,4126,amifostine,Concept
+RxNorm,4132,ethoglucid,Concept
+RxNorm,42316,tacrolimus,Concept
+RxNorm,42333,trimetrexate,Concept
+RxNorm,42405,muromonab-CD3,Concept
+RxNorm,44151,clofarabine,Concept
+RxNorm,44157,cladribine,Concept
+RxNorm,4488,floxuridine,Concept
+RxNorm,4492,fluorouracil,Concept
+RxNorm,4582,tegafur,Concept
+RxNorm,5333,histamine,Concept
+RxNorm,5657,ifosfamide,Concept
+RxNorm,5879,interferon alfa-2a,Concept
+RxNorm,5880,interferon alfa-2b,Concept
+RxNorm,5885,interferon type II,Concept
+RxNorm,59744,interferon alfacon-1,Concept
+RxNorm,59943,imiquimod,Concept
+RxNorm,6048,inosine pranobex,Concept
+RxNorm,612937,interferon alfa-n3,Concept
+RxNorm,614391,abatacept,Concept
+RxNorm,6371,levamisole,Concept
+RxNorm,6466,lomustine,Concept
+RxNorm,657797,temsirolimus,Concept
+RxNorm,6674,mechlorethamine,Concept
+RxNorm,6718,melphalan,Concept
+RxNorm,68442,filgrastim,Concept
+RxNorm,68446,pemetrexed,Concept
+RxNorm,6851,methotrexate,Concept
+RxNorm,69634,sargramostim,Concept
+RxNorm,6996,mitobronitol,Concept
+RxNorm,7005,mitoxantrone,Concept
+RxNorm,70161,molgramostim,Concept
+RxNorm,70167,lenograstim,Concept
+RxNorm,70223,aldesleukin,Concept
+RxNorm,709271,certolizumab pegol,Concept
+RxNorm,712566,ofatumumab,Concept
+RxNorm,7145,mycophenolic acid,Concept
+RxNorm,72257,interferon beta-1b,Concept
+RxNorm,72435,anakinra,Concept
+RxNorm,733003,plerixafor,Concept
+RxNorm,75917,interferon beta-1a,Concept
+RxNorm,763450,rilonacept,Concept
+RxNorm,7910,paramethasone,Concept
+RxNorm,8011,pentostatin,Concept
+RxNorm,809864,C1 esterase inhibitor (human),Concept
+RxNorm,819300,golimumab,Concept
+RxNorm,853491,canakinumab,Concept
+RxNorm,8638,prednisolone,Concept
+RxNorm,8640,prednisone,Concept
+RxNorm,973,antilymphocyte immunoglobulin,Concept
+RxNorm,991743,"alpha 1-proteinase inhibitor, human",Concept
+RxNorm,1441386,bazedoxifene,Concept
+RxNorm,2983,cyclofenil,Concept
+RxNorm,16681,acarbose,Concept
+RxNorm,30009,miglitol,Concept
+RxNorm,15226,fomepizole,Concept
+RxNorm,1005921,ulipristal,Concept
+RxNorm,10167,sulbactam,Concept
+RxNorm,21216,clavulanic acid,Concept
+RxNorm,37617,tazobactam,Concept
+RxNorm,2469247,setmelanotide,Concept
+RxNorm,105694,epoetin alfa,Concept
+RxNorm,105695,epoetin beta,Concept
+RxNorm,283838,darbepoetin alfa,Concept
+RxNorm,37925,orlistat,Concept
+RxNorm,2049846,elagolix,Concept
+RxNorm,2472778,relugolix,Concept
+RxNorm,301739,abarelix,Concept
+RxNorm,35825,ganirelix,Concept
+RxNorm,475230,degarelix,Concept
+RxNorm,68147,cetrorelix,Concept
+RxNorm,10106,streptokinase,Concept
+RxNorm,11055,urokinase,Concept
+RxNorm,235379,pancrelipase,Concept
+RxNorm,259280,tenecteplase,Concept
+RxNorm,29998,ocriplasmin,Concept
+RxNorm,40028,anistreplase,Concept
+RxNorm,76895,reteplase,Concept
+RxNorm,8410,alteplase,Concept
+RxNorm,140587,celecoxib,Concept
+RxNorm,232158,rofecoxib,Concept
+RxNorm,237162,dexketoprofen,Concept
+RxNorm,24605,etodolac,Concept
+RxNorm,278567,valdecoxib,Concept
+RxNorm,279950,parecoxib,Concept
+RxNorm,298665,nepafenac,Concept
+RxNorm,307296,etoricoxib,Concept
+RxNorm,31448,nabumetone,Concept
+RxNorm,356834,deracoxib,Concept
+RxNorm,35827,ketorolac,Concept
+RxNorm,41493,meloxicam,Concept
+RxNorm,4331,fenoprofen,Concept
+RxNorm,473298,firocoxib,Concept
+RxNorm,53694,nimesulide,Concept
+RxNorm,5640,ibuprofen,Concept
+RxNorm,7258,naproxen,Concept
+RxNorm,1098413,vandetanib,Concept
+RxNorm,1145945,toceranib,Concept
+RxNorm,1148495,crizotinib,Concept
+RxNorm,1193326,ruxolitinib,Concept
+RxNorm,1242999,axitinib,Concept
+RxNorm,1298944,pertuzumab,Concept
+RxNorm,1307619,bosutinib,Concept
+RxNorm,1312397,regorafenib,Concept
+RxNorm,1363268,cabozantinib,Concept
+RxNorm,1364347,ponatinib,Concept
+RxNorm,1430438,afatinib,Concept
+RxNorm,1442981,ibrutinib,Concept
+RxNorm,1535457,ceritinib,Concept
+RxNorm,1603296,lenvatinib,Concept
+RxNorm,1722365,cobimetinib,Concept
+RxNorm,1727455,alectinib,Concept
+RxNorm,1919083,midostaurin,Concept
+RxNorm,1921217,brigatinib,Concept
+RxNorm,1940643,neratinib,Concept
+RxNorm,1986808,acalabrutinib,Concept
+RxNorm,1992864,netarsudil,Concept
+RxNorm,2044896,fostamatinib,Concept
+RxNorm,2058849,dacomitinib,Concept
+RxNorm,2103164,lorlatinib,Concept
+RxNorm,2105628,larotrectinib,Concept
+RxNorm,2105806,gilteritinib,Concept
+RxNorm,2123125,erdafitinib,Concept
+RxNorm,2183102,pexidartinib,Concept
+RxNorm,2196092,upadacitinib,Concept
+RxNorm,2197490,fedratinib,Concept
+RxNorm,2197862,entrectinib,Concept
+RxNorm,2262435,zanubrutinib,Concept
+RxNorm,2359268,pemigatinib,Concept
+RxNorm,2361285,tucatinib,Concept
+RxNorm,2362165,capmatinib,Concept
+RxNorm,2369389,ripretinib,Concept
+RxNorm,2370147,selpercatinib,Concept
+RxNorm,2394936,pralsetinib,Concept
+RxNorm,2471078,tirbanibulin,Concept
+RxNorm,2473851,margetuximab,Concept
+RxNorm,2477103,tepotinib,Concept
+RxNorm,2534233,tivozanib,Concept
+RxNorm,282388,imatinib,Concept
+RxNorm,328134,gefitinib,Concept
+RxNorm,337525,erlotinib,Concept
+RxNorm,357977,sunitinib,Concept
+RxNorm,475342,dasatinib,Concept
+RxNorm,480167,lapatinib,Concept
+RxNorm,495881,sorafenib,Concept
+RxNorm,662281,nilotinib,Concept
+RxNorm,714438,pazopanib,Concept
+RxNorm,1551777,naloxegol,Concept
+RxNorm,1876597,naldemedine,Concept
+RxNorm,31479,nalmefene,Concept
+RxNorm,7242,naloxone,Concept
+RxNorm,7243,naltrexone,Concept
+RxNorm,107770,mepenzolate,Concept
+RxNorm,10811,trihexyphenidyl,Concept
+RxNorm,10828,trimethaphan,Concept
+RxNorm,10869,tropicamide,Concept
+RxNorm,10917,tubocurarine,Concept
+RxNorm,119565,tolterodine,Concept
+RxNorm,1223,atropine,Concept
+RxNorm,1303098,aclidinium,Concept
+RxNorm,1359,belladonna alkaloids,Concept
+RxNorm,136198,darifenacin,Concept
+RxNorm,1424,benztropine,Concept
+RxNorm,1426748,iobenguane I-123,Concept
+RxNorm,1487514,umeclidinium,Concept
+RxNorm,153970,hyoscyamine,Concept
+RxNorm,1546438,glycopyrronium,Concept
+RxNorm,1589,biperiden,Concept
+RxNorm,2053281,iobenguane I-131,Concept
+RxNorm,2102775,revefenacin,Concept
+RxNorm,21232,clidinium,Concept
+RxNorm,23410,dipivefrin,Concept
+RxNorm,236778,trospium,Concept
+RxNorm,26867,hexocyclium,Concept
+RxNorm,27084,homatropine,Concept
+RxNorm,28381,lachesine,Concept
+RxNorm,29682,methixene,Concept
+RxNorm,3001,cyclopentolate,Concept
+RxNorm,322167,solifenacin,Concept
+RxNorm,32311,octylonium,Concept
+RxNorm,32649,oxitropium,Concept
+RxNorm,32675,oxybutynin,Concept
+RxNorm,3361,dicyclomine,Concept
+RxNorm,33743,pipenzolate,Concept
+RxNorm,33926,poldine,Concept
+RxNorm,3816,emepronium,Concept
+RxNorm,4440,flavoxate,Concept
+RxNorm,55175,propiverine,Concept
+RxNorm,6673,mecamylamine,Concept
+RxNorm,69120,tiotropium,Concept
+RxNorm,7213,ipratropium,Concept
+RxNorm,7715,orphenadrine,Concept
+RxNorm,797195,fesoterodine,Concept
+RxNorm,8352,pirenzepine,Concept
+RxNorm,8718,procyclidine,Concept
+RxNorm,8761,propantheline,Concept
+RxNorm,89780,anisotropine,Concept
+RxNorm,89782,diphemanil,Concept
+RxNorm,89785,methscopolamine,Concept
+RxNorm,9601,scopolamine,Concept
+RxNorm,10580,thyrotropin-releasing hormone,Concept
+RxNorm,1825,buserelin,Concept
+RxNorm,28656,nafarelin,Concept
+RxNorm,38782,triptorelin,Concept
+RxNorm,42375,leuprolide,Concept
+RxNorm,4952,thyrotropin alfa,Concept
+RxNorm,50610,goserelin,Concept
+RxNorm,50975,histrelin,Concept
+RxNorm,6384,gonadorelin,Concept
+RxNorm,1546437,polystyrene sulfonate,Concept
+RxNorm,1716203,patiromer,Concept
+RxNorm,10032,stanozolol,Concept
+RxNorm,10379,testosterone,Concept
+RxNorm,1044584,tesamorelin,Concept
+RxNorm,10579,thyrotropin,Concept
+RxNorm,11149,vasopressin (USP),Concept
+RxNorm,11636,drospirenone,Concept
+RxNorm,1311287,calcitonin,Concept
+RxNorm,1312358,aldosterone,Concept
+RxNorm,1314612,altrenogest,Concept
+RxNorm,134404,urofollitropin,Concept
+RxNorm,1364105,pasireotide,Concept
+RxNorm,1368476,zeranol,Concept
+RxNorm,139825,insulin detemir,Concept
+RxNorm,1426890,prolactin,Concept
+RxNorm,14584,etonogestrel,Concept
+RxNorm,1491625,metreleptin,Concept
+RxNorm,1605101,insulin isophane,Concept
+RxNorm,1670007,insulin degludec,Concept
+RxNorm,1894,calcitriol,Concept
+RxNorm,1921069,abaloparatide,Concept
+RxNorm,19666,nesiritide,Concept
+RxNorm,1999003,angiotensin II,Concept
+RxNorm,214549,"estrogens, esterified (USP)",Concept
+RxNorm,2176312,bremelanotide,Concept
+RxNorm,221108,"insulin isophane, pork",Concept
+RxNorm,221109,"insulin, regular, pork",Concept
+RxNorm,2262250,afamelanotide,Concept
+RxNorm,22656,desogestrel,Concept
+RxNorm,227518,follicle stimulating hormone,Concept
+RxNorm,2289408,boldenone,Concept
+RxNorm,22968,dienogest,Concept
+RxNorm,23678,dromostanolone,Concept
+RxNorm,2397,chlorotrianisene,Concept
+RxNorm,2418,cholecalciferol,Concept
+RxNorm,2420,cholecystokinin,Concept
+RxNorm,24591,ethynodiol,Concept
+RxNorm,253181,"insulin isophane, human",Concept
+RxNorm,253182,"insulin, regular, human",Concept
+RxNorm,25357,follitropin beta,Concept
+RxNorm,25734,gestodene,Concept
+RxNorm,259321,"somatropin, E-coli derived",Concept
+RxNorm,274783,insulin glargine,Concept
+RxNorm,2878,cortisone,Concept
+RxNorm,2890,cosyntropin,Concept
+RxNorm,29439,medrysone,Concept
+RxNorm,3014,cyproterone,Concept
+RxNorm,3102,danazol,Concept
+RxNorm,3143,prasterone,Concept
+RxNorm,314845,somatropin (recombinant DNA origin),Concept
+RxNorm,317235,"insulin isophane, beef",Concept
+RxNorm,31994,norgestimate,Concept
+RxNorm,3256,desoxycorticosterone,Concept
+RxNorm,326374,norelgestromin,Concept
+RxNorm,32915,teriparatide,Concept
+RxNorm,3368,dienestrol,Concept
+RxNorm,33747,estropipate,Concept
+RxNorm,3390,diethylstilbestrol,Concept
+RxNorm,340705,human chorionic gonadotropin,Concept
+RxNorm,34119,polyestradiol,Concept
+RxNorm,34625,promestriene,Concept
+RxNorm,35215,quinestradol,Concept
+RxNorm,3706,dydrogesterone,Concept
+RxNorm,38260,tibolone,Concept
+RxNorm,386938,follitropin alfa,Concept
+RxNorm,388084,lutropin alfa,Concept
+RxNorm,3992,epinephrine,Concept
+RxNorm,400008,"insulin glulisine, human",Concept
+RxNorm,4083,estradiol,Concept
+RxNorm,4094,estriol,Concept
+RxNorm,4099,"estrogens, conjugated (USP)",Concept
+RxNorm,4103,estrone,Concept
+RxNorm,4124,ethinyl estradiol,Concept
+RxNorm,4129,ethisterone,Concept
+RxNorm,4162,ethylestrenol,Concept
+RxNorm,4494,fluoxymesterone,Concept
+RxNorm,4792,gestrinone,Concept
+RxNorm,4793,gestronol,Concept
+RxNorm,4832,glucagon,Concept
+RxNorm,4986,chorionic gonadotropin,Concept
+RxNorm,51428,"insulin aspart, human",Concept
+RxNorm,525,allylestrenol,Concept
+RxNorm,5492,hydrocortisone,Concept
+RxNorm,5542,17-alpha-hydroxyprogesterone,Concept
+RxNorm,56188,sermorelin,Concept
+RxNorm,56570,somatrem,Concept
+RxNorm,57048,terlipressin,Concept
+RxNorm,61148,somatropin,Concept
+RxNorm,6373,levonorgestrel,Concept
+RxNorm,6529,lynestrenol,Concept
+RxNorm,6691,medroxyprogesterone,Concept
+RxNorm,6703,megestrol,Concept
+RxNorm,6781,mesterolone,Concept
+RxNorm,6782,mestranol,Concept
+RxNorm,68092,lanreotide,Concept
+RxNorm,6817,methandriol,Concept
+RxNorm,6818,methandrostenolone,Concept
+RxNorm,6833,methenolone,Concept
+RxNorm,6904,methyltestosterone,Concept
+RxNorm,7244,nandrolone,Concept
+RxNorm,7512,norepinephrine,Concept
+RxNorm,7513,norethandrolone,Concept
+RxNorm,7514,norethindrone,Concept
+RxNorm,7515,norethynodrel,Concept
+RxNorm,7518,norgestrel,Concept
+RxNorm,7617,octreotide,Concept
+RxNorm,7779,oxandrolone,Concept
+RxNorm,7813,oxymetholone,Concept
+RxNorm,7824,oxytocin,Concept
+RxNorm,86009,insulin lispro,Concept
+RxNorm,8727,progesterone,Concept
+RxNorm,9066,quinestrol,Concept
+RxNorm,9627,secretin,Concept
+RxNorm,9800,sincalide,Concept
+RxNorm,9939,somatostatin,Concept
+RxNorm,26296,guanadrel,Concept
+RxNorm,5036,guanethidine,Concept
+RxNorm,10368,terbutaline,Concept
+RxNorm,1114326,indacaterol,Concept
+RxNorm,1424884,vilanterol,Concept
+RxNorm,1546059,olodaterol,Concept
+RxNorm,18751,bambuterol,Concept
+RxNorm,19499,bitolterol,Concept
+RxNorm,25255,formoterol,Concept
+RxNorm,304962,arformoterol,Concept
+RxNorm,33767,pirbuterol,Concept
+RxNorm,35373,reproterol,Concept
+RxNorm,36117,salmeterol,Concept
+RxNorm,4333,fenoterol,Concept
+RxNorm,435,albuterol,Concept
+RxNorm,5307,hexoprenaline,Concept
+RxNorm,6023,isoetharine,Concept
+RxNorm,9388,rimiterol,Concept
+RxNorm,10318,tacrine,Concept
+RxNorm,135447,donepezil,Concept
+RxNorm,183379,rivastigmine,Concept
+RxNorm,4637,galantamine,Concept
+RxNorm,1100072,abiraterone,Concept
+RxNorm,1307298,enzalutamide,Concept
+RxNorm,133070,paroxypropione,Concept
+RxNorm,1999574,apalutamide,Concept
+RxNorm,2180325,darolutamide,Concept
+RxNorm,228790,dutasteride,Concept
+RxNorm,2474340,Clascoterone,Concept
+RxNorm,25025,finasteride,Concept
+RxNorm,31805,nilutamide,Concept
+RxNorm,4508,flutamide,Concept
+RxNorm,6923,metyrapone,Concept
+RxNorm,6964,mifepristone,Concept
+RxNorm,83008,bicalutamide,Concept
+RxNorm,1981,canrenoate potassium,Concept
+RxNorm,298869,eplerenone,Concept
+RxNorm,9997,spironolactone,Concept
+RxNorm,214824,sevelamer,Concept
+RxNorm,2447,cholestyramine resin,Concept
+RxNorm,2685,colestipol,Concept
+RxNorm,10438,theophylline,Concept
+RxNorm,1091836,roflumilast,Concept
+RxNorm,1291301,avanafil,Concept
+RxNorm,136411,sildenafil,Concept
+RxNorm,1865953,crisaborole,Concept
+RxNorm,1886,caffeine,Concept
+RxNorm,21107,cilostazol,Concept
+RxNorm,306674,vardenafil,Concept
+RxNorm,358263,tadalafil,Concept
+RxNorm,49626,enoximone,Concept
+RxNorm,52769,milrinone,Concept
+RxNorm,738,inamrinone,Concept
+RxNorm,7894,papaveretum,Concept
+RxNorm,7895,papaverine,Concept
+RxNorm,10324,tamoxifen,Concept
+RxNorm,2596,clomiphene,Concept
+RxNorm,282357,fulvestrant,Concept
+RxNorm,38409,toremifene,Concept
+RxNorm,38668,trilostane,Concept
+RxNorm,72143,raloxifene,Concept
+RxNorm,2556,citalopram,Concept
+RxNorm,31565,nefazodone,Concept
+RxNorm,321988,escitalopram,Concept
+RxNorm,32937,paroxetine,Concept
+RxNorm,36437,sertraline,Concept
+RxNorm,39786,venlafaxine,Concept
+RxNorm,42355,fluvoxamine,Concept
+RxNorm,4493,fluoxetine,Concept
+RxNorm,72625,duloxetine,Concept
+RxNorm,132889,levonordefrin,Concept
+RxNorm,1489913,droxidopa,Concept
+RxNorm,38453,tramazoline,Concept
+RxNorm,3966,ephedrine,Concept
+RxNorm,39841,xylometazoline,Concept
+RxNorm,6805,metaraminol,Concept
+RxNorm,6853,methoxamine,Concept
+RxNorm,6963,midodrine,Concept
+RxNorm,7247,naphazoline,Concept
+RxNorm,7812,oxymetazoline,Concept
+RxNorm,8163,phenylephrine,Concept
+RxNorm,8792,propylhexedrine,Concept
+RxNorm,8896,pseudoephedrine,Concept
+RxNorm,1300786,mirabegron,Concept
+RxNorm,23638,dopexamine,Concept
+RxNorm,237159,levalbuterol,Concept
+RxNorm,2472254,vibegron,Concept
+RxNorm,2580,clenbuterol,Concept
+RxNorm,3616,dobutamine,Concept
+RxNorm,3628,dopamine,Concept
+RxNorm,38967,tulobuterol,Concept
+RxNorm,39801,xamoterol,Concept
+RxNorm,6054,isoproterenol,Concept
+RxNorm,7688,metaproterenol,Concept
+RxNorm,9392,ritodrine,Concept
+RxNorm,1000082,alcaftadine,Concept
+RxNorm,19959,acrivastine,Concept
+RxNorm,20610,cetirizine,Concept
+RxNorm,275635,desloratadine,Concept
+RxNorm,28144,emedastine,Concept
+RxNorm,356887,levocetirizine,Concept
+RxNorm,39684,epinastine,Concept
+RxNorm,42328,astemizole,Concept
+RxNorm,42330,terfenadine,Concept
+RxNorm,61455,mizolastine,Concept
+RxNorm,6146,ketotifen,Concept
+RxNorm,8331,pimozide,Concept
+RxNorm,863035,bepotastine,Concept
+RxNorm,8770,propiomazine,Concept
+RxNorm,519,allopurinol,Concept
+RxNorm,73689,febuxostat,Concept
+RxNorm,32301,octoxynol,Concept
+RxNorm,968170,polidocanol,Concept
+RxNorm,10798,trientine,Concept
+RxNorm,10991,unithiol,Concept
+RxNorm,11645,deferiprone,Concept
+RxNorm,3131,deferoxamine,Concept
+RxNorm,3445,dimercaprol,Concept
+RxNorm,3446,succimer,Concept
+RxNorm,3690,pentetic acid,Concept
+RxNorm,42662,edetate,Concept
+RxNorm,614373,deferasirox,Concept
+RxNorm,6765,tiopronin,Concept
+RxNorm,7975,penicillamine,Concept
+RxNorm,1378,benzalkonium,Concept
+RxNorm,1390,benzethonium,Concept
+RxNorm,2286,cetylpyridinium,Concept
+RxNorm,23623,domiphen,Concept
+RxNorm,288088,cetrimide,Concept
+RxNorm,3226,dequalinium,Concept
+RxNorm,30257,moxonidine,Concept
+RxNorm,134748,rasagiline,Concept
+RxNorm,1922448,safinamide,Concept
+RxNorm,7930,pargyline,Concept
+RxNorm,9639,selegiline,Concept
+RxNorm,2362167,opicapone,Concept
+RxNorm,60307,entacapone,Concept
+RxNorm,72937,tolcapone,Concept
+RxNorm,10597,tilidine,Concept
+RxNorm,10689,tramadol,Concept
+RxNorm,1819,buprenorphine,Concept
+RxNorm,1841,butorphanol,Concept
+RxNorm,22713,dezocine,Concept
+RxNorm,23088,dihydrocodeine,Concept
+RxNorm,23405,dipipanone,Concept
+RxNorm,237005,levomethadyl,Concept
+RxNorm,2392230,Oliceridine,Concept
+RxNorm,2670,codeine,Concept
+RxNorm,3290,dextromoramide,Concept
+RxNorm,3304,heroin,Concept
+RxNorm,33431,pholcodine,Concept
+RxNorm,3423,hydromorphone,Concept
+RxNorm,4337,fentanyl,Concept
+RxNorm,480,alfentanil,Concept
+RxNorm,5489,hydrocodone,Concept
+RxNorm,56795,sufentanil,Concept
+RxNorm,6378,levorphanol,Concept
+RxNorm,6754,meperidine,Concept
+RxNorm,6761,meptazinol,Concept
+RxNorm,6813,methadone,Concept
+RxNorm,7052,morphine,Concept
+RxNorm,7238,nalbuphine,Concept
+RxNorm,73032,remifentanil,Concept
+RxNorm,7533,noscapine,Concept
+RxNorm,7676,opium,Concept
+RxNorm,7804,oxycodone,Concept
+RxNorm,7814,oxymorphone,Concept
+RxNorm,787390,tapentadol,Concept
+RxNorm,8001,pentazocine,Concept
+RxNorm,8119,phenazocine,Concept
+RxNorm,8143,phenoperidine,Concept
+RxNorm,8785,propoxyphene,Concept
+RxNorm,135775,zolmitriptan,Concept
+RxNorm,141366,naratriptan,Concept
+RxNorm,228783,frovatriptan,Concept
+RxNorm,231049,eletriptan,Concept
+RxNorm,279645,almotriptan,Concept
+RxNorm,37418,sumatriptan,Concept
+RxNorm,88014,rizatriptan,Concept
+RxNorm,1043,apomorphine,Concept
+RxNorm,1658314,brexpiprazole,Concept
+RxNorm,1760,bromocriptine,Concept
+RxNorm,2019,carbidopa,Concept
+RxNorm,47579,cabergoline,Concept
+RxNorm,616739,rotigotine,Concept
+RxNorm,620,amantadine,Concept
+RxNorm,6375,levodopa,Concept
+RxNorm,6446,lisuride,Concept
+RxNorm,72302,ropinirole,Concept
+RxNorm,746741,pramipexole,Concept
+RxNorm,76887,quinagolide,Concept
+RxNorm,8047,pergolide,Concept
+RxNorm,1442132,macitentan,Concept
+RxNorm,358274,ambrisentan,Concept
+RxNorm,75207,bosentan,Concept
+RxNorm,1114195,rivaroxaban,Concept
+RxNorm,1364430,apixaban,Concept
+RxNorm,1599538,edoxaban,Concept
+RxNorm,1927851,betrixaban,Concept
+RxNorm,321208,fondaparinux,Concept
+RxNorm,139896,enfuvirtide,Concept
+RxNorm,2380373,fostemsavir,Concept
+RxNorm,620216,maraviroc,Concept
+RxNorm,2119365,esketamine,Concept
+RxNorm,3289,dextromethorphan,Concept
+RxNorm,6130,ketamine,Concept
+RxNorm,6719,memantine,Concept
+RxNorm,7994,pentamidine,Concept
+RxNorm,2121751,solriamfetol,Concept
+RxNorm,38400,atomoxetine,Concept
+RxNorm,1009,antithrombin III,Concept
+RxNorm,10237,sulindac,Concept
+RxNorm,10255,suprofen,Concept
+RxNorm,1056,aprotinin,Concept
+RxNorm,10734,tranylcypromine,Concept
+RxNorm,107771,demecarium,Concept
+RxNorm,1091643,azilsartan,Concept
+RxNorm,1100699,linagliptin,Concept
+RxNorm,1102129,boceprevir,Concept
+RxNorm,1102261,telaprevir,Concept
+RxNorm,11118,valproic acid,Concept
+RxNorm,114289,indinavir,Concept
+RxNorm,1147220,vemurafenib,Concept
+RxNorm,114934,desirudin,Concept
+RxNorm,1306286,elvitegravir,Concept
+RxNorm,134527,nelfinavir,Concept
+RxNorm,1368001,alogliptin,Concept
+RxNorm,1374,benserazide,Concept
+RxNorm,1424911,dabrafenib,Concept
+RxNorm,1425099,trametinib,Concept
+RxNorm,1433868,dolutegravir,Concept
+RxNorm,1482502,eslicarbazepine,Concept
+RxNorm,1482790,simeprevir,Concept
+RxNorm,1484911,sofosbuvir,Concept
+RxNorm,14851,vigabatrin,Concept
+RxNorm,15202,argatroban,Concept
+RxNorm,1543173,tavaborole,Concept
+RxNorm,1544460,idelalisib,Concept
+RxNorm,1546356,dabigatran,Concept
+RxNorm,1592737,nintedanib,Concept
+RxNorm,1597373,paritaprevir,Concept
+RxNorm,1597582,olaparib,Concept
+RxNorm,1598,dicumarol,Concept
+RxNorm,1601374,palbociclib,Concept
+RxNorm,1603350,panobinostat,Concept
+RxNorm,1659152,alirocumab,Concept
+RxNorm,1665684,evolocumab,Concept
+RxNorm,167,acetazolamide,Concept
+RxNorm,16738,racecadotril,Concept
+RxNorm,1734630,grazoprevir,Concept
+RxNorm,1862579,rucaparib,Concept
+RxNorm,1872382,telotristat,Concept
+RxNorm,1873916,ribociclib,Concept
+RxNorm,18867,benazepril,Concept
+RxNorm,190521,abacavir,Concept
+RxNorm,190548,tipranavir,Concept
+RxNorm,1918231,niraparib,Concept
+RxNorm,1939323,voxilaprevir,Concept
+RxNorm,1940332,enasidenib,Concept
+RxNorm,1940635,glecaprevir,Concept
+RxNorm,194337,vorinostat,Concept
+RxNorm,1945077,copanlisib,Concept
+RxNorm,195088,lopinavir,Concept
+RxNorm,1988648,letermovir,Concept
+RxNorm,1998,captopril,Concept
+RxNorm,1999660,bictegravir,Concept
+RxNorm,20343,carprofen,Concept
+RxNorm,2049106,encorafenib,Concept
+RxNorm,2049873,ivosidenib,Concept
+RxNorm,2055641,lanadelumab,Concept
+RxNorm,2058509,duvelisib,Concept
+RxNorm,2099704,talazoparib,Concept
+RxNorm,21102,cilazapril,Concept
+RxNorm,214354,candesartan,Concept
+RxNorm,2169285,alpelisib,Concept
+RxNorm,2272107,avapritinib,Concept
+RxNorm,227239,masoprocol,Concept
+RxNorm,2274378,tazemetostat,Concept
+RxNorm,2286252,osilodrostat,Concept
+RxNorm,228656,amprenavir,Concept
+RxNorm,2289380,selumetinib,Concept
+RxNorm,237057,lepirudin,Concept
+RxNorm,2467553,lonafarnib,Concept
+RxNorm,2475077,cabotegravir,Concept
+RxNorm,2479690,trilaciclib,Concept
+RxNorm,2540,cilastatin,Concept
+RxNorm,260101,oseltamivir,Concept
+RxNorm,266604,metyrosine,Concept
+RxNorm,29046,lisinopril,Concept
+RxNorm,30121,moclobemide,Concept
+RxNorm,30131,moexipril,Concept
+RxNorm,301542,rosuvastatin,Concept
+RxNorm,321064,olmesartan,Concept
+RxNorm,325646,aliskiren,Concept
+RxNorm,3403,digitoxin,Concept
+RxNorm,343047,atazanavir,Concept
+RxNorm,35208,quinapril,Concept
+RxNorm,3521,dipyridamole,Concept
+RxNorm,3523,dipyrone,Concept
+RxNorm,352374,drotrecogin alfa,Concept
+RxNorm,35296,ramipril,Concept
+RxNorm,3551,distigmine,Concept
+RxNorm,3554,disulfiram,Concept
+RxNorm,358262,fosamprenavir,Concept
+RxNorm,36567,simvastatin,Concept
+RxNorm,3752,edrophonium,Concept
+RxNorm,3827,enalapril,Concept
+RxNorm,3829,enalaprilat,Concept
+RxNorm,38377,tolfenamic acid,Concept
+RxNorm,38454,trandolapril,Concept
+RxNorm,39990,zofenopril,Concept
+RxNorm,40575,zileuton,Concept
+RxNorm,4109,ethacrynic acid,Concept
+RxNorm,41127,fluvastatin,Concept
+RxNorm,42463,pravastatin,Concept
+RxNorm,4502,flurbiprofen,Concept
+RxNorm,460132,darunavir,Concept
+RxNorm,50166,fosinopril,Concept
+RxNorm,52175,losartan,Concept
+RxNorm,54552,perindopril,Concept
+RxNorm,5552,hydroxyurea,Concept
+RxNorm,5781,indomethacin,Concept
+RxNorm,596723,cerivastatin,Concept
+RxNorm,5981,iproniazid,Concept
+RxNorm,6011,isocarboxazid,Concept
+RxNorm,60245,imidapril,Concept
+RxNorm,6027,isoflurophate,Concept
+RxNorm,60819,bivalirudin,Concept
+RxNorm,6142,ketoprofen,Concept
+RxNorm,61805,nitisinone,Concept
+RxNorm,619693,peramivir,Concept
+RxNorm,623,ambenonium,Concept
+RxNorm,6472,lovastatin,Concept
+RxNorm,658708,ecallantide,Concept
+RxNorm,6678,meclofenamic acid,Concept
+RxNorm,6826,methazolamide,Concept
+RxNorm,69722,zanamivir,Concept
+RxNorm,69749,valsartan,Concept
+RxNorm,6995,plicamycin,Concept
+RxNorm,719872,raltegravir,Concept
+RxNorm,7315,neostigmine,Concept
+RxNorm,73494,telmisartan,Concept
+RxNorm,8123,phenelzine,Concept
+RxNorm,8299,physostigmine,Concept
+RxNorm,83367,atorvastatin,Concept
+RxNorm,83395,saquinavir,Concept
+RxNorm,83515,eprosartan,Concept
+RxNorm,8356,piroxicam,Concept
+RxNorm,83818,irbesartan,Concept
+RxNorm,85762,ritonavir,Concept
+RxNorm,857974,saxagliptin,Concept
+RxNorm,861634,pitavastatin,Concept
+RxNorm,877510,romidepsin,Concept
+RxNorm,8834,protein C,Concept
+RxNorm,89778,ecothiopate,Concept
+RxNorm,9000,pyridostigmine,Concept
+RxNorm,1665496,rolapitant,Concept
+RxNorm,1731071,fosaprepitant,Concept
+RxNorm,358255,aprepitant,Concept
+RxNorm,715869,maropitant,Concept
+RxNorm,1876119,etelcalcetide,Concept
+RxNorm,407990,cinacalcet,Concept
+RxNorm,1721560,osimertinib,Concept
+RxNorm,1723738,necitumumab,Concept
+RxNorm,263034,panitumumab,Concept
+RxNorm,1232150,aflibercept,Concept
+RxNorm,253337,bevacizumab,Concept
+RxNorm,498509,pegaptanib,Concept
+RxNorm,595060,ranibizumab,Concept
+RxNorm,1356552,perampanel,Concept
+RxNorm,35623,riluzole,Concept
+RxNorm,2106338,amifampridine,Concept
+RxNorm,49247,dofetilide,Concept
+RxNorm,897018,dalfampridine,Concept
+RxNorm,1440051,lixisenatide,Concept
+RxNorm,1534763,albiglutide,Concept
+RxNorm,1551291,dulaglutide,Concept
+RxNorm,1991302,semaglutide,Concept
+RxNorm,475968,liraglutide,Concept
+RxNorm,60548,exenatide,Concept
+RxNorm,1490468,tasimelteon,Concept
+RxNorm,596205,ramelteon,Concept
+RxNorm,591622,varenicline,Concept
+RxNorm,155080,methacholine,Concept
+RxNorm,19257,bethanechol,Concept
+RxNorm,194,acetylcholine,Concept
+RxNorm,1999,carbachol,Concept
+RxNorm,44281,cevimeline,Concept
+RxNorm,7407,nicotine,Concept
+RxNorm,8328,pilocarpine,Concept
+RxNorm,593411,sitagliptin,Concept
+RxNorm,596554,vildagliptin,Concept
+RxNorm,1543543,belinostat,Concept
+RxNorm,1547220,eliglustat,Concept
+RxNorm,1946825,abemaciclib,Concept
+RxNorm,2049122,binimetinib,Concept
+RxNorm,402316,miglustat,Concept
+RxNorm,2054068,mogamulizumab,Concept
+RxNorm,640062,regadenoson,Concept
+RxNorm,2045726,avatrombopag,Concept
+RxNorm,2054984,lusutrombopag,Concept
+RxNorm,711942,eltrombopag,Concept
+RxNorm,805452,romiplostim,Concept
+RxNorm,24852,fenofibric acid,Concept
+RxNorm,2467540,berotralstat,Concept
+RxNorm,11170,verapamil,Concept
+RxNorm,135056,lercanidipine,Concept
+RxNorm,1436,bepridil,Concept
+RxNorm,17767,amlodipine,Concept
+RxNorm,233603,clevidipine,Concept
+RxNorm,25480,gabapentin,Concept
+RxNorm,28382,lacidipine,Concept
+RxNorm,33910,isradipine,Concept
+RxNorm,3443,diltiazem,Concept
+RxNorm,4316,felodipine,Concept
+RxNorm,6390,lidoflazine,Concept
+RxNorm,7396,nicardipine,Concept
+RxNorm,7417,nifedipine,Concept
+RxNorm,7426,nimodipine,Concept
+RxNorm,7435,nisoldipine,Concept
+RxNorm,8050,perhexiline,Concept
+RxNorm,83213,mibefradil,Concept
+RxNorm,8674,prenylamine,Concept
+RxNorm,10825,trimeprazine,Concept
+RxNorm,10847,tripelennamine,Concept
+RxNorm,10849,triprolidine,Concept
+RxNorm,135391,olopatadine,Concept
+RxNorm,1767,brompheniramine,Concept
+RxNorm,18600,azatadine,Concept
+RxNorm,19759,bromodiphenhydramine,Concept
+RxNorm,20220,carbinoxamine,Concept
+RxNorm,2197878,pitolisant,Concept
+RxNorm,22696,dexbrompheniramine,Concept
+RxNorm,22697,dexchlorpheniramine,Concept
+RxNorm,23386,diphenylpyraline,Concept
+RxNorm,2400,chlorpheniramine,Concept
+RxNorm,2549,cinnarizine,Concept
+RxNorm,2578,clemastine,Concept
+RxNorm,28627,levocabastine,Concept
+RxNorm,28889,loratadine,Concept
+RxNorm,29411,mebhydroline,Concept
+RxNorm,29528,mequitazine,Concept
+RxNorm,2977,cyclizine,Concept
+RxNorm,3013,cyproheptadine,Concept
+RxNorm,33283,phenindamine,Concept
+RxNorm,33408,phenyltoloxamine,Concept
+RxNorm,3444,dimenhydrinate,Concept
+RxNorm,3449,dimethindene,Concept
+RxNorm,3498,diphenhydramine,Concept
+RxNorm,3638,doxepin,Concept
+RxNorm,3642,doxylamine,Concept
+RxNorm,38685,trimethobenzamide,Concept
+RxNorm,54236,oxatomide,Concept
+RxNorm,5553,hydroxyzine,Concept
+RxNorm,59636,buclizine,Concept
+RxNorm,59695,chlorothen,Concept
+RxNorm,6676,meclizine,Concept
+RxNorm,8132,pheniramine,Concept
+RxNorm,8373,pizotyline,Concept
+RxNorm,865,antazoline,Concept
+RxNorm,8745,promethazine,Concept
+RxNorm,87636,fexofenadine,Concept
+RxNorm,9009,pyrilamine,Concept
+RxNorm,194881,brinzolamide,Concept
+RxNorm,3353,dichlorphenamide,Concept
+RxNorm,60207,dorzolamide,Concept
+RxNorm,1373458,canagliflozin,Concept
+RxNorm,1488564,dapagliflozin,Concept
+RxNorm,1545653,empagliflozin,Concept
+RxNorm,1992672,ertugliflozin,Concept
+RxNorm,1591922,ledipasvir,Concept
+RxNorm,1597371,ombitasvir,Concept
+RxNorm,1606218,daclatasvir,Concept
+RxNorm,1734628,elbasvir,Concept
+RxNorm,1799206,velpatasvir,Concept
+RxNorm,1940636,pibrentasvir,Concept
+RxNorm,7880,pancreatin,Concept
+RxNorm,10239,sulpiride,Concept
+RxNorm,1040028,lurasidone,Concept
+RxNorm,10510,thiothixene,Concept
+RxNorm,2403,chlorpromazine,Concept
+RxNorm,2406,chlorprothixene,Concept
+RxNorm,24853,fenoldopam,Concept
+RxNorm,3626,domperidone,Concept
+RxNorm,3648,droperidol,Concept
+RxNorm,679314,paliperidone,Concept
+RxNorm,6915,metoclopramide,Concept
+RxNorm,722,amoxapine,Concept
+RxNorm,784649,asenapine,Concept
+RxNorm,1243041,ivacaftor,Concept
+RxNorm,993449,denosumab,Concept
+RxNorm,33738,pioglitazone,Concept
+RxNorm,72610,troglitazone,Concept
+RxNorm,84108,rosiglitazone,Concept
+RxNorm,10390,tetrabenazine,Concept
+RxNorm,1876905,deutetrabenazine,Concept
+RxNorm,1918219,valbenazine,Concept
+RxNorm,107784,colfosceril,Concept
+RxNorm,1293254,lucinactant,Concept
+RxNorm,155152,poloxamer 188,Concept
+RxNorm,232539,calfactant,Concept
+RxNorm,236381,poractant alfa,Concept
+RxNorm,324072,dimethicone,Concept
+RxNorm,38623,triethanolamine,Concept
+RxNorm,38998,tyloxapol,Concept
+RxNorm,46967,beractant,Concept
+RxNorm,60451,delmopinol,Concept
+RxNorm,1148138,icatibant,Concept
+RxNorm,1798288,obeticholic acid,Concept
+RxNorm,10104,streptodornase,Concept
+RxNorm,1011650,pegloticase,Concept
+RxNorm,10322,talampicillin,Concept
+RxNorm,1040005,ceftaroline,Concept
+RxNorm,10402,dronabinol,Concept
+RxNorm,10463,thiamphenicol,Concept
+RxNorm,10528,thrombin,Concept
+RxNorm,10591,ticarcillin,Concept
+RxNorm,10594,ticlopidine,Concept
+RxNorm,10763,triamterene,Concept
+RxNorm,10968,tyrothricin,Concept
+RxNorm,1112990,ezogabine,Concept
+RxNorm,1116632,ticagrelor,Concept
+RxNorm,11232,virginiamycin,Concept
+RxNorm,115552,trovafloxacin,Concept
+RxNorm,1156,asparaginase,Concept
+RxNorm,1191,aspirin,Concept
+RxNorm,1242127,glucarpidase,Concept
+RxNorm,1242987,vismodegib,Concept
+RxNorm,1266,azlocillin,Concept
+RxNorm,1291609,taliglucerase alfa,Concept
+RxNorm,1292,baclofen,Concept
+RxNorm,1300488,nonacog alfa,Concept
+RxNorm,1306284,cobicistat,Concept
+RxNorm,1307404,linaclotide,Concept
+RxNorm,1311521,ceftiofur,Concept
+RxNorm,1364468,teduglutide,Concept
+RxNorm,1364479,lomitapide,Concept
+RxNorm,138099,gemifloxacin,Concept
+RxNorm,139462,moxifloxacin,Concept
+RxNorm,140108,caspofungin,Concept
+RxNorm,1427179,antithrombin alfa,Concept
+RxNorm,1431738,asparaginase Erwinia chrysanthemi,Concept
+RxNorm,1489914,elosulfase alfa,Concept
+RxNorm,1537034,vorapaxar,Concept
+RxNorm,1546380,4-hydroxybutyric acid,Concept
+RxNorm,1546410,tiamulin,Concept
+RxNorm,1591901,cefovecin,Concept
+RxNorm,1597381,dasabuvir,Concept
+RxNorm,1598641,finafloxacin,Concept
+RxNorm,1656052,cangrelor,Concept
+RxNorm,1659191,sonidegib,Concept
+RxNorm,1720259,asfotase alfa,Concept
+RxNorm,1726975,sebelipase alfa,Concept
+RxNorm,1729002,selexipag,Concept
+RxNorm,18469,sparfloxacin,Concept
+RxNorm,18687,bacampicillin,Concept
+RxNorm,1873752,plecanatide,Concept
+RxNorm,1922436,cerliponase alfa,Concept
+RxNorm,1927663,delafloxacin,Concept
+RxNorm,19552,cefprozil,Concept
+RxNorm,1989819,vestronidase alfa,Concept
+RxNorm,1992,capsaicin,Concept
+RxNorm,1999420,macimorelin,Concept
+RxNorm,2015,carbenicillin,Concept
+RxNorm,2045114,andexanet alfa,Concept
+RxNorm,2045371,cannabidiol,Concept
+RxNorm,2045613,erenumab,Concept
+RxNorm,20481,cefepime,Concept
+RxNorm,20482,cefetamet,Concept
+RxNorm,20485,cefodizime,Concept
+RxNorm,20489,cefpodoxime,Concept
+RxNorm,20492,ceftibuten,Concept
+RxNorm,2056691,fremanezumab,Concept
+RxNorm,2058846,galcanezumab,Concept
+RxNorm,2099289,inotersen,Concept
+RxNorm,2104332,cenegermin,Concept
+RxNorm,2104604,emapalumab,Concept
+RxNorm,2105845,glasdegib,Concept
+RxNorm,2110605,caplacizumab,Concept
+RxNorm,2123126,romosozumab,Concept
+RxNorm,214817,sacrosidase,Concept
+RxNorm,2176,cefaclor,Concept
+RxNorm,2177,cefadroxil,Concept
+RxNorm,2178,cefamandole,Concept
+RxNorm,2180,cefazolin,Concept
+RxNorm,2181306,methicillin,Concept
+RxNorm,2182,cefmetazole,Concept
+RxNorm,2183,cefonicid,Concept
+RxNorm,2184,cefoperazone,Concept
+RxNorm,2186,cefotaxime,Concept
+RxNorm,2187,cefotetan,Concept
+RxNorm,2188,cefotiam,Concept
+RxNorm,2189,cefoxitin,Concept
+RxNorm,2190,cefsulodin,Concept
+RxNorm,2191,ceftazidime,Concept
+RxNorm,2192,ceftizoxime,Concept
+RxNorm,2193,ceftriaxone,Concept
+RxNorm,2194,cefuroxime,Concept
+RxNorm,2198944,lefamulin,Concept
+RxNorm,2199015,istradefylline,Concept
+RxNorm,2231,cephalexin,Concept
+RxNorm,2233,cephaloridine,Concept
+RxNorm,2236,cephalothin,Concept
+RxNorm,2238,cephapirin,Concept
+RxNorm,2239,cephradine,Concept
+RxNorm,2256930,lasmiditan,Concept
+RxNorm,2265678,voxelotor,Concept
+RxNorm,2265702,cefiderocol,Concept
+RxNorm,2268216,ubrogepant,Concept
+RxNorm,2272403,lemborexant,Concept
+RxNorm,2282307,Rimegepant,Concept
+RxNorm,2282660,eptinezumab,Concept
+RxNorm,228476,gatifloxacin,Concept
+RxNorm,229367,quinupristin,Concept
+RxNorm,229369,dalfopristin,Concept
+RxNorm,2348,chloramphenicol,Concept
+RxNorm,239,aclarubicin,Concept
+RxNorm,24192,enrofloxacin,Concept
+RxNorm,2475361,alpha glucosidase,Concept
+RxNorm,25033,cefixime,Concept
+RxNorm,25037,cefdinir,Concept
+RxNorm,2525,chymopapain,Concept
+RxNorm,2530,chymotrypsin,Concept
+RxNorm,253149,eptacog alfa activated,Concept
+RxNorm,2551,ciprofloxacin,Concept
+RxNorm,2590,clobetasol,Concept
+RxNorm,2625,cloxacillin,Concept
+RxNorm,2708,colistimethate,Concept
+RxNorm,2709,colistin,Concept
+RxNorm,27130,cefpirome,Concept
+RxNorm,278739,pegvisomant,Concept
+RxNorm,283821,rasburicase,Concept
+RxNorm,28439,lamotrigine,Concept
+RxNorm,28872,lomefloxacin,Concept
+RxNorm,28981,loracarbef,Concept
+RxNorm,2968,cyclacillin,Concept
+RxNorm,30125,modafinil,Concept
+RxNorm,302285,conivaptan,Concept
+RxNorm,3109,daunorubicin,Concept
+RxNorm,31435,valrubicin,Concept
+RxNorm,31447,nabilone,Concept
+RxNorm,31748,nicorandil,Concept
+RxNorm,31782,nifuroxazide,Concept
+RxNorm,31914,tiagabine,Concept
+RxNorm,3210,deoxyribonucleases,Concept
+RxNorm,3251,desmopressin,Concept
+RxNorm,325887,micafungin,Concept
+RxNorm,32624,oxcarbazepine,Concept
+RxNorm,3268,dexfenfluramine,Concept
+RxNorm,32968,clopidogrel,Concept
+RxNorm,33277,phenethicillin,Concept
+RxNorm,3356,dicloxacillin,Concept
+RxNorm,337623,dornase alfa,Concept
+RxNorm,338817,agalsidase beta,Concept
+RxNorm,341018,anidulafungin,Concept
+RxNorm,343048,treprostinil,Concept
+RxNorm,34345,pralidoxime,Concept
+RxNorm,35255,cisapride,Concept
+RxNorm,3541,disopyramide,Concept
+RxNorm,35616,rifamycin SV,Concept
+RxNorm,35617,rifapentine,Concept
+RxNorm,35619,rifaximin,Concept
+RxNorm,358257,tolvaptan,Concept
+RxNorm,35829,ranolazine,Concept
+RxNorm,3639,doxorubicin,Concept
+RxNorm,36514,sibutramine,Concept
+RxNorm,37771,temafloxacin,Concept
+RxNorm,37775,temocillin,Concept
+RxNorm,38404,topiramate,Concept
+RxNorm,3925,enoxacin,Concept
+RxNorm,3995,epirubicin,Concept
+RxNorm,39993,zolpidem,Concept
+RxNorm,40138,iloprost,Concept
+RxNorm,40169,moricizine,Concept
+RxNorm,4025,ergotamine,Concept
+RxNorm,42322,fleroxacin,Concept
+RxNorm,42359,tocainide,Concept
+RxNorm,42368,encainide,Concept
+RxNorm,4249,factor IX,Concept
+RxNorm,4254,factor VII,Concept
+RxNorm,4256,factor VIIa,Concept
+RxNorm,4328,fenfluramine,Concept
+RxNorm,4388,plasmin,Concept
+RxNorm,4448,floxacillin,Concept
+RxNorm,4457,flumazenil,Concept
+RxNorm,4601,furazolidone,Concept
+RxNorm,46049,alglucerase,Concept
+RxNorm,486164,"hyaluronidase, ovine",Concept
+RxNorm,5084,halcinonide,Concept
+RxNorm,5464,hyaluronidase,Concept
+RxNorm,55672,rifabutin,Concept
+RxNorm,5650,idarubicin,Concept
+RxNorm,578033,galsulfase,Concept
+RxNorm,578350,"hyaluronidase, bovine",Concept
+RxNorm,588250,milnacipran,Concept
+RxNorm,58939,collagenase,Concept
+RxNorm,59639,atosiban,Concept
+RxNorm,613391,prasugrel,Concept
+RxNorm,626,amdinocillin,Concept
+RxNorm,627,amdinocillin pivoxil,Concept
+RxNorm,6387,lidocaine,Concept
+RxNorm,6406,lipase,Concept
+RxNorm,642274,retapamulin,Concept
+RxNorm,644,amiloride,Concept
+RxNorm,644101,idursulfase,Concept
+RxNorm,66422,strychnine,Concept
+RxNorm,68503,ziconotide,Concept
+RxNorm,6926,mexiletine,Concept
+RxNorm,6927,mezlocillin,Concept
+RxNorm,7069,moxalactam,Concept
+RxNorm,723,amoxicillin,Concept
+RxNorm,7233,nafcillin,Concept
+RxNorm,7285,nefopam,Concept
+RxNorm,73107,levosimendan,Concept
+RxNorm,73137,tirofiban,Concept
+RxNorm,732,amphotericin B,Concept
+RxNorm,733,ampicillin,Concept
+RxNorm,734064,desvenlafaxine,Concept
+RxNorm,743,amylase,Concept
+RxNorm,7454,nitrofurantoin,Concept
+RxNorm,7455,nitrofurazone,Concept
+RxNorm,74667,zaleplon,Concept
+RxNorm,7517,norfloxacin,Concept
+RxNorm,75635,eptifibatide,Concept
+RxNorm,7623,ofloxacin,Concept
+RxNorm,772,ancrod,Concept
+RxNorm,7773,oxacillin,Concept
+RxNorm,7892,papain,Concept
+RxNorm,7960,pefloxacin,Concept
+RxNorm,7980,penicillin G,Concept
+RxNorm,7984,penicillin V,Concept
+RxNorm,8183,phenytoin,Concept
+RxNorm,819911,besifloxacin,Concept
+RxNorm,82122,levofloxacin,Concept
+RxNorm,8339,piperacillin,Concept
+RxNorm,83682,cefditoren,Concept
+RxNorm,83719,grepafloxacin,Concept
+RxNorm,8372,pivampicillin,Concept
+RxNorm,83929,abciximab,Concept
+RxNorm,84959,imiglucerase,Concept
+RxNorm,8536,polymyxin B,Concept
+RxNorm,8814,epoprostenol,Concept
+RxNorm,898492,collagenase Clostridium histolyticum,Concept
+RxNorm,89887,Latrodectus mactans antivenin,Concept
+RxNorm,901805,velaglucerase alfa,Concept
+RxNorm,91596,polyvalent Crotalidae antivenin,Concept
+RxNorm,9384,rifampin,Concept
+RxNorm,979384,North American coral snake antivenin,Concept

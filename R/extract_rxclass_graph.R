@@ -46,7 +46,7 @@ extract_rxclass_graph <-
 for (class_type in class_types) {
 
   version_key <- get_rxnav_api_version()
-  path_vctr   <- c(getwd(), "inst", "RxClass API", version_key$version, "staged", class_type)
+  path_vctr   <- c(getwd(), "inst", "RxClass API", version_key$version, "extracted", "graph", class_type)
 
   for (i in 1:length(path_vctr)) {
 
@@ -130,12 +130,6 @@ for (class_type in class_types) {
 
     } else {
 
-
-
-    edge <-
-    edge %>%
-      # filter for hierarchical relationships
-      dplyr::filter(rela == 'isa')
 
 
     # Rename edge fields to indicate directionality
