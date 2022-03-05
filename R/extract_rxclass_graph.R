@@ -46,7 +46,7 @@ extract_rxclass_graph <-
 for (class_type in class_types) {
 
   version_key <- get_rxnav_api_version()
-  path_vctr   <- c(getwd(), "inst", "RxClass API", version_key$version, "extracted", "graph", class_type)
+  path_vctr   <- c(getwd(), "inst", "RxClass API", version_key$version, "extracted", "graph", "raw", class_type)
 
   for (i in 1:length(path_vctr)) {
 
@@ -96,6 +96,19 @@ for (class_type in class_types) {
       x = class_type_data$EDGE,
       file = class_type_edge_csv
     )
+
+  }
+
+  path_vctr   <- c(getwd(), "inst", "RxClass API", version_key$version, "extracted", "graph", "processed", class_type)
+
+  for (i in 1:length(path_vctr)) {
+
+    dir <- paste(path_vctr[1:i], collapse = .Platform$file.sep)
+
+    if (!dir.exists(dir)) {
+
+      dir.create(dir)
+    }
 
   }
 
