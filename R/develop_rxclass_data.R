@@ -154,7 +154,7 @@ develop_rxclass_data <-
                   "inst",
                   "RxClass API",
                   version_key$version,
-                  "staged",
+                  "extracted",
                   class_type,
                   "concept_ancestor.csv")
 
@@ -184,7 +184,7 @@ develop_rxclass_data <-
                 "inst",
                 "RxClass API",
                 version_key$version,
-                "staged",
+                "extracted",
                 class_type,
                 "members"),
       full.names = TRUE,
@@ -300,7 +300,7 @@ develop_rxclass_data <-
                     "inst",
                     "RxClass API",
                     version_key$version,
-                    "staged",
+                    "extracted",
                     class_type,
                     "node.csv"),
           col_types = readr::cols(.default = "c"),
