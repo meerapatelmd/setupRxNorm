@@ -29,7 +29,7 @@ tibble::tribble(
   'ATC1-4'    , 'ATC'           ,
   'CHEM'      , 'MeSH'          ,
   'DISEASE'   , 'MeSH'          ,
-  'DISPOS',   , 'SNOMED'        ,
+  'DISPOS'    , 'SNOMED'        ,
   'EPC'       , 'MEDRT'         ,
   'MESHPA'    , 'MeSH'          ,
   'MOA'       , 'MEDRT'         ,
@@ -41,25 +41,41 @@ tibble::tribble(
   'VA'        , 'NDFRT'
 )
 
-rela_vocabulary_lookup <-
+relasource_vocabulary_lookup <-
   tibble::tribble(
     ~`relaSources`, ~`omop_vocabulary_id`, ~`custom_vocabulary_id`,
-    'ATC'         , 'ATC'                ,
+    'ATC'         , 'ATC'                ,  NA_character_,
     'DAILYMED'    ,  NA_character_       , "DailyMed",
-    'FDASPL'      , 'SPL'                ,
-    'MEDRT'       , 'MEDRT'              ,
-    'SNOMEDCT'    , 'SNOMED'             ,
-    'MESH'        , 'MeSH'               ,
-    'RXNORM'      , 'RxNorm'             ,
-    'FMTSME'      , NA_character_        ,
-    'VA'          , NA_character_
+    'FDASPL'      , 'SPL'                ,  NA_character_,
+    'MEDRT'       , 'MEDRT'              ,  NA_character_,
+    'SNOMEDCT'    , 'SNOMED'             ,  NA_character_,
+    'MESH'        , 'MeSH'               ,  NA_character_,
+    'RXNORM'      , 'RxNorm'             ,  NA_character_,
+    'FMTSME'      , 'MEDRT'              ,  NA_character_,
+    'VA'          , NA_character_        , "VA"
   )
 
-
-
-relationship_source_dictionary <-
+classtype_lookup <-
 tibble::tribble(
-  ~`relationship_source`, ~`relaSourcesDefinition`,
+  ~`classType`, ~`omop_vocabulary_id`, ~`custom_vocabulary_id`,
+  'ATC1-4'    , 'ATC'                ,  NA_character_,
+  'CHEM'      , 'MeSH'               ,  NA_character_,
+  'DISEASE'   , 'MeSH'               ,  NA_character_,
+  'DISPOS'    , 'SNOMED'             ,  NA_character_,
+  'EPC'       , 'MEDRT'              ,  NA_character_,
+  'MESHPA'    , 'MeSH'               ,  NA_character_,
+  'MOA'       , 'MEDRT'              ,  NA_character_,
+  'PE'        , 'MEDRT'              ,  NA_character_,
+  'PK'        , 'MEDRT'              ,  NA_character_,
+  'SCHEDULE'  , NA_character_        ,  'CSA'        ,
+  'STRUCT'    , 'SNOMED'             ,  NA_character_,
+  'TC'        , 'MEDRT'              ,  NA_character_,
+  'VA'        , NA_character_        , 'VA'
+)
+
+relasource_dictionary <-
+tibble::tribble(
+  ~`relaSources`, ~`relaSourcesDefinition`,
   'ATC', 'The fifth level of the ATC tree contains the drugs.',
   'DailyMed','The DailyMed API maps substances through their UNII Code values to EPC, Chem, MoA and PE classes.',
   'FDASPL','The FDASPL drug source maps drug concepts in MED-RT to EPC, Chem, MoA and PE classes.',
