@@ -608,9 +608,8 @@ develop_rxclass_data <-
       file = file.path(dir, "CONCEPT_ANCESTOR.csv")
     )
 
-    # Validating CONCEPT_ANCESTOR against CONCEPT
-
-    load_data$CONCEPT
+    # CONCEPT
+load_data$CONCEPT
 
     ## README
 
