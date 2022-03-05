@@ -433,10 +433,7 @@ develop_rxclass_data <-
           dplyr::filter(vocabulary_id_1 == class_type,
                         relationship_id == "Subsumes") %>%
           transmute(
-            vocabulary_id =
-              dplyr::case_when(
-                vocabulary_id_1 %in% c("DISPOS", "STRUCT") ~ "SNOMEDCT_US",
-                TRUE ~ vocabulary_id_1),
+            vocabulary_id = vocabulary_id_1,
             concept_code = concept_code_1,
             concept_name = concept_name_1,
             concept_class = "Class") %>%
@@ -448,10 +445,7 @@ develop_rxclass_data <-
           dplyr::filter(vocabulary_id_2 == class_type,
                         relationship_id == "Subsumes") %>%
           transmute(
-            vocabulary_id =
-              dplyr::case_when(
-                vocabulary_id_2 %in% c("DISPOS", "STRUCT") ~ "SNOMEDCT_US",
-                TRUE ~ vocabulary_id_2),
+            vocabulary_id = vocabulary_id_2,
             concept_code = concept_code_2,
             concept_name = concept_name_2,
             concept_class = "Concept") %>%
@@ -593,6 +587,36 @@ develop_rxclass_data <-
 
     }
 
+    load_data$CONCEPT <-
+      load_data$CONCEPT %>%
+      rename(classType = vocabulary_id) %>%
+      left_join(
+        classtype_lookup %>%
+          transmute(
+            classType,
+            vocabulary_id = coalesce(omop_vocabulary_id, custom_vocabulary_id)
+          ),
+        by = "classType") %>%
+      transmute(
+        concept_code,
+        concept_name,
+        vocabulary_id,
+        concept_class_id = classType,
+        standard_concept =
+          ifelse(concept_class == "Class",
+                 "C",
+                 NA_character_)) %>%
+      mutate(
+        vocabulary_id =
+          case_when(concept_class_id == 'RxNorm' ~ 'RxNorm',
+                    concept_class_id == 'SNOMEDCT_US' ~ 'SNOMED',
+                    TRUE ~ vocabulary_id)) %>%
+      mutate(
+        concept_class_id =
+          case_when(concept_class_id == 'RxNorm' ~ 'SCHEDULE',
+                    concept_class_id == 'SNOMEDCT_US' ~ 'SNOMED',
+                    TRUE ~ concept_class_id))
+
     readr::write_csv(
       x = load_data$CONCEPT,
       file = file.path(dir, "CONCEPT.csv")
@@ -607,8 +631,6 @@ develop_rxclass_data <-
       x = load_data$CONCEPT_ANCESTOR,
       file = file.path(dir, "CONCEPT_ANCESTOR.csv")
     )
-
-    # CONCEPT
 
 
     ## README
