@@ -212,7 +212,7 @@ develop_rxclass_data <-
           relationship_type = Relation,
           concept_code_2_rxnorm = rxcui,
           concept_name_2_rxnorm = name,
-          # concept_class_id_2_rxnorm = tty, Removed because this can always be derived elsewhere and the source does not have a tty
+          concept_class_id_2_rxnorm = tty,
           # for collapsing later on
           concept_code_2_source = SourceId,
           concept_name_2_source = SourceName
@@ -228,7 +228,7 @@ develop_rxclass_data <-
                starts_with("relationship_"),
                ends_with("_2_rxnorm")) %>%
         mutate(
-          vocabulary_id_1 = class_type,
+          concept_class_id_1 = class_type,
           vocabulary_id_2 = 'RxNorm') %>%
         rename_at(vars(ends_with("_2_rxnorm")),
                   str_remove_all, "_rxnorm") %>%
@@ -578,7 +578,8 @@ develop_rxclass_data <-
         "RxClass API",
         version_key$version,
         output_folder,
-        this_version
+        this_version,
+        "tmp"
         )
 
     for (i in 1:length(path_vctr)) {
@@ -606,6 +607,10 @@ develop_rxclass_data <-
       x = load_data$CONCEPT_ANCESTOR,
       file = file.path(dir, "CONCEPT_ANCESTOR.csv")
     )
+
+    # Validating CONCEPT_ANCESTOR against CONCEPT
+
+    load_data$CONCEPT
 
     ## README
 
