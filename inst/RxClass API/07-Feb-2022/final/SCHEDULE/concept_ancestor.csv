@@ -1,7 +1,0 @@
-ancestor_concept_code,descendant_concept_code,min_levels_of_separation,max_levels_of_separation
-SCHEDULE0,SCHEDULE0,0,0
-SCHEDULE0,SCHEDULE1,1,1
-SCHEDULE0,SCHEDULE2,1,1
-SCHEDULE0,SCHEDULE3,1,1
-SCHEDULE0,SCHEDULE4,1,1
-SCHEDULE0,SCHEDULE5,1,1

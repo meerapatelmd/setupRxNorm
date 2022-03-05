@@ -1,7 +1,0 @@
-vocabulary_id,concept_code,concept_name,concept_class
-SCHEDULE,SCHEDULE0,CSA SCHEDULE,Class
-SCHEDULE,SCHEDULE3,SCHEDULE III,Class
-SCHEDULE,SCHEDULE4,SCHEDULE IV,Class
-SCHEDULE,NA,NA,Concept
-RxNorm,235404,barbital sodium,Concept
-RxNorm,32926,paregoric,Concept

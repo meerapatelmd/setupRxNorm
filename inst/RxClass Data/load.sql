@@ -15,10 +15,11 @@ COPY tmp_lookup FROM '{lookup_csv}'  CSV HEADER QUOTE '"';
 DROP TABLE IF EXISTS concept;
 
 CREATE TABLE concept (
-  vocabulary_id varchar(20) NOT NULL,
   concept_code varchar(25) NOT NULL,
   concept_name varchar(255) NOT NULL,
-  concept_class varchar(10) NOT NULL
+  vocabulary_id varchar(20) NOT NULL,
+  concept_class_id varchar(25) NOT NULL,
+  standard_concept varchar(1) NULL
 )
 ;
 

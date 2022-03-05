@@ -1,5 +1,0 @@
-classId,rxcui,name,tty,SourceId,SourceName,Relation
-SCHEDULE0,235404,barbital sodium,PIN,,,INDIRECT
-SCHEDULE0,32926,paregoric,IN,,,INDIRECT
-SCHEDULE3,32926,paregoric,IN,,,DIRECT
-SCHEDULE4,235404,barbital sodium,PIN,,,DIRECT

@@ -1,0 +1,803 @@
+vocabulary_id,concept_code,concept_name,concept_class
+TC,N0000178293,Therapeutic Categories,Class
+TC,N0000178294,"Antidotes, Deterrents, and Toxicologic Agents",Class
+TC,N0000178295,Anti-infective Agent,Class
+TC,N0000178308,Antirheumatic Agent,Class
+TC,N0000178309,Cardiovascular Agent,Class
+TC,N0000178312,Central Nervous System Agent,Class
+TC,N0000178317,Diagnostic Agent,Class
+TC,N0000178318,Respiratory System Agent,Class
+TC,N0000178370,Gastrointestinal Agent,Class
+TC,N0000178296,Antibacterial Agent,Class
+TC,N0000178297,Antifungal Agent,Class
+TC,N0000178298,Antihelminthic Agent,Class
+TC,N0000178299,Antimalarial Agent,Class
+TC,N0000178300,Antimicrobial Agent,Class
+TC,N0000178301,Antimycobacterial Agent,Class
+TC,N0000178302,Antiparasitic Agent,Class
+TC,N0000178303,Antiprotozoal Agent,Class
+TC,N0000178304,Antiviral Agent,Class
+TC,N0000178305,Antiseptic Agent,Class
+TC,N0000178310,Anti-anginal Agent,Class
+TC,N0000178311,Anti-arrhythmic Agent,Class
+TC,N0000178313,Anti-epileptic Agent,Class
+TC,N0000178314,Antidepressive Agent,Class
+TC,N0000178315,Antimanic Agent,Class
+TC,N0000178316,Antipsychotic Agent,Class
+TC,N0000178319,Antitussive Agent,Class
+TC,N0000178371,Anti-emetic Agent,Class
+TC,N0000178373,Antidiarrheal Agent,Class
+TC,10109,streptomycin,Concept
+TC,10110,streptomycin sulfate,Concept
+TC,101299,amphotericin B colloidal dispersion,Concept
+TC,10169,sulfacetamide,Concept
+TC,10171,sulfadiazine,Concept
+TC,10180,sulfamethoxazole,Concept
+TC,10207,sulfisoxazole,Concept
+TC,10208,sulfisoxazole diolamine,Concept
+TC,10349,sodium pertechnetate Tc 99m,Concept
+TC,10395,tetracycline,Concept
+TC,1040005,ceftaroline,Concept
+TC,1040028,lurasidone,Concept
+TC,10450,thiabendazole,Concept
+TC,10510,thiothixene,Concept
+TC,10591,ticarcillin,Concept
+TC,10612,tinidazole,Concept
+TC,10627,tobramycin,Concept
+TC,10803,trifluridine,Concept
+TC,10827,trimethadione,Concept
+TC,10829,trimethoprim,Concept
+TC,10834,trimipramine,Concept
+TC,1101333,gabapentin enacarbil,Concept
+TC,1111103,fidaxomicin,Concept
+TC,11118,valproic acid,Concept
+TC,11124,vancomycin,Concept
+TC,114477,levetiracetam,Concept
+TC,115698,ziprasidone,Concept
+TC,119771,doripenem,Concept
+TC,121243,voriconazole,Concept
+TC,1272,aztreonam,Concept
+TC,1294533,ziprasidone hydrochloride,Concept
+TC,1297879,ceftibuten dihydrate,Concept
+TC,133008,amoxicillin trihydrate,Concept
+TC,1362737,fluorodeoxyglucose F18,Concept
+TC,1364449,crofelemer,Concept
+TC,1364504,bedaquiline,Concept
+TC,138099,gemifloxacin,Concept
+TC,139462,moxifloxacin,Concept
+TC,140108,caspofungin,Concept
+TC,142138,mexiletine hydrochloride,Concept
+TC,142434,econazole nitrate,Concept
+TC,142435,ethambutol hydrochloride,Concept
+TC,142440,lidocaine hydrochloride,Concept
+TC,142446,tetracycline hydrochloride,Concept
+TC,142447,ticarcillin disodium,Concept
+TC,1426,benzyl alcohol,Concept
+TC,1426874,ioflupane I-123,Concept
+TC,1427224,florbetapir F-18,Concept
+TC,1482680,luliconazole,Concept
+TC,1482913,technetium Tc 99m sestamibi,Concept
+TC,1484911,sofosbuvir,Concept
+TC,14851,vigabatrin,Concept
+TC,1494066,miltefosine,Concept
+TC,150816,imipramine hydrochloride,Concept
+TC,15226,fomepizole,Concept
+TC,1539239,dalbavancin,Concept
+TC,153972,hydroxychloroquine sulfate,Concept
+TC,1539753,efinaconazole,Concept
+TC,1540824,tedizolid phosphate,Concept
+TC,1540825,tedizolid,Concept
+TC,1543173,tavaborole,Concept
+TC,1547611,oritavancin,Concept
+TC,1549827,oritavancin diphosphate,Concept
+TC,155056,procainamide hydrochloride,Concept
+TC,1591922,ledipasvir,Concept
+TC,1596450,gentamicin,Concept
+TC,1597371,ombitasvir,Concept
+TC,1597381,dasabuvir,Concept
+TC,1597608,ceftolozane sulfate,Concept
+TC,1597609,ceftolozane,Concept
+TC,1606218,daclatasvir,Concept
+TC,1658314,brexpiprazole,Concept
+TC,1667655,cariprazine,Concept
+TC,1673265,aripiprazole lauroxil,Concept
+TC,1734628,elbasvir,Concept
+TC,1791685,pimavanserin,Concept
+TC,1799206,velpatasvir,Concept
+TC,18343,artemether,Concept
+TC,18631,azithromycin,Concept
+TC,1870193,gentamicin sulfate,Concept
+TC,18993,benzonatate,Concept
+TC,190376,linezolid,Concept
+TC,1927663,delafloxacin,Concept
+TC,1940636,pibrentasvir,Concept
+TC,19552,cefprozil,Concept
+TC,197,acetylcysteine,Concept
+TC,1987,capreomycin sulfate,Concept
+TC,19884,butoconazole,Concept
+TC,2002,carbamazepine,Concept
+TC,2015,carbenicillin,Concept
+TC,203114,amiodarone hydrochloride,Concept
+TC,203115,ampicillin trihydrate,Concept
+TC,203117,cefotaxime sodium,Concept
+TC,203118,cefoxitin sodium,Concept
+TC,203130,nortriptyline hydrochloride,Concept
+TC,203133,penicillin G potassium,Concept
+TC,203134,piperacillin sodium,Concept
+TC,203135,propafenone hydrochloride,Concept
+TC,203141,cefotetan disodium,Concept
+TC,203168,amitriptyline hydrochloride,Concept
+TC,203171,cefazolin sodium,Concept
+TC,203172,ceftriaxone sodium,Concept
+TC,203174,desipramine hydrochloride,Concept
+TC,203178,disopyramide phosphate,Concept
+TC,203179,doxepin hydrochloride,Concept
+TC,203183,kanamycin sulfate,Concept
+TC,203193,netilmicin sulfate,Concept
+TC,203195,penicillin V potassium,Concept
+TC,203199,protriptyline hydrochloride,Concept
+TC,204144,cefuroxime sodium,Concept
+TC,204175,cefadroxil monohydrate,Concept
+TC,20481,cefepime,Concept
+TC,20492,ceftibuten,Concept
+TC,20493,cefuroxime axetil,Concept
+TC,20767,chloramphenicol palmitate,Concept
+TC,20863,chloroquine phosphate,Concept
+TC,21212,clarithromycin,Concept
+TC,215948,cephalexin monohydrate,Concept
+TC,217483,haloperidol lactate,Concept
+TC,2176,cefaclor,Concept
+TC,2177,cefadroxil,Concept
+TC,2180,cefazolin,Concept
+TC,2184,cefoperazone,Concept
+TC,2186,cefotaxime,Concept
+TC,2187,cefotetan,Concept
+TC,2189,cefoxitin,Concept
+TC,2191,ceftazidime,Concept
+TC,2192,ceftizoxime,Concept
+TC,2193,ceftriaxone,Concept
+TC,2194,cefuroxime,Concept
+TC,221126,moricizine hydrochloride,Concept
+TC,221128,mupirocin calcium,Concept
+TC,221153,quetiapine fumarate,Concept
+TC,221176,trimethoprim sulfate,Concept
+TC,22299,daptomycin,Concept
+TC,2231,cephalexin,Concept
+TC,2239,cephradine,Concept
+TC,227214,cefoperazone sodium,Concept
+TC,228476,gatifloxacin,Concept
+TC,228750,moxifloxacin hydrochloride,Concept
+TC,229367,quinupristin,Concept
+TC,229369,dalfopristin,Concept
+TC,23024,difenoxin,Concept
+TC,233698,dronedarone,Concept
+TC,23370,diphenidol,Concept
+TC,2348,chloramphenicol,Concept
+TC,235373,difenoxin hydrochloride,Concept
+TC,235559,"nitrofurantoin, macrocrystals",Concept
+TC,235838,terbinafine hydrochloride,Concept
+TC,236058,cefepime hydrochloride,Concept
+TC,236302,hydroxocobalamin acetate,Concept
+TC,236558,butenafine hydrochloride,Concept
+TC,236594,amphotericin B liposomal,Concept
+TC,236875,tiagabine hydrochloride,Concept
+TC,2382,proguanil,Concept
+TC,2393,chloroquine,Concept
+TC,24346,erythromycin gluceptate,Concept
+TC,24347,erythromycin lactobionate,Concept
+TC,24351,erythromycin stearate,Concept
+TC,24812,felbamate,Concept
+TC,25033,cefixime,Concept
+TC,25037,cefdinir,Concept
+TC,25138,fluorescein,Concept
+TC,253155,azithromycin dihydrate,Concept
+TC,25480,gabapentin,Concept
+TC,2551,ciprofloxacin,Concept
+TC,2582,clindamycin,Concept
+TC,258332,carbenicillin disodium,Concept
+TC,2592,clofazimine,Concept
+TC,259268,indium In-111 pentetate disodium,Concept
+TC,259282,xenon-133,Concept
+TC,2597,clomipramine,Concept
+TC,2623,clotrimazole,Concept
+TC,2626,clozapine,Concept
+TC,26420,haloperidol decanoate,Concept
+TC,266856,divalproex sodium,Concept
+TC,267257,dicloxacillin sodium,Concept
+TC,2708,colistimethate,Concept
+TC,27169,leflunomide,Concept
+TC,272758,gallium 67 citrate,Concept
+TC,274786,telithromycin,Concept
+TC,28031,itraconazole,Concept
+TC,281942,cephalexin hydrochloride,Concept
+TC,282363,caspofungin acetate,Concept
+TC,282446,posaconazole,Concept
+TC,28439,lamotrigine,Concept
+TC,28981,loracarbef,Concept
+TC,29561,meropenem,Concept
+TC,299081,spinosad,Concept
+TC,314299,"albumin,chromated Cr-51 serum",Concept
+TC,31476,naftifine,Concept
+TC,3154,demeclocycline,Concept
+TC,317177,"albumin,iodinated I-125 serum",Concept
+TC,31819,nitazoxanide,Concept
+TC,31914,tiagabine,Concept
+TC,3247,desipramine,Concept
+TC,325642,ertapenem,Concept
+TC,325887,micafungin,Concept
+TC,32624,oxcarbazepine,Concept
+TC,32638,oxiconazole,Concept
+TC,3356,dicloxacillin,Concept
+TC,341018,anidulafungin,Concept
+TC,3500,diphenoxylate,Concept
+TC,35220,quinidine gluconate,Concept
+TC,353116,ziprasidone mesylate,Concept
+TC,3541,disopyramide,Concept
+TC,35617,rifapentine,Concept
+TC,35619,rifaximin,Concept
+TC,35636,risperidone,Concept
+TC,35829,ranolazine,Concept
+TC,3638,doxepin,Concept
+TC,36435,sertaconazole,Concept
+TC,37319,sulconazole,Concept
+TC,3743,econazole,Concept
+TC,37665,technetium Tc 99m disofenin,Concept
+TC,37801,terbinafine,Concept
+TC,37806,terconazole,Concept
+TC,38298,tioconazole,Concept
+TC,38404,topiramate,Concept
+TC,384455,tigecycline,Concept
+TC,38685,trimethobenzamide,Concept
+TC,388,polymyxin B sulfate,Concept
+TC,39998,zonisamide,Concept
+TC,40169,moricizine,Concept
+TC,402429,gemifloxacin mesylate,Concept
+TC,4053,erythromycin,Concept
+TC,4055,erythromycin estolate,Concept
+TC,4056,erythromycin ethylsuccinate,Concept
+TC,40595,acetyl sulfisoxazole,Concept
+TC,4110,ethambutol,Concept
+TC,4127,ethionamide,Concept
+TC,41289,ibutilide,Concept
+TC,4135,ethosuximide,Concept
+TC,4136,ethotoin,Concept
+TC,41875,quinidine polygalacturonate,Concept
+TC,42372,mupirocin,Concept
+TC,42686,flecainide acetate,Concept
+TC,42790,miconazole nitrate,Concept
+TC,430,albendazole,Concept
+TC,4441,flecainide,Concept
+TC,4450,fluconazole,Concept
+TC,4451,flucytosine,Concept
+TC,451796,chloroquine hydrochloride,Concept
+TC,4678,ganciclovir,Concept
+TC,473837,telavancin,Concept
+TC,47461,butenafine,Concept
+TC,47464,butoconazole nitrate,Concept
+TC,4780,oxytetracycline hydrochloride,Concept
+TC,47858,methsuximide,Concept
+TC,47877,diphenidol hydrochloride,Concept
+TC,47998,chloramphenicol sodium succinate,Concept
+TC,48305,colistimethate sodium,Concept
+TC,485026,nafcillin sodium monohydrate,Concept
+TC,49247,dofetilide,Concept
+TC,50749,halofantrine,Concept
+TC,5093,haloperidol,Concept
+TC,51256,ibutilide fumarate,Concept
+TC,51272,quetiapine,Concept
+TC,5293,hexachlorophene,Concept
+TC,5514,hydroxocobalamin,Concept
+TC,5521,hydroxychloroquine,Concept
+TC,55672,rifabutin,Concept
+TC,56461,carbenicillin indanyl sodium,Concept
+TC,5653,idoxuridine,Concept
+TC,56798,sulconazole nitrate,Concept
+TC,569,eflornithine,Concept
+TC,5690,imipenem,Concept
+TC,5691,imipramine,Concept
+TC,57227,trimethobenzamide hydrochloride,Concept
+TC,5775,indocyanine green,Concept
+TC,57789,fluorescein sodium,Concept
+TC,58130,halofantrine hydrochloride,Concept
+TC,60212,atovaquone,Concept
+TC,6038,isoniazid,Concept
+TC,6069,ivermectin,Concept
+TC,6099,kanamycin,Concept
+TC,6135,ketoconazole,Concept
+TC,61381,olanzapine,Concept
+TC,623400,lacosamide,Concept
+TC,6387,lidocaine,Concept
+TC,641,amikacin,Concept
+TC,642274,retapamulin,Concept
+TC,643,amikacin sulfate,Concept
+TC,6572,mafenide,Concept
+TC,6573,mafenide acetate,Concept
+TC,6672,mebendazole,Concept
+TC,6676,meclizine,Concept
+TC,66912,paromomycin sulfate,Concept
+TC,6694,mefloquine,Concept
+TC,66955,vancomycin hydrochloride,Concept
+TC,6757,mephenytoin,Concept
+TC,679314,paliperidone,Concept
+TC,6922,metronidazole,Concept
+TC,6926,mexiletine,Concept
+TC,6932,miconazole,Concept
+TC,7008,sotalol hydrochloride,Concept
+TC,7019,molindone,Concept
+TC,703,amiodarone,Concept
+TC,704,amitriptyline,Concept
+TC,71227,phenytoin sodium,Concept
+TC,71532,trimipramine maleate,Concept
+TC,722,amoxapine,Concept
+TC,72236,fosphenytoin,Concept
+TC,723,amoxicillin,Concept
+TC,7233,nafcillin,Concept
+TC,72611,cefditoren pivoxil,Concept
+TC,7268,natamycin,Concept
+TC,7276,tobramycin sulfate,Concept
+TC,7299,neomycin,Concept
+TC,7300,neomycin sulfate,Concept
+TC,73178,iloperidone,Concept
+TC,732,amphotericin B,Concept
+TC,733,ampicillin,Concept
+TC,7337,netilmicin,Concept
+TC,7454,nitrofurantoin,Concept
+TC,7517,norfloxacin,Concept
+TC,7531,nortriptyline,Concept
+TC,7597,nystatin,Concept
+TC,7623,ofloxacin,Concept
+TC,7773,oxacillin,Concept
+TC,7778,oxamniquine,Concept
+TC,7821,oxytetracycline,Concept
+TC,784649,asenapine,Concept
+TC,78903,capreomycin,Concept
+TC,7934,paromomycin,Concept
+TC,797272,clindamycin phosphate,Concept
+TC,7975,penicillamine,Concept
+TC,7980,penicillin G,Concept
+TC,7982,penicillin G benzathine,Concept
+TC,7983,penicillin G procaine,Concept
+TC,7994,pentamidine,Concept
+TC,7995,pentamidine isethionate,Concept
+TC,8183,phenytoin,Concept
+TC,81945,eflornithine hydrochloride,Concept
+TC,81953,ampicillin sodium,Concept
+TC,81981,ciprofloxacin hydrochloride,Concept
+TC,81982,clindamycin hydrochloride,Concept
+TC,81984,clomipramine hydrochloride,Concept
+TC,819911,besifloxacin,Concept
+TC,81993,demeclocycline hydrochloride,Concept
+TC,82005,diphenoxylate hydrochloride,Concept
+TC,82041,meclizine hydrochloride,Concept
+TC,82047,metronidazole hydrochloride,Concept
+TC,82051,molindone hydrochloride,Concept
+TC,82065,oxytetracycline calcium,Concept
+TC,82101,sulfacetamide sodium,Concept
+TC,82122,levofloxacin,Concept
+TC,82126,ceftizoxime sodium,Concept
+TC,82130,mefloquine hydrochloride,Concept
+TC,82131,ganciclovir sodium,Concept
+TC,82806,fosphenytoin sodium,Concept
+TC,8331,pimozide,Concept
+TC,8339,piperacillin,Concept
+TC,83682,cefditoren,Concept
+TC,847728,lumefantrine,Concept
+TC,8536,polymyxin B,Concept
+TC,858045,paliperidone palmitate,Concept
+TC,8611,povidone-iodine,Concept
+TC,8628,praziquantel,Concept
+TC,864624,telavancin hydrochloride,Concept
+TC,8687,primaquine,Concept
+TC,8689,primaquine phosphate,Concept
+TC,8691,primidone,Concept
+TC,8700,procainamide,Concept
+TC,8754,propafenone,Concept
+TC,8886,protriptyline,Concept
+TC,89013,aripiprazole,Concept
+TC,8987,pyrazinamide,Concept
+TC,9010,pyrimethamine,Concept
+TC,90650,technetium 99m,Concept
+TC,9068,quinidine,Concept
+TC,9069,quinidine sulfate,Concept
+TC,9071,quinine,Concept
+TC,9075,quinine sulfate,Concept
+TC,91075,clindamycin palmitate hydrochloride,Concept
+TC,91118,imipramine pamoate,Concept
+TC,91135,thiothixene hydrochloride,Concept
+TC,91293,naftifine hydrochloride,Concept
+TC,91516,cyanocobalamin Co57,Concept
+TC,9344,ribavirin,Concept
+TC,9384,rifampin,Concept
+TC,9793,silver sulfadiazine,Concept
+TC,9893,nafcillin sodium,Concept
+TC,9898,oxacillin sodium,Concept
+TC,9900,penicillin G sodium,Concept
+TC,9919,sodium valproate,Concept
+TC,9947,sotalol,Concept
+RxNorm,10109,streptomycin,Concept
+RxNorm,10110,streptomycin sulfate,Concept
+RxNorm,101299,amphotericin B colloidal dispersion,Concept
+RxNorm,10169,sulfacetamide,Concept
+RxNorm,10171,sulfadiazine,Concept
+RxNorm,10180,sulfamethoxazole,Concept
+RxNorm,10207,sulfisoxazole,Concept
+RxNorm,10208,sulfisoxazole diolamine,Concept
+RxNorm,10349,sodium pertechnetate Tc 99m,Concept
+RxNorm,10395,tetracycline,Concept
+RxNorm,1040005,ceftaroline,Concept
+RxNorm,1040028,lurasidone,Concept
+RxNorm,10450,thiabendazole,Concept
+RxNorm,10510,thiothixene,Concept
+RxNorm,10591,ticarcillin,Concept
+RxNorm,10612,tinidazole,Concept
+RxNorm,10627,tobramycin,Concept
+RxNorm,10803,trifluridine,Concept
+RxNorm,10827,trimethadione,Concept
+RxNorm,10829,trimethoprim,Concept
+RxNorm,10834,trimipramine,Concept
+RxNorm,1101333,gabapentin enacarbil,Concept
+RxNorm,1111103,fidaxomicin,Concept
+RxNorm,11118,valproic acid,Concept
+RxNorm,11124,vancomycin,Concept
+RxNorm,114477,levetiracetam,Concept
+RxNorm,115698,ziprasidone,Concept
+RxNorm,119771,doripenem,Concept
+RxNorm,121243,voriconazole,Concept
+RxNorm,1272,aztreonam,Concept
+RxNorm,1294533,ziprasidone hydrochloride,Concept
+RxNorm,1297879,ceftibuten dihydrate,Concept
+RxNorm,133008,amoxicillin trihydrate,Concept
+RxNorm,1362737,fluorodeoxyglucose F18,Concept
+RxNorm,1364449,crofelemer,Concept
+RxNorm,1364504,bedaquiline,Concept
+RxNorm,138099,gemifloxacin,Concept
+RxNorm,139462,moxifloxacin,Concept
+RxNorm,140108,caspofungin,Concept
+RxNorm,142138,mexiletine hydrochloride,Concept
+RxNorm,142434,econazole nitrate,Concept
+RxNorm,142435,ethambutol hydrochloride,Concept
+RxNorm,142440,lidocaine hydrochloride,Concept
+RxNorm,142446,tetracycline hydrochloride,Concept
+RxNorm,142447,ticarcillin disodium,Concept
+RxNorm,1426,benzyl alcohol,Concept
+RxNorm,1426874,ioflupane I-123,Concept
+RxNorm,1427224,florbetapir F-18,Concept
+RxNorm,1482680,luliconazole,Concept
+RxNorm,1482913,technetium Tc 99m sestamibi,Concept
+RxNorm,1484911,sofosbuvir,Concept
+RxNorm,14851,vigabatrin,Concept
+RxNorm,1494066,miltefosine,Concept
+RxNorm,150816,imipramine hydrochloride,Concept
+RxNorm,15226,fomepizole,Concept
+RxNorm,1539239,dalbavancin,Concept
+RxNorm,153972,hydroxychloroquine sulfate,Concept
+RxNorm,1539753,efinaconazole,Concept
+RxNorm,1540824,tedizolid phosphate,Concept
+RxNorm,1540825,tedizolid,Concept
+RxNorm,1543173,tavaborole,Concept
+RxNorm,1547611,oritavancin,Concept
+RxNorm,1549827,oritavancin diphosphate,Concept
+RxNorm,155056,procainamide hydrochloride,Concept
+RxNorm,1591922,ledipasvir,Concept
+RxNorm,1596450,gentamicin,Concept
+RxNorm,1597371,ombitasvir,Concept
+RxNorm,1597381,dasabuvir,Concept
+RxNorm,1597608,ceftolozane sulfate,Concept
+RxNorm,1597609,ceftolozane,Concept
+RxNorm,1606218,daclatasvir,Concept
+RxNorm,1658314,brexpiprazole,Concept
+RxNorm,1667655,cariprazine,Concept
+RxNorm,1673265,aripiprazole lauroxil,Concept
+RxNorm,1734628,elbasvir,Concept
+RxNorm,1791685,pimavanserin,Concept
+RxNorm,1799206,velpatasvir,Concept
+RxNorm,18343,artemether,Concept
+RxNorm,18631,azithromycin,Concept
+RxNorm,1870193,gentamicin sulfate,Concept
+RxNorm,18993,benzonatate,Concept
+RxNorm,190376,linezolid,Concept
+RxNorm,1927663,delafloxacin,Concept
+RxNorm,1940636,pibrentasvir,Concept
+RxNorm,19552,cefprozil,Concept
+RxNorm,197,acetylcysteine,Concept
+RxNorm,1987,capreomycin sulfate,Concept
+RxNorm,19884,butoconazole,Concept
+RxNorm,2002,carbamazepine,Concept
+RxNorm,2015,carbenicillin,Concept
+RxNorm,203114,amiodarone hydrochloride,Concept
+RxNorm,203115,ampicillin trihydrate,Concept
+RxNorm,203117,cefotaxime sodium,Concept
+RxNorm,203118,cefoxitin sodium,Concept
+RxNorm,203130,nortriptyline hydrochloride,Concept
+RxNorm,203133,penicillin G potassium,Concept
+RxNorm,203134,piperacillin sodium,Concept
+RxNorm,203135,propafenone hydrochloride,Concept
+RxNorm,203141,cefotetan disodium,Concept
+RxNorm,203168,amitriptyline hydrochloride,Concept
+RxNorm,203171,cefazolin sodium,Concept
+RxNorm,203172,ceftriaxone sodium,Concept
+RxNorm,203174,desipramine hydrochloride,Concept
+RxNorm,203178,disopyramide phosphate,Concept
+RxNorm,203179,doxepin hydrochloride,Concept
+RxNorm,203183,kanamycin sulfate,Concept
+RxNorm,203193,netilmicin sulfate,Concept
+RxNorm,203195,penicillin V potassium,Concept
+RxNorm,203199,protriptyline hydrochloride,Concept
+RxNorm,204144,cefuroxime sodium,Concept
+RxNorm,204175,cefadroxil monohydrate,Concept
+RxNorm,20481,cefepime,Concept
+RxNorm,20492,ceftibuten,Concept
+RxNorm,20493,cefuroxime axetil,Concept
+RxNorm,20767,chloramphenicol palmitate,Concept
+RxNorm,20863,chloroquine phosphate,Concept
+RxNorm,21212,clarithromycin,Concept
+RxNorm,215948,cephalexin monohydrate,Concept
+RxNorm,217483,haloperidol lactate,Concept
+RxNorm,2176,cefaclor,Concept
+RxNorm,2177,cefadroxil,Concept
+RxNorm,2180,cefazolin,Concept
+RxNorm,2184,cefoperazone,Concept
+RxNorm,2186,cefotaxime,Concept
+RxNorm,2187,cefotetan,Concept
+RxNorm,2189,cefoxitin,Concept
+RxNorm,2191,ceftazidime,Concept
+RxNorm,2192,ceftizoxime,Concept
+RxNorm,2193,ceftriaxone,Concept
+RxNorm,2194,cefuroxime,Concept
+RxNorm,221126,moricizine hydrochloride,Concept
+RxNorm,221128,mupirocin calcium,Concept
+RxNorm,221153,quetiapine fumarate,Concept
+RxNorm,221176,trimethoprim sulfate,Concept
+RxNorm,22299,daptomycin,Concept
+RxNorm,2231,cephalexin,Concept
+RxNorm,2239,cephradine,Concept
+RxNorm,227214,cefoperazone sodium,Concept
+RxNorm,228476,gatifloxacin,Concept
+RxNorm,228750,moxifloxacin hydrochloride,Concept
+RxNorm,229367,quinupristin,Concept
+RxNorm,229369,dalfopristin,Concept
+RxNorm,23024,difenoxin,Concept
+RxNorm,233698,dronedarone,Concept
+RxNorm,23370,diphenidol,Concept
+RxNorm,2348,chloramphenicol,Concept
+RxNorm,235373,difenoxin hydrochloride,Concept
+RxNorm,235559,"nitrofurantoin, macrocrystals",Concept
+RxNorm,235838,terbinafine hydrochloride,Concept
+RxNorm,236058,cefepime hydrochloride,Concept
+RxNorm,236302,hydroxocobalamin acetate,Concept
+RxNorm,236558,butenafine hydrochloride,Concept
+RxNorm,236594,amphotericin B liposomal,Concept
+RxNorm,236875,tiagabine hydrochloride,Concept
+RxNorm,2382,proguanil,Concept
+RxNorm,2393,chloroquine,Concept
+RxNorm,24346,erythromycin gluceptate,Concept
+RxNorm,24347,erythromycin lactobionate,Concept
+RxNorm,24351,erythromycin stearate,Concept
+RxNorm,24812,felbamate,Concept
+RxNorm,25033,cefixime,Concept
+RxNorm,25037,cefdinir,Concept
+RxNorm,25138,fluorescein,Concept
+RxNorm,253155,azithromycin dihydrate,Concept
+RxNorm,25480,gabapentin,Concept
+RxNorm,2551,ciprofloxacin,Concept
+RxNorm,2582,clindamycin,Concept
+RxNorm,258332,carbenicillin disodium,Concept
+RxNorm,2592,clofazimine,Concept
+RxNorm,259268,indium In-111 pentetate disodium,Concept
+RxNorm,259282,xenon-133,Concept
+RxNorm,2597,clomipramine,Concept
+RxNorm,2623,clotrimazole,Concept
+RxNorm,2626,clozapine,Concept
+RxNorm,26420,haloperidol decanoate,Concept
+RxNorm,266856,divalproex sodium,Concept
+RxNorm,267257,dicloxacillin sodium,Concept
+RxNorm,2708,colistimethate,Concept
+RxNorm,27169,leflunomide,Concept
+RxNorm,272758,gallium 67 citrate,Concept
+RxNorm,274786,telithromycin,Concept
+RxNorm,28031,itraconazole,Concept
+RxNorm,281942,cephalexin hydrochloride,Concept
+RxNorm,282363,caspofungin acetate,Concept
+RxNorm,282446,posaconazole,Concept
+RxNorm,28439,lamotrigine,Concept
+RxNorm,28981,loracarbef,Concept
+RxNorm,29561,meropenem,Concept
+RxNorm,299081,spinosad,Concept
+RxNorm,314299,"albumin,chromated Cr-51 serum",Concept
+RxNorm,31476,naftifine,Concept
+RxNorm,3154,demeclocycline,Concept
+RxNorm,317177,"albumin,iodinated I-125 serum",Concept
+RxNorm,31819,nitazoxanide,Concept
+RxNorm,31914,tiagabine,Concept
+RxNorm,3247,desipramine,Concept
+RxNorm,325642,ertapenem,Concept
+RxNorm,325887,micafungin,Concept
+RxNorm,32624,oxcarbazepine,Concept
+RxNorm,32638,oxiconazole,Concept
+RxNorm,3356,dicloxacillin,Concept
+RxNorm,341018,anidulafungin,Concept
+RxNorm,3500,diphenoxylate,Concept
+RxNorm,35220,quinidine gluconate,Concept
+RxNorm,353116,ziprasidone mesylate,Concept
+RxNorm,3541,disopyramide,Concept
+RxNorm,35617,rifapentine,Concept
+RxNorm,35619,rifaximin,Concept
+RxNorm,35636,risperidone,Concept
+RxNorm,35829,ranolazine,Concept
+RxNorm,3638,doxepin,Concept
+RxNorm,36435,sertaconazole,Concept
+RxNorm,37319,sulconazole,Concept
+RxNorm,3743,econazole,Concept
+RxNorm,37665,technetium Tc 99m disofenin,Concept
+RxNorm,37801,terbinafine,Concept
+RxNorm,37806,terconazole,Concept
+RxNorm,38298,tioconazole,Concept
+RxNorm,38404,topiramate,Concept
+RxNorm,384455,tigecycline,Concept
+RxNorm,38685,trimethobenzamide,Concept
+RxNorm,388,polymyxin B sulfate,Concept
+RxNorm,39998,zonisamide,Concept
+RxNorm,40169,moricizine,Concept
+RxNorm,402429,gemifloxacin mesylate,Concept
+RxNorm,4053,erythromycin,Concept
+RxNorm,4055,erythromycin estolate,Concept
+RxNorm,4056,erythromycin ethylsuccinate,Concept
+RxNorm,40595,acetyl sulfisoxazole,Concept
+RxNorm,4110,ethambutol,Concept
+RxNorm,4127,ethionamide,Concept
+RxNorm,41289,ibutilide,Concept
+RxNorm,4135,ethosuximide,Concept
+RxNorm,4136,ethotoin,Concept
+RxNorm,41875,quinidine polygalacturonate,Concept
+RxNorm,42372,mupirocin,Concept
+RxNorm,42686,flecainide acetate,Concept
+RxNorm,42790,miconazole nitrate,Concept
+RxNorm,430,albendazole,Concept
+RxNorm,4441,flecainide,Concept
+RxNorm,4450,fluconazole,Concept
+RxNorm,4451,flucytosine,Concept
+RxNorm,451796,chloroquine hydrochloride,Concept
+RxNorm,4678,ganciclovir,Concept
+RxNorm,473837,telavancin,Concept
+RxNorm,47461,butenafine,Concept
+RxNorm,47464,butoconazole nitrate,Concept
+RxNorm,4780,oxytetracycline hydrochloride,Concept
+RxNorm,47858,methsuximide,Concept
+RxNorm,47877,diphenidol hydrochloride,Concept
+RxNorm,47998,chloramphenicol sodium succinate,Concept
+RxNorm,48305,colistimethate sodium,Concept
+RxNorm,485026,nafcillin sodium monohydrate,Concept
+RxNorm,49247,dofetilide,Concept
+RxNorm,50749,halofantrine,Concept
+RxNorm,5093,haloperidol,Concept
+RxNorm,51256,ibutilide fumarate,Concept
+RxNorm,51272,quetiapine,Concept
+RxNorm,5293,hexachlorophene,Concept
+RxNorm,5514,hydroxocobalamin,Concept
+RxNorm,5521,hydroxychloroquine,Concept
+RxNorm,55672,rifabutin,Concept
+RxNorm,56461,carbenicillin indanyl sodium,Concept
+RxNorm,5653,idoxuridine,Concept
+RxNorm,56798,sulconazole nitrate,Concept
+RxNorm,569,eflornithine,Concept
+RxNorm,5690,imipenem,Concept
+RxNorm,5691,imipramine,Concept
+RxNorm,57227,trimethobenzamide hydrochloride,Concept
+RxNorm,5775,indocyanine green,Concept
+RxNorm,57789,fluorescein sodium,Concept
+RxNorm,58130,halofantrine hydrochloride,Concept
+RxNorm,60212,atovaquone,Concept
+RxNorm,6038,isoniazid,Concept
+RxNorm,6069,ivermectin,Concept
+RxNorm,6099,kanamycin,Concept
+RxNorm,6135,ketoconazole,Concept
+RxNorm,61381,olanzapine,Concept
+RxNorm,623400,lacosamide,Concept
+RxNorm,6387,lidocaine,Concept
+RxNorm,641,amikacin,Concept
+RxNorm,642274,retapamulin,Concept
+RxNorm,643,amikacin sulfate,Concept
+RxNorm,6572,mafenide,Concept
+RxNorm,6573,mafenide acetate,Concept
+RxNorm,6672,mebendazole,Concept
+RxNorm,6676,meclizine,Concept
+RxNorm,66912,paromomycin sulfate,Concept
+RxNorm,6694,mefloquine,Concept
+RxNorm,66955,vancomycin hydrochloride,Concept
+RxNorm,6757,mephenytoin,Concept
+RxNorm,679314,paliperidone,Concept
+RxNorm,6922,metronidazole,Concept
+RxNorm,6926,mexiletine,Concept
+RxNorm,6932,miconazole,Concept
+RxNorm,7008,sotalol hydrochloride,Concept
+RxNorm,7019,molindone,Concept
+RxNorm,703,amiodarone,Concept
+RxNorm,704,amitriptyline,Concept
+RxNorm,71227,phenytoin sodium,Concept
+RxNorm,71532,trimipramine maleate,Concept
+RxNorm,722,amoxapine,Concept
+RxNorm,72236,fosphenytoin,Concept
+RxNorm,723,amoxicillin,Concept
+RxNorm,7233,nafcillin,Concept
+RxNorm,72611,cefditoren pivoxil,Concept
+RxNorm,7268,natamycin,Concept
+RxNorm,7276,tobramycin sulfate,Concept
+RxNorm,7299,neomycin,Concept
+RxNorm,7300,neomycin sulfate,Concept
+RxNorm,73178,iloperidone,Concept
+RxNorm,732,amphotericin B,Concept
+RxNorm,733,ampicillin,Concept
+RxNorm,7337,netilmicin,Concept
+RxNorm,7454,nitrofurantoin,Concept
+RxNorm,7517,norfloxacin,Concept
+RxNorm,7531,nortriptyline,Concept
+RxNorm,7597,nystatin,Concept
+RxNorm,7623,ofloxacin,Concept
+RxNorm,7773,oxacillin,Concept
+RxNorm,7778,oxamniquine,Concept
+RxNorm,7821,oxytetracycline,Concept
+RxNorm,784649,asenapine,Concept
+RxNorm,78903,capreomycin,Concept
+RxNorm,7934,paromomycin,Concept
+RxNorm,797272,clindamycin phosphate,Concept
+RxNorm,7975,penicillamine,Concept
+RxNorm,7980,penicillin G,Concept
+RxNorm,7982,penicillin G benzathine,Concept
+RxNorm,7983,penicillin G procaine,Concept
+RxNorm,7994,pentamidine,Concept
+RxNorm,7995,pentamidine isethionate,Concept
+RxNorm,8183,phenytoin,Concept
+RxNorm,81945,eflornithine hydrochloride,Concept
+RxNorm,81953,ampicillin sodium,Concept
+RxNorm,81981,ciprofloxacin hydrochloride,Concept
+RxNorm,81982,clindamycin hydrochloride,Concept
+RxNorm,81984,clomipramine hydrochloride,Concept
+RxNorm,819911,besifloxacin,Concept
+RxNorm,81993,demeclocycline hydrochloride,Concept
+RxNorm,82005,diphenoxylate hydrochloride,Concept
+RxNorm,82041,meclizine hydrochloride,Concept
+RxNorm,82047,metronidazole hydrochloride,Concept
+RxNorm,82051,molindone hydrochloride,Concept
+RxNorm,82065,oxytetracycline calcium,Concept
+RxNorm,82101,sulfacetamide sodium,Concept
+RxNorm,82122,levofloxacin,Concept
+RxNorm,82126,ceftizoxime sodium,Concept
+RxNorm,82130,mefloquine hydrochloride,Concept
+RxNorm,82131,ganciclovir sodium,Concept
+RxNorm,82806,fosphenytoin sodium,Concept
+RxNorm,8331,pimozide,Concept
+RxNorm,8339,piperacillin,Concept
+RxNorm,83682,cefditoren,Concept
+RxNorm,847728,lumefantrine,Concept
+RxNorm,8536,polymyxin B,Concept
+RxNorm,858045,paliperidone palmitate,Concept
+RxNorm,8611,povidone-iodine,Concept
+RxNorm,8628,praziquantel,Concept
+RxNorm,864624,telavancin hydrochloride,Concept
+RxNorm,8687,primaquine,Concept
+RxNorm,8689,primaquine phosphate,Concept
+RxNorm,8691,primidone,Concept
+RxNorm,8700,procainamide,Concept
+RxNorm,8754,propafenone,Concept
+RxNorm,8886,protriptyline,Concept
+RxNorm,89013,aripiprazole,Concept
+RxNorm,8987,pyrazinamide,Concept
+RxNorm,9010,pyrimethamine,Concept
+RxNorm,90650,technetium 99m,Concept
+RxNorm,9068,quinidine,Concept
+RxNorm,9069,quinidine sulfate,Concept
+RxNorm,9071,quinine,Concept
+RxNorm,9075,quinine sulfate,Concept
+RxNorm,91075,clindamycin palmitate hydrochloride,Concept
+RxNorm,91118,imipramine pamoate,Concept
+RxNorm,91135,thiothixene hydrochloride,Concept
+RxNorm,91293,naftifine hydrochloride,Concept
+RxNorm,91516,cyanocobalamin Co57,Concept
+RxNorm,9344,ribavirin,Concept
+RxNorm,9384,rifampin,Concept
+RxNorm,9793,silver sulfadiazine,Concept
+RxNorm,9893,nafcillin sodium,Concept
+RxNorm,9898,oxacillin sodium,Concept
+RxNorm,9900,penicillin G sodium,Concept
+RxNorm,9919,sodium valproate,Concept
+RxNorm,9947,sotalol,Concept

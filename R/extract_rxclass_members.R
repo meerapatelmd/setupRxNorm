@@ -137,9 +137,9 @@ extract_rxclass_members <-
         "inst",
         "RxClass API",
         version_key$version,
-        "staged",
-        class_type,
-        "members")
+        "extracted",
+        "members",
+        class_type)
 
     for (i in 1:length(path_vctr)) {
 
