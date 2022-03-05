@@ -230,7 +230,7 @@ develop_rxclass_data <-
         mutate(
           vocabulary_id_1 = class_type,
           vocabulary_id_2 = 'RxNorm') %>%
-        rename_at(vars(ends_with("_2_rxnorm")),
+        rename_at(dplyr::vars(ends_with("_2_rxnorm")),
                   str_remove_all, "_rxnorm") %>%
         distinct()
 
@@ -241,7 +241,7 @@ develop_rxclass_data <-
                ends_with("_2_source")) %>%
         mutate(vocabulary_id_1 = class_type,
                vocabulary_id_2 = class_type) %>%
-        rename_at(vars(ends_with("_2_source")),
+        rename_at(dplyr::vars(ends_with("_2_source")),
                   str_remove_all, "_source") %>%
         distinct()
 
@@ -255,11 +255,11 @@ develop_rxclass_data <-
         mutate(relationship_id = "Mapped from",
                # Assumed direct mapping between the two
                relationship_type = "DIRECT") %>%
-        rename_at(vars(ends_with("_2_rxnorm")),
+        rename_at(dplyr::vars(ends_with("_2_rxnorm")),
                   str_replace_all,
                   "_2_rxnorm", "_1") %>%
         mutate(vocabulary_id_1 = "RxNorm") %>%
-        rename_at(vars(ends_with("_2_source")),
+        rename_at(dplyr::vars(ends_with("_2_source")),
                   str_replace_all,
                   "_2_source", "_2") %>%
         mutate(vocabulary_id_2 = class_type) %>%
@@ -274,11 +274,11 @@ develop_rxclass_data <-
         mutate(relationship_id = "Maps to",
                # Assumed direct mapping between the two
                relationship_type = "DIRECT") %>%
-        rename_at(vars(ends_with("_2_rxnorm")),
+        rename_at(dplyr::vars(ends_with("_2_rxnorm")),
                   str_replace_all,
                   "_2_rxnorm", "_2") %>%
         mutate(vocabulary_id_2 = "RxNorm") %>%
-        rename_at(vars(ends_with("_2_source")),
+        rename_at(dplyr::vars(ends_with("_2_source")),
                   str_replace_all,
                   "_2_source", "_1") %>%
         mutate(vocabulary_id_1 = class_type) %>%
@@ -662,7 +662,7 @@ develop_rxclass_data <-
                 by = c("classType", "relaSources"),
                 keep = TRUE,
                 suffix = c(".default", ".version")) %>%
-      mutate_at(vars(ends_with(".version")),
+      mutate_at(dplyr::vars(ends_with(".version")),
                 ~ifelse(is.na(.), "", "X")) %>%
       rename(
         classType = classType.default,
