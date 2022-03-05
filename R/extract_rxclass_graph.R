@@ -73,7 +73,7 @@ for (class_type in class_types) {
     class_type_data <- load_rxclass_graph(class_types = class_type)
 
     readr::write_csv(
-      x = class_type_data$NODE,
+      x = distinct(class_type_data$NODE),
       file = class_type_node_csv
     )
 
