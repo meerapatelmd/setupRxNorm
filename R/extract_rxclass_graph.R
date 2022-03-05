@@ -132,12 +132,6 @@ for (class_type in class_types) {
 
 
 
-    edge <-
-    edge %>%
-      # filter for hierarchical relationships
-      dplyr::filter(rela == 'isa')
-
-
     # Rename edge fields to indicate directionality
     # ClassId1 --> child
     # ClassId2 --> parent
