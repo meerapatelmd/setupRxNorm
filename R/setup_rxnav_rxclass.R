@@ -131,7 +131,7 @@ setup_rxnav_rxclass <-
                         "version_rela_sources"),
                sep = "[ ]{1,}") %>%
       # Replace "NA" with blank space
-      dplyr::mutate_at(vars(3,4), ~dplyr::if_else(is.na(.), " ", "X"))
+      dplyr::mutate_at(dplyr::vars(3,4), ~dplyr::if_else(is.na(.), " ", "X"))
 
     cli::cat_rule("Lookup")
     lookup %>%
