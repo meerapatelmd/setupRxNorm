@@ -7,6 +7,8 @@
 #' csv file. Concept Ancestor processing is completed when a subsequent level of
 #' parent and children is a dataframe that is a duplicate of a previous level's.
 #'
+#' Other class types such as SCHEDULE do not have multiple levels.
+#'
 #' @rdname extract_rxclass_graph
 #' @export
 
