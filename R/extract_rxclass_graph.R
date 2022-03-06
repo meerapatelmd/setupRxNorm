@@ -455,6 +455,45 @@ for (class_type in class_types) {
         show_col_types = FALSE)
 
 
+  # STRUCT has 0 nodes and 0 edges so blank concept synonym and concept csvs
+  # will be written later
+
+  if (nrow(graph_data$node)==0 & nrow(graph_data$edge)==0) {
+
+    concept <-
+      tibble::tribble(
+        ~concept_code,
+        ~concept_name,
+        ~class_type,
+        ~concept_class_id,
+        ~standard_concept
+      )
+    readr::write_csv(
+      x =  concept,
+      file = class_type_concept_csv
+    )
+
+    concept_synonym <-
+      tibble::tribble(
+        ~concept_code,
+        ~concept_synonym_name,
+        ~class_type
+      )
+
+    class_type_concept_synonym_csv <-
+      file.path(dir, "concept_synonym.csv")
+    cli::cli_text("[{as.character(Sys.time())}] {.file {class_type_concept_synonym_csv}} ")
+
+    readr::write_csv(
+      x =  concept_synonym,
+      file = class_type_concept_synonym_csv
+    )
+
+
+  } else {
+
+
+
   node_check <-
     list(
       graph_data$node %>%
@@ -553,6 +592,8 @@ for (class_type in class_types) {
 
 
 
+
+  }
 
   }
 
