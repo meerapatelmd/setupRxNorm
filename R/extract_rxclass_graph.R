@@ -9,6 +9,9 @@
 #'
 #' Other class types such as SCHEDULE do not have multiple levels.
 #'
+#' The response from the RxNav RxClass API is a set of nodes and edges for a given
+#' `class_type`. Both are saved as csvs to the 'raw' folder.
+#'
 #' @rdname extract_rxclass_graph
 #' @export
 
@@ -126,8 +129,6 @@ for (class_type in class_types) {
   if (!file.exists(class_type_concept_ancestor_csv)) {
 
 
-    #class_type_data <- load_rxclass_graph(class_types = class_type)
-    node <- readr::read_csv(class_type_node_csv, col_types = readr::cols(.default = "c"), show_col_types = FALSE)
     edge <-
       readr::read_csv(class_type_edge_csv, col_types = readr::cols(.default = "c"), show_col_types = FALSE)
 
