@@ -142,6 +142,7 @@ extract_rxclass_members <-
         version_key$version,
         "extracted",
         "members",
+        "raw",
         class_type)
 
     for (i in 1:length(path_vctr)) {
