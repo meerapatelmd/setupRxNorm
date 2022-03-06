@@ -126,7 +126,7 @@ extract_rxclass_members <-
         "[{as.character(Sys.time())}] {cli::col_green(cli::symbol$tick)} Wrote {cli::pb_total} csvs ",
         "in {cli::pb_elapsed}"
       ),
-      total = nrow(lookup),
+      total = nrow(lookup)*2,
       clear = FALSE
     )
 
@@ -249,6 +249,151 @@ extract_rxclass_members <-
     unlink(tmp_dir)
 
   }
+  }
+
+
+
+  for (ii in 1:nrow(lookup)) {
+
+    class_type  <- lookup$classType[ii]
+    rela_source <- lookup$relaSources[ii]
+    raw_source_path <-
+      file.path(
+        getwd(),
+        "inst",
+        "RxClass API",
+        version_key$version,
+        "extracted",
+        "members",
+        "raw",
+        class_type)
+
+    path_vctr   <-
+      c(getwd(),
+        "inst",
+        "RxClass API",
+        version_key$version,
+        "extracted",
+        "members",
+        "processed",
+        class_type,
+        rela_source)
+
+    for (i in 1:length(path_vctr)) {
+
+      dir <- paste(path_vctr[1:i], collapse = .Platform$file.sep)
+
+      if (!dir.exists(dir)) {
+
+        dir.create(dir)
+      }
+
+    }
+
+
+    source_members_csv <-
+      file.path(raw_source_path, sprintf("%s.csv", rela_source))
+
+    members_csv <-
+      file.path(dir, "CONCEPT.csv")
+
+    cli::cli_text("[{as.character(Sys.time())}] {.file {members_csv}} ")
+    cli::cli_progress_update()
+    if (!file.exists(members_csv)) {
+
+      raw_members_data <-
+        readr::read_csv(
+          file = source_members_csv,
+          col_types = readr::cols(.default = "c"),
+          show_col_types = FALSE
+        )
+
+      members_data <-
+      raw_members_data %>%
+        transmute(
+          rxnorm_concept_code = rxcui,
+          rxnorm_concept_name = name,
+          rxnorm_concept_class_id = tty,
+          rxnorm_standard_concept = NA_character_,
+          source_concept_code = SourceId,
+          source_concept_name = SourceName,
+          source_standard_concept = NA_character_,
+          # source_vocabulary_id = rela_source,
+          source_standard_concept = NA_character_,
+          relationship_source = rela_source,
+          relationship_type   = Relation,
+          class_concept_code  = classId,
+          class_standard_concept = "C",
+          class_class_type    = class_type) %>%
+        left_join(
+          relasource_vocabulary_lookup %>%
+            transmute(
+              relationship_source = relaSources,
+              source_vocabulary_id = coalesce(omop_vocabulary_id, custom_vocabulary_id)),
+          by = "relationship_source") %>%
+        distinct() %>%
+        select(
+          rxnorm_concept_code,
+          rxnorm_concept_name,
+          rxnorm_concept_class_id,
+          rxnorm_standard_concept,
+          source_concept_code,
+          source_concept_name,
+          source_standard_concept,
+          source_vocabulary_id,
+          relationship_source,
+          relationship_type,
+          class_concept_code,
+          class_standard_concept,
+          class_class_type
+        )
+
+      members_data2 <-
+        bind_rows(
+          members_data %>%
+            transmute(
+              concept_code  = rxnorm_concept_code,
+              concept_name  = rxnorm_concept_name,
+              concept_class_id = rxnorm_concept_class_id,
+              vocabulary_id = 'RxNorm',
+              standard_concept = rxnorm_standard_concept,
+              class_type = class_type) %>%
+            distinct(),
+          members_data %>%
+            transmute(
+              concept_code  = source_concept_code,
+              concept_name  = source_concept_name,
+              concept_class_id = "(Missing)",
+              vocabulary_id =  source_vocabulary_id,
+              standard_concept = source_standard_concept,
+              class_type = class_type) %>%
+            distinct(),
+          members_data %>%
+            transmute(
+              concept_code  = class_concept_code,
+              concept_name  = "(Missing)",
+              concept_class_id = "(Missing)",
+              vocabulary_id =  "(Missing)",
+              standard_concept = class_standard_concept,
+              class_type = class_class_type) %>%
+            distinct()
+        )
+
+
+      readr::write_csv(
+        file = members_csv,
+        x = members_data2
+      )
+
+      cr_csv <-
+        file.path(dir, "CONCEPT_RELATIONSHIP.csv")
+
+      # cli::cli_text("[{as.character(Sys.time())}] {.file {cr_csv}} ")
+
+
+
+
+    }
   }
 
 }
