@@ -12,6 +12,25 @@
 #' The response from the RxNav RxClass API is a set of nodes and edges for a given
 #' `class_type`. Both are saved as csvs to the 'raw' folder.
 #'
+#' The edge.csv is then processed into a Concept Ancestor format as 'concept_ancestor.csv'
+#' under the 'processed' folder.
+#'
+#' @return
+#' For each `class_type`, the following csvs are returned to the installation dir:
+#' RxClass API /
+#'   \emph{RxClass Version} /
+#'     extracted /
+#'       graph /
+#'         raw /
+#'           node.csv
+#'           edge.csv
+#'         processed /
+#'           concept_ancestor.csv
+#'
+#' The concept_ancestor.csv is processed to include levels of separation with the
+#' source edge.csv fields classId1 and classId2 translated to child and parent,
+#' respectively.
+#'
 #' @rdname extract_rxclass_graph
 #' @export
 
@@ -139,10 +158,6 @@ for (class_type in class_types) {
         file = class_type_concept_ancestor_csv
       )
 
-      return("")
-
-
-
 
     } else {
 
@@ -241,6 +256,7 @@ for (class_type in class_types) {
     if (dir.exists(tmp_ca_dir)) {
 
       unlink(tmp_ca_dir, recursive = TRUE)
+      unlink(tmp_ca_dir)
 
     }
     dir.create(tmp_ca_dir)
