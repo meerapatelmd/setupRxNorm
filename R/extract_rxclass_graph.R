@@ -67,9 +67,10 @@ extract_rxclass_graph <-
       clear = FALSE
     )
 
+version_key <- get_rxnav_api_version()
+
 for (class_type in class_types) {
 
-  version_key <- get_rxnav_api_version()
   path_vctr   <- c(getwd(), "inst", "RxClass API", version_key$version, "extracted", "graph", "raw", class_type)
 
   for (i in 1:length(path_vctr)) {
