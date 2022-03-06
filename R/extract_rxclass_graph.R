@@ -63,7 +63,7 @@ extract_rxclass_graph <-
         "[{as.character(Sys.time())}] {cli::col_green(cli::symbol$tick)} Wrote {cli::pb_total} csvs ",
         "in {cli::pb_elapsed}."
       ),
-      total = length(class_types)*3, # 3 for nodes, edges, and concept_ancestor
+      total = length(class_types)*4, # 4 for nodes, edges, concept_ancestor, and concept (tandem concept_synonym)
       clear = FALSE
     )
 
@@ -433,7 +433,130 @@ for (class_type in class_types) {
       }
 
 
-    }
+
+  class_type_concept_csv <-
+    file.path(dir, "concept.csv")
+  cli::cli_text("[{as.character(Sys.time())}] {.file {class_type_concept_csv}} ")
+
+  # objects for the progress bar
+  classType <- class_type
+  fileType  <-  "concept.csv"
+  cli::cli_progress_update()
+
+
+  if (!file.exists(class_type_concept_csv)) {
+  graph_data <-
+    list(
+      node = class_type_node_csv,
+      edge = class_type_edge_csv,
+      concept_ancestor = class_type_concept_ancestor_csv) %>%
+    map(readr::read_csv,
+        col_types = readr::cols(.default = "c"),
+        show_col_types = FALSE)
+
+
+  node_check <-
+    list(
+      graph_data$node %>%
+        distinct(classId) %>%
+        transmute(node_in_node_csv = classId,
+                  classId),
+      graph_data$edge %>%
+        distinct(classId1) %>%
+        transmute(node1_in_edge_csv = classId1,
+                  classId = classId1),
+      graph_data$edge %>%
+        distinct(classId2) %>%
+        transmute(node2_in_edge_csv = classId2,
+                  classId = classId2),
+      graph_data$concept_ancestor %>%
+        distinct(ancestor_concept_code) %>%
+        transmute(ancestor_in_ca_csv = ancestor_concept_code,
+                  classId = ancestor_concept_code),
+      graph_data$concept_ancestor %>%
+        distinct(descendant_concept_code) %>%
+        transmute(descendant_in_ca_csv = descendant_concept_code,
+                  classId = descendant_concept_code)) %>%
+    reduce(full_join, by = "classId") %>%
+    transmute(
+      all_classId = classId,
+      node_in_node_csv,
+      node1_in_edge_csv,
+      node2_in_edge_csv,
+      ancestor_in_ca_csv,
+      descendant_in_ca_csv)
+
+  concept_map <-
+  node_check %>%
+    mutate(
+      node_class_type =
+        case_when(
+          is.na(node1_in_edge_csv) & !is.na(node2_in_edge_csv) ~ "Root",
+          !is.na(node1_in_edge_csv) & is.na(node2_in_edge_csv) ~ "Leaf",
+          !is.na(node1_in_edge_csv) & !is.na(node2_in_edge_csv) ~ "SubClass",
+          TRUE ~ "(Node Not Found in Edge)")) %>%
+    select(concept_code =
+             all_classId,
+           concept_class_id = node_class_type) %>%
+    distinct() %>%
+    mutate(standard_concept = 'C')
+
+
+  concept0 <-
+  graph_data$node %>%
+    select(concept_code = classId,
+           concept_name = className,
+           class_type   = classType) %>%
+    left_join(concept_map,
+              by = "concept_code") %>%
+    distinct()
+
+  # Dedupe codes
+  concept0 <-
+  concept0 %>%
+    group_by(concept_code,
+             class_type) %>%
+    dplyr::arrange(concept_name,
+                   .by_group = TRUE) %>%
+    dplyr::mutate(concept_name_rank = 1:n()) %>%
+    dplyr::ungroup()
+
+  concept <-
+    concept0 %>%
+    dplyr::filter(concept_name_rank == 1) %>%
+    dplyr::select(-concept_name_rank)
+
+  readr::write_csv(
+    x =  concept,
+    file = class_type_concept_csv
+  )
+
+  concept_synonym <-
+    concept0 %>%
+    dplyr::filter(concept_name_rank != 1) %>%
+    dplyr::select(concept_code,
+                  concept_synonym_name = concept_name) %>%
+    distinct()
+
+  class_type_concept_synonym_csv <-
+    file.path(dir, "concept_synonym.csv")
+  cli::cli_text("[{as.character(Sys.time())}] {.file {class_type_concept_synonym_csv}} ")
+
+  readr::write_csv(
+    x =  concept_synonym,
+    file = class_type_concept_synonym_csv
+  )
+
+
+
+
+
+
+
+
+  }
+
+}
 
 
   }
