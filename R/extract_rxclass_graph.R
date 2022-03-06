@@ -574,7 +574,8 @@ for (class_type in class_types) {
     concept0 %>%
     dplyr::filter(concept_name_rank != 1) %>%
     dplyr::select(concept_code,
-                  concept_synonym_name = concept_name) %>%
+                  concept_synonym_name = concept_name,
+                  class_type) %>%
     distinct()
 
   class_type_concept_synonym_csv <-
