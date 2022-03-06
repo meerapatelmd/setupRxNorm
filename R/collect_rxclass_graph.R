@@ -135,7 +135,7 @@ collect_rxclass_graph <-
         output0 <-
           content(resp) %>%
           pluck("rxclassGraph") %>%
-          map(function(x) map(x, as_tibble_row)) %>%
+          map(function(x) map(x, tibble::as_tibble_row)) %>%
           map(bind_rows)
 
         if (length(output0)==0) {
