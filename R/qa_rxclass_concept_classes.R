@@ -2,25 +2,26 @@ qa_rxclass_concept_classes <-
 function(prior_version = NULL,
          prior_api_version = "3.1.174") {
 
-  version_key <-
-    list(version = prior_version,
-         apiVersion = prior_api_version)
-
-
   if (is.null(prior_version)) {
 
     version_key <- get_rxnav_api_version()
 
+  } else {
+
+    version_key <-
+      list(version = prior_version,
+           apiVersion = prior_api_version)
+
   }
 
-  member_concept_classes_data <-
+  member_concept_classes_data <<-
     read_members_concept_classes_csvs(
       prior_version = version_key$version,
       prior_api_version = version_key$apiVersion
     )
 
 
-  graph_concept_classes_data <-
+  graph_concept_classes_data <<-
     read_graph_concept_csvs(
       prior_version = version_key$version,
       prior_api_version = version_key$apiVersion
@@ -36,10 +37,10 @@ function(prior_version = NULL,
     )
 
 
-  concept_classes_orphans <-
+  concept_classes_orphans <<-
     reconciled_data %>%
-    dplyr::filter_at(vars(ends_with(".graph")),
-                     all_vars(is.na(.))) %>%
+    dplyr::filter_at(dplyr::vars(ends_with(".graph")),
+                     dplyr::all_vars(is.na(.))) %>%
     dplyr::transmute(
       concept_code = concept_code.members,
       concept_name = '(Missing)',
@@ -59,7 +60,7 @@ function(prior_version = NULL,
   )
 
   print_lookup(concept_classes_orphans %>%
-                 count(vocabulary_id, class_type))
+                 dplyr::count(vocabulary_id, class_type))
 
 
   cli::cli_progress_bar(

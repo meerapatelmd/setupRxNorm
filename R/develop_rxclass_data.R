@@ -140,7 +140,7 @@ develop_rxclass_data <-
 
       # Output Path
       path_vctr   <-
-        c(getwd(),
+        c(here::here(),
           "inst",
           "RxClass API",
           version_key$version,
@@ -165,7 +165,7 @@ develop_rxclass_data <-
       if (!file.exists(tmp_concept_ancestor_csv)) {
 
       graph_concept_ancestor_csv <-
-        file.path(getwd(),
+        file.path(here::here(),
                   "inst",
                   "RxClass API",
                   version_key$version,
@@ -199,7 +199,7 @@ develop_rxclass_data <-
 
      concept_classes_a <-
         list.files(
-        file.path(getwd(),
+        file.path(here::here(),
                   "inst",
                   "RxClass API",
                   version_key$version,
@@ -224,7 +224,7 @@ develop_rxclass_data <-
 
       concept_concepts <-
         list.files(
-          file.path(getwd(),
+          file.path(here::here(),
                     "inst",
                     "RxClass API",
                     version_key$version,
@@ -265,7 +265,7 @@ develop_rxclass_data <-
       if (!file.exists(tmp_concept_relationship_csv)) {
       cr_csvs <-
       list.files(
-      file.path(getwd(),
+      file.path(here::here(),
                 "inst",
                 "RxClass API",
                 version_key$version,
@@ -305,7 +305,7 @@ develop_rxclass_data <-
       if (!file.exists(tmp_concept_synonym_csv)) {
         cs <-
           list.files(
-            file.path(getwd(),
+            file.path(here::here(),
                       "inst",
                       "RxClass API",
                       version_key$version,
@@ -334,7 +334,7 @@ develop_rxclass_data <-
 
 
     load_map <-
-      file.path(getwd(),
+      file.path(here::here(),
                 "inst",
                 "RxClass API",
                 version_key$version,
@@ -378,7 +378,7 @@ develop_rxclass_data <-
     prior_output_dirs <-
     list.dirs(
       file.path(
-        getwd(),
+        here::here(),
         "inst",
         "RxClass API",
         version_key$version,
@@ -411,7 +411,7 @@ develop_rxclass_data <-
 
 
     path_vctr   <-
-      c(getwd(),
+      c(here::here(),
         "inst",
         "RxClass API",
         version_key$version,

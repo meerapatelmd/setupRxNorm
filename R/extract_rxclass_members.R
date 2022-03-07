@@ -149,7 +149,7 @@ extract_rxclass_members <-
     class_type  <- lookup$classType[ii]
     rela_source <- lookup$relaSources[ii]
     path_vctr   <-
-      c(getwd(),
+      c(here::here(),
         "inst",
         "RxClass API",
         version_key$version,
@@ -274,7 +274,7 @@ extract_rxclass_members <-
     rela_source <- lookup$relaSources[ii]
     raw_source_path <-
       file.path(
-        getwd(),
+        here::here(),
         "inst",
         "RxClass API",
         version_key$version,
@@ -284,7 +284,7 @@ extract_rxclass_members <-
         class_type)
 
     path_vctr   <-
-      c(getwd(),
+      c(here::here(),
         "inst",
         "RxClass API",
         version_key$version,
