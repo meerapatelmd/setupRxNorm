@@ -6,7 +6,9 @@
 \usage{
 extract_rxclass_graph(
   class_types = c("MESHPA", "EPC", "MOA", "PE", "PK", "TC", "VA", "DISEASE", "CHEM",
-    "SCHEDULE", "STRUCT", "DISPOS")
+    "SCHEDULE", "STRUCT", "DISPOS"),
+  prior_version = NULL,
+  prior_api_version = "3.1.174"
 )
 }
 \value{
