@@ -465,8 +465,9 @@ extract_rxclass_members <-
           relationship_type,
           concept_code_2  = rxnorm_concept_code,
           class_type_2    = class_type) %>%
-          distinct()
-      )
+          distinct()) %>%
+        dplyr::filter(!is.na(concept_code_1),
+                      !is.na(concept_code_2))
 
 
       readr::write_csv(

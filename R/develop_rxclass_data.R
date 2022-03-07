@@ -123,13 +123,14 @@ develop_rxclass_data <-
                               rela_sources = rela_source)
       extract_rxclass_graph(class_types = class_type)
 
+
       # Output Path
       path_vctr   <-
         c(getwd(),
           "inst",
           "RxClass API",
           version_key$version,
-          "postprocessed",
+          "tmp",
           class_type)
 
       for (i in 1:length(path_vctr)) {
@@ -143,13 +144,13 @@ develop_rxclass_data <-
 
       }
 
-      pp_concept_ancestor_csv <-
-        file.path(dir, "concept_ancestor.csv")
+      tmp_concept_ancestor_csv <-
+        file.path(dir, "CONCEPT_ANCESTOR.csv")
 
 
-      if (!file.exists(pp_concept_ancestor_csv)) {
+      if (!file.exists(tmp_concept_ancestor_csv)) {
 
-      concept_ancestor_staged_csv <-
+      graph_concept_ancestor_csv <-
         file.path(getwd(),
                   "inst",
                   "RxClass API",
@@ -157,29 +158,95 @@ develop_rxclass_data <-
                   "extracted",
                   "graph",
                   class_type,
-                  "concept_ancestor.csv")
+                  "CONCEPT_ANCESTOR.csv")
 
-      concept_ancestor_staged <-
+      CONCEPT_ANCESTOR <-
         readr::read_csv(
-          file = concept_ancestor_staged_csv,
+          file = graph_concept_ancestor_csv,
           col_types = readr::cols(.default = "c"),
           show_col_types = FALSE
         )
 
       readr::write_csv(
-        x = concept_ancestor_staged,
-        file = pp_concept_ancestor_csv
+        x = CONCEPT_ANCESTOR,
+        file = tmp_concept_ancestor_csv
       )
 
       }
 
 
-      pp_concept_relationship_csv <-
-        file.path(dir, "concept_relationship.csv")
+      tmp_concept_csv <-
+        file.path(dir, "CONCEPT.csv")
 
 
-      if (!file.exists(pp_concept_relationship_csv)) {
-      members_staged_csvs <-
+
+      if (!file.exists(tmp_concept_csv)) {
+
+     concept_classes_a <-
+        list.files(
+        file.path(getwd(),
+                  "inst",
+                  "RxClass API",
+                  version_key$version,
+                  "extracted",
+                  "graph",
+                  "processed",
+                  class_type),
+        recursive = TRUE,
+        full.names = TRUE,
+        pattern = "CONCEPT.csv") %>%
+       purrr::map(readr::read_csv,
+                  col_types = readr::cols(.default = "c"),
+                  show_col_types = FALSE) %>%
+       dplyr::bind_rows()
+
+      concept_classes_b <-
+        qa_rxclass_concept_classes() %>%
+        dplyr::filter(class_type %in% class_type)
+
+
+      concept_concepts <-
+        list.files(
+          file.path(getwd(),
+                    "inst",
+                    "RxClass API",
+                    version_key$version,
+                    "extracted",
+                    "members",
+                    "processed",
+                    class_type),
+          recursive = TRUE,
+          full.names = TRUE,
+          pattern = "CONCEPT_CONCEPTS.csv") %>%
+        purrr::map(readr::read_csv,
+                   col_types = readr::cols(.default = "c"),
+                   show_col_types = FALSE) %>%
+        dplyr::bind_rows()
+
+
+
+      CONCEPT <-
+        dplyr::bind_rows(
+          concept_classes_a,
+          concept_classes_b,
+          concept_concepts
+        )
+
+      readr::write_csv(
+        x = CONCEPT,
+        file = tmp_concept_csv
+      )
+
+
+      }
+
+
+      tmp_concept_relationship_csv <-
+        file.path(dir, "CONCEPT_RELATIONSHIP.csv")
+
+
+      if (!file.exists(tmp_concept_relationship_csv)) {
+      cr_csvs <-
       list.files(
       file.path(getwd(),
                 "inst",
@@ -187,307 +254,66 @@ develop_rxclass_data <-
                 version_key$version,
                 "extracted",
                 "members",
+                "processed",
                 class_type),
       full.names = TRUE,
-      pattern = "csv$"
+      recursive = TRUE,
+      pattern = "CONCEPT_RELATIONSHIP.csv"
       )
 
 
 
-      members_staged <-
-        members_staged_csvs %>%
-        map(function(x)
+      cr <-
+        cr_csvs %>%
+        purrr::map(function(x)
         readr::read_csv(
           file = x,
           col_types = readr::cols(.default = "c"),
           show_col_types = FALSE)) %>%
-        purrr::set_names(xfun::sans_ext(basename(members_staged_csvs))) %>%
-        dplyr::bind_rows(.id = "relaSource")
-
-      concept_relationship_staged0 <-
-        members_staged %>%
-        transmute(
-          concept_code_1 = classId,
-          relationship_id = 'Subsumes',
-          relationship_source = relaSource,
-          relationship_type = Relation,
-          concept_code_2_rxnorm = rxcui,
-          concept_name_2_rxnorm = name,
-          #concept_class_id_2_rxnorm = tty,
-          concept_code_2_source = SourceId,
-          concept_name_2_source = SourceName
-        )
-
-      # Converting map into longer format
-      # Part 1: Class to Members (Source and RxNorm)
-      # Inverse is not added because
-      # does not serve the use case
-      concept_relationship_staged1_a <-
-        concept_relationship_staged0 %>%
-        select(ends_with("_1"),
-               starts_with("relationship_"),
-               ends_with("_2_rxnorm")) %>%
-        mutate(
-          vocabulary_id_1 = class_type,
-          vocabulary_id_2 = 'RxNorm') %>%
-        rename_at(dplyr::vars(ends_with("_2_rxnorm")),
-                  str_remove_all, "_rxnorm") %>%
-        distinct()
-
-      concept_relationship_staged1_b <-
-        concept_relationship_staged0 %>%
-        select(ends_with("_1"),
-               starts_with("relationship_"),
-               ends_with("_2_source")) %>%
-        mutate(vocabulary_id_1 = class_type,
-               vocabulary_id_2 = class_type) %>%
-        rename_at(dplyr::vars(ends_with("_2_source")),
-                  str_remove_all, "_source") %>%
-        distinct()
-
-      # Part 2: Maps to and Mapped From relationships (inverse included
-      # here)
-      concept_relationship_staged1_c <-
-      concept_relationship_staged0 %>%
-        select(ends_with("_2_rxnorm"),
-               starts_with("relationship_"),
-               ends_with("_2_source")) %>%
-        mutate(relationship_id = "Mapped from",
-               # Assumed direct mapping between the two
-               relationship_type = "DIRECT") %>%
-        rename_at(dplyr::vars(ends_with("_2_rxnorm")),
-                  str_replace_all,
-                  "_2_rxnorm", "_1") %>%
-        mutate(vocabulary_id_1 = "RxNorm") %>%
-        rename_at(dplyr::vars(ends_with("_2_source")),
-                  str_replace_all,
-                  "_2_source", "_2") %>%
-        mutate(vocabulary_id_2 = class_type) %>%
-        distinct()
-
-      # Inverse
-      concept_relationship_staged1_d <-
-        concept_relationship_staged0 %>%
-        select(ends_with("_2_source"),
-               starts_with("relationship_"),
-               ends_with("_2_rxnorm")) %>%
-        mutate(relationship_id = "Maps to",
-               # Assumed direct mapping between the two
-               relationship_type = "DIRECT") %>%
-        rename_at(dplyr::vars(ends_with("_2_rxnorm")),
-                  str_replace_all,
-                  "_2_rxnorm", "_2") %>%
-        mutate(vocabulary_id_2 = "RxNorm") %>%
-        rename_at(dplyr::vars(ends_with("_2_source")),
-                  str_replace_all,
-                  "_2_source", "_1") %>%
-        mutate(vocabulary_id_1 = class_type) %>%
-        distinct()
-
-
-      concept_relationship_staged2 <-
-        bind_rows(
-          concept_relationship_staged1_a,
-          concept_relationship_staged1_b,
-          concept_relationship_staged1_c,
-          concept_relationship_staged1_d
-        )
-
-      # Adding concept_names back if it is missing
-      nodes <-
-        readr::read_csv(
-          file.path(getwd(),
-                    "inst",
-                    "RxClass API",
-                    version_key$version,
-                    "extracted",
-                    "graph",
-                    class_type,
-                    "node.csv"),
-          col_types = readr::cols(.default = "c"),
-          show_col_types = FALSE)
-
-      if (nrow(nodes)>0) {
-
-        nodes <-
-          nodes %>%
-          transmute(concept_code_1 = classId,
-                    concept_name_1 = className)
-
-      } else {
-
-        nodes <-
-          concept_relationship_staged2 %>%
-          dplyr::filter(is.na(concept_name_1)) %>%
-          dplyr::distinct(concept_code_1) %>%
-          dplyr::mutate(concept_name_1 = "(Missing from RxClass API)")
-
-
-      }
-
-
-      concept_relationship_staged3 <-
-      concept_relationship_staged2 %>%
-        left_join(nodes,
-                  by = "concept_code_1",
-                  suffix = c(".cr", ".nodes")) %>%
-        mutate(concept_name_1 =
-                 coalesce(concept_name_1.cr,
-                          concept_name_1.nodes)) %>%
-        select(!ends_with(".cr")) %>%
-        select(!ends_with(".nodes")) %>%
-        distinct()
-
-
-
-
-
-
-
-      pp_concept_ancestor <-
-      readr::read_csv(
-      pp_concept_ancestor_csv,
-      col_types = readr::cols(.default = "c"),
-      show_col_types = FALSE)
-
-
-      if (nrow(pp_concept_ancestor)>0) {
-
-      pp_concept_relationship <- concept_relationship_staged3
-
-      pp_concept_csv <-
-        file.path(dir, "concept.csv")
-
-      # All Concept Ancestor concepts are classes
-      concept_staged_classes <-
-      bind_rows(
-        pp_concept_ancestor %>%
-          dplyr::select(concept_code = ancestor_concept_code),
-        pp_concept_ancestor %>%
-          dplyr::select(concept_code = descendant_concept_code)) %>%
-        distinct() %>%
-        # concept attributes are in the pp_concept_relationship object
-        inner_join(pp_concept_relationship %>%
-                    dplyr::mutate(concept_code = concept_code_1) %>%
-                    dplyr::filter(vocabulary_id_1 == class_type,
-                                  relationship_id == "Subsumes"),
-                  by = "concept_code") %>%
-        transmute(
-          vocabulary_id = vocabulary_id_1,
-          concept_code = concept_code_1,
-          concept_name = concept_name_1,
-          concept_class = "Class") %>%
-        distinct()
-
-      concept_staged_non_classes <-
-      pp_concept_relationship %>%
-        dplyr::filter(vocabulary_id_1 == class_type,
-                      relationship_id != "Subsumes",
-                      !(concept_code_1 %in% concept_staged_classes$concept_code)) %>%
-        transmute(
-          vocabulary_id = vocabulary_id_1,
-          concept_code = concept_code_1,
-          concept_name = concept_name_1,
-          concept_class = "Concept") %>%
-        distinct()
-
-      concept_staged_rxnorm  <-
-        pp_concept_relationship %>%
-        dplyr::filter(vocabulary_id_1 == "RxNorm") %>%
-        transmute(
-          vocabulary_id = vocabulary_id_1,
-          concept_code = concept_code_1,
-          concept_name = concept_name_1,
-          concept_class = "Concept") %>%
-        distinct()
-
-      concept_staged <-
-        bind_rows(concept_staged_classes,
-                  concept_staged_non_classes,
-                  concept_staged_rxnorm)
+        dplyr::bind_rows() %>%
+        dplyr::distinct()
 
       readr::write_csv(
-        x = concept_staged,
-        file = pp_concept_csv
+        x = cr,
+        file = tmp_concept_relationship_csv
       )
-
-      readr::write_csv(
-        x = pp_concept_relationship %>%
-              dplyr::distinct(concept_code_1,
-                              relationship_id,
-                              concept_code_2,
-                              relationship_source,
-                              relationship_type),
-        file = pp_concept_relationship_csv
-      )
-
-
-      } else {
-
-        pp_concept_relationship <- concept_relationship_staged3
-        pp_concept_csv <-
-          file.path(dir, "concept.csv")
-
-        concept_staged1 <-
-        pp_concept_relationship %>%
-          dplyr::filter(vocabulary_id_1 == class_type,
-                        relationship_id == "Subsumes") %>%
-          transmute(
-            vocabulary_id = vocabulary_id_1,
-            concept_code = concept_code_1,
-            concept_name = concept_name_1,
-            concept_class = "Class") %>%
-          distinct()
-
-
-        concept_staged2 <-
-        pp_concept_relationship %>%
-          dplyr::filter(vocabulary_id_2 == class_type,
-                        relationship_id == "Subsumes") %>%
-          transmute(
-            vocabulary_id = vocabulary_id_2,
-            concept_code = concept_code_2,
-            concept_name = concept_name_2,
-            concept_class = "Concept") %>%
-          distinct()
-
-        concept_staged3 <-
-          pp_concept_relationship %>%
-          dplyr::filter(vocabulary_id_2 == "RxNorm",
-                        relationship_id == "Subsumes") %>%
-          transmute(
-            vocabulary_id = vocabulary_id_2,
-            concept_code = concept_code_2,
-            concept_name = concept_name_2,
-            concept_class = "Concept") %>%
-          distinct()
-
-        concept_staged <-
-          bind_rows(concept_staged1,
-                    concept_staged2,
-                    concept_staged3)
-
-        readr::write_csv(
-          x = concept_staged,
-          file = pp_concept_csv
-        )
-
-        readr::write_csv(
-          x = pp_concept_relationship %>%
-            dplyr::distinct(concept_code_1,
-                            relationship_id,
-                            concept_code_2,
-                            relationship_source,
-                            relationship_type),
-          file = pp_concept_relationship_csv
-        )
 
       }
 
-      }
 
+      tmp_concept_synonym_csv <-
+        file.path(dir, "CONCEPT_SYNONYM.csv")
+
+
+      if (!file.exists(tmp_concept_synonym_csv)) {
+        cs <-
+          list.files(
+            file.path(getwd(),
+                      "inst",
+                      "RxClass API",
+                      version_key$version,
+                      "extracted"),
+            full.names = TRUE,
+            recursive = TRUE,
+            pattern = "CONCEPT_SYNONYM.csv|CONCEPT_SYNONYM_CONCEPTS.csv") %>%
+          purrr::map(readr::read_csv,
+                     col_types = readr::cols(.default = "c"),
+                     show_col_types = FALSE) %>%
+          dplyr::bind_rows() %>%
+          dplyr::distinct()
+
+
+        readr::write_csv(
+          x = cs,
+          file = tmp_concept_synonym_csv
+        )
+
+
+      }
 
     }
+
+
 
 
     load_map <-
@@ -495,7 +321,7 @@ develop_rxclass_data <-
                 "inst",
                 "RxClass API",
                 version_key$version,
-                "postprocessed",
+                "tmp",
                 class_types) %>%
      map(list.files, full.names = TRUE) %>%
      set_names(class_types) %>%
@@ -512,10 +338,10 @@ develop_rxclass_data <-
 
       load_data[[i]] <-
       load_map[[i]] %>%
-        map(read_csv,
+        purrr::map(read_csv,
             col_types = readr::cols(.default = "c"),
             show_col_types = FALSE) %>%
-        set_names(names(load_map[[i]]))
+        purrr::set_names(names(load_map[[i]]))
 
 
     }
@@ -524,8 +350,8 @@ develop_rxclass_data <-
 
     load_data <-
       load_data %>%
-      map(bind_rows) %>%
-      map(distinct)
+      purrr::map(dplyr::bind_rows) %>%
+      purrr::map(dplyr::distinct)
 
 
     output_folder    <- "omop"
@@ -587,39 +413,15 @@ develop_rxclass_data <-
 
     }
 
-    load_data$CONCEPT <-
-      load_data$CONCEPT %>%
-      rename(classType = vocabulary_id) %>%
-      left_join(
-        classtype_lookup %>%
-          transmute(
-            classType,
-            vocabulary_id = coalesce(omop_vocabulary_id, custom_vocabulary_id)
-          ),
-        by = "classType") %>%
-      transmute(
-        concept_code,
-        concept_name,
-        vocabulary_id,
-        concept_class_id = classType,
-        standard_concept =
-          ifelse(concept_class == "Class",
-                 "C",
-                 NA_character_)) %>%
-      mutate(
-        vocabulary_id =
-          case_when(concept_class_id == 'RxNorm' ~ 'RxNorm',
-                    concept_class_id == 'SNOMEDCT_US' ~ 'SNOMED',
-                    TRUE ~ vocabulary_id)) %>%
-      mutate(
-        concept_class_id =
-          case_when(concept_class_id == 'RxNorm' ~ 'SCHEDULE',
-                    concept_class_id == 'SNOMEDCT_US' ~ 'SNOMED',
-                    TRUE ~ concept_class_id))
 
     readr::write_csv(
       x = load_data$CONCEPT,
       file = file.path(dir, "CONCEPT.csv")
+    )
+
+    readr::write_csv(
+      x = load_data$CONCEPT_SYNONYM,
+      file = file.path(dir, "CONCEPT_SYNONYM.csv")
     )
 
     readr::write_csv(
