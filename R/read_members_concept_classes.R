@@ -2,19 +2,23 @@ read_members_concept_classes_csvs <-
   function(prior_version = NULL,
            prior_api_version = "3.1.174") {
 
-    version_key <-
-      list(version = prior_version,
-           apiVersion = prior_api_version)
-
+    # prior_version <- "07-Feb-2022"
+    # prior_api_version <- "3.1.174"
 
     if (is.null(prior_version)) {
 
       version_key <- get_rxnav_api_version()
 
+    } else {
+
+      version_key <-
+        list(version = prior_version,
+             apiVersion = prior_api_version)
+
     }
 
     extracted_members_processed_path <-
-      file.path(getwd(),
+      file.path(here::here(),
                 "inst",
                 "RxClass API",
                 version_key$version,
