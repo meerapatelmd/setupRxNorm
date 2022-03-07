@@ -416,7 +416,22 @@ develop_rxclass_data <-
 
 
     readr::write_csv(
-      x = load_data$CONCEPT,
+      x = load_data$CONCEPT %>%
+        # Some duplicates introduced with NA concept_type and
+        # these have been confirmed to be already present (code, name, vocabulary_id)
+        dplyr::filter(!is.na(concept_code)) %>%
+        # To Do: SNOMED DISPOS Classes are returning NULL concept_class_id, but
+        # do not know why. Patched as leaf here.
+        dplyr::mutate(
+          concept_class_id =
+            dplyr::case_when(
+              vocabulary_id == 'SNOMED' &
+                class_type == 'DISPOS' &
+                standard_concept == 'C' &
+                is.na(concept_class_id) ~ 'Leaf',
+              TRUE ~ concept_class_id
+            )
+        ),
       file = file.path(dir, "CONCEPT.csv")
     )
 
