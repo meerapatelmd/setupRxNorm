@@ -1,5 +1,19 @@
 load_rxclass_graph <-
-  function(class_types) {
+  function(class_types,
+           prior_version = NULL,
+           prior_api_version = "3.1.174") {
+
+
+    version_key <-
+      list(version = prior_version,
+           apiVersion = prior_api_version)
+
+
+    if (is.null(prior_version)) {
+
+      version_key <- get_rxnav_api_version()
+
+    }
 
     class_types <-
     match.arg(arg = class_types,
@@ -19,12 +33,11 @@ load_rxclass_graph <-
                   "STRUCT"),
               several.ok = TRUE)
 
-    collect_rxclass_graph(class_types = class_types)
+    collect_rxclass_graph(class_types = class_types,
+                          prior_version = version_key$version,
+                          prior_api_version = version_key$apiVersion)
 
     service_domain <- "https://rxnav.nlm.nih.gov"
-
-    version_key <- get_rxnav_api_version()
-
 
     # If the version folder was not present in the cache, it means that
     # this is a brand new version
@@ -59,7 +72,8 @@ load_rxclass_graph <-
       )
 
 
-    class_df <- get_rxnav_classes()
+    class_df <- get_rxnav_classes(prior_version = version_key$version,
+                                  prior_api_version = version_key$apiVersion)
     class_df <-
       class_df %>%
       dplyr::filter(classType %in% class_types) %>%

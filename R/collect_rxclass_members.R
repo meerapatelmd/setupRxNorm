@@ -42,7 +42,21 @@ collect_rxclass_members <-
                "DISPOS",
                "CHEM",
                "SCHEDULE",
-               "STRUCT")) {
+               "STRUCT"),
+           prior_version = NULL,
+           prior_api_version = "3.1.174") {
+
+
+    version_key <-
+      list(version = prior_version,
+           apiVersion = prior_api_version)
+
+
+    if (is.null(prior_version)) {
+
+      version_key <- get_rxnav_api_version()
+
+    }
 
 
     # Derived from https://lhncbc.nlm.nih.gov/RxNav/applications/RxClassIntro.html
@@ -77,9 +91,6 @@ collect_rxclass_members <-
 
     service_domain <- "https://rxnav.nlm.nih.gov"
 
-    version_key <- get_rxnav_api_version()
-
-
     # If the version folder was not present in the cache, it means that
     # this is a brand new version
     # ---
@@ -113,12 +124,16 @@ collect_rxclass_members <-
       )
 
 
-    rels_df  <- get_rxnav_relationships()
+    rels_df  <- get_rxnav_relationships(
+      prior_version = version_key$version,
+      prior_api_version = version_key$apiVersion)
     rels_df <-
     rels_df %>%
       dplyr::filter(relaSource %in% rela_sources)
 
-    class_df <- get_rxnav_classes()
+    class_df <-  get_rxnav_classes(
+      prior_version = version_key$version,
+      prior_api_version = version_key$apiVersion)
     class_df <-
       class_df %>%
       dplyr::filter(classType %in% class_types) %>%

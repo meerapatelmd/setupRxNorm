@@ -28,8 +28,6 @@ collect_rxclass_context <-
 
     service_domain <- "https://rxnav.nlm.nih.gov"
 
-    version_key <- get_rxnav_api_version()
-
 
     # If the version folder was not present in the cache, it means that
     # this is a brand new version
