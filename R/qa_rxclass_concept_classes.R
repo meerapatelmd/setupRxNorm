@@ -54,7 +54,6 @@ function(prior_version = NULL,
       by = "class_type") %>%
     dplyr::distinct()
 
-
   cli::cli_text(
     "[{as.character(Sys.time())}] {nrow(concept_classes_orphans)} classes in RxClass Members, but not found in RxClass Graph:"
   )
@@ -164,4 +163,5 @@ function(prior_version = NULL,
       vocabulary_id) %>%
     dplyr::distinct()
 
-}
+
+  }
