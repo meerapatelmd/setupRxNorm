@@ -294,12 +294,12 @@ extract_rxclass_members <-
     source_members_csv <-
       file.path(raw_source_path, sprintf("%s.csv", rela_source))
 
-    members_csv <-
-      file.path(dir, "CONCEPT.csv")
+    concept_csv <-
+      file.path(dir, "CONCEPT_CONCEPTS.csv")
 
-    cli::cli_text("[{as.character(Sys.time())}] {.file {members_csv}} ")
+    cli::cli_text("[{as.character(Sys.time())}] {.file {concept_csv}} ")
     cli::cli_progress_update()
-    if (!file.exists(members_csv)) {
+    if (!file.exists(concept_csv)) {
 
       raw_members_data <-
         readr::read_csv(
@@ -310,7 +310,7 @@ extract_rxclass_members <-
 
       members_data <-
       raw_members_data %>%
-        transmute(
+        dplyr::transmute(
           rxnorm_concept_code = rxcui,
           rxnorm_concept_name = name,
           rxnorm_concept_class_id = tty,
@@ -325,11 +325,11 @@ extract_rxclass_members <-
           class_concept_code  = classId,
           class_standard_concept = "C",
           class_class_type    = class_type) %>%
-        left_join(
+        dplyr::left_join(
           relasource_vocabulary_lookup %>%
-            transmute(
+            dplyr::transmute(
               relationship_source = relaSources,
-              source_vocabulary_id = coalesce(omop_vocabulary_id, custom_vocabulary_id)),
+              source_vocabulary_id = dplyr::coalesce(omop_vocabulary_id, custom_vocabulary_id)),
           by = "relationship_source") %>%
         distinct() %>%
         select(
@@ -348,47 +348,55 @@ extract_rxclass_members <-
           class_class_type
         )
 
-      members_data2 <-
+      concept_concepts <-
         bind_rows(
           members_data %>%
-            transmute(
+            dplyr::transmute(
               concept_code  = rxnorm_concept_code,
               concept_name  = rxnorm_concept_name,
+              class_type    = class_type,
               concept_class_id = rxnorm_concept_class_id,
-              vocabulary_id = 'RxNorm',
               standard_concept = rxnorm_standard_concept,
-              class_type = class_type) %>%
+              vocabulary_id = 'RxNorm') %>%
             distinct(),
           members_data %>%
-            transmute(
+            dplyr::transmute(
               concept_code  = source_concept_code,
               concept_name  = source_concept_name,
-              concept_class_id = "(Missing)",
-              vocabulary_id =  source_vocabulary_id,
+              class_type    = class_type,
+              concept_class_id = "Concept",
               standard_concept = source_standard_concept,
-              class_type = class_type) %>%
-            distinct(),
-          members_data %>%
-            transmute(
-              concept_code  = class_concept_code,
-              concept_name  = "(Missing)",
-              concept_class_id = "(Missing)",
-              vocabulary_id =  "(Missing)",
-              standard_concept = class_standard_concept,
-              class_type = class_class_type) %>%
+              vocabulary_id =  source_vocabulary_id) %>%
             distinct()
         )
 
 
       readr::write_csv(
-        file = members_csv,
-        x = members_data2
+        file = concept_csv,
+        x = concept_concepts
+      )
+
+      concept_classes_csv <-
+        file.path(dir, "CONCEPT_CLASSES.csv")
+
+      concept_classes <-
+      members_data %>%
+        dplyr::transmute(
+          concept_code  = class_concept_code,
+          standard_concept = class_standard_concept,
+          class_type = class_class_type) %>%
+        distinct()
+
+      readr::write_csv(
+        x = concept_classes,
+        file = concept_classes_csv
       )
 
       cr_csv <-
         file.path(dir, "CONCEPT_RELATIONSHIP.csv")
 
-      # cli::cli_text("[{as.character(Sys.time())}] {.file {cr_csv}} ")
+      cli::cli_text("[{as.character(Sys.time())}] {.file {cr_csv}} ")
+
 
 
 
