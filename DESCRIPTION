@@ -1,13 +1,14 @@
 Package: setupRxNorm
-Title: R Package to Instantiate RxNorm in Postgres
-Version: 1.4.0
+Title: RxNorm and RxClass Postgres Database Management
+Version: 1.4.0.9000
 Authors@R: 
     person(given = "Meera",
            family = "Patel, MD",
            role = c("aut", "cre"),
            email = "patelmeeray@gmail.com",
            comment = c(ORCID = "0000-0002-3401-3948"))
-Description: Instantiate and execute custom processing scripts for RxNorm's monthly release.
+Description: Instantiate NIH's RxNorm monthly release and process RxNav RxClass 
+API calls in relational database format.  
 License: MIT + file LICENSE
 Suggests: 
     testthat (>= 3.0.0)
@@ -18,7 +19,7 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Imports: 
     tidyverse,
-    pg13,
+    dplyr,
     glue,
     magrittr
 Remotes:

@@ -23,13 +23,18 @@ library(devtools)
 install_github("meerapatelmd/setupRxNorm")
 ```
 
-## Example
+## Uses
 
-This is a basic example which shows you how to solve a common problem:
+### Install RxNorm Monthly Release
+
+After
+[downloading](https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.htm)
+and unpacking the Monthly Release from the NIH:
 
 ``` r
 library(setupRxNorm)
-run_setup(conn = conn, 
-          rrf_path = "~/Desktop/RxNorm_full_03012021/rrf", 
-          log_release_date = "2021-03-01")
+run_setup(conn = conn, # Postgres connection using the DatabaseConnector package
+          rrf_path = "~/Desktop/RxNorm_full_03012021/rrf", # Path to the RRF folder in unpacked zip file
+          log_release_date = "2021-03-01" # Date of release in zip file name (see arg above)
+          )
 ```
