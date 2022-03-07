@@ -25,6 +25,20 @@ CREATE TABLE concept (
 
 COPY concept FROM '{concept_csv}' CSV HEADER QUOTE '"';
 
+
+DROP TABLE IF EXISTS concept_synonym;
+
+CREATE TABLE concept_synonym (
+  concept_code varchar(25) NOT NULL,
+  concept_name varchar(255) NOT NULL,
+  vocabulary_id varchar(20) NOT NULL,
+  concept_class_id varchar(25) NOT NULL,
+  standard_concept varchar(1) NULL
+)
+;
+
+COPY concept FROM '{concept_synonym_csv}' CSV HEADER QUOTE '"';
+
 DROP TABLE IF EXISTS concept_relationship;
 CREATE TABLE concept_relationship (
   concept_code_1 varchar(25) NOT NULL,
