@@ -69,7 +69,7 @@ function(prior_version = NULL,
       "({cli::pb_current}/{cli::pb_total})  Elapsed:{cli::pb_elapsed}"
     ),
     format_done = paste0(
-      "[{as.character(Sys.time())}] {cli::col_green(cli::symbol$tick)} Collected {cli::pb_total} {nrow(concept_classes_orphans)} graphs ",
+      "[{as.character(Sys.time())}] {cli::col_green(cli::symbol$tick)} Collected {cli::pb_total} class details ",
       "in {cli::pb_elapsed}."
     ),
     total = nrow(concept_classes_orphans),
