@@ -17,35 +17,36 @@ DROP TABLE IF EXISTS concept;
 CREATE TABLE concept (
   concept_code varchar(25) NOT NULL,
   concept_name varchar(255) NOT NULL,
-  vocabulary_id varchar(20) NOT NULL,
-  concept_class_id varchar(25) NOT NULL,
-  standard_concept varchar(1) NULL
+  class_type varchar(10) NOT NULL,
+  concept_class_id varchar(25) NULL,
+  standard_concept varchar(1) NULL,
+  vocabulary_id varchar(20) NOT NULL
 )
 ;
 
-COPY concept FROM '{concept_csv}' CSV HEADER QUOTE '"';
+COPY concept FROM '{concept_csv}' CSV HEADER NULL AS 'NA' QUOTE '"';
 
 
 DROP TABLE IF EXISTS concept_synonym;
 
 CREATE TABLE concept_synonym (
   concept_code varchar(25) NOT NULL,
-  concept_name varchar(255) NOT NULL,
-  vocabulary_id varchar(20) NOT NULL,
-  concept_class_id varchar(25) NOT NULL,
-  standard_concept varchar(1) NULL
+  concept_synonym_name varchar(255) NOT NULL,
+  class_type varchar(10) NOT NULL
 )
 ;
 
-COPY concept FROM '{concept_synonym_csv}' CSV HEADER QUOTE '"';
+COPY concept_synonym FROM '{concept_synonym_csv}' CSV HEADER QUOTE '"';
 
 DROP TABLE IF EXISTS concept_relationship;
 CREATE TABLE concept_relationship (
   concept_code_1 varchar(25) NOT NULL,
+  class_type_1 varchar(10) NOT NULL,
   relationship_id varchar(15) NOT NULL,
   relationship_source varchar(20) NOT NULL,
-  relationship_type varchar(8) NOT NULL,
-  concept_code_2 varchar(25) NOT NULL
+  relationship_type varchar(8),
+  concept_code_2 varchar(25) NOT NULL,
+  class_type_2 varchar(10) NOT NULL
 )
 ;
 
