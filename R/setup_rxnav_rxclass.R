@@ -159,12 +159,15 @@ setup_rxnav_rxclass <-
         CONCEPT_RELATIONSHIP =
           file.path(folder_path, "CONCEPT_RELATIONSHIP.csv"),
         CONCEPT =
-          file.path(folder_path, "CONCEPT.csv")
+          file.path(folder_path, "CONCEPT.csv"),
+        CONCEPT_SYNONYM =
+          file.path(folder_path, "CONCEPT_SYNONYM.csv")
       )
 
     concept_csv <- fn_map$CONCEPT
     concept_relationship_csv <- fn_map$CONCEPT_RELATIONSHIP
     concept_ancestor_csv <- fn_map$CONCEPT_ANCESTOR
+    concept_synonym_csv <- fn_map$CONCEPT_SYNONYM
 
 
     sql_statement <-
