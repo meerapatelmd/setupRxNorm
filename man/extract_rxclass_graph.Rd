@@ -9,6 +9,22 @@ extract_rxclass_graph(
     "SCHEDULE", "STRUCT", "DISPOS")
 )
 }
+\value{
+For each \code{class_type}, the following csvs are returned to the installation dir:
+RxClass API /
+\emph{RxClass Version} /
+extracted /
+graph /
+raw /
+node.csv
+edge.csv
+processed /
+CONCEPT_ANCESTOR.csv
+
+The CONCEPT_ANCESTOR.csv is processed to include levels of separation with the
+source edge.csv fields classId1 and classId2 translated to child and parent,
+respectively.
+}
 \description{
 Extract RxClass Graph
 }
@@ -17,4 +33,12 @@ Some class types such as DISEASE follow a cyclical hierarchical pattern that
 can recurse into infinity if a limit is imposed when writing the Concept Ancestor
 csv file. Concept Ancestor processing is completed when a subsequent level of
 parent and children is a dataframe that is a duplicate of a previous level's.
+
+Other class types such as SCHEDULE do not have multiple levels.
+
+The response from the RxNav RxClass API is a set of nodes and edges for a given
+\code{class_type}. Both are saved as csvs to the 'raw' folder.
+
+The edge.csv is then processed into a Concept Ancestor format as 'CONCEPT_ANCESTOR.csv'
+under the 'processed' folder.
 }

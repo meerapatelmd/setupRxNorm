@@ -14,3 +14,7 @@ extract_rxclass_members(
 \description{
 Extract RxClass Members
 }
+\details{
+RxClass Members represent the relationship between a Class belonging to
+RxClass Graph and a Drug concept such as an RxNorm Ingredient.
+}

@@ -1,6 +1,6 @@
 Package: setupRxNorm
 Title: R Package to Instantiate RxNorm in Postgres
-Version: 1.3.0
+Version: 1.4.0
 Authors@R: 
     person(given = "Meera",
            family = "Patel, MD",
