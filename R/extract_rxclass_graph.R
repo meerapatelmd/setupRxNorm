@@ -12,7 +12,7 @@
 #' The response from the RxNav RxClass API is a set of nodes and edges for a given
 #' `class_type`. Both are saved as csvs to the 'raw' folder.
 #'
-#' The edge.csv is then processed into a Concept Ancestor format as 'concept_ancestor.csv'
+#' The edge.csv is then processed into a Concept Ancestor format as 'CONCEPT_ANCESTOR.csv'
 #' under the 'processed' folder.
 #'
 #' @return
@@ -25,9 +25,9 @@
 #'           node.csv
 #'           edge.csv
 #'         processed /
-#'           concept_ancestor.csv
+#'           CONCEPT_ANCESTOR.csv
 #'
-#' The concept_ancestor.csv is processed to include levels of separation with the
+#' The CONCEPT_ANCESTOR.csv is processed to include levels of separation with the
 #' source edge.csv fields classId1 and classId2 translated to child and parent,
 #' respectively.
 #'
@@ -138,12 +138,12 @@ for (class_type in class_types) {
   }
 
   class_type_concept_ancestor_csv <-
-    file.path(dir, "concept_ancestor.csv")
+    file.path(dir, "CONCEPT_ANCESTOR.csv")
   cli::cli_text("[{as.character(Sys.time())}] {.file {class_type_concept_ancestor_csv}} ")
 
   # objects for the progress bar
   classType <- class_type
-  fileType  <-  "concept_ancestor.csv"
+  fileType  <-  "CONCEPT_ANCESTOR.csv"
   cli::cli_progress_update()
 
   if (!file.exists(class_type_concept_ancestor_csv)) {
@@ -588,7 +588,7 @@ for (class_type in class_types) {
     distinct()
 
   class_type_concept_synonym_csv <-
-    file.path(dir, "concept_synonym.csv")
+    file.path(dir, "CONCEPT_SYNONYM.csv")
   cli::cli_text("[{as.character(Sys.time())}] {.file {class_type_concept_synonym_csv}} ")
 
   readr::write_csv(
