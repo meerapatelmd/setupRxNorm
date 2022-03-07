@@ -1,0 +1,2569 @@
+concept_code,concept_name,class_type,concept_class_id,standard_concept,vocabulary_id
+1000082,alcaftadine,DISPOS,IN,NA,RxNorm
+1002242008,Polystyrene sulfonate-containing product,DISPOS,Concept,NA,SNOMED
+10032,stanozolol,DISPOS,IN,NA,RxNorm
+1003716000,Coagulation factor VII-containing product,DISPOS,Concept,NA,SNOMED
+1005921,ulipristal,DISPOS,IN,NA,RxNorm
+1009,antithrombin III,DISPOS,IN,NA,RxNorm
+10099000,Ketoprofen-containing product,DISPOS,Concept,NA,SNOMED
+10104,streptodornase,DISPOS,IN,NA,RxNorm
+1010563006,Monomethyl fumarate-containing product,DISPOS,Concept,NA,SNOMED
+10106,streptokinase,DISPOS,IN,NA,RxNorm
+1011650,pegloticase,DISPOS,IN,NA,RxNorm
+1012892,fingolimod,DISPOS,IN,NA,RxNorm
+10167,sulbactam,DISPOS,IN,NA,RxNorm
+10237,sulindac,DISPOS,IN,NA,RxNorm
+10239,sulpiride,DISPOS,IN,NA,RxNorm
+10255,suprofen,DISPOS,IN,NA,RxNorm
+103,mercaptopurine,DISPOS,IN,NA,RxNorm
+10312003,Prednisone-containing product,DISPOS,Concept,NA,SNOMED
+10318,tacrine,DISPOS,IN,NA,RxNorm
+10322,talampicillin,DISPOS,IN,NA,RxNorm
+10324,tamoxifen,DISPOS,IN,NA,RxNorm
+10362,teniposide,DISPOS,IN,NA,RxNorm
+10368,terbutaline,DISPOS,IN,NA,RxNorm
+10379,testosterone,DISPOS,IN,NA,RxNorm
+10390,tetrabenazine,DISPOS,IN,NA,RxNorm
+1039008,Mercaptopurine-containing product,DISPOS,Concept,NA,SNOMED
+1040005,ceftaroline,DISPOS,IN,NA,RxNorm
+1040028,lurasidone,DISPOS,IN,NA,RxNorm
+10402,dronabinol,DISPOS,IN,NA,RxNorm
+1043,apomorphine,DISPOS,IN,NA,RxNorm
+10432,thalidomide,DISPOS,IN,NA,RxNorm
+10438,theophylline,DISPOS,IN,NA,RxNorm
+1044584,tesamorelin,DISPOS,IN,NA,RxNorm
+1045453,eribulin,DISPOS,IN,NA,RxNorm
+10463,thiamphenicol,DISPOS,IN,NA,RxNorm
+10473,thiotepa,DISPOS,IN,NA,RxNorm
+10485,thioguanine,DISPOS,IN,NA,RxNorm
+10510,thiothixene,DISPOS,IN,NA,RxNorm
+10528,thrombin,DISPOS,IN,NA,RxNorm
+10555000,Tocainide-containing product,DISPOS,Concept,NA,SNOMED
+1056,aprotinin,DISPOS,IN,NA,RxNorm
+10561,moxisylyte,DISPOS,IN,NA,RxNorm
+105694,epoetin alfa,DISPOS,IN,NA,RxNorm
+105695,epoetin beta,DISPOS,IN,NA,RxNorm
+10579,thyrotropin,DISPOS,IN,NA,RxNorm
+10580,thyrotropin-releasing hormone,DISPOS,IN,NA,RxNorm
+10591,ticarcillin,DISPOS,IN,NA,RxNorm
+10594,ticlopidine,DISPOS,IN,NA,RxNorm
+10597,tilidine,DISPOS,IN,NA,RxNorm
+10600,timolol,DISPOS,IN,NA,RxNorm
+10634,tolazoline,DISPOS,IN,NA,RxNorm
+10689,tramadol,DISPOS,IN,NA,RxNorm
+10712001,Glucagon-containing product,DISPOS,Concept,NA,SNOMED
+10734,tranylcypromine,DISPOS,IN,NA,RxNorm
+10763,triamterene,DISPOS,IN,NA,RxNorm
+107770,mepenzolate,DISPOS,IN,NA,RxNorm
+107771,demecarium,DISPOS,IN,NA,RxNorm
+107784,colfosceril,DISPOS,IN,NA,RxNorm
+10798,trientine,DISPOS,IN,NA,RxNorm
+10811,trihexyphenidyl,DISPOS,IN,NA,RxNorm
+10824,metipranolol,DISPOS,IN,NA,RxNorm
+10825,trimeprazine,DISPOS,IN,NA,RxNorm
+10828,trimethaphan,DISPOS,IN,NA,RxNorm
+108373009,Sibutramine-containing product,DISPOS,Concept,NA,SNOMED
+108379008,Remifentanil-containing product,DISPOS,Concept,NA,SNOMED
+108400009,Topiramate-containing product,DISPOS,Concept,NA,SNOMED
+108402001,Gabapentin-containing product,DISPOS,Concept,NA,SNOMED
+108403006,Tiagabine-containing product,DISPOS,Concept,NA,SNOMED
+108406003,Zolmitriptan-containing product,DISPOS,Concept,NA,SNOMED
+108408002,Naratriptan-containing product,DISPOS,Concept,NA,SNOMED
+108411001,Rizatriptan-containing product,DISPOS,Concept,NA,SNOMED
+108415005,Dronabinol-containing product,DISPOS,Concept,NA,SNOMED
+108418007,Ondansetron-containing product,DISPOS,Concept,NA,SNOMED
+108421009,Dolasetron-containing product,DISPOS,Concept,NA,SNOMED
+108424001,Granisetron-containing product,DISPOS,Concept,NA,SNOMED
+108430001,Mirtazapine-containing product,DISPOS,Concept,NA,SNOMED
+108432009,Venlafaxine-containing product,DISPOS,Concept,NA,SNOMED
+108435006,Nefazodone-containing product,DISPOS,Concept,NA,SNOMED
+108438008,Pimozide-containing product,DISPOS,Concept,NA,SNOMED
+108464002,Tolcapone-containing product,DISPOS,Concept,NA,SNOMED
+108466000,Selegiline-containing product,DISPOS,Concept,NA,SNOMED
+108468004,Pergolide-containing product,DISPOS,Concept,NA,SNOMED
+10847,tripelennamine,DISPOS,IN,NA,RxNorm
+108471007,Pramipexole-containing product,DISPOS,Concept,NA,SNOMED
+108473005,Ropinirole-containing product,DISPOS,Concept,NA,SNOMED
+108480007,Milrinone-containing product,DISPOS,Concept,NA,SNOMED
+10849,triprolidine,DISPOS,IN,NA,RxNorm
+108494008,Tacrine-containing product,DISPOS,Concept,NA,SNOMED
+108497001,Donepezil-containing product,DISPOS,Concept,NA,SNOMED
+108507005,Tramadol-containing product,DISPOS,Concept,NA,SNOMED
+108508000,Nabumetone-containing product,DISPOS,Concept,NA,SNOMED
+108510003,Etodolac-containing product,DISPOS,Concept,NA,SNOMED
+108512006,Ketorolac-containing product,DISPOS,Concept,NA,SNOMED
+108524004,Nisoldipine-containing product,DISPOS,Concept,NA,SNOMED
+108526002,Nicardipine-containing product,DISPOS,Concept,NA,SNOMED
+108530004,Bepridil-containing product,DISPOS,Concept,NA,SNOMED
+108533002,Isradipine-containing product,DISPOS,Concept,NA,SNOMED
+108535009,Felodipine-containing product,DISPOS,Concept,NA,SNOMED
+108537001,Amlodipine-containing product,DISPOS,Concept,NA,SNOMED
+108539003,Midodrine-containing product,DISPOS,Concept,NA,SNOMED
+108542009,Penbutolol-containing product,DISPOS,Concept,NA,SNOMED
+108544005,Carteolol-containing product,DISPOS,Concept,NA,SNOMED
+108547003,Bisoprolol-containing product,DISPOS,Concept,NA,SNOMED
+108551001,Carvedilol-containing product,DISPOS,Concept,NA,SNOMED
+108553003,Guanfacine-containing product,DISPOS,Concept,NA,SNOMED
+108556006,Doxazosin-containing product,DISPOS,Concept,NA,SNOMED
+108559004,Tamsulosin-containing product,DISPOS,Concept,NA,SNOMED
+108562001,Trandolapril-containing product,DISPOS,Concept,NA,SNOMED
+108564000,Ramipril-containing product,DISPOS,Concept,NA,SNOMED
+108566003,Moexipril-containing product,DISPOS,Concept,NA,SNOMED
+108569005,Fosinopril-containing product,DISPOS,Concept,NA,SNOMED
+108572003,Benazepril-containing product,DISPOS,Concept,NA,SNOMED
+108575001,Lisinopril-containing product,DISPOS,Concept,NA,SNOMED
+108578004,Quinapril-containing product,DISPOS,Concept,NA,SNOMED
+108581009,Valsartan-containing product,DISPOS,Concept,NA,SNOMED
+108585000,Irbesartan-containing product,DISPOS,Concept,NA,SNOMED
+108587008,Candesartan-containing product,DISPOS,Concept,NA,SNOMED
+108593000,Epoprostenol-containing product,DISPOS,Concept,NA,SNOMED
+108596008,Cerivastatin-containing product,DISPOS,Concept,NA,SNOMED
+108600003,Atorvastatin-containing product,DISPOS,Concept,NA,SNOMED
+108605008,Salmeterol-containing product,DISPOS,Concept,NA,SNOMED
+108611006,Pirbuterol-containing product,DISPOS,Concept,NA,SNOMED
+108614003,Zafirlukast-containing product,DISPOS,Concept,NA,SNOMED
+108624006,Ipratropium-containing product,DISPOS,Concept,NA,SNOMED
+108627004,Nedocromil-containing product,DISPOS,Concept,NA,SNOMED
+108630006,Dornase alfa-containing product,DISPOS,Concept,NA,SNOMED
+108644000,Azelastine-containing product,DISPOS,Concept,NA,SNOMED
+108650005,Fexofenadine-containing product,DISPOS,Concept,NA,SNOMED
+108652002,Loratadine-containing product,DISPOS,Concept,NA,SNOMED
+108655000,Cetirizine-containing product,DISPOS,Concept,NA,SNOMED
+108664005,Nizatidine-containing product,DISPOS,Concept,NA,SNOMED
+108666007,Lansoprazole-containing product,DISPOS,Concept,NA,SNOMED
+108675009,Infliximab-containing product,DISPOS,Concept,NA,SNOMED
+108679003,Grepafloxacin-containing product,DISPOS,Concept,NA,SNOMED
+108684009,Rifabutin-containing product,DISPOS,Concept,NA,SNOMED
+10869,tropicamide,DISPOS,IN,NA,RxNorm
+108690008,Stavudine-containing product,DISPOS,Concept,NA,SNOMED
+108693005,Ritonavir-containing product,DISPOS,Concept,NA,SNOMED
+108695003,Indinavir-containing product,DISPOS,Concept,NA,SNOMED
+108698001,Lamivudine-containing product,DISPOS,Concept,NA,SNOMED
+108700005,Saquinavir-containing product,DISPOS,Concept,NA,SNOMED
+108704001,Nevirapine-containing product,DISPOS,Concept,NA,SNOMED
+108706004,Nelfinavir-containing product,DISPOS,Concept,NA,SNOMED
+108725001,Palivizumab-containing product,DISPOS,Concept,NA,SNOMED
+108749003,Interferon beta-1a-containing product,DISPOS,Concept,NA,SNOMED
+108751004,Interferon beta-1b-containing product,DISPOS,Concept,NA,SNOMED
+108754007,Glatiramer-containing product,DISPOS,Concept,NA,SNOMED
+108757000,Ifosfamide-containing product,DISPOS,Concept,NA,SNOMED
+108761006,Capecitabine-containing product,DISPOS,Concept,NA,SNOMED
+108763009,Fludarabine-containing product,DISPOS,Concept,NA,SNOMED
+108766001,Bicalutamide-containing product,DISPOS,Concept,NA,SNOMED
+108768000,Estramustine-containing product,DISPOS,Concept,NA,SNOMED
+108774000,Anastrozole-containing product,DISPOS,Concept,NA,SNOMED
+108777007,Letrozole-containing product,DISPOS,Concept,NA,SNOMED
+108779005,Topotecan-containing product,DISPOS,Concept,NA,SNOMED
+108783005,Irinotecan-containing product,DISPOS,Concept,NA,SNOMED
+108786002,Idarubicin-containing product,DISPOS,Concept,NA,SNOMED
+108791001,Mitoxantrone-containing product,DISPOS,Concept,NA,SNOMED
+108792008,Vinorelbine-containing product,DISPOS,Concept,NA,SNOMED
+108796006,Interferon alfa-2a-containing product,DISPOS,Concept,NA,SNOMED
+108797002,Interferon alfa-2b-containing product,DISPOS,Concept,NA,SNOMED
+108800000,Cladribine-containing product,DISPOS,Concept,NA,SNOMED
+108804009,Aldesleukin-containing product,DISPOS,Concept,NA,SNOMED
+108806006,Docetaxel-containing product,DISPOS,Concept,NA,SNOMED
+108809004,Rituximab-containing product,DISPOS,Concept,NA,SNOMED
+108811008,Gemcitabine-containing product,DISPOS,Concept,NA,SNOMED
+108823002,Amifostine-containing product,DISPOS,Concept,NA,SNOMED
+108827001,Brimonidine-containing product,DISPOS,Concept,NA,SNOMED
+108831007,Metipranolol-containing product,DISPOS,Concept,NA,SNOMED
+108834004,Dorzolamide-containing product,DISPOS,Concept,NA,SNOMED
+108836002,Brinzolamide-containing product,DISPOS,Concept,NA,SNOMED
+108840006,Dapiprazole-containing product,DISPOS,Concept,NA,SNOMED
+108845001,Olopatadine-containing product,DISPOS,Concept,NA,SNOMED
+108846000,Emedastine-containing product,DISPOS,Concept,NA,SNOMED
+108859008,Lodoxamide-containing product,DISPOS,Concept,NA,SNOMED
+108863001,Levocabastine-containing product,DISPOS,Concept,NA,SNOMED
+108888009,Tyloxapol-containing product,DISPOS,Concept,NA,SNOMED
+108936003,Becaplermin-containing product,DISPOS,Concept,NA,SNOMED
+108939005,Imiquimod-containing product,DISPOS,Concept,NA,SNOMED
+108943009,Cholecalciferol-containing product,DISPOS,Concept,NA,SNOMED
+108964008,Epoetin alfa-containing product,DISPOS,Concept,NA,SNOMED
+108965009,Filgrastim-containing product,DISPOS,Concept,NA,SNOMED
+108969003,Interleukin-11-containing product,DISPOS,Concept,NA,SNOMED
+108971003,Ticlopidine-containing product,DISPOS,Concept,NA,SNOMED
+108974006,Abciximab-containing product,DISPOS,Concept,NA,SNOMED
+108979001,Clopidogrel-containing product,DISPOS,Concept,NA,SNOMED
+108981004,Tirofiban-containing product,DISPOS,Concept,NA,SNOMED
+108995001,Lepirudin-containing product,DISPOS,Concept,NA,SNOMED
+108997009,Tissue plasminogen activator-containing product,DISPOS,Concept,NA,SNOMED
+108998004,Reteplase-containing product,DISPOS,Concept,NA,SNOMED
+109000009,Anistreplase-containing product,DISPOS,Concept,NA,SNOMED
+109001008,Antithrombin III-containing product,DISPOS,Concept,NA,SNOMED
+109008002,Aprotinin-containing product,DISPOS,Concept,NA,SNOMED
+109032009,Levonorgestrel-containing product,DISPOS,Concept,NA,SNOMED
+109033004,Testosterone-containing product,DISPOS,Concept,NA,SNOMED
+109035006,Finasteride-containing product,DISPOS,Concept,NA,SNOMED
+109042006,Follitropin alfa-containing product,DISPOS,Concept,NA,SNOMED
+109044007,Follitropin beta-containing product,DISPOS,Concept,NA,SNOMED
+109077006,Acarbose-containing product,DISPOS,Concept,NA,SNOMED
+109085002,Troglitazone-containing product,DISPOS,Concept,NA,SNOMED
+109088000,Alglucerase-containing product,DISPOS,Concept,NA,SNOMED
+109090004,Imiglucerase-containing product,DISPOS,Concept,NA,SNOMED
+109100006,Fomepizole-containing product,DISPOS,Concept,NA,SNOMED
+109102003,Trientine-containing product,DISPOS,Concept,NA,SNOMED
+109113000,Tolterodine-containing product,DISPOS,Concept,NA,SNOMED
+109123009,Sildenafil-containing product,DISPOS,Concept,NA,SNOMED
+109129008,Tacrolimus-containing product,DISPOS,Concept,NA,SNOMED
+109133001,Daclizumab-containing product,DISPOS,Concept,NA,SNOMED
+109135008,Basiliximab-containing product,DISPOS,Concept,NA,SNOMED
+109139002,Cabergoline-containing product,DISPOS,Concept,NA,SNOMED
+109141001,Riluzole-containing product,DISPOS,Concept,NA,SNOMED
+109143003,Leflunomide-containing product,DISPOS,Concept,NA,SNOMED
+1091643,azilsartan,DISPOS,IN,NA,RxNorm
+10917,tubocurarine,DISPOS,IN,NA,RxNorm
+1091836,roflumilast,DISPOS,IN,NA,RxNorm
+109203000,Sermorelin-containing product,DISPOS,Concept,NA,SNOMED
+1092437,belimumab,DISPOS,IN,NA,RxNorm
+1094833,ipilimumab,DISPOS,IN,NA,RxNorm
+10968,tyrothricin,DISPOS,IN,NA,RxNorm
+1098413,vandetanib,DISPOS,IN,NA,RxNorm
+10991,unithiol,DISPOS,IN,NA,RxNorm
+10995,uracil,DISPOS,IN,NA,RxNorm
+1100072,abiraterone,DISPOS,IN,NA,RxNorm
+1100699,linagliptin,DISPOS,IN,NA,RxNorm
+1102129,boceprevir,DISPOS,IN,NA,RxNorm
+1102261,telaprevir,DISPOS,IN,NA,RxNorm
+1102270,rilpivirine,DISPOS,IN,NA,RxNorm
+11055,urokinase,DISPOS,IN,NA,RxNorm
+111129004,Poldine-containing product,DISPOS,Concept,NA,SNOMED
+111130009,Norepinephrine-containing product,DISPOS,Concept,NA,SNOMED
+111150008,Cortisone-containing product,DISPOS,Concept,NA,SNOMED
+111165009,Azathioprine-containing product,DISPOS,Concept,NA,SNOMED
+11118,valproic acid,DISPOS,PIN,NA,RxNorm
+1112973,belatacept,DISPOS,IN,NA,RxNorm
+1112990,ezogabine,DISPOS,IN,NA,RxNorm
+1114195,rivaroxaban,DISPOS,IN,NA,RxNorm
+1114326,indacaterol,DISPOS,IN,NA,RxNorm
+11149,vasopressin (USP),DISPOS,IN,NA,RxNorm
+1116632,ticagrelor,DISPOS,IN,NA,RxNorm
+11170,verapamil,DISPOS,IN,NA,RxNorm
+11232,virginiamycin,DISPOS,IN,NA,RxNorm
+1137617003,Lonafarnib-containing product,DISPOS,Concept,NA,SNOMED
+1137658005,Setmelanotide-containing product,DISPOS,Concept,NA,SNOMED
+11413,zidovudine,DISPOS,IN,NA,RxNorm
+114176,zuclopenthixol,DISPOS,IN,NA,RxNorm
+114289,indinavir,DISPOS,IN,NA,RxNorm
+1144506004,Margetuximab-containing product,DISPOS,Concept,NA,SNOMED
+1144510001,Relugolix-containing product,DISPOS,Concept,NA,SNOMED
+1144613007,Tirbanibulin-containing product,DISPOS,Concept,NA,SNOMED
+1144618003,Berotralstat-containing product,DISPOS,Concept,NA,SNOMED
+1145347005,Cabotegravir-containing product,DISPOS,Concept,NA,SNOMED
+1145945,toceranib,DISPOS,IN,NA,RxNorm
+1147220,vemurafenib,DISPOS,IN,NA,RxNorm
+1147320,brentuximab vedotin,DISPOS,IN,NA,RxNorm
+1148001,Ticarcillin-containing product,DISPOS,Concept,NA,SNOMED
+1148138,icatibant,DISPOS,IN,NA,RxNorm
+1148495,crizotinib,DISPOS,IN,NA,RxNorm
+1148545002,Tepotinib-containing product,DISPOS,Concept,NA,SNOMED
+1149188006,Voclosporin-containing product,DISPOS,Concept,NA,SNOMED
+1149274001,Trilaciclib-containing product,DISPOS,Concept,NA,SNOMED
+114934,desirudin,DISPOS,IN,NA,RxNorm
+1149380006,Vibegron-containing product,DISPOS,Concept,NA,SNOMED
+114970,zafirlukast,DISPOS,IN,NA,RxNorm
+114979,rabeprazole,DISPOS,IN,NA,RxNorm
+115238,becaplermin,DISPOS,IN,NA,RxNorm
+115552,trovafloxacin,DISPOS,IN,NA,RxNorm
+1156,asparaginase,DISPOS,IN,NA,RxNorm
+1156880006,Dostarlimab-containing product,DISPOS,Concept,NA,SNOMED
+116065005,Eptifibatide-containing product,DISPOS,Concept,NA,SNOMED
+116073001,Norgestimate-containing product,DISPOS,Concept,NA,SNOMED
+116074007,Desogestrel-containing product,DISPOS,Concept,NA,SNOMED
+116075008,Poractant alfa-containing product,DISPOS,Concept,NA,SNOMED
+116078005,Efavirenz-containing product,DISPOS,Concept,NA,SNOMED
+116079002,Valrubicin-containing product,DISPOS,Concept,NA,SNOMED
+116082007,Modafinil-containing product,DISPOS,Concept,NA,SNOMED
+116084008,Abacavir-containing product,DISPOS,Concept,NA,SNOMED
+116088006,Amprenavir-containing product,DISPOS,Concept,NA,SNOMED
+116093009,Orlistat-containing product,DISPOS,Concept,NA,SNOMED
+116095002,Rofecoxib-containing product,DISPOS,Concept,NA,SNOMED
+116099008,Temozolomide-containing product,DISPOS,Concept,NA,SNOMED
+116100000,Zanamivir-containing product,DISPOS,Concept,NA,SNOMED
+116104009,Zaleplon-containing product,DISPOS,Concept,NA,SNOMED
+116109004,Sirolimus-containing product,DISPOS,Concept,NA,SNOMED
+116110009,Quinupristin-containing product,DISPOS,Concept,NA,SNOMED
+116111008,Dalfopristin-containing product,DISPOS,Concept,NA,SNOMED
+116115004,Exemestane-containing product,DISPOS,Concept,NA,SNOMED
+116116003,Entacapone-containing product,DISPOS,Concept,NA,SNOMED
+11636,drospirenone,DISPOS,IN,NA,RxNorm
+11645,deferiprone,DISPOS,IN,NA,RxNorm
+116511002,Oxcarbazepine-containing product,DISPOS,Concept,NA,SNOMED
+116534006,Amylase-containing product,DISPOS,Concept,NA,SNOMED
+116535007,Triacylglycerol lipase-containing product,DISPOS,Concept,NA,SNOMED
+116656002,Bromocriptine-containing product,DISPOS,Concept,NA,SNOMED
+117005003,Propoxyphene-containing product,DISPOS,Concept,NA,SNOMED
+117055,alemtuzumab,DISPOS,IN,NA,RxNorm
+11719000,Cetylpyridinium-containing product,DISPOS,Concept,NA,SNOMED
+117466,tenofovir,DISPOS,IN,NA,RxNorm
+118259007,Etanercept-containing product,DISPOS,Concept,NA,SNOMED
+11841005,Doxepin-containing product,DISPOS,Concept,NA,SNOMED
+11847009,Naproxen-containing product,DISPOS,Concept,NA,SNOMED
+1191,aspirin,DISPOS,IN,NA,RxNorm
+1193326,ruxolitinib,DISPOS,IN,NA,RxNorm
+119565,tolterodine,DISPOS,IN,NA,RxNorm
+1202,atenolol,DISPOS,IN,NA,RxNorm
+121191,rituximab,DISPOS,IN,NA,RxNorm
+1223,atropine,DISPOS,IN,NA,RxNorm
+12236006,Pancreatin-containing product,DISPOS,Concept,NA,SNOMED
+1227,auranofin,DISPOS,IN,NA,RxNorm
+1232150,aflibercept,DISPOS,IN,NA,RxNorm
+12369008,Oxytocin-containing product,DISPOS,Concept,NA,SNOMED
+1242127,glucarpidase,DISPOS,IN,NA,RxNorm
+1242987,vismodegib,DISPOS,IN,NA,RxNorm
+1242999,axitinib,DISPOS,IN,NA,RxNorm
+1243041,ivacaftor,DISPOS,IN,NA,RxNorm
+1251,azacitidine,DISPOS,IN,NA,RxNorm
+12512008,Triamterene-containing product,DISPOS,Concept,NA,SNOMED
+125578008,Somatrem-containing product,DISPOS,Concept,NA,SNOMED
+1256,azathioprine,DISPOS,IN,NA,RxNorm
+125694008,Meloxicam-containing product,DISPOS,Concept,NA,SNOMED
+12574,gemcitabine,DISPOS,IN,NA,RxNorm
+126100001,Quinestrol-containing product,DISPOS,Concept,NA,SNOMED
+126138002,Goserelin-containing product,DISPOS,Concept,NA,SNOMED
+126155003,Octreotide-containing product,DISPOS,Concept,NA,SNOMED
+126166005,Mesterolone-containing product,DISPOS,Concept,NA,SNOMED
+126167001,Methenolone-containing product,DISPOS,Concept,NA,SNOMED
+126176008,Zeranol-containing product,DISPOS,Concept,NA,SNOMED
+126185008,Urofollitropin-containing product,DISPOS,Concept,NA,SNOMED
+126196000,Nafarelin-containing product,DISPOS,Concept,NA,SNOMED
+126198004,Histrelin-containing product,DISPOS,Concept,NA,SNOMED
+126212009,Insulin glargine-containing product,DISPOS,Concept,NA,SNOMED
+126222003,Sincalide-containing product,DISPOS,Concept,NA,SNOMED
+1266,azlocillin,DISPOS,IN,NA,RxNorm
+127967007,Tenecteplase-containing product,DISPOS,Concept,NA,SNOMED
+12839006,Estradiol-containing product,DISPOS,Concept,NA,SNOMED
+1291301,avanafil,DISPOS,IN,NA,RxNorm
+1291609,taliglucerase alfa,DISPOS,IN,NA,RxNorm
+1292,baclofen,DISPOS,IN,NA,RxNorm
+1293254,lucinactant,DISPOS,IN,NA,RxNorm
+1294580,gemtuzumab ozogamicin,DISPOS,IN,NA,RxNorm
+129475001,Lopinavir-containing product,DISPOS,Concept,NA,SNOMED
+129483007,Mifepristone-containing product,DISPOS,Concept,NA,SNOMED
+129484001,Terazosin-containing product,DISPOS,Concept,NA,SNOMED
+129486004,Perindopril-containing product,DISPOS,Concept,NA,SNOMED
+129487008,Telmisartan-containing product,DISPOS,Concept,NA,SNOMED
+129495007,Somatropin-containing product,DISPOS,Concept,NA,SNOMED
+1298944,pertuzumab,DISPOS,IN,NA,RxNorm
+1300488,nonacog alfa,DISPOS,PIN,NA,RxNorm
+1300786,mirabegron,DISPOS,IN,NA,RxNorm
+1302966,carfilzomib,DISPOS,IN,NA,RxNorm
+1303098,aclidinium,DISPOS,IN,NA,RxNorm
+1306284,cobicistat,DISPOS,IN,NA,RxNorm
+1306286,elvitegravir,DISPOS,IN,NA,RxNorm
+1307298,enzalutamide,DISPOS,IN,NA,RxNorm
+1307404,linaclotide,DISPOS,IN,NA,RxNorm
+1307619,bosutinib,DISPOS,IN,NA,RxNorm
+1310520,teriflunomide,DISPOS,IN,NA,RxNorm
+1311287,calcitonin,DISPOS,IN,NA,RxNorm
+1311380,interleukin-11,DISPOS,IN,NA,RxNorm
+1311521,ceftiofur,DISPOS,IN,NA,RxNorm
+1312358,aldosterone,DISPOS,IN,NA,RxNorm
+1312397,regorafenib,DISPOS,IN,NA,RxNorm
+1314612,altrenogest,DISPOS,IN,NA,RxNorm
+132889,levonordefrin,DISPOS,IN,NA,RxNorm
+133070,paroxypropione,DISPOS,IN,NA,RxNorm
+13414000,Cefadroxil-containing product,DISPOS,Concept,NA,SNOMED
+134404,urofollitropin,DISPOS,IN,NA,RxNorm
+134506008,Desloratadine-containing product,DISPOS,Concept,NA,SNOMED
+134527,nelfinavir,DISPOS,IN,NA,RxNorm
+134529000,Almotriptan-containing product,DISPOS,Concept,NA,SNOMED
+134547,bendamustine,DISPOS,IN,NA,RxNorm
+134615,brimonidine,DISPOS,IN,NA,RxNorm
+134670005,Rasburicase-containing product,DISPOS,Concept,NA,SNOMED
+134748,rasagiline,DISPOS,IN,NA,RxNorm
+135056,lercanidipine,DISPOS,IN,NA,RxNorm
+13525006,Acetylcholine-containing product,DISPOS,Concept,NA,SNOMED
+135391,olopatadine,DISPOS,IN,NA,RxNorm
+135447,donepezil,DISPOS,IN,NA,RxNorm
+1356552,perampanel,DISPOS,IN,NA,RxNorm
+1357536,tofacitinib,DISPOS,IN,NA,RxNorm
+135775,zolmitriptan,DISPOS,IN,NA,RxNorm
+1359,belladonna alkaloids,DISPOS,IN,NA,RxNorm
+136113003,Interferon gamma-containing product,DISPOS,Concept,NA,SNOMED
+136198,darifenacin,DISPOS,IN,NA,RxNorm
+1363268,cabozantinib,DISPOS,IN,NA,RxNorm
+1364105,pasireotide,DISPOS,IN,NA,RxNorm
+136411,sildenafil,DISPOS,IN,NA,RxNorm
+1364347,ponatinib,DISPOS,IN,NA,RxNorm
+1364430,apixaban,DISPOS,IN,NA,RxNorm
+1364468,teduglutide,DISPOS,IN,NA,RxNorm
+1364479,lomitapide,DISPOS,IN,NA,RxNorm
+13664004,Dimercaprol-containing product,DISPOS,Concept,NA,SNOMED
+1368001,alogliptin,DISPOS,IN,NA,RxNorm
+1368476,zeranol,DISPOS,IN,NA,RxNorm
+1369713,pomalidomide,DISPOS,IN,NA,RxNorm
+1371041,ado-trastuzumab emtansine,DISPOS,PIN,NA,RxNorm
+1373458,canagliflozin,DISPOS,IN,NA,RxNorm
+1373478,dimethyl fumarate,DISPOS,IN,NA,RxNorm
+1374,benserazide,DISPOS,IN,NA,RxNorm
+1378,benzalkonium,DISPOS,IN,NA,RxNorm
+138099,gemifloxacin,DISPOS,IN,NA,RxNorm
+1390,benzethonium,DISPOS,IN,NA,RxNorm
+13929005,Spironolactone-containing product,DISPOS,Concept,NA,SNOMED
+13936006,Butorphanol-containing product,DISPOS,Concept,NA,SNOMED
+139462,moxifloxacin,DISPOS,IN,NA,RxNorm
+13965000,Valproic acid-containing product,DISPOS,Concept,NA,SNOMED
+139825,insulin detemir,DISPOS,IN,NA,RxNorm
+139896,enfuvirtide,DISPOS,IN,NA,RxNorm
+140108,caspofungin,DISPOS,IN,NA,RxNorm
+140587,celecoxib,DISPOS,IN,NA,RxNorm
+141366,naratriptan,DISPOS,IN,NA,RxNorm
+141704,everolimus,DISPOS,IN,NA,RxNorm
+1424,benztropine,DISPOS,IN,NA,RxNorm
+1424884,vilanterol,DISPOS,IN,NA,RxNorm
+1424911,dabrafenib,DISPOS,IN,NA,RxNorm
+1425099,trametinib,DISPOS,IN,NA,RxNorm
+1426748,iobenguane I-123,DISPOS,PIN,NA,RxNorm
+1426890,prolactin,DISPOS,IN,NA,RxNorm
+1427179,antithrombin alfa,DISPOS,PIN,NA,RxNorm
+1430438,afatinib,DISPOS,IN,NA,RxNorm
+1431738,asparaginase Erwinia chrysanthemi,DISPOS,PIN,NA,RxNorm
+1433868,dolutegravir,DISPOS,IN,NA,RxNorm
+1436,bepridil,DISPOS,IN,NA,RxNorm
+1440051,lixisenatide,DISPOS,IN,NA,RxNorm
+1441386,bazedoxifene,DISPOS,IN,NA,RxNorm
+1442132,macitentan,DISPOS,IN,NA,RxNorm
+1442981,ibrutinib,DISPOS,IN,NA,RxNorm
+14584,etonogestrel,DISPOS,IN,NA,RxNorm
+14706000,Phenethicillin-containing product,DISPOS,Concept,NA,SNOMED
+14814001,Trimethobenzamide-containing product,DISPOS,Concept,NA,SNOMED
+1482502,eslicarbazepine,DISPOS,IN,NA,RxNorm
+1482790,simeprevir,DISPOS,IN,NA,RxNorm
+14845,apraclonidine,DISPOS,IN,NA,RxNorm
+1484911,sofosbuvir,DISPOS,IN,NA,RxNorm
+14851,vigabatrin,DISPOS,IN,NA,RxNorm
+1487514,umeclidinium,DISPOS,IN,NA,RxNorm
+1488564,dapagliflozin,DISPOS,IN,NA,RxNorm
+1489913,droxidopa,DISPOS,IN,NA,RxNorm
+1489914,elosulfase alfa,DISPOS,IN,NA,RxNorm
+149,acebutolol,DISPOS,IN,NA,RxNorm
+1490468,tasimelteon,DISPOS,IN,NA,RxNorm
+1491625,metreleptin,DISPOS,IN,NA,RxNorm
+1492727,apremilast,DISPOS,IN,NA,RxNorm
+15070,formestane,DISPOS,IN,NA,RxNorm
+1514,betamethasone,DISPOS,IN,NA,RxNorm
+1520,betaxolol,DISPOS,IN,NA,RxNorm
+15202,argatroban,DISPOS,IN,NA,RxNorm
+15222008,Enalapril-containing product,DISPOS,Concept,NA,SNOMED
+15226,fomepizole,DISPOS,IN,NA,RxNorm
+1534763,albiglutide,DISPOS,IN,NA,RxNorm
+1535457,ceritinib,DISPOS,IN,NA,RxNorm
+1537034,vorapaxar,DISPOS,IN,NA,RxNorm
+1538097,vedolizumab,DISPOS,IN,NA,RxNorm
+15383004,Levodopa-containing product,DISPOS,Concept,NA,SNOMED
+153970,hyoscyamine,DISPOS,IN,NA,RxNorm
+1543173,tavaborole,DISPOS,IN,NA,RxNorm
+15432003,Ethinyl estradiol-containing product,DISPOS,Concept,NA,SNOMED
+1543543,belinostat,DISPOS,IN,NA,RxNorm
+1544460,idelalisib,DISPOS,IN,NA,RxNorm
+1545653,empagliflozin,DISPOS,IN,NA,RxNorm
+1546059,olodaterol,DISPOS,IN,NA,RxNorm
+1546356,dabigatran,DISPOS,IN,NA,RxNorm
+1546380,4-hydroxybutyric acid,DISPOS,PIN,NA,RxNorm
+1546410,tiamulin,DISPOS,IN,NA,RxNorm
+1546433,monomethyl fumarate,DISPOS,IN,NA,RxNorm
+1546437,polystyrene sulfonate,DISPOS,IN,NA,RxNorm
+1546438,glycopyrronium,DISPOS,IN,NA,RxNorm
+1547220,eliglustat,DISPOS,IN,NA,RxNorm
+1547545,pembrolizumab,DISPOS,IN,NA,RxNorm
+155080,methacholine,DISPOS,IN,NA,RxNorm
+1551291,dulaglutide,DISPOS,IN,NA,RxNorm
+155152,poloxamer 188,DISPOS,IN,NA,RxNorm
+1551777,naloxegol,DISPOS,IN,NA,RxNorm
+15657,decitabine,DISPOS,IN,NA,RxNorm
+1589,biperiden,DISPOS,IN,NA,RxNorm
+1591901,cefovecin,DISPOS,IN,NA,RxNorm
+1591922,ledipasvir,DISPOS,IN,NA,RxNorm
+1592737,nintedanib,DISPOS,IN,NA,RxNorm
+1594006,Azatadine-containing product,DISPOS,Concept,NA,SNOMED
+1597371,ombitasvir,DISPOS,IN,NA,RxNorm
+1597373,paritaprevir,DISPOS,IN,NA,RxNorm
+1597381,dasabuvir,DISPOS,IN,NA,RxNorm
+1597582,olaparib,DISPOS,IN,NA,RxNorm
+1597876,nivolumab,DISPOS,IN,NA,RxNorm
+1598,dicumarol,DISPOS,IN,NA,RxNorm
+1598641,finafloxacin,DISPOS,IN,NA,RxNorm
+1599538,edoxaban,DISPOS,IN,NA,RxNorm
+15996,mirtazapine,DISPOS,IN,NA,RxNorm
+1599788,secukinumab,DISPOS,IN,NA,RxNorm
+1601374,palbociclib,DISPOS,IN,NA,RxNorm
+16031005,Dexchlorpheniramine-containing product,DISPOS,Concept,NA,SNOMED
+1603296,lenvatinib,DISPOS,IN,NA,RxNorm
+1603350,panobinostat,DISPOS,IN,NA,RxNorm
+16037009,Terfenadine-containing product,DISPOS,Concept,NA,SNOMED
+1605101,insulin isophane,DISPOS,IN,NA,RxNorm
+1606218,daclatasvir,DISPOS,IN,NA,RxNorm
+16521,adefovir,DISPOS,IN,NA,RxNorm
+1656052,cangrelor,DISPOS,IN,NA,RxNorm
+1658314,brexpiprazole,DISPOS,IN,NA,RxNorm
+1659152,alirocumab,DISPOS,IN,NA,RxNorm
+1659191,sonidegib,DISPOS,IN,NA,RxNorm
+16602005,Hydrocortisone-containing product,DISPOS,Concept,NA,SNOMED
+1665496,rolapitant,DISPOS,IN,NA,RxNorm
+1665684,evolocumab,DISPOS,IN,NA,RxNorm
+16681,acarbose,DISPOS,IN,NA,RxNorm
+167,acetazolamide,DISPOS,IN,NA,RxNorm
+1670007,insulin degludec,DISPOS,IN,NA,RxNorm
+16738,racecadotril,DISPOS,IN,NA,RxNorm
+16791000,Cephradine-containing product,DISPOS,Concept,NA,SNOMED
+16832004,Conjugated estrogen-containing product,DISPOS,Concept,NA,SNOMED
+17128,lansoprazole,DISPOS,IN,NA,RxNorm
+1716203,patiromer,DISPOS,IN,NA,RxNorm
+1720259,asfotase alfa,DISPOS,IN,NA,RxNorm
+1720597,mepolizumab,DISPOS,IN,NA,RxNorm
+1721264,talimogene laherparepvec,DISPOS,PIN,NA,RxNorm
+1721560,osimertinib,DISPOS,IN,NA,RxNorm
+1722365,cobimetinib,DISPOS,IN,NA,RxNorm
+1723735,ixazomib,DISPOS,IN,NA,RxNorm
+1723738,necitumumab,DISPOS,IN,NA,RxNorm
+1726975,sebelipase alfa,DISPOS,IN,NA,RxNorm
+1727455,alectinib,DISPOS,IN,NA,RxNorm
+1729002,selexipag,DISPOS,IN,NA,RxNorm
+17300,alfuzosin,DISPOS,IN,NA,RxNorm
+1731071,fosaprepitant,DISPOS,IN,NA,RxNorm
+1734628,elbasvir,DISPOS,IN,NA,RxNorm
+1734630,grazoprevir,DISPOS,IN,NA,RxNorm
+1745099,ixekizumab,DISPOS,IN,NA,RxNorm
+1746889,reslizumab,DISPOS,IN,NA,RxNorm
+17554004,Paramethasone-containing product,DISPOS,Concept,NA,SNOMED
+1760,bromocriptine,DISPOS,IN,NA,RxNorm
+1767,brompheniramine,DISPOS,IN,NA,RxNorm
+17767,amlodipine,DISPOS,IN,NA,RxNorm
+17859000,Polyvalent crotalidae antivenom-containing product,DISPOS,Concept,NA,SNOMED
+1792776,atezolizumab,DISPOS,IN,NA,RxNorm
+1798288,obeticholic acid,DISPOS,IN,NA,RxNorm
+1799206,velpatasvir,DISPOS,IN,NA,RxNorm
+18002004,Auranofin-containing product,DISPOS,Concept,NA,SNOMED
+1801820,lifitegrast,DISPOS,IN,NA,RxNorm
+1813,levobunolol,DISPOS,IN,NA,RxNorm
+1819,buprenorphine,DISPOS,IN,NA,RxNorm
+1825,buserelin,DISPOS,IN,NA,RxNorm
+1828,busulfan,DISPOS,IN,NA,RxNorm
+18335001,Plicamycin-containing product,DISPOS,Concept,NA,SNOMED
+183379,rivastigmine,DISPOS,IN,NA,RxNorm
+18381001,Pindolol-containing product,DISPOS,Concept,NA,SNOMED
+1841,butorphanol,DISPOS,IN,NA,RxNorm
+1842003,Diphemanil-containing product,DISPOS,Concept,NA,SNOMED
+18469,sparfloxacin,DISPOS,IN,NA,RxNorm
+18600,azatadine,DISPOS,IN,NA,RxNorm
+18603,azelastine,DISPOS,IN,NA,RxNorm
+1862579,rucaparib,DISPOS,IN,NA,RxNorm
+1865953,crisaborole,DISPOS,IN,NA,RxNorm
+18687,bacampicillin,DISPOS,IN,NA,RxNorm
+1872251,brodalumab,DISPOS,IN,NA,RxNorm
+1872382,telotristat,DISPOS,IN,NA,RxNorm
+1873752,plecanatide,DISPOS,IN,NA,RxNorm
+1873916,ribociclib,DISPOS,IN,NA,RxNorm
+18751,bambuterol,DISPOS,IN,NA,RxNorm
+1876119,etelcalcetide,DISPOS,IN,NA,RxNorm
+1876366,ocrelizumab,DISPOS,IN,NA,RxNorm
+1876376,dupilumab,DISPOS,IN,NA,RxNorm
+1876597,naldemedine,DISPOS,IN,NA,RxNorm
+1876905,deutetrabenazine,DISPOS,IN,NA,RxNorm
+18811003,Asparaginase-containing product,DISPOS,Concept,NA,SNOMED
+1886,caffeine,DISPOS,IN,NA,RxNorm
+18867,benazepril,DISPOS,IN,NA,RxNorm
+1894,calcitriol,DISPOS,IN,NA,RxNorm
+190353,daclizumab,DISPOS,IN,NA,RxNorm
+190521,abacavir,DISPOS,IN,NA,RxNorm
+190548,tipranavir,DISPOS,IN,NA,RxNorm
+1918219,valbenazine,DISPOS,IN,NA,RxNorm
+1918231,niraparib,DISPOS,IN,NA,RxNorm
+191831,infliximab,DISPOS,IN,NA,RxNorm
+1919083,midostaurin,DISPOS,IN,NA,RxNorm
+19194001,Didanosine-containing product,DISPOS,Concept,NA,SNOMED
+1921069,abaloparatide,DISPOS,IN,NA,RxNorm
+1921217,brigatinib,DISPOS,IN,NA,RxNorm
+1922436,cerliponase alfa,DISPOS,PIN,NA,RxNorm
+1922448,safinamide,DISPOS,IN,NA,RxNorm
+1923319,sarilumab,DISPOS,IN,NA,RxNorm
+19257,bethanechol,DISPOS,IN,NA,RxNorm
+1927663,delafloxacin,DISPOS,IN,NA,RxNorm
+1927851,betrixaban,DISPOS,IN,NA,RxNorm
+1928588,guselkumab,DISPOS,IN,NA,RxNorm
+1939323,voxilaprevir,DISPOS,IN,NA,RxNorm
+194,acetylcholine,DISPOS,IN,NA,RxNorm
+194000,capecitabine,DISPOS,IN,NA,RxNorm
+1940332,enasidenib,DISPOS,IN,NA,RxNorm
+1940635,glecaprevir,DISPOS,IN,NA,RxNorm
+1940636,pibrentasvir,DISPOS,IN,NA,RxNorm
+1940643,neratinib,DISPOS,IN,NA,RxNorm
+194279,palivizumab,DISPOS,IN,NA,RxNorm
+194337,vorinostat,DISPOS,IN,NA,RxNorm
+1945077,copanlisib,DISPOS,IN,NA,RxNorm
+1946825,abemaciclib,DISPOS,IN,NA,RxNorm
+19484,bisoprolol,DISPOS,IN,NA,RxNorm
+194881,brinzolamide,DISPOS,IN,NA,RxNorm
+19499,bitolterol,DISPOS,IN,NA,RxNorm
+195085,efavirenz,DISPOS,IN,NA,RxNorm
+195088,lopinavir,DISPOS,IN,NA,RxNorm
+19551,pemirolast,DISPOS,IN,NA,RxNorm
+19552,cefprozil,DISPOS,IN,NA,RxNorm
+19583005,Dichlorphenamide-containing product,DISPOS,Concept,NA,SNOMED
+196102,basiliximab,DISPOS,IN,NA,RxNorm
+196239,raltitrexed,DISPOS,IN,NA,RxNorm
+19666,nesiritide,DISPOS,IN,NA,RxNorm
+19759,bromodiphenhydramine,DISPOS,IN,NA,RxNorm
+1981,canrenoate potassium,DISPOS,PIN,NA,RxNorm
+19841008,Ceftriaxone-containing product,DISPOS,Concept,NA,SNOMED
+1986808,acalabrutinib,DISPOS,IN,NA,RxNorm
+1988648,letermovir,DISPOS,IN,NA,RxNorm
+1989100,benralizumab,DISPOS,IN,NA,RxNorm
+1989289,cordycepin,DISPOS,IN,NA,RxNorm
+1989819,vestronidase alfa,DISPOS,IN,NA,RxNorm
+1991302,semaglutide,DISPOS,IN,NA,RxNorm
+1992,capsaicin,DISPOS,IN,NA,RxNorm
+1992672,ertugliflozin,DISPOS,IN,NA,RxNorm
+1992864,netarsudil,DISPOS,IN,NA,RxNorm
+19959,acrivastine,DISPOS,IN,NA,RxNorm
+1998,captopril,DISPOS,IN,NA,RxNorm
+1999,carbachol,DISPOS,IN,NA,RxNorm
+1999003,angiotensin II,DISPOS,IN,NA,RxNorm
+1999420,macimorelin,DISPOS,IN,NA,RxNorm
+1999574,apalutamide,DISPOS,IN,NA,RxNorm
+1999660,bictegravir,DISPOS,IN,NA,RxNorm
+2015,carbenicillin,DISPOS,IN,NA,RxNorm
+2016004,Dextromethorphan-containing product,DISPOS,Concept,NA,SNOMED
+2019,carbidopa,DISPOS,IN,NA,RxNorm
+20220,carbinoxamine,DISPOS,IN,NA,RxNorm
+202912,interferon alfa-n1,DISPOS,IN,NA,RxNorm
+20320002,Hydrocodone-containing product,DISPOS,Concept,NA,SNOMED
+20343,carprofen,DISPOS,IN,NA,RxNorm
+20352,carvedilol,DISPOS,IN,NA,RxNorm
+2044896,fostamatinib,DISPOS,IN,NA,RxNorm
+2045114,andexanet alfa,DISPOS,IN,NA,RxNorm
+2045371,cannabidiol,DISPOS,IN,NA,RxNorm
+2045613,erenumab,DISPOS,IN,NA,RxNorm
+2045726,avatrombopag,DISPOS,IN,NA,RxNorm
+2047232,baricitinib,DISPOS,IN,NA,RxNorm
+20481,cefepime,DISPOS,IN,NA,RxNorm
+20482,cefetamet,DISPOS,IN,NA,RxNorm
+20485,cefodizime,DISPOS,IN,NA,RxNorm
+20489,cefpodoxime,DISPOS,IN,NA,RxNorm
+2049106,encorafenib,DISPOS,IN,NA,RxNorm
+2049122,binimetinib,DISPOS,IN,NA,RxNorm
+20492,ceftibuten,DISPOS,IN,NA,RxNorm
+20498,celiprolol,DISPOS,IN,NA,RxNorm
+2049846,elagolix,DISPOS,IN,NA,RxNorm
+2049873,ivosidenib,DISPOS,IN,NA,RxNorm
+2053281,iobenguane I-131,DISPOS,PIN,NA,RxNorm
+2053436,tildrakizumab,DISPOS,IN,NA,RxNorm
+2054068,mogamulizumab,DISPOS,IN,NA,RxNorm
+2054984,lusutrombopag,DISPOS,IN,NA,RxNorm
+2055641,lanadelumab,DISPOS,IN,NA,RxNorm
+2056691,fremanezumab,DISPOS,IN,NA,RxNorm
+20577002,Choriogonadotropin-containing product,DISPOS,Concept,NA,SNOMED
+2058509,duvelisib,DISPOS,IN,NA,RxNorm
+2058826,cemiplimab,DISPOS,IN,NA,RxNorm
+2058846,galcanezumab,DISPOS,IN,NA,RxNorm
+2058849,dacomitinib,DISPOS,IN,NA,RxNorm
+20610,cetirizine,DISPOS,IN,NA,RxNorm
+2099289,inotersen,DISPOS,IN,NA,RxNorm
+2099704,talazoparib,DISPOS,IN,NA,RxNorm
+2102775,revefenacin,DISPOS,IN,NA,RxNorm
+2103164,lorlatinib,DISPOS,IN,NA,RxNorm
+2104332,cenegermin,DISPOS,IN,NA,RxNorm
+2104604,emapalumab,DISPOS,IN,NA,RxNorm
+2105,carmustine,DISPOS,IN,NA,RxNorm
+2105628,larotrectinib,DISPOS,IN,NA,RxNorm
+2105806,gilteritinib,DISPOS,IN,NA,RxNorm
+2105845,glasdegib,DISPOS,IN,NA,RxNorm
+2106338,amifampridine,DISPOS,IN,NA,RxNorm
+2107301,ravulizumab,DISPOS,IN,NA,RxNorm
+2109055,tagraxofusp,DISPOS,IN,NA,RxNorm
+211009,Norethandrolone-containing product,DISPOS,Concept,NA,SNOMED
+21102,cilazapril,DISPOS,IN,NA,RxNorm
+2110605,caplacizumab,DISPOS,IN,NA,RxNorm
+21107,cilostazol,DISPOS,IN,NA,RxNorm
+21159006,Pargyline-containing product,DISPOS,Concept,NA,SNOMED
+2116,carteolol,DISPOS,IN,NA,RxNorm
+2119365,esketamine,DISPOS,IN,NA,RxNorm
+2121085,siponimod,DISPOS,IN,NA,RxNorm
+21216,clavulanic acid,DISPOS,PIN,NA,RxNorm
+2121751,solriamfetol,DISPOS,IN,NA,RxNorm
+2123125,erdafitinib,DISPOS,IN,NA,RxNorm
+2123126,romosozumab,DISPOS,IN,NA,RxNorm
+21232,clidinium,DISPOS,IN,NA,RxNorm
+214354,candesartan,DISPOS,IN,NA,RxNorm
+214470,denileukin diftitox,DISPOS,IN,NA,RxNorm
+214549,"estrogens, esterified (USP)",DISPOS,IN,NA,RxNorm
+214555,etanercept,DISPOS,IN,NA,RxNorm
+214582,glatiramer,DISPOS,IN,NA,RxNorm
+214817,sacrosidase,DISPOS,IN,NA,RxNorm
+214824,sevelamer,DISPOS,IN,NA,RxNorm
+2166040,risankizumab,DISPOS,IN,NA,RxNorm
+2169285,alpelisib,DISPOS,IN,NA,RxNorm
+21701005,Cromolyn-containing product,DISPOS,Concept,NA,SNOMED
+2174090,polatuzumab vedotin,DISPOS,IN,NA,RxNorm
+2176,cefaclor,DISPOS,IN,NA,RxNorm
+2176312,bremelanotide,DISPOS,IN,NA,RxNorm
+2177,cefadroxil,DISPOS,IN,NA,RxNorm
+2178,cefamandole,DISPOS,IN,NA,RxNorm
+2180,cefazolin,DISPOS,IN,NA,RxNorm
+2180325,darolutamide,DISPOS,IN,NA,RxNorm
+2181306,methicillin,DISPOS,IN,NA,RxNorm
+2182,cefmetazole,DISPOS,IN,NA,RxNorm
+2183,cefonicid,DISPOS,IN,NA,RxNorm
+2183102,pexidartinib,DISPOS,IN,NA,RxNorm
+2184,cefoperazone,DISPOS,IN,NA,RxNorm
+2186,cefotaxime,DISPOS,IN,NA,RxNorm
+2187,cefotetan,DISPOS,IN,NA,RxNorm
+2188,cefotiam,DISPOS,IN,NA,RxNorm
+2189,cefoxitin,DISPOS,IN,NA,RxNorm
+2190,cefsulodin,DISPOS,IN,NA,RxNorm
+2190009,Trihexyphenidyl-containing product,DISPOS,Concept,NA,SNOMED
+2191,ceftazidime,DISPOS,IN,NA,RxNorm
+2192,ceftizoxime,DISPOS,IN,NA,RxNorm
+2193,ceftriaxone,DISPOS,IN,NA,RxNorm
+2194,cefuroxime,DISPOS,IN,NA,RxNorm
+2196092,upadacitinib,DISPOS,IN,NA,RxNorm
+2197490,fedratinib,DISPOS,IN,NA,RxNorm
+2197862,entrectinib,DISPOS,IN,NA,RxNorm
+2197878,pitolisant,DISPOS,IN,NA,RxNorm
+2198944,lefamulin,DISPOS,IN,NA,RxNorm
+2199015,istradefylline,DISPOS,IN,NA,RxNorm
+220982,yohimbine,DISPOS,IN,NA,RxNorm
+221108,"insulin isophane, pork",DISPOS,PIN,NA,RxNorm
+221109,"insulin, regular, pork",DISPOS,IN,NA,RxNorm
+22274004,Methandriol-containing product,DISPOS,Concept,NA,SNOMED
+22298,dapiprazole,DISPOS,IN,NA,RxNorm
+2231,cephalexin,DISPOS,IN,NA,RxNorm
+2233,cephaloridine,DISPOS,IN,NA,RxNorm
+2236,cephalothin,DISPOS,IN,NA,RxNorm
+2238,cephapirin,DISPOS,IN,NA,RxNorm
+2239,cephradine,DISPOS,IN,NA,RxNorm
+22474002,Aldosterone-containing product,DISPOS,Concept,NA,SNOMED
+224905,trastuzumab,DISPOS,IN,NA,RxNorm
+2256930,lasmiditan,DISPOS,IN,NA,RxNorm
+2262250,afamelanotide,DISPOS,IN,NA,RxNorm
+2262279,crizanlizumab,DISPOS,IN,NA,RxNorm
+2262435,zanubrutinib,DISPOS,IN,NA,RxNorm
+2264108,"fibrinogen, human",DISPOS,PIN,NA,RxNorm
+22656,desogestrel,DISPOS,IN,NA,RxNorm
+2265678,voxelotor,DISPOS,IN,NA,RxNorm
+22657006,Calcitonin-containing product,DISPOS,Concept,NA,SNOMED
+2265702,cefiderocol,DISPOS,IN,NA,RxNorm
+2267582,trastuzumab deruxtecan,DISPOS,PIN,NA,RxNorm
+2268216,ubrogepant,DISPOS,IN,NA,RxNorm
+22696,dexbrompheniramine,DISPOS,IN,NA,RxNorm
+22697,dexchlorpheniramine,DISPOS,IN,NA,RxNorm
+22713,dezocine,DISPOS,IN,NA,RxNorm
+2272107,avapritinib,DISPOS,IN,NA,RxNorm
+227239,masoprocol,DISPOS,IN,NA,RxNorm
+2272403,lemborexant,DISPOS,IN,NA,RxNorm
+2274378,tazemetostat,DISPOS,IN,NA,RxNorm
+227518,follicle stimulating hormone,DISPOS,IN,NA,RxNorm
+2277607,enfortumab vedotin,DISPOS,PIN,NA,RxNorm
+2282307,Rimegepant,DISPOS,IN,NA,RxNorm
+2282660,eptinezumab,DISPOS,IN,NA,RxNorm
+228476,gatifloxacin,DISPOS,IN,NA,RxNorm
+2286,cetylpyridinium,DISPOS,IN,NA,RxNorm
+2286252,osilodrostat,DISPOS,IN,NA,RxNorm
+228656,amprenavir,DISPOS,IN,NA,RxNorm
+228783,frovatriptan,DISPOS,IN,NA,RxNorm
+228790,dutasteride,DISPOS,IN,NA,RxNorm
+2288236,ozanimod,DISPOS,IN,NA,RxNorm
+2289380,selumetinib,DISPOS,IN,NA,RxNorm
+2289408,boldenone,DISPOS,IN,NA,RxNorm
+229367,quinupristin,DISPOS,IN,NA,RxNorm
+229369,dalfopristin,DISPOS,IN,NA,RxNorm
+22968,dienogest,DISPOS,IN,NA,RxNorm
+23088,dihydrocodeine,DISPOS,IN,NA,RxNorm
+231049,eletriptan,DISPOS,IN,NA,RxNorm
+232158,rofecoxib,DISPOS,IN,NA,RxNorm
+232539,calfactant,DISPOS,IN,NA,RxNorm
+233603,clevidipine,DISPOS,IN,NA,RxNorm
+23386,diphenylpyraline,DISPOS,IN,NA,RxNorm
+23405,dipipanone,DISPOS,IN,NA,RxNorm
+23410,dipivefrin,DISPOS,IN,NA,RxNorm
+2346,chlorambucil,DISPOS,IN,NA,RxNorm
+2348,chloramphenicol,DISPOS,IN,NA,RxNorm
+235379,pancrelipase,DISPOS,IN,NA,RxNorm
+2359268,pemigatinib,DISPOS,IN,NA,RxNorm
+2360232,sacituzumab govitecan,DISPOS,PIN,NA,RxNorm
+2361285,tucatinib,DISPOS,IN,NA,RxNorm
+2362165,capmatinib,DISPOS,IN,NA,RxNorm
+2362167,opicapone,DISPOS,IN,NA,RxNorm
+23623,domiphen,DISPOS,IN,NA,RxNorm
+23638,dopexamine,DISPOS,IN,NA,RxNorm
+236381,poractant alfa,DISPOS,IN,NA,RxNorm
+236778,trospium,DISPOS,IN,NA,RxNorm
+23678,dromostanolone,DISPOS,IN,NA,RxNorm
+2369389,ripretinib,DISPOS,IN,NA,RxNorm
+237005,levomethadyl,DISPOS,IN,NA,RxNorm
+2370147,selpercatinib,DISPOS,IN,NA,RxNorm
+237057,lepirudin,DISPOS,IN,NA,RxNorm
+237159,levalbuterol,DISPOS,IN,NA,RxNorm
+237162,dexketoprofen,DISPOS,IN,NA,RxNorm
+2380373,fostemsavir,DISPOS,IN,NA,RxNorm
+239,aclarubicin,DISPOS,IN,NA,RxNorm
+2391541,satralizumab,DISPOS,IN,NA,RxNorm
+2392230,Oliceridine,DISPOS,IN,NA,RxNorm
+2394936,pralsetinib,DISPOS,IN,NA,RxNorm
+2397,chlorotrianisene,DISPOS,IN,NA,RxNorm
+2400,chlorpheniramine,DISPOS,IN,NA,RxNorm
+2403,chlorpromazine,DISPOS,IN,NA,RxNorm
+2406,chlorprothixene,DISPOS,IN,NA,RxNorm
+2418,cholecalciferol,DISPOS,IN,NA,RxNorm
+24192,enrofloxacin,DISPOS,IN,NA,RxNorm
+2420,cholecystokinin,DISPOS,IN,NA,RxNorm
+2447,cholestyramine resin,DISPOS,IN,NA,RxNorm
+24591,ethynodiol,DISPOS,IN,NA,RxNorm
+24605,etodolac,DISPOS,IN,NA,RxNorm
+2467540,berotralstat,DISPOS,IN,NA,RxNorm
+2467553,lonafarnib,DISPOS,IN,NA,RxNorm
+2469247,setmelanotide,DISPOS,IN,NA,RxNorm
+24698,fludarabine,DISPOS,IN,NA,RxNorm
+2471078,tirbanibulin,DISPOS,IN,NA,RxNorm
+2472254,vibegron,DISPOS,IN,NA,RxNorm
+2472778,relugolix,DISPOS,IN,NA,RxNorm
+2473851,margetuximab,DISPOS,IN,NA,RxNorm
+2474340,Clascoterone,DISPOS,IN,NA,RxNorm
+2475077,cabotegravir,DISPOS,IN,NA,RxNorm
+2475166,voclosporin,DISPOS,IN,NA,RxNorm
+2475361,alpha glucosidase,DISPOS,IN,NA,RxNorm
+2477103,tepotinib,DISPOS,IN,NA,RxNorm
+2479690,trilaciclib,DISPOS,IN,NA,RxNorm
+24852,fenofibric acid,DISPOS,PIN,NA,RxNorm
+24853,fenoldopam,DISPOS,IN,NA,RxNorm
+25014009,Tripelennamine-containing product,DISPOS,Concept,NA,SNOMED
+25025,finasteride,DISPOS,IN,NA,RxNorm
+25033,cefixime,DISPOS,IN,NA,RxNorm
+25037,cefdinir,DISPOS,IN,NA,RxNorm
+25085002,Cholecystokinin-containing product,DISPOS,Concept,NA,SNOMED
+25120,flunisolide,DISPOS,IN,NA,RxNorm
+25142008,Trilostane-containing product,DISPOS,Concept,NA,SNOMED
+25246002,Allopurinol-containing product,DISPOS,Concept,NA,SNOMED
+2525,chymopapain,DISPOS,IN,NA,RxNorm
+25255,formoterol,DISPOS,IN,NA,RxNorm
+2530,chymotrypsin,DISPOS,IN,NA,RxNorm
+253149,eptacog alfa activated,DISPOS,PIN,NA,RxNorm
+253181,"insulin isophane, human",DISPOS,PIN,NA,RxNorm
+253182,"insulin, regular, human",DISPOS,IN,NA,RxNorm
+253337,bevacizumab,DISPOS,IN,NA,RxNorm
+2534233,tivozanib,DISPOS,IN,NA,RxNorm
+25357,follitropin beta,DISPOS,IN,NA,RxNorm
+2539967,dostarlimab,DISPOS,IN,NA,RxNorm
+2540,cilastatin,DISPOS,IN,NA,RxNorm
+2541,cimetidine,DISPOS,IN,NA,RxNorm
+25480,gabapentin,DISPOS,IN,NA,RxNorm
+2549,cinnarizine,DISPOS,IN,NA,RxNorm
+2551,ciprofloxacin,DISPOS,IN,NA,RxNorm
+2556,citalopram,DISPOS,IN,NA,RxNorm
+25673006,Omeprazole-containing product,DISPOS,Concept,NA,SNOMED
+2571007,Busulfan-containing product,DISPOS,Concept,NA,SNOMED
+25734,gestodene,DISPOS,IN,NA,RxNorm
+2578,clemastine,DISPOS,IN,NA,RxNorm
+2580,clenbuterol,DISPOS,IN,NA,RxNorm
+258494,exemestane,DISPOS,IN,NA,RxNorm
+2590,clobetasol,DISPOS,IN,NA,RxNorm
+259280,tenecteplase,DISPOS,IN,NA,RxNorm
+259321,"somatropin, E-coli derived",DISPOS,PIN,NA,RxNorm
+2596,clomiphene,DISPOS,IN,NA,RxNorm
+2599,clonidine,DISPOS,IN,NA,RxNorm
+25995007,Triprolidine-containing product,DISPOS,Concept,NA,SNOMED
+260101,oseltamivir,DISPOS,IN,NA,RxNorm
+26122009,Dimethindene-containing product,DISPOS,Concept,NA,SNOMED
+26225,ondansetron,DISPOS,IN,NA,RxNorm
+26237,granisetron,DISPOS,IN,NA,RxNorm
+2625,cloxacillin,DISPOS,IN,NA,RxNorm
+26296,guanadrel,DISPOS,IN,NA,RxNorm
+263034,panitumumab,DISPOS,IN,NA,RxNorm
+26458009,Diphenhydramine-containing product,DISPOS,Concept,NA,SNOMED
+26462003,Cyproheptadine-containing product,DISPOS,Concept,NA,SNOMED
+26503009,Deserpidine-containing product,DISPOS,Concept,NA,SNOMED
+26523005,Dobutamine-containing product,DISPOS,Concept,NA,SNOMED
+26574002,Droperidol-containing product,DISPOS,Concept,NA,SNOMED
+266604,metyrosine,DISPOS,IN,NA,RxNorm
+2670,codeine,DISPOS,IN,NA,RxNorm
+2679000,Oxandrolone-containing product,DISPOS,Concept,NA,SNOMED
+2685,colestipol,DISPOS,IN,NA,RxNorm
+26867,hexocyclium,DISPOS,IN,NA,RxNorm
+2708,colistimethate,DISPOS,PIN,NA,RxNorm
+27084,homatropine,DISPOS,IN,NA,RxNorm
+2709,colistin,DISPOS,IN,NA,RxNorm
+27130,cefpirome,DISPOS,IN,NA,RxNorm
+27169,leflunomide,DISPOS,IN,NA,RxNorm
+27392,tropisetron,DISPOS,IN,NA,RxNorm
+274771,nelarabine,DISPOS,IN,NA,RxNorm
+274783,insulin glargine,DISPOS,IN,NA,RxNorm
+27479000,Zidovudine-containing product,DISPOS,Concept,NA,SNOMED
+275635,desloratadine,DISPOS,IN,NA,RxNorm
+276237,emtricitabine,DISPOS,IN,NA,RxNorm
+27638005,Alteplase-containing product,DISPOS,Concept,NA,SNOMED
+27658006,Amoxicillin-containing product,DISPOS,Concept,NA,SNOMED
+27754002,Piroxicam-containing product,DISPOS,Concept,NA,SNOMED
+278567,valdecoxib,DISPOS,IN,NA,RxNorm
+278739,pegvisomant,DISPOS,IN,NA,RxNorm
+279645,almotriptan,DISPOS,IN,NA,RxNorm
+279950,parecoxib,DISPOS,IN,NA,RxNorm
+28144,emedastine,DISPOS,IN,NA,RxNorm
+28149003,Pentostatin-containing product,DISPOS,Concept,NA,SNOMED
+282357,fulvestrant,DISPOS,IN,NA,RxNorm
+282388,imatinib,DISPOS,IN,NA,RxNorm
+283742,esomeprazole,DISPOS,IN,NA,RxNorm
+283746,tasonermin,DISPOS,IN,NA,RxNorm
+28381,lachesine,DISPOS,IN,NA,RxNorm
+28382,lacidipine,DISPOS,IN,NA,RxNorm
+283821,rasburicase,DISPOS,IN,NA,RxNorm
+283838,darbepoetin alfa,DISPOS,IN,NA,RxNorm
+28415002,Methscopolamine-containing product,DISPOS,Concept,NA,SNOMED
+28439,lamotrigine,DISPOS,IN,NA,RxNorm
+28627,levocabastine,DISPOS,IN,NA,RxNorm
+28656,nafarelin,DISPOS,IN,NA,RxNorm
+2878,cortisone,DISPOS,IN,NA,RxNorm
+288088,cetrimide,DISPOS,IN,NA,RxNorm
+28841002,Ethisterone-containing product,DISPOS,Concept,NA,SNOMED
+28863,lofexidine,DISPOS,IN,NA,RxNorm
+28872,lomefloxacin,DISPOS,IN,NA,RxNorm
+28889,loratadine,DISPOS,IN,NA,RxNorm
+2890,cosyntropin,DISPOS,IN,NA,RxNorm
+28981,loracarbef,DISPOS,IN,NA,RxNorm
+29046,lisinopril,DISPOS,IN,NA,RxNorm
+29058003,Halcinonide-containing product,DISPOS,Concept,NA,SNOMED
+29089004,Mitobronitol-containing product,DISPOS,Concept,NA,SNOMED
+291204,tacalcitol,DISPOS,IN,NA,RxNorm
+29129004,Oxymetazoline-containing product,DISPOS,Concept,NA,SNOMED
+29156002,Mechlorethamine-containing product,DISPOS,Concept,NA,SNOMED
+29175007,Rifampin-containing product,DISPOS,Concept,NA,SNOMED
+29411,mebhydroline,DISPOS,IN,NA,RxNorm
+29439,medrysone,DISPOS,IN,NA,RxNorm
+29439004,Captopril-containing product,DISPOS,Concept,NA,SNOMED
+29523,meprednisone,DISPOS,IN,NA,RxNorm
+29528,mequitazine,DISPOS,IN,NA,RxNorm
+2968,cyclacillin,DISPOS,IN,NA,RxNorm
+29682,methixene,DISPOS,IN,NA,RxNorm
+2977,cyclizine,DISPOS,IN,NA,RxNorm
+2983,cyclofenil,DISPOS,IN,NA,RxNorm
+29840005,Amoxapine-containing product,DISPOS,Concept,NA,SNOMED
+298665,nepafenac,DISPOS,IN,NA,RxNorm
+29877002,Isocarboxazid-containing product,DISPOS,Concept,NA,SNOMED
+298869,eplerenone,DISPOS,IN,NA,RxNorm
+29896003,Betamethasone-containing product,DISPOS,Concept,NA,SNOMED
+299635,alefacept,DISPOS,IN,NA,RxNorm
+29998,ocriplasmin,DISPOS,IN,NA,RxNorm
+30009,miglitol,DISPOS,IN,NA,RxNorm
+3001,cyclopentolate,DISPOS,IN,NA,RxNorm
+3002,cyclophosphamide,DISPOS,IN,NA,RxNorm
+3008,cyclosporine,DISPOS,IN,NA,RxNorm
+30121,moclobemide,DISPOS,IN,NA,RxNorm
+30125,modafinil,DISPOS,IN,NA,RxNorm
+3013,cyproheptadine,DISPOS,IN,NA,RxNorm
+30131,moexipril,DISPOS,IN,NA,RxNorm
+3014,cyproterone,DISPOS,IN,NA,RxNorm
+301542,rosuvastatin,DISPOS,IN,NA,RxNorm
+301739,abarelix,DISPOS,IN,NA,RxNorm
+302285,conivaptan,DISPOS,IN,NA,RxNorm
+302379,omalizumab,DISPOS,IN,NA,RxNorm
+30257,moxonidine,DISPOS,IN,NA,RxNorm
+30317002,Cisapride-containing product,DISPOS,Concept,NA,SNOMED
+3041,cytarabine,DISPOS,IN,NA,RxNorm
+30466001,Clomiphene-containing product,DISPOS,Concept,NA,SNOMED
+304962,arformoterol,DISPOS,IN,NA,RxNorm
+306674,vardenafil,DISPOS,IN,NA,RxNorm
+307296,etoricoxib,DISPOS,IN,NA,RxNorm
+3098,dacarbazine,DISPOS,IN,NA,RxNorm
+30988006,Dienestrol-containing product,DISPOS,Concept,NA,SNOMED
+3102,danazol,DISPOS,IN,NA,RxNorm
+31087008,Ampicillin-containing product,DISPOS,Concept,NA,SNOMED
+3109,daunorubicin,DISPOS,IN,NA,RxNorm
+312063004,Human fibrinogen-containing product,DISPOS,Concept,NA,SNOMED
+3127006,Fluorouracil-containing product,DISPOS,Concept,NA,SNOMED
+31306009,Quinidine-containing product,DISPOS,Concept,NA,SNOMED
+3131,deferoxamine,DISPOS,IN,NA,RxNorm
+3143,prasterone,DISPOS,IN,NA,RxNorm
+31435,valrubicin,DISPOS,IN,NA,RxNorm
+31447,nabilone,DISPOS,IN,NA,RxNorm
+31448,nabumetone,DISPOS,IN,NA,RxNorm
+31479,nalmefene,DISPOS,IN,NA,RxNorm
+314845,somatropin (recombinant DNA origin),DISPOS,PIN,NA,RxNorm
+31555,nebivolol,DISPOS,IN,NA,RxNorm
+31563,nedocromil,DISPOS,IN,NA,RxNorm
+31565,nefazodone,DISPOS,IN,NA,RxNorm
+31684002,Buprenorphine-containing product,DISPOS,Concept,NA,SNOMED
+31690003,Bethanechol-containing product,DISPOS,Concept,NA,SNOMED
+31692006,Pentamidine-containing product,DISPOS,Concept,NA,SNOMED
+317235,"insulin isophane, beef",DISPOS,PIN,NA,RxNorm
+317317009,Pantoprazole-containing product,DISPOS,Concept,NA,SNOMED
+317331009,Esomeprazole-containing product,DISPOS,Concept,NA,SNOMED
+31748,nicorandil,DISPOS,IN,NA,RxNorm
+31782,nifuroxazide,DISPOS,IN,NA,RxNorm
+31805,nilutamide,DISPOS,IN,NA,RxNorm
+318053000,Potassium canrenoate-containing product,DISPOS,Concept,NA,SNOMED
+318341,cetuximab,DISPOS,IN,NA,RxNorm
+318638009,Nebivolol-containing product,DISPOS,Concept,NA,SNOMED
+318706009,Moxonidine-containing product,DISPOS,Concept,NA,SNOMED
+318913001,Cilazapril-containing product,DISPOS,Concept,NA,SNOMED
+318990002,Eprosartan-containing product,DISPOS,Concept,NA,SNOMED
+31914,tiagabine,DISPOS,IN,NA,RxNorm
+319206000,Lidoflazine-containing product,DISPOS,Concept,NA,SNOMED
+319299000,Lacidipine-containing product,DISPOS,Concept,NA,SNOMED
+319304004,Nicorandil-containing product,DISPOS,Concept,NA,SNOMED
+319318006,Mibefradil-containing product,DISPOS,Concept,NA,SNOMED
+319442006,Moxisylyte-containing product,DISPOS,Concept,NA,SNOMED
+319452005,Iloprost-containing product,DISPOS,Concept,NA,SNOMED
+319661002,Ancrod-containing product,DISPOS,Concept,NA,SNOMED
+319718008,Desirudin-containing product,DISPOS,Concept,NA,SNOMED
+319810009,Streptokinase-containing product,DISPOS,Concept,NA,SNOMED
+319826005,Urokinase-containing product,DISPOS,Concept,NA,SNOMED
+319918003,Coagulation factor VIIa-containing product,DISPOS,Concept,NA,SNOMED
+31994,norgestimate,DISPOS,IN,NA,RxNorm
+320067009,Enoximone-containing product,DISPOS,Concept,NA,SNOMED
+320747007,Mebhydrolin-containing product,DISPOS,Concept,NA,SNOMED
+320756004,Mequitazine-containing product,DISPOS,Concept,NA,SNOMED
+320759006,Oxatomide-containing product,DISPOS,Concept,NA,SNOMED
+320813002,Acrivastine-containing product,DISPOS,Concept,NA,SNOMED
+320830000,Mizolastine-containing product,DISPOS,Concept,NA,SNOMED
+320883008,Montelukast-containing product,DISPOS,Concept,NA,SNOMED
+320972003,Pholcodine-containing product,DISPOS,Concept,NA,SNOMED
+3210,deoxyribonucleases,DISPOS,IN,NA,RxNorm
+321064,olmesartan,DISPOS,IN,NA,RxNorm
+321208,fondaparinux,DISPOS,IN,NA,RxNorm
+321506004,Sulpiride-containing product,DISPOS,Concept,NA,SNOMED
+321911007,Moclobemide-containing product,DISPOS,Concept,NA,SNOMED
+321952,pimecrolimus,DISPOS,IN,NA,RxNorm
+321958004,Sertraline-containing product,DISPOS,Concept,NA,SNOMED
+321963000,Paroxetine-containing product,DISPOS,Concept,NA,SNOMED
+321986007,Citalopram-containing product,DISPOS,Concept,NA,SNOMED
+321988,escitalopram,DISPOS,IN,NA,RxNorm
+322047008,Dexfenfluramine-containing product,DISPOS,Concept,NA,SNOMED
+322124005,Nabilone-containing product,DISPOS,Concept,NA,SNOMED
+322167,solifenacin,DISPOS,IN,NA,RxNorm
+322201005,Tropisetron-containing product,DISPOS,Concept,NA,SNOMED
+3226,dequalinium,DISPOS,IN,NA,RxNorm
+322817007,Tolfenamic acid-containing product,DISPOS,Concept,NA,SNOMED
+322822007,Sumatriptan-containing product,DISPOS,Concept,NA,SNOMED
+322976008,Vigabatrin-containing product,DISPOS,Concept,NA,SNOMED
+32301,octoxynol,DISPOS,IN,NA,RxNorm
+32311,octylonium,DISPOS,IN,NA,RxNorm
+323260004,Tetrabenazine-containing product,DISPOS,Concept,NA,SNOMED
+323283001,Nicotine-containing product,DISPOS,Concept,NA,SNOMED
+323368009,Rivastigmine-containing product,DISPOS,Concept,NA,SNOMED
+323377002,Galantamine-containing product,DISPOS,Concept,NA,SNOMED
+324072,dimethicone,DISPOS,IN,NA,RxNorm
+324757004,Inosine pranobex-containing product,DISPOS,Concept,NA,SNOMED
+3251,desmopressin,DISPOS,IN,NA,RxNorm
+325561002,Quinestradol-containing product,DISPOS,Concept,NA,SNOMED
+325567003,Tibolone-containing product,DISPOS,Concept,NA,SNOMED
+325584009,Allylestrenol-containing product,DISPOS,Concept,NA,SNOMED
+3256,desoxycorticosterone,DISPOS,IN,NA,RxNorm
+325646,aliskiren,DISPOS,IN,NA,RxNorm
+325778008,Cyclofenil-containing product,DISPOS,Concept,NA,SNOMED
+325781003,Pituitary follicle stimulating hormone-containing product,DISPOS,Concept,NA,SNOMED
+325824002,Cosyntropin-containing product,DISPOS,Concept,NA,SNOMED
+325887,micafungin,DISPOS,IN,NA,RxNorm
+325927008,Terlipressin-containing product,DISPOS,Concept,NA,SNOMED
+325995009,Gonadorelin-containing product,DISPOS,Concept,NA,SNOMED
+326013007,Thyrotrophin-containing product,DISPOS,Concept,NA,SNOMED
+326053005,Rosiglitazone-containing product,DISPOS,Concept,NA,SNOMED
+326058001,Pioglitazone-containing product,DISPOS,Concept,NA,SNOMED
+326066005,Quinagolide-containing product,DISPOS,Concept,NA,SNOMED
+326083001,Cetrorelix-containing product,DISPOS,Concept,NA,SNOMED
+326088005,Ganirelix-containing product,DISPOS,Concept,NA,SNOMED
+326166008,Atosiban-containing product,DISPOS,Concept,NA,SNOMED
+32624,oxcarbazepine,DISPOS,IN,NA,RxNorm
+326328004,Lynestrenol-containing product,DISPOS,Concept,NA,SNOMED
+326374,norelgestromin,DISPOS,IN,NA,RxNorm
+3264,dexamethasone,DISPOS,IN,NA,RxNorm
+326451000,Etonogestrel-containing product,DISPOS,Concept,NA,SNOMED
+32647002,Ergotamine-containing product,DISPOS,Concept,NA,SNOMED
+326485004,Octoxinol-containing product,DISPOS,Concept,NA,SNOMED
+32649,oxitropium,DISPOS,IN,NA,RxNorm
+326748008,Etoglucid-containing product,DISPOS,Concept,NA,SNOMED
+32675,oxybutynin,DISPOS,IN,NA,RxNorm
+326774002,Treosulfan-containing product,DISPOS,Concept,NA,SNOMED
+3268,dexfenfluramine,DISPOS,IN,NA,RxNorm
+326830005,Aclarubicin-containing product,DISPOS,Concept,NA,SNOMED
+326914003,Raltitrexed-containing product,DISPOS,Concept,NA,SNOMED
+327074002,Antilymphocyte immunoglobulin-containing product,DISPOS,Concept,NA,SNOMED
+327112008,Molgramostim-containing product,DISPOS,Concept,NA,SNOMED
+327123007,Lenograstim-containing product,DISPOS,Concept,NA,SNOMED
+327301004,Buserelin-containing product,DISPOS,Concept,NA,SNOMED
+327361,adalimumab,DISPOS,IN,NA,RxNorm
+327363004,Formestane-containing product,DISPOS,Concept,NA,SNOMED
+327370004,Triptorelin-containing product,DISPOS,Concept,NA,SNOMED
+327379003,Lanreotide-containing product,DISPOS,Concept,NA,SNOMED
+327397006,Trastuzumab-containing product,DISPOS,Concept,NA,SNOMED
+327623006,Epoetin beta-containing product,DISPOS,Concept,NA,SNOMED
+328134,gefitinib,DISPOS,IN,NA,RxNorm
+3289,dextromethorphan,DISPOS,IN,NA,RxNorm
+3290,dextromoramide,DISPOS,IN,NA,RxNorm
+32915,teriparatide,DISPOS,IN,NA,RxNorm
+329195003,Sevelamer-containing product,DISPOS,Concept,NA,SNOMED
+32937,paroxetine,DISPOS,IN,NA,RxNorm
+329482000,Deferiprone-containing product,DISPOS,Concept,NA,SNOMED
+32955006,Domperidone-containing product,DISPOS,Concept,NA,SNOMED
+32968,clopidogrel,DISPOS,IN,NA,RxNorm
+329961001,Dexketoprofen-containing product,DISPOS,Concept,NA,SNOMED
+330151006,Deoxyribonuclease-containing product,DISPOS,Concept,NA,SNOMED
+3304,heroin,DISPOS,IN,NA,RxNorm
+330870004,Apraclonidine-containing product,DISPOS,Concept,NA,SNOMED
+332214000,Tacalcitol-containing product,DISPOS,Concept,NA,SNOMED
+33277,phenethicillin,DISPOS,IN,NA,RxNorm
+332799007,Nitrofurazone-containing product,DISPOS,Concept,NA,SNOMED
+33283,phenindamine,DISPOS,IN,NA,RxNorm
+333179001,Cetrimide-containing product,DISPOS,Concept,NA,SNOMED
+3334000,Cefotaxime-containing product,DISPOS,Concept,NA,SNOMED
+333847008,Ketamine-containing product,DISPOS,Concept,NA,SNOMED
+33408,phenyltoloxamine,DISPOS,IN,NA,RxNorm
+33431,pholcodine,DISPOS,IN,NA,RxNorm
+3353,dichlorphenamide,DISPOS,IN,NA,RxNorm
+3356,dicloxacillin,DISPOS,IN,NA,RxNorm
+3361,dicyclomine,DISPOS,IN,NA,RxNorm
+3363,zalcitabine,DISPOS,IN,NA,RxNorm
+3364,didanosine,DISPOS,IN,NA,RxNorm
+33664007,Acetazolamide-containing product,DISPOS,Concept,NA,SNOMED
+33675006,Carbachol-containing product,DISPOS,Concept,NA,SNOMED
+3368,dienestrol,DISPOS,IN,NA,RxNorm
+33738,pioglitazone,DISPOS,IN,NA,RxNorm
+33743,pipenzolate,DISPOS,IN,NA,RxNorm
+33747,estropipate,DISPOS,IN,NA,RxNorm
+337523,ixabepilone,DISPOS,IN,NA,RxNorm
+337525,erlotinib,DISPOS,IN,NA,RxNorm
+337623,dornase alfa,DISPOS,IN,NA,RxNorm
+33767,pirbuterol,DISPOS,IN,NA,RxNorm
+338817,agalsidase beta,DISPOS,IN,NA,RxNorm
+3390,diethylstilbestrol,DISPOS,IN,NA,RxNorm
+33910,isradipine,DISPOS,IN,NA,RxNorm
+33926,poldine,DISPOS,IN,NA,RxNorm
+3403,digitoxin,DISPOS,IN,NA,RxNorm
+340705,human chorionic gonadotropin,DISPOS,PIN,NA,RxNorm
+341018,anidulafungin,DISPOS,IN,NA,RxNorm
+34119,polyestradiol,DISPOS,IN,NA,RxNorm
+3423,hydromorphone,DISPOS,IN,NA,RxNorm
+342369,lenalidomide,DISPOS,IN,NA,RxNorm
+343047,atazanavir,DISPOS,IN,NA,RxNorm
+343048,treprostinil,DISPOS,IN,NA,RxNorm
+34345,pralidoxime,DISPOS,IN,NA,RxNorm
+3443,diltiazem,DISPOS,IN,NA,RxNorm
+3444,dimenhydrinate,DISPOS,IN,NA,RxNorm
+3445,dimercaprol,DISPOS,IN,NA,RxNorm
+3446,succimer,DISPOS,IN,NA,RxNorm
+3449,dimethindene,DISPOS,IN,NA,RxNorm
+34625,promestriene,DISPOS,IN,NA,RxNorm
+346530008,Interferon alfa-n1-containing product,DISPOS,Concept,NA,SNOMED
+34693000,Zalcitabine-containing product,DISPOS,Concept,NA,SNOMED
+34731007,Carbenicillin-containing product,DISPOS,Concept,NA,SNOMED
+34929006,Benzethonium-containing product,DISPOS,Concept,NA,SNOMED
+3498,diphenhydramine,DISPOS,IN,NA,RxNorm
+349802000,Pirenzepine-containing product,DISPOS,Concept,NA,SNOMED
+349848009,Epirubicin-containing product,DISPOS,Concept,NA,SNOMED
+349894007,Lisuride-containing product,DISPOS,Concept,NA,SNOMED
+349900007,Betaxolol-containing product,DISPOS,Concept,NA,SNOMED
+349901006,Celiprolol-containing product,DISPOS,Concept,NA,SNOMED
+349903009,Levobunolol-containing product,DISPOS,Concept,NA,SNOMED
+349912006,Alfuzosin-containing product,DISPOS,Concept,NA,SNOMED
+349913001,Indoramin-containing product,DISPOS,Concept,NA,SNOMED
+349922000,Dopexamine-containing product,DISPOS,Concept,NA,SNOMED
+349923005,Bambuterol-containing product,DISPOS,Concept,NA,SNOMED
+349924004,Fenoterol-containing product,DISPOS,Concept,NA,SNOMED
+349925003,Reproterol-containing product,DISPOS,Concept,NA,SNOMED
+349926002,Rimiterol-containing product,DISPOS,Concept,NA,SNOMED
+349929009,Tulobuterol-containing product,DISPOS,Concept,NA,SNOMED
+349934008,Lofexidine-containing product,DISPOS,Concept,NA,SNOMED
+349941002,Xamoterol-containing product,DISPOS,Concept,NA,SNOMED
+349943004,Distigmine-containing product,DISPOS,Concept,NA,SNOMED
+349953003,Oxitropium-containing product,DISPOS,Concept,NA,SNOMED
+349958007,Cinnarizine-containing product,DISPOS,Concept,NA,SNOMED
+349962001,Pyrilamine-containing product,DISPOS,Concept,NA,SNOMED
+349963006,Pizotyline-containing product,DISPOS,Concept,NA,SNOMED
+350076000,Edetate-containing product,DISPOS,Concept,NA,SNOMED
+350135006,Moxalactam-containing product,DISPOS,Concept,NA,SNOMED
+350274005,Dequalinium-containing product,DISPOS,Concept,NA,SNOMED
+350306009,Phenoperidine-containing product,DISPOS,Concept,NA,SNOMED
+350324006,Nefopam-containing product,DISPOS,Concept,NA,SNOMED
+35035001,Orphenadrine-containing product,DISPOS,Concept,NA,SNOMED
+350364005,Leuprorelin-containing product,DISPOS,Concept,NA,SNOMED
+350598002,Moricizine-containing product,DISPOS,Concept,NA,SNOMED
+350607006,Trimethaphan-containing product,DISPOS,Concept,NA,SNOMED
+350622001,Dihydroergocornine- and dihydroergocristine- and dihydroergocryptine-containing product,DISPOS,Concept,NA,SNOMED
+35208,quinapril,DISPOS,IN,NA,RxNorm
+3521,dipyridamole,DISPOS,IN,NA,RxNorm
+35215,quinestradol,DISPOS,IN,NA,RxNorm
+3523,dipyrone,DISPOS,IN,NA,RxNorm
+352374,drotrecogin alfa,DISPOS,IN,NA,RxNorm
+35255,cisapride,DISPOS,IN,NA,RxNorm
+35296,ramipril,DISPOS,IN,NA,RxNorm
+35300007,Daunorubicin-containing product,DISPOS,Concept,NA,SNOMED
+35302,sirolimus,DISPOS,IN,NA,RxNorm
+353497,levobetaxolol,DISPOS,IN,NA,RxNorm
+35373,reproterol,DISPOS,IN,NA,RxNorm
+354038002,Ketotifen-containing product,DISPOS,Concept,NA,SNOMED
+354050008,Estriol-containing product,DISPOS,Concept,NA,SNOMED
+354051007,Strychnine-containing product,DISPOS,Concept,NA,SNOMED
+354055003,Meptazinol-containing product,DISPOS,Concept,NA,SNOMED
+354056002,Papaveretum-containing product,DISPOS,Concept,NA,SNOMED
+3541,disopyramide,DISPOS,IN,NA,RxNorm
+354770,natalizumab,DISPOS,IN,NA,RxNorm
+3551,distigmine,DISPOS,IN,NA,RxNorm
+3554,disulfiram,DISPOS,IN,NA,RxNorm
+35616,rifamycin SV,DISPOS,IN,NA,RxNorm
+35617,rifapentine,DISPOS,IN,NA,RxNorm
+35619,rifaximin,DISPOS,IN,NA,RxNorm
+35623,riluzole,DISPOS,IN,NA,RxNorm
+356834,deracoxib,DISPOS,IN,NA,RxNorm
+356862006,Lercanidipine-containing product,DISPOS,Concept,NA,SNOMED
+356887,levocetirizine,DISPOS,IN,NA,RxNorm
+356988,efalizumab,DISPOS,IN,NA,RxNorm
+35768004,Oxybutynin-containing product,DISPOS,Concept,NA,SNOMED
+357977,sunitinib,DISPOS,IN,NA,RxNorm
+35825,ganirelix,DISPOS,IN,NA,RxNorm
+358255,aprepitant,DISPOS,IN,NA,RxNorm
+358257,tolvaptan,DISPOS,IN,NA,RxNorm
+358258,bortezomib,DISPOS,IN,NA,RxNorm
+358262,fosamprenavir,DISPOS,IN,NA,RxNorm
+358263,tadalafil,DISPOS,IN,NA,RxNorm
+35827,ketorolac,DISPOS,IN,NA,RxNorm
+358274,ambrisentan,DISPOS,IN,NA,RxNorm
+35829,ranolazine,DISPOS,IN,NA,RxNorm
+359380005,Trospium-containing product,DISPOS,Concept,NA,SNOMED
+36117,salmeterol,DISPOS,IN,NA,RxNorm
+3616,dobutamine,DISPOS,IN,NA,RxNorm
+3626,domperidone,DISPOS,IN,NA,RxNorm
+3628,dopamine,DISPOS,IN,NA,RxNorm
+3638,doxepin,DISPOS,IN,NA,RxNorm
+3639,doxorubicin,DISPOS,IN,NA,RxNorm
+3642,doxylamine,DISPOS,IN,NA,RxNorm
+36437,sertraline,DISPOS,IN,NA,RxNorm
+3648,droperidol,DISPOS,IN,NA,RxNorm
+36514,sibutramine,DISPOS,IN,NA,RxNorm
+36537006,Ambenonium-containing product,DISPOS,Concept,NA,SNOMED
+36567,simvastatin,DISPOS,IN,NA,RxNorm
+36621009,Medroxyprogesterone-containing product,DISPOS,Concept,NA,SNOMED
+36642006,Propantheline-containing product,DISPOS,Concept,NA,SNOMED
+36893000,Ceftazidime-containing product,DISPOS,Concept,NA,SNOMED
+3690,pentetic acid,DISPOS,PIN,NA,RxNorm
+36909007,Phenindamine-containing product,DISPOS,Concept,NA,SNOMED
+370187009,Celecoxib-containing product,DISPOS,Concept,NA,SNOMED
+370233009,Dezocine-containing product,DISPOS,Concept,NA,SNOMED
+370266008,Oxymorphone-containing product,DISPOS,Concept,NA,SNOMED
+370275005,Sufentanil-containing product,DISPOS,Concept,NA,SNOMED
+370337008,Cephapirin-containing product,DISPOS,Concept,NA,SNOMED
+370353006,Cefonicid-containing product,DISPOS,Concept,NA,SNOMED
+370355004,Cefotetan-containing product,DISPOS,Concept,NA,SNOMED
+370362008,Loracarbef-containing product,DISPOS,Concept,NA,SNOMED
+370366006,Cefdinir-containing product,DISPOS,Concept,NA,SNOMED
+370371004,Cefepime-containing product,DISPOS,Concept,NA,SNOMED
+370400001,Cefditoren-containing product,DISPOS,Concept,NA,SNOMED
+3706,dydrogesterone,DISPOS,IN,NA,RxNorm
+371238005,Gatifloxacin-containing product,DISPOS,Concept,NA,SNOMED
+371296007,Moxifloxacin-containing product,DISPOS,Concept,NA,SNOMED
+371322001,Trovafloxacin-containing product,DISPOS,Concept,NA,SNOMED
+37418,sumatriptan,DISPOS,IN,NA,RxNorm
+3752,edrophonium,DISPOS,IN,NA,RxNorm
+37617,tazobactam,DISPOS,IN,NA,RxNorm
+37628007,Cephalothin-containing product,DISPOS,Concept,NA,SNOMED
+37771,temafloxacin,DISPOS,IN,NA,RxNorm
+37775,temocillin,DISPOS,IN,NA,RxNorm
+37776,temozolomide,DISPOS,IN,NA,RxNorm
+37798,terazosin,DISPOS,IN,NA,RxNorm
+37803001,Tubocurarine-containing product,DISPOS,Concept,NA,SNOMED
+37925,orlistat,DISPOS,IN,NA,RxNorm
+3816,emepronium,DISPOS,IN,NA,RxNorm
+38221,thymalfasin,DISPOS,IN,NA,RxNorm
+38260,tibolone,DISPOS,IN,NA,RxNorm
+38268001,Ibuprofen-containing product,DISPOS,Concept,NA,SNOMED
+3827,enalapril,DISPOS,IN,NA,RxNorm
+3829,enalaprilat,DISPOS,IN,NA,RxNorm
+38377,tolfenamic acid,DISPOS,IN,NA,RxNorm
+38400,atomoxetine,DISPOS,IN,NA,RxNorm
+38404,topiramate,DISPOS,IN,NA,RxNorm
+38409,toremifene,DISPOS,IN,NA,RxNorm
+38453,tramazoline,DISPOS,IN,NA,RxNorm
+38454,trandolapril,DISPOS,IN,NA,RxNorm
+38508,treosulfan,DISPOS,IN,NA,RxNorm
+385540001,Olmesartan-containing product,DISPOS,Concept,NA,SNOMED
+385558007,Bosentan-containing product,DISPOS,Concept,NA,SNOMED
+385567007,Drotrecogin alfa-containing product,DISPOS,Concept,NA,SNOMED
+385570006,Dutasteride-containing product,DISPOS,Concept,NA,SNOMED
+385581009,Pimecrolimus-containing product,DISPOS,Concept,NA,SNOMED
+385583007,Valdecoxib-containing product,DISPOS,Concept,NA,SNOMED
+385610007,Darbepoetin alfa-containing product,DISPOS,Concept,NA,SNOMED
+385680000,Nesiritide-containing product,DISPOS,Concept,NA,SNOMED
+385682008,Treprostinil-containing product,DISPOS,Concept,NA,SNOMED
+38578004,Megestrol-containing product,DISPOS,Concept,NA,SNOMED
+385997009,Nitisinone-containing product,DISPOS,Concept,NA,SNOMED
+386024001,Lovastatin-containing product,DISPOS,Concept,NA,SNOMED
+386046009,Miglitol-containing product,DISPOS,Concept,NA,SNOMED
+386107009,Carbidopa-containing product,DISPOS,Concept,NA,SNOMED
+386142008,Oseltamivir-containing product,DISPOS,Concept,NA,SNOMED
+386155009,Delavirdine-containing product,DISPOS,Concept,NA,SNOMED
+386171009,Formoterol-containing product,DISPOS,Concept,NA,SNOMED
+386180009,Zileuton-containing product,DISPOS,Concept,NA,SNOMED
+386181008,Isoetharine-containing product,DISPOS,Concept,NA,SNOMED
+38623,triethanolamine,DISPOS,IN,NA,RxNorm
+386640004,Gemtuzumab ozogamicin-containing product,DISPOS,Concept,NA,SNOMED
+38668,trilostane,DISPOS,IN,NA,RxNorm
+38685,trimethobenzamide,DISPOS,IN,NA,RxNorm
+386938,follitropin alfa,DISPOS,IN,NA,RxNorm
+38782,triptorelin,DISPOS,IN,NA,RxNorm
+388084,lutropin alfa,DISPOS,IN,NA,RxNorm
+388375003,Sargramostim-containing product,DISPOS,Concept,NA,SNOMED
+388452006,Insulin aspart-containing product,DISPOS,Concept,NA,SNOMED
+388454007,Insulin lispro-containing product,DISPOS,Concept,NA,SNOMED
+38967,tulobuterol,DISPOS,IN,NA,RxNorm
+38998,tyloxapol,DISPOS,IN,NA,RxNorm
+39128000,Famotidine-containing product,DISPOS,Concept,NA,SNOMED
+391595003,Levocetirizine-containing product,DISPOS,Concept,NA,SNOMED
+391621007,Lutropin alfa-containing product,DISPOS,Concept,NA,SNOMED
+391632007,Alemtuzumab-containing product,DISPOS,Concept,NA,SNOMED
+391634008,Imatinib-containing product,DISPOS,Concept,NA,SNOMED
+391653003,Agalsidase beta-containing product,DISPOS,Concept,NA,SNOMED
+391874000,Protein C-containing product,DISPOS,Concept,NA,SNOMED
+3925,enoxacin,DISPOS,IN,NA,RxNorm
+392575007,Methazolamide-containing product,DISPOS,Concept,NA,SNOMED
+392658005,Dofetilide-containing product,DISPOS,Concept,NA,SNOMED
+39359008,Penicillin V-containing product,DISPOS,Concept,NA,SNOMED
+39516004,Disulfiram-containing product,DISPOS,Concept,NA,SNOMED
+395236007,Fondaparinux-containing product,DISPOS,Concept,NA,SNOMED
+395239000,Cilostazol-containing product,DISPOS,Concept,NA,SNOMED
+395246009,Escitalopram-containing product,DISPOS,Concept,NA,SNOMED
+395255007,Eletriptan-containing product,DISPOS,Concept,NA,SNOMED
+395264002,Tenofovir-containing product,DISPOS,Concept,NA,SNOMED
+395275003,Drospirenone-containing product,DISPOS,Concept,NA,SNOMED
+395279009,Anakinra-containing product,DISPOS,Concept,NA,SNOMED
+395289008,Parecoxib-containing product,DISPOS,Concept,NA,SNOMED
+395292007,Etoricoxib-containing product,DISPOS,Concept,NA,SNOMED
+39541,vinorelbine,DISPOS,IN,NA,RxNorm
+39608003,Pentazocine-containing product,DISPOS,Concept,NA,SNOMED
+3966,ephedrine,DISPOS,IN,NA,RxNorm
+39684,epinastine,DISPOS,IN,NA,RxNorm
+397224000,Succimer-containing product,DISPOS,Concept,NA,SNOMED
+397225004,Tiopronin-containing product,DISPOS,Concept,NA,SNOMED
+397422004,Cefmetazole-containing product,DISPOS,Concept,NA,SNOMED
+39786,venlafaxine,DISPOS,IN,NA,RxNorm
+39801,xamoterol,DISPOS,IN,NA,RxNorm
+39841,xylometazoline,DISPOS,IN,NA,RxNorm
+398627003,Suprofen-containing product,DISPOS,Concept,NA,SNOMED
+398674007,Yohimbine-containing product,DISPOS,Concept,NA,SNOMED
+398685009,Gefitinib-containing product,DISPOS,Concept,NA,SNOMED
+398689003,Crisantaspase-containing product,DISPOS,Concept,NA,SNOMED
+398690007,Aprepitant-containing product,DISPOS,Concept,NA,SNOMED
+398699008,Eplerenone-containing product,DISPOS,Concept,NA,SNOMED
+398728003,Adalimumab-containing product,DISPOS,Concept,NA,SNOMED
+398738008,Argatroban-containing product,DISPOS,Concept,NA,SNOMED
+398823001,Teriparatide-containing product,DISPOS,Concept,NA,SNOMED
+398849006,Chymopapain-containing product,DISPOS,Concept,NA,SNOMED
+398857009,Alefacept-containing product,DISPOS,Concept,NA,SNOMED
+398881002,Denileukin diftitox-containing product,DISPOS,Concept,NA,SNOMED
+398882009,Propylhexedrine-containing product,DISPOS,Concept,NA,SNOMED
+398902008,Enfuvirtide-containing product,DISPOS,Concept,NA,SNOMED
+398907002,Bortezomib-containing product,DISPOS,Concept,NA,SNOMED
+398916003,Sulbactam-containing product,DISPOS,Concept,NA,SNOMED
+398923002,Alpha-glucosidase-containing product,DISPOS,Concept,NA,SNOMED
+398929003,Masoprocol-containing product,DISPOS,Concept,NA,SNOMED
+398965008,Levalbuterol-containing product,DISPOS,Concept,NA,SNOMED
+3992,epinephrine,DISPOS,IN,NA,RxNorm
+39939003,Phenyltoloxamine-containing product,DISPOS,Concept,NA,SNOMED
+3995,epirubicin,DISPOS,IN,NA,RxNorm
+39990,zofenopril,DISPOS,IN,NA,RxNorm
+39993,zolpidem,DISPOS,IN,NA,RxNorm
+400008,"insulin glulisine, human",DISPOS,IN,NA,RxNorm
+40028,anistreplase,DISPOS,IN,NA,RxNorm
+400416009,Capsaicin-containing product,DISPOS,Concept,NA,SNOMED
+400610005,Bivalirudin-containing product,DISPOS,Concept,NA,SNOMED
+400614001,Papain-containing product,DISPOS,Concept,NA,SNOMED
+400864005,Chlorotrianisene-containing product,DISPOS,Concept,NA,SNOMED
+40114,guanfacine,DISPOS,IN,NA,RxNorm
+40138,iloprost,DISPOS,IN,NA,RxNorm
+40169,moricizine,DISPOS,IN,NA,RxNorm
+402316,miglustat,DISPOS,IN,NA,RxNorm
+4024,"ergoloid mesylates, USP",DISPOS,IN,NA,RxNorm
+4025,ergotamine,DISPOS,IN,NA,RxNorm
+404827006,Tyrothricin-containing product,DISPOS,Concept,NA,SNOMED
+404845006,Fulvestrant-containing product,DISPOS,Concept,NA,SNOMED
+404851001,Palonosetron-containing product,DISPOS,Concept,NA,SNOMED
+404855005,Emtricitabine-containing product,DISPOS,Concept,NA,SNOMED
+404866003,Nilutamide-containing product,DISPOS,Concept,NA,SNOMED
+404867007,Norelgestromin-containing product,DISPOS,Concept,NA,SNOMED
+404875001,Sacrosidase-containing product,DISPOS,Concept,NA,SNOMED
+404878004,Thalidomide-containing product,DISPOS,Concept,NA,SNOMED
+40556005,Phenytoin-containing product,DISPOS,Concept,NA,SNOMED
+40575,zileuton,DISPOS,IN,NA,RxNorm
+406442003,Omalizumab-containing product,DISPOS,Concept,NA,SNOMED
+406457005,Memantine-containing product,DISPOS,Concept,NA,SNOMED
+40648001,Fentanyl-containing product,DISPOS,Concept,NA,SNOMED
+407006005,Efalizumab-containing product,DISPOS,Concept,NA,SNOMED
+407018001,Fosamprenavir-containing product,DISPOS,Concept,NA,SNOMED
+407031006,Solifenacin-containing product,DISPOS,Concept,NA,SNOMED
+407033009,Duloxetine-containing product,DISPOS,Concept,NA,SNOMED
+407038000,Atomoxetine-containing product,DISPOS,Concept,NA,SNOMED
+407069001,Epinastine-containing product,DISPOS,Concept,NA,SNOMED
+407087003,Gemifloxacin-containing product,DISPOS,Concept,NA,SNOMED
+407129000,Abarelix-containing product,DISPOS,Concept,NA,SNOMED
+407730002,Tiotropium-containing product,DISPOS,Concept,NA,SNOMED
+407732005,Caspofungin-containing product,DISPOS,Concept,NA,SNOMED
+407733000,Thyrotropin alfa-containing product,DISPOS,Concept,NA,SNOMED
+407734006,Tadalafil-containing product,DISPOS,Concept,NA,SNOMED
+40790,pantoprazole,DISPOS,IN,NA,RxNorm
+407979001,Vardenafil-containing product,DISPOS,Concept,NA,SNOMED
+407990,cinacalcet,DISPOS,IN,NA,RxNorm
+408044003,Miglustat-containing product,DISPOS,Concept,NA,SNOMED
+4083,estradiol,DISPOS,IN,NA,RxNorm
+4089,estramustine,DISPOS,IN,NA,RxNorm
+40905005,Beractant-containing product,DISPOS,Concept,NA,SNOMED
+409138007,Fenoldopam-containing product,DISPOS,Concept,NA,SNOMED
+409148009,Alosetron-containing product,DISPOS,Concept,NA,SNOMED
+409204008,Pegvisomant-containing product,DISPOS,Concept,NA,SNOMED
+409278007,Levobetaxolol-containing product,DISPOS,Concept,NA,SNOMED
+409285006,Cevimeline-containing product,DISPOS,Concept,NA,SNOMED
+409331009,Mycophenolic acid-containing product,DISPOS,Concept,NA,SNOMED
+409376009,Calfactant-containing product,DISPOS,Concept,NA,SNOMED
+409391006,Cinacalcet-containing product,DISPOS,Concept,NA,SNOMED
+4094,estriol,DISPOS,IN,NA,RxNorm
+409401002,Cetuximab-containing product,DISPOS,Concept,NA,SNOMED
+409405006,Bevacizumab-containing product,DISPOS,Concept,NA,SNOMED
+409482006,Levomethadyl-containing product,DISPOS,Concept,NA,SNOMED
+40974005,Dipipanone-containing product,DISPOS,Concept,NA,SNOMED
+4099,"estrogens, conjugated (USP)",DISPOS,IN,NA,RxNorm
+40999006,Lomustine-containing product,DISPOS,Concept,NA,SNOMED
+41015006,Metaraminol-containing product,DISPOS,Concept,NA,SNOMED
+4103,estrone,DISPOS,IN,NA,RxNorm
+410831004,Rifapentine-containing product,DISPOS,Concept,NA,SNOMED
+4109,ethacrynic acid,DISPOS,PIN,NA,RxNorm
+410931003,Tazobactam-containing product,DISPOS,Concept,NA,SNOMED
+411089001,Pemetrexed-containing product,DISPOS,Concept,NA,SNOMED
+411266003,Triethanolamine-containing product,DISPOS,Concept,NA,SNOMED
+41127,fluvastatin,DISPOS,IN,NA,RxNorm
+411532008,Insulin glulisine-containing product,DISPOS,Concept,NA,SNOMED
+412021002,Ovine hyaluronidase-containing product,DISPOS,Concept,NA,SNOMED
+412073001,Adefovir-containing product,DISPOS,Concept,NA,SNOMED
+412126005,Human chorionic gonadotropin-containing product,DISPOS,Concept,NA,SNOMED
+412219004,Isophane insulin-containing product,DISPOS,Concept,NA,SNOMED
+412251003,Muromonab-CD3-containing product,DISPOS,Concept,NA,SNOMED
+412318009,Clavulanic acid-containing product,DISPOS,Concept,NA,SNOMED
+412329008,Azacitidine-containing product,DISPOS,Concept,NA,SNOMED
+412380009,Doxylamine-containing product,DISPOS,Concept,NA,SNOMED
+4124,ethinyl estradiol,DISPOS,IN,NA,RxNorm
+412412006,Inamrinone-containing product,DISPOS,Concept,NA,SNOMED
+412496008,Protirelin-containing product,DISPOS,Concept,NA,SNOMED
+412554007,Rifaximin-containing product,DISPOS,Concept,NA,SNOMED
+4126,amifostine,DISPOS,IN,NA,RxNorm
+4129,ethisterone,DISPOS,IN,NA,RxNorm
+4132,ethoglucid,DISPOS,IN,NA,RxNorm
+41324009,Propiomazine-containing product,DISPOS,Concept,NA,SNOMED
+413355004,Dalfampridine-containing product,DISPOS,Concept,NA,SNOMED
+413507000,Amlexanox-containing product,DISPOS,Concept,NA,SNOMED
+413591007,Atazanavir-containing product,DISPOS,Concept,NA,SNOMED
+413963008,Dehydroepiandrosterone-containing product,DISPOS,Concept,NA,SNOMED
+414092003,Enalaprilat-containing product,DISPOS,Concept,NA,SNOMED
+414122006,Erlotinib-containing product,DISPOS,Concept,NA,SNOMED
+414428000,Hydromorphone-containing product,DISPOS,Concept,NA,SNOMED
+414518007,Insulin detemir-containing product,DISPOS,Concept,NA,SNOMED
+41470001,Levonordefrin-containing product,DISPOS,Concept,NA,SNOMED
+414804006,Natalizumab-containing product,DISPOS,Concept,NA,SNOMED
+41493,meloxicam,DISPOS,IN,NA,RxNorm
+41493007,Dicyclomine-containing product,DISPOS,Concept,NA,SNOMED
+414984009,Oxycodone-containing product,DISPOS,Concept,NA,SNOMED
+415245003,Recombinant coagulation factor IX-containing product,DISPOS,Concept,NA,SNOMED
+415715002,Thrombin-containing product,DISPOS,Concept,NA,SNOMED
+416089000,Human isophane insulin-containing product,DISPOS,Concept,NA,SNOMED
+416117009,"Fibrinolysin, human-containing product",DISPOS,Concept,NA,SNOMED
+4162,ethylestrenol,DISPOS,IN,NA,RxNorm
+416233001,Micafungin-containing product,DISPOS,Concept,NA,SNOMED
+416268001,Pegaptanib-containing product,DISPOS,Concept,NA,SNOMED
+416293004,Ziconotide-containing product,DISPOS,Concept,NA,SNOMED
+416313002,Bovine isophane insulin-containing product,DISPOS,Concept,NA,SNOMED
+416385001,Darifenacin-containing product,DISPOS,Concept,NA,SNOMED
+416556006,Furazolidone-containing product,DISPOS,Concept,NA,SNOMED
+416652002,Delmopinol-containing product,DISPOS,Concept,NA,SNOMED
+416742007,Porcine isophane insulin-containing product,DISPOS,Concept,NA,SNOMED
+417416003,Collagenase-containing product,DISPOS,Concept,NA,SNOMED
+417423002,Human regular insulin-containing product,DISPOS,Concept,NA,SNOMED
+417601005,Clofarabine-containing product,DISPOS,Concept,NA,SNOMED
+417625002,Porcine regular insulin-containing product,DISPOS,Concept,NA,SNOMED
+417669009,Pemirolast-containing product,DISPOS,Concept,NA,SNOMED
+417734003,Exenatide-containing product,DISPOS,Concept,NA,SNOMED
+4179,etoposide,DISPOS,IN,NA,RxNorm
+417910004,Deferasirox-containing product,DISPOS,Concept,NA,SNOMED
+418250008,Lucinactant-containing product,DISPOS,Concept,NA,SNOMED
+418520004,Vandetanib-containing product,DISPOS,Concept,NA,SNOMED
+418538001,Nelarabine-containing product,DISPOS,Concept,NA,SNOMED
+418721002,Tipranavir-containing product,DISPOS,Concept,NA,SNOMED
+419010007,Rasagiline-containing product,DISPOS,Concept,NA,SNOMED
+419530003,Raloxifene-containing product,DISPOS,Concept,NA,SNOMED
+419588002,Ramelteon-containing product,DISPOS,Concept,NA,SNOMED
+419829002,Nepafenac-containing product,DISPOS,Concept,NA,SNOMED
+41985001,Bitolterol-containing product,DISPOS,Concept,NA,SNOMED
+419872008,Streptodornase-containing product,DISPOS,Concept,NA,SNOMED
+420240007,Benserazide-containing product,DISPOS,Concept,NA,SNOMED
+420241006,Galsulfase-containing product,DISPOS,Concept,NA,SNOMED
+420507002,Varenicline-containing product,DISPOS,Concept,NA,SNOMED
+420517007,Decitabine-containing product,DISPOS,Concept,NA,SNOMED
+420624001,Ranolazine-containing product,DISPOS,Concept,NA,SNOMED
+420681006,Sorafenib-containing product,DISPOS,Concept,NA,SNOMED
+420822000,Uracil-containing product,DISPOS,Concept,NA,SNOMED
+420874002,Dimethicone-containing product,DISPOS,Concept,NA,SNOMED
+420908004,Drostanolone-containing product,DISPOS,Concept,NA,SNOMED
+421279008,Rabeprazole-containing product,DISPOS,Concept,NA,SNOMED
+421308003,Tramazoline-containing product,DISPOS,Concept,NA,SNOMED
+421412005,Abatacept-containing product,DISPOS,Concept,NA,SNOMED
+421448007,Sunitinib-containing product,DISPOS,Concept,NA,SNOMED
+421457001,Tasonermin-containing product,DISPOS,Concept,NA,SNOMED
+421459003,Tegafur-containing product,DISPOS,Concept,NA,SNOMED
+421500009,Emepronium-containing product,DISPOS,Concept,NA,SNOMED
+421516006,Conivaptan-containing product,DISPOS,Concept,NA,SNOMED
+421592007,Propiverine-containing product,DISPOS,Concept,NA,SNOMED
+421737001,Lenalidomide-containing product,DISPOS,Concept,NA,SNOMED
+421776000,Perhexiline-containing product,DISPOS,Concept,NA,SNOMED
+4219002,Penicillamine-containing product,DISPOS,Concept,NA,SNOMED
+421904007,Anidulafungin-containing product,DISPOS,Concept,NA,SNOMED
+421915002,Rotigotine-containing product,DISPOS,Concept,NA,SNOMED
+421968008,Thymosin alpha 1-containing product,DISPOS,Concept,NA,SNOMED
+4220008,Tolazoline-containing product,DISPOS,Concept,NA,SNOMED
+422267005,Colistimethate-containing product,DISPOS,Concept,NA,SNOMED
+422345006,Cefotiam-containing product,DISPOS,Concept,NA,SNOMED
+422523009,Vorinostat-containing product,DISPOS,Concept,NA,SNOMED
+422591002,Cilastatin-containing product,DISPOS,Concept,NA,SNOMED
+422756008,Dasatinib-containing product,DISPOS,Concept,NA,SNOMED
+42316,tacrolimus,DISPOS,IN,NA,RxNorm
+42319,nizatidine,DISPOS,IN,NA,RxNorm
+42322,fleroxacin,DISPOS,IN,NA,RxNorm
+42328,astemizole,DISPOS,IN,NA,RxNorm
+42330,terfenadine,DISPOS,IN,NA,RxNorm
+423317005,Arformoterol-containing product,DISPOS,Concept,NA,SNOMED
+42333,trimetrexate,DISPOS,IN,NA,RxNorm
+423414002,Dicumarol-containing product,DISPOS,Concept,NA,SNOMED
+423440008,Ethynodiol-containing product,DISPOS,Concept,NA,SNOMED
+42348003,Methyltestosterone-containing product,DISPOS,Concept,NA,SNOMED
+42355,fluvoxamine,DISPOS,IN,NA,RxNorm
+42359,tocainide,DISPOS,IN,NA,RxNorm
+42368,encainide,DISPOS,IN,NA,RxNorm
+423684002,Deracoxib-containing product,DISPOS,Concept,NA,SNOMED
+42375,leuprolide,DISPOS,IN,NA,RxNorm
+42405,muromonab-CD3,DISPOS,IN,NA,RxNorm
+424096001,Darunavir-containing product,DISPOS,Concept,NA,SNOMED
+424106006,Sitagliptin-containing product,DISPOS,Concept,NA,SNOMED
+424323009,Idursulfase-containing product,DISPOS,Concept,NA,SNOMED
+424401006,Panitumumab-containing product,DISPOS,Concept,NA,SNOMED
+424562004,Coagulation factor IX-containing product,DISPOS,Concept,NA,SNOMED
+424611009,Carprofen-containing product,DISPOS,Concept,NA,SNOMED
+42463,pravastatin,DISPOS,IN,NA,RxNorm
+424766004,Firocoxib-containing product,DISPOS,Concept,NA,SNOMED
+4249,factor IX,DISPOS,IN,NA,RxNorm
+425138006,Clenbuterol-containing product,DISPOS,Concept,NA,SNOMED
+425256004,Ranibizumab-containing product,DISPOS,Concept,NA,SNOMED
+4254,factor VII,DISPOS,IN,NA,RxNorm
+425466009,Lapatinib-containing product,DISPOS,Concept,NA,SNOMED
+425483000,Paliperidone-containing product,DISPOS,Concept,NA,SNOMED
+425570003,Maropitant-containing product,DISPOS,Concept,NA,SNOMED
+4256,factor VIIa,DISPOS,IN,NA,RxNorm
+42612,cromolyn,DISPOS,IN,NA,RxNorm
+426163004,Imidapril-containing product,DISPOS,Concept,NA,SNOMED
+426457000,Droxidopa-containing product,DISPOS,Concept,NA,SNOMED
+42662,edetate,DISPOS,IN,NA,RxNorm
+426825005,Retapamulin-containing product,DISPOS,Concept,NA,SNOMED
+427002003,Aliskiren-containing product,DISPOS,Concept,NA,SNOMED
+427299005,Temsirolimus-containing product,DISPOS,Concept,NA,SNOMED
+427347006,Gestonorone-containing product,DISPOS,Concept,NA,SNOMED
+427735003,Ambrisentan-containing product,DISPOS,Concept,NA,SNOMED
+4278,famotidine,DISPOS,IN,NA,RxNorm
+427805000,Maraviroc-containing product,DISPOS,Concept,NA,SNOMED
+427812009,Bendamustine-containing product,DISPOS,Concept,NA,SNOMED
+427906003,Lauromacrogol 400-containing product,DISPOS,Concept,NA,SNOMED
+428013003,3'-deoxyadenosine-containing product,DISPOS,Concept,NA,SNOMED
+428127005,Everolimus-containing product,DISPOS,Concept,NA,SNOMED
+428186003,Eptacog alfa-containing product,DISPOS,Concept,NA,SNOMED
+428468009,Nilotinib-containing product,DISPOS,Concept,NA,SNOMED
+428807006,Vildagliptin-containing product,DISPOS,Concept,NA,SNOMED
+429022006,Ixabepilone-containing product,DISPOS,Concept,NA,SNOMED
+429328002,Iobenguane (131-I)-containing product,DISPOS,Concept,NA,SNOMED
+429346008,Zuclopenthixol-containing product,DISPOS,Concept,NA,SNOMED
+429352009,Pentetic acid-containing product,DISPOS,Concept,NA,SNOMED
+429368003,Raltegravir-containing product,DISPOS,Concept,NA,SNOMED
+429398005,Panobinostat-containing product,DISPOS,Concept,NA,SNOMED
+429507005,Axitinib-containing product,DISPOS,Concept,NA,SNOMED
+429822007,Fosaprepitant-containing product,DISPOS,Concept,NA,SNOMED
+430271006,Desvenlafaxine-containing product,DISPOS,Concept,NA,SNOMED
+430307008,Certolizumab pegol-containing product,DISPOS,Concept,NA,SNOMED
+4316,felodipine,DISPOS,IN,NA,RxNorm
+432221004,Etravirine-containing product,DISPOS,Concept,NA,SNOMED
+432254002,Fesoterodine-containing product,DISPOS,Concept,NA,SNOMED
+4328,fenfluramine,DISPOS,IN,NA,RxNorm
+432885003,Olaparib-containing product,DISPOS,Concept,NA,SNOMED
+433010006,Recombinant human antithrombin III-containing product,DISPOS,Concept,NA,SNOMED
+4331,fenoprofen,DISPOS,IN,NA,RxNorm
+4333,fenoterol,DISPOS,IN,NA,RxNorm
+433327005,Regadenoson-containing product,DISPOS,Concept,NA,SNOMED
+4337,fentanyl,DISPOS,IN,NA,RxNorm
+434463003,Rilonacept-containing product,DISPOS,Concept,NA,SNOMED
+435,albuterol,DISPOS,IN,NA,RxNorm
+43753001,Dydrogesterone-containing product,DISPOS,Concept,NA,SNOMED
+437760006,Gestodene-containing product,DISPOS,Concept,NA,SNOMED
+438079000,Dexmedetomidine-containing product,DISPOS,Concept,NA,SNOMED
+43879000,Flunisolide-containing product,DISPOS,Concept,NA,SNOMED
+4388,plasmin,DISPOS,IN,NA,RxNorm
+439003007,Iobenguane (123-I)-containing product,DISPOS,Concept,NA,SNOMED
+439199001,Cefovecin-containing product,DISPOS,Concept,NA,SNOMED
+439624003,Clevidipine-containing product,DISPOS,Concept,NA,SNOMED
+441077008,Romiplostim-containing product,DISPOS,Concept,NA,SNOMED
+44151,clofarabine,DISPOS,IN,NA,RxNorm
+44157,cladribine,DISPOS,IN,NA,RxNorm
+441605002,Silodosin-containing product,DISPOS,Concept,NA,SNOMED
+441610003,Febuxostat-containing product,DISPOS,Concept,NA,SNOMED
+441758000,Degarelix-containing product,DISPOS,Concept,NA,SNOMED
+441993002,Unithiol-containing product,DISPOS,Concept,NA,SNOMED
+441995009,Eltrombopag-containing product,DISPOS,Concept,NA,SNOMED
+442004000,Tapentadol-containing product,DISPOS,Concept,NA,SNOMED
+442206008,Plerixafor-containing product,DISPOS,Concept,NA,SNOMED
+442318002,Golimumab-containing product,DISPOS,Concept,NA,SNOMED
+442539005,Rivaroxaban-containing product,DISPOS,Concept,NA,SNOMED
+442540007,Dexlansoprazole-containing product,DISPOS,Concept,NA,SNOMED
+442542004,Milnacipran-containing product,DISPOS,Concept,NA,SNOMED
+442750005,Fenofibric acid-containing product,DISPOS,Concept,NA,SNOMED
+442790008,Levosimendan-containing product,DISPOS,Concept,NA,SNOMED
+44281,cevimeline,DISPOS,IN,NA,RxNorm
+442901006,Tolvaptan-containing product,DISPOS,Concept,NA,SNOMED
+442915008,Besifloxacin-containing product,DISPOS,Concept,NA,SNOMED
+443046000,Cefetamet-containing product,DISPOS,Concept,NA,SNOMED
+443066009,Saxagliptin-containing product,DISPOS,Concept,NA,SNOMED
+443149005,Pefloxacin-containing product,DISPOS,Concept,NA,SNOMED
+443312008,Prasugrel-containing product,DISPOS,Concept,NA,SNOMED
+443374004,Asenapine-containing product,DISPOS,Concept,NA,SNOMED
+443585001,Pitavastatin-containing product,DISPOS,Concept,NA,SNOMED
+443764004,Pazopanib-containing product,DISPOS,Concept,NA,SNOMED
+4440,flavoxate,DISPOS,IN,NA,RxNorm
+444609007,Ofatumumab-containing product,DISPOS,Concept,NA,SNOMED
+444737005,Romidepsin-containing product,DISPOS,Concept,NA,SNOMED
+4448,floxacillin,DISPOS,IN,NA,RxNorm
+444907006,Liraglutide-containing product,DISPOS,Concept,NA,SNOMED
+445499001,Velaglucerase alfa-containing product,DISPOS,Concept,NA,SNOMED
+445564003,Ecallantide-containing product,DISPOS,Concept,NA,SNOMED
+4457,flumazenil,DISPOS,IN,NA,RxNorm
+446457007,Denosumab-containing product,DISPOS,Concept,NA,SNOMED
+447182009,Cabazitaxel-containing product,DISPOS,Concept,NA,SNOMED
+447209009,Alcaftadine-containing product,DISPOS,Concept,NA,SNOMED
+4488,floxuridine,DISPOS,IN,NA,RxNorm
+448917007,Azilsartan-containing product,DISPOS,Concept,NA,SNOMED
+4492,fluorouracil,DISPOS,IN,NA,RxNorm
+4493,fluoxetine,DISPOS,IN,NA,RxNorm
+44938006,Cefoperazone-containing product,DISPOS,Concept,NA,SNOMED
+4494,fluoxymesterone,DISPOS,IN,NA,RxNorm
+4495,flupenthixol,DISPOS,IN,NA,RxNorm
+44990002,Procyclidine-containing product,DISPOS,Concept,NA,SNOMED
+4502,flurbiprofen,DISPOS,IN,NA,RxNorm
+4508,flutamide,DISPOS,IN,NA,RxNorm
+45218006,Clemastine-containing product,DISPOS,Concept,NA,SNOMED
+45311002,Terbutaline-containing product,DISPOS,Concept,NA,SNOMED
+4582,tegafur,DISPOS,IN,NA,RxNorm
+46009007,Chlorambucil-containing product,DISPOS,Concept,NA,SNOMED
+4601,furazolidone,DISPOS,IN,NA,RxNorm
+460132,darunavir,DISPOS,IN,NA,RxNorm
+46049,alglucerase,DISPOS,IN,NA,RxNorm
+46307,amlexanox,DISPOS,IN,NA,RxNorm
+4637,galantamine,DISPOS,IN,NA,RxNorm
+46479001,Encainide-containing product,DISPOS,Concept,NA,SNOMED
+46547007,Labetalol-containing product,DISPOS,Concept,NA,SNOMED
+46913003,Edrophonium-containing product,DISPOS,Concept,NA,SNOMED
+46967,beractant,DISPOS,IN,NA,RxNorm
+47065008,Quinine-containing product,DISPOS,Concept,NA,SNOMED
+47124006,Aminoglutethimide-containing product,DISPOS,Concept,NA,SNOMED
+47140009,Medrysone-containing product,DISPOS,Concept,NA,SNOMED
+473298,firocoxib,DISPOS,IN,NA,RxNorm
+47331002,Chlorpromazine-containing product,DISPOS,Concept,NA,SNOMED
+475230,degarelix,DISPOS,IN,NA,RxNorm
+475342,dasatinib,DISPOS,IN,NA,RxNorm
+47579,cabergoline,DISPOS,IN,NA,RxNorm
+475968,liraglutide,DISPOS,IN,NA,RxNorm
+475969,etravirine,DISPOS,IN,NA,RxNorm
+47898004,Verapamil-containing product,DISPOS,Concept,NA,SNOMED
+4792,gestrinone,DISPOS,IN,NA,RxNorm
+4793,gestronol,DISPOS,IN,NA,RxNorm
+480,alfentanil,DISPOS,IN,NA,RxNorm
+480167,lapatinib,DISPOS,IN,NA,RxNorm
+48174005,Ranitidine-containing product,DISPOS,Concept,NA,SNOMED
+4832,glucagon,DISPOS,IN,NA,RxNorm
+48614001,Clobetasol-containing product,DISPOS,Concept,NA,SNOMED
+486164,"hyaluronidase, ovine",DISPOS,PIN,NA,RxNorm
+48647005,Pancrelipase-containing product,DISPOS,Concept,NA,SNOMED
+48899009,Hyoscyamine-containing product,DISPOS,Concept,NA,SNOMED
+48937,dexmedetomidine,DISPOS,IN,NA,RxNorm
+49247,dofetilide,DISPOS,IN,NA,RxNorm
+49276,doxazosin,DISPOS,IN,NA,RxNorm
+4937008,Cefaclor-containing product,DISPOS,Concept,NA,SNOMED
+49485009,Norfloxacin-containing product,DISPOS,Concept,NA,SNOMED
+4952,thyrotropin alfa,DISPOS,IN,NA,RxNorm
+495881,sorafenib,DISPOS,IN,NA,RxNorm
+49626,enoximone,DISPOS,IN,NA,RxNorm
+49688004,Hexocyclium-containing product,DISPOS,Concept,NA,SNOMED
+49737,esmolol,DISPOS,IN,NA,RxNorm
+498509,pegaptanib,DISPOS,IN,NA,RxNorm
+4986,chorionic gonadotropin,DISPOS,IN,NA,RxNorm
+49953001,Pheniramine-containing product,DISPOS,Concept,NA,SNOMED
+50166,fosinopril,DISPOS,IN,NA,RxNorm
+5021,griseofulvin,DISPOS,IN,NA,RxNorm
+50318003,Progesterone-containing product,DISPOS,Concept,NA,SNOMED
+5033,guanabenz,DISPOS,IN,NA,RxNorm
+50335004,Levorphanol-containing product,DISPOS,Concept,NA,SNOMED
+5036,guanethidine,DISPOS,IN,NA,RxNorm
+50610,goserelin,DISPOS,IN,NA,RxNorm
+5084,halcinonide,DISPOS,IN,NA,RxNorm
+50975,histrelin,DISPOS,IN,NA,RxNorm
+51132001,Hyaluronidase-containing product,DISPOS,Concept,NA,SNOMED
+51326002,Carmustine-containing product,DISPOS,Concept,NA,SNOMED
+51361008,Amantadine-containing product,DISPOS,Concept,NA,SNOMED
+51428,"insulin aspart, human",DISPOS,IN,NA,RxNorm
+51499,irinotecan,DISPOS,IN,NA,RxNorm
+51758009,Methadone-containing product,DISPOS,Concept,NA,SNOMED
+519,allopurinol,DISPOS,IN,NA,RxNorm
+51908007,Prenylamine-containing product,DISPOS,Concept,NA,SNOMED
+52151,lodoxamide,DISPOS,IN,NA,RxNorm
+52175,losartan,DISPOS,IN,NA,RxNorm
+52388000,Prednisolone-containing product,DISPOS,Concept,NA,SNOMED
+525,allylestrenol,DISPOS,IN,NA,RxNorm
+52769,milrinone,DISPOS,IN,NA,RxNorm
+5307,hexoprenaline,DISPOS,IN,NA,RxNorm
+5333,histamine,DISPOS,IN,NA,RxNorm
+53584007,Methacholine-containing product,DISPOS,Concept,NA,SNOMED
+53640004,Fluoxetine-containing product,DISPOS,Concept,NA,SNOMED
+53641000,Flavoxate-containing product,DISPOS,Concept,NA,SNOMED
+53654,nevirapine,DISPOS,IN,NA,RxNorm
+53694,nimesulide,DISPOS,IN,NA,RxNorm
+53848009,Metyrapone-containing product,DISPOS,Concept,NA,SNOMED
+54142000,Domiphen-containing product,DISPOS,Concept,NA,SNOMED
+54236,oxatomide,DISPOS,IN,NA,RxNorm
+54344006,Flurbiprofen-containing product,DISPOS,Concept,NA,SNOMED
+54391004,Levamisole-containing product,DISPOS,Concept,NA,SNOMED
+544002,Melphalan-containing product,DISPOS,Concept,NA,SNOMED
+54406003,Methoxamine-containing product,DISPOS,Concept,NA,SNOMED
+54544005,Meperidine-containing product,DISPOS,Concept,NA,SNOMED
+54552,perindopril,DISPOS,IN,NA,RxNorm
+54577009,Ceftizoxime-containing product,DISPOS,Concept,NA,SNOMED
+5464,hyaluronidase,DISPOS,IN,NA,RxNorm
+54765002,Phenylephrine-containing product,DISPOS,Concept,NA,SNOMED
+54887004,Cephalexin-containing product,DISPOS,Concept,NA,SNOMED
+5489,hydrocodone,DISPOS,IN,NA,RxNorm
+5492,hydrocortisone,DISPOS,IN,NA,RxNorm
+55175,propiverine,DISPOS,IN,NA,RxNorm
+5542,17-alpha-hydroxyprogesterone,DISPOS,IN,NA,RxNorm
+55432002,Azlocillin-containing product,DISPOS,Concept,NA,SNOMED
+5552,hydroxyurea,DISPOS,IN,NA,RxNorm
+5553,hydroxyzine,DISPOS,IN,NA,RxNorm
+55672,rifabutin,DISPOS,IN,NA,RxNorm
+55745002,Propranolol-containing product,DISPOS,Concept,NA,SNOMED
+56014002,Hydroxyprogesterone-containing product,DISPOS,Concept,NA,SNOMED
+56188,sermorelin,DISPOS,IN,NA,RxNorm
+5640,ibuprofen,DISPOS,IN,NA,RxNorm
+56480005,Brompheniramine-containing product,DISPOS,Concept,NA,SNOMED
+5650,idarubicin,DISPOS,IN,NA,RxNorm
+56549003,Metoclopramide-containing product,DISPOS,Concept,NA,SNOMED
+5657,ifosfamide,DISPOS,IN,NA,RxNorm
+56570,somatrem,DISPOS,IN,NA,RxNorm
+56602009,Hydroxyurea-containing product,DISPOS,Concept,NA,SNOMED
+56795,sufentanil,DISPOS,IN,NA,RxNorm
+56928005,Etoposide-containing product,DISPOS,Concept,NA,SNOMED
+56946,paclitaxel,DISPOS,IN,NA,RxNorm
+57002000,Chlorprothixene-containing product,DISPOS,Concept,NA,SNOMED
+57048,terlipressin,DISPOS,IN,NA,RxNorm
+57191001,Chloramphenicol-containing product,DISPOS,Concept,NA,SNOMED
+5720001,Black widow spider antivenom-containing product,DISPOS,Concept,NA,SNOMED
+57308,topotecan,DISPOS,IN,NA,RxNorm
+57670008,Cefoxitin-containing product,DISPOS,Concept,NA,SNOMED
+578033,galsulfase,DISPOS,IN,NA,RxNorm
+5781,indomethacin,DISPOS,IN,NA,RxNorm
+57811004,Dihydrocodeine-containing product,DISPOS,Concept,NA,SNOMED
+57819002,Somatostatin-containing product,DISPOS,Concept,NA,SNOMED
+578350,"hyaluronidase, bovine",DISPOS,PIN,NA,RxNorm
+5784,indoramin,DISPOS,IN,NA,RxNorm
+57845006,Isoproterenol-containing product,DISPOS,Concept,NA,SNOMED
+57853003,Clidinium-containing product,DISPOS,Concept,NA,SNOMED
+58360000,Phenazocine-containing product,DISPOS,Concept,NA,SNOMED
+58467001,Papaverine-containing product,DISPOS,Concept,NA,SNOMED
+5879,interferon alfa-2a,DISPOS,IN,NA,RxNorm
+5880,interferon alfa-2b,DISPOS,IN,NA,RxNorm
+588250,milnacipran,DISPOS,IN,NA,RxNorm
+5885,interferon type II,DISPOS,IN,NA,RxNorm
+58939,collagenase,DISPOS,IN,NA,RxNorm
+591622,varenicline,DISPOS,IN,NA,RxNorm
+59187003,Dopamine-containing product,DISPOS,Concept,NA,SNOMED
+593411,sitagliptin,DISPOS,IN,NA,RxNorm
+59456005,Astemizole-containing product,DISPOS,Concept,NA,SNOMED
+595060,ranibizumab,DISPOS,IN,NA,RxNorm
+596205,ramelteon,DISPOS,IN,NA,RxNorm
+59636,buclizine,DISPOS,IN,NA,RxNorm
+59639,atosiban,DISPOS,IN,NA,RxNorm
+596554,vildagliptin,DISPOS,IN,NA,RxNorm
+596723,cerivastatin,DISPOS,IN,NA,RxNorm
+59695,chlorothen,DISPOS,IN,NA,RxNorm
+59744,interferon alfacon-1,DISPOS,IN,NA,RxNorm
+59763,stavudine,DISPOS,IN,NA,RxNorm
+5981,iproniazid,DISPOS,IN,NA,RxNorm
+59941008,Diltiazem-containing product,DISPOS,Concept,NA,SNOMED
+59943,imiquimod,DISPOS,IN,NA,RxNorm
+59953007,Pyridostigmine-containing product,DISPOS,Concept,NA,SNOMED
+6011,isocarboxazid,DISPOS,IN,NA,RxNorm
+60149003,Indomethacin-containing product,DISPOS,Concept,NA,SNOMED
+60207,dorzolamide,DISPOS,IN,NA,RxNorm
+6023,isoetharine,DISPOS,IN,NA,RxNorm
+60245,imidapril,DISPOS,IN,NA,RxNorm
+6027,isoflurophate,DISPOS,IN,NA,RxNorm
+60307,entacapone,DISPOS,IN,NA,RxNorm
+60451,delmopinol,DISPOS,IN,NA,RxNorm
+6048,inosine pranobex,DISPOS,IN,NA,RxNorm
+6054,isoproterenol,DISPOS,IN,NA,RxNorm
+60548,exenatide,DISPOS,IN,NA,RxNorm
+6067003,Metaproterenol-containing product,DISPOS,Concept,NA,SNOMED
+60682004,Echothiophate-containing product,DISPOS,Concept,NA,SNOMED
+60819,bivalirudin,DISPOS,IN,NA,RxNorm
+60881009,Diamorphine-containing product,DISPOS,Concept,NA,SNOMED
+6102009,Baclofen-containing product,DISPOS,Concept,NA,SNOMED
+61148,somatropin,DISPOS,IN,NA,RxNorm
+6116004,Oxymetholone-containing product,DISPOS,Concept,NA,SNOMED
+61181002,Meprednisone-containing product,DISPOS,Concept,NA,SNOMED
+612937,interferon alfa-n3,DISPOS,IN,NA,RxNorm
+6130,ketamine,DISPOS,IN,NA,RxNorm
+613391,prasugrel,DISPOS,IN,NA,RxNorm
+6142,ketoprofen,DISPOS,IN,NA,RxNorm
+614373,deferasirox,DISPOS,IN,NA,RxNorm
+614391,abatacept,DISPOS,IN,NA,RxNorm
+61455,mizolastine,DISPOS,IN,NA,RxNorm
+6146,ketotifen,DISPOS,IN,NA,RxNorm
+61623002,Buclizine-containing product,DISPOS,Concept,NA,SNOMED
+61651006,Cefamandole-containing product,DISPOS,Concept,NA,SNOMED
+616739,rotigotine,DISPOS,IN,NA,RxNorm
+61805,nitisinone,DISPOS,IN,NA,RxNorm
+6185,labetalol,DISPOS,IN,NA,RxNorm
+61862008,Methicillin-containing product,DISPOS,Concept,NA,SNOMED
+619693,peramivir,DISPOS,IN,NA,RxNorm
+620,amantadine,DISPOS,IN,NA,RxNorm
+620216,maraviroc,DISPOS,IN,NA,RxNorm
+62174,deserpidine,DISPOS,IN,NA,RxNorm
+623,ambenonium,DISPOS,IN,NA,RxNorm
+6232005,Naphazoline-containing product,DISPOS,Concept,NA,SNOMED
+62529008,Thiothixene-containing product,DISPOS,Concept,NA,SNOMED
+626,amdinocillin,DISPOS,IN,NA,RxNorm
+627,amdinocillin pivoxil,DISPOS,IN,NA,RxNorm
+62782004,Clonidine-containing product,DISPOS,Concept,NA,SNOMED
+63470003,Fluoxymesterone-containing product,DISPOS,Concept,NA,SNOMED
+6371,levamisole,DISPOS,IN,NA,RxNorm
+6373,levonorgestrel,DISPOS,IN,NA,RxNorm
+6375,levodopa,DISPOS,IN,NA,RxNorm
+63758001,Norethindrone-containing product,DISPOS,Concept,NA,SNOMED
+6378,levorphanol,DISPOS,IN,NA,RxNorm
+6384,gonadorelin,DISPOS,IN,NA,RxNorm
+6387,lidocaine,DISPOS,IN,NA,RxNorm
+6390,lidoflazine,DISPOS,IN,NA,RxNorm
+640062,regadenoson,DISPOS,IN,NA,RxNorm
+6406,lipase,DISPOS,IN,NA,RxNorm
+642274,retapamulin,DISPOS,IN,NA,RxNorm
+64240003,Methandrostenolone-containing product,DISPOS,Concept,NA,SNOMED
+64349004,Griseofulvin-containing product,DISPOS,Concept,NA,SNOMED
+644,amiloride,DISPOS,IN,NA,RxNorm
+644101,idursulfase,DISPOS,IN,NA,RxNorm
+6446,lisuride,DISPOS,IN,NA,RxNorm
+64558005,Methixene-containing product,DISPOS,Concept,NA,SNOMED
+6466,lomustine,DISPOS,IN,NA,RxNorm
+6472,lovastatin,DISPOS,IN,NA,RxNorm
+65026000,Ephedrine-containing product,DISPOS,Concept,NA,SNOMED
+65041000,Biperiden-containing product,DISPOS,Concept,NA,SNOMED
+65092008,Chlorothen-containing product,DISPOS,Concept,NA,SNOMED
+6529,lynestrenol,DISPOS,IN,NA,RxNorm
+65502005,Epinephrine-containing product,DISPOS,Concept,NA,SNOMED
+657797,temsirolimus,DISPOS,IN,NA,RxNorm
+658708,ecallantide,DISPOS,IN,NA,RxNorm
+65965000,Eastern coral snake antivenom-containing product,DISPOS,Concept,NA,SNOMED
+662281,nilotinib,DISPOS,IN,NA,RxNorm
+66422,strychnine,DISPOS,IN,NA,RxNorm
+66493003,Theophylline-containing product,DISPOS,Concept,NA,SNOMED
+66602007,Stanozolol-containing product,DISPOS,Concept,NA,SNOMED
+6673,mecamylamine,DISPOS,IN,NA,RxNorm
+6674,mechlorethamine,DISPOS,IN,NA,RxNorm
+6676,meclizine,DISPOS,IN,NA,RxNorm
+6678,meclofenamic acid,DISPOS,IN,NA,RxNorm
+66859009,Dipyridamole-containing product,DISPOS,Concept,NA,SNOMED
+6691,medroxyprogesterone,DISPOS,IN,NA,RxNorm
+66971004,Colestipol-containing product,DISPOS,Concept,NA,SNOMED
+6703,megestrol,DISPOS,IN,NA,RxNorm
+6718,melphalan,DISPOS,IN,NA,RxNorm
+6719,memantine,DISPOS,IN,NA,RxNorm
+6754,meperidine,DISPOS,IN,NA,RxNorm
+6761,meptazinol,DISPOS,IN,NA,RxNorm
+6765,tiopronin,DISPOS,IN,NA,RxNorm
+677,aminoglutethimide,DISPOS,IN,NA,RxNorm
+67735003,Paclitaxel-containing product,DISPOS,Concept,NA,SNOMED
+6781,mesterolone,DISPOS,IN,NA,RxNorm
+6782,mestranol,DISPOS,IN,NA,RxNorm
+679314,paliperidone,DISPOS,IN,NA,RxNorm
+67939000,Apomorphine-containing product,DISPOS,Concept,NA,SNOMED
+6805,metaraminol,DISPOS,IN,NA,RxNorm
+68088000,Acebutolol-containing product,DISPOS,Concept,NA,SNOMED
+68091,dolasetron,DISPOS,IN,NA,RxNorm
+68092,lanreotide,DISPOS,IN,NA,RxNorm
+6813,methadone,DISPOS,IN,NA,RxNorm
+68147,cetrorelix,DISPOS,IN,NA,RxNorm
+6817,methandriol,DISPOS,IN,NA,RxNorm
+6818,methandrostenolone,DISPOS,IN,NA,RxNorm
+68206008,Calcitriol-containing product,DISPOS,Concept,NA,SNOMED
+68244,lamivudine,DISPOS,IN,NA,RxNorm
+6826,methazolamide,DISPOS,IN,NA,RxNorm
+6833,methenolone,DISPOS,IN,NA,RxNorm
+68422006,Cloxacillin-containing product,DISPOS,Concept,NA,SNOMED
+68424007,Isoflurophate-containing product,DISPOS,Concept,NA,SNOMED
+68442,filgrastim,DISPOS,IN,NA,RxNorm
+68444001,Doxorubicin-containing product,DISPOS,Concept,NA,SNOMED
+68446,pemetrexed,DISPOS,IN,NA,RxNorm
+68503,ziconotide,DISPOS,IN,NA,RxNorm
+6851,methotrexate,DISPOS,IN,NA,RxNorm
+6853,methoxamine,DISPOS,IN,NA,RxNorm
+68622003,Secretin-containing product,DISPOS,Concept,NA,SNOMED
+6876,methyldopa,DISPOS,IN,NA,RxNorm
+68887009,Methotrexate-containing product,DISPOS,Concept,NA,SNOMED
+6904,methyltestosterone,DISPOS,IN,NA,RxNorm
+69120,tiotropium,DISPOS,IN,NA,RxNorm
+6915,metoclopramide,DISPOS,IN,NA,RxNorm
+6918,metoprolol,DISPOS,IN,NA,RxNorm
+69204002,Guanadrel-containing product,DISPOS,Concept,NA,SNOMED
+6923,metyrapone,DISPOS,IN,NA,RxNorm
+6926,mexiletine,DISPOS,IN,NA,RxNorm
+6927,mezlocillin,DISPOS,IN,NA,RxNorm
+6929,mianserin,DISPOS,IN,NA,RxNorm
+69331001,Cyclacillin-containing product,DISPOS,Concept,NA,SNOMED
+6960003,Polymyxin B-containing product,DISPOS,Concept,NA,SNOMED
+6963,midodrine,DISPOS,IN,NA,RxNorm
+69634,sargramostim,DISPOS,IN,NA,RxNorm
+6964,mifepristone,DISPOS,IN,NA,RxNorm
+69722,zanamivir,DISPOS,IN,NA,RxNorm
+69749,valsartan,DISPOS,IN,NA,RxNorm
+6985007,Opium-containing product,DISPOS,Concept,NA,SNOMED
+6995,plicamycin,DISPOS,IN,NA,RxNorm
+6996,mitobronitol,DISPOS,IN,NA,RxNorm
+7005,mitoxantrone,DISPOS,IN,NA,RxNorm
+70161,molgramostim,DISPOS,IN,NA,RxNorm
+70167,lenograstim,DISPOS,IN,NA,RxNorm
+70223,aldesleukin,DISPOS,IN,NA,RxNorm
+702746007,Cephaloridine-containing product,DISPOS,Concept,NA,SNOMED
+702749000,Enrofloxacin-containing product,DISPOS,Concept,NA,SNOMED
+702750000,Fleroxacin-containing product,DISPOS,Concept,NA,SNOMED
+703376008,Canakinumab-containing product,DISPOS,Concept,NA,SNOMED
+703472009,Nifuroxazide-containing product,DISPOS,Concept,NA,SNOMED
+703480002,Nimesulide-containing product,DISPOS,Concept,NA,SNOMED
+703516000,Otilonium-containing product,DISPOS,Concept,NA,SNOMED
+703580004,Afatinib-containing product,DISPOS,Concept,NA,SNOMED
+703586005,Bosutinib-containing product,DISPOS,Concept,NA,SNOMED
+703638005,Crizotinib-containing product,DISPOS,Concept,NA,SNOMED
+703646006,Dabrafenib-containing product,DISPOS,Concept,NA,SNOMED
+703656005,Vemurafenib-containing product,DISPOS,Concept,NA,SNOMED
+703662000,Zofenopril-containing product,DISPOS,Concept,NA,SNOMED
+703667006,Linagliptin-containing product,DISPOS,Concept,NA,SNOMED
+703669009,Alogliptin-containing product,DISPOS,Concept,NA,SNOMED
+703678003,Dapagliflozin-containing product,DISPOS,Concept,NA,SNOMED
+703681008,Canagliflozin-containing product,DISPOS,Concept,NA,SNOMED
+703684000,Enzalutamide-containing product,DISPOS,Concept,NA,SNOMED
+703686003,Linaclotide-containing product,DISPOS,Concept,NA,SNOMED
+703726009,Dienogest-containing product,DISPOS,Concept,NA,SNOMED
+703728005,Perampanel-containing product,DISPOS,Concept,NA,SNOMED
+703737005,Ulipristal-containing product,DISPOS,Concept,NA,SNOMED
+703740005,Indacaterol-containing product,DISPOS,Concept,NA,SNOMED
+703777002,Rilpivirine-containing product,DISPOS,Concept,NA,SNOMED
+703779004,Ruxolitinib-containing product,DISPOS,Concept,NA,SNOMED
+703786007,Teriflunomide-containing product,DISPOS,Concept,NA,SNOMED
+703790009,Pomalidomide-containing product,DISPOS,Concept,NA,SNOMED
+703798002,Ponatinib-containing product,DISPOS,Concept,NA,SNOMED
+703804000,Mirabegron-containing product,DISPOS,Concept,NA,SNOMED
+703808002,Regorafenib-containing product,DISPOS,Concept,NA,SNOMED
+703813003,Vismodegib-containing product,DISPOS,Concept,NA,SNOMED
+703824001,Ivacaftor-containing product,DISPOS,Concept,NA,SNOMED
+703895009,Empagliflozin-containing product,DISPOS,Concept,NA,SNOMED
+703905003,Albiglutide-containing product,DISPOS,Concept,NA,SNOMED
+703906002,Apixaban-containing product,DISPOS,Concept,NA,SNOMED
+703923006,Aclidinium-containing product,DISPOS,Concept,NA,SNOMED
+703957003,Avanafil-containing product,DISPOS,Concept,NA,SNOMED
+703961009,Boceprevir-containing product,DISPOS,Concept,NA,SNOMED
+704192000,Nivolumab-containing product,DISPOS,Concept,NA,SNOMED
+704193005,Belimumab-containing product,DISPOS,Concept,NA,SNOMED
+704195003,Belinostat-containing product,DISPOS,Concept,NA,SNOMED
+704227006,Pertuzumab-containing product,DISPOS,Concept,NA,SNOMED
+704257002,Vedolizumab-containing product,DISPOS,Concept,NA,SNOMED
+704267007,Pasireotide-containing product,DISPOS,Concept,NA,SNOMED
+704310000,Ceritinib-containing product,DISPOS,Concept,NA,SNOMED
+704316006,Tofacitinib-containing product,DISPOS,Concept,NA,SNOMED
+704464003,Ticagrelor-containing product,DISPOS,Concept,NA,SNOMED
+704466001,Telaprevir-containing product,DISPOS,Concept,NA,SNOMED
+704468000,Tasimelteon-containing product,DISPOS,Concept,NA,SNOMED
+704476003,Retigabine-containing product,DISPOS,Concept,NA,SNOMED
+704649006,Ipilimumab-containing product,DISPOS,Concept,NA,SNOMED
+704988006,Hexoprenaline-containing product,DISPOS,Concept,NA,SNOMED
+7052,morphine,DISPOS,IN,NA,RxNorm
+70561,palonosetron,DISPOS,IN,NA,RxNorm
+7069,moxalactam,DISPOS,IN,NA,RxNorm
+70702006,Deferoxamine-containing product,DISPOS,Concept,NA,SNOMED
+70841003,Chymotrypsin-containing product,DISPOS,Concept,NA,SNOMED
+7092007,Metoprolol-containing product,DISPOS,Concept,NA,SNOMED
+709271,certolizumab pegol,DISPOS,IN,NA,RxNorm
+709283009,Idelalisib-containing product,DISPOS,Concept,NA,SNOMED
+70934008,Demecarium-containing product,DISPOS,Concept,NA,SNOMED
+711942,eltrombopag,DISPOS,IN,NA,RxNorm
+712566,ofatumumab,DISPOS,IN,NA,RxNorm
+713645002,Sofosbuvir-containing product,DISPOS,Concept,NA,SNOMED
+713763007,Thiamphenicol-containing product,DISPOS,Concept,NA,SNOMED
+714011004,Eliglustat-containing product,DISPOS,Concept,NA,SNOMED
+714014007,Daclatasvir-containing product,DISPOS,Concept,NA,SNOMED
+714081009,Dulaglutide-containing product,DISPOS,Concept,NA,SNOMED
+714105004,Dasabuvir-containing product,DISPOS,Concept,NA,SNOMED
+714109005,Lenvatinib-containing product,DISPOS,Concept,NA,SNOMED
+714167009,Simeprevir-containing product,DISPOS,Concept,NA,SNOMED
+714387002,Ledipasvir-containing product,DISPOS,Concept,NA,SNOMED
+714428008,Paritaprevir-containing product,DISPOS,Concept,NA,SNOMED
+714429000,Ombitasvir-containing product,DISPOS,Concept,NA,SNOMED
+714438,pazopanib,DISPOS,IN,NA,RxNorm
+7145,mycophenolic acid,DISPOS,IN,NA,RxNorm
+714520003,Amphotericin B-containing product,DISPOS,Concept,NA,SNOMED
+714627007,Aflibercept-containing product,DISPOS,Concept,NA,SNOMED
+714671006,Brentuximab vedotin-containing product,DISPOS,Concept,NA,SNOMED
+714679008,Racecadotril-containing product,DISPOS,Concept,NA,SNOMED
+714680006,Roflumilast-containing product,DISPOS,Concept,NA,SNOMED
+714684002,Apremilast-containing product,DISPOS,Concept,NA,SNOMED
+714687009,Edoxaban-containing product,DISPOS,Concept,NA,SNOMED
+714689007,Secukinumab-containing product,DISPOS,Concept,NA,SNOMED
+714690003,Finafloxacin-containing product,DISPOS,Concept,NA,SNOMED
+714767001,Dolutegravir-containing product,DISPOS,Concept,NA,SNOMED
+714771003,Cobicistat-containing product,DISPOS,Concept,NA,SNOMED
+714777004,Belatacept-containing product,DISPOS,Concept,NA,SNOMED
+714783001,Carfilzomib-containing product,DISPOS,Concept,NA,SNOMED
+714785008,Ceftaroline-containing product,DISPOS,Concept,NA,SNOMED
+714788005,Dabigatran-containing product,DISPOS,Concept,NA,SNOMED
+714795001,Elvitegravir-containing product,DISPOS,Concept,NA,SNOMED
+715384002,Promestriene-containing product,DISPOS,Concept,NA,SNOMED
+715493002,Ocriplasmin-containing product,DISPOS,Concept,NA,SNOMED
+715545006,Trametinib-containing product,DISPOS,Concept,NA,SNOMED
+715555005,Macitentan-containing product,DISPOS,Concept,NA,SNOMED
+715566003,Taliglucerase alfa-containing product,DISPOS,Concept,NA,SNOMED
+715582002,Icatibant-containing product,DISPOS,Concept,NA,SNOMED
+715585000,Lurasidone-containing product,DISPOS,Concept,NA,SNOMED
+715594006,Metreleptin-containing product,DISPOS,Concept,NA,SNOMED
+715596008,Vorapaxar-containing product,DISPOS,Concept,NA,SNOMED
+715598009,Ibrutinib-containing product,DISPOS,Concept,NA,SNOMED
+715600003,Olodaterol-containing product,DISPOS,Concept,NA,SNOMED
+715611006,Umeclidinium-containing product,DISPOS,Concept,NA,SNOMED
+715613009,Nintedanib-containing product,DISPOS,Concept,NA,SNOMED
+715615002,Eslicarbazepine-containing product,DISPOS,Concept,NA,SNOMED
+715617005,Asfotase alfa-containing product,DISPOS,Concept,NA,SNOMED
+715636000,Teduglutide-containing product,DISPOS,Concept,NA,SNOMED
+715640009,Fingolimod-containing product,DISPOS,Concept,NA,SNOMED
+715741000,Cobimetinib-containing product,DISPOS,Concept,NA,SNOMED
+715774000,Insulin degludec-containing product,DISPOS,Concept,NA,SNOMED
+715869,maropitant,DISPOS,IN,NA,RxNorm
+716640004,Elosulfase alfa-containing product,DISPOS,Concept,NA,SNOMED
+71798005,Fenoprofen-containing product,DISPOS,Concept,NA,SNOMED
+719872,raltegravir,DISPOS,IN,NA,RxNorm
+720194004,Vilanterol-containing product,DISPOS,Concept,NA,SNOMED
+720825,silodosin,DISPOS,IN,NA,RxNorm
+7213,ipratropium,DISPOS,IN,NA,RxNorm
+72143,raloxifene,DISPOS,IN,NA,RxNorm
+722,amoxapine,DISPOS,IN,NA,RxNorm
+72257,interferon beta-1b,DISPOS,IN,NA,RxNorm
+7226,nadolol,DISPOS,IN,NA,RxNorm
+723,amoxicillin,DISPOS,IN,NA,RxNorm
+72302,ropinirole,DISPOS,IN,NA,RxNorm
+7233,nafcillin,DISPOS,IN,NA,RxNorm
+7238,nalbuphine,DISPOS,IN,NA,RxNorm
+7242,naloxone,DISPOS,IN,NA,RxNorm
+7243,naltrexone,DISPOS,IN,NA,RxNorm
+72435,anakinra,DISPOS,IN,NA,RxNorm
+7244,nandrolone,DISPOS,IN,NA,RxNorm
+7247,naphazoline,DISPOS,IN,NA,RxNorm
+7258,naproxen,DISPOS,IN,NA,RxNorm
+72610,troglitazone,DISPOS,IN,NA,RxNorm
+72623000,Thioguanine-containing product,DISPOS,Concept,NA,SNOMED
+72625,duloxetine,DISPOS,IN,NA,RxNorm
+72824008,Cholestyramine-containing product,DISPOS,Concept,NA,SNOMED
+7285,nefopam,DISPOS,IN,NA,RxNorm
+72870001,Scopolamine-containing product,DISPOS,Concept,NA,SNOMED
+72937,tolcapone,DISPOS,IN,NA,RxNorm
+72962,docetaxel,DISPOS,IN,NA,RxNorm
+72965,letrozole,DISPOS,IN,NA,RxNorm
+73032,remifentanil,DISPOS,IN,NA,RxNorm
+73074003,Colistin-containing product,DISPOS,Concept,NA,SNOMED
+73107,levosimendan,DISPOS,IN,NA,RxNorm
+73137,tirofiban,DISPOS,IN,NA,RxNorm
+7315,neostigmine,DISPOS,IN,NA,RxNorm
+732,amphotericin B,DISPOS,IN,NA,RxNorm
+73277004,Mecamylamine-containing product,DISPOS,Concept,NA,SNOMED
+733,ampicillin,DISPOS,IN,NA,RxNorm
+733003,plerixafor,DISPOS,IN,NA,RxNorm
+734064,desvenlafaxine,DISPOS,IN,NA,RxNorm
+73454001,Desmopressin-containing product,DISPOS,Concept,NA,SNOMED
+73494,telmisartan,DISPOS,IN,NA,RxNorm
+73572009,Morphine-containing product,DISPOS,Concept,NA,SNOMED
+73647000,Dipivefrin-containing product,DISPOS,Concept,NA,SNOMED
+73689,febuxostat,DISPOS,IN,NA,RxNorm
+738,inamrinone,DISPOS,IN,NA,RxNorm
+73805002,Thyrotropin releasing factor-containing product,DISPOS,Concept,NA,SNOMED
+73949004,Atropine-containing product,DISPOS,Concept,NA,SNOMED
+7396,nicardipine,DISPOS,IN,NA,RxNorm
+73986003,Cefuroxime-containing product,DISPOS,Concept,NA,SNOMED
+74022005,Mepenzolate-containing product,DISPOS,Concept,NA,SNOMED
+7407,nicotine,DISPOS,IN,NA,RxNorm
+7417,nifedipine,DISPOS,IN,NA,RxNorm
+7426,nimodipine,DISPOS,IN,NA,RxNorm
+743,amylase,DISPOS,IN,NA,RxNorm
+7435,nisoldipine,DISPOS,IN,NA,RxNorm
+74470007,Cyclophosphamide-containing product,DISPOS,Concept,NA,SNOMED
+7454,nitrofurantoin,DISPOS,IN,NA,RxNorm
+7455,nitrofurazone,DISPOS,IN,NA,RxNorm
+74575000,Piperacillin-containing product,DISPOS,Concept,NA,SNOMED
+74667,zaleplon,DISPOS,IN,NA,RxNorm
+746741,pramipexole,DISPOS,IN,NA,RxNorm
+74771007,Phenoxybenzamine-containing product,DISPOS,Concept,NA,SNOMED
+74798006,Pipenzolate-containing product,DISPOS,Concept,NA,SNOMED
+75029008,Deoxycortone-containing product,DISPOS,Concept,NA,SNOMED
+7512,norepinephrine,DISPOS,IN,NA,RxNorm
+7513,norethandrolone,DISPOS,IN,NA,RxNorm
+7514,norethindrone,DISPOS,IN,NA,RxNorm
+7515,norethynodrel,DISPOS,IN,NA,RxNorm
+7517,norfloxacin,DISPOS,IN,NA,RxNorm
+7518,norgestrel,DISPOS,IN,NA,RxNorm
+75207,bosentan,DISPOS,IN,NA,RxNorm
+7533,noscapine,DISPOS,IN,NA,RxNorm
+75429004,Dexbrompheniramine-containing product,DISPOS,Concept,NA,SNOMED
+75501004,Bromodiphenhydramine-containing product,DISPOS,Concept,NA,SNOMED
+7561000,Dexamethasone-containing product,DISPOS,Concept,NA,SNOMED
+75635,eptifibatide,DISPOS,IN,NA,RxNorm
+7577004,Ciprofloxacin-containing product,DISPOS,Concept,NA,SNOMED
+75917,interferon beta-1a,DISPOS,IN,NA,RxNorm
+75927008,Floxuridine-containing product,DISPOS,Concept,NA,SNOMED
+75959001,Tamoxifen-containing product,DISPOS,Concept,NA,SNOMED
+76058001,Prazosin-containing product,DISPOS,Concept,NA,SNOMED
+7617,octreotide,DISPOS,IN,NA,RxNorm
+7623,ofloxacin,DISPOS,IN,NA,RxNorm
+76289007,Xylometazoline-containing product,DISPOS,Concept,NA,SNOMED
+763450,rilonacept,DISPOS,IN,NA,RxNorm
+763500008,Abaloparatide-containing product,DISPOS,Concept,NA,SNOMED
+763501007,Abemaciclib-containing product,DISPOS,Concept,NA,SNOMED
+763502000,Acalabrutinib-containing product,DISPOS,Concept,NA,SNOMED
+763505003,Atezolizumab-containing product,DISPOS,Concept,NA,SNOMED
+763512007,Valbenazine-containing product,DISPOS,Concept,NA,SNOMED
+763513002,Tivozanib-containing product,DISPOS,Concept,NA,SNOMED
+763515009,Telotristat-containing product,DISPOS,Concept,NA,SNOMED
+763516005,Tavaborole-containing product,DISPOS,Concept,NA,SNOMED
+763517001,Talimogene laherparepvec-containing product,DISPOS,Concept,NA,SNOMED
+763521008,Safinamide-containing product,DISPOS,Concept,NA,SNOMED
+763522001,Sarilumab-containing product,DISPOS,Concept,NA,SNOMED
+763523006,Sebelipase alfa-containing product,DISPOS,Concept,NA,SNOMED
+763537002,Ribociclib-containing product,DISPOS,Concept,NA,SNOMED
+763538007,Rolapitant-containing product,DISPOS,Concept,NA,SNOMED
+763539004,Rucaparib-containing product,DISPOS,Concept,NA,SNOMED
+763541003,Pembrolizumab-containing product,DISPOS,Concept,NA,SNOMED
+763542005,Peramivir-containing product,DISPOS,Concept,NA,SNOMED
+763544006,Plecanatide-containing product,DISPOS,Concept,NA,SNOMED
+763548009,Opicapone-containing product,DISPOS,Concept,NA,SNOMED
+763549001,Palbociclib-containing product,DISPOS,Concept,NA,SNOMED
+763550001,Patiromer-containing product,DISPOS,Concept,NA,SNOMED
+763557003,Obeticholic acid-containing product,DISPOS,Concept,NA,SNOMED
+763559000,Ocrelizumab-containing product,DISPOS,Concept,NA,SNOMED
+763561009,Niraparib-containing product,DISPOS,Concept,NA,SNOMED
+763563007,Neratinib-containing product,DISPOS,Concept,NA,SNOMED
+763564001,Naloxegol-containing product,DISPOS,Concept,NA,SNOMED
+763565000,Naldemedine-containing product,DISPOS,Concept,NA,SNOMED
+763568003,Letermovir-containing product,DISPOS,Concept,NA,SNOMED
+763569006,Lifitegrast-containing product,DISPOS,Concept,NA,SNOMED
+763570007,Lixisenatide-containing product,DISPOS,Concept,NA,SNOMED
+763578000,Guselkumab-containing product,DISPOS,Concept,NA,SNOMED
+763579008,Glucarpidase-containing product,DISPOS,Concept,NA,SNOMED
+763583008,Enasidenib-containing product,DISPOS,Concept,NA,SNOMED
+763584002,Etelcalcetide-containing product,DISPOS,Concept,NA,SNOMED
+763586000,Evolocumab-containing product,DISPOS,Concept,NA,SNOMED
+763589007,Dupilumab-containing product,DISPOS,Concept,NA,SNOMED
+763592006,Copanlisib-containing product,DISPOS,Concept,NA,SNOMED
+763593001,Crisaborole-containing product,DISPOS,Concept,NA,SNOMED
+763596009,Delafloxacin-containing product,DISPOS,Concept,NA,SNOMED
+763603002,Ixekizumab-containing product,DISPOS,Concept,NA,SNOMED
+763604008,Brodalumab-containing product,DISPOS,Concept,NA,SNOMED
+763605009,Cabozantinib-containing product,DISPOS,Concept,NA,SNOMED
+763606005,Cangrelor-containing product,DISPOS,Concept,NA,SNOMED
+763608006,Cerliponase alfa-containing product,DISPOS,Concept,NA,SNOMED
+763610008,Vestronidase alfa-containing product,DISPOS,Concept,NA,SNOMED
+763614004,Midostaurin-containing product,DISPOS,Concept,NA,SNOMED
+763652003,Benralizumab-containing product,DISPOS,Concept,NA,SNOMED
+763701005,Baricitinib-containing product,DISPOS,Concept,NA,SNOMED
+763702003,Betrixaban-containing product,DISPOS,Concept,NA,SNOMED
+763704002,Brigatinib-containing product,DISPOS,Concept,NA,SNOMED
+76390000,Practolol-containing product,DISPOS,Concept,NA,SNOMED
+764275009,Ertugliflozin-containing product,DISPOS,Concept,NA,SNOMED
+764284009,Semaglutide-containing product,DISPOS,Concept,NA,SNOMED
+764363002,Deutetrabenazine-containing product,DISPOS,Concept,NA,SNOMED
+764365009,Dimethyl fumarate-containing product,DISPOS,Concept,NA,SNOMED
+764385008,Angiotensin II-containing product,DISPOS,Concept,NA,SNOMED
+7646,omeprazole,DISPOS,IN,NA,RxNorm
+764607009,Nalmefene-containing product,DISPOS,Concept,NA,SNOMED
+765123002,Tesamorelin-containing product,DISPOS,Concept,NA,SNOMED
+765128006,Pegloticase-containing product,DISPOS,Concept,NA,SNOMED
+76696004,Noscapine-containing product,DISPOS,Concept,NA,SNOMED
+766973006,Apalutamide-containing product,DISPOS,Concept,NA,SNOMED
+767227007,Belladonna alkaloid-containing product,DISPOS,Concept,NA,SNOMED
+767324002,Frovatriptan-containing product,DISPOS,Concept,NA,SNOMED
+767582004,Eribulin-containing product,DISPOS,Concept,NA,SNOMED
+76759004,Disopyramide-containing product,DISPOS,Concept,NA,SNOMED
+7676,opium,DISPOS,IN,NA,RxNorm
+767857007,Abiraterone-containing product,DISPOS,Concept,NA,SNOMED
+768151007,Rosuvastatin-containing product,DISPOS,Concept,NA,SNOMED
+768537000,Toceranib-containing product,DISPOS,Concept,NA,SNOMED
+768672006,Histamine-containing product,DISPOS,Concept,NA,SNOMED
+7688,metaproterenol,DISPOS,IN,NA,RxNorm
+768869001,Interferon alfa-n3-containing product,DISPOS,Concept,NA,SNOMED
+76887,quinagolide,DISPOS,IN,NA,RxNorm
+768875005,Interferon alfacon-1-containing product,DISPOS,Concept,NA,SNOMED
+76895,reteplase,DISPOS,IN,NA,RxNorm
+76962009,Iproniazid-containing product,DISPOS,Concept,NA,SNOMED
+770315008,Meclofenamic acid-containing product,DISPOS,Concept,NA,SNOMED
+770854002,Anisotropine-containing product,DISPOS,Concept,NA,SNOMED
+770887003,Colfosceril-containing product,DISPOS,Concept,NA,SNOMED
+770926005,Bepotastine-containing product,DISPOS,Concept,NA,SNOMED
+7715,orphenadrine,DISPOS,IN,NA,RxNorm
+771571004,Avatrombopag-containing product,DISPOS,Concept,NA,SNOMED
+771665003,Tildrakizumab-containing product,DISPOS,Concept,NA,SNOMED
+771675000,Erenumab-containing product,DISPOS,Concept,NA,SNOMED
+771981005,Cannabidiol-containing product,DISPOS,Concept,NA,SNOMED
+772,ancrod,DISPOS,IN,NA,RxNorm
+772039004,Fostamatinib-containing product,DISPOS,Concept,NA,SNOMED
+772091004,Encorafenib-containing product,DISPOS,Concept,NA,SNOMED
+772095008,Binimetinib-containing product,DISPOS,Concept,NA,SNOMED
+772208008,Antidiuretic hormone-containing product,DISPOS,Concept,NA,SNOMED
+772943003,Glycopyrronium-containing product,DISPOS,Concept,NA,SNOMED
+772980009,Somatropin(epr)-containing product,DISPOS,Concept,NA,SNOMED
+772981008,Somatropin(rbe)-containing product,DISPOS,Concept,NA,SNOMED
+773137008,Ivosidenib-containing product,DISPOS,Concept,NA,SNOMED
+773185009,Elagolix-containing product,DISPOS,Concept,NA,SNOMED
+773263005,Lusutrombopag-containing product,DISPOS,Concept,NA,SNOMED
+773521007,Mogamulizumab-containing product,DISPOS,Concept,NA,SNOMED
+77390008,Benztropine-containing product,DISPOS,Concept,NA,SNOMED
+773957006,Cenegermin-containing product,DISPOS,Concept,NA,SNOMED
+773961000,Lanadelumab-containing product,DISPOS,Concept,NA,SNOMED
+77492,tamsulosin,DISPOS,IN,NA,RxNorm
+7773,oxacillin,DISPOS,IN,NA,RxNorm
+77750008,Dacarbazine-containing product,DISPOS,Concept,NA,SNOMED
+7779,oxandrolone,DISPOS,IN,NA,RxNorm
+77856005,Esmolol-containing product,DISPOS,Concept,NA,SNOMED
+77885004,Mestranol-containing product,DISPOS,Concept,NA,SNOMED
+7801,oxprenolol,DISPOS,IN,NA,RxNorm
+7804,oxycodone,DISPOS,IN,NA,RxNorm
+781025005,Metamizole-containing product,DISPOS,Concept,NA,SNOMED
+781057006,Poloxamer 188-containing product,DISPOS,Concept,NA,SNOMED
+781150006,Fremanezumab-containing product,DISPOS,Concept,NA,SNOMED
+7812,oxymetazoline,DISPOS,IN,NA,RxNorm
+781214008,Reslizumab-containing product,DISPOS,Concept,NA,SNOMED
+781266004,Macimorelin-containing product,DISPOS,Concept,NA,SNOMED
+781270007,Netarsudil-containing product,DISPOS,Concept,NA,SNOMED
+781292006,Brexpiprazole-containing product,DISPOS,Concept,NA,SNOMED
+7813,oxymetholone,DISPOS,IN,NA,RxNorm
+781303007,Sonidegib-containing product,DISPOS,Concept,NA,SNOMED
+781308003,Mepolizumab-containing product,DISPOS,Concept,NA,SNOMED
+781312009,Osimertinib-containing product,DISPOS,Concept,NA,SNOMED
+781316007,Alectinib-containing product,DISPOS,Concept,NA,SNOMED
+781320006,Necitumumab-containing product,DISPOS,Concept,NA,SNOMED
+781324002,Ixazomib-containing product,DISPOS,Concept,NA,SNOMED
+781355008,Alirocumab-containing product,DISPOS,Concept,NA,SNOMED
+781364003,Duvelisib-containing product,DISPOS,Concept,NA,SNOMED
+781377007,Selexipag-containing product,DISPOS,Concept,NA,SNOMED
+7814,oxymorphone,DISPOS,IN,NA,RxNorm
+781495006,Dacomitinib-containing product,DISPOS,Concept,NA,SNOMED
+781611008,Cemiplimab-containing product,DISPOS,Concept,NA,SNOMED
+78174002,Mezlocillin-containing product,DISPOS,Concept,NA,SNOMED
+782211002,Talazoparib-containing product,DISPOS,Concept,NA,SNOMED
+7824,oxytocin,DISPOS,IN,NA,RxNorm
+782419003,Galcanezumab-containing product,DISPOS,Concept,NA,SNOMED
+782797001,Inotersen-containing product,DISPOS,Concept,NA,SNOMED
+782983000,Amifampridine-containing product,DISPOS,Concept,NA,SNOMED
+782987004,Gilteritinib-containing product,DISPOS,Concept,NA,SNOMED
+782991009,Larotrectinib-containing product,DISPOS,Concept,NA,SNOMED
+782995000,Lorlatinib-containing product,DISPOS,Concept,NA,SNOMED
+782999006,Revefenacin-containing product,DISPOS,Concept,NA,SNOMED
+783019002,Glasdegib-containing product,DISPOS,Concept,NA,SNOMED
+783023005,Emapalumab-containing product,DISPOS,Concept,NA,SNOMED
+783573003,Ravulizumab-containing product,DISPOS,Concept,NA,SNOMED
+783577002,Tagraxofusp-containing product,DISPOS,Concept,NA,SNOMED
+783681005,Rifamycin-containing product,DISPOS,Concept,NA,SNOMED
+783691004,Andexanet alfa-containing product,DISPOS,Concept,NA,SNOMED
+784234005,Estropipate-containing product,DISPOS,Concept,NA,SNOMED
+784649,asenapine,DISPOS,IN,NA,RxNorm
+78507004,Penicillin G-containing product,DISPOS,Concept,NA,SNOMED
+785621006,4-hydroxybutyric acid-containing product,DISPOS,Concept,NA,SNOMED
+786084006,Clostridium histolyticum collagenase-containing product,DISPOS,Concept,NA,SNOMED
+786123000,Bovine hyaluronidase-containing product,DISPOS,Concept,NA,SNOMED
+786934001,Human C1 esterase inhibitor-containing product,DISPOS,Concept,NA,SNOMED
+786963003,Human alpha1 proteinase inhibitor-containing product,DISPOS,Concept,NA,SNOMED
+78700004,Fenfluramine-containing product,DISPOS,Concept,NA,SNOMED
+787019001,Siponimod-containing product,DISPOS,Concept,NA,SNOMED
+787070005,Solriamfetol-containing product,DISPOS,Concept,NA,SNOMED
+787390,tapentadol,DISPOS,IN,NA,RxNorm
+787415000,Romosozumab-containing product,DISPOS,Concept,NA,SNOMED
+787742003,Erdafitinib-containing product,DISPOS,Concept,NA,SNOMED
+787746000,Risankizumab-containing product,DISPOS,Concept,NA,SNOMED
+7880,pancreatin,DISPOS,IN,NA,RxNorm
+788079009,Alpelisib-containing product,DISPOS,Concept,NA,SNOMED
+788329003,Polatuzumab vedotin-containing product,DISPOS,Concept,NA,SNOMED
+788500001,Bremelanotide-containing product,DISPOS,Concept,NA,SNOMED
+789166006,Darolutamide-containing product,DISPOS,Concept,NA,SNOMED
+789195002,Pexidartinib-containing product,DISPOS,Concept,NA,SNOMED
+7892,papain,DISPOS,IN,NA,RxNorm
+789360005,Pitolisant-containing product,DISPOS,Concept,NA,SNOMED
+789364001,Entrectinib-containing product,DISPOS,Concept,NA,SNOMED
+789368003,Fedratinib-containing product,DISPOS,Concept,NA,SNOMED
+7894,papaveretum,DISPOS,IN,NA,RxNorm
+789416006,Upadacitinib-containing product,DISPOS,Concept,NA,SNOMED
+789447000,Caplacizumab-containing product,DISPOS,Concept,NA,SNOMED
+789486001,Esketamine-containing product,DISPOS,Concept,NA,SNOMED
+7895,papaverine,DISPOS,IN,NA,RxNorm
+789501006,Lefamulin-containing product,DISPOS,Concept,NA,SNOMED
+789550000,Istradefylline-containing product,DISPOS,Concept,NA,SNOMED
+7910,paramethasone,DISPOS,IN,NA,RxNorm
+7930,pargyline,DISPOS,IN,NA,RxNorm
+79305004,Guanethidine-containing product,DISPOS,Concept,NA,SNOMED
+79332009,Diethylstilbestrol-containing product,DISPOS,Concept,NA,SNOMED
+7947003,Aspirin-containing product,DISPOS,Concept,NA,SNOMED
+7959004,Teniposide-containing product,DISPOS,Concept,NA,SNOMED
+7960,pefloxacin,DISPOS,IN,NA,RxNorm
+797195,fesoterodine,DISPOS,IN,NA,RxNorm
+7973,penbutolol,DISPOS,IN,NA,RxNorm
+7975,penicillamine,DISPOS,IN,NA,RxNorm
+7980,penicillin G,DISPOS,IN,NA,RxNorm
+7984,penicillin V,DISPOS,IN,NA,RxNorm
+7994,pentamidine,DISPOS,IN,NA,RxNorm
+8001,pentazocine,DISPOS,IN,NA,RxNorm
+80024007,Neostigmine-containing product,DISPOS,Concept,NA,SNOMED
+8011,pentostatin,DISPOS,IN,NA,RxNorm
+80165005,Hydroxyzine-containing product,DISPOS,Concept,NA,SNOMED
+8047,pergolide,DISPOS,IN,NA,RxNorm
+8050,perhexiline,DISPOS,IN,NA,RxNorm
+805452,romiplostim,DISPOS,IN,NA,RxNorm
+80618000,Ethylestrenol-containing product,DISPOS,Concept,NA,SNOMED
+80906007,Cyclosporine-containing product,DISPOS,Concept,NA,SNOMED
+809864,C1 esterase inhibitor (human),DISPOS,PIN,NA,RxNorm
+81073007,Dimenhydrinate-containing product,DISPOS,Concept,NA,SNOMED
+81088002,Cefazolin-containing product,DISPOS,Concept,NA,SNOMED
+8109005,Trimeprazine-containing product,DISPOS,Concept,NA,SNOMED
+8119,phenazocine,DISPOS,IN,NA,RxNorm
+8123,phenelzine,DISPOS,IN,NA,RxNorm
+8132,pheniramine,DISPOS,IN,NA,RxNorm
+8143,phenoperidine,DISPOS,IN,NA,RxNorm
+8149,phenoxybenzamine,DISPOS,IN,NA,RxNorm
+8153,phentolamine,DISPOS,IN,NA,RxNorm
+816100007,Elbasvir-containing product,DISPOS,Concept,NA,SNOMED
+816101006,Glecaprevir-containing product,DISPOS,Concept,NA,SNOMED
+816102004,Pibrentasvir-containing product,DISPOS,Concept,NA,SNOMED
+816103009,Bictegravir-containing product,DISPOS,Concept,NA,SNOMED
+816104003,Grazoprevir-containing product,DISPOS,Concept,NA,SNOMED
+816105002,Velpatasvir-containing product,DISPOS,Concept,NA,SNOMED
+816106001,Voxilaprevir-containing product,DISPOS,Concept,NA,SNOMED
+8163,phenylephrine,DISPOS,IN,NA,RxNorm
+816346,dexlansoprazole,DISPOS,IN,NA,RxNorm
+81646007,Diphenylpyraline-containing product,DISPOS,Concept,NA,SNOMED
+81728006,Digitoxin-containing product,DISPOS,Concept,NA,SNOMED
+8183,phenytoin,DISPOS,IN,NA,RxNorm
+818969000,Lachesine-containing product,DISPOS,Concept,NA,SNOMED
+819300,golimumab,DISPOS,IN,NA,RxNorm
+81947000,Ethacrynic acid-containing product,DISPOS,Concept,NA,SNOMED
+819911,besifloxacin,DISPOS,IN,NA,RxNorm
+819984003,Afamelanotide-containing product,DISPOS,Concept,NA,SNOMED
+82122,levofloxacin,DISPOS,IN,NA,RxNorm
+82133001,Norethynodrel-containing product,DISPOS,Concept,NA,SNOMED
+82165003,Phentolamine-containing product,DISPOS,Concept,NA,SNOMED
+82166002,Prolactin-containing product,DISPOS,Concept,NA,SNOMED
+82240008,Norgestrel-containing product,DISPOS,Concept,NA,SNOMED
+82264009,Homatropine-containing product,DISPOS,Concept,NA,SNOMED
+823028008,Lasmiditan-containing product,DISPOS,Concept,NA,SNOMED
+82312001,Bacampicillin-containing product,DISPOS,Concept,NA,SNOMED
+82573000,Lidocaine-containing product,DISPOS,Concept,NA,SNOMED
+82896009,Nadolol-containing product,DISPOS,Concept,NA,SNOMED
+82951001,Guanabenz-containing product,DISPOS,Concept,NA,SNOMED
+8299,physostigmine,DISPOS,IN,NA,RxNorm
+83008,bicalutamide,DISPOS,IN,NA,RxNorm
+830101009,Cefiderocol-containing product,DISPOS,Concept,NA,SNOMED
+830102002,Crizanlizumab-containing product,DISPOS,Concept,NA,SNOMED
+830103007,Zanubrutinib-containing product,DISPOS,Concept,NA,SNOMED
+83085007,Nalbuphine-containing product,DISPOS,Concept,NA,SNOMED
+83201006,Oxacillin-containing product,DISPOS,Concept,NA,SNOMED
+83213,mibefradil,DISPOS,IN,NA,RxNorm
+8328,pilocarpine,DISPOS,IN,NA,RxNorm
+8331,pimozide,DISPOS,IN,NA,RxNorm
+8332,pindolol,DISPOS,IN,NA,RxNorm
+833304007,Voxelotor-containing product,DISPOS,Concept,NA,SNOMED
+83367,atorvastatin,DISPOS,IN,NA,RxNorm
+8339,piperacillin,DISPOS,IN,NA,RxNorm
+83395,saquinavir,DISPOS,IN,NA,RxNorm
+8348002,Cyclopentolate-containing product,DISPOS,Concept,NA,SNOMED
+83515,eprosartan,DISPOS,IN,NA,RxNorm
+8352,pirenzepine,DISPOS,IN,NA,RxNorm
+83532008,Cimetidine-containing product,DISPOS,Concept,NA,SNOMED
+8356,piroxicam,DISPOS,IN,NA,RxNorm
+836465002,Enfortumab vedotin-containing product,DISPOS,Concept,NA,SNOMED
+83682,cefditoren,DISPOS,IN,NA,RxNorm
+83719,grepafloxacin,DISPOS,IN,NA,RxNorm
+8372,pivampicillin,DISPOS,IN,NA,RxNorm
+8372007,Promethazine-containing product,DISPOS,Concept,NA,SNOMED
+8373,pizotyline,DISPOS,IN,NA,RxNorm
+83816,delavirdine,DISPOS,IN,NA,RxNorm
+83818,irbesartan,DISPOS,IN,NA,RxNorm
+838409003,Avapritinib-containing product,DISPOS,Concept,NA,SNOMED
+838478007,Trastuzumab deruxtecan-containing product,DISPOS,Concept,NA,SNOMED
+838488008,Ubrogepant-containing product,DISPOS,Concept,NA,SNOMED
+838492001,Lemborexant-containing product,DISPOS,Concept,NA,SNOMED
+83929,abciximab,DISPOS,IN,NA,RxNorm
+840407002,Tazemetostat-containing product,DISPOS,Concept,NA,SNOMED
+84078002,Methyldopa-containing product,DISPOS,Concept,NA,SNOMED
+8410,alteplase,DISPOS,IN,NA,RxNorm
+84108,rosiglitazone,DISPOS,IN,NA,RxNorm
+8416000,Dicloxacillin-containing product,DISPOS,Concept,NA,SNOMED
+84857,anastrozole,DISPOS,IN,NA,RxNorm
+84951002,Meclizine-containing product,DISPOS,Concept,NA,SNOMED
+84959,imiglucerase,DISPOS,IN,NA,RxNorm
+85248,alosetron,DISPOS,IN,NA,RxNorm
+85272000,Nifedipine-containing product,DISPOS,Concept,NA,SNOMED
+85343003,Nitrofurantoin-containing product,DISPOS,Concept,NA,SNOMED
+853491,canakinumab,DISPOS,IN,NA,RxNorm
+85354008,Cyclizine-containing product,DISPOS,Concept,NA,SNOMED
+8536,polymyxin B,DISPOS,IN,NA,RxNorm
+85408000,Antazoline-containing product,DISPOS,Concept,NA,SNOMED
+85429009,Physostigmine-containing product,DISPOS,Concept,NA,SNOMED
+85507008,Esterified estrogen-containing product,DISPOS,Concept,NA,SNOMED
+85591001,Timolol-containing product,DISPOS,Concept,NA,SNOMED
+85762,ritonavir,DISPOS,IN,NA,RxNorm
+857974,saxagliptin,DISPOS,IN,NA,RxNorm
+85990009,Codeine-containing product,DISPOS,Concept,NA,SNOMED
+86009,insulin lispro,DISPOS,IN,NA,RxNorm
+860757001,Rimegepant-containing product,DISPOS,Concept,NA,SNOMED
+86131002,Metyrosine-containing product,DISPOS,Concept,NA,SNOMED
+86162003,Nandrolone-containing product,DISPOS,Concept,NA,SNOMED
+861634,pitavastatin,DISPOS,IN,NA,RxNorm
+8620,practolol,DISPOS,IN,NA,RxNorm
+8629,prazosin,DISPOS,IN,NA,RxNorm
+863035,bepotastine,DISPOS,IN,NA,RxNorm
+8638,prednisolone,DISPOS,IN,NA,RxNorm
+863938004,Osilodrostat-containing product,DISPOS,Concept,NA,SNOMED
+8640,prednisone,DISPOS,IN,NA,RxNorm
+864003008,Lomitapide-containing product,DISPOS,Concept,NA,SNOMED
+865,antazoline,DISPOS,IN,NA,RxNorm
+8674,prenylamine,DISPOS,IN,NA,RxNorm
+870753001,Selumetinib-containing product,DISPOS,Concept,NA,SNOMED
+871709004,Pemigatinib-containing product,DISPOS,Concept,NA,SNOMED
+871715004,Tucatinib-containing product,DISPOS,Concept,NA,SNOMED
+871787004,Eptinezumab-containing product,DISPOS,Concept,NA,SNOMED
+8718,procyclidine,DISPOS,IN,NA,RxNorm
+871800005,Ozanimod-containing product,DISPOS,Concept,NA,SNOMED
+871812009,Sacituzumab govitecan-containing product,DISPOS,Concept,NA,SNOMED
+8727,progesterone,DISPOS,IN,NA,RxNorm
+87285001,Nimodipine-containing product,DISPOS,Concept,NA,SNOMED
+87395005,Amiloride-containing product,DISPOS,Concept,NA,SNOMED
+8745,promethazine,DISPOS,IN,NA,RxNorm
+874906002,Ripretinib-containing product,DISPOS,Concept,NA,SNOMED
+874907006,Capmatinib-containing product,DISPOS,Concept,NA,SNOMED
+8761,propantheline,DISPOS,IN,NA,RxNorm
+87617007,Naltrexone-containing product,DISPOS,Concept,NA,SNOMED
+87636,fexofenadine,DISPOS,IN,NA,RxNorm
+87652004,Atenolol-containing product,DISPOS,Concept,NA,SNOMED
+876867006,Selpercatinib-containing product,DISPOS,Concept,NA,SNOMED
+8770,propiomazine,DISPOS,IN,NA,RxNorm
+877510,romidepsin,DISPOS,IN,NA,RxNorm
+8785,propoxyphene,DISPOS,IN,NA,RxNorm
+8787,propranolol,DISPOS,IN,NA,RxNorm
+87881000,Danazol-containing product,DISPOS,Concept,NA,SNOMED
+8792,propylhexedrine,DISPOS,IN,NA,RxNorm
+88014,rizatriptan,DISPOS,IN,NA,RxNorm
+8814,epoprostenol,DISPOS,IN,NA,RxNorm
+88249,montelukast,DISPOS,IN,NA,RxNorm
+8834,protein C,DISPOS,IN,NA,RxNorm
+8896,pseudoephedrine,DISPOS,IN,NA,RxNorm
+88997008,Thiotepa-containing product,DISPOS,Concept,NA,SNOMED
+89018006,Naloxone-containing product,DISPOS,Concept,NA,SNOMED
+890263000,Polyestradiol-containing product,DISPOS,Concept,NA,SNOMED
+890270000,Fostemsavir-containing product,DISPOS,Concept,NA,SNOMED
+89092006,Tranylcypromine-containing product,DISPOS,Concept,NA,SNOMED
+89265009,Cytarabine-containing product,DISPOS,Concept,NA,SNOMED
+89505005,Sulindac-containing product,DISPOS,Concept,NA,SNOMED
+895426008,Bazedoxifene-containing product,DISPOS,Concept,NA,SNOMED
+896752005,Trastuzumab emtansine-containing product,DISPOS,Concept,NA,SNOMED
+897018,dalfampridine,DISPOS,IN,NA,RxNorm
+897041004,Oliceridine-containing product,DISPOS,Concept,NA,SNOMED
+897291006,Satralizumab-containing product,DISPOS,Concept,NA,SNOMED
+89778,ecothiopate,DISPOS,IN,NA,RxNorm
+89780,anisotropine,DISPOS,IN,NA,RxNorm
+89782,diphemanil,DISPOS,IN,NA,RxNorm
+89785,methscopolamine,DISPOS,IN,NA,RxNorm
+89785009,Ritodrine-containing product,DISPOS,Concept,NA,SNOMED
+898164002,Clascoterone-containing product,DISPOS,Concept,NA,SNOMED
+898492,collagenase Clostridium histolyticum,DISPOS,IN,NA,RxNorm
+89887,Latrodectus mactans antivenin,DISPOS,IN,NA,RxNorm
+9000,pyridostigmine,DISPOS,IN,NA,RxNorm
+90017009,Estrone-containing product,DISPOS,Concept,NA,SNOMED
+9009,pyrilamine,DISPOS,IN,NA,RxNorm
+901805,velaglucerase alfa,DISPOS,IN,NA,RxNorm
+90356005,Pilocarpine-containing product,DISPOS,Concept,NA,SNOMED
+90370005,Benzalkonium-containing product,DISPOS,Concept,NA,SNOMED
+9066,quinestrol,DISPOS,IN,NA,RxNorm
+9068,quinidine,DISPOS,IN,NA,RxNorm
+9071,quinine,DISPOS,IN,NA,RxNorm
+90882008,Carbinoxamine-containing product,DISPOS,Concept,NA,SNOMED
+91107009,Caffeine-containing product,DISPOS,Concept,NA,SNOMED
+91143003,Albuterol-containing product,DISPOS,Concept,NA,SNOMED
+91169009,Nafcillin-containing product,DISPOS,Concept,NA,SNOMED
+91339009,Trimetrexate-containing product,DISPOS,Concept,NA,SNOMED
+9143,ranitidine,DISPOS,IN,NA,RxNorm
+91435002,Pseudoephedrine-containing product,DISPOS,Concept,NA,SNOMED
+91596,polyvalent Crotalidae antivenin,DISPOS,IN,NA,RxNorm
+9190005,Tropicamide-containing product,DISPOS,Concept,NA,SNOMED
+922004,Pralidoxime-containing product,DISPOS,Concept,NA,SNOMED
+926317008,Pralsetinib-containing product,DISPOS,Concept,NA,SNOMED
+9384,rifampin,DISPOS,IN,NA,RxNorm
+9388,rimiterol,DISPOS,IN,NA,RxNorm
+9392,ritodrine,DISPOS,IN,NA,RxNorm
+9500005,Phenelzine-containing product,DISPOS,Concept,NA,SNOMED
+9601,scopolamine,DISPOS,IN,NA,RxNorm
+96018008,Tiamulin-containing product,DISPOS,Concept,NA,SNOMED
+96023008,Virginiamycin-containing product,DISPOS,Concept,NA,SNOMED
+96044008,Ceftiofur-containing product,DISPOS,Concept,NA,SNOMED
+96047001,Cefpirome-containing product,DISPOS,Concept,NA,SNOMED
+96049003,Cefpodoxime-containing product,DISPOS,Concept,NA,SNOMED
+96051004,Ceftibuten-containing product,DISPOS,Concept,NA,SNOMED
+96052006,Cefixime-containing product,DISPOS,Concept,NA,SNOMED
+96053001,Cefsulodin-containing product,DISPOS,Concept,NA,SNOMED
+96054007,Cefprozil-containing product,DISPOS,Concept,NA,SNOMED
+96055008,Cefodizime-containing product,DISPOS,Concept,NA,SNOMED
+96063009,Amdinocillin-containing product,DISPOS,Concept,NA,SNOMED
+96064003,Amdinocillin pivoxil-containing product,DISPOS,Concept,NA,SNOMED
+96065002,Temocillin-containing product,DISPOS,Concept,NA,SNOMED
+96067005,Floxacillin-containing product,DISPOS,Concept,NA,SNOMED
+96072001,Pivampicillin-containing product,DISPOS,Concept,NA,SNOMED
+96073006,Talampicillin-containing product,DISPOS,Concept,NA,SNOMED
+96084004,Enoxacin-containing product,DISPOS,Concept,NA,SNOMED
+96086002,Ofloxacin-containing product,DISPOS,Concept,NA,SNOMED
+96087006,Levofloxacin-containing product,DISPOS,Concept,NA,SNOMED
+96088001,Lomefloxacin-containing product,DISPOS,Concept,NA,SNOMED
+96090000,Sparfloxacin-containing product,DISPOS,Concept,NA,SNOMED
+96091001,Temafloxacin-containing product,DISPOS,Concept,NA,SNOMED
+96183007,Alfentanil-containing product,DISPOS,Concept,NA,SNOMED
+96185000,Tilidine-containing product,DISPOS,Concept,NA,SNOMED
+96191003,Dextromoramide-containing product,DISPOS,Concept,NA,SNOMED
+96195007,Lamotrigine-containing product,DISPOS,Concept,NA,SNOMED
+96200003,Mianserin-containing product,DISPOS,Concept,NA,SNOMED
+96213009,Fluvoxamine-containing product,DISPOS,Concept,NA,SNOMED
+96220002,Flupentixol-containing product,DISPOS,Concept,NA,SNOMED
+96231005,Zolpidem-containing product,DISPOS,Concept,NA,SNOMED
+96247007,Flumazenil-containing product,DISPOS,Concept,NA,SNOMED
+9627,secretin,DISPOS,IN,NA,RxNorm
+96298001,Mexiletine-containing product,DISPOS,Concept,NA,SNOMED
+96299009,Oxprenolol-containing product,DISPOS,Concept,NA,SNOMED
+96301002,Sotalol-containing product,DISPOS,Concept,NA,SNOMED
+96304005,Simvastatin-containing product,DISPOS,Concept,NA,SNOMED
+96305006,Pravastatin-containing product,DISPOS,Concept,NA,SNOMED
+96307003,Fluvastatin-containing product,DISPOS,Concept,NA,SNOMED
+96309000,Losartan-containing product,DISPOS,Concept,NA,SNOMED
+96339005,Boldenone-containing product,DISPOS,Concept,NA,SNOMED
+96359009,Altrenogest-containing product,DISPOS,Concept,NA,SNOMED
+96370002,Cyproterone-containing product,DISPOS,Concept,NA,SNOMED
+96371003,Flutamide-containing product,DISPOS,Concept,NA,SNOMED
+96378009,Toremifene-containing product,DISPOS,Concept,NA,SNOMED
+96380003,Gestrinone-containing product,DISPOS,Concept,NA,SNOMED
+96381004,Paroxypropione-containing product,DISPOS,Concept,NA,SNOMED
+9639,selegiline,DISPOS,IN,NA,RxNorm
+968170,polidocanol,DISPOS,IN,NA,RxNorm
+973,antilymphocyte immunoglobulin,DISPOS,IN,NA,RxNorm
+979384,North American coral snake antivenin,DISPOS,IN,NA,RxNorm
+9800,sincalide,DISPOS,IN,NA,RxNorm
+991743,"alpha 1-proteinase inhibitor, human",DISPOS,PIN,NA,RxNorm
+993449,denosumab,DISPOS,IN,NA,RxNorm
+9939,somatostatin,DISPOS,IN,NA,RxNorm
+9944001,Chlorpheniramine-containing product,DISPOS,Concept,NA,SNOMED
+9947,sotalol,DISPOS,IN,NA,RxNorm
+996051,cabazitaxel,DISPOS,IN,NA,RxNorm
+9997,spironolactone,DISPOS,IN,NA,RxNorm
