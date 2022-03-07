@@ -18,6 +18,8 @@
 #' @importFrom pg13 send query write_table drop_table
 #' @importFrom glue glue
 #' @importFrom dplyr arrange filter
+#' @importFrom curl has_internet
+#' @importFrom cli cli_abort
 
 process_rxnorm_validity_status <-
   function(conn,
@@ -45,7 +47,14 @@ process_rxnorm_validity_status <-
           verbose = verbose,
           render_sql = render_sql)) {
 
-      key  <- get_rxnav_api_version()
+
+      if (!curl::has_internet()) {
+
+        cli::cli_abort("No internet connection to make API call.")
+
+      }
+
+      version_key  <- get_rxnav_api_version()
       dirs <- file.path("setupRxNorm", version_key$version, "RxNorm Validity Status")
 
 
