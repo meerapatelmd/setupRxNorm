@@ -1,0 +1,623 @@
+concept_code,concept_name,class_type,concept_class_id,standard_concept,vocabulary_id
+N0000000003,Pharmacokinetics (PK),PK,Root,C,MEDRT
+N0000000008,Absorption,PK,SubClass,C,MEDRT
+N0000000009,Affected by food/other nutrients,PK,SubClass,C,MEDRT
+N0000000010,Decreased by food,PK,Leaf,C,MEDRT
+N0000000011,Increased by food,PK,Leaf,C,MEDRT
+N0000000012,Affected by gastric pH,PK,SubClass,C,MEDRT
+N0000000013,Enhanced by acidity,PK,Leaf,C,MEDRT
+N0000000014,Decreased by acidity,PK,Leaf,C,MEDRT
+N0000000015,Affected by intestinal surface area,PK,Leaf,C,MEDRT
+N0000000016,Affected by concomitant drug administration,PK,Leaf,C,MEDRT
+N0000000017,Absorption Half-Life,PK,Leaf,C,MEDRT
+N0000000018,Distribution,PK,SubClass,C,MEDRT
+N0000000019,Volume of distribution,PK,Leaf,C,MEDRT
+N0000000020,Site of concentration,PK,Leaf,C,MEDRT
+N0000000021,Site of relative exclusion,PK,Leaf,C,MEDRT
+N0000000022,Elimination,PK,SubClass,C,MEDRT
+N0000000023,Metabolism,PK,SubClass,C,MEDRT
+N0000000024,Site of Metabolism,PK,SubClass,C,MEDRT
+N0000000025,Intestinal Metabolism,PK,Leaf,C,MEDRT
+N0000000026,Hepatic Metabolism,PK,Leaf,C,MEDRT
+N0000000027,Pulmonary Metabolism,PK,Leaf,C,MEDRT
+N0000000028,Renal Metabolism,PK,Leaf,C,MEDRT
+N0000000029,Plasma Metabolism,PK,Leaf,C,MEDRT
+N0000000030,Enzymatic Pathway of Metabolism,PK,SubClass,C,MEDRT
+N0000000031,Cytochromes,PK,Leaf,C,MEDRT
+N0000000032,Esterases,PK,Leaf,C,MEDRT
+N0000000033,Epoxide hydrolases,PK,Leaf,C,MEDRT
+N0000000034,Glucuronosyl transferases,PK,Leaf,C,MEDRT
+N0000000035,Glutathione s-transferases,PK,Leaf,C,MEDRT
+N0000000036,Sulfotransferases,PK,Leaf,C,MEDRT
+N0000000037,N-acetyl transferases,PK,Leaf,C,MEDRT
+N0000000038,Thiopurine methyltransferase,PK,Leaf,C,MEDRT
+N0000000039,Monoamine oxidase,PK,Leaf,C,MEDRT
+N0000000040,Co-methyltransferase,PK,Leaf,C,MEDRT
+N0000000041,Route of Excretion,PK,SubClass,C,MEDRT
+N0000000042,Renal Excretion,PK,Leaf,C,MEDRT
+N0000000043,Hepatic Excretion,PK,Leaf,C,MEDRT
+N0000000044,Pulmonary Excretion,PK,Leaf,C,MEDRT
+N0000000045,Fecal Excretion,PK,Leaf,C,MEDRT
+N0000000046,Breast Milk Excretion,PK,Leaf,C,MEDRT
+N0000000047,Clinically Unimportant Route of Excretion,PK,SubClass,C,MEDRT
+N0000000048,Saliva Excretion,PK,Leaf,C,MEDRT
+N0000000049,Tear Excretion,PK,Leaf,C,MEDRT
+N0000000050,Sweat Excretion,PK,Leaf,C,MEDRT
+N0000000051,Skin Excretion,PK,Leaf,C,MEDRT
+N0000000052,Hair Excretion,PK,Leaf,C,MEDRT
+N0000000053,Nail Excretion,PK,Leaf,C,MEDRT
+N0000000054,Umbilical Lint Excretion,PK,Leaf,C,MEDRT
+N0000000055,Kinetics,PK,SubClass,C,MEDRT
+N0000000056,Order,PK,SubClass,C,MEDRT
+N0000000057,First Order,PK,Leaf,C,MEDRT
+N0000000058,Zero Order,PK,Leaf,C,MEDRT
+N0000000059,Compartments,PK,SubClass,C,MEDRT
+N0000000060,1-Compartment,PK,Leaf,C,MEDRT
+N0000000061,2-Compartment,PK,Leaf,C,MEDRT
+N0000000062,3-Compartment,PK,Leaf,C,MEDRT
+N0000000063,Clearance,PK,Leaf,C,MEDRT
+N0000000064,Half-Life,PK,Leaf,C,MEDRT
+N0000008289,Aromatic hydroxylation,PK,Leaf,C,MEDRT
+1002243003,Adrenergic receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+10135005,Cinchona alkaloid-containing product,DISPOS,NA,C,SNOMED
+108417002,5-HT3 receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+108616001,Leukotriene receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+108643006,Phthalazinone derivative-containing product,DISPOS,NA,C,SNOMED
+108661002,Histamine H2 receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+108665006,Proton pump inhibitor-containing product,DISPOS,NA,C,SNOMED
+108709006,Reverse transcriptase inhibitor-containing product,DISPOS,NA,C,SNOMED
+108775004,Aromatase inhibitor-containing product,DISPOS,NA,C,SNOMED
+108780008,Topoisomerase inhibitor-containing product,DISPOS,NA,C,SNOMED
+108793003,Mitotic inhibitor-containing product,DISPOS,NA,C,SNOMED
+108828006,Alpha-2 adrenergic receptor agonist-containing product,DISPOS,NA,C,SNOMED
+108860003,Mast cell stabilizer-containing product,DISPOS,NA,C,SNOMED
+108940007,Immunomodulator-containing product,DISPOS,NA,C,SNOMED
+108966005,Colony stimulating factor-containing product,DISPOS,NA,C,SNOMED
+109030001,Selective estrogen receptor modulator-containing product,DISPOS,NA,C,SNOMED
+109072000,Alpha-glucosidase inhibitor-containing product,DISPOS,NA,C,SNOMED
+109101005,Alcohol dehydrogenase inhibitor-containing product,DISPOS,NA,C,SNOMED
+1119471001,Selective progesterone receptor modulator-containing product,DISPOS,NA,C,SNOMED
+1119472008,Beta-lactamase inhibitor antibacterial agent,DISPOS,NA,C,SNOMED
+1137664003,Melanocortin receptor agonist-containing product,DISPOS,NA,C,SNOMED
+1156736000,Erythropoietin receptor agonist-containing product,DISPOS,NA,C,SNOMED
+116092004,Lipase inhibitor-containing product,DISPOS,NA,C,SNOMED
+116101001,Gonadotropin releasing hormone receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+116536008,Protease-containing product,DISPOS,NA,C,SNOMED
+1206000,Alpha-2 adrenergic receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+123954005,COX-2 inhibitor-containing product,DISPOS,NA,C,SNOMED
+129557000,Protein-tyrosine kinase inhibitor-containing product,DISPOS,NA,C,SNOMED
+14103001,Opioid receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+14601000,Acetylcholine receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+15772006,Beta-1 adrenergic receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+169008,Hypothalamic releasing factor-containing product,DISPOS,NA,C,SNOMED
+18679008,Potassium exchange resin-containing product,DISPOS,NA,C,SNOMED
+19768003,Alkylating agent-containing product,DISPOS,NA,C,SNOMED
+22091006,Hormone-containing product,DISPOS,NA,C,SNOMED
+26244009,Muscarinic receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+318711006,Adrenergic neurone blocker-containing product,DISPOS,NA,C,SNOMED
+318945006,Ganglion blocker-containing product,DISPOS,NA,C,SNOMED
+320073005,Selective beta-2 agonist-containing product,DISPOS,NA,C,SNOMED
+323363000,Centrally acting acetylcholinesterase inhibitor-containing product,DISPOS,NA,C,SNOMED
+327298003,Hormone receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+33252009,Beta adrenergic receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+346312000,Aldosterone receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+346322006,Anion exchange resin-containing product,DISPOS,NA,C,SNOMED
+346324007,Androgen receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+346625000,Phosphodiesterase inhibitor-containing product,DISPOS,NA,C,SNOMED
+349842005,Nitrogen mustard derivative antineoplastic agent,DISPOS,NA,C,SNOMED
+349846008,Antifolate-containing product,DISPOS,NA,C,SNOMED
+349847004,Purine antagonist-containing product,DISPOS,NA,C,SNOMED
+349849001,Estrogen receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+349854005,Selective serotonin re-uptake inhibitor-containing product,DISPOS,NA,C,SNOMED
+349917000,Alpha adrenergic receptor agonist-containing product,DISPOS,NA,C,SNOMED
+349920008,Beta adrenergic receptor agonist-containing product,DISPOS,NA,C,SNOMED
+349921007,Selective beta-1 adrenoceptor agonist-containing product,DISPOS,NA,C,SNOMED
+349955005,Histamine H1 receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+350062001,Xanthine oxidase inhibitor-containing product,DISPOS,NA,C,SNOMED
+350066003,Nonionic surfactant-containing product,DISPOS,NA,C,SNOMED
+350075001,Chelating agent-containing product,DISPOS,NA,C,SNOMED
+350268005,Cationic surfactant-containing product,DISPOS,NA,C,SNOMED
+350361002,Gonad regulating hormone-containing product,DISPOS,NA,C,SNOMED
+350467002,Calcium regulating hormone-containing product,DISPOS,NA,C,SNOMED
+350555001,Ion exchange resin-containing product,DISPOS,NA,C,SNOMED
+350556000,Cation exchange resin-containing product,DISPOS,NA,C,SNOMED
+356415005,Imidazoline receptor agonist-containing product,DISPOS,NA,C,SNOMED
+356844002,Monoamine oxidase B inhibitor-containing product,DISPOS,NA,C,SNOMED
+356845001,Catechol-O-methyltransferase inhibitor-containing product,DISPOS,NA,C,SNOMED
+360204007,Opioid receptor agonist-containing product,DISPOS,NA,C,SNOMED
+363560004,Serotonin 5-HT1 receptor agonist-containing product,DISPOS,NA,C,SNOMED
+384952006,Dopamine receptor agonist-containing product,DISPOS,NA,C,SNOMED
+385560009,Endothelin receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+385576000,Coagulation factor Xa inhibitor-containing product,DISPOS,NA,C,SNOMED
+392573000,Anterior pituitary hormone-containing product,DISPOS,NA,C,SNOMED
+392574006,Posterior pituitary hormone-containing product,DISPOS,NA,C,SNOMED
+397359002,Fusion inhibitor-containing product,DISPOS,NA,C,SNOMED
+406456001,NMDA receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+407035002,Norepinephrine reuptake inhibitor-containing product,DISPOS,NA,C,SNOMED
+407314008,Enzyme inhibitor-containing product,DISPOS,NA,C,SNOMED
+407316005,Phosphodiesterase 5 inhibitor-containing product,DISPOS,NA,C,SNOMED
+409206005,Neurokinin 1 receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+409217006,Proteasome inhibitor-containing product,DISPOS,NA,C,SNOMED
+409227000,Neuraminidase inhibitor-containing product,DISPOS,NA,C,SNOMED
+409390007,Calcimimetic-containing product,DISPOS,NA,C,SNOMED
+409403004,Epidermal growth factor receptor antagonist antineoplastic agent,DISPOS,NA,C,SNOMED
+409407003,Angiogenesis inhibitor-containing product,DISPOS,NA,C,SNOMED
+412551004,Plasminogen activator-containing product,DISPOS,NA,C,SNOMED
+413358002,5-lipoxygenase inhibitor-containing product,DISPOS,NA,C,SNOMED
+413481004,Alpha-4 integrin receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+414350003,Glutamate receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+415151000,Potassium channel blocker-containing product,DISPOS,NA,C,SNOMED
+41549009,Angiotensin-converting enzyme inhibitor-containing product,DISPOS,NA,C,SNOMED
+415513007,Selective adhesion molecule inhibitor-containing product,DISPOS,NA,C,SNOMED
+416587008,Calcineurin inhibitor-containing product,DISPOS,NA,C,SNOMED
+416636000,Glucagon-like peptide 1 receptor agonist-containing product,DISPOS,NA,C,SNOMED
+416897008,Tumor necrosis factor alpha inhibitor-containing product,DISPOS,NA,C,SNOMED
+419304003,Melatonin agonist-containing product,DISPOS,NA,C,SNOMED
+420156009,Monoamine oxidase A inhibitor-containing product,DISPOS,NA,C,SNOMED
+420268006,A4beta2 acetylcholine receptor partial agonist-containing product,DISPOS,NA,C,SNOMED
+420383004,Acetylcholine receptor agonist-containing product,DISPOS,NA,C,SNOMED
+422403005,Dipeptidyl peptidase IV inhibitor-containing product,DISPOS,NA,C,SNOMED
+422745008,Peptide hydrolase inhibitor-containing product,DISPOS,NA,C,SNOMED
+423081009,Histone deacetylase inhibitor-containing product,DISPOS,NA,C,SNOMED
+425628000,Aspartic proteinase inhibitor-containing product,DISPOS,NA,C,SNOMED
+426230004,Renin inhibitor-containing product,DISPOS,NA,C,SNOMED
+427059003,Transferase inhibitor-containing product,DISPOS,NA,C,SNOMED
+427208006,Proteinase inhibitor-containing product,DISPOS,NA,C,SNOMED
+427386005,Glycosidase inhibitor-containing product,DISPOS,NA,C,SNOMED
+427395002,Hydrolase inhibitor-containing product,DISPOS,NA,C,SNOMED
+427510007,Protein kinase inhibitor-containing product,DISPOS,NA,C,SNOMED
+427620008,Phosphotransferase inhibitor-containing product,DISPOS,NA,C,SNOMED
+427804001,Chemokine receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+427808003,Pentosyltransferase inhibitor-containing product,DISPOS,NA,C,SNOMED
+427876003,Microtubule inhibitor-containing product,DISPOS,NA,C,SNOMED
+428242000,4-aminobutyrate - 2-oxoglutarate transaminase inhibitor-containing product,DISPOS,NA,C,SNOMED
+428617003,Integrase strand transfer inhibitor-containing product,DISPOS,NA,C,SNOMED
+429168007,Nucleotidyltransferase inhibitor-containing product,DISPOS,NA,C,SNOMED
+429318006,Glycosyltransferase inhibitor-containing product,DISPOS,NA,C,SNOMED
+429319003,Aminotransferase inhibitor-containing product,DISPOS,NA,C,SNOMED
+429453000,Methyltransferase inhibitor-containing product,DISPOS,NA,C,SNOMED
+429694004,Thymidylate synthase inhibitor-containing product,DISPOS,NA,C,SNOMED
+430162005,Serine proteinase inhibitor-containing product,DISPOS,NA,C,SNOMED
+430817009,Interleukin 1 receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+432062000,Adenosine A2 receptor agonist-containing product,DISPOS,NA,C,SNOMED
+432251005,Nicotinamide adenine dinucleotide adenosine diphosphate ribosyltransferase inhibitor-containing product,DISPOS,NA,C,SNOMED
+439123005,Thrombopoietin receptor agonist-containing product,DISPOS,NA,C,SNOMED
+441755002,Peroxisome proliferator-activated alpha receptor agonist-containing product,DISPOS,NA,C,SNOMED
+444715003,Kallikrein inhibitor-containing product,DISPOS,NA,C,SNOMED
+48698004,Calcium channel blocker-containing product,DISPOS,NA,C,SNOMED
+58760003,Antimetabolite-containing product,DISPOS,NA,C,SNOMED
+58805000,Pituitary hormone-containing product,DISPOS,NA,C,SNOMED
+61457001,Adrenal hormone-containing product,DISPOS,NA,C,SNOMED
+61946003,Estrogen receptor agonist-containing product,DISPOS,NA,C,SNOMED
+6425004,Histamine receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+66349002,Androgen receptor agonist-containing product,DISPOS,NA,C,SNOMED
+67440007,Alpha adrenergic receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+68402007,Carbonic anhydrase inhibitor-containing product,DISPOS,NA,C,SNOMED
+703645005,B-Raf inhibitor-containing product,DISPOS,NA,C,SNOMED
+703677008,Sodium glucose cotransporter subtype 2 inhibitor-containing product,DISPOS,NA,C,SNOMED
+704315005,Janus kinase inhibitor-containing product,DISPOS,NA,C,SNOMED
+714008000,Hexosyltransferase inhibitor-containing product,DISPOS,NA,C,SNOMED
+714010003,Ceramide glucosyltransferase inhibitor-containing product,DISPOS,NA,C,SNOMED
+714013001,Hepatitis C virus protein NS5A inhibitor-containing product,DISPOS,NA,C,SNOMED
+714427003,Hepatitis C virus NS3/4A protease inhibitor-containing product,DISPOS,NA,C,SNOMED
+714587003,Pancreatic enzyme-containing product,DISPOS,NA,C,SNOMED
+714682003,Phosphodiesterase 4 inhibitor-containing product,DISPOS,NA,C,SNOMED
+71770007,Monoamine oxidase inhibitor-containing product,DISPOS,NA,C,SNOMED
+76385003,Alpha-1 adrenergic receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+764132007,Dopamine receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+764133002,CFTR potentiator-containing product,DISPOS,NA,C,SNOMED
+764134008,RANK ligand inhibitor-containing product,DISPOS,NA,C,SNOMED
+764135009,Peroxisome proliferator-activated gamma receptor agonist-containing product,DISPOS,NA,C,SNOMED
+764136005,Vesicular monoamine transporter 2 inhibitor-containing product,DISPOS,NA,C,SNOMED
+764138006,Muscarinic receptor agonist-containing product,DISPOS,NA,C,SNOMED
+764140001,Nicotinic receptor agonist-containing product,DISPOS,NA,C,SNOMED
+764143004,Sigma-1 receptor agonist-containing product,DISPOS,NA,C,SNOMED
+764306007,Surfactant-containing product,DISPOS,NA,C,SNOMED
+764374006,Adrenergic receptor agonist-containing product,DISPOS,NA,C,SNOMED
+764413006,Interleukin-4 receptor alpha antagonist-containing product,DISPOS,NA,C,SNOMED
+764885002,Direct thrombin inhibitor-containing product,DISPOS,NA,C,SNOMED
+764890004,Protease inhibitor-containing product,DISPOS,NA,C,SNOMED
+764891000,Dopa decarboxylase inhibitor-containing product,DISPOS,NA,C,SNOMED
+765158000,Histamine H3 receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+765319001,Selective beta-3 agonist-containing product,DISPOS,NA,C,SNOMED
+765342008,Bradykinin B2 inhibitor-containing product,DISPOS,NA,C,SNOMED
+765344009,Farnesoid X receptor agonist-containing product,DISPOS,NA,C,SNOMED
+766779001,Medicinal product categorized by disposition,DISPOS,NA,C,SNOMED
+766784007,Lymphocyte function-associated antigen 1 antagonist-containing product,DISPOS,NA,C,SNOMED
+766793008,Dopamine receptor D2 antagonist-containing product,DISPOS,NA,C,SNOMED
+767562003,Norepinephrine reuptake inhibitor and serotonin reuptake inhibitor-containing product,DISPOS,NA,C,SNOMED
+767565001,Gamma-aminobutyric acid A receptor agonist-containing product,DISPOS,NA,C,SNOMED
+767568004,Gamma-aminobutyric acid receptor agonist-containing product,DISPOS,NA,C,SNOMED
+768545005,Toxin-containing product,DISPOS,NA,C,SNOMED
+768601003,Smoothened receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+768628008,Nicotinic receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+768630005,Hepatitis C virus protein NS5B inhibitor-containing product,DISPOS,NA,C,SNOMED
+768632002,Guanylate cyclase 2C agonist-containing product,DISPOS,NA,C,SNOMED
+768668007,Dopamine reuptake inhibitor-containing product,DISPOS,NA,C,SNOMED
+768669004,Progesterone receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+768670003,Glucocorticoid receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+768676009,Isocitrate dehydrogenase-2 inhibitor-containing product,DISPOS,NA,C,SNOMED
+768679002,Peptide hormone receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+770368002,Tryptophan hydroxylase inhibitor-containing product,DISPOS,NA,C,SNOMED
+770369005,RNA polymerase inhibitor-containing product,DISPOS,NA,C,SNOMED
+770370006,Phosphoinositide 3 kinase inhibitor-containing product,DISPOS,NA,C,SNOMED
+770371005,PCSK9 inhibitor-containing product,DISPOS,NA,C,SNOMED
+770372003,Polyadenosine 5'-diphosphoribose polymerase inhibitor-containing product,DISPOS,NA,C,SNOMED
+770374002,Vasopressin receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+770376000,Cytomegalovirus terminase complex inhibitor-containing product,DISPOS,NA,C,SNOMED
+770377009,5-alpha reductase inhibitor-containing product,DISPOS,NA,C,SNOMED
+770389006,Coagulation factor inhibitor-containing product,DISPOS,NA,C,SNOMED
+770391003,Non-specific protein-tyrosine kinase inhibitor-containing product,DISPOS,NA,C,SNOMED
+770620001,Interleukin receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+770621002,Interleukin 5 receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+771677008,Calcitonin gene-related peptide receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+771678003,Interleukin 23 receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+772035005,Serine protease-containing product,DISPOS,NA,C,SNOMED
+773258006,Isocitrate dehydrogenase-1 inhibitor-containing product,DISPOS,NA,C,SNOMED
+773388004,Platelet aggregation inhibitor-containing product,DISPOS,NA,C,SNOMED
+773389007,Renal hormone-containing product,DISPOS,NA,C,SNOMED
+773963002,Nerve growth factor agonist-containing product,DISPOS,NA,C,SNOMED
+774308007,Microsomal triglyceride transfer protein inhibitor-containing product,DISPOS,NA,C,SNOMED
+774310009,Na+/K+-exchanging ATPase inhibitor-containing product,DISPOS,NA,C,SNOMED
+781024009,Cox-3 inhibitor-containing product,DISPOS,NA,C,SNOMED
+781548005,Adenosine receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+782817006,Sodium channel blocker-containing product,DISPOS,NA,C,SNOMED
+782818001,Potassium channel activator-containing product,DISPOS,NA,C,SNOMED
+782819009,Programmed cell death protein 1 inhibitor-containing product,DISPOS,NA,C,SNOMED
+785331008,Growth hormone secretagogue receptor agonist-containing product,DISPOS,NA,C,SNOMED
+785333006,Glucagon-like peptide 2 receptor agonist-containing product,DISPOS,NA,C,SNOMED
+785334000,Gamma-hydroxybutyrate receptor agonist-containing product,DISPOS,NA,C,SNOMED
+785335004,Interferon gamma inhibitor-containing product,DISPOS,NA,C,SNOMED
+785336003,Serotonin 5-HT4 receptor agonist-containing product,DISPOS,NA,C,SNOMED
+785337007,Transthyretin synthesis inhibitor-containing product,DISPOS,NA,C,SNOMED
+785338002,Serotonin uptake inhibitor-containing product,DISPOS,NA,C,SNOMED
+785339005,"3',5'-cyclic-nucleotide phosphodiesterase inhibitor-containing product",DISPOS,NA,C,SNOMED
+785866000,Cytochrome P450 inhibitor-containing product,DISPOS,NA,C,SNOMED
+787863009,Sclerostin inhibitor-containing product,DISPOS,NA,C,SNOMED
+788312001,Thymus hormone-containing product,DISPOS,NA,C,SNOMED
+788316003,Progesterone receptor agonist-containing product,DISPOS,NA,C,SNOMED
+788321000,Hypothalamic inhibiting factor-containing product,DISPOS,NA,C,SNOMED
+788326005,Adrenal cortex hormone-containing product,DISPOS,NA,C,SNOMED
+788327001,Adrenal medulla hormone-containing product,DISPOS,NA,C,SNOMED
+788397008,Placental hormone-containing product,DISPOS,NA,C,SNOMED
+788630002,Vasopressin receptor agonist-containing product,DISPOS,NA,C,SNOMED
+789083004,Smoothened receptor agonist-containing product,DISPOS,NA,C,SNOMED
+789250004,Acetylcholinesterase inhibitor-containing product,DISPOS,NA,C,SNOMED
+789252007,Acetylcholinesterase reactivator-containing product,DISPOS,NA,C,SNOMED
+789270005,Central alpha-2 adrenergic receptor agonist-containing product,DISPOS,NA,C,SNOMED
+840519007,Aldehyde dehydrogenase inhibitor-containing product,DISPOS,NA,C,SNOMED
+85063003,Opioid receptor partial agonist-containing product,DISPOS,NA,C,SNOMED
+870488000,Orexin receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+870489008,Serotonin receptor agonist-containing product,DISPOS,NA,C,SNOMED
+870491000,Growth hormone receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+870492007,Hemoglobin S polymerization inhibitor-containing product,DISPOS,NA,C,SNOMED
+897674000,Aldosterone receptor antagonist diuretic agent,DISPOS,NA,C,SNOMED
+897720002,Alpha-adrenergic and beta-adrenergic agonist-containing product,DISPOS,NA,C,SNOMED
+90802006,Reversible anticholinesterase-containing product,DISPOS,NA,C,SNOMED
+96246003,Benzodiazepine receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+96302009,HMG-CoA reductase inhibitor-containing product,DISPOS,NA,C,SNOMED
+96308008,Angiotensin II receptor antagonist-containing product,DISPOS,NA,C,SNOMED
+NA,NA,NA,NA,C,MeSH
+1002241001,Mineral-containing product,STRUCT,NA,C,SNOMED
+1002249004,Recombinant deoxyribonucleic acid-containing product,STRUCT,NA,C,SNOMED
+1003715001,Coagulation protein-containing product,STRUCT,NA,C,SNOMED
+1003720001,Plasma protein-containing product,STRUCT,NA,C,SNOMED
+1055289009,Podophyllotoxin and/or podophyllotoxin derivative-containing product,STRUCT,NA,C,SNOMED
+1055292008,Oxyquinoline structure-containing product,STRUCT,NA,C,SNOMED
+105908007,Macrolide antibacterial agent,STRUCT,NA,C,SNOMED
+108649005,Piperidine derivative-containing product,STRUCT,NA,C,SNOMED
+108807002,Monoclonal antibody-containing product,STRUCT,NA,C,SNOMED
+108959009,Amino acid derivative-containing product,STRUCT,NA,C,SNOMED
+109082004,Biguanide-containing product,STRUCT,NA,C,SNOMED
+1142309008,Purine and/or purine derivative-containing product,STRUCT,NA,C,SNOMED
+11430001,Tetracyclic antidepressant agent,STRUCT,NA,C,SNOMED
+1143210009,Podophyllotoxin and/or podophyllotoxin derivative antineoplastic agent,STRUCT,NA,C,SNOMED
+1144210000,Monoclonal antibody antineoplastic agent,STRUCT,NA,C,SNOMED
+1144611009,Iodinated contrast media-containing product,STRUCT,NA,C,SNOMED
+1149498006,Ether structure-containing product,STRUCT,NA,C,SNOMED
+11563006,Vitamin D and/or vitamin D derivative-containing product,STRUCT,NA,C,SNOMED
+116085009,Retinoid-containing product,STRUCT,NA,C,SNOMED
+116596006,Glucocorticoid-containing product,STRUCT,NA,C,SNOMED
+125686001,Oxazolidinone antibacterial agent,STRUCT,NA,C,SNOMED
+16047007,Benzodiazepine-containing product,STRUCT,NA,C,SNOMED
+255694005,Psoralen-containing product,STRUCT,NA,C,SNOMED
+282831004,Tetracycline antibacterial agent,STRUCT,NA,C,SNOMED
+324116004,Aminoglycoside-containing product,STRUCT,NA,C,SNOMED
+330811006,Carbomer-containing product,STRUCT,NA,C,SNOMED
+33219003,Tricyclic antidepressant agent,STRUCT,NA,C,SNOMED
+332955008,Undecenoate-containing product,STRUCT,NA,C,SNOMED
+333164008,Alcohol-containing product,STRUCT,NA,C,SNOMED
+333710000,Immunoglobulin-containing product,STRUCT,NA,C,SNOMED
+33589008,Glycoside-containing product,STRUCT,NA,C,SNOMED
+34012005,Sulfonylurea-containing product,STRUCT,NA,C,SNOMED
+346620005,Perfluorochemical-containing product,STRUCT,NA,C,SNOMED
+346624001,Phenol structure-containing product,STRUCT,NA,C,SNOMED
+349893001,Ergoline derivative-containing product,STRUCT,NA,C,SNOMED
+349994006,Xanthine-containing product,STRUCT,NA,C,SNOMED
+350061008,Colchicum alkaloid-containing product,STRUCT,NA,C,SNOMED
+350067007,Prostaglandin-containing product,STRUCT,NA,C,SNOMED
+350072003,F series prostaglandin-containing product,STRUCT,NA,C,SNOMED
+350073008,I series prostaglandin-containing product,STRUCT,NA,C,SNOMED
+350098009,Fixed oil-containing product,STRUCT,NA,C,SNOMED
+350134005,Carbapenem-containing product,STRUCT,NA,C,SNOMED
+350157004,Nitroimidazole-containing product,STRUCT,NA,C,SNOMED
+350195009,Azole antifungal agent,STRUCT,NA,C,SNOMED
+350196005,Imidazole antifungal agent,STRUCT,NA,C,SNOMED
+350208007,Triazole antifungal agent,STRUCT,NA,C,SNOMED
+350222007,Aminoquinoline antimalarial agent,STRUCT,NA,C,SNOMED
+350223002,Biguanide antimalarial agent,STRUCT,NA,C,SNOMED
+350304007,Opium alkaloid-containing product,STRUCT,NA,C,SNOMED
+350312004,Salicylate-containing product,STRUCT,NA,C,SNOMED
+350544001,Carbohydrate-containing product,STRUCT,NA,C,SNOMED
+350623006,Ergot alkaloid-containing product,STRUCT,NA,C,SNOMED
+37084008,Quinolone antibacterial agent,STRUCT,NA,C,SNOMED
+386595001,Triazolopyridine-containing product,STRUCT,NA,C,SNOMED
+406437006,Cyclic lipopeptide antibacterial agent,STRUCT,NA,C,SNOMED
+410910001,Ketolide-containing product,STRUCT,NA,C,SNOMED
+411399003,Thiourea-containing product,STRUCT,NA,C,SNOMED
+41399007,Oxazolidinedione-containing product,STRUCT,NA,C,SNOMED
+414354007,Glycopeptide antibacterial agent,STRUCT,NA,C,SNOMED
+417898006,Glycylcycline derivative-containing product,STRUCT,NA,C,SNOMED
+45313004,Propylpiperazine derivative of phenothiazine-containing product,STRUCT,NA,C,SNOMED
+45518007,Thiazide diuretic agent,STRUCT,NA,C,SNOMED
+59255006,Sulfonamide antibacterial agent,STRUCT,NA,C,SNOMED
+60978003,Barbiturate-containing product,STRUCT,NA,C,SNOMED
+6369005,Penicillin antibacterial agent,STRUCT,NA,C,SNOMED
+63822004,Vitamin E and/or vitamin E derivative-containing product,STRUCT,NA,C,SNOMED
+65484006,Prostacyclin PGI2-containing product,STRUCT,NA,C,SNOMED
+70460002,Fish liver oil-containing product,STRUCT,NA,C,SNOMED
+713590000,Quinoline-containing product,STRUCT,NA,C,SNOMED
+713623003,E series prostaglandin-containing product,STRUCT,NA,C,SNOMED
+74226000,Vitamin K and/or vitamin K derivative,STRUCT,NA,C,SNOMED
+74632002,Succinimide-containing product,STRUCT,NA,C,SNOMED
+74782004,Naturally occurring alkaloid-containing product,STRUCT,NA,C,SNOMED
+763760008,Medicinal product categorized by structure,STRUCT,NA,C,SNOMED
+763787007,Alkylpiperidine derivative of phenothiazine-containing product,STRUCT,NA,C,SNOMED
+763875007,Sulfonamide-containing product,STRUCT,NA,C,SNOMED
+763878009,Macrolide-containing product,STRUCT,NA,C,SNOMED
+764878001,Imidazole-containing product,STRUCT,NA,C,SNOMED
+764879009,Benzisoxazole derivative-containing product,STRUCT,NA,C,SNOMED
+764880007,Guanine nucleoside analog-containing product,STRUCT,NA,C,SNOMED
+764881006,Azole-containing product,STRUCT,NA,C,SNOMED
+764882004,Quinolizine-containing product,STRUCT,NA,C,SNOMED
+764883009,Amino acid-containing product,STRUCT,NA,C,SNOMED
+764884003,Piperazine derivative-containing product,STRUCT,NA,C,SNOMED
+764889008,Benzimidazole-containing product,STRUCT,NA,C,SNOMED
+764892007,Fusion protein-containing product,STRUCT,NA,C,SNOMED
+765073001,Prostaglandin analog-containing product,STRUCT,NA,C,SNOMED
+765125009,Glycopeptide-containing product,STRUCT,NA,C,SNOMED
+765126005,Bile acid-containing product,STRUCT,NA,C,SNOMED
+765418005,Technetium radioisotope-containing product,STRUCT,NA,C,SNOMED
+765419002,Methyl xanthine-containing product,STRUCT,NA,C,SNOMED
+765420008,Quaternary ammonium compound-containing product,STRUCT,NA,C,SNOMED
+765422000,Beta-lactam-containing product,STRUCT,NA,C,SNOMED
+765423005,Strontium radioisotope-containing product,STRUCT,NA,C,SNOMED
+765424004,Oil-containing product,STRUCT,NA,C,SNOMED
+765426002,Androstane-containing product,STRUCT,NA,C,SNOMED
+765427006,Samarium radioisotope-containing product,STRUCT,NA,C,SNOMED
+765430004,Phenothiazine-containing product,STRUCT,NA,C,SNOMED
+765431000,Indium radioisotope-containing product,STRUCT,NA,C,SNOMED
+765432007,Gallium radioisotope-containing product,STRUCT,NA,C,SNOMED
+766893004,Indanedione-containing product,STRUCT,NA,C,SNOMED
+766898008,Benzylisoquinolium compound-containing product,STRUCT,NA,C,SNOMED
+766904001,Azo derivative-containing product,STRUCT,NA,C,SNOMED
+766919000,Volatile oil-containing product,STRUCT,NA,C,SNOMED
+766922003,Fluorinated corticosteroid-containing product,STRUCT,NA,C,SNOMED
+766970009,Catecholamine-containing product,STRUCT,NA,C,SNOMED
+767102007,Medicinal product categorized by chemical element,STRUCT,NA,C,SNOMED
+767151005,Carbamate-containing product,STRUCT,NA,C,SNOMED
+767267008,Iodine and/or iodine compound-containing product,STRUCT,NA,C,SNOMED
+767365002,Potassium and/or potassium compound-containing product,STRUCT,NA,C,SNOMED
+767397002,Mercury compound-containing product,STRUCT,NA,C,SNOMED
+767404002,Sodium and/or sodium compound-containing product,STRUCT,NA,C,SNOMED
+767618002,Ethanolamine and/or ethanolamine derivative-containing product,STRUCT,NA,C,SNOMED
+768306001,Phospholipid-containing product,STRUCT,NA,C,SNOMED
+768431001,Selenium and/or selenium compound-containing product,STRUCT,NA,C,SNOMED
+768435005,Magnesium and/or magnesium compound-containing product,STRUCT,NA,C,SNOMED
+768441003,Indium and/or indium compound-containing product,STRUCT,NA,C,SNOMED
+768446008,Cobalt and/or cobalt compound-containing product,STRUCT,NA,C,SNOMED
+768448009,Chromium radioisotope-containing product,STRUCT,NA,C,SNOMED
+768449001,Chromium and/or chromium compound-containing product,STRUCT,NA,C,SNOMED
+768450001,Carbon and/or carbon compound-containing product,STRUCT,NA,C,SNOMED
+768451002,Calcium and/or calcium compound-containing product,STRUCT,NA,C,SNOMED
+768452009,Carbon radioisotope-containing product,STRUCT,NA,C,SNOMED
+768455006,Copper and/or copper compound-containing product,STRUCT,NA,C,SNOMED
+768456007,Copper radioisotope-containing product,STRUCT,NA,C,SNOMED
+768457003,Bismuth and/or bismuth compound-containing product,STRUCT,NA,C,SNOMED
+768458008,Phosphorus and/or phosphorus compound-containing product,STRUCT,NA,C,SNOMED
+768459000,Iron and/or iron compound-containing product,STRUCT,NA,C,SNOMED
+768460005,Iodine radioisotope-containing product,STRUCT,NA,C,SNOMED
+768464001,Phosphorus radioisotope-containing product,STRUCT,NA,C,SNOMED
+768465000,Protein-containing product,STRUCT,NA,C,SNOMED
+768466004,Polypeptide-containing product,STRUCT,NA,C,SNOMED
+768592009,Gold and/or gold compound-containing product,STRUCT,NA,C,SNOMED
+768593004,Alkaloid-containing product,STRUCT,NA,C,SNOMED
+768595006,Morphinan-containing product,STRUCT,NA,C,SNOMED
+768599000,Peptide-containing product,STRUCT,NA,C,SNOMED
+768600002,Coumarin-containing product,STRUCT,NA,C,SNOMED
+768602005,Pyrrolidine-containing product,STRUCT,NA,C,SNOMED
+768604006,Chlorinated hydrocarbon-containing product,STRUCT,NA,C,SNOMED
+768605007,Purine nucleoside-containing product,STRUCT,NA,C,SNOMED
+768606008,Antibody-containing product,STRUCT,NA,C,SNOMED
+768607004,Benzazepine-containing product,STRUCT,NA,C,SNOMED
+768609001,Pyrimidine-containing product,STRUCT,NA,C,SNOMED
+768610006,Sulfur and/or sulfur compound-containing product,STRUCT,NA,C,SNOMED
+NA,NA,NA,NA,C,SNOMED
+768612003,Quinazoline-containing product,STRUCT,NA,C,SNOMED
+768613008,Nucleoside analog-containing product,STRUCT,NA,C,SNOMED
+768614002,Phenothiazine and/or phenothiazine derivative-containing product,STRUCT,NA,C,SNOMED
+768615001,Propylamine-containing product,STRUCT,NA,C,SNOMED
+768616000,Benzothiadiazine-containing product,STRUCT,NA,C,SNOMED
+768617009,Naphthalene-containing product,STRUCT,NA,C,SNOMED
+768618004,Titanium and/or titanium compound-containing product,STRUCT,NA,C,SNOMED
+768619007,Propionic acid and/or propionic acid derivative-containing product,STRUCT,NA,C,SNOMED
+768620001,Cyclic peptide-containing product,STRUCT,NA,C,SNOMED
+768621002,Platinum and/or platinum compound-containing product,STRUCT,NA,C,SNOMED
+768623004,Ketone-containing product,STRUCT,NA,C,SNOMED
+768624005,Thiazole-containing product,STRUCT,NA,C,SNOMED
+768625006,Benzofuran-containing product,STRUCT,NA,C,SNOMED
+768626007,Carboxylic acid and/or carboxylic acid derivative-containing product,STRUCT,NA,C,SNOMED
+768629000,Ethylenediamine and/or ethylenediamine derivative-containing product,STRUCT,NA,C,SNOMED
+768633007,Lipoprotein-containing product,STRUCT,NA,C,SNOMED
+768635000,Halogenated hydrocarbon-containing product,STRUCT,NA,C,SNOMED
+768687001,Zinc and/or zinc compound-containing product,STRUCT,NA,C,SNOMED
+768688006,Strontium and/or strontium compound-containing product,STRUCT,NA,C,SNOMED
+768689003,Fluorine and/or fluorine compound-containing product,STRUCT,NA,C,SNOMED
+768690007,Aluminum and/or aluminum compound-containing product,STRUCT,NA,C,SNOMED
+768691006,Antimony and/or antimony compound-containing product,STRUCT,NA,C,SNOMED
+768692004,Arsenic and/or arsenic compound-containing product,STRUCT,NA,C,SNOMED
+768697005,Barium and/or barium compound-containing product,STRUCT,NA,C,SNOMED
+768698000,Lithium and/or lithium compound-containing product,STRUCT,NA,C,SNOMED
+768699008,Manganese and/or manganese compound-containing product,STRUCT,NA,C,SNOMED
+768700009,Nitrogen and/or nitrogen compound-containing product,STRUCT,NA,C,SNOMED
+768709005,Acrylic acid and/or acrylic acid derivative-containing product,STRUCT,NA,C,SNOMED
+768712008,Nickel and/or nickel compound-containing product,STRUCT,NA,C,SNOMED
+768747000,Lanthanum and/or lanthanum compound-containing product,STRUCT,NA,C,SNOMED
+768748005,Pregnane-containing product,STRUCT,NA,C,SNOMED
+768750002,Aldehyde-containing product,STRUCT,NA,C,SNOMED
+768753000,Isoquinoline-containing product,STRUCT,NA,C,SNOMED
+768754006,Boron and/or boron compound-containing product,STRUCT,NA,C,SNOMED
+768759001,Steroid-containing product,STRUCT,NA,C,SNOMED
+768763008,Gadolinium and/or gadolinium compound-containing product,STRUCT,NA,C,SNOMED
+768764002,Gallium and/or gallium compound-containing product,STRUCT,NA,C,SNOMED
+768765001,Chlorine and/or chlorine compound-containing product,STRUCT,NA,C,SNOMED
+768766000,Mercury and/or mercury compound-containing product,STRUCT,NA,C,SNOMED
+768767009,Pyrethroid-containing product,STRUCT,NA,C,SNOMED
+768768004,Pteridine-containing product,STRUCT,NA,C,SNOMED
+768769007,Carbohydrate derivative-containing product,STRUCT,NA,C,SNOMED
+768770008,Polymer-containing product,STRUCT,NA,C,SNOMED
+768896003,Urea and/or urea derivative-containing product,STRUCT,NA,C,SNOMED
+768899005,Wax-containing product,STRUCT,NA,C,SNOMED
+770387008,Aminoglycoside antibacterial agent,STRUCT,NA,C,SNOMED
+770393000,Nucleotide-containing product,STRUCT,NA,C,SNOMED
+770394006,Aminopyridine-containing product,STRUCT,NA,C,SNOMED
+770395007,Dihydrocarbostyril derivative-containing product,STRUCT,NA,C,SNOMED
+770396008,Pyrazine-containing product,STRUCT,NA,C,SNOMED
+770398009,Acridine-containing product,STRUCT,NA,C,SNOMED
+770399001,Acetic acid and/or acetic acid derivative-containing product,STRUCT,NA,C,SNOMED
+771259006,Tetracycline structure-containing product,STRUCT,NA,C,SNOMED
+771260001,Organic acid and/or organic acid derivative-containing product,STRUCT,NA,C,SNOMED
+771344003,Paraben and/or paraben derivative-containing product,STRUCT,NA,C,SNOMED
+771345002,Triazine derivative-containing product,STRUCT,NA,C,SNOMED
+771461004,Cresol structure-containing product,STRUCT,NA,C,SNOMED
+773615002,"Ribonucleic acid, double stranded-containing product",STRUCT,NA,C,SNOMED
+773814000,Chloral derivative-containing product,STRUCT,NA,C,SNOMED
+773815004,Antisense oligonucleotide-containing product,STRUCT,NA,C,SNOMED
+77549006,Terpene-containing product,STRUCT,NA,C,SNOMED
+781629003,Vitamin B12 and/or vitamin B12 derivative-containing product,STRUCT,NA,C,SNOMED
+783679008,Xenon and/or xenon compound-containing product,STRUCT,NA,C,SNOMED
+785276005,Amphetamine and/or amphetamine derivative-containing product,STRUCT,NA,C,SNOMED
+785315000,Silicon and/or silicon compound-containing product,STRUCT,NA,C,SNOMED
+785317008,Radioactive isotope-containing product,STRUCT,NA,C,SNOMED
+785320000,Samarium and/or samarium compound-containing compound,STRUCT,NA,C,SNOMED
+785323003,Metal and/or metallic compound-containing product,STRUCT,NA,C,SNOMED
+785324009,Nitrogen radioisotope-containing product,STRUCT,NA,C,SNOMED
+785327002,Xenon radioisotope-containing product,STRUCT,NA,C,SNOMED
+785328007,Piperazine and/or piperazine derivative-containing product,STRUCT,NA,C,SNOMED
+785329004,Oxygen and/or oxygen compound-containing product,STRUCT,NA,C,SNOMED
+785330009,Tin and/or tin compound-containing product,STRUCT,NA,C,SNOMED
+787968004,Vitamin K3 and/or vitamin K3 derivative-containing product,STRUCT,NA,C,SNOMED
+787969007,Vitamin D analog-containing product,STRUCT,NA,C,SNOMED
+787974004,Vitamin B6 and/or vitamin B6 derivative-containing product,STRUCT,NA,C,SNOMED
+787975003,Vitamin B2 and/or vitamin B2 derivative-containing product,STRUCT,NA,C,SNOMED
+787976002,Vitamin A and/or vitamin A derivative-containing product,STRUCT,NA,C,SNOMED
+788398003,Cyclopropane structure-containing product,STRUCT,NA,C,SNOMED
+79440004,Corticosteroid and/or corticosteroid derivative-containing product,STRUCT,NA,C,SNOMED
+83692001,Mineralocorticoid-containing product,STRUCT,NA,C,SNOMED
+860929000,Benzamide structure-containing product,STRUCT,NA,C,SNOMED
+860942000,Fibric acid and/or fibric acid derivative-containing product,STRUCT,NA,C,SNOMED
+86906004,Propylamino derivative of phenothiazine-containing product,STRUCT,NA,C,SNOMED
+87233003,Low molecular weight heparin-containing product,STRUCT,NA,C,SNOMED
+890458001,Penicillin-containing product,STRUCT,NA,C,SNOMED
+895560003,Vinca alkaloid antineoplastic agent,STRUCT,NA,C,SNOMED
+897131004,Triazene antineoplastic agent,STRUCT,NA,C,SNOMED
+897672001,Sulfonamide diuretic agent,STRUCT,NA,C,SNOMED
+897673006,Purine and/or purine derivative diuretic agent,STRUCT,NA,C,SNOMED
+90614001,Beta-lactam antibacterial agent,STRUCT,NA,C,SNOMED
+96281001,Bisphosphonate-containing product,STRUCT,NA,C,SNOMED
+1000112,medroxyprogesterone acetate,PK,Concept,NA,MEDRT
+1000112,medroxyprogesterone acetate,PK,PIN,NA,RxNorm
+103,mercaptopurine,PK,Concept,NA,MEDRT
+103,mercaptopurine,PK,IN,NA,RxNorm
+1191,aspirin,PK,Concept,NA,MEDRT
+1191,aspirin,PK,IN,NA,RxNorm
+1202,atenolol,PK,Concept,NA,MEDRT
+1202,atenolol,PK,IN,NA,RxNorm
+133008,amoxicillin trihydrate,PK,Concept,NA,MEDRT
+133008,amoxicillin trihydrate,PK,PIN,NA,RxNorm
+1347,beclomethasone,PK,Concept,NA,MEDRT
+1347,beclomethasone,PK,IN,NA,RxNorm
+1348,beclomethasone dipropionate,PK,Concept,NA,MEDRT
+1348,beclomethasone dipropionate,PK,PIN,NA,RxNorm
+140587,celecoxib,PK,Concept,NA,MEDRT
+140587,celecoxib,PK,IN,NA,RxNorm
+142153,albuterol sulfate,PK,Concept,NA,MEDRT
+142153,albuterol sulfate,PK,PIN,NA,RxNorm
+142442,naproxen sodium,PK,Concept,NA,MEDRT
+142442,naproxen sodium,PK,PIN,NA,RxNorm
+161,acetaminophen,PK,Concept,NA,MEDRT
+161,acetaminophen,PK,IN,NA,RxNorm
+17128,lansoprazole,PK,Concept,NA,MEDRT
+17128,lansoprazole,PK,IN,NA,RxNorm
+18631,azithromycin,PK,Concept,NA,MEDRT
+18631,azithromycin,PK,IN,NA,RxNorm
+203136,ranitidine hydrochloride,PK,Concept,NA,MEDRT
+203136,ranitidine hydrochloride,PK,PIN,NA,RxNorm
+203212,ipratropium bromide,PK,Concept,NA,MEDRT
+203212,ipratropium bromide,PK,PIN,NA,RxNorm
+235412,codeine polistirex,PK,Concept,NA,MEDRT
+235412,codeine polistirex,PK,PIN,NA,RxNorm
+235743,metformin hydrochloride,PK,Concept,NA,MEDRT
+235743,metformin hydrochloride,PK,PIN,NA,RxNorm
+253155,azithromycin dihydrate,PK,Concept,NA,MEDRT
+253155,azithromycin dihydrate,PK,PIN,NA,RxNorm
+2541,cimetidine,PK,Concept,NA,MEDRT
+2541,cimetidine,PK,IN,NA,RxNorm
+2670,codeine,PK,Concept,NA,MEDRT
+2670,codeine,PK,IN,NA,RxNorm
+2672,codeine phosphate,PK,Concept,NA,MEDRT
+2672,codeine phosphate,PK,PIN,NA,RxNorm
+314293,acetylsalicylate sodium,PK,Concept,NA,MEDRT
+314293,acetylsalicylate sodium,PK,PIN,NA,RxNorm
+3407,digoxin,PK,Concept,NA,MEDRT
+3407,digoxin,PK,IN,NA,RxNorm
+36761,ibuprofen lysine,PK,Concept,NA,MEDRT
+36761,ibuprofen lysine,PK,PIN,NA,RxNorm
+38413,torsemide,PK,Concept,NA,MEDRT
+38413,torsemide,PK,IN,NA,RxNorm
+4099,"estrogens, conjugated (USP)",PK,Concept,NA,MEDRT
+4099,"estrogens, conjugated (USP)",PK,IN,NA,RxNorm
+4124,ethinyl estradiol,PK,Concept,NA,MEDRT
+4124,ethinyl estradiol,PK,IN,NA,RxNorm
+435,albuterol,PK,Concept,NA,MEDRT
+435,albuterol,PK,IN,NA,RxNorm
+4603,furosemide,PK,Concept,NA,MEDRT
+4603,furosemide,PK,IN,NA,RxNorm
+4719,gemfibrozil,PK,Concept,NA,MEDRT
+4719,gemfibrozil,PK,IN,NA,RxNorm
+48203,clavulanate,PK,Concept,NA,MEDRT
+48203,clavulanate,PK,IN,NA,RxNorm
+5487,hydrochlorothiazide,PK,Concept,NA,MEDRT
+5487,hydrochlorothiazide,PK,IN,NA,RxNorm
+55471,ranitidine bismuth citrate,PK,Concept,NA,MEDRT
+55471,ranitidine bismuth citrate,PK,PIN,NA,RxNorm
+5640,ibuprofen,PK,Concept,NA,MEDRT
+5640,ibuprofen,PK,IN,NA,RxNorm
+596,alprazolam,PK,Concept,NA,MEDRT
+596,alprazolam,PK,IN,NA,RxNorm
+6691,medroxyprogesterone,PK,Concept,NA,MEDRT
+6691,medroxyprogesterone,PK,IN,NA,RxNorm
+6809,metformin,PK,Concept,NA,MEDRT
+6809,metformin,PK,IN,NA,RxNorm
+723,amoxicillin,PK,Concept,NA,MEDRT
+723,amoxicillin,PK,IN,NA,RxNorm
+7258,naproxen,PK,Concept,NA,MEDRT
+7258,naproxen,PK,IN,NA,RxNorm
+831418,clavulanate potassium,PK,Concept,NA,MEDRT
+831418,clavulanate potassium,PK,PIN,NA,RxNorm
+91104,codeine sulfate,PK,Concept,NA,MEDRT
+91104,codeine sulfate,PK,PIN,NA,RxNorm
+91251,cimetidine hydrochloride,PK,Concept,NA,MEDRT
+91251,cimetidine hydrochloride,PK,PIN,NA,RxNorm
+9143,ranitidine,PK,Concept,NA,MEDRT
+9143,ranitidine,PK,IN,NA,RxNorm
