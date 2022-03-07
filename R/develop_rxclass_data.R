@@ -157,6 +157,7 @@ develop_rxclass_data <-
                   version_key$version,
                   "extracted",
                   "graph",
+                  "processed",
                   class_type,
                   "CONCEPT_ANCESTOR.csv")
 

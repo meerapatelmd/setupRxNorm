@@ -1,3 +1,7 @@
+# setupRxNorm 1.4.0  
+
+* Added RxClass Data v12 in new format  
+
 # setupRxNorm 1.3.0  
 
 * Added RxClass Data v11 
