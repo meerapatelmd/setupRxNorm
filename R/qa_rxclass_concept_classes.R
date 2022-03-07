@@ -72,7 +72,6 @@ function(prior_version = NULL,
               "processed",
               "CONCEPT_CLASSES.csv")
 
-  if (!file.exists(orphan_classes_csv)) {
   cli::cli_progress_bar(
     format = paste0(
       "[{as.character(Sys.time())}] {.strong {classType} ({vocabulary_id}) code}: {orphanClassId} ",
@@ -152,7 +151,7 @@ function(prior_version = NULL,
   concept_classes_orphans_b <-
     orphanClassDetails %>%
     purrr::map(unlist) %>%
-    purrr::map(as_tibble_row) %>%
+    purrr::map(tibble::as_tibble_row) %>%
     dplyr::bind_rows() %>%
     dplyr::transmute(
       concept_code = classId,
@@ -160,7 +159,7 @@ function(prior_version = NULL,
       concept_name = className) %>%
     dplyr::distinct()
 
-  concept_classes <-
+  orphan_concept_classes <-
   dplyr::left_join(
     concept_classes_orphans,
     concept_classes_orphans_b,
@@ -177,12 +176,9 @@ function(prior_version = NULL,
 
 
   readr::write_csv(
-    x = concept_classes,
+    x = orphan_concept_classes,
     file = orphan_classes_csv
   )
-
-
-  }
 
 
   }
