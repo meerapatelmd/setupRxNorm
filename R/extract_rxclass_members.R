@@ -442,8 +442,8 @@ extract_rxclass_members <-
             class_type_1    = class_type,
             relationship_id = 'Mapped from',
             relationship_source,
-            relationship_type,
-            concept_code_1  = source_concept_code,
+            relationship_type = NA_character_,
+            concept_code_2  = source_concept_code,
             class_type_2    = class_type) %>%
           distinct(),
         members_data %>%
@@ -452,8 +452,8 @@ extract_rxclass_members <-
             class_type_1    = class_type,
             relationship_id = 'Maps to',
             relationship_source,
-            relationship_type,
-            concept_code_1  = rxnorm_concept_code,
+            relationship_type = NA_character_,
+            concept_code_2  = rxnorm_concept_code,
             class_type_2    = class_type) %>%
           distinct(),
         members_data %>%
@@ -463,7 +463,7 @@ extract_rxclass_members <-
           relationship_id = 'Subsumes',
           relationship_source,
           relationship_type,
-          concept_code_1  = rxnorm_concept_code,
+          concept_code_2  = rxnorm_concept_code,
           class_type_2    = class_type) %>%
           distinct()
       )
