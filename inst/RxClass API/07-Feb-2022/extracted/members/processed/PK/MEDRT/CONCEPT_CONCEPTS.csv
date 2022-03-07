@@ -1,0 +1,87 @@
+concept_code,concept_name,class_type,concept_class_id,standard_concept,vocabulary_id
+1000112,medroxyprogesterone acetate,PK,Concept,NA,MEDRT
+1000112,medroxyprogesterone acetate,PK,PIN,NA,RxNorm
+103,mercaptopurine,PK,Concept,NA,MEDRT
+103,mercaptopurine,PK,IN,NA,RxNorm
+1191,aspirin,PK,Concept,NA,MEDRT
+1191,aspirin,PK,IN,NA,RxNorm
+1202,atenolol,PK,Concept,NA,MEDRT
+1202,atenolol,PK,IN,NA,RxNorm
+133008,amoxicillin trihydrate,PK,Concept,NA,MEDRT
+133008,amoxicillin trihydrate,PK,PIN,NA,RxNorm
+1347,beclomethasone,PK,Concept,NA,MEDRT
+1347,beclomethasone,PK,IN,NA,RxNorm
+1348,beclomethasone dipropionate,PK,Concept,NA,MEDRT
+1348,beclomethasone dipropionate,PK,PIN,NA,RxNorm
+140587,celecoxib,PK,Concept,NA,MEDRT
+140587,celecoxib,PK,IN,NA,RxNorm
+142153,albuterol sulfate,PK,Concept,NA,MEDRT
+142153,albuterol sulfate,PK,PIN,NA,RxNorm
+142442,naproxen sodium,PK,Concept,NA,MEDRT
+142442,naproxen sodium,PK,PIN,NA,RxNorm
+161,acetaminophen,PK,Concept,NA,MEDRT
+161,acetaminophen,PK,IN,NA,RxNorm
+17128,lansoprazole,PK,Concept,NA,MEDRT
+17128,lansoprazole,PK,IN,NA,RxNorm
+18631,azithromycin,PK,Concept,NA,MEDRT
+18631,azithromycin,PK,IN,NA,RxNorm
+203136,ranitidine hydrochloride,PK,Concept,NA,MEDRT
+203136,ranitidine hydrochloride,PK,PIN,NA,RxNorm
+203212,ipratropium bromide,PK,Concept,NA,MEDRT
+203212,ipratropium bromide,PK,PIN,NA,RxNorm
+235412,codeine polistirex,PK,Concept,NA,MEDRT
+235412,codeine polistirex,PK,PIN,NA,RxNorm
+235743,metformin hydrochloride,PK,Concept,NA,MEDRT
+235743,metformin hydrochloride,PK,PIN,NA,RxNorm
+253155,azithromycin dihydrate,PK,Concept,NA,MEDRT
+253155,azithromycin dihydrate,PK,PIN,NA,RxNorm
+2541,cimetidine,PK,Concept,NA,MEDRT
+2541,cimetidine,PK,IN,NA,RxNorm
+2670,codeine,PK,Concept,NA,MEDRT
+2670,codeine,PK,IN,NA,RxNorm
+2672,codeine phosphate,PK,Concept,NA,MEDRT
+2672,codeine phosphate,PK,PIN,NA,RxNorm
+314293,acetylsalicylate sodium,PK,Concept,NA,MEDRT
+314293,acetylsalicylate sodium,PK,PIN,NA,RxNorm
+3407,digoxin,PK,Concept,NA,MEDRT
+3407,digoxin,PK,IN,NA,RxNorm
+36761,ibuprofen lysine,PK,Concept,NA,MEDRT
+36761,ibuprofen lysine,PK,PIN,NA,RxNorm
+38413,torsemide,PK,Concept,NA,MEDRT
+38413,torsemide,PK,IN,NA,RxNorm
+4099,"estrogens, conjugated (USP)",PK,Concept,NA,MEDRT
+4099,"estrogens, conjugated (USP)",PK,IN,NA,RxNorm
+4124,ethinyl estradiol,PK,Concept,NA,MEDRT
+4124,ethinyl estradiol,PK,IN,NA,RxNorm
+435,albuterol,PK,Concept,NA,MEDRT
+435,albuterol,PK,IN,NA,RxNorm
+4603,furosemide,PK,Concept,NA,MEDRT
+4603,furosemide,PK,IN,NA,RxNorm
+4719,gemfibrozil,PK,Concept,NA,MEDRT
+4719,gemfibrozil,PK,IN,NA,RxNorm
+48203,clavulanate,PK,Concept,NA,MEDRT
+48203,clavulanate,PK,IN,NA,RxNorm
+5487,hydrochlorothiazide,PK,Concept,NA,MEDRT
+5487,hydrochlorothiazide,PK,IN,NA,RxNorm
+55471,ranitidine bismuth citrate,PK,Concept,NA,MEDRT
+55471,ranitidine bismuth citrate,PK,PIN,NA,RxNorm
+5640,ibuprofen,PK,Concept,NA,MEDRT
+5640,ibuprofen,PK,IN,NA,RxNorm
+596,alprazolam,PK,Concept,NA,MEDRT
+596,alprazolam,PK,IN,NA,RxNorm
+6691,medroxyprogesterone,PK,Concept,NA,MEDRT
+6691,medroxyprogesterone,PK,IN,NA,RxNorm
+6809,metformin,PK,Concept,NA,MEDRT
+6809,metformin,PK,IN,NA,RxNorm
+723,amoxicillin,PK,Concept,NA,MEDRT
+723,amoxicillin,PK,IN,NA,RxNorm
+7258,naproxen,PK,Concept,NA,MEDRT
+7258,naproxen,PK,IN,NA,RxNorm
+831418,clavulanate potassium,PK,Concept,NA,MEDRT
+831418,clavulanate potassium,PK,PIN,NA,RxNorm
+91104,codeine sulfate,PK,Concept,NA,MEDRT
+91104,codeine sulfate,PK,PIN,NA,RxNorm
+91251,cimetidine hydrochloride,PK,Concept,NA,MEDRT
+91251,cimetidine hydrochloride,PK,PIN,NA,RxNorm
+9143,ranitidine,PK,Concept,NA,MEDRT
+9143,ranitidine,PK,IN,NA,RxNorm

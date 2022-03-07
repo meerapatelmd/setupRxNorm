@@ -1,0 +1,775 @@
+concept_code,concept_name,class_type,concept_class_id,standard_concept,vocabulary_id
+10109,streptomycin,TC,Concept,NA,MEDRT
+10109,streptomycin,TC,IN,NA,RxNorm
+10110,streptomycin sulfate,TC,Concept,NA,MEDRT
+10110,streptomycin sulfate,TC,PIN,NA,RxNorm
+101299,amphotericin B colloidal dispersion,TC,Concept,NA,MEDRT
+101299,amphotericin B colloidal dispersion,TC,PIN,NA,RxNorm
+10169,sulfacetamide,TC,Concept,NA,MEDRT
+10169,sulfacetamide,TC,IN,NA,RxNorm
+10171,sulfadiazine,TC,Concept,NA,MEDRT
+10171,sulfadiazine,TC,IN,NA,RxNorm
+10180,sulfamethoxazole,TC,Concept,NA,MEDRT
+10180,sulfamethoxazole,TC,IN,NA,RxNorm
+10207,sulfisoxazole,TC,Concept,NA,MEDRT
+10207,sulfisoxazole,TC,IN,NA,RxNorm
+10208,sulfisoxazole diolamine,TC,Concept,NA,MEDRT
+10208,sulfisoxazole diolamine,TC,PIN,NA,RxNorm
+10349,sodium pertechnetate Tc 99m,TC,Concept,NA,MEDRT
+10349,sodium pertechnetate Tc 99m,TC,PIN,NA,RxNorm
+10395,tetracycline,TC,Concept,NA,MEDRT
+10395,tetracycline,TC,IN,NA,RxNorm
+1040005,ceftaroline,TC,Concept,NA,MEDRT
+1040005,ceftaroline,TC,IN,NA,RxNorm
+1040028,lurasidone,TC,Concept,NA,MEDRT
+1040028,lurasidone,TC,IN,NA,RxNorm
+10450,thiabendazole,TC,Concept,NA,MEDRT
+10450,thiabendazole,TC,IN,NA,RxNorm
+10510,thiothixene,TC,Concept,NA,MEDRT
+10510,thiothixene,TC,IN,NA,RxNorm
+10591,ticarcillin,TC,Concept,NA,MEDRT
+10591,ticarcillin,TC,IN,NA,RxNorm
+10612,tinidazole,TC,Concept,NA,MEDRT
+10612,tinidazole,TC,IN,NA,RxNorm
+10627,tobramycin,TC,Concept,NA,MEDRT
+10627,tobramycin,TC,IN,NA,RxNorm
+10803,trifluridine,TC,Concept,NA,MEDRT
+10803,trifluridine,TC,IN,NA,RxNorm
+10827,trimethadione,TC,Concept,NA,MEDRT
+10827,trimethadione,TC,IN,NA,RxNorm
+10829,trimethoprim,TC,Concept,NA,MEDRT
+10829,trimethoprim,TC,IN,NA,RxNorm
+10834,trimipramine,TC,Concept,NA,MEDRT
+10834,trimipramine,TC,IN,NA,RxNorm
+1101333,gabapentin enacarbil,TC,Concept,NA,MEDRT
+1101333,gabapentin enacarbil,TC,PIN,NA,RxNorm
+1111103,fidaxomicin,TC,Concept,NA,MEDRT
+1111103,fidaxomicin,TC,IN,NA,RxNorm
+11118,valproic acid,TC,Concept,NA,MEDRT
+11118,valproic acid,TC,PIN,NA,RxNorm
+11124,vancomycin,TC,Concept,NA,MEDRT
+11124,vancomycin,TC,IN,NA,RxNorm
+114477,levetiracetam,TC,Concept,NA,MEDRT
+114477,levetiracetam,TC,IN,NA,RxNorm
+115698,ziprasidone,TC,Concept,NA,MEDRT
+115698,ziprasidone,TC,IN,NA,RxNorm
+119771,doripenem,TC,Concept,NA,MEDRT
+119771,doripenem,TC,IN,NA,RxNorm
+121243,voriconazole,TC,Concept,NA,MEDRT
+121243,voriconazole,TC,IN,NA,RxNorm
+1272,aztreonam,TC,Concept,NA,MEDRT
+1272,aztreonam,TC,IN,NA,RxNorm
+1294533,ziprasidone hydrochloride,TC,Concept,NA,MEDRT
+1294533,ziprasidone hydrochloride,TC,PIN,NA,RxNorm
+1297879,ceftibuten dihydrate,TC,Concept,NA,MEDRT
+1297879,ceftibuten dihydrate,TC,PIN,NA,RxNorm
+133008,amoxicillin trihydrate,TC,Concept,NA,MEDRT
+133008,amoxicillin trihydrate,TC,PIN,NA,RxNorm
+1362737,fluorodeoxyglucose F18,TC,Concept,NA,MEDRT
+1362737,fluorodeoxyglucose F18,TC,IN,NA,RxNorm
+1364449,crofelemer,TC,Concept,NA,MEDRT
+1364449,crofelemer,TC,IN,NA,RxNorm
+1364504,bedaquiline,TC,Concept,NA,MEDRT
+1364504,bedaquiline,TC,IN,NA,RxNorm
+138099,gemifloxacin,TC,Concept,NA,MEDRT
+138099,gemifloxacin,TC,IN,NA,RxNorm
+139462,moxifloxacin,TC,Concept,NA,MEDRT
+139462,moxifloxacin,TC,IN,NA,RxNorm
+140108,caspofungin,TC,Concept,NA,MEDRT
+140108,caspofungin,TC,IN,NA,RxNorm
+142138,mexiletine hydrochloride,TC,Concept,NA,MEDRT
+142138,mexiletine hydrochloride,TC,PIN,NA,RxNorm
+142434,econazole nitrate,TC,Concept,NA,MEDRT
+142434,econazole nitrate,TC,PIN,NA,RxNorm
+142435,ethambutol hydrochloride,TC,Concept,NA,MEDRT
+142435,ethambutol hydrochloride,TC,PIN,NA,RxNorm
+142440,lidocaine hydrochloride,TC,Concept,NA,MEDRT
+142440,lidocaine hydrochloride,TC,PIN,NA,RxNorm
+142446,tetracycline hydrochloride,TC,Concept,NA,MEDRT
+142446,tetracycline hydrochloride,TC,PIN,NA,RxNorm
+142447,ticarcillin disodium,TC,Concept,NA,MEDRT
+142447,ticarcillin disodium,TC,PIN,NA,RxNorm
+1426,benzyl alcohol,TC,Concept,NA,MEDRT
+1426,benzyl alcohol,TC,IN,NA,RxNorm
+1426874,ioflupane I-123,TC,Concept,NA,MEDRT
+1426874,ioflupane I-123,TC,PIN,NA,RxNorm
+1427224,florbetapir F-18,TC,Concept,NA,MEDRT
+1427224,florbetapir F-18,TC,PIN,NA,RxNorm
+1482680,luliconazole,TC,Concept,NA,MEDRT
+1482680,luliconazole,TC,IN,NA,RxNorm
+1482913,technetium Tc 99m sestamibi,TC,Concept,NA,MEDRT
+1482913,technetium Tc 99m sestamibi,TC,PIN,NA,RxNorm
+1484911,sofosbuvir,TC,Concept,NA,MEDRT
+1484911,sofosbuvir,TC,IN,NA,RxNorm
+14851,vigabatrin,TC,Concept,NA,MEDRT
+14851,vigabatrin,TC,IN,NA,RxNorm
+1494066,miltefosine,TC,Concept,NA,MEDRT
+1494066,miltefosine,TC,IN,NA,RxNorm
+150816,imipramine hydrochloride,TC,Concept,NA,MEDRT
+150816,imipramine hydrochloride,TC,PIN,NA,RxNorm
+15226,fomepizole,TC,Concept,NA,MEDRT
+15226,fomepizole,TC,IN,NA,RxNorm
+1539239,dalbavancin,TC,Concept,NA,MEDRT
+1539239,dalbavancin,TC,IN,NA,RxNorm
+153972,hydroxychloroquine sulfate,TC,Concept,NA,MEDRT
+153972,hydroxychloroquine sulfate,TC,PIN,NA,RxNorm
+1539753,efinaconazole,TC,Concept,NA,MEDRT
+1539753,efinaconazole,TC,IN,NA,RxNorm
+1540824,tedizolid phosphate,TC,Concept,NA,MEDRT
+1540824,tedizolid phosphate,TC,PIN,NA,RxNorm
+1540825,tedizolid,TC,Concept,NA,MEDRT
+1540825,tedizolid,TC,IN,NA,RxNorm
+1543173,tavaborole,TC,Concept,NA,MEDRT
+1543173,tavaborole,TC,IN,NA,RxNorm
+1547611,oritavancin,TC,Concept,NA,MEDRT
+1547611,oritavancin,TC,IN,NA,RxNorm
+1549827,oritavancin diphosphate,TC,Concept,NA,MEDRT
+1549827,oritavancin diphosphate,TC,PIN,NA,RxNorm
+155056,procainamide hydrochloride,TC,Concept,NA,MEDRT
+155056,procainamide hydrochloride,TC,PIN,NA,RxNorm
+1591922,ledipasvir,TC,Concept,NA,MEDRT
+1591922,ledipasvir,TC,IN,NA,RxNorm
+1596450,gentamicin,TC,Concept,NA,MEDRT
+1596450,gentamicin,TC,IN,NA,RxNorm
+1597371,ombitasvir,TC,Concept,NA,MEDRT
+1597371,ombitasvir,TC,IN,NA,RxNorm
+1597381,dasabuvir,TC,Concept,NA,MEDRT
+1597381,dasabuvir,TC,IN,NA,RxNorm
+1597608,ceftolozane sulfate,TC,Concept,NA,MEDRT
+1597608,ceftolozane sulfate,TC,PIN,NA,RxNorm
+1597609,ceftolozane,TC,Concept,NA,MEDRT
+1597609,ceftolozane,TC,IN,NA,RxNorm
+1606218,daclatasvir,TC,Concept,NA,MEDRT
+1606218,daclatasvir,TC,IN,NA,RxNorm
+1658314,brexpiprazole,TC,Concept,NA,MEDRT
+1658314,brexpiprazole,TC,IN,NA,RxNorm
+1667655,cariprazine,TC,Concept,NA,MEDRT
+1667655,cariprazine,TC,IN,NA,RxNorm
+1673265,aripiprazole lauroxil,TC,Concept,NA,MEDRT
+1673265,aripiprazole lauroxil,TC,IN,NA,RxNorm
+1734628,elbasvir,TC,Concept,NA,MEDRT
+1734628,elbasvir,TC,IN,NA,RxNorm
+1791685,pimavanserin,TC,Concept,NA,MEDRT
+1791685,pimavanserin,TC,IN,NA,RxNorm
+1799206,velpatasvir,TC,Concept,NA,MEDRT
+1799206,velpatasvir,TC,IN,NA,RxNorm
+18343,artemether,TC,Concept,NA,MEDRT
+18343,artemether,TC,IN,NA,RxNorm
+18631,azithromycin,TC,Concept,NA,MEDRT
+18631,azithromycin,TC,IN,NA,RxNorm
+1870193,gentamicin sulfate,TC,Concept,NA,MEDRT
+1870193,gentamicin sulfate,TC,PIN,NA,RxNorm
+18993,benzonatate,TC,Concept,NA,MEDRT
+18993,benzonatate,TC,IN,NA,RxNorm
+190376,linezolid,TC,Concept,NA,MEDRT
+190376,linezolid,TC,IN,NA,RxNorm
+1927663,delafloxacin,TC,Concept,NA,MEDRT
+1927663,delafloxacin,TC,IN,NA,RxNorm
+1940636,pibrentasvir,TC,Concept,NA,MEDRT
+1940636,pibrentasvir,TC,IN,NA,RxNorm
+19552,cefprozil,TC,Concept,NA,MEDRT
+19552,cefprozil,TC,IN,NA,RxNorm
+197,acetylcysteine,TC,Concept,NA,MEDRT
+197,acetylcysteine,TC,IN,NA,RxNorm
+1987,capreomycin sulfate,TC,Concept,NA,MEDRT
+1987,capreomycin sulfate,TC,PIN,NA,RxNorm
+19884,butoconazole,TC,Concept,NA,MEDRT
+19884,butoconazole,TC,IN,NA,RxNorm
+2002,carbamazepine,TC,Concept,NA,MEDRT
+2002,carbamazepine,TC,IN,NA,RxNorm
+2015,carbenicillin,TC,Concept,NA,MEDRT
+2015,carbenicillin,TC,IN,NA,RxNorm
+203114,amiodarone hydrochloride,TC,Concept,NA,MEDRT
+203114,amiodarone hydrochloride,TC,PIN,NA,RxNorm
+203115,ampicillin trihydrate,TC,Concept,NA,MEDRT
+203115,ampicillin trihydrate,TC,PIN,NA,RxNorm
+203117,cefotaxime sodium,TC,Concept,NA,MEDRT
+203117,cefotaxime sodium,TC,PIN,NA,RxNorm
+203118,cefoxitin sodium,TC,Concept,NA,MEDRT
+203118,cefoxitin sodium,TC,PIN,NA,RxNorm
+203130,nortriptyline hydrochloride,TC,Concept,NA,MEDRT
+203130,nortriptyline hydrochloride,TC,PIN,NA,RxNorm
+203133,penicillin G potassium,TC,Concept,NA,MEDRT
+203133,penicillin G potassium,TC,PIN,NA,RxNorm
+203134,piperacillin sodium,TC,Concept,NA,MEDRT
+203134,piperacillin sodium,TC,PIN,NA,RxNorm
+203135,propafenone hydrochloride,TC,Concept,NA,MEDRT
+203135,propafenone hydrochloride,TC,PIN,NA,RxNorm
+203141,cefotetan disodium,TC,Concept,NA,MEDRT
+203141,cefotetan disodium,TC,PIN,NA,RxNorm
+203168,amitriptyline hydrochloride,TC,Concept,NA,MEDRT
+203168,amitriptyline hydrochloride,TC,PIN,NA,RxNorm
+203171,cefazolin sodium,TC,Concept,NA,MEDRT
+203171,cefazolin sodium,TC,PIN,NA,RxNorm
+203172,ceftriaxone sodium,TC,Concept,NA,MEDRT
+203172,ceftriaxone sodium,TC,PIN,NA,RxNorm
+203174,desipramine hydrochloride,TC,Concept,NA,MEDRT
+203174,desipramine hydrochloride,TC,PIN,NA,RxNorm
+203178,disopyramide phosphate,TC,Concept,NA,MEDRT
+203178,disopyramide phosphate,TC,PIN,NA,RxNorm
+203179,doxepin hydrochloride,TC,Concept,NA,MEDRT
+203179,doxepin hydrochloride,TC,PIN,NA,RxNorm
+203183,kanamycin sulfate,TC,Concept,NA,MEDRT
+203183,kanamycin sulfate,TC,PIN,NA,RxNorm
+203193,netilmicin sulfate,TC,Concept,NA,MEDRT
+203193,netilmicin sulfate,TC,PIN,NA,RxNorm
+203195,penicillin V potassium,TC,Concept,NA,MEDRT
+203195,penicillin V potassium,TC,PIN,NA,RxNorm
+203199,protriptyline hydrochloride,TC,Concept,NA,MEDRT
+203199,protriptyline hydrochloride,TC,PIN,NA,RxNorm
+204144,cefuroxime sodium,TC,Concept,NA,MEDRT
+204144,cefuroxime sodium,TC,PIN,NA,RxNorm
+204175,cefadroxil monohydrate,TC,Concept,NA,MEDRT
+204175,cefadroxil monohydrate,TC,PIN,NA,RxNorm
+20481,cefepime,TC,Concept,NA,MEDRT
+20481,cefepime,TC,IN,NA,RxNorm
+20492,ceftibuten,TC,Concept,NA,MEDRT
+20492,ceftibuten,TC,IN,NA,RxNorm
+20493,cefuroxime axetil,TC,Concept,NA,MEDRT
+20493,cefuroxime axetil,TC,PIN,NA,RxNorm
+20767,chloramphenicol palmitate,TC,Concept,NA,MEDRT
+20767,chloramphenicol palmitate,TC,PIN,NA,RxNorm
+20863,chloroquine phosphate,TC,Concept,NA,MEDRT
+20863,chloroquine phosphate,TC,PIN,NA,RxNorm
+21212,clarithromycin,TC,Concept,NA,MEDRT
+21212,clarithromycin,TC,IN,NA,RxNorm
+215948,cephalexin monohydrate,TC,Concept,NA,MEDRT
+215948,cephalexin monohydrate,TC,PIN,NA,RxNorm
+217483,haloperidol lactate,TC,Concept,NA,MEDRT
+217483,haloperidol lactate,TC,PIN,NA,RxNorm
+2176,cefaclor,TC,Concept,NA,MEDRT
+2176,cefaclor,TC,IN,NA,RxNorm
+2177,cefadroxil,TC,Concept,NA,MEDRT
+2177,cefadroxil,TC,IN,NA,RxNorm
+2180,cefazolin,TC,Concept,NA,MEDRT
+2180,cefazolin,TC,IN,NA,RxNorm
+2184,cefoperazone,TC,Concept,NA,MEDRT
+2184,cefoperazone,TC,IN,NA,RxNorm
+2186,cefotaxime,TC,Concept,NA,MEDRT
+2186,cefotaxime,TC,IN,NA,RxNorm
+2187,cefotetan,TC,Concept,NA,MEDRT
+2187,cefotetan,TC,IN,NA,RxNorm
+2189,cefoxitin,TC,Concept,NA,MEDRT
+2189,cefoxitin,TC,IN,NA,RxNorm
+2191,ceftazidime,TC,Concept,NA,MEDRT
+2191,ceftazidime,TC,IN,NA,RxNorm
+2192,ceftizoxime,TC,Concept,NA,MEDRT
+2192,ceftizoxime,TC,IN,NA,RxNorm
+2193,ceftriaxone,TC,Concept,NA,MEDRT
+2193,ceftriaxone,TC,IN,NA,RxNorm
+2194,cefuroxime,TC,Concept,NA,MEDRT
+2194,cefuroxime,TC,IN,NA,RxNorm
+221126,moricizine hydrochloride,TC,Concept,NA,MEDRT
+221126,moricizine hydrochloride,TC,PIN,NA,RxNorm
+221128,mupirocin calcium,TC,Concept,NA,MEDRT
+221128,mupirocin calcium,TC,PIN,NA,RxNorm
+221153,quetiapine fumarate,TC,Concept,NA,MEDRT
+221153,quetiapine fumarate,TC,PIN,NA,RxNorm
+221176,trimethoprim sulfate,TC,Concept,NA,MEDRT
+221176,trimethoprim sulfate,TC,PIN,NA,RxNorm
+22299,daptomycin,TC,Concept,NA,MEDRT
+22299,daptomycin,TC,IN,NA,RxNorm
+2231,cephalexin,TC,Concept,NA,MEDRT
+2231,cephalexin,TC,IN,NA,RxNorm
+2239,cephradine,TC,Concept,NA,MEDRT
+2239,cephradine,TC,IN,NA,RxNorm
+227214,cefoperazone sodium,TC,Concept,NA,MEDRT
+227214,cefoperazone sodium,TC,PIN,NA,RxNorm
+228476,gatifloxacin,TC,Concept,NA,MEDRT
+228476,gatifloxacin,TC,IN,NA,RxNorm
+228750,moxifloxacin hydrochloride,TC,Concept,NA,MEDRT
+228750,moxifloxacin hydrochloride,TC,PIN,NA,RxNorm
+229367,quinupristin,TC,Concept,NA,MEDRT
+229367,quinupristin,TC,IN,NA,RxNorm
+229369,dalfopristin,TC,Concept,NA,MEDRT
+229369,dalfopristin,TC,IN,NA,RxNorm
+23024,difenoxin,TC,Concept,NA,MEDRT
+23024,difenoxin,TC,IN,NA,RxNorm
+233698,dronedarone,TC,Concept,NA,MEDRT
+233698,dronedarone,TC,IN,NA,RxNorm
+23370,diphenidol,TC,Concept,NA,MEDRT
+23370,diphenidol,TC,IN,NA,RxNorm
+2348,chloramphenicol,TC,Concept,NA,MEDRT
+2348,chloramphenicol,TC,IN,NA,RxNorm
+235373,difenoxin hydrochloride,TC,Concept,NA,MEDRT
+235373,difenoxin hydrochloride,TC,PIN,NA,RxNorm
+235559,"nitrofurantoin, macrocrystals",TC,Concept,NA,MEDRT
+235559,"nitrofurantoin, macrocrystals",TC,PIN,NA,RxNorm
+235838,terbinafine hydrochloride,TC,Concept,NA,MEDRT
+235838,terbinafine hydrochloride,TC,PIN,NA,RxNorm
+236058,cefepime hydrochloride,TC,Concept,NA,MEDRT
+236058,cefepime hydrochloride,TC,PIN,NA,RxNorm
+236302,hydroxocobalamin acetate,TC,Concept,NA,MEDRT
+236302,hydroxocobalamin acetate,TC,PIN,NA,RxNorm
+236558,butenafine hydrochloride,TC,Concept,NA,MEDRT
+236558,butenafine hydrochloride,TC,PIN,NA,RxNorm
+236594,amphotericin B liposomal,TC,Concept,NA,MEDRT
+236594,amphotericin B liposomal,TC,PIN,NA,RxNorm
+236875,tiagabine hydrochloride,TC,Concept,NA,MEDRT
+236875,tiagabine hydrochloride,TC,PIN,NA,RxNorm
+2382,proguanil,TC,Concept,NA,MEDRT
+2382,proguanil,TC,IN,NA,RxNorm
+2393,chloroquine,TC,Concept,NA,MEDRT
+2393,chloroquine,TC,IN,NA,RxNorm
+24346,erythromycin gluceptate,TC,Concept,NA,MEDRT
+24346,erythromycin gluceptate,TC,PIN,NA,RxNorm
+24347,erythromycin lactobionate,TC,Concept,NA,MEDRT
+24347,erythromycin lactobionate,TC,PIN,NA,RxNorm
+24351,erythromycin stearate,TC,Concept,NA,MEDRT
+24351,erythromycin stearate,TC,PIN,NA,RxNorm
+24812,felbamate,TC,Concept,NA,MEDRT
+24812,felbamate,TC,IN,NA,RxNorm
+25033,cefixime,TC,Concept,NA,MEDRT
+25033,cefixime,TC,IN,NA,RxNorm
+25037,cefdinir,TC,Concept,NA,MEDRT
+25037,cefdinir,TC,IN,NA,RxNorm
+25138,fluorescein,TC,Concept,NA,MEDRT
+25138,fluorescein,TC,IN,NA,RxNorm
+253155,azithromycin dihydrate,TC,Concept,NA,MEDRT
+253155,azithromycin dihydrate,TC,PIN,NA,RxNorm
+25480,gabapentin,TC,Concept,NA,MEDRT
+25480,gabapentin,TC,IN,NA,RxNorm
+2551,ciprofloxacin,TC,Concept,NA,MEDRT
+2551,ciprofloxacin,TC,IN,NA,RxNorm
+2582,clindamycin,TC,Concept,NA,MEDRT
+2582,clindamycin,TC,IN,NA,RxNorm
+258332,carbenicillin disodium,TC,Concept,NA,MEDRT
+258332,carbenicillin disodium,TC,PIN,NA,RxNorm
+2592,clofazimine,TC,Concept,NA,MEDRT
+2592,clofazimine,TC,IN,NA,RxNorm
+259268,indium In-111 pentetate disodium,TC,Concept,NA,MEDRT
+259268,indium In-111 pentetate disodium,TC,PIN,NA,RxNorm
+259282,xenon-133,TC,Concept,NA,MEDRT
+259282,xenon-133,TC,PIN,NA,RxNorm
+2597,clomipramine,TC,Concept,NA,MEDRT
+2597,clomipramine,TC,IN,NA,RxNorm
+2623,clotrimazole,TC,Concept,NA,MEDRT
+2623,clotrimazole,TC,IN,NA,RxNorm
+2626,clozapine,TC,Concept,NA,MEDRT
+2626,clozapine,TC,IN,NA,RxNorm
+26420,haloperidol decanoate,TC,Concept,NA,MEDRT
+26420,haloperidol decanoate,TC,PIN,NA,RxNorm
+266856,divalproex sodium,TC,Concept,NA,MEDRT
+266856,divalproex sodium,TC,PIN,NA,RxNorm
+267257,dicloxacillin sodium,TC,Concept,NA,MEDRT
+267257,dicloxacillin sodium,TC,PIN,NA,RxNorm
+2708,colistimethate,TC,Concept,NA,MEDRT
+2708,colistimethate,TC,PIN,NA,RxNorm
+27169,leflunomide,TC,Concept,NA,MEDRT
+27169,leflunomide,TC,IN,NA,RxNorm
+272758,gallium 67 citrate,TC,Concept,NA,MEDRT
+272758,gallium 67 citrate,TC,PIN,NA,RxNorm
+274786,telithromycin,TC,Concept,NA,MEDRT
+274786,telithromycin,TC,IN,NA,RxNorm
+28031,itraconazole,TC,Concept,NA,MEDRT
+28031,itraconazole,TC,IN,NA,RxNorm
+281942,cephalexin hydrochloride,TC,Concept,NA,MEDRT
+281942,cephalexin hydrochloride,TC,PIN,NA,RxNorm
+282363,caspofungin acetate,TC,Concept,NA,MEDRT
+282363,caspofungin acetate,TC,PIN,NA,RxNorm
+282446,posaconazole,TC,Concept,NA,MEDRT
+282446,posaconazole,TC,IN,NA,RxNorm
+28439,lamotrigine,TC,Concept,NA,MEDRT
+28439,lamotrigine,TC,IN,NA,RxNorm
+28981,loracarbef,TC,Concept,NA,MEDRT
+28981,loracarbef,TC,IN,NA,RxNorm
+29561,meropenem,TC,Concept,NA,MEDRT
+29561,meropenem,TC,IN,NA,RxNorm
+299081,spinosad,TC,Concept,NA,MEDRT
+299081,spinosad,TC,IN,NA,RxNorm
+314299,"albumin,chromated Cr-51 serum",TC,Concept,NA,MEDRT
+314299,"albumin,chromated Cr-51 serum",TC,IN,NA,RxNorm
+31476,naftifine,TC,Concept,NA,MEDRT
+31476,naftifine,TC,IN,NA,RxNorm
+3154,demeclocycline,TC,Concept,NA,MEDRT
+3154,demeclocycline,TC,IN,NA,RxNorm
+317177,"albumin,iodinated I-125 serum",TC,Concept,NA,MEDRT
+317177,"albumin,iodinated I-125 serum",TC,IN,NA,RxNorm
+31819,nitazoxanide,TC,Concept,NA,MEDRT
+31819,nitazoxanide,TC,IN,NA,RxNorm
+31914,tiagabine,TC,Concept,NA,MEDRT
+31914,tiagabine,TC,IN,NA,RxNorm
+3247,desipramine,TC,Concept,NA,MEDRT
+3247,desipramine,TC,IN,NA,RxNorm
+325642,ertapenem,TC,Concept,NA,MEDRT
+325642,ertapenem,TC,IN,NA,RxNorm
+325887,micafungin,TC,Concept,NA,MEDRT
+325887,micafungin,TC,IN,NA,RxNorm
+32624,oxcarbazepine,TC,Concept,NA,MEDRT
+32624,oxcarbazepine,TC,IN,NA,RxNorm
+32638,oxiconazole,TC,Concept,NA,MEDRT
+32638,oxiconazole,TC,IN,NA,RxNorm
+3356,dicloxacillin,TC,Concept,NA,MEDRT
+3356,dicloxacillin,TC,IN,NA,RxNorm
+341018,anidulafungin,TC,Concept,NA,MEDRT
+341018,anidulafungin,TC,IN,NA,RxNorm
+3500,diphenoxylate,TC,Concept,NA,MEDRT
+3500,diphenoxylate,TC,IN,NA,RxNorm
+35220,quinidine gluconate,TC,Concept,NA,MEDRT
+35220,quinidine gluconate,TC,PIN,NA,RxNorm
+353116,ziprasidone mesylate,TC,Concept,NA,MEDRT
+353116,ziprasidone mesylate,TC,PIN,NA,RxNorm
+3541,disopyramide,TC,Concept,NA,MEDRT
+3541,disopyramide,TC,IN,NA,RxNorm
+35617,rifapentine,TC,Concept,NA,MEDRT
+35617,rifapentine,TC,IN,NA,RxNorm
+35619,rifaximin,TC,Concept,NA,MEDRT
+35619,rifaximin,TC,IN,NA,RxNorm
+35636,risperidone,TC,Concept,NA,MEDRT
+35636,risperidone,TC,IN,NA,RxNorm
+35829,ranolazine,TC,Concept,NA,MEDRT
+35829,ranolazine,TC,IN,NA,RxNorm
+3638,doxepin,TC,Concept,NA,MEDRT
+3638,doxepin,TC,IN,NA,RxNorm
+36435,sertaconazole,TC,Concept,NA,MEDRT
+36435,sertaconazole,TC,IN,NA,RxNorm
+37319,sulconazole,TC,Concept,NA,MEDRT
+37319,sulconazole,TC,IN,NA,RxNorm
+3743,econazole,TC,Concept,NA,MEDRT
+3743,econazole,TC,IN,NA,RxNorm
+37665,technetium Tc 99m disofenin,TC,Concept,NA,MEDRT
+37665,technetium Tc 99m disofenin,TC,PIN,NA,RxNorm
+37801,terbinafine,TC,Concept,NA,MEDRT
+37801,terbinafine,TC,IN,NA,RxNorm
+37806,terconazole,TC,Concept,NA,MEDRT
+37806,terconazole,TC,IN,NA,RxNorm
+38298,tioconazole,TC,Concept,NA,MEDRT
+38298,tioconazole,TC,IN,NA,RxNorm
+38404,topiramate,TC,Concept,NA,MEDRT
+38404,topiramate,TC,IN,NA,RxNorm
+384455,tigecycline,TC,Concept,NA,MEDRT
+384455,tigecycline,TC,IN,NA,RxNorm
+38685,trimethobenzamide,TC,Concept,NA,MEDRT
+38685,trimethobenzamide,TC,IN,NA,RxNorm
+388,polymyxin B sulfate,TC,Concept,NA,MEDRT
+388,polymyxin B sulfate,TC,PIN,NA,RxNorm
+39998,zonisamide,TC,Concept,NA,MEDRT
+39998,zonisamide,TC,IN,NA,RxNorm
+40169,moricizine,TC,Concept,NA,MEDRT
+40169,moricizine,TC,IN,NA,RxNorm
+402429,gemifloxacin mesylate,TC,Concept,NA,MEDRT
+402429,gemifloxacin mesylate,TC,PIN,NA,RxNorm
+4053,erythromycin,TC,Concept,NA,MEDRT
+4053,erythromycin,TC,IN,NA,RxNorm
+4055,erythromycin estolate,TC,Concept,NA,MEDRT
+4055,erythromycin estolate,TC,PIN,NA,RxNorm
+4056,erythromycin ethylsuccinate,TC,Concept,NA,MEDRT
+4056,erythromycin ethylsuccinate,TC,PIN,NA,RxNorm
+40595,acetyl sulfisoxazole,TC,Concept,NA,MEDRT
+40595,acetyl sulfisoxazole,TC,PIN,NA,RxNorm
+4110,ethambutol,TC,Concept,NA,MEDRT
+4110,ethambutol,TC,IN,NA,RxNorm
+4127,ethionamide,TC,Concept,NA,MEDRT
+4127,ethionamide,TC,IN,NA,RxNorm
+41289,ibutilide,TC,Concept,NA,MEDRT
+41289,ibutilide,TC,IN,NA,RxNorm
+4135,ethosuximide,TC,Concept,NA,MEDRT
+4135,ethosuximide,TC,IN,NA,RxNorm
+4136,ethotoin,TC,Concept,NA,MEDRT
+4136,ethotoin,TC,IN,NA,RxNorm
+41875,quinidine polygalacturonate,TC,Concept,NA,MEDRT
+41875,quinidine polygalacturonate,TC,PIN,NA,RxNorm
+42372,mupirocin,TC,Concept,NA,MEDRT
+42372,mupirocin,TC,IN,NA,RxNorm
+42686,flecainide acetate,TC,Concept,NA,MEDRT
+42686,flecainide acetate,TC,PIN,NA,RxNorm
+42790,miconazole nitrate,TC,Concept,NA,MEDRT
+42790,miconazole nitrate,TC,PIN,NA,RxNorm
+430,albendazole,TC,Concept,NA,MEDRT
+430,albendazole,TC,IN,NA,RxNorm
+4441,flecainide,TC,Concept,NA,MEDRT
+4441,flecainide,TC,IN,NA,RxNorm
+4450,fluconazole,TC,Concept,NA,MEDRT
+4450,fluconazole,TC,IN,NA,RxNorm
+4451,flucytosine,TC,Concept,NA,MEDRT
+4451,flucytosine,TC,IN,NA,RxNorm
+451796,chloroquine hydrochloride,TC,Concept,NA,MEDRT
+451796,chloroquine hydrochloride,TC,PIN,NA,RxNorm
+4678,ganciclovir,TC,Concept,NA,MEDRT
+4678,ganciclovir,TC,IN,NA,RxNorm
+473837,telavancin,TC,Concept,NA,MEDRT
+473837,telavancin,TC,IN,NA,RxNorm
+47461,butenafine,TC,Concept,NA,MEDRT
+47461,butenafine,TC,IN,NA,RxNorm
+47464,butoconazole nitrate,TC,Concept,NA,MEDRT
+47464,butoconazole nitrate,TC,PIN,NA,RxNorm
+4780,oxytetracycline hydrochloride,TC,Concept,NA,MEDRT
+4780,oxytetracycline hydrochloride,TC,PIN,NA,RxNorm
+47858,methsuximide,TC,Concept,NA,MEDRT
+47858,methsuximide,TC,IN,NA,RxNorm
+47877,diphenidol hydrochloride,TC,Concept,NA,MEDRT
+47877,diphenidol hydrochloride,TC,PIN,NA,RxNorm
+47998,chloramphenicol sodium succinate,TC,Concept,NA,MEDRT
+47998,chloramphenicol sodium succinate,TC,PIN,NA,RxNorm
+48305,colistimethate sodium,TC,Concept,NA,MEDRT
+48305,colistimethate sodium,TC,PIN,NA,RxNorm
+485026,nafcillin sodium monohydrate,TC,Concept,NA,MEDRT
+485026,nafcillin sodium monohydrate,TC,PIN,NA,RxNorm
+49247,dofetilide,TC,Concept,NA,MEDRT
+49247,dofetilide,TC,IN,NA,RxNorm
+50749,halofantrine,TC,Concept,NA,MEDRT
+50749,halofantrine,TC,IN,NA,RxNorm
+5093,haloperidol,TC,Concept,NA,MEDRT
+5093,haloperidol,TC,IN,NA,RxNorm
+51256,ibutilide fumarate,TC,Concept,NA,MEDRT
+51256,ibutilide fumarate,TC,PIN,NA,RxNorm
+51272,quetiapine,TC,Concept,NA,MEDRT
+51272,quetiapine,TC,IN,NA,RxNorm
+5293,hexachlorophene,TC,Concept,NA,MEDRT
+5293,hexachlorophene,TC,IN,NA,RxNorm
+5514,hydroxocobalamin,TC,Concept,NA,MEDRT
+5514,hydroxocobalamin,TC,IN,NA,RxNorm
+5521,hydroxychloroquine,TC,Concept,NA,MEDRT
+5521,hydroxychloroquine,TC,IN,NA,RxNorm
+55672,rifabutin,TC,Concept,NA,MEDRT
+55672,rifabutin,TC,IN,NA,RxNorm
+56461,carbenicillin indanyl sodium,TC,Concept,NA,MEDRT
+56461,carbenicillin indanyl sodium,TC,PIN,NA,RxNorm
+5653,idoxuridine,TC,Concept,NA,MEDRT
+5653,idoxuridine,TC,IN,NA,RxNorm
+56798,sulconazole nitrate,TC,Concept,NA,MEDRT
+56798,sulconazole nitrate,TC,PIN,NA,RxNorm
+569,eflornithine,TC,Concept,NA,MEDRT
+569,eflornithine,TC,IN,NA,RxNorm
+5690,imipenem,TC,Concept,NA,MEDRT
+5690,imipenem,TC,IN,NA,RxNorm
+5691,imipramine,TC,Concept,NA,MEDRT
+5691,imipramine,TC,IN,NA,RxNorm
+57227,trimethobenzamide hydrochloride,TC,Concept,NA,MEDRT
+57227,trimethobenzamide hydrochloride,TC,PIN,NA,RxNorm
+5775,indocyanine green,TC,Concept,NA,MEDRT
+5775,indocyanine green,TC,IN,NA,RxNorm
+57789,fluorescein sodium,TC,Concept,NA,MEDRT
+57789,fluorescein sodium,TC,PIN,NA,RxNorm
+58130,halofantrine hydrochloride,TC,Concept,NA,MEDRT
+58130,halofantrine hydrochloride,TC,PIN,NA,RxNorm
+60212,atovaquone,TC,Concept,NA,MEDRT
+60212,atovaquone,TC,IN,NA,RxNorm
+6038,isoniazid,TC,Concept,NA,MEDRT
+6038,isoniazid,TC,IN,NA,RxNorm
+6069,ivermectin,TC,Concept,NA,MEDRT
+6069,ivermectin,TC,IN,NA,RxNorm
+6099,kanamycin,TC,Concept,NA,MEDRT
+6099,kanamycin,TC,IN,NA,RxNorm
+6135,ketoconazole,TC,Concept,NA,MEDRT
+6135,ketoconazole,TC,IN,NA,RxNorm
+61381,olanzapine,TC,Concept,NA,MEDRT
+61381,olanzapine,TC,IN,NA,RxNorm
+623400,lacosamide,TC,Concept,NA,MEDRT
+623400,lacosamide,TC,IN,NA,RxNorm
+6387,lidocaine,TC,Concept,NA,MEDRT
+6387,lidocaine,TC,IN,NA,RxNorm
+641,amikacin,TC,Concept,NA,MEDRT
+641,amikacin,TC,IN,NA,RxNorm
+642274,retapamulin,TC,Concept,NA,MEDRT
+642274,retapamulin,TC,IN,NA,RxNorm
+643,amikacin sulfate,TC,Concept,NA,MEDRT
+643,amikacin sulfate,TC,PIN,NA,RxNorm
+6572,mafenide,TC,Concept,NA,MEDRT
+6572,mafenide,TC,IN,NA,RxNorm
+6573,mafenide acetate,TC,Concept,NA,MEDRT
+6573,mafenide acetate,TC,PIN,NA,RxNorm
+6672,mebendazole,TC,Concept,NA,MEDRT
+6672,mebendazole,TC,IN,NA,RxNorm
+6676,meclizine,TC,Concept,NA,MEDRT
+6676,meclizine,TC,IN,NA,RxNorm
+66912,paromomycin sulfate,TC,Concept,NA,MEDRT
+66912,paromomycin sulfate,TC,PIN,NA,RxNorm
+6694,mefloquine,TC,Concept,NA,MEDRT
+6694,mefloquine,TC,IN,NA,RxNorm
+66955,vancomycin hydrochloride,TC,Concept,NA,MEDRT
+66955,vancomycin hydrochloride,TC,PIN,NA,RxNorm
+6757,mephenytoin,TC,Concept,NA,MEDRT
+6757,mephenytoin,TC,IN,NA,RxNorm
+679314,paliperidone,TC,Concept,NA,MEDRT
+679314,paliperidone,TC,IN,NA,RxNorm
+6922,metronidazole,TC,Concept,NA,MEDRT
+6922,metronidazole,TC,IN,NA,RxNorm
+6926,mexiletine,TC,Concept,NA,MEDRT
+6926,mexiletine,TC,IN,NA,RxNorm
+6932,miconazole,TC,Concept,NA,MEDRT
+6932,miconazole,TC,IN,NA,RxNorm
+7008,sotalol hydrochloride,TC,Concept,NA,MEDRT
+7008,sotalol hydrochloride,TC,PIN,NA,RxNorm
+7019,molindone,TC,Concept,NA,MEDRT
+7019,molindone,TC,IN,NA,RxNorm
+703,amiodarone,TC,Concept,NA,MEDRT
+703,amiodarone,TC,IN,NA,RxNorm
+704,amitriptyline,TC,Concept,NA,MEDRT
+704,amitriptyline,TC,IN,NA,RxNorm
+71227,phenytoin sodium,TC,Concept,NA,MEDRT
+71227,phenytoin sodium,TC,PIN,NA,RxNorm
+71532,trimipramine maleate,TC,Concept,NA,MEDRT
+71532,trimipramine maleate,TC,PIN,NA,RxNorm
+722,amoxapine,TC,Concept,NA,MEDRT
+722,amoxapine,TC,IN,NA,RxNorm
+72236,fosphenytoin,TC,Concept,NA,MEDRT
+72236,fosphenytoin,TC,IN,NA,RxNorm
+723,amoxicillin,TC,Concept,NA,MEDRT
+723,amoxicillin,TC,IN,NA,RxNorm
+7233,nafcillin,TC,Concept,NA,MEDRT
+7233,nafcillin,TC,IN,NA,RxNorm
+72611,cefditoren pivoxil,TC,Concept,NA,MEDRT
+72611,cefditoren pivoxil,TC,PIN,NA,RxNorm
+7268,natamycin,TC,Concept,NA,MEDRT
+7268,natamycin,TC,IN,NA,RxNorm
+7276,tobramycin sulfate,TC,Concept,NA,MEDRT
+7276,tobramycin sulfate,TC,PIN,NA,RxNorm
+7299,neomycin,TC,Concept,NA,MEDRT
+7299,neomycin,TC,IN,NA,RxNorm
+7300,neomycin sulfate,TC,Concept,NA,MEDRT
+7300,neomycin sulfate,TC,PIN,NA,RxNorm
+73178,iloperidone,TC,Concept,NA,MEDRT
+73178,iloperidone,TC,IN,NA,RxNorm
+732,amphotericin B,TC,Concept,NA,MEDRT
+732,amphotericin B,TC,IN,NA,RxNorm
+733,ampicillin,TC,Concept,NA,MEDRT
+733,ampicillin,TC,IN,NA,RxNorm
+7337,netilmicin,TC,Concept,NA,MEDRT
+7337,netilmicin,TC,IN,NA,RxNorm
+7454,nitrofurantoin,TC,Concept,NA,MEDRT
+7454,nitrofurantoin,TC,IN,NA,RxNorm
+7517,norfloxacin,TC,Concept,NA,MEDRT
+7517,norfloxacin,TC,IN,NA,RxNorm
+7531,nortriptyline,TC,Concept,NA,MEDRT
+7531,nortriptyline,TC,IN,NA,RxNorm
+7597,nystatin,TC,Concept,NA,MEDRT
+7597,nystatin,TC,IN,NA,RxNorm
+7623,ofloxacin,TC,Concept,NA,MEDRT
+7623,ofloxacin,TC,IN,NA,RxNorm
+7773,oxacillin,TC,Concept,NA,MEDRT
+7773,oxacillin,TC,IN,NA,RxNorm
+7778,oxamniquine,TC,Concept,NA,MEDRT
+7778,oxamniquine,TC,IN,NA,RxNorm
+7821,oxytetracycline,TC,Concept,NA,MEDRT
+7821,oxytetracycline,TC,IN,NA,RxNorm
+784649,asenapine,TC,Concept,NA,MEDRT
+784649,asenapine,TC,IN,NA,RxNorm
+78903,capreomycin,TC,Concept,NA,MEDRT
+78903,capreomycin,TC,IN,NA,RxNorm
+7934,paromomycin,TC,Concept,NA,MEDRT
+7934,paromomycin,TC,IN,NA,RxNorm
+797272,clindamycin phosphate,TC,Concept,NA,MEDRT
+797272,clindamycin phosphate,TC,PIN,NA,RxNorm
+7975,penicillamine,TC,Concept,NA,MEDRT
+7975,penicillamine,TC,IN,NA,RxNorm
+7980,penicillin G,TC,Concept,NA,MEDRT
+7980,penicillin G,TC,IN,NA,RxNorm
+7982,penicillin G benzathine,TC,Concept,NA,MEDRT
+7982,penicillin G benzathine,TC,PIN,NA,RxNorm
+7983,penicillin G procaine,TC,Concept,NA,MEDRT
+7983,penicillin G procaine,TC,PIN,NA,RxNorm
+7994,pentamidine,TC,Concept,NA,MEDRT
+7994,pentamidine,TC,IN,NA,RxNorm
+7995,pentamidine isethionate,TC,Concept,NA,MEDRT
+7995,pentamidine isethionate,TC,PIN,NA,RxNorm
+8183,phenytoin,TC,Concept,NA,MEDRT
+8183,phenytoin,TC,IN,NA,RxNorm
+81945,eflornithine hydrochloride,TC,Concept,NA,MEDRT
+81945,eflornithine hydrochloride,TC,PIN,NA,RxNorm
+81953,ampicillin sodium,TC,Concept,NA,MEDRT
+81953,ampicillin sodium,TC,PIN,NA,RxNorm
+81981,ciprofloxacin hydrochloride,TC,Concept,NA,MEDRT
+81981,ciprofloxacin hydrochloride,TC,PIN,NA,RxNorm
+81982,clindamycin hydrochloride,TC,Concept,NA,MEDRT
+81982,clindamycin hydrochloride,TC,PIN,NA,RxNorm
+81984,clomipramine hydrochloride,TC,Concept,NA,MEDRT
+81984,clomipramine hydrochloride,TC,PIN,NA,RxNorm
+819911,besifloxacin,TC,Concept,NA,MEDRT
+819911,besifloxacin,TC,IN,NA,RxNorm
+81993,demeclocycline hydrochloride,TC,Concept,NA,MEDRT
+81993,demeclocycline hydrochloride,TC,PIN,NA,RxNorm
+82005,diphenoxylate hydrochloride,TC,Concept,NA,MEDRT
+82005,diphenoxylate hydrochloride,TC,PIN,NA,RxNorm
+82041,meclizine hydrochloride,TC,Concept,NA,MEDRT
+82041,meclizine hydrochloride,TC,PIN,NA,RxNorm
+82047,metronidazole hydrochloride,TC,Concept,NA,MEDRT
+82047,metronidazole hydrochloride,TC,PIN,NA,RxNorm
+82051,molindone hydrochloride,TC,Concept,NA,MEDRT
+82051,molindone hydrochloride,TC,PIN,NA,RxNorm
+82065,oxytetracycline calcium,TC,Concept,NA,MEDRT
+82065,oxytetracycline calcium,TC,PIN,NA,RxNorm
+82101,sulfacetamide sodium,TC,Concept,NA,MEDRT
+82101,sulfacetamide sodium,TC,PIN,NA,RxNorm
+82122,levofloxacin,TC,Concept,NA,MEDRT
+82122,levofloxacin,TC,IN,NA,RxNorm
+82126,ceftizoxime sodium,TC,Concept,NA,MEDRT
+82126,ceftizoxime sodium,TC,PIN,NA,RxNorm
+82130,mefloquine hydrochloride,TC,Concept,NA,MEDRT
+82130,mefloquine hydrochloride,TC,PIN,NA,RxNorm
+82131,ganciclovir sodium,TC,Concept,NA,MEDRT
+82131,ganciclovir sodium,TC,PIN,NA,RxNorm
+82806,fosphenytoin sodium,TC,Concept,NA,MEDRT
+82806,fosphenytoin sodium,TC,PIN,NA,RxNorm
+8331,pimozide,TC,Concept,NA,MEDRT
+8331,pimozide,TC,IN,NA,RxNorm
+8339,piperacillin,TC,Concept,NA,MEDRT
+8339,piperacillin,TC,IN,NA,RxNorm
+83682,cefditoren,TC,Concept,NA,MEDRT
+83682,cefditoren,TC,IN,NA,RxNorm
+847728,lumefantrine,TC,Concept,NA,MEDRT
+847728,lumefantrine,TC,IN,NA,RxNorm
+8536,polymyxin B,TC,Concept,NA,MEDRT
+8536,polymyxin B,TC,IN,NA,RxNorm
+858045,paliperidone palmitate,TC,Concept,NA,MEDRT
+858045,paliperidone palmitate,TC,PIN,NA,RxNorm
+8611,povidone-iodine,TC,Concept,NA,MEDRT
+8611,povidone-iodine,TC,IN,NA,RxNorm
+8628,praziquantel,TC,Concept,NA,MEDRT
+8628,praziquantel,TC,IN,NA,RxNorm
+864624,telavancin hydrochloride,TC,Concept,NA,MEDRT
+864624,telavancin hydrochloride,TC,PIN,NA,RxNorm
+8687,primaquine,TC,Concept,NA,MEDRT
+8687,primaquine,TC,IN,NA,RxNorm
+8689,primaquine phosphate,TC,Concept,NA,MEDRT
+8689,primaquine phosphate,TC,PIN,NA,RxNorm
+8691,primidone,TC,Concept,NA,MEDRT
+8691,primidone,TC,IN,NA,RxNorm
+8700,procainamide,TC,Concept,NA,MEDRT
+8700,procainamide,TC,IN,NA,RxNorm
+8754,propafenone,TC,Concept,NA,MEDRT
+8754,propafenone,TC,IN,NA,RxNorm
+8886,protriptyline,TC,Concept,NA,MEDRT
+8886,protriptyline,TC,IN,NA,RxNorm
+89013,aripiprazole,TC,Concept,NA,MEDRT
+89013,aripiprazole,TC,IN,NA,RxNorm
+8987,pyrazinamide,TC,Concept,NA,MEDRT
+8987,pyrazinamide,TC,IN,NA,RxNorm
+9010,pyrimethamine,TC,Concept,NA,MEDRT
+9010,pyrimethamine,TC,IN,NA,RxNorm
+90650,technetium 99m,TC,Concept,NA,MEDRT
+90650,technetium 99m,TC,PIN,NA,RxNorm
+9068,quinidine,TC,Concept,NA,MEDRT
+9068,quinidine,TC,IN,NA,RxNorm
+9069,quinidine sulfate,TC,Concept,NA,MEDRT
+9069,quinidine sulfate,TC,PIN,NA,RxNorm
+9071,quinine,TC,Concept,NA,MEDRT
+9071,quinine,TC,IN,NA,RxNorm
+9075,quinine sulfate,TC,Concept,NA,MEDRT
+9075,quinine sulfate,TC,PIN,NA,RxNorm
+91075,clindamycin palmitate hydrochloride,TC,Concept,NA,MEDRT
+91075,clindamycin palmitate hydrochloride,TC,PIN,NA,RxNorm
+91118,imipramine pamoate,TC,Concept,NA,MEDRT
+91118,imipramine pamoate,TC,PIN,NA,RxNorm
+91135,thiothixene hydrochloride,TC,Concept,NA,MEDRT
+91135,thiothixene hydrochloride,TC,PIN,NA,RxNorm
+91293,naftifine hydrochloride,TC,Concept,NA,MEDRT
+91293,naftifine hydrochloride,TC,PIN,NA,RxNorm
+91516,cyanocobalamin Co57,TC,Concept,NA,MEDRT
+91516,cyanocobalamin Co57,TC,IN,NA,RxNorm
+9344,ribavirin,TC,Concept,NA,MEDRT
+9344,ribavirin,TC,IN,NA,RxNorm
+9384,rifampin,TC,Concept,NA,MEDRT
+9384,rifampin,TC,IN,NA,RxNorm
+9793,silver sulfadiazine,TC,Concept,NA,MEDRT
+9793,silver sulfadiazine,TC,IN,NA,RxNorm
+9893,nafcillin sodium,TC,Concept,NA,MEDRT
+9893,nafcillin sodium,TC,PIN,NA,RxNorm
+9898,oxacillin sodium,TC,Concept,NA,MEDRT
+9898,oxacillin sodium,TC,PIN,NA,RxNorm
+9900,penicillin G sodium,TC,Concept,NA,MEDRT
+9900,penicillin G sodium,TC,PIN,NA,RxNorm
+9919,sodium valproate,TC,Concept,NA,MEDRT
+9919,sodium valproate,TC,PIN,NA,RxNorm
+9947,sotalol,TC,Concept,NA,MEDRT
+9947,sotalol,TC,IN,NA,RxNorm

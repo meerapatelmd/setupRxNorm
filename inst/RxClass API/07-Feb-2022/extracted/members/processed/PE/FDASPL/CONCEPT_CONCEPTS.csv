@@ -1,0 +1,2123 @@
+concept_code,concept_name,class_type,concept_class_id,standard_concept,vocabulary_id
+1006258,Apiospora montagnei allergenic extract,PE,IN,NA,RxNorm
+1006258,Apiospora montagnei allergenic extract,PE,Concept,NA,SPL
+1006310,Aspergillus repens allergenic extract,PE,IN,NA,RxNorm
+1006310,Aspergillus repens allergenic extract,PE,Concept,NA,SPL
+1006495,Indian wormwood sage pollen extract,PE,IN,NA,RxNorm
+1006495,Indian wormwood sage pollen extract,PE,Concept,NA,SPL
+1006506,tall oat grass pollen extract,PE,IN,NA,RxNorm
+1006506,tall oat grass pollen extract,PE,Concept,NA,SPL
+1006510,barley malt allergenic extract,PE,IN,NA,RxNorm
+1006510,barley malt allergenic extract,PE,Concept,NA,SPL
+1010915,chocolate allergenic extract,PE,IN,NA,RxNorm
+1010915,chocolate allergenic extract,PE,Concept,NA,SPL
+1010932,leek allergenic extract,PE,IN,NA,RxNorm
+1010932,leek allergenic extract,PE,Concept,NA,SPL
+1010965,oregano allergenic extract,PE,IN,NA,RxNorm
+1010965,oregano allergenic extract,PE,Concept,NA,SPL
+1011017,poppy seed allergenic extract,PE,IN,NA,RxNorm
+1011017,poppy seed allergenic extract,PE,Concept,NA,SPL
+1011021,okra allergenic extract,PE,IN,NA,RxNorm
+1011021,okra allergenic extract,PE,Concept,NA,SPL
+1011027,parsnip allergenic extract,PE,IN,NA,RxNorm
+1011027,parsnip allergenic extract,PE,Concept,NA,SPL
+1011043,horseradish allergenic extract,PE,IN,NA,RxNorm
+1011043,horseradish allergenic extract,PE,Concept,NA,SPL
+1011049,chickpea allergenic extract,PE,IN,NA,RxNorm
+1011049,chickpea allergenic extract,PE,Concept,NA,SPL
+1011060,lime allergenic extract,PE,IN,NA,RxNorm
+1011060,lime allergenic extract,PE,Concept,NA,SPL
+1011404,mango allergenic extract,PE,IN,NA,RxNorm
+1011404,mango allergenic extract,PE,Concept,NA,SPL
+1011412,tangerine allergenic extract,PE,IN,NA,RxNorm
+1011412,tangerine allergenic extract,PE,Concept,NA,SPL
+1011418,watercress allergenic extract,PE,IN,NA,RxNorm
+1011418,watercress allergenic extract,PE,Concept,NA,SPL
+1011426,papaya allergenic extract,PE,IN,NA,RxNorm
+1011426,papaya allergenic extract,PE,Concept,NA,SPL
+1011627,sage leaf allergenic extract,PE,IN,NA,RxNorm
+1011627,sage leaf allergenic extract,PE,Concept,NA,SPL
+1012026,veal allergenic extract,PE,IN,NA,RxNorm
+1012026,veal allergenic extract,PE,Concept,NA,SPL
+1012134,sour cherry allergenic extract,PE,IN,NA,RxNorm
+1012134,sour cherry allergenic extract,PE,Concept,NA,SPL
+1013913,scrub pine pollen extract,PE,IN,NA,RxNorm
+1013913,scrub pine pollen extract,PE,Concept,NA,SPL
+1013944,water oak pollen extract,PE,IN,NA,RxNorm
+1013944,water oak pollen extract,PE,Concept,NA,SPL
+1014191,cedar elm pollen extract,PE,IN,NA,RxNorm
+1014191,cedar elm pollen extract,PE,Concept,NA,SPL
+1014340,Italian rye grass pollen extract,PE,IN,NA,RxNorm
+1014340,Italian rye grass pollen extract,PE,Concept,NA,SPL
+1014360,longleaf pine pollen extract,PE,IN,NA,RxNorm
+1014360,longleaf pine pollen extract,PE,Concept,NA,SPL
+1014385,Bermuda grass smut allergenic extract,PE,IN,NA,RxNorm
+1014385,Bermuda grass smut allergenic extract,PE,Concept,NA,SPL
+1014391,Humicola grisea allergenic extract,PE,IN,NA,RxNorm
+1014391,Humicola grisea allergenic extract,PE,Concept,NA,SPL
+1014395,Microsporum audouinii allergenic extract,PE,IN,NA,RxNorm
+1014395,Microsporum audouinii allergenic extract,PE,Concept,NA,SPL
+1014399,microsporum canis allergenic extract,PE,IN,NA,RxNorm
+1014399,microsporum canis allergenic extract,PE,Concept,NA,SPL
+1014447,yellow sweet clover pollen extract,PE,IN,NA,RxNorm
+1014447,yellow sweet clover pollen extract,PE,Concept,NA,SPL
+1014690,jack pine pollen extract,PE,IN,NA,RxNorm
+1014690,jack pine pollen extract,PE,Concept,NA,SPL
+1014707,redwood pollen extract,PE,IN,NA,RxNorm
+1014707,redwood pollen extract,PE,Concept,NA,SPL
+1014721,California black oak pollen extract,PE,IN,NA,RxNorm
+1014721,California black oak pollen extract,PE,Concept,NA,SPL
+1014731,Canadian bluegrass pollen extract,PE,IN,NA,RxNorm
+1014731,Canadian bluegrass pollen extract,PE,Concept,NA,SPL
+1014735,white sweet clover pollen extract,PE,IN,NA,RxNorm
+1014735,white sweet clover pollen extract,PE,Concept,NA,SPL
+1014739,bitter dock pollen extract,PE,IN,NA,RxNorm
+1014739,bitter dock pollen extract,PE,Concept,NA,SPL
+1014743,white (mexican) dock pollen extract,PE,IN,NA,RxNorm
+1014743,white (mexican) dock pollen extract,PE,Concept,NA,SPL
+1014755,western black willow pollen extract,PE,IN,NA,RxNorm
+1014755,western black willow pollen extract,PE,Concept,NA,SPL
+1014762,balsam poplar pollen extract,PE,IN,NA,RxNorm
+1014762,balsam poplar pollen extract,PE,Concept,NA,SPL
+1014766,Jerusalem oak pollen extract,PE,IN,NA,RxNorm
+1014766,Jerusalem oak pollen extract,PE,Concept,NA,SPL
+1014774,cultivated rye grass pollen extract,PE,IN,NA,RxNorm
+1014774,cultivated rye grass pollen extract,PE,Concept,NA,SPL
+10154,succinylcholine,PE,IN,NA,RxNorm
+10154,succinylcholine,PE,Concept,NA,SPL
+10391,tetracaine,PE,IN,NA,RxNorm
+10391,tetracaine,PE,Concept,NA,SPL
+10432,thalidomide,PE,IN,NA,RxNorm
+10432,thalidomide,PE,Concept,NA,SPL
+1044584,tesamorelin,PE,IN,NA,RxNorm
+1044584,tesamorelin,PE,Concept,NA,SPL
+1045453,eribulin,PE,IN,NA,RxNorm
+1045453,eribulin,PE,Concept,NA,SPL
+10472,thimerosal,PE,IN,NA,RxNorm
+10472,thimerosal,PE,Concept,NA,SPL
+10517,thiram,PE,IN,NA,RxNorm
+10517,thiram,PE,Concept,NA,SPL
+10528,thrombin,PE,IN,NA,RxNorm
+10528,thrombin,PE,Concept,NA,SPL
+1056,aprotinin,PE,IN,NA,RxNorm
+1056,aprotinin,PE,Concept,NA,SPL
+105694,epoetin alfa,PE,IN,NA,RxNorm
+105694,epoetin alfa,PE,Concept,NA,SPL
+10594,ticlopidine,PE,IN,NA,RxNorm
+10594,ticlopidine,PE,Concept,NA,SPL
+10691,tranexamic acid,PE,IN,NA,RxNorm
+10691,tranexamic acid,PE,Concept,NA,SPL
+107044,rabbit anti-human T-lymphocyte globulin,PE,PIN,NA,RxNorm
+107044,rabbit anti-human T-lymphocyte globulin,PE,Concept,NA,SPL
+10763,triamterene,PE,IN,NA,RxNorm
+10763,triamterene,PE,Concept,NA,SPL
+1091605,"factor XIII, human",PE,PIN,NA,RxNorm
+1091605,"factor XIII, human",PE,Concept,NA,SPL
+1091643,azilsartan,PE,IN,NA,RxNorm
+1091643,azilsartan,PE,Concept,NA,SPL
+1092437,belimumab,PE,IN,NA,RxNorm
+1092437,belimumab,PE,Concept,NA,SPL
+1094116,creeping bentgrass pollen extract,PE,IN,NA,RxNorm
+1094116,creeping bentgrass pollen extract,PE,Concept,NA,SPL
+1094193,broomweed pollen extract,PE,IN,NA,RxNorm
+1094193,broomweed pollen extract,PE,Concept,NA,SPL
+1094833,ipilimumab,PE,IN,NA,RxNorm
+1094833,ipilimumab,PE,Concept,NA,SPL
+1098118,cultivated barley pollen extract,PE,IN,NA,RxNorm
+1098118,cultivated barley pollen extract,PE,Concept,NA,SPL
+1098130,narrowleaf marshelder pollen extract,PE,IN,NA,RxNorm
+1098130,narrowleaf marshelder pollen extract,PE,Concept,NA,SPL
+1098183,largemouth bass allergenic extract,PE,IN,NA,RxNorm
+1098183,largemouth bass allergenic extract,PE,Concept,NA,SPL
+1098189,osage orange pollen extract,PE,IN,NA,RxNorm
+1098189,osage orange pollen extract,PE,Concept,NA,SPL
+1098200,Neurospora sitophila allergenic extract,PE,IN,NA,RxNorm
+1098200,Neurospora sitophila allergenic extract,PE,Concept,NA,SPL
+1098232,littleseed canary grass pollen extract,PE,IN,NA,RxNorm
+1098232,littleseed canary grass pollen extract,PE,Concept,NA,SPL
+1098257,Douglas fir pollen extract,PE,IN,NA,RxNorm
+1098257,Douglas fir pollen extract,PE,Concept,NA,SPL
+1098353,orris root allergenic extract,PE,IN,NA,RxNorm
+1098353,orris root allergenic extract,PE,Concept,NA,SPL
+1098455,Sudan grass pollen extract,PE,IN,NA,RxNorm
+1098455,Sudan grass pollen extract,PE,Concept,NA,SPL
+1098619,Trichophyton tonsurans allergenic extract,PE,IN,NA,RxNorm
+1098619,Trichophyton tonsurans allergenic extract,PE,Concept,NA,SPL
+11055,urokinase,PE,IN,NA,RxNorm
+11055,urokinase,PE,Concept,NA,SPL
+1111024,valley oak pollen extract,PE,IN,NA,RxNorm
+1111024,valley oak pollen extract,PE,Concept,NA,SPL
+11118,valproic acid,PE,PIN,NA,RxNorm
+11118,valproic acid,PE,Concept,NA,SPL
+1112973,belatacept,PE,IN,NA,RxNorm
+1112973,belatacept,PE,Concept,NA,SPL
+1114345,bronopol,PE,IN,NA,RxNorm
+1114345,bronopol,PE,Concept,NA,SPL
+1116632,ticagrelor,PE,IN,NA,RxNorm
+1116632,ticagrelor,PE,Concept,NA,SPL
+1116977,American house dust mite allergenic extract,PE,IN,NA,RxNorm
+1116977,American house dust mite allergenic extract,PE,Concept,NA,SPL
+1116979,European house dust mite allergenic extract,PE,IN,NA,RxNorm
+1116979,European house dust mite allergenic extract,PE,Concept,NA,SPL
+1117083,weakleaf bur ragweed pollen extract,PE,IN,NA,RxNorm
+1117083,weakleaf bur ragweed pollen extract,PE,Concept,NA,SPL
+1119986,Centruroides (scorpion) immune F(ab')2 (equine),PE,IN,NA,RxNorm
+1119986,Centruroides (scorpion) immune F(ab')2 (equine),PE,Concept,NA,SPL
+114477,levetiracetam,PE,IN,NA,RxNorm
+114477,levetiracetam,PE,Concept,NA,SPL
+1147320,brentuximab vedotin,PE,IN,NA,RxNorm
+1147320,brentuximab vedotin,PE,Concept,NA,SPL
+118886,verteporfin,PE,IN,NA,RxNorm
+118886,verteporfin,PE,Concept,NA,SPL
+1192729,Colletotrichum coccodes allergenic extract,PE,IN,NA,RxNorm
+1192729,Colletotrichum coccodes allergenic extract,PE,Concept,NA,SPL
+1192968,Hypomyces perniciosus allergenic extract,PE,IN,NA,RxNorm
+1192968,Hypomyces perniciosus allergenic extract,PE,Concept,NA,SPL
+1192987,parakeet feather allergenic extract,PE,IN,NA,RxNorm
+1192987,parakeet feather allergenic extract,PE,Concept,NA,SPL
+1192992,Microascus brevicaulis allergenic extract,PE,IN,NA,RxNorm
+1192992,Microascus brevicaulis allergenic extract,PE,Concept,NA,SPL
+1192997,gliocladium allergenic extract,PE,IN,NA,RxNorm
+1192997,gliocladium allergenic extract,PE,Concept,NA,SPL
+1218,atracurium,PE,IN,NA,RxNorm
+1218,atracurium,PE,Concept,NA,SPL
+1232604,pale dock pollen extract,PE,IN,NA,RxNorm
+1232604,pale dock pollen extract,PE,Concept,NA,SPL
+1232637,broadleaf cattail pollen extract,PE,IN,NA,RxNorm
+1232637,broadleaf cattail pollen extract,PE,Concept,NA,SPL
+1242806,ingenol mebutate,PE,IN,NA,RxNorm
+1242806,ingenol mebutate,PE,Concept,NA,SPL
+124323,grapefruit extract,PE,IN,NA,RxNorm
+124323,grapefruit extract,PE,Concept,NA,SPL
+1244607,tafluprost,PE,IN,NA,RxNorm
+1244607,tafluprost,PE,Concept,NA,SPL
+125933,cranberry preparation,PE,IN,NA,RxNorm
+125933,cranberry preparation,PE,Concept,NA,SPL
+1291,bacitracin,PE,IN,NA,RxNorm
+1291,bacitracin,PE,Concept,NA,SPL
+1292422,varicella-zoster virus vaccine live (Oka-Merck) strain,PE,IN,NA,RxNorm
+1292422,varicella-zoster virus vaccine live (Oka-Merck) strain,PE,Concept,NA,SPL
+1294632,northern paper wasp venom protein,PE,IN,NA,RxNorm
+1294632,northern paper wasp venom protein,PE,Concept,NA,SPL
+1297525,bald-faced hornet venom protein,PE,IN,NA,RxNorm
+1297525,bald-faced hornet venom protein,PE,Concept,NA,SPL
+1297527,common wasp venom protein,PE,IN,NA,RxNorm
+1297527,common wasp venom protein,PE,Concept,NA,SPL
+1297529,eastern yellow jacket venom protein,PE,IN,NA,RxNorm
+1297529,eastern yellow jacket venom protein,PE,Concept,NA,SPL
+1297531,German wasp venom protein,PE,IN,NA,RxNorm
+1297531,German wasp venom protein,PE,Concept,NA,SPL
+1297533,southern yellow jacket venom protein,PE,IN,NA,RxNorm
+1297533,southern yellow jacket venom protein,PE,Concept,NA,SPL
+1297535,western yellow jacket venom protein,PE,IN,NA,RxNorm
+1297535,western yellow jacket venom protein,PE,Concept,NA,SPL
+1297537,yellow hornet venom protein,PE,IN,NA,RxNorm
+1297537,yellow hornet venom protein,PE,Concept,NA,SPL
+1299785,human adenovirus E serotype 4 strain CL-68578,PE,PIN,NA,RxNorm
+1299785,human adenovirus E serotype 4 strain CL-68578,PE,Concept,NA,SPL
+1299922,docetaxel anhydrous,PE,PIN,NA,RxNorm
+1299922,docetaxel anhydrous,PE,Concept,NA,SPL
+1299981,Siberian elm pollen extract,PE,IN,NA,RxNorm
+1299981,Siberian elm pollen extract,PE,Concept,NA,SPL
+1300180,"Bordetella pertussis filamentous hemagglutinin vaccine, inactivated",PE,PIN,NA,RxNorm
+1300180,"Bordetella pertussis filamentous hemagglutinin vaccine, inactivated",PE,Concept,NA,SPL
+1300182,"Bordetella pertussis fimbriae 2/3 vaccine, inactivated",PE,PIN,NA,RxNorm
+1300182,"Bordetella pertussis fimbriae 2/3 vaccine, inactivated",PE,Concept,NA,SPL
+1300184,"Bordetella pertussis pertactin vaccine, inactivated",PE,PIN,NA,RxNorm
+1300184,"Bordetella pertussis pertactin vaccine, inactivated",PE,Concept,NA,SPL
+1300186,"Bordetella pertussis toxoid vaccine, inactivated",PE,PIN,NA,RxNorm
+1300186,"Bordetella pertussis toxoid vaccine, inactivated",PE,Concept,NA,SPL
+1300464,"Haemophilus influenzae type b strain 1482, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine",PE,PIN,NA,RxNorm
+1300464,"Haemophilus influenzae type b strain 1482, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine",PE,Concept,NA,SPL
+1300486,"antihemophilic factor, human recombinant",PE,PIN,NA,RxNorm
+1300486,"antihemophilic factor, human recombinant",PE,Concept,NA,SPL
+1300488,nonacog alfa,PE,PIN,NA,RxNorm
+1300488,nonacog alfa,PE,Concept,NA,SPL
+1300779,"Japanese encephalitis virus vaccine Nakayama-NIH strain, inactivated",PE,PIN,NA,RxNorm
+1300779,"Japanese encephalitis virus vaccine Nakayama-NIH strain, inactivated",PE,Concept,NA,SPL
+1300806,"Haemophilus influenzae type b strain 20752, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine",PE,PIN,NA,RxNorm
+1300806,"Haemophilus influenzae type b strain 20752, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine",PE,Concept,NA,SPL
+1305551,Carya laciniosa pollen extract,PE,IN,NA,RxNorm
+1305551,Carya laciniosa pollen extract,PE,Concept,NA,SPL
+1305719,cucumber extract,PE,IN,NA,RxNorm
+1305719,cucumber extract,PE,Concept,NA,SPL
+1305725,lime (citrus) extract,PE,IN,NA,RxNorm
+1305725,lime (citrus) extract,PE,Concept,NA,SPL
+1306108,silver birch pollen allergenic extract,PE,IN,NA,RxNorm
+1306108,silver birch pollen allergenic extract,PE,Concept,NA,SPL
+1306112,"2,2'-dithiobisbenzothiazole",PE,IN,NA,RxNorm
+1306112,"2,2'-dithiobisbenzothiazole",PE,Concept,NA,SPL
+1306883,barley malt syrup,PE,IN,NA,RxNorm
+1306883,barley malt syrup,PE,Concept,NA,SPL
+1306886,N-cyclohexyl-2-benzothiazosulfenamide,PE,IN,NA,RxNorm
+1306886,N-cyclohexyl-2-benzothiazosulfenamide,PE,Concept,NA,SPL
+1306937,butylparaben,PE,IN,NA,RxNorm
+1306937,butylparaben,PE,Concept,NA,SPL
+1307040,Aspergillus flavus var. oryzae protease,PE,IN,NA,RxNorm
+1307040,Aspergillus flavus var. oryzae protease,PE,Concept,NA,SPL
+1307044,methyldibromo glutaronitrile,PE,IN,NA,RxNorm
+1307044,methyldibromo glutaronitrile,PE,Concept,NA,SPL
+1307595,Cola acuminata seed extract,PE,IN,NA,RxNorm
+1307595,Cola acuminata seed extract,PE,Concept,NA,SPL
+1307699,Lawsonia inermis leaf extract,PE,IN,NA,RxNorm
+1307699,Lawsonia inermis leaf extract,PE,Concept,NA,SPL
+1307718,wine grape extract,PE,IN,NA,RxNorm
+1307718,wine grape extract,PE,Concept,NA,SPL
+1309242,Solidago virgaurea pollen extract,PE,IN,NA,RxNorm
+1309242,Solidago virgaurea pollen extract,PE,Concept,NA,SPL
+1309292,anise seed extract,PE,IN,NA,RxNorm
+1309292,anise seed extract,PE,Concept,NA,SPL
+1309391,sunflower seed extract,PE,IN,NA,RxNorm
+1309391,sunflower seed extract,PE,Concept,NA,SPL
+1309678,Strychnos nux-vomica seed extract,PE,IN,NA,RxNorm
+1309678,Strychnos nux-vomica seed extract,PE,Concept,NA,SPL
+1310046,sesame seed extract,PE,IN,NA,RxNorm
+1310046,sesame seed extract,PE,Concept,NA,SPL
+1310189,Juniperus communis fruit extract,PE,IN,NA,RxNorm
+1310189,Juniperus communis fruit extract,PE,Concept,NA,SPL
+1310300,cobalt,PE,IN,NA,RxNorm
+1310300,cobalt,PE,Concept,NA,SPL
+1310602,diazolidinylurea,PE,IN,NA,RxNorm
+1310602,diazolidinylurea,PE,Concept,NA,SPL
+1311040,brown rice preparation,PE,IN,NA,RxNorm
+1311040,brown rice preparation,PE,Concept,NA,SPL
+1311190,gold,PE,IN,NA,RxNorm
+1311190,gold,PE,Concept,NA,SPL
+1311406,Sorghum bicolor pollen extract,PE,IN,NA,RxNorm
+1311406,Sorghum bicolor pollen extract,PE,Concept,NA,SPL
+1311606,amyl cinnamal,PE,IN,NA,RxNorm
+1311606,amyl cinnamal,PE,Concept,NA,SPL
+1311611,avocado oil,PE,IN,NA,RxNorm
+1311611,avocado oil,PE,Concept,NA,SPL
+1311629,nickel,PE,IN,NA,RxNorm
+1311629,nickel,PE,Concept,NA,SPL
+1313692,red pepper extract,PE,IN,NA,RxNorm
+1313692,red pepper extract,PE,Concept,NA,SPL
+1314592,Streptomyces griseus allergenic extract,PE,IN,NA,RxNorm
+1314592,Streptomyces griseus allergenic extract,PE,Concept,NA,SPL
+1314656,radish extract,PE,IN,NA,RxNorm
+1314656,radish extract,PE,Concept,NA,SPL
+1314927,Salsola tragus pollen extract,PE,IN,NA,RxNorm
+1314927,Salsola tragus pollen extract,PE,Concept,NA,SPL
+1315113,cotton fiber extract,PE,IN,NA,RxNorm
+1315113,cotton fiber extract,PE,Concept,NA,SPL
+1315115,egg extract,PE,IN,NA,RxNorm
+1315115,egg extract,PE,Concept,NA,SPL
+1315116,eggplant extract,PE,IN,NA,RxNorm
+1315116,eggplant extract,PE,Concept,NA,SPL
+1315118,green bell pepper extract,PE,IN,NA,RxNorm
+1315118,green bell pepper extract,PE,Concept,NA,SPL
+1315120,lamb preparation,PE,IN,NA,RxNorm
+1315120,lamb preparation,PE,Concept,NA,SPL
+1315121,"oyster, unspecified preparation",PE,IN,NA,RxNorm
+1315121,"oyster, unspecified preparation",PE,Concept,NA,SPL
+1315126,blue crab preparation,PE,IN,NA,RxNorm
+1315126,blue crab preparation,PE,Concept,NA,SPL
+1316581,calcium ion,PE,IN,NA,RxNorm
+1316581,calcium ion,PE,Concept,NA,SPL
+1318915,potassium ion,PE,IN,NA,RxNorm
+1318915,potassium ion,PE,Concept,NA,SPL
+1330085,beef liver preparation,PE,IN,NA,RxNorm
+1330085,beef liver preparation,PE,Concept,NA,SPL
+1346617,Blatta orientalis preparation,PE,IN,NA,RxNorm
+1346617,Blatta orientalis preparation,PE,Concept,NA,SPL
+1352501,Evernia prunastri extract,PE,IN,NA,RxNorm
+1352501,Evernia prunastri extract,PE,Concept,NA,SPL
+1353217,nutmeg extract,PE,IN,NA,RxNorm
+1353217,nutmeg extract,PE,Concept,NA,SPL
+1353891,apricot extract,PE,IN,NA,RxNorm
+1353891,apricot extract,PE,Concept,NA,SPL
+135391,olopatadine,PE,IN,NA,RxNorm
+135391,olopatadine,PE,Concept,NA,SPL
+1354504,sage extract,PE,IN,NA,RxNorm
+1354504,sage extract,PE,Concept,NA,SPL
+1358845,2-mercaptobenzothiazole,PE,IN,NA,RxNorm
+1358845,2-mercaptobenzothiazole,PE,Concept,NA,SPL
+1358897,grapefruit peel extract,PE,IN,NA,RxNorm
+1358897,grapefruit peel extract,PE,Concept,NA,SPL
+1360623,Platycladus orientalis pollen extract,PE,IN,NA,RxNorm
+1360623,Platycladus orientalis pollen extract,PE,Concept,NA,SPL
+1362740,4-phenylenediamine,PE,IN,NA,RxNorm
+1362740,4-phenylenediamine,PE,Concept,NA,SPL
+1362889,cinnamyl alcohol,PE,IN,NA,RxNorm
+1362889,cinnamyl alcohol,PE,Concept,NA,SPL
+1362892,ethyl-p-hydroxybenzoate,PE,IN,NA,RxNorm
+1362892,ethyl-p-hydroxybenzoate,PE,Concept,NA,SPL
+1362893,hydroxycitronellal,PE,IN,NA,RxNorm
+1362893,hydroxycitronellal,PE,Concept,NA,SPL
+1362931,rosin,PE,IN,NA,RxNorm
+1362931,rosin,PE,Concept,NA,SPL
+1363352,hydroxyethyl starch 130-0.4,PE,IN,NA,RxNorm
+1363352,hydroxyethyl starch 130-0.4,PE,Concept,NA,SPL
+1363561,Amaranthus hybridus pollen extract,PE,IN,NA,RxNorm
+1363561,Amaranthus hybridus pollen extract,PE,Concept,NA,SPL
+1363563,Trifolium repens pollen extract,PE,IN,NA,RxNorm
+1363563,Trifolium repens pollen extract,PE,Concept,NA,SPL
+1363706,isoeugenol,PE,IN,NA,RxNorm
+1363706,isoeugenol,PE,Concept,NA,SPL
+1363709,"N,N'-diphenyl-4-phenylenediamine",PE,IN,NA,RxNorm
+1363709,"N,N'-diphenyl-4-phenylenediamine",PE,Concept,NA,SPL
+1363710,N-isopropyl-N-phenyl-4-phenylenediamine,PE,IN,NA,RxNorm
+1363710,N-isopropyl-N-phenyl-4-phenylenediamine,PE,Concept,NA,SPL
+1363711,N-oxydiethylene-2-benzothiazole sulfenamide,PE,IN,NA,RxNorm
+1363711,N-oxydiethylene-2-benzothiazole sulfenamide,PE,Concept,NA,SPL
+1363713,tetramethylthiuram monosulfide,PE,IN,NA,RxNorm
+1363713,tetramethylthiuram monosulfide,PE,Concept,NA,SPL
+1364291,lemon extract,PE,IN,NA,RxNorm
+1364291,lemon extract,PE,Concept,NA,SPL
+1364295,clove preparation,PE,IN,NA,RxNorm
+1364295,clove preparation,PE,Concept,NA,SPL
+1364429,sodium cation,PE,IN,NA,RxNorm
+1364429,sodium cation,PE,Concept,NA,SPL
+1367075,thrombin alfa,PE,PIN,NA,RxNorm
+1367075,thrombin alfa,PE,Concept,NA,SPL
+1367119,5-chloro-2-methyl-4-isothiazolin-3-one,PE,IN,NA,RxNorm
+1367119,5-chloro-2-methyl-4-isothiazolin-3-one,PE,Concept,NA,SPL
+1367125,pear preparation,PE,IN,NA,RxNorm
+1367125,pear preparation,PE,Concept,NA,SPL
+1367839,mipomersen,PE,IN,NA,RxNorm
+1367839,mipomersen,PE,Concept,NA,SPL
+1368138,"2,2-bis(4-glycidyloxyphenyl)propane",PE,IN,NA,RxNorm
+1368138,"2,2-bis(4-glycidyloxyphenyl)propane",PE,Concept,NA,SPL
+1368153,cinnamic aldehyde,PE,IN,NA,RxNorm
+1368153,cinnamic aldehyde,PE,Concept,NA,SPL
+1368170,diphenylguanidine,PE,IN,NA,RxNorm
+1368170,diphenylguanidine,PE,Concept,NA,SPL
+1368171,disperse blue 106,PE,IN,NA,RxNorm
+1368171,disperse blue 106,PE,Concept,NA,SPL
+1368197,tragacanth,PE,IN,NA,RxNorm
+1368197,tragacanth,PE,Concept,NA,SPL
+1368357,Aspergillus nidulans allergenic extract,PE,IN,NA,RxNorm
+1368357,Aspergillus nidulans allergenic extract,PE,Concept,NA,SPL
+1368371,Bacillus anthracis strain V770-NP1-R antigens,PE,IN,NA,RxNorm
+1368371,Bacillus anthracis strain V770-NP1-R antigens,PE,Concept,NA,SPL
+1368875,geraniol,PE,IN,NA,RxNorm
+1368875,geraniol,PE,Concept,NA,SPL
+1368885,imidurea,PE,IN,NA,RxNorm
+1368885,imidurea,PE,Concept,NA,SPL
+1369,bendroflumethiazide,PE,IN,NA,RxNorm
+1369,bendroflumethiazide,PE,Concept,NA,SPL
+1370435,Glycyrrhiza glabra extract,PE,IN,NA,RxNorm
+1370435,Glycyrrhiza glabra extract,PE,Concept,NA,SPL
+1370469,onion extract,PE,IN,NA,RxNorm
+1370469,onion extract,PE,Concept,NA,SPL
+1370761,quince extract,PE,IN,NA,RxNorm
+1370761,quince extract,PE,Concept,NA,SPL
+1370766,barley extract,PE,IN,NA,RxNorm
+1370766,barley extract,PE,Concept,NA,SPL
+1370769,raspberry extract,PE,IN,NA,RxNorm
+1370769,raspberry extract,PE,Concept,NA,SPL
+1370773,bean extract,PE,IN,NA,RxNorm
+1370773,bean extract,PE,Concept,NA,SPL
+1370781,wheat gluten extract,PE,IN,NA,RxNorm
+1370781,wheat gluten extract,PE,Concept,NA,SPL
+1370787,okra extract,PE,IN,NA,RxNorm
+1370787,okra extract,PE,Concept,NA,SPL
+1372248,coconut extract,PE,IN,NA,RxNorm
+1372248,coconut extract,PE,Concept,NA,SPL
+1372258,spearmint extract,PE,IN,NA,RxNorm
+1372258,spearmint extract,PE,Concept,NA,SPL
+1373895,cocoa extract,PE,IN,NA,RxNorm
+1373895,cocoa extract,PE,Concept,NA,SPL
+1399,benzocaine,PE,IN,NA,RxNorm
+1399,benzocaine,PE,Concept,NA,SPL
+141704,everolimus,PE,IN,NA,RxNorm
+141704,everolimus,PE,Concept,NA,SPL
+1421430,salmon preparation,PE,IN,NA,RxNorm
+1421430,salmon preparation,PE,Concept,NA,SPL
+1422,benzphetamine,PE,IN,NA,RxNorm
+1422,benzphetamine,PE,Concept,NA,SPL
+1423924,corn grain extract,PE,IN,NA,RxNorm
+1423924,corn grain extract,PE,Concept,NA,SPL
+1424865,apple extract,PE,IN,NA,RxNorm
+1424865,apple extract,PE,Concept,NA,SPL
+1426164,"factor VII, human",PE,PIN,NA,RxNorm
+1426164,"factor VII, human",PE,Concept,NA,SPL
+1426166,"coagulation factor X, human",PE,PIN,NA,RxNorm
+1426166,"coagulation factor X, human",PE,Concept,NA,SPL
+1426332,mango extract,PE,IN,NA,RxNorm
+1426332,mango extract,PE,Concept,NA,SPL
+1426364,tangerine extract,PE,IN,NA,RxNorm
+1426364,tangerine extract,PE,Concept,NA,SPL
+1426396,sea scallop preparation,PE,IN,NA,RxNorm
+1426396,sea scallop preparation,PE,Concept,NA,SPL
+1426437,"cod, unspecified preparation",PE,IN,NA,RxNorm
+1426437,"cod, unspecified preparation",PE,Concept,NA,SPL
+1426478,lanolin alcohols,PE,IN,NA,RxNorm
+1426478,lanolin alcohols,PE,Concept,NA,SPL
+1426481,Clonostachys rosea f. rosea allergenic extract,PE,IN,NA,RxNorm
+1426481,Clonostachys rosea f. rosea allergenic extract,PE,Concept,NA,SPL
+1426598,sulfate ion,PE,IN,NA,RxNorm
+1426598,sulfate ion,PE,Concept,NA,SPL
+1426632,Ulmus rubra pollen allergenic extract,PE,IN,NA,RxNorm
+1426632,Ulmus rubra pollen allergenic extract,PE,Concept,NA,SPL
+1426680,"immunoglobulin G, human",PE,PIN,NA,RxNorm
+1426680,"immunoglobulin G, human",PE,Concept,NA,SPL
+1426773,dipentamethylenethiuram disulfide,PE,IN,NA,RxNorm
+1426773,dipentamethylenethiuram disulfide,PE,Concept,NA,SPL
+1426853,magnesium cation,PE,IN,NA,RxNorm
+1426853,magnesium cation,PE,Concept,NA,SPL
+1426912,Pisum sativum (pea) extract,PE,IN,NA,RxNorm
+1426912,Pisum sativum (pea) extract,PE,Concept,NA,SPL
+1426921,lentil seed extract,PE,IN,NA,RxNorm
+1426921,lentil seed extract,PE,Concept,NA,SPL
+1426942,zinc dibutyldithiocarbamate,PE,PIN,NA,RxNorm
+1426942,zinc dibutyldithiocarbamate,PE,Concept,NA,SPL
+1427044,Penicillium digitatum allergenic extract,PE,IN,NA,RxNorm
+1427044,Penicillium digitatum allergenic extract,PE,Concept,NA,SPL
+1427059,Lolium perenne allergenic extract,PE,IN,NA,RxNorm
+1427059,Lolium perenne allergenic extract,PE,Concept,NA,SPL
+1427134,Ustilago maydis extract,PE,IN,NA,RxNorm
+1427134,Ustilago maydis extract,PE,Concept,NA,SPL
+1427136,"N-cyclohexyl-N'-phenyl-1,4-phenylenediamine",PE,IN,NA,RxNorm
+1427136,"N-cyclohexyl-N'-phenyl-1,4-phenylenediamine",PE,Concept,NA,SPL
+1427179,antithrombin alfa,PE,PIN,NA,RxNorm
+1427179,antithrombin alfa,PE,Concept,NA,SPL
+1427189,p-tert-butylphenol-formaldehyde resin (low molecular weight),PE,IN,NA,RxNorm
+1427189,p-tert-butylphenol-formaldehyde resin (low molecular weight),PE,Concept,NA,SPL
+1427192,"ditiocarb, zinc salt",PE,PIN,NA,RxNorm
+1427192,"ditiocarb, zinc salt",PE,Concept,NA,SPL
+1437222,Quercus marilandica pollen extract,PE,IN,NA,RxNorm
+1437222,Quercus marilandica pollen extract,PE,Concept,NA,SPL
+1440241,safflower seed extract,PE,IN,NA,RxNorm
+1440241,safflower seed extract,PE,Concept,NA,SPL
+1441543,Alnus glutinosa bark extract,PE,IN,NA,RxNorm
+1441543,Alnus glutinosa bark extract,PE,Concept,NA,SPL
+1441652,wheat preparation,PE,IN,NA,RxNorm
+1441652,wheat preparation,PE,Concept,NA,SPL
+1441689,"prothrombin, human",PE,PIN,NA,RxNorm
+1441689,"prothrombin, human",PE,Concept,NA,SPL
+1482502,eslicarbazepine,PE,IN,NA,RxNorm
+1482502,eslicarbazepine,PE,Concept,NA,SPL
+1484937,colonial bent grass pollen extract,PE,IN,NA,RxNorm
+1484937,colonial bent grass pollen extract,PE,Concept,NA,SPL
+1484974,meadow foxtail pollen extract,PE,IN,NA,RxNorm
+1484974,meadow foxtail pollen extract,PE,Concept,NA,SPL
+1484979,common hazel pollen extract,PE,IN,NA,RxNorm
+1484979,common hazel pollen extract,PE,Concept,NA,SPL
+1484980,crested dogstail pollen extract,PE,IN,NA,RxNorm
+1484980,crested dogstail pollen extract,PE,Concept,NA,SPL
+1484981,European beech pollen extract,PE,IN,NA,RxNorm
+1484981,European beech pollen extract,PE,Concept,NA,SPL
+1484982,ash pollen extract,PE,IN,NA,RxNorm
+1484982,ash pollen extract,PE,Concept,NA,SPL
+1484983,broadleaf plantain pollen extract,PE,IN,NA,RxNorm
+1484983,broadleaf plantain pollen extract,PE,Concept,NA,SPL
+1484984,English oak pollen extract,PE,IN,NA,RxNorm
+1484984,English oak pollen extract,PE,Concept,NA,SPL
+1484985,bulbous buttercup pollen extract,PE,IN,NA,RxNorm
+1484985,bulbous buttercup pollen extract,PE,Concept,NA,SPL
+1484986,white willow pollen extract,PE,IN,NA,RxNorm
+1484986,white willow pollen extract,PE,Concept,NA,SPL
+1489913,droxidopa,PE,IN,NA,RxNorm
+1489913,droxidopa,PE,Concept,NA,SPL
+1492174,pineapple extract,PE,IN,NA,RxNorm
+1492174,pineapple extract,PE,Concept,NA,SPL
+1492300,vaccinia virus strain New York City Board of Health live antigen,PE,IN,NA,RxNorm
+1492300,vaccinia virus strain New York City Board of Health live antigen,PE,Concept,NA,SPL
+1545989,enalaprilat anhydrous,PE,PIN,NA,RxNorm
+1545989,enalaprilat anhydrous,PE,Concept,NA,SPL
+1546196,benazeprilat,PE,PIN,NA,RxNorm
+1546196,benazeprilat,PE,Concept,NA,SPL
+1546264,zinc cation,PE,IN,NA,RxNorm
+1546264,zinc cation,PE,Concept,NA,SPL
+1546380,4-hydroxybutyric acid,PE,PIN,NA,RxNorm
+1546380,4-hydroxybutyric acid,PE,Concept,NA,SPL
+1546399,vecuronium cation,PE,PIN,NA,RxNorm
+1546399,vecuronium cation,PE,Concept,NA,SPL
+1549330,Coccidioides immitis spherule,PE,IN,NA,RxNorm
+1549330,Coccidioides immitis spherule,PE,Concept,NA,SPL
+1594963,turkey feather extract,PE,IN,NA,RxNorm
+1594963,turkey feather extract,PE,Concept,NA,SPL
+1594964,pheasant feather extract,PE,IN,NA,RxNorm
+1594964,pheasant feather extract,PE,Concept,NA,SPL
+1594965,Syrian hamster hair extract,PE,IN,NA,RxNorm
+1594965,Syrian hamster hair extract,PE,Concept,NA,SPL
+1596,bisacodyl,PE,IN,NA,RxNorm
+1596,bisacodyl,PE,Concept,NA,SPL
+1603849,Corylus americana nut oil,PE,IN,NA,RxNorm
+1603849,Corylus americana nut oil,PE,Concept,NA,SPL
+1606480,bay leaf extract,PE,IN,NA,RxNorm
+1606480,bay leaf extract,PE,Concept,NA,SPL
+1648701,Jerusalem artichoke extract,PE,IN,NA,RxNorm
+1648701,Jerusalem artichoke extract,PE,Concept,NA,SPL
+1649134,zucchini extract,PE,IN,NA,RxNorm
+1649134,zucchini extract,PE,Concept,NA,SPL
+1656052,cangrelor,PE,IN,NA,RxNorm
+1656052,cangrelor,PE,Concept,NA,SPL
+1657226,influenza B virus B/Brisbane/60/2008 antigen,PE,PIN,NA,RxNorm
+1657226,influenza B virus B/Brisbane/60/2008 antigen,PE,Concept,NA,SPL
+1657331,influenza A virus A/California/7/2009 (H1N1) antigen,PE,PIN,NA,RxNorm
+1657331,influenza A virus A/California/7/2009 (H1N1) antigen,PE,Concept,NA,SPL
+1712,botulinum toxin type A,PE,IN,NA,RxNorm
+1712,botulinum toxin type A,PE,Concept,NA,SPL
+17128,lansoprazole,PE,IN,NA,RxNorm
+17128,lansoprazole,PE,Concept,NA,SPL
+1740937,Humulus lupulus pollen extract,PE,IN,NA,RxNorm
+1740937,Humulus lupulus pollen extract,PE,Concept,NA,SPL
+1747556,venetoclax,PE,IN,NA,RxNorm
+1747556,venetoclax,PE,Concept,NA,SPL
+1789837,"Rho(D) immune globulin, human",PE,PIN,NA,RxNorm
+1789837,"Rho(D) immune globulin, human",PE,Concept,NA,SPL
+1801702,Acer pseudoplatanus pollen extract,PE,IN,NA,RxNorm
+1801702,Acer pseudoplatanus pollen extract,PE,Concept,NA,SPL
+1802483,human adenovirus B serotype 7 strain 55142,PE,PIN,NA,RxNorm
+1802483,human adenovirus B serotype 7 strain 55142,PE,Concept,NA,SPL
+1808,bumetanide,PE,IN,NA,RxNorm
+1808,bumetanide,PE,Concept,NA,SPL
+1815,bupivacaine,PE,IN,NA,RxNorm
+1815,bupivacaine,PE,Concept,NA,SPL
+18602,azelaic acid,PE,PIN,NA,RxNorm
+18602,azelaic acid,PE,Concept,NA,SPL
+1863556,nusinersen,PE,IN,NA,RxNorm
+1863556,nusinersen,PE,Concept,NA,SPL
+1872905,deacetylbisacodyl,PE,IN,NA,RxNorm
+1872905,deacetylbisacodyl,PE,Concept,NA,SPL
+1886,caffeine,PE,IN,NA,RxNorm
+1886,caffeine,PE,Concept,NA,SPL
+18867,benazepril,PE,IN,NA,RxNorm
+18867,benazepril,PE,Concept,NA,SPL
+18993,benzonatate,PE,IN,NA,RxNorm
+18993,benzonatate,PE,Concept,NA,SPL
+19075,benzylparaben,PE,IN,NA,RxNorm
+19075,benzylparaben,PE,Concept,NA,SPL
+1922751,Gibberella zeae allergenic extract,PE,IN,NA,RxNorm
+1922751,Gibberella zeae allergenic extract,PE,Concept,NA,SPL
+1925437,northern quahog preparation,PE,IN,NA,RxNorm
+1925437,northern quahog preparation,PE,Concept,NA,SPL
+1925834,Cephalosporium roseum extract,PE,IN,NA,RxNorm
+1925834,Cephalosporium roseum extract,PE,Concept,NA,SPL
+1942950,inotuzumab ozogamicin,PE,IN,NA,RxNorm
+1942950,inotuzumab ozogamicin,PE,Concept,NA,SPL
+1963,Candida albicans,PE,IN,NA,RxNorm
+1963,Candida albicans,PE,Concept,NA,SPL
+196319,palifermin,PE,IN,NA,RxNorm
+196319,palifermin,PE,Concept,NA,SPL
+197,acetylcysteine,PE,IN,NA,RxNorm
+197,acetylcysteine,PE,Concept,NA,SPL
+1986792,Penicillium glaucum allergenic extract,PE,IN,NA,RxNorm
+1986792,Penicillium glaucum allergenic extract,PE,Concept,NA,SPL
+1992412,papaya extract,PE,IN,NA,RxNorm
+1992412,papaya extract,PE,Concept,NA,SPL
+1993210,house mouse hair extract,PE,IN,NA,RxNorm
+1993210,house mouse hair extract,PE,Concept,NA,SPL
+1993233,Iris germanica var. florentina root extract,PE,IN,NA,RxNorm
+1993233,Iris germanica var. florentina root extract,PE,Concept,NA,SPL
+1996102,golden chain pollen extract,PE,IN,NA,RxNorm
+1996102,golden chain pollen extract,PE,Concept,NA,SPL
+1997187,American lobster allergenic extract,PE,IN,NA,RxNorm
+1997187,American lobster allergenic extract,PE,Concept,NA,SPL
+1997443,"cytomegalovirus immune globulin, human",PE,PIN,NA,RxNorm
+1997443,"cytomegalovirus immune globulin, human",PE,Concept,NA,SPL
+1999003,angiotensin II,PE,IN,NA,RxNorm
+1999003,angiotensin II,PE,Concept,NA,SPL
+2002,carbamazepine,PE,IN,NA,RxNorm
+2002,carbamazepine,PE,Concept,NA,SPL
+2002575,Cannabis sativa pollen extract,PE,IN,NA,RxNorm
+2002575,Cannabis sativa pollen extract,PE,Concept,NA,SPL
+203083,"antihemophilic factor, human",PE,PIN,NA,RxNorm
+203083,"antihemophilic factor, human",PE,Concept,NA,SPL
+2043450,Gibberella fujikuroi extract,PE,IN,NA,RxNorm
+2043450,Gibberella fujikuroi extract,PE,Concept,NA,SPL
+2043451,Grindelia ciliata pollen extract,PE,IN,NA,RxNorm
+2043451,Grindelia ciliata pollen extract,PE,Concept,NA,SPL
+2049846,elagolix,PE,IN,NA,RxNorm
+2049846,elagolix,PE,Concept,NA,SPL
+2053490,patisiran,PE,IN,NA,RxNorm
+2053490,patisiran,PE,Concept,NA,SPL
+2057909,black carpenter ant allergenic extract,PE,IN,NA,RxNorm
+2057909,black carpenter ant allergenic extract,PE,Concept,NA,SPL
+20859,chloroprocaine,PE,IN,NA,RxNorm
+20859,chloroprocaine,PE,Concept,NA,SPL
+2099289,inotersen,PE,IN,NA,RxNorm
+2099289,inotersen,PE,Concept,NA,SPL
+2101,carisoprodol,PE,IN,NA,RxNorm
+2101,carisoprodol,PE,Concept,NA,SPL
+2101007,Aspergillus amstelodami extract,PE,IN,NA,RxNorm
+2101007,Aspergillus amstelodami extract,PE,Concept,NA,SPL
+2101008,Gliocladium viride extract,PE,IN,NA,RxNorm
+2101008,Gliocladium viride extract,PE,Concept,NA,SPL
+2101422,Mucor circinelloides f. circinelloides allergenic extract,PE,IN,NA,RxNorm
+2101422,Mucor circinelloides f. circinelloides allergenic extract,PE,Concept,NA,SPL
+2101473,Mucor circinelloides f. lusitanicus allergenic extract,PE,IN,NA,RxNorm
+2101473,Mucor circinelloides f. lusitanicus allergenic extract,PE,Concept,NA,SPL
+2101722,Fusarium oxysporum allergenic extract,PE,IN,NA,RxNorm
+2101722,Fusarium oxysporum allergenic extract,PE,Concept,NA,SPL
+2102006,Leucanthemum vulgare pollen,PE,IN,NA,RxNorm
+2102006,Leucanthemum vulgare pollen,PE,Concept,NA,SPL
+2102052,Trifolium pratense pollen extract,PE,IN,NA,RxNorm
+2102052,Trifolium pratense pollen extract,PE,Concept,NA,SPL
+2102474,black sea bass allergenic extract,PE,IN,NA,RxNorm
+2102474,black sea bass allergenic extract,PE,Concept,NA,SPL
+2102487,velvetleaf huckleberry allergenic extract,PE,IN,NA,RxNorm
+2102487,velvetleaf huckleberry allergenic extract,PE,Concept,NA,SPL
+2102488,yellowfin tuna allergenic extract,PE,IN,NA,RxNorm
+2102488,yellowfin tuna allergenic extract,PE,Concept,NA,SPL
+2108821,dill extract,PE,IN,NA,RxNorm
+2108821,dill extract,PE,Concept,NA,SPL
+21090,ciclopirox,PE,IN,NA,RxNorm
+21090,ciclopirox,PE,Concept,NA,SPL
+21232,clidinium,PE,IN,NA,RxNorm
+21232,clidinium,PE,Concept,NA,SPL
+214355,Candida albicans allergenic extract,PE,IN,NA,RxNorm
+214355,Candida albicans allergenic extract,PE,Concept,NA,SPL
+2166591,domestic cow dander extract,PE,IN,NA,RxNorm
+2166591,domestic cow dander extract,PE,Concept,NA,SPL
+2166593,guinea pig dander,PE,IN,NA,RxNorm
+2166593,guinea pig dander,PE,Concept,NA,SPL
+2166596,European aspen pollen extract,PE,IN,NA,RxNorm
+2166596,European aspen pollen extract,PE,Concept,NA,SPL
+2166614,western larch pollen extract,PE,IN,NA,RxNorm
+2166614,western larch pollen extract,PE,Concept,NA,SPL
+2166616,London planetree,PE,IN,NA,RxNorm
+2166616,London planetree,PE,Concept,NA,SPL
+2167548,horse dander extract,PE,IN,NA,RxNorm
+2167548,horse dander extract,PE,Concept,NA,SPL
+2167551,dog dander extract,PE,IN,NA,RxNorm
+2167551,dog dander extract,PE,Concept,NA,SPL
+2167695,chinquapin oak pollen extract,PE,IN,NA,RxNorm
+2167695,chinquapin oak pollen extract,PE,Concept,NA,SPL
+2167819,sweet wormwood pollen extract,PE,IN,NA,RxNorm
+2167819,sweet wormwood pollen extract,PE,Concept,NA,SPL
+2168418,Cytisus scoparius flowering top extract,PE,IN,NA,RxNorm
+2168418,Cytisus scoparius flowering top extract,PE,Concept,NA,SPL
+2168421,peppermint flowering top extract,PE,IN,NA,RxNorm
+2168421,peppermint flowering top extract,PE,Concept,NA,SPL
+2171260,Callistemon citrinus pollen extract,PE,IN,NA,RxNorm
+2171260,Callistemon citrinus pollen extract,PE,Concept,NA,SPL
+21949,cyclobenzaprine,PE,IN,NA,RxNorm
+21949,cyclobenzaprine,PE,Concept,NA,SPL
+2198984,Atlantic mackerel allergenic extract,PE,IN,NA,RxNorm
+2198984,Atlantic mackerel allergenic extract,PE,Concept,NA,SPL
+2202946,Acacia dealbata pollen extract,PE,IN,NA,RxNorm
+2202946,Acacia dealbata pollen extract,PE,Concept,NA,SPL
+221050,"BCG, live, Tice strain",PE,IN,NA,RxNorm
+221050,"BCG, live, Tice strain",PE,Concept,NA,SPL
+221082,colloidal oatmeal,PE,IN,NA,RxNorm
+221082,colloidal oatmeal,PE,Concept,NA,SPL
+221099,"coagulation factor IX, human",PE,PIN,NA,RxNorm
+221099,"coagulation factor IX, human",PE,Concept,NA,SPL
+221147,polyethylene glycol 3350,PE,IN,NA,RxNorm
+221147,polyethylene glycol 3350,PE,Concept,NA,SPL
+221946,"citric acid, anhydrous",PE,PIN,NA,RxNorm
+221946,"citric acid, anhydrous",PE,Concept,NA,SPL
+2261370,Atlantic halibut allergenic extract,PE,IN,NA,RxNorm
+2261370,Atlantic halibut allergenic extract,PE,Concept,NA,SPL
+2264108,"fibrinogen, human",PE,PIN,NA,RxNorm
+2264108,"fibrinogen, human",PE,Concept,NA,SPL
+2274413,"hepatitis A virus strain CR 326F antigen, inactivated",PE,IN,NA,RxNorm
+2274413,"hepatitis A virus strain CR 326F antigen, inactivated",PE,Concept,NA,SPL
+2275721,vanilla bean extract,PE,IN,NA,RxNorm
+2275721,vanilla bean extract,PE,Concept,NA,SPL
+23066,dihematoporphyrin ether,PE,IN,NA,RxNorm
+23066,dihematoporphyrin ether,PE,Concept,NA,SPL
+232539,calfactant,PE,IN,NA,RxNorm
+232539,calfactant,PE,Concept,NA,SPL
+2358,chlorhexidine,PE,IN,NA,RxNorm
+2358,chlorhexidine,PE,Concept,NA,SPL
+235940,Cynara preparation,PE,IN,NA,RxNorm
+235940,Cynara preparation,PE,Concept,NA,SPL
+236381,poractant alfa,PE,IN,NA,RxNorm
+236381,poractant alfa,PE,Concept,NA,SPL
+2369372,Ulmus glabra pollen extract,PE,IN,NA,RxNorm
+2369372,Ulmus glabra pollen extract,PE,Concept,NA,SPL
+2396,chlorothiazide,PE,IN,NA,RxNorm
+2396,chlorothiazide,PE,Concept,NA,SPL
+2407,chlorquinaldol,PE,IN,NA,RxNorm
+2407,chlorquinaldol,PE,Concept,NA,SPL
+2409,chlorthalidone,PE,IN,NA,RxNorm
+2409,chlorthalidone,PE,Concept,NA,SPL
+2410,chlorzoxazone,PE,IN,NA,RxNorm
+2410,chlorzoxazone,PE,Concept,NA,SPL
+24457,ethanolamine,PE,IN,NA,RxNorm
+24457,ethanolamine,PE,Concept,NA,SPL
+2471431,ocean perch preparation,PE,IN,NA,RxNorm
+2471431,ocean perch preparation,PE,Concept,NA,SPL
+2471704,Rattus norvegicus hair preparation,PE,IN,NA,RxNorm
+2471704,Rattus norvegicus hair preparation,PE,Concept,NA,SPL
+2472778,relugolix,PE,IN,NA,RxNorm
+2472778,relugolix,PE,Concept,NA,SPL
+2480096,Casimersen,PE,IN,NA,RxNorm
+2480096,Casimersen,PE,Concept,NA,SPL
+24812,felbamate,PE,IN,NA,RxNorm
+24812,felbamate,PE,Concept,NA,SPL
+248123,cat hair extract,PE,IN,NA,RxNorm
+248123,cat hair extract,PE,Concept,NA,SPL
+2496,chromium,PE,IN,NA,RxNorm
+2496,chromium,PE,Concept,NA,SPL
+253149,eptacog alfa activated,PE,PIN,NA,RxNorm
+253149,eptacog alfa activated,PE,Concept,NA,SPL
+253172,grape extract,PE,IN,NA,RxNorm
+253172,grape extract,PE,Concept,NA,SPL
+2533912,Salix repens pollen extract,PE,IN,NA,RxNorm
+2533912,Salix repens pollen extract,PE,Concept,NA,SPL
+2535233,dasiglucagon,PE,IN,NA,RxNorm
+2535233,dasiglucagon,PE,Concept,NA,SPL
+25480,gabapentin,PE,IN,NA,RxNorm
+25480,gabapentin,PE,Concept,NA,SPL
+2582,clindamycin,PE,IN,NA,RxNorm
+2582,clindamycin,PE,Concept,NA,SPL
+259266,hops extract,PE,IN,NA,RxNorm
+259266,hops extract,PE,Concept,NA,SPL
+259314,black pepper preparation,PE,IN,NA,RxNorm
+259314,black pepper preparation,PE,Concept,NA,SPL
+265647,garlic preparation,PE,IN,NA,RxNorm
+265647,garlic preparation,PE,Concept,NA,SPL
+26744,hepatitis B immune globulin,PE,IN,NA,RxNorm
+26744,hepatitis B immune globulin,PE,Concept,NA,SPL
+27340,desflurane,PE,IN,NA,RxNorm
+27340,desflurane,PE,Concept,NA,SPL
+28004,isosorbide mononitrate,PE,PIN,NA,RxNorm
+28004,isosorbide mononitrate,PE,Concept,NA,SPL
+283678,quaternium-15,PE,IN,NA,RxNorm
+283678,quaternium-15,PE,Concept,NA,SPL
+2837,copper,PE,IN,NA,RxNorm
+2837,copper,PE,Concept,NA,SPL
+283838,darbepoetin alfa,PE,IN,NA,RxNorm
+283838,darbepoetin alfa,PE,Concept,NA,SPL
+28395,lactitol,PE,IN,NA,RxNorm
+28395,lactitol,PE,Concept,NA,SPL
+28439,lamotrigine,PE,IN,NA,RxNorm
+28439,lamotrigine,PE,Concept,NA,SPL
+285149,banana extract,PE,IN,NA,RxNorm
+285149,banana extract,PE,Concept,NA,SPL
+285219,Apis mellifera preparation,PE,IN,NA,RxNorm
+285219,Apis mellifera preparation,PE,Concept,NA,SPL
+285241,ginger extract,PE,IN,NA,RxNorm
+285241,ginger extract,PE,Concept,NA,SPL
+285245,cinnamon preparation,PE,IN,NA,RxNorm
+285245,cinnamon preparation,PE,Concept,NA,SPL
+285251,oats preparation,PE,IN,NA,RxNorm
+285251,oats preparation,PE,Concept,NA,SPL
+287515,soybean preparation,PE,IN,NA,RxNorm
+287515,soybean preparation,PE,Concept,NA,SPL
+29903,methylparaben,PE,IN,NA,RxNorm
+29903,methylparaben,PE,Concept,NA,SPL
+30125,modafinil,PE,IN,NA,RxNorm
+30125,modafinil,PE,Concept,NA,SPL
+302379,omalizumab,PE,IN,NA,RxNorm
+302379,omalizumab,PE,Concept,NA,SPL
+3105,dantrolene,PE,IN,NA,RxNorm
+3105,dantrolene,PE,Concept,NA,SPL
+314324,Aspergillus terreus allergenic extract,PE,IN,NA,RxNorm
+314324,Aspergillus terreus allergenic extract,PE,Concept,NA,SPL
+314411,Chrysonilia sitophila allergenic extract,PE,IN,NA,RxNorm
+314411,Chrysonilia sitophila allergenic extract,PE,Concept,NA,SPL
+314415,Mucor plumbeus allergenic extract,PE,IN,NA,RxNorm
+314415,Mucor plumbeus allergenic extract,PE,Concept,NA,SPL
+314443,Rhizopus arrhizus allergenic extract,PE,IN,NA,RxNorm
+314443,Rhizopus arrhizus allergenic extract,PE,Concept,NA,SPL
+314455,silk allergenic extract,PE,IN,NA,RxNorm
+314455,silk allergenic extract,PE,Concept,NA,SPL
+314488,corn smut allergenic extract,PE,IN,NA,RxNorm
+314488,corn smut allergenic extract,PE,Concept,NA,SPL
+314504,anti-inhibitor coagulant complex,PE,IN,NA,RxNorm
+314504,anti-inhibitor coagulant complex,PE,Concept,NA,SPL
+31563,nedocromil,PE,IN,NA,RxNorm
+31563,nedocromil,PE,Concept,NA,SPL
+318224,flaxseed extract,PE,IN,NA,RxNorm
+318224,flaxseed extract,PE,Concept,NA,SPL
+31914,tiagabine,PE,IN,NA,RxNorm
+31914,tiagabine,PE,Concept,NA,SPL
+3194,deoxycholic acid,PE,PIN,NA,RxNorm
+3194,deoxycholic acid,PE,Concept,NA,SPL
+319780,Capsicum extract,PE,IN,NA,RxNorm
+319780,Capsicum extract,PE,Concept,NA,SPL
+319823,thyme preparation,PE,IN,NA,RxNorm
+319823,thyme preparation,PE,Concept,NA,SPL
+319864,cisatracurium,PE,IN,NA,RxNorm
+319864,cisatracurium,PE,Concept,NA,SPL
+324072,dimethicone,PE,IN,NA,RxNorm
+324072,dimethicone,PE,Concept,NA,SPL
+3251,desmopressin,PE,IN,NA,RxNorm
+3251,desmopressin,PE,Concept,NA,SPL
+32624,oxcarbazepine,PE,IN,NA,RxNorm
+32624,oxcarbazepine,PE,Concept,NA,SPL
+3272,dextran 40,PE,IN,NA,RxNorm
+3272,dextran 40,PE,Concept,NA,SPL
+3274,dextran 70,PE,IN,NA,RxNorm
+3274,dextran 70,PE,Concept,NA,SPL
+3275,dextran 75,PE,IN,NA,RxNorm
+3275,dextran 75,PE,Concept,NA,SPL
+3288,dextroamphetamine,PE,IN,NA,RxNorm
+3288,dextroamphetamine,PE,Concept,NA,SPL
+32941,parthenolide,PE,IN,NA,RxNorm
+32941,parthenolide,PE,Concept,NA,SPL
+32968,clopidogrel,PE,IN,NA,RxNorm
+32968,clopidogrel,PE,Concept,NA,SPL
+33093,peppermint preparation,PE,IN,NA,RxNorm
+33093,peppermint preparation,PE,Concept,NA,SPL
+33219,Peruvian balsam,PE,IN,NA,RxNorm
+33219,Peruvian balsam,PE,Concept,NA,SPL
+33272,phendimetrazine,PE,IN,NA,RxNorm
+33272,phendimetrazine,PE,Concept,NA,SPL
+3339,dibucaine,PE,IN,NA,RxNorm
+3339,dibucaine,PE,Concept,NA,SPL
+3355,diclofenac,PE,IN,NA,RxNorm
+3355,diclofenac,PE,Concept,NA,SPL
+337523,ixabepilone,PE,IN,NA,RxNorm
+337523,ixabepilone,PE,Concept,NA,SPL
+337623,dornase alfa,PE,IN,NA,RxNorm
+337623,dornase alfa,PE,Concept,NA,SPL
+338036,pegfilgrastim,PE,IN,NA,RxNorm
+338036,pegfilgrastim,PE,Concept,NA,SPL
+3389,diethylpropion,PE,IN,NA,RxNorm
+3389,diethylpropion,PE,Concept,NA,SPL
+341248,ezetimibe,PE,IN,NA,RxNorm
+341248,ezetimibe,PE,Concept,NA,SPL
+343048,treprostinil,PE,IN,NA,RxNorm
+343048,treprostinil,PE,Concept,NA,SPL
+34706,propylparaben,PE,IN,NA,RxNorm
+34706,propylparaben,PE,Concept,NA,SPL
+34905,proparacaine,PE,IN,NA,RxNorm
+34905,proparacaine,PE,Concept,NA,SPL
+349978,oat smut allergenic extract,PE,IN,NA,RxNorm
+349978,oat smut allergenic extract,PE,Concept,NA,SPL
+350141,saccharomyces cerevisiae allergenic extract,PE,IN,NA,RxNorm
+350141,saccharomyces cerevisiae allergenic extract,PE,Concept,NA,SPL
+350173,house fly allergenic extract,PE,IN,NA,RxNorm
+350173,house fly allergenic extract,PE,Concept,NA,SPL
+3521,dipyridamole,PE,IN,NA,RxNorm
+3521,dipyridamole,PE,Concept,NA,SPL
+352372,dexmethylphenidate,PE,IN,NA,RxNorm
+352372,dexmethylphenidate,PE,Concept,NA,SPL
+35302,sirolimus,PE,IN,NA,RxNorm
+35302,sirolimus,PE,Concept,NA,SPL
+35780,ropivacaine,PE,IN,NA,RxNorm
+35780,ropivacaine,PE,Concept,NA,SPL
+35825,ganirelix,PE,IN,NA,RxNorm
+35825,ganirelix,PE,Concept,NA,SPL
+3637,doxapram,PE,IN,NA,RxNorm
+3637,doxapram,PE,Concept,NA,SPL
+36453,sevoflurane,PE,IN,NA,RxNorm
+36453,sevoflurane,PE,Concept,NA,SPL
+3755,edetic acid,PE,IN,NA,RxNorm
+3755,edetic acid,PE,Concept,NA,SPL
+3827,enalapril,PE,IN,NA,RxNorm
+3827,enalapril,PE,Concept,NA,SPL
+38336,tixocortol pivalate,PE,PIN,NA,RxNorm
+38336,tixocortol pivalate,PE,Concept,NA,SPL
+38404,topiramate,PE,IN,NA,RxNorm
+38404,topiramate,PE,Concept,NA,SPL
+38413,torsemide,PE,IN,NA,RxNorm
+38413,torsemide,PE,Concept,NA,SPL
+38685,trimethobenzamide,PE,IN,NA,RxNorm
+38685,trimethobenzamide,PE,Concept,NA,SPL
+3966,ephedrine,PE,IN,NA,RxNorm
+3966,ephedrine,PE,Concept,NA,SPL
+39684,epinastine,PE,IN,NA,RxNorm
+39684,epinastine,PE,Concept,NA,SPL
+39993,zolpidem,PE,IN,NA,RxNorm
+39993,zolpidem,PE,Concept,NA,SPL
+39998,zonisamide,PE,IN,NA,RxNorm
+39998,zonisamide,PE,Concept,NA,SPL
+4053,erythromycin,PE,IN,NA,RxNorm
+4053,erythromycin,PE,Concept,NA,SPL
+40575,zileuton,PE,IN,NA,RxNorm
+40575,zileuton,PE,Concept,NA,SPL
+4109,ethacrynic acid,PE,PIN,NA,RxNorm
+4109,ethacrynic acid,PE,Concept,NA,SPL
+4135,ethosuximide,PE,IN,NA,RxNorm
+4135,ethosuximide,PE,Concept,NA,SPL
+4136,ethotoin,PE,IN,NA,RxNorm
+4136,ethotoin,PE,Concept,NA,SPL
+4158,ethylenediamine,PE,IN,NA,RxNorm
+4158,ethylenediamine,PE,Concept,NA,SPL
+4177,etomidate,PE,IN,NA,RxNorm
+4177,etomidate,PE,Concept,NA,SPL
+4186,eugenol,PE,IN,NA,RxNorm
+4186,eugenol,PE,Concept,NA,SPL
+42347,bupropion,PE,IN,NA,RxNorm
+42347,bupropion,PE,Concept,NA,SPL
+42612,cromolyn,PE,IN,NA,RxNorm
+42612,cromolyn,PE,Concept,NA,SPL
+4530,formaldehyde,PE,IN,NA,RxNorm
+4530,formaldehyde,PE,Concept,NA,SPL
+4603,furosemide,PE,IN,NA,RxNorm
+4603,furosemide,PE,Concept,NA,SPL
+466192,Aspergillus fumigatus allergenic extract,PE,IN,NA,RxNorm
+466192,Aspergillus fumigatus allergenic extract,PE,Concept,NA,SPL
+466195,Botrytis cinerea allergenic extract,PE,IN,NA,RxNorm
+466195,Botrytis cinerea allergenic extract,PE,Concept,NA,SPL
+466197,Chaetomium globosum allergenic extract,PE,IN,NA,RxNorm
+466197,Chaetomium globosum allergenic extract,PE,Concept,NA,SPL
+466198,Cladosporium herbarum allergenic extract,PE,IN,NA,RxNorm
+466198,Cladosporium herbarum allergenic extract,PE,Concept,NA,SPL
+46967,beractant,PE,IN,NA,RxNorm
+46967,beractant,PE,Concept,NA,SPL
+475230,degarelix,PE,IN,NA,RxNorm
+475230,degarelix,PE,Concept,NA,SPL
+47858,methsuximide,PE,IN,NA,RxNorm
+47858,methsuximide,PE,Concept,NA,SPL
+4832,glucagon,PE,IN,NA,RxNorm
+4832,glucagon,PE,Concept,NA,SPL
+48937,dexmedetomidine,PE,IN,NA,RxNorm
+48937,dexmedetomidine,PE,Concept,NA,SPL
+4910,glycerin,PE,IN,NA,RxNorm
+4910,glycerin,PE,Concept,NA,SPL
+4917,nitroglycerin,PE,IN,NA,RxNorm
+4917,nitroglycerin,PE,Concept,NA,SPL
+5021,griseofulvin,PE,IN,NA,RxNorm
+5021,griseofulvin,PE,Concept,NA,SPL
+52151,lodoxamide,PE,IN,NA,RxNorm
+52151,lodoxamide,PE,Concept,NA,SPL
+544488,botulism immune globulin IV human,PE,IN,NA,RxNorm
+544488,botulism immune globulin IV human,PE,Concept,NA,SPL
+5470,hydralazine,PE,IN,NA,RxNorm
+5470,hydralazine,PE,Concept,NA,SPL
+5487,hydrochlorothiazide,PE,IN,NA,RxNorm
+5487,hydrochlorothiazide,PE,Concept,NA,SPL
+5495,hydroflumethiazide,PE,IN,NA,RxNorm
+5495,hydroflumethiazide,PE,Concept,NA,SPL
+5509,hydroquinone,PE,IN,NA,RxNorm
+5509,hydroquinone,PE,Concept,NA,SPL
+5531,hetastarch,PE,IN,NA,RxNorm
+5531,hetastarch,PE,Concept,NA,SPL
+56946,paclitaxel,PE,IN,NA,RxNorm
+56946,paclitaxel,PE,Concept,NA,SPL
+5764,indapamide,PE,IN,NA,RxNorm
+5764,indapamide,PE,Concept,NA,SPL
+59078,metaxalone,PE,IN,NA,RxNorm
+59078,metaxalone,PE,Concept,NA,SPL
+592464,articaine,PE,IN,NA,RxNorm
+592464,articaine,PE,Concept,NA,SPL
+5942,clioquinol,PE,IN,NA,RxNorm
+5942,clioquinol,PE,Concept,NA,SPL
+596724,anagrelide,PE,IN,NA,RxNorm
+596724,anagrelide,PE,Concept,NA,SPL
+597392,human vaccinia immune globulin,PE,IN,NA,RxNorm
+597392,human vaccinia immune globulin,PE,Concept,NA,SPL
+598,alprostadil,PE,IN,NA,RxNorm
+598,alprostadil,PE,Concept,NA,SPL
+59943,imiquimod,PE,IN,NA,RxNorm
+59943,imiquimod,PE,Concept,NA,SPL
+6026,isoflurane,PE,IN,NA,RxNorm
+6026,isoflurane,PE,Concept,NA,SPL
+6058,isosorbide dinitrate,PE,IN,NA,RxNorm
+6058,isosorbide dinitrate,PE,Concept,NA,SPL
+6130,ketamine,PE,IN,NA,RxNorm
+6130,ketamine,PE,Concept,NA,SPL
+613391,prasugrel,PE,IN,NA,RxNorm
+613391,prasugrel,PE,Concept,NA,SPL
+614391,abatacept,PE,IN,NA,RxNorm
+614391,abatacept,PE,Concept,NA,SPL
+6218,lactulose,PE,IN,NA,RxNorm
+6218,lactulose,PE,Concept,NA,SPL
+623400,lacosamide,PE,IN,NA,RxNorm
+623400,lacosamide,PE,Concept,NA,SPL
+6373,levonorgestrel,PE,IN,NA,RxNorm
+6373,levonorgestrel,PE,Concept,NA,SPL
+6387,lidocaine,PE,IN,NA,RxNorm
+6387,lidocaine,PE,Concept,NA,SPL
+644,amiloride,PE,IN,NA,RxNorm
+644,amiloride,PE,Concept,NA,SPL
+6628,mannitol,PE,IN,NA,RxNorm
+6628,mannitol,PE,Concept,NA,SPL
+6673,mecamylamine,PE,IN,NA,RxNorm
+6673,mecamylamine,PE,Concept,NA,SPL
+6676,meclizine,PE,IN,NA,RxNorm
+6676,meclizine,PE,Concept,NA,SPL
+6759,mepivacaine,PE,IN,NA,RxNorm
+6759,mepivacaine,PE,Concept,NA,SPL
+68139,rocuronium,PE,IN,NA,RxNorm
+68139,rocuronium,PE,Concept,NA,SPL
+68147,cetrorelix,PE,IN,NA,RxNorm
+68147,cetrorelix,PE,Concept,NA,SPL
+6816,methamphetamine,PE,IN,NA,RxNorm
+6816,methamphetamine,PE,Concept,NA,SPL
+68442,filgrastim,PE,IN,NA,RxNorm
+68442,filgrastim,PE,Concept,NA,SPL
+6845,methocarbamol,PE,IN,NA,RxNorm
+6845,methocarbamol,PE,Concept,NA,SPL
+6854,methoxsalen,PE,IN,NA,RxNorm
+6854,methoxsalen,PE,Concept,NA,SPL
+6901,methylphenidate,PE,IN,NA,RxNorm
+6901,methylphenidate,PE,Concept,NA,SPL
+6916,metolazone,PE,IN,NA,RxNorm
+6916,metolazone,PE,Concept,NA,SPL
+69634,sargramostim,PE,IN,NA,RxNorm
+69634,sargramostim,PE,Concept,NA,SPL
+6984,minoxidil,PE,IN,NA,RxNorm
+6984,minoxidil,PE,Concept,NA,SPL
+700810,lisdexamfetamine,PE,IN,NA,RxNorm
+700810,lisdexamfetamine,PE,Concept,NA,SPL
+70223,aldesleukin,PE,IN,NA,RxNorm
+70223,aldesleukin,PE,Concept,NA,SPL
+711942,eltrombopag,PE,IN,NA,RxNorm
+711942,eltrombopag,PE,Concept,NA,SPL
+71535,vecuronium,PE,IN,NA,RxNorm
+71535,vecuronium,PE,Concept,NA,SPL
+723868,"protein C, human",PE,PIN,NA,RxNorm
+723868,"protein C, human",PE,Concept,NA,SPL
+725,amphetamine,PE,IN,NA,RxNorm
+725,amphetamine,PE,Concept,NA,SPL
+729596,methoxy polyethylene glycol-epoetin beta,PE,IN,NA,RxNorm
+729596,methoxy polyethylene glycol-epoetin beta,PE,Concept,NA,SPL
+73137,tirofiban,PE,IN,NA,RxNorm
+73137,tirofiban,PE,Concept,NA,SPL
+733003,plerixafor,PE,IN,NA,RxNorm
+733003,plerixafor,PE,Concept,NA,SPL
+7435,nisoldipine,PE,IN,NA,RxNorm
+7435,nisoldipine,PE,Concept,NA,SPL
+7442,nitric oxide,PE,IN,NA,RxNorm
+7442,nitric oxide,PE,Concept,NA,SPL
+74667,zaleplon,PE,IN,NA,RxNorm
+74667,zaleplon,PE,Concept,NA,SPL
+7476,nitroprusside,PE,IN,NA,RxNorm
+7476,nitroprusside,PE,Concept,NA,SPL
+75635,eptifibatide,PE,IN,NA,RxNorm
+75635,eptifibatide,PE,Concept,NA,SPL
+762595,Salmonella typhi Ty21a live antigen,PE,IN,NA,RxNorm
+762595,Salmonella typhi Ty21a live antigen,PE,Concept,NA,SPL
+762817,rubella virus vaccine live (Wistar RA 27-3 strain),PE,IN,NA,RxNorm
+762817,rubella virus vaccine live (Wistar RA 27-3 strain),PE,Concept,NA,SPL
+763096,"poliovirus vaccine inactivated, type 1 (Mahoney)",PE,IN,NA,RxNorm
+763096,"poliovirus vaccine inactivated, type 1 (Mahoney)",PE,Concept,NA,SPL
+763098,"poliovirus vaccine inactivated, type 2 (MEF-1)",PE,IN,NA,RxNorm
+763098,"poliovirus vaccine inactivated, type 2 (MEF-1)",PE,Concept,NA,SPL
+763100,"poliovirus vaccine inactivated, type 3 (Saukett)",PE,IN,NA,RxNorm
+763100,"poliovirus vaccine inactivated, type 3 (Saukett)",PE,Concept,NA,SPL
+7715,orphenadrine,PE,IN,NA,RxNorm
+7715,orphenadrine,PE,Concept,NA,SPL
+7812,oxymetazoline,PE,IN,NA,RxNorm
+7812,oxymetazoline,PE,Concept,NA,SPL
+7824,oxytocin,PE,IN,NA,RxNorm
+7824,oxytocin,PE,Concept,NA,SPL
+7883,pancuronium,PE,IN,NA,RxNorm
+7883,pancuronium,PE,Concept,NA,SPL
+797629,Neisseria meningitidis serogroup A capsular polysaccharide diphtheria toxoid protein conjugate vaccine,PE,IN,NA,RxNorm
+797629,Neisseria meningitidis serogroup A capsular polysaccharide diphtheria toxoid protein conjugate vaccine,PE,Concept,NA,SPL
+797631,Neisseria meningitidis serogroup C capsular polysaccharide diphtheria toxoid protein conjugate vaccine,PE,IN,NA,RxNorm
+797631,Neisseria meningitidis serogroup C capsular polysaccharide diphtheria toxoid protein conjugate vaccine,PE,Concept,NA,SPL
+797633,Neisseria meningitidis serogroup W-135 capsular polysaccharide diphtheria toxoid protein conjugate vaccine,PE,IN,NA,RxNorm
+797633,Neisseria meningitidis serogroup W-135 capsular polysaccharide diphtheria toxoid protein conjugate vaccine,PE,Concept,NA,SPL
+797635,Neisseria meningitidis serogroup Y capsular polysaccharide diphtheria toxoid protein conjugate vaccine,PE,IN,NA,RxNorm
+797635,Neisseria meningitidis serogroup Y capsular polysaccharide diphtheria toxoid protein conjugate vaccine,PE,Concept,NA,SPL
+797752,hepatitis B surface antigen vaccine,PE,IN,NA,RxNorm
+797752,hepatitis B surface antigen vaccine,PE,Concept,NA,SPL
+798220,Streptococcus pneumoniae serotype 14 capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+798220,Streptococcus pneumoniae serotype 14 capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,Concept,NA,SPL
+798222,Streptococcus pneumoniae serotype 18C capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+798222,Streptococcus pneumoniae serotype 18C capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,Concept,NA,SPL
+798224,Streptococcus pneumoniae serotype 19F capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+798224,Streptococcus pneumoniae serotype 19F capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,Concept,NA,SPL
+798226,Streptococcus pneumoniae serotype 23F capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+798226,Streptococcus pneumoniae serotype 23F capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,Concept,NA,SPL
+798228,Streptococcus pneumoniae serotype 4 capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+798228,Streptococcus pneumoniae serotype 4 capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,Concept,NA,SPL
+798230,Streptococcus pneumoniae serotype 6B capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+798230,Streptococcus pneumoniae serotype 6B capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,Concept,NA,SPL
+798232,Streptococcus pneumoniae serotype 9V capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+798232,Streptococcus pneumoniae serotype 9V capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,Concept,NA,SPL
+798262,"L1 protein, human papillomavirus type 11 vaccine",PE,IN,NA,RxNorm
+798262,"L1 protein, human papillomavirus type 11 vaccine",PE,Concept,NA,SPL
+798264,"L1 protein, human papillomavirus type 16 vaccine",PE,IN,NA,RxNorm
+798264,"L1 protein, human papillomavirus type 16 vaccine",PE,Concept,NA,SPL
+798266,"L1 protein, human papillomavirus type 18 vaccine",PE,IN,NA,RxNorm
+798266,"L1 protein, human papillomavirus type 18 vaccine",PE,Concept,NA,SPL
+798268,"L1 protein, human papillomavirus type 6 vaccine",PE,IN,NA,RxNorm
+798268,"L1 protein, human papillomavirus type 6 vaccine",PE,Concept,NA,SPL
+798286,human-bovine reassortant rotavirus strain G1 vaccine,PE,IN,NA,RxNorm
+798286,human-bovine reassortant rotavirus strain G1 vaccine,PE,Concept,NA,SPL
+798288,human-bovine reassortant rotavirus strain G2 vaccine,PE,IN,NA,RxNorm
+798288,human-bovine reassortant rotavirus strain G2 vaccine,PE,Concept,NA,SPL
+798290,human-bovine reassortant rotavirus strain G3 vaccine,PE,IN,NA,RxNorm
+798290,human-bovine reassortant rotavirus strain G3 vaccine,PE,Concept,NA,SPL
+798292,human-bovine reassortant rotavirus strain G4 vaccine,PE,IN,NA,RxNorm
+798292,human-bovine reassortant rotavirus strain G4 vaccine,PE,Concept,NA,SPL
+798294,human-bovine reassortant rotavirus strain P1A[8] vaccine,PE,IN,NA,RxNorm
+798294,human-bovine reassortant rotavirus strain P1A[8] vaccine,PE,Concept,NA,SPL
+798304,"diphtheria toxoid vaccine, inactivated",PE,IN,NA,RxNorm
+798304,"diphtheria toxoid vaccine, inactivated",PE,Concept,NA,SPL
+798306,"tetanus toxoid vaccine, inactivated",PE,IN,NA,RxNorm
+798306,"tetanus toxoid vaccine, inactivated",PE,Concept,NA,SPL
+798361,hepatitis A vaccine (inactivated) strain HM175,PE,IN,NA,RxNorm
+798361,hepatitis A vaccine (inactivated) strain HM175,PE,Concept,NA,SPL
+798372,"mumps virus vaccine live, Jeryl Lynn strain",PE,IN,NA,RxNorm
+798372,"mumps virus vaccine live, Jeryl Lynn strain",PE,Concept,NA,SPL
+798444,Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine,PE,IN,NA,RxNorm
+798444,Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine,PE,Concept,NA,SPL
+8013,pentoxifylline,PE,IN,NA,RxNorm
+8013,pentoxifylline,PE,Concept,NA,SPL
+804179,"measles virus vaccine live, Enders' attenuated Edmonston strain",PE,IN,NA,RxNorm
+804179,"measles virus vaccine live, Enders' attenuated Edmonston strain",PE,Concept,NA,SPL
+804187,yellow fever virus strain 17D-204 live antigen,PE,IN,NA,RxNorm
+804187,yellow fever virus strain 17D-204 live antigen,PE,Concept,NA,SPL
+805452,romiplostim,PE,IN,NA,RxNorm
+805452,romiplostim,PE,Concept,NA,SPL
+805573,"rotavirus vaccine, live attenuated, G1P[8] human 89-12 strain",PE,IN,NA,RxNorm
+805573,"rotavirus vaccine, live attenuated, G1P[8] human 89-12 strain",PE,Concept,NA,SPL
+807219,"typhoid Vi polysaccharide vaccine, S typhi Ty2 strain",PE,IN,NA,RxNorm
+807219,"typhoid Vi polysaccharide vaccine, S typhi Ty2 strain",PE,Concept,NA,SPL
+809864,C1 esterase inhibitor (human),PE,PIN,NA,RxNorm
+809864,C1 esterase inhibitor (human),PE,Concept,NA,SPL
+813859,rabbit allergenic extract,PE,IN,NA,RxNorm
+813859,rabbit allergenic extract,PE,Concept,NA,SPL
+8152,phentermine,PE,IN,NA,RxNorm
+8152,phentermine,PE,Concept,NA,SPL
+8183,phenytoin,PE,IN,NA,RxNorm
+8183,phenytoin,PE,Concept,NA,SPL
+825006,"thrombin, human",PE,PIN,NA,RxNorm
+825006,"thrombin, human",PE,Concept,NA,SPL
+826072,"von Willebrand factor, human",PE,PIN,NA,RxNorm
+826072,"von Willebrand factor, human",PE,Concept,NA,SPL
+828529,"albumin human, USP",PE,IN,NA,RxNorm
+828529,"albumin human, USP",PE,Concept,NA,SPL
+830457,rabies virus vaccine flury-lep strain,PE,IN,NA,RxNorm
+830457,rabies virus vaccine flury-lep strain,PE,Concept,NA,SPL
+830464,"rabies virus vaccine wistar strain PM-1503-3M (human), inactivated",PE,IN,NA,RxNorm
+830464,"rabies virus vaccine wistar strain PM-1503-3M (human), inactivated",PE,Concept,NA,SPL
+8308,vitamin K1,PE,IN,NA,RxNorm
+8308,vitamin K1,PE,Concept,NA,SPL
+8463,podofilox,PE,IN,NA,RxNorm
+8463,podofilox,PE,Concept,NA,SPL
+851732,Acacia pollen extract,PE,IN,NA,RxNorm
+851732,Acacia pollen extract,PE,Concept,NA,SPL
+851736,coast maple pollen extract,PE,IN,NA,RxNorm
+851736,coast maple pollen extract,PE,Concept,NA,SPL
+851740,box elder maple pollen extract,PE,IN,NA,RxNorm
+851740,box elder maple pollen extract,PE,Concept,NA,SPL
+851744,red maple pollen extract,PE,IN,NA,RxNorm
+851744,red maple pollen extract,PE,Concept,NA,SPL
+851866,silver maple pollen extract,PE,IN,NA,RxNorm
+851866,silver maple pollen extract,PE,Concept,NA,SPL
+851870,redtop grass pollen extract,PE,IN,NA,RxNorm
+851870,redtop grass pollen extract,PE,Concept,NA,SPL
+851874,hard maple pollen extract,PE,IN,NA,RxNorm
+851874,hard maple pollen extract,PE,Concept,NA,SPL
+851878,orchard grass pollen extract,PE,IN,NA,RxNorm
+851878,orchard grass pollen extract,PE,Concept,NA,SPL
+851882,sisal fiber allergenic extract,PE,IN,NA,RxNorm
+851882,sisal fiber allergenic extract,PE,Concept,NA,SPL
+851890,tree of heaven pollen extract,PE,IN,NA,RxNorm
+851890,tree of heaven pollen extract,PE,Concept,NA,SPL
+851894,iodine bush pollen extract,PE,IN,NA,RxNorm
+851894,iodine bush pollen extract,PE,Concept,NA,SPL
+851898,sweet vernal grass pollen extract,PE,IN,NA,RxNorm
+851898,sweet vernal grass pollen extract,PE,Concept,NA,SPL
+851902,tag alder pollen extract,PE,IN,NA,RxNorm
+851902,tag alder pollen extract,PE,Concept,NA,SPL
+851906,Bermuda grass pollen extract,PE,IN,NA,RxNorm
+851906,Bermuda grass pollen extract,PE,Concept,NA,SPL
+851910,white alder pollen extract,PE,IN,NA,RxNorm
+851910,white alder pollen extract,PE,Concept,NA,SPL
+851914,red alder pollen extract,PE,IN,NA,RxNorm
+851914,red alder pollen extract,PE,Concept,NA,SPL
+851918,meadow fescue grass pollen extract,PE,IN,NA,RxNorm
+851918,meadow fescue grass pollen extract,PE,Concept,NA,SPL
+851926,careless weed pollen extract,PE,IN,NA,RxNorm
+851926,careless weed pollen extract,PE,Concept,NA,SPL
+851930,redroot pigweed pollen extract,PE,IN,NA,RxNorm
+851930,redroot pigweed pollen extract,PE,Concept,NA,SPL
+851934,western waterhemp pollen extract,PE,IN,NA,RxNorm
+851934,western waterhemp pollen extract,PE,Concept,NA,SPL
+851938,false ragweed pollen extract,PE,IN,NA,RxNorm
+851938,false ragweed pollen extract,PE,Concept,NA,SPL
+851942,canyon ragweed pollen extract,PE,IN,NA,RxNorm
+851942,canyon ragweed pollen extract,PE,Concept,NA,SPL
+851949,cat skin extract,PE,IN,NA,RxNorm
+851949,cat skin extract,PE,Concept,NA,SPL
+851955,sandbur ragweed pollen extract,PE,IN,NA,RxNorm
+851955,sandbur ragweed pollen extract,PE,Concept,NA,SPL
+851969,rabbit bush pollen extract,PE,IN,NA,RxNorm
+851969,rabbit bush pollen extract,PE,Concept,NA,SPL
+851981,desert ragweed pollen extract,PE,IN,NA,RxNorm
+851981,desert ragweed pollen extract,PE,Concept,NA,SPL
+851985,western ragweed pollen extract,PE,IN,NA,RxNorm
+851985,western ragweed pollen extract,PE,Concept,NA,SPL
+851990,slender ragweed pollen extract,PE,IN,NA,RxNorm
+851990,slender ragweed pollen extract,PE,Concept,NA,SPL
+851994,Timothy grass pollen extract,PE,IN,NA,RxNorm
+851994,Timothy grass pollen extract,PE,Concept,NA,SPL
+851998,giant ragweed pollen extract,PE,IN,NA,RxNorm
+851998,giant ragweed pollen extract,PE,Concept,NA,SPL
+852007,wormwood sage pollen extract,PE,IN,NA,RxNorm
+852007,wormwood sage pollen extract,PE,Concept,NA,SPL
+852011,coast sage pollen extract,PE,IN,NA,RxNorm
+852011,coast sage pollen extract,PE,Concept,NA,SPL
+852015,corn pollen extract,PE,IN,NA,RxNorm
+852015,corn pollen extract,PE,Concept,NA,SPL
+852020,common sagebrush pollen extract,PE,IN,NA,RxNorm
+852020,common sagebrush pollen extract,PE,Concept,NA,SPL
+852025,cocklebur pollen extract,PE,IN,NA,RxNorm
+852025,cocklebur pollen extract,PE,Concept,NA,SPL
+852029,mugwort sage pollen extract,PE,IN,NA,RxNorm
+852029,mugwort sage pollen extract,PE,Concept,NA,SPL
+852046,nettle pollen extract,PE,IN,NA,RxNorm
+852046,nettle pollen extract,PE,Concept,NA,SPL
+852054,American elm pollen extract,PE,IN,NA,RxNorm
+852054,American elm pollen extract,PE,Concept,NA,SPL
+852062,tobacco leaf allergenic extract,PE,IN,NA,RxNorm
+852062,tobacco leaf allergenic extract,PE,Concept,NA,SPL
+852070,linden pollen extract,PE,IN,NA,RxNorm
+852070,linden pollen extract,PE,Concept,NA,SPL
+852074,wing scale pollen extract,PE,IN,NA,RxNorm
+852074,wing scale pollen extract,PE,Concept,NA,SPL
+852079,dandelion pollen extract,PE,IN,NA,RxNorm
+852079,dandelion pollen extract,PE,Concept,NA,SPL
+852087,shad scale pollen extract,PE,IN,NA,RxNorm
+852087,shad scale pollen extract,PE,Concept,NA,SPL
+852096,lens scale pollen extract,PE,IN,NA,RxNorm
+852096,lens scale pollen extract,PE,Concept,NA,SPL
+852102,Aureobasidium pullulans var. pullutans allergenic extract,PE,IN,NA,RxNorm
+852102,Aureobasidium pullulans var. pullutans allergenic extract,PE,Concept,NA,SPL
+852106,alkali blite pollen extract,PE,IN,NA,RxNorm
+852106,alkali blite pollen extract,PE,Concept,NA,SPL
+852114,cultivated oat pollen extract,PE,IN,NA,RxNorm
+852114,cultivated oat pollen extract,PE,Concept,NA,SPL
+852124,fivehorn smotherweed pollen extract,PE,IN,NA,RxNorm
+852124,fivehorn smotherweed pollen extract,PE,Concept,NA,SPL
+852128,Johnson grass smut allergenic extract,PE,IN,NA,RxNorm
+852128,Johnson grass smut allergenic extract,PE,Concept,NA,SPL
+852132,sugar beet pollen extract,PE,IN,NA,RxNorm
+852132,sugar beet pollen extract,PE,Concept,NA,SPL
+852136,Johnson grass pollen extract,PE,IN,NA,RxNorm
+852136,Johnson grass pollen extract,PE,Concept,NA,SPL
+852140,pepper tree pollen extract,PE,IN,NA,RxNorm
+852140,pepper tree pollen extract,PE,Concept,NA,SPL
+852144,cherry birch pollen extract,PE,IN,NA,RxNorm
+852144,cherry birch pollen extract,PE,Concept,NA,SPL
+852148,river birch pollen extract,PE,IN,NA,RxNorm
+852148,river birch pollen extract,PE,Concept,NA,SPL
+852152,greasewood pollen extract,PE,IN,NA,RxNorm
+852152,greasewood pollen extract,PE,Concept,NA,SPL
+852158,Russian thistle pollen extract,PE,IN,NA,RxNorm
+852158,Russian thistle pollen extract,PE,Concept,NA,SPL
+852162,black willow pollen extract,PE,IN,NA,RxNorm
+852162,black willow pollen extract,PE,Concept,NA,SPL
+852166,water birch pollen extract,PE,IN,NA,RxNorm
+852166,water birch pollen extract,PE,Concept,NA,SPL
+852170,arroyo willow pollen extract,PE,IN,NA,RxNorm
+852170,arroyo willow pollen extract,PE,Concept,NA,SPL
+852174,pussy willow pollen extract,PE,IN,NA,RxNorm
+852174,pussy willow pollen extract,PE,Concept,NA,SPL
+852178,gray birch pollen extract,PE,IN,NA,RxNorm
+852178,gray birch pollen extract,PE,Concept,NA,SPL
+852193,white hickory pollen extract,PE,IN,NA,RxNorm
+852193,white hickory pollen extract,PE,Concept,NA,SPL
+852197,grama grass pollen extract,PE,IN,NA,RxNorm
+852197,grama grass pollen extract,PE,Concept,NA,SPL
+852205,mustard pollen extract,PE,IN,NA,RxNorm
+852205,mustard pollen extract,PE,Concept,NA,SPL
+852209,yellow dock pollen extract,PE,IN,NA,RxNorm
+852209,yellow dock pollen extract,PE,Concept,NA,SPL
+852213,sheep sorrel pollen extract,PE,IN,NA,RxNorm
+852213,sheep sorrel pollen extract,PE,Concept,NA,SPL
+852217,smooth brome pollen extract,PE,IN,NA,RxNorm
+852217,smooth brome pollen extract,PE,Concept,NA,SPL
+852221,shagbark hickory pollen extract,PE,IN,NA,RxNorm
+852221,shagbark hickory pollen extract,PE,Concept,NA,SPL
+852225,cheat grass pollen extract,PE,IN,NA,RxNorm
+852225,cheat grass pollen extract,PE,Concept,NA,SPL
+852229,Australian pine pollen extract,PE,IN,NA,RxNorm
+852229,Australian pine pollen extract,PE,Concept,NA,SPL
+852237,lambs quarters pollen extract,PE,IN,NA,RxNorm
+852237,lambs quarters pollen extract,PE,Concept,NA,SPL
+852252,domestic goat skin extract,PE,IN,NA,RxNorm
+852252,domestic goat skin extract,PE,Concept,NA,SPL
+852256,domestic cow skin extract,PE,IN,NA,RxNorm
+852256,domestic cow skin extract,PE,Concept,NA,SPL
+852260,black oak pollen extract,PE,IN,NA,RxNorm
+852260,black oak pollen extract,PE,Concept,NA,SPL
+852264,Cochliobolus lunatus allergenic extract,PE,IN,NA,RxNorm
+852264,Cochliobolus lunatus allergenic extract,PE,Concept,NA,SPL
+852268,red oak pollen extract,PE,IN,NA,RxNorm
+852268,red oak pollen extract,PE,Concept,NA,SPL
+852272,pecan pollen extract,PE,IN,NA,RxNorm
+852272,pecan pollen extract,PE,Concept,NA,SPL
+852276,Gambels oak pollen extract,PE,IN,NA,RxNorm
+852276,Gambels oak pollen extract,PE,Concept,NA,SPL
+852281,hazelnut pollen extract,PE,IN,NA,RxNorm
+852281,hazelnut pollen extract,PE,Concept,NA,SPL
+852294,white oak pollen extract,PE,IN,NA,RxNorm
+852294,white oak pollen extract,PE,Concept,NA,SPL
+852298,guinea pig skin extract,PE,IN,NA,RxNorm
+852298,guinea pig skin extract,PE,Concept,NA,SPL
+852302,coast live oak pollen extract,PE,IN,NA,RxNorm
+852302,coast live oak pollen extract,PE,Concept,NA,SPL
+852306,silver ragweed pollen extract,PE,IN,NA,RxNorm
+852306,silver ragweed pollen extract,PE,Concept,NA,SPL
+852311,Puccinia striiformis allergenic extract,PE,IN,NA,RxNorm
+852311,Puccinia striiformis allergenic extract,PE,Concept,NA,SPL
+852315,kapok tree fiber allergenic extract,PE,IN,NA,RxNorm
+852315,kapok tree fiber allergenic extract,PE,Concept,NA,SPL
+852320,mesquite pollen extract,PE,IN,NA,RxNorm
+852320,mesquite pollen extract,PE,Concept,NA,SPL
+852324,hackberry pollen extract,PE,IN,NA,RxNorm
+852324,hackberry pollen extract,PE,Concept,NA,SPL
+852329,salt grass pollen extract,PE,IN,NA,RxNorm
+852329,salt grass pollen extract,PE,Concept,NA,SPL
+852339,aspen pollen extract,PE,IN,NA,RxNorm
+852339,aspen pollen extract,PE,Concept,NA,SPL
+852343,quackgrass pollen extract,PE,IN,NA,RxNorm
+852343,quackgrass pollen extract,PE,Concept,NA,SPL
+852348,Lombardy poplar pollen extract,PE,IN,NA,RxNorm
+852348,Lombardy poplar pollen extract,PE,Concept,NA,SPL
+852355,Fremont cottonwood pollen extract,PE,IN,NA,RxNorm
+852355,Fremont cottonwood pollen extract,PE,Concept,NA,SPL
+852359,palo verde pollen extract,PE,IN,NA,RxNorm
+852359,palo verde pollen extract,PE,Concept,NA,SPL
+852363,eastern cottonwood pollen extract,PE,IN,NA,RxNorm
+852363,eastern cottonwood pollen extract,PE,Concept,NA,SPL
+852367,Russian olive pollen extract,PE,IN,NA,RxNorm
+852367,Russian olive pollen extract,PE,Concept,NA,SPL
+852376,black cottonwood pollen extract,PE,IN,NA,RxNorm
+852376,black cottonwood pollen extract,PE,Concept,NA,SPL
+852382,white poplar pollen extract,PE,IN,NA,RxNorm
+852382,white poplar pollen extract,PE,Concept,NA,SPL
+852386,Eucalyptus globulus pollen extract,PE,IN,NA,RxNorm
+852386,Eucalyptus globulus pollen extract,PE,Concept,NA,SPL
+852398,Cochliobolus sativus allergenic extract,PE,IN,NA,RxNorm
+852398,Cochliobolus sativus allergenic extract,PE,Concept,NA,SPL
+852404,Pleospora tarda allergenic extract,PE,IN,NA,RxNorm
+852404,Pleospora tarda allergenic extract,PE,Concept,NA,SPL
+852412,jute fiber allergenic extract,PE,IN,NA,RxNorm
+852412,jute fiber allergenic extract,PE,Concept,NA,SPL
+852419,beech pollen extract,PE,IN,NA,RxNorm
+852419,beech pollen extract,PE,Concept,NA,SPL
+852440,cottonseed allergenic extract,PE,IN,NA,RxNorm
+852440,cottonseed allergenic extract,PE,Concept,NA,SPL
+852450,white ash pollen extract,PE,IN,NA,RxNorm
+852450,white ash pollen extract,PE,Concept,NA,SPL
+852466,Epicoccum nigrum allergenic extract,PE,IN,NA,RxNorm
+852466,Epicoccum nigrum allergenic extract,PE,Concept,NA,SPL
+852479,horse skin extract,PE,IN,NA,RxNorm
+852479,horse skin extract,PE,Concept,NA,SPL
+852491,green ash pollen extract,PE,IN,NA,RxNorm
+852491,green ash pollen extract,PE,Concept,NA,SPL
+852496,Arizona ash pollen extract,PE,IN,NA,RxNorm
+852496,Arizona ash pollen extract,PE,Concept,NA,SPL
+852503,Haematonectria haematococca allergenic extract,PE,IN,NA,RxNorm
+852503,Haematonectria haematococca allergenic extract,PE,Concept,NA,SPL
+852509,sunflower pollen extract,PE,IN,NA,RxNorm
+852509,sunflower pollen extract,PE,Concept,NA,SPL
+852514,velvet grass pollen extract,PE,IN,NA,RxNorm
+852514,velvet grass pollen extract,PE,Concept,NA,SPL
+852519,house dust allergenic extract,PE,IN,NA,RxNorm
+852519,house dust allergenic extract,PE,Concept,NA,SPL
+852526,burrobrush pollen extract,PE,IN,NA,RxNorm
+852526,burrobrush pollen extract,PE,Concept,NA,SPL
+852532,rough marshelder pollen extract,PE,IN,NA,RxNorm
+852532,rough marshelder pollen extract,PE,Concept,NA,SPL
+852539,poverty weed pollen extract,PE,IN,NA,RxNorm
+852539,poverty weed pollen extract,PE,Concept,NA,SPL
+852551,burweed marshelder pollen extract,PE,IN,NA,RxNorm
+852551,burweed marshelder pollen extract,PE,Concept,NA,SPL
+852561,California black walnut pollen extract,PE,IN,NA,RxNorm
+852561,California black walnut pollen extract,PE,Concept,NA,SPL
+852569,black walnut pollen extract,PE,IN,NA,RxNorm
+852569,black walnut pollen extract,PE,Concept,NA,SPL
+852577,English walnut pollen extract,PE,IN,NA,RxNorm
+852577,English walnut pollen extract,PE,Concept,NA,SPL
+852581,mountain cedar pollen extract,PE,IN,NA,RxNorm
+852581,mountain cedar pollen extract,PE,Concept,NA,SPL
+852585,California juniper pollen extract,PE,IN,NA,RxNorm
+852585,California juniper pollen extract,PE,Concept,NA,SPL
+852589,western juniper pollen extract,PE,IN,NA,RxNorm
+852589,western juniper pollen extract,PE,Concept,NA,SPL
+852593,burning bush pollen extract,PE,IN,NA,RxNorm
+852593,burning bush pollen extract,PE,Concept,NA,SPL
+852597,Utah juniper pollen extract,PE,IN,NA,RxNorm
+852597,Utah juniper pollen extract,PE,Concept,NA,SPL
+852601,Rocky Mountain juniper pollen extract,PE,IN,NA,RxNorm
+852601,Rocky Mountain juniper pollen extract,PE,Concept,NA,SPL
+852605,Koelers grass pollen extract,PE,IN,NA,RxNorm
+852605,Koelers grass pollen extract,PE,Concept,NA,SPL
+852609,red cedar pollen extract,PE,IN,NA,RxNorm
+852609,red cedar pollen extract,PE,Concept,NA,SPL
+852613,winterfat pollen extract,PE,IN,NA,RxNorm
+852613,winterfat pollen extract,PE,Concept,NA,SPL
+852617,karaya gum extract,PE,IN,NA,RxNorm
+852617,karaya gum extract,PE,Concept,NA,SPL
+852622,privet pollen extract,PE,IN,NA,RxNorm
+852622,privet pollen extract,PE,Concept,NA,SPL
+852627,sweet gum pollen extract,PE,IN,NA,RxNorm
+852627,sweet gum pollen extract,PE,Concept,NA,SPL
+852634,alfalfa pollen extract,PE,IN,NA,RxNorm
+852634,alfalfa pollen extract,PE,Concept,NA,SPL
+852653,european olive pollen extract,PE,IN,NA,RxNorm
+852653,european olive pollen extract,PE,Concept,NA,SPL
+852659,western wheatgrass pollen extract,PE,IN,NA,RxNorm
+852659,western wheatgrass pollen extract,PE,Concept,NA,SPL
+852663,Syrian hamster skin extract,PE,IN,NA,RxNorm
+852663,Syrian hamster skin extract,PE,Concept,NA,SPL
+852669,white mulberry pollen extract,PE,IN,NA,RxNorm
+852669,white mulberry pollen extract,PE,Concept,NA,SPL
+852673,bahia grass pollen extract,PE,IN,NA,RxNorm
+852673,bahia grass pollen extract,PE,Concept,NA,SPL
+852680,red mulberry pollen extract,PE,IN,NA,RxNorm
+852680,red mulberry pollen extract,PE,Concept,NA,SPL
+852687,Mucor racemosus allergenic extract,PE,IN,NA,RxNorm
+852687,Mucor racemosus allergenic extract,PE,Concept,NA,SPL
+852693,house mouse skin extract,PE,IN,NA,RxNorm
+852693,house mouse skin extract,PE,Concept,NA,SPL
+852697,canary grass pollen extract,PE,IN,NA,RxNorm
+852697,canary grass pollen extract,PE,Concept,NA,SPL
+852704,date palm pollen extract,PE,IN,NA,RxNorm
+852704,date palm pollen extract,PE,Concept,NA,SPL
+852709,shortleaf pine pollen extract,PE,IN,NA,RxNorm
+852709,shortleaf pine pollen extract,PE,Concept,NA,SPL
+852716,yellow pine pollen extract,PE,IN,NA,RxNorm
+852716,yellow pine pollen extract,PE,Concept,NA,SPL
+852738,eastern white pine pollen extract,PE,IN,NA,RxNorm
+852738,eastern white pine pollen extract,PE,Concept,NA,SPL
+852742,English plantain pollen extract,PE,IN,NA,RxNorm
+852742,English plantain pollen extract,PE,Concept,NA,SPL
+852746,eastern sycamore pollen extract,PE,IN,NA,RxNorm
+852746,eastern sycamore pollen extract,PE,Concept,NA,SPL
+852750,western sycamore pollen extract,PE,IN,NA,RxNorm
+852750,western sycamore pollen extract,PE,Concept,NA,SPL
+852756,Pleospora betae allergenic extract,PE,IN,NA,RxNorm
+852756,Pleospora betae allergenic extract,PE,Concept,NA,SPL
+852797,wheat smut allergenic extract,PE,IN,NA,RxNorm
+852797,wheat smut allergenic extract,PE,Concept,NA,SPL
+852802,California scrub oak pollen extract,PE,IN,NA,RxNorm
+852802,California scrub oak pollen extract,PE,Concept,NA,SPL
+852806,salt cedar pollen extract,PE,IN,NA,RxNorm
+852806,salt cedar pollen extract,PE,Concept,NA,SPL
+852814,Arizona cypress pollen extract,PE,IN,NA,RxNorm
+852814,Arizona cypress pollen extract,PE,Concept,NA,SPL
+852819,perennial rye grass pollen extract,PE,IN,NA,RxNorm
+852819,perennial rye grass pollen extract,PE,Concept,NA,SPL
+852834,Kentucky bluegrass pollen extract,PE,IN,NA,RxNorm
+852834,Kentucky bluegrass pollen extract,PE,Concept,NA,SPL
+852839,hog skin extract,PE,IN,NA,RxNorm
+852839,hog skin extract,PE,Concept,NA,SPL
+852844,Chinese elm pollen extract,PE,IN,NA,RxNorm
+852844,Chinese elm pollen extract,PE,Concept,NA,SPL
+853406,cottonseed extract,PE,IN,NA,RxNorm
+853406,cottonseed extract,PE,Concept,NA,SPL
+854025,Canis lupus familiaris hair extract,PE,IN,NA,RxNorm
+854025,Canis lupus familiaris hair extract,PE,Concept,NA,SPL
+854082,Aspergillus niger var. niger extract,PE,IN,NA,RxNorm
+854082,Aspergillus niger var. niger extract,PE,Concept,NA,SPL
+854130,Penicillium chrysogenum var. chrysogenum allergenic extract,PE,IN,NA,RxNorm
+854130,Penicillium chrysogenum var. chrysogenum allergenic extract,PE,Concept,NA,SPL
+854930,Streptococcus pneumoniae type 1 capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854930,Streptococcus pneumoniae type 1 capsular polysaccharide antigen,PE,Concept,NA,SPL
+854932,Streptococcus pneumoniae type 10A capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854932,Streptococcus pneumoniae type 10A capsular polysaccharide antigen,PE,Concept,NA,SPL
+854934,Streptococcus pneumoniae type 11A capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854934,Streptococcus pneumoniae type 11A capsular polysaccharide antigen,PE,Concept,NA,SPL
+854936,Streptococcus pneumoniae type 12F capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854936,Streptococcus pneumoniae type 12F capsular polysaccharide antigen,PE,Concept,NA,SPL
+854938,Streptococcus pneumoniae type 14 capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854938,Streptococcus pneumoniae type 14 capsular polysaccharide antigen,PE,Concept,NA,SPL
+854940,Streptococcus pneumoniae type 15B capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854940,Streptococcus pneumoniae type 15B capsular polysaccharide antigen,PE,Concept,NA,SPL
+854942,Streptococcus pneumoniae type 17F capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854942,Streptococcus pneumoniae type 17F capsular polysaccharide antigen,PE,Concept,NA,SPL
+854944,Streptococcus pneumoniae type 18C capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854944,Streptococcus pneumoniae type 18C capsular polysaccharide antigen,PE,Concept,NA,SPL
+854946,Streptococcus pneumoniae type 19A capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854946,Streptococcus pneumoniae type 19A capsular polysaccharide antigen,PE,Concept,NA,SPL
+854948,Streptococcus pneumoniae type 19F capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854948,Streptococcus pneumoniae type 19F capsular polysaccharide antigen,PE,Concept,NA,SPL
+854950,Streptococcus pneumoniae type 2 capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854950,Streptococcus pneumoniae type 2 capsular polysaccharide antigen,PE,Concept,NA,SPL
+854952,Streptococcus pneumoniae type 20 capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854952,Streptococcus pneumoniae type 20 capsular polysaccharide antigen,PE,Concept,NA,SPL
+854954,Streptococcus pneumoniae type 22F capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854954,Streptococcus pneumoniae type 22F capsular polysaccharide antigen,PE,Concept,NA,SPL
+854956,Streptococcus pneumoniae type 23F capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854956,Streptococcus pneumoniae type 23F capsular polysaccharide antigen,PE,Concept,NA,SPL
+854958,Streptococcus pneumoniae type 3 capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854958,Streptococcus pneumoniae type 3 capsular polysaccharide antigen,PE,Concept,NA,SPL
+854960,Streptococcus pneumoniae type 33F capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854960,Streptococcus pneumoniae type 33F capsular polysaccharide antigen,PE,Concept,NA,SPL
+854962,Streptococcus pneumoniae type 4 capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854962,Streptococcus pneumoniae type 4 capsular polysaccharide antigen,PE,Concept,NA,SPL
+854964,Streptococcus pneumoniae type 5 capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854964,Streptococcus pneumoniae type 5 capsular polysaccharide antigen,PE,Concept,NA,SPL
+854966,Streptococcus pneumoniae type 6B capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854966,Streptococcus pneumoniae type 6B capsular polysaccharide antigen,PE,Concept,NA,SPL
+854968,Streptococcus pneumoniae type 7F capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854968,Streptococcus pneumoniae type 7F capsular polysaccharide antigen,PE,Concept,NA,SPL
+854970,Streptococcus pneumoniae type 8 capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854970,Streptococcus pneumoniae type 8 capsular polysaccharide antigen,PE,Concept,NA,SPL
+854972,Streptococcus pneumoniae type 9N capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854972,Streptococcus pneumoniae type 9N capsular polysaccharide antigen,PE,Concept,NA,SPL
+854974,Streptococcus pneumoniae type 9V capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854974,Streptococcus pneumoniae type 9V capsular polysaccharide antigen,PE,Concept,NA,SPL
+8565,polythiazide,PE,IN,NA,RxNorm
+8565,polythiazide,PE,Concept,NA,SPL
+860168,abobotulinumtoxinA,PE,PIN,NA,RxNorm
+860168,abobotulinumtoxinA,PE,Concept,NA,SPL
+862453,barley allergenic extract,PE,IN,NA,RxNorm
+862453,barley allergenic extract,PE,Concept,NA,SPL
+862460,casein allergenic extract,PE,IN,NA,RxNorm
+862460,casein allergenic extract,PE,Concept,NA,SPL
+862475,goat milk allergenic extract,PE,IN,NA,RxNorm
+862475,goat milk allergenic extract,PE,Concept,NA,SPL
+862478,green bell pepper allergenic extract,PE,IN,NA,RxNorm
+862478,green bell pepper allergenic extract,PE,Concept,NA,SPL
+867142,prairie sagebrush pollen extract,PE,IN,NA,RxNorm
+867142,prairie sagebrush pollen extract,PE,Concept,NA,SPL
+867198,Cladosporium cladosporioides extract,PE,IN,NA,RxNorm
+867198,Cladosporium cladosporioides extract,PE,Concept,NA,SPL
+867202,cladosporium sphaerospermum allergenic extract,PE,IN,NA,RxNorm
+867202,cladosporium sphaerospermum allergenic extract,PE,Concept,NA,SPL
+867218,dogfennel pollen extract,PE,IN,NA,RxNorm
+867218,dogfennel pollen extract,PE,Concept,NA,SPL
+867228,Fusarium oxysporum vasinfectum allergenic extract,PE,IN,NA,RxNorm
+867228,Fusarium oxysporum vasinfectum allergenic extract,PE,Concept,NA,SPL
+867232,Helminthosporium solani allergenic extract,PE,IN,NA,RxNorm
+867232,Helminthosporium solani allergenic extract,PE,Concept,NA,SPL
+867260,southern bayberry pollen extract,PE,IN,NA,RxNorm
+867260,southern bayberry pollen extract,PE,Concept,NA,SPL
+867274,neurospora intermedia allergenic extract,PE,IN,NA,RxNorm
+867274,neurospora intermedia allergenic extract,PE,Concept,NA,SPL
+867284,Phoma exigua var. exigua allergenic extract,PE,IN,NA,RxNorm
+867284,Phoma exigua var. exigua allergenic extract,PE,Concept,NA,SPL
+867297,plains cottonwood pollen extract,PE,IN,NA,RxNorm
+867297,plains cottonwood pollen extract,PE,Concept,NA,SPL
+867311,live oak pollen extract,PE,IN,NA,RxNorm
+867311,live oak pollen extract,PE,Concept,NA,SPL
+867321,Rhodotorula rubra allergenic extract,PE,IN,NA,RxNorm
+867321,Rhodotorula rubra allergenic extract,PE,Concept,NA,SPL
+867325,black locust pollen extract,PE,IN,NA,RxNorm
+867325,black locust pollen extract,PE,Concept,NA,SPL
+867341,red imported fire ant allergenic extract,PE,IN,NA,RxNorm
+867341,red imported fire ant allergenic extract,PE,Concept,NA,SPL
+867349,Stemphylium solani allergenic extract,PE,IN,NA,RxNorm
+867349,Stemphylium solani allergenic extract,PE,Concept,NA,SPL
+867353,queen palm pollen extract,PE,IN,NA,RxNorm
+867353,queen palm pollen extract,PE,Concept,NA,SPL
+867357,Trichophyton mentagrophytes allergenic extract,PE,IN,NA,RxNorm
+867357,Trichophyton mentagrophytes allergenic extract,PE,Concept,NA,SPL
+867361,wheat pollen extract,PE,IN,NA,RxNorm
+867361,wheat pollen extract,PE,Concept,NA,SPL
+8686,prilocaine,PE,IN,NA,RxNorm
+8686,prilocaine,PE,Concept,NA,SPL
+8691,primidone,PE,IN,NA,RxNorm
+8691,primidone,PE,Concept,NA,SPL
+8782,propofol,PE,IN,NA,RxNorm
+8782,propofol,PE,Concept,NA,SPL
+8814,epoprostenol,PE,IN,NA,RxNorm
+8814,epoprostenol,PE,Concept,NA,SPL
+882469,Pacific halibut allergenic extract,PE,IN,NA,RxNorm
+882469,Pacific halibut allergenic extract,PE,Concept,NA,SPL
+882482,trout allergenic extract,PE,IN,NA,RxNorm
+882482,trout allergenic extract,PE,Concept,NA,SPL
+882488,venison allergenic extract,PE,IN,NA,RxNorm
+882488,venison allergenic extract,PE,Concept,NA,SPL
+8826,protamines,PE,IN,NA,RxNorm
+8826,protamines,PE,Concept,NA,SPL
+883414,turnip allergenic extract,PE,IN,NA,RxNorm
+883414,turnip allergenic extract,PE,Concept,NA,SPL
+883442,Passalora fulva allergenic extract,PE,IN,NA,RxNorm
+883442,Passalora fulva allergenic extract,PE,Concept,NA,SPL
+883459,pumpkin allergenic extract,PE,IN,NA,RxNorm
+883459,pumpkin allergenic extract,PE,Concept,NA,SPL
+885183,Agkistrodon piscivorus antivenin,PE,IN,NA,RxNorm
+885183,Agkistrodon piscivorus antivenin,PE,Concept,NA,SPL
+885185,Crotalus adamanteus antivenin,PE,IN,NA,RxNorm
+885185,Crotalus adamanteus antivenin,PE,Concept,NA,SPL
+885187,Crotalus atrox antivenin,PE,IN,NA,RxNorm
+885187,Crotalus atrox antivenin,PE,Concept,NA,SPL
+885189,Crotalus scutulatus antivenin,PE,IN,NA,RxNorm
+885189,Crotalus scutulatus antivenin,PE,Concept,NA,SPL
+885750,southern ragweed pollen extract,PE,IN,NA,RxNorm
+885750,southern ragweed pollen extract,PE,Concept,NA,SPL
+886637,dog flea allergenic extract,PE,IN,NA,RxNorm
+886637,dog flea allergenic extract,PE,Concept,NA,SPL
+886638,cat flea allergenic extract,PE,IN,NA,RxNorm
+886638,cat flea allergenic extract,PE,Concept,NA,SPL
+889602,northern pike allergenic extract,PE,IN,NA,RxNorm
+889602,northern pike allergenic extract,PE,Concept,NA,SPL
+889646,red snapper allergenic extract,PE,IN,NA,RxNorm
+889646,red snapper allergenic extract,PE,Concept,NA,SPL
+891502,arabica coffee bean allergenic extract,PE,IN,NA,RxNorm
+891502,arabica coffee bean allergenic extract,PE,Concept,NA,SPL
+891514,brazil nut allergenic extract,PE,IN,NA,RxNorm
+891514,brazil nut allergenic extract,PE,Concept,NA,SPL
+891611,coconut allergenic extract,PE,IN,NA,RxNorm
+891611,coconut allergenic extract,PE,Concept,NA,SPL
+891633,hazelnut allergenic extract,PE,IN,NA,RxNorm
+891633,hazelnut allergenic extract,PE,Concept,NA,SPL
+891637,kidney bean allergenic extract,PE,IN,NA,RxNorm
+891637,kidney bean allergenic extract,PE,Concept,NA,SPL
+891641,lima bean allergenic extract,PE,IN,NA,RxNorm
+891641,lima bean allergenic extract,PE,Concept,NA,SPL
+891647,mung bean allergenic extract,PE,IN,NA,RxNorm
+891647,mung bean allergenic extract,PE,Concept,NA,SPL
+891652,nutmeg allergenic extract,PE,IN,NA,RxNorm
+891652,nutmeg allergenic extract,PE,Concept,NA,SPL
+891658,peanut allergenic extract,PE,IN,NA,RxNorm
+891658,peanut allergenic extract,PE,Concept,NA,SPL
+891668,soybean allergenic extract,PE,IN,NA,RxNorm
+891668,soybean allergenic extract,PE,Concept,NA,SPL
+891676,string bean allergenic extract,PE,IN,NA,RxNorm
+891676,string bean allergenic extract,PE,Concept,NA,SPL
+891687,English walnut allergenic extract,PE,IN,NA,RxNorm
+891687,English walnut allergenic extract,PE,Concept,NA,SPL
+891695,black walnut allergenic extract,PE,IN,NA,RxNorm
+891695,black walnut allergenic extract,PE,Concept,NA,SPL
+891721,cocoa bean allergenic extract,PE,IN,NA,RxNorm
+891721,cocoa bean allergenic extract,PE,Concept,NA,SPL
+891727,coffee bean allergenic extract,PE,IN,NA,RxNorm
+891727,coffee bean allergenic extract,PE,Concept,NA,SPL
+891752,American chestnut allergenic extract,PE,IN,NA,RxNorm
+891752,American chestnut allergenic extract,PE,Concept,NA,SPL
+891771,apple allergenic extract,PE,IN,NA,RxNorm
+891771,apple allergenic extract,PE,Concept,NA,SPL
+891796,asparagus allergenic extract,PE,IN,NA,RxNorm
+891796,asparagus allergenic extract,PE,Concept,NA,SPL
+891830,banana allergenic extract,PE,IN,NA,RxNorm
+891830,banana allergenic extract,PE,Concept,NA,SPL
+892181,bluefish allergenic extract,PE,IN,NA,RxNorm
+892181,bluefish allergenic extract,PE,Concept,NA,SPL
+892317,wine grape allergenic extract,PE,IN,NA,RxNorm
+892317,wine grape allergenic extract,PE,Concept,NA,SPL
+892338,Khuskia oryzae allergenic extract,PE,IN,NA,RxNorm
+892338,Khuskia oryzae allergenic extract,PE,Concept,NA,SPL
+892368,carrot allergenic extract,PE,IN,NA,RxNorm
+892368,carrot allergenic extract,PE,Concept,NA,SPL
+892372,celery allergenic extract,PE,IN,NA,RxNorm
+892372,celery allergenic extract,PE,Concept,NA,SPL
+892484,strawberry allergenic extract,PE,IN,NA,RxNorm
+892484,strawberry allergenic extract,PE,Concept,NA,SPL
+892499,tomato allergenic extract,PE,IN,NA,RxNorm
+892499,tomato allergenic extract,PE,Concept,NA,SPL
+892503,tuna allergenic extract,PE,IN,NA,RxNorm
+892503,tuna allergenic extract,PE,Concept,NA,SPL
+892507,almond allergenic extract,PE,IN,NA,RxNorm
+892507,almond allergenic extract,PE,Concept,NA,SPL
+892517,cantaloupe allergenic extract,PE,IN,NA,RxNorm
+892517,cantaloupe allergenic extract,PE,Concept,NA,SPL
+892526,cashew nut allergenic extract,PE,IN,NA,RxNorm
+892526,cashew nut allergenic extract,PE,Concept,NA,SPL
+892539,clam allergenic extract,PE,IN,NA,RxNorm
+892539,clam allergenic extract,PE,Concept,NA,SPL
+892543,codfish allergenic extract,PE,IN,NA,RxNorm
+892543,codfish allergenic extract,PE,Concept,NA,SPL
+892547,corn allergenic extract,PE,IN,NA,RxNorm
+892547,corn allergenic extract,PE,Concept,NA,SPL
+892561,lobster allergenic extract,PE,IN,NA,RxNorm
+892561,lobster allergenic extract,PE,Concept,NA,SPL
+892565,orange allergenic extract,PE,IN,NA,RxNorm
+892565,orange allergenic extract,PE,Concept,NA,SPL
+892569,pea allergenic extract,PE,IN,NA,RxNorm
+892569,pea allergenic extract,PE,Concept,NA,SPL
+892575,peach allergenic extract,PE,IN,NA,RxNorm
+892575,peach allergenic extract,PE,Concept,NA,SPL
+892584,salmon allergenic extract,PE,IN,NA,RxNorm
+892584,salmon allergenic extract,PE,Concept,NA,SPL
+892592,shrimp allergenic extract,PE,IN,NA,RxNorm
+892592,shrimp allergenic extract,PE,Concept,NA,SPL
+892599,beef allergenic extract,PE,IN,NA,RxNorm
+892599,beef allergenic extract,PE,Concept,NA,SPL
+892610,crab allergenic extract,PE,IN,NA,RxNorm
+892610,crab allergenic extract,PE,Concept,NA,SPL
+892616,egg white (chicken) allergenic extract,PE,IN,NA,RxNorm
+892616,egg white (chicken) allergenic extract,PE,Concept,NA,SPL
+892620,egg yolk (chicken) allergenic extract,PE,IN,NA,RxNorm
+892620,egg yolk (chicken) allergenic extract,PE,Concept,NA,SPL
+892628,pork allergenic extract,PE,IN,NA,RxNorm
+892628,pork allergenic extract,PE,Concept,NA,SPL
+892632,potato allergenic extract,PE,IN,NA,RxNorm
+892632,potato allergenic extract,PE,Concept,NA,SPL
+892638,rye allergenic extract,PE,IN,NA,RxNorm
+892638,rye allergenic extract,PE,Concept,NA,SPL
+892653,chicken allergenic extract,PE,IN,NA,RxNorm
+892653,chicken allergenic extract,PE,Concept,NA,SPL
+892665,cow milk allergenic extract,PE,IN,NA,RxNorm
+892665,cow milk allergenic extract,PE,Concept,NA,SPL
+892734,California mugwort pollen extract,PE,IN,NA,RxNorm
+892734,California mugwort pollen extract,PE,Concept,NA,SPL
+892851,duck feather extract,PE,IN,NA,RxNorm
+892851,duck feather extract,PE,Concept,NA,SPL
+894750,para grass pollen extract,PE,IN,NA,RxNorm
+894750,para grass pollen extract,PE,Concept,NA,SPL
+894783,goose feather extract,PE,IN,NA,RxNorm
+894783,goose feather extract,PE,Concept,NA,SPL
+8948,purified protein derivative of tuberculin,PE,IN,NA,RxNorm
+8948,purified protein derivative of tuberculin,PE,Concept,NA,SPL
+894934,chicken feather extract,PE,IN,NA,RxNorm
+894934,chicken feather extract,PE,Concept,NA,SPL
+894961,canary feather extract,PE,IN,NA,RxNorm
+894961,canary feather extract,PE,Concept,NA,SPL
+894987,dog skin extract,PE,IN,NA,RxNorm
+894987,dog skin extract,PE,Concept,NA,SPL
+895070,Mongolian gerbil skin allergenic extract,PE,IN,NA,RxNorm
+895070,Mongolian gerbil skin allergenic extract,PE,Concept,NA,SPL
+895195,European rabbit skin extract,PE,IN,NA,RxNorm
+895195,European rabbit skin extract,PE,Concept,NA,SPL
+895279,rat skin extract,PE,IN,NA,RxNorm
+895279,rat skin extract,PE,Concept,NA,SPL
+895353,Cootamundra wattle pollen extract,PE,IN,NA,RxNorm
+895353,Cootamundra wattle pollen extract,PE,Concept,NA,SPL
+895365,Sydney golden wattle pollen extract,PE,IN,NA,RxNorm
+895365,Sydney golden wattle pollen extract,PE,Concept,NA,SPL
+895488,domestic cow hair extract,PE,IN,NA,RxNorm
+895488,domestic cow hair extract,PE,Concept,NA,SPL
+895503,domestic goat hair extract,PE,IN,NA,RxNorm
+895503,domestic goat hair extract,PE,Concept,NA,SPL
+895507,guinea pig hair extract,PE,IN,NA,RxNorm
+895507,guinea pig hair extract,PE,Concept,NA,SPL
+895515,horse hair extract,PE,IN,NA,RxNorm
+895515,horse hair extract,PE,Concept,NA,SPL
+895527,European rabbit hair extract,PE,IN,NA,RxNorm
+895527,European rabbit hair extract,PE,Concept,NA,SPL
+895542,hog hair extract,PE,IN,NA,RxNorm
+895542,hog hair extract,PE,Concept,NA,SPL
+895552,allspice allergenic extract,PE,IN,NA,RxNorm
+895552,allspice allergenic extract,PE,Concept,NA,SPL
+895574,apricot allergenic extract,PE,IN,NA,RxNorm
+895574,apricot allergenic extract,PE,Concept,NA,SPL
+895582,avocado allergenic extract,PE,IN,NA,RxNorm
+895582,avocado allergenic extract,PE,Concept,NA,SPL
+895919,spiny pigweed pollen extract,PE,IN,NA,RxNorm
+895919,spiny pigweed pollen extract,PE,Concept,NA,SPL
+896135,short ragweed pollen extract,PE,IN,NA,RxNorm
+896135,short ragweed pollen extract,PE,Concept,NA,SPL
+896246,dark leaved mugwort pollen extract,PE,IN,NA,RxNorm
+896246,dark leaved mugwort pollen extract,PE,Concept,NA,SPL
+897304,allscale pollen extract,PE,IN,NA,RxNorm
+897304,allscale pollen extract,PE,Concept,NA,SPL
+897316,saltbush pollen extract,PE,IN,NA,RxNorm
+897316,saltbush pollen extract,PE,Concept,NA,SPL
+897332,groundsel pollen extract,PE,IN,NA,RxNorm
+897332,groundsel pollen extract,PE,Concept,NA,SPL
+897391,Mexican tea pollen extract,PE,IN,NA,RxNorm
+897391,Mexican tea pollen extract,PE,Concept,NA,SPL
+897403,orange pollen extract,PE,IN,NA,RxNorm
+897403,orange pollen extract,PE,Concept,NA,SPL
+898324,lodgepole pine pollen extract,PE,IN,NA,RxNorm
+898324,lodgepole pine pollen extract,PE,Concept,NA,SPL
+898404,annual bluegrass pollen extract,PE,IN,NA,RxNorm
+898404,annual bluegrass pollen extract,PE,Concept,NA,SPL
+89887,Latrodectus mactans antivenin,PE,IN,NA,RxNorm
+89887,Latrodectus mactans antivenin,PE,Concept,NA,SPL
+899355,basil allergenic extract,PE,IN,NA,RxNorm
+899355,basil allergenic extract,PE,Concept,NA,SPL
+899359,sugar beet allergenic extract,PE,IN,NA,RxNorm
+899359,sugar beet allergenic extract,PE,Concept,NA,SPL
+899363,black pepper allergenic extract,PE,IN,NA,RxNorm
+899363,black pepper allergenic extract,PE,Concept,NA,SPL
+899386,broccoli allergenic extract,PE,IN,NA,RxNorm
+899386,broccoli allergenic extract,PE,Concept,NA,SPL
+899390,brussels sprout allergenic extract,PE,IN,NA,RxNorm
+899390,brussels sprout allergenic extract,PE,Concept,NA,SPL
+899394,buckwheat allergenic extract,PE,IN,NA,RxNorm
+899394,buckwheat allergenic extract,PE,Concept,NA,SPL
+899398,cabbage allergenic extract,PE,IN,NA,RxNorm
+899398,cabbage allergenic extract,PE,Concept,NA,SPL
+899414,garlic allergenic extract,PE,IN,NA,RxNorm
+899414,garlic allergenic extract,PE,Concept,NA,SPL
+899420,ginger allergenic extract,PE,IN,NA,RxNorm
+899420,ginger allergenic extract,PE,Concept,NA,SPL
+899424,grapefruit allergenic extract,PE,IN,NA,RxNorm
+899424,grapefruit allergenic extract,PE,Concept,NA,SPL
+899428,haddock allergenic extract,PE,IN,NA,RxNorm
+899428,haddock allergenic extract,PE,Concept,NA,SPL
+899434,herring allergenic extract,PE,IN,NA,RxNorm
+899434,herring allergenic extract,PE,Concept,NA,SPL
+899444,lentil allergenic extract,PE,IN,NA,RxNorm
+899444,lentil allergenic extract,PE,Concept,NA,SPL
+899448,lettuce allergenic extract,PE,IN,NA,RxNorm
+899448,lettuce allergenic extract,PE,Concept,NA,SPL
+899452,mustard greens allergenic extract,PE,IN,NA,RxNorm
+899452,mustard greens allergenic extract,PE,Concept,NA,SPL
+899456,mustard seed allergenic extract,PE,IN,NA,RxNorm
+899456,mustard seed allergenic extract,PE,Concept,NA,SPL
+899466,onion allergenic extract,PE,IN,NA,RxNorm
+899466,onion allergenic extract,PE,Concept,NA,SPL
+899470,plum allergenic extract,PE,IN,NA,RxNorm
+899470,plum allergenic extract,PE,Concept,NA,SPL
+899476,honeydew melon allergenic extract,PE,IN,NA,RxNorm
+899476,honeydew melon allergenic extract,PE,Concept,NA,SPL
+899490,black-eyed pea allergenic extract,PE,IN,NA,RxNorm
+899490,black-eyed pea allergenic extract,PE,Concept,NA,SPL
+899550,yellow birch pollen extract,PE,IN,NA,RxNorm
+899550,yellow birch pollen extract,PE,Concept,NA,SPL
+899576,paper birch pollen extract,PE,IN,NA,RxNorm
+899576,paper birch pollen extract,PE,Concept,NA,SPL
+899593,mulberry pollen extract,PE,IN,NA,RxNorm
+899593,mulberry pollen extract,PE,Concept,NA,SPL
+899611,blue beech pollen extract,PE,IN,NA,RxNorm
+899611,blue beech pollen extract,PE,Concept,NA,SPL
+899637,caraway seed allergenic extract,PE,IN,NA,RxNorm
+899637,caraway seed allergenic extract,PE,Concept,NA,SPL
+899645,bitternut hickory pollen extract,PE,IN,NA,RxNorm
+899645,bitternut hickory pollen extract,PE,Concept,NA,SPL
+899650,pignut hickory pollen extract,PE,IN,NA,RxNorm
+899650,pignut hickory pollen extract,PE,Concept,NA,SPL
+899661,cauliflower allergenic extract,PE,IN,NA,RxNorm
+899661,cauliflower allergenic extract,PE,Concept,NA,SPL
+899673,cinnamon allergenic extract,PE,IN,NA,RxNorm
+899673,cinnamon allergenic extract,PE,Concept,NA,SPL
+899724,clove allergenic extract,PE,IN,NA,RxNorm
+899724,clove allergenic extract,PE,Concept,NA,SPL
+899734,cranberry allergenic extract,PE,IN,NA,RxNorm
+899734,cranberry allergenic extract,PE,Concept,NA,SPL
+899738,cucumber allergenic extract,PE,IN,NA,RxNorm
+899738,cucumber allergenic extract,PE,Concept,NA,SPL
+899742,date allergenic extract,PE,IN,NA,RxNorm
+899742,date allergenic extract,PE,Concept,NA,SPL
+899746,flounder allergenic extract,PE,IN,NA,RxNorm
+899746,flounder allergenic extract,PE,Concept,NA,SPL
+899873,paprika allergenic extract,PE,IN,NA,RxNorm
+899873,paprika allergenic extract,PE,Concept,NA,SPL
+899877,parsley allergenic extract,PE,IN,NA,RxNorm
+899877,parsley allergenic extract,PE,Concept,NA,SPL
+899906,raspberry allergenic extract,PE,IN,NA,RxNorm
+899906,raspberry allergenic extract,PE,Concept,NA,SPL
+899916,scallop allergenic extract,PE,IN,NA,RxNorm
+899916,scallop allergenic extract,PE,Concept,NA,SPL
+900025,Atlantic cod allergenic extract,PE,IN,NA,RxNorm
+900025,Atlantic cod allergenic extract,PE,Concept,NA,SPL
+900031,Atlantic salmon allergenic extract,PE,IN,NA,RxNorm
+900031,Atlantic salmon allergenic extract,PE,Concept,NA,SPL
+900045,Oregon ash pollen extract,PE,IN,NA,RxNorm
+900045,Oregon ash pollen extract,PE,Concept,NA,SPL
+900108,oneseed juniper pollen extract,PE,IN,NA,RxNorm
+900108,oneseed juniper pollen extract,PE,Concept,NA,SPL
+900113,redberry juniper pollen extract,PE,IN,NA,RxNorm
+900113,redberry juniper pollen extract,PE,Concept,NA,SPL
+900148,giant wild rye pollen extract,PE,IN,NA,RxNorm
+900148,giant wild rye pollen extract,PE,Concept,NA,SPL
+900704,blue spruce pollen extract,PE,IN,NA,RxNorm
+900704,blue spruce pollen extract,PE,Concept,NA,SPL
+900731,slash pine pollen extract,PE,IN,NA,RxNorm
+900731,slash pine pollen extract,PE,Concept,NA,SPL
+900743,western white pine pollen extract,PE,IN,NA,RxNorm
+900743,western white pine pollen extract,PE,Concept,NA,SPL
+900750,Austrian pine pollen extract,PE,IN,NA,RxNorm
+900750,Austrian pine pollen extract,PE,Concept,NA,SPL
+900754,red pine pollen extract,PE,IN,NA,RxNorm
+900754,red pine pollen extract,PE,Concept,NA,SPL
+900758,pitch pine pollen extract,PE,IN,NA,RxNorm
+900758,pitch pine pollen extract,PE,Concept,NA,SPL
+900764,Scotch pine pollen extract,PE,IN,NA,RxNorm
+900764,Scotch pine pollen extract,PE,Concept,NA,SPL
+900770,loblolly pine pollen extract,PE,IN,NA,RxNorm
+900770,loblolly pine pollen extract,PE,Concept,NA,SPL
+900777,Japanese black pine pollen extract,PE,IN,NA,RxNorm
+900777,Japanese black pine pollen extract,PE,Concept,NA,SPL
+900987,Garrys oak pollen extract,PE,IN,NA,RxNorm
+900987,Garrys oak pollen extract,PE,Concept,NA,SPL
+900991,bur oak pollen extract,PE,IN,NA,RxNorm
+900991,bur oak pollen extract,PE,Concept,NA,SPL
+900999,pin oak pollen extract,PE,IN,NA,RxNorm
+900999,pin oak pollen extract,PE,Concept,NA,SPL
+901011,post oak pollen extract,PE,IN,NA,RxNorm
+901011,post oak pollen extract,PE,Concept,NA,SPL
+901191,Concord grape allergenic extract,PE,IN,NA,RxNorm
+901191,Concord grape allergenic extract,PE,Concept,NA,SPL
+901199,sesame seed allergenic extract,PE,IN,NA,RxNorm
+901199,sesame seed allergenic extract,PE,Concept,NA,SPL
+901203,sunflower seed allergenic extract,PE,IN,NA,RxNorm
+901203,sunflower seed allergenic extract,PE,Concept,NA,SPL
+901258,watermelon allergenic extract,PE,IN,NA,RxNorm
+901258,watermelon allergenic extract,PE,Concept,NA,SPL
+901265,white fish allergenic extract,PE,IN,NA,RxNorm
+901265,white fish allergenic extract,PE,Concept,NA,SPL
+901283,swordfish allergenic extract,PE,IN,NA,RxNorm
+901283,swordfish allergenic extract,PE,Concept,NA,SPL
+901291,vanilla bean allergenic extract,PE,IN,NA,RxNorm
+901291,vanilla bean allergenic extract,PE,Concept,NA,SPL
+901299,whole wheat allergenic extract,PE,IN,NA,RxNorm
+901299,whole wheat allergenic extract,PE,Concept,NA,SPL
+901307,sweet potato allergenic extract,PE,IN,NA,RxNorm
+901307,sweet potato allergenic extract,PE,Concept,NA,SPL
+901313,spearmint allergenic extract,PE,IN,NA,RxNorm
+901313,spearmint allergenic extract,PE,Concept,NA,SPL
+901317,spinach allergenic extract,PE,IN,NA,RxNorm
+901317,spinach allergenic extract,PE,Concept,NA,SPL
+901329,red bell pepper allergenic extract,PE,IN,NA,RxNorm
+901329,red bell pepper allergenic extract,PE,Concept,NA,SPL
+901351,flaxseed allergenic extract,PE,IN,NA,RxNorm
+901351,flaxseed allergenic extract,PE,Concept,NA,SPL
+901365,cumin allergenic extract,PE,IN,NA,RxNorm
+901365,cumin allergenic extract,PE,Concept,NA,SPL
+901369,cultivated mushroom allergenic extract,PE,IN,NA,RxNorm
+901369,cultivated mushroom allergenic extract,PE,Concept,NA,SPL
+901382,lemon allergenic extract,PE,IN,NA,RxNorm
+901382,lemon allergenic extract,PE,Concept,NA,SPL
+901390,common carp allergenic extract,PE,IN,NA,RxNorm
+901390,common carp allergenic extract,PE,Concept,NA,SPL
+901505,Neisseria meningitidis serogroup A oligosaccharide diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+901505,Neisseria meningitidis serogroup A oligosaccharide diphtheria CRM197 protein conjugate vaccine,PE,Concept,NA,SPL
+901507,Neisseria meningitidis serogroup C oligosaccharide diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+901507,Neisseria meningitidis serogroup C oligosaccharide diphtheria CRM197 protein conjugate vaccine,PE,Concept,NA,SPL
+901509,Neisseria meningitidis serogroup W-135 oligosaccharide diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+901509,Neisseria meningitidis serogroup W-135 oligosaccharide diphtheria CRM197 protein conjugate vaccine,PE,Concept,NA,SPL
+901511,Neisseria meningitidis serogroup Y oligosaccharide diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+901511,Neisseria meningitidis serogroup Y oligosaccharide diphtheria CRM197 protein conjugate vaccine,PE,Concept,NA,SPL
+901620,Streptococcus pneumoniae serotype 1 capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+901620,Streptococcus pneumoniae serotype 1 capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,Concept,NA,SPL
+901624,Streptococcus pneumoniae serotype 19A capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+901624,Streptococcus pneumoniae serotype 19A capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,Concept,NA,SPL
+901628,Streptococcus pneumoniae serotype 3 capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+901628,Streptococcus pneumoniae serotype 3 capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,Concept,NA,SPL
+901631,Streptococcus pneumoniae serotype 5 capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+901631,Streptococcus pneumoniae serotype 5 capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,Concept,NA,SPL
+901633,Streptococcus pneumoniae serotype 6A capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+901633,Streptococcus pneumoniae serotype 6A capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,Concept,NA,SPL
+901636,Streptococcus pneumoniae serotype 7F capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+901636,Streptococcus pneumoniae serotype 7F capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,Concept,NA,SPL
+901845,Alternaria alternata allergenic extract,PE,IN,NA,RxNorm
+901845,Alternaria alternata allergenic extract,PE,Concept,NA,SPL
+902215,common cocklebur pollen extract,PE,IN,NA,RxNorm
+902215,common cocklebur pollen extract,PE,Concept,NA,SPL
+903913,broad leaved paperbark pollen extract,PE,IN,NA,RxNorm
+903913,broad leaved paperbark pollen extract,PE,Concept,NA,SPL
+904498,carob allergenic extract,PE,IN,NA,RxNorm
+904498,carob allergenic extract,PE,Concept,NA,SPL
+904507,egg (chicken) allergenic extract,PE,IN,NA,RxNorm
+904507,egg (chicken) allergenic extract,PE,Concept,NA,SPL
+904606,pistachio nut allergenic extract,PE,IN,NA,RxNorm
+904606,pistachio nut allergenic extract,PE,Concept,NA,SPL
+905070,Acremonium strictum allergenic extract,PE,IN,NA,RxNorm
+905070,Acremonium strictum allergenic extract,PE,Concept,NA,SPL
+905088,Acrothecium robustum allergenic extract,PE,IN,NA,RxNorm
+905088,Acrothecium robustum allergenic extract,PE,Concept,NA,SPL
+905258,American cockroach allergenic extract,PE,IN,NA,RxNorm
+905258,American cockroach allergenic extract,PE,Concept,NA,SPL
+905276,German cockroach allergenic extract,PE,IN,NA,RxNorm
+905276,German cockroach allergenic extract,PE,Concept,NA,SPL
+91266,rhubarb preparation,PE,IN,NA,RxNorm
+91266,rhubarb preparation,PE,Concept,NA,SPL
+91601,"lymphocyte immune globulin, anti-thymocyte globulin, equine",PE,PIN,NA,RxNorm
+91601,"lymphocyte immune globulin, anti-thymocyte globulin, equine",PE,Concept,NA,SPL
+9260,reserpine,PE,IN,NA,RxNorm
+9260,reserpine,PE,Concept,NA,SPL
+9511,Saccharomyces cerevisiae,PE,IN,NA,RxNorm
+9511,Saccharomyces cerevisiae,PE,Concept,NA,SPL
+966692,algal fungi allergenic extract,PE,IN,NA,RxNorm
+966692,algal fungi allergenic extract,PE,Concept,NA,SPL
+966696,orange pekoe tea allergenic extract,PE,IN,NA,RxNorm
+966696,orange pekoe tea allergenic extract,PE,Concept,NA,SPL
+966925,cotton fiber allergenic extract,PE,IN,NA,RxNorm
+966925,cotton fiber allergenic extract,PE,Concept,NA,SPL
+966943,Penicillium camemberti allergenic extract,PE,IN,NA,RxNorm
+966943,Penicillium camemberti allergenic extract,PE,Concept,NA,SPL
+966979,Paecilomyces variotii allergenic extract,PE,IN,NA,RxNorm
+966979,Paecilomyces variotii allergenic extract,PE,Concept,NA,SPL
+966995,Phoma destructiva allergenic extract,PE,IN,NA,RxNorm
+966995,Phoma destructiva allergenic extract,PE,Concept,NA,SPL
+967033,Candida tropicalis allergenic extract,PE,IN,NA,RxNorm
+967033,Candida tropicalis allergenic extract,PE,Concept,NA,SPL
+967111,Penicillium expansum allergenic extract,PE,IN,NA,RxNorm
+967111,Penicillium expansum allergenic extract,PE,Concept,NA,SPL
+967529,Rhodotorula mucilaginosa allergenic extract,PE,IN,NA,RxNorm
+967529,Rhodotorula mucilaginosa allergenic extract,PE,Concept,NA,SPL
+967721,Rhizopus stolonifer allergenic extract,PE,IN,NA,RxNorm
+967721,Rhizopus stolonifer allergenic extract,PE,Concept,NA,SPL
+967960,Penicillium italicum allergenic extract,PE,IN,NA,RxNorm
+967960,Penicillium italicum allergenic extract,PE,Concept,NA,SPL
+967970,Pyrethrum cinerariifolium allergenic extract,PE,IN,NA,RxNorm
+967970,Pyrethrum cinerariifolium allergenic extract,PE,Concept,NA,SPL
+968114,Phanerodontia chrysosporium allergenic extract,PE,IN,NA,RxNorm
+968114,Phanerodontia chrysosporium allergenic extract,PE,Concept,NA,SPL
+968123,Stachybotrys chartarum allergenic extract,PE,IN,NA,RxNorm
+968123,Stachybotrys chartarum allergenic extract,PE,Concept,NA,SPL
+968130,Stemphylium sarciniforme allergenic extract,PE,IN,NA,RxNorm
+968130,Stemphylium sarciniforme allergenic extract,PE,Concept,NA,SPL
+968170,polidocanol,PE,IN,NA,RxNorm
+968170,polidocanol,PE,Concept,NA,SPL
+968197,Trichoderma harzianum allergenic extract,PE,IN,NA,RxNorm
+968197,Trichoderma harzianum allergenic extract,PE,Concept,NA,SPL
+968401,Trichoderma viride allergenic extract,PE,IN,NA,RxNorm
+968401,Trichoderma viride allergenic extract,PE,Concept,NA,SPL
+968413,Trichophyton rubrum allergenic extract,PE,IN,NA,RxNorm
+968413,Trichophyton rubrum allergenic extract,PE,Concept,NA,SPL
+968422,Trichophyton schoenleinii allergenic extract,PE,IN,NA,RxNorm
+968422,Trichophyton schoenleinii allergenic extract,PE,Concept,NA,SPL
+968426,Trichothecium roseum allergenic extract,PE,IN,NA,RxNorm
+968426,Trichothecium roseum allergenic extract,PE,Concept,NA,SPL
+968437,loose wheat smut allergenic extract,PE,IN,NA,RxNorm
+968437,loose wheat smut allergenic extract,PE,Concept,NA,SPL
+968467,Verticillium albo-atrum allergenic extract,PE,IN,NA,RxNorm
+968467,Verticillium albo-atrum allergenic extract,PE,Concept,NA,SPL
+968492,loose barley smut allergenic extract,PE,IN,NA,RxNorm
+968492,loose barley smut allergenic extract,PE,Concept,NA,SPL
+968498,tea leaf extract,PE,IN,NA,RxNorm
+968498,tea leaf extract,PE,Concept,NA,SPL
+968502,Tetracoccosporium paxianum allergenic extract,PE,IN,NA,RxNorm
+968502,Tetracoccosporium paxianum allergenic extract,PE,Concept,NA,SPL
+968506,Syncephalastrum racemosum allergenic extract,PE,IN,NA,RxNorm
+968506,Syncephalastrum racemosum allergenic extract,PE,Concept,NA,SPL
+971166,white catfish allergenic extract,PE,IN,NA,RxNorm
+971166,white catfish allergenic extract,PE,Concept,NA,SPL
+971198,Pleospora herbarum allergenic extract,PE,IN,NA,RxNorm
+971198,Pleospora herbarum allergenic extract,PE,Concept,NA,SPL
+971379,green olive allergenic extract,PE,IN,NA,RxNorm
+971379,green olive allergenic extract,PE,Concept,NA,SPL
+971849,lamb allergenic extract,PE,IN,NA,RxNorm
+971849,lamb allergenic extract,PE,Concept,NA,SPL
+971932,oat allergenic extract,PE,IN,NA,RxNorm
+971932,oat allergenic extract,PE,Concept,NA,SPL
+972037,duck allergenic extract,PE,IN,NA,RxNorm
+972037,duck allergenic extract,PE,Concept,NA,SPL
+972365,Penicillium roquefortii allergenic extract,PE,IN,NA,RxNorm
+972365,Penicillium roquefortii allergenic extract,PE,Concept,NA,SPL
+972480,red currant allergenic extract,PE,IN,NA,RxNorm
+972480,red currant allergenic extract,PE,Concept,NA,SPL
+972601,eggplant allergenic extract,PE,IN,NA,RxNorm
+972601,eggplant allergenic extract,PE,Concept,NA,SPL
+972689,beef liver allergenic extract,PE,IN,NA,RxNorm
+972689,beef liver allergenic extract,PE,Concept,NA,SPL
+973274,oyster allergenic extract,PE,IN,NA,RxNorm
+973274,oyster allergenic extract,PE,Concept,NA,SPL
+973447,cricket allergenic extract,PE,IN,NA,RxNorm
+973447,cricket allergenic extract,PE,Concept,NA,SPL
+973880,fig allergenic extract,PE,IN,NA,RxNorm
+973880,fig allergenic extract,PE,Concept,NA,SPL
+974129,sardine allergenic extract,PE,IN,NA,RxNorm
+974129,sardine allergenic extract,PE,Concept,NA,SPL
+974140,English sole allergenic extract,PE,IN,NA,RxNorm
+974140,English sole allergenic extract,PE,Concept,NA,SPL
+974527,thyme allergenic extract,PE,IN,NA,RxNorm
+974527,thyme allergenic extract,PE,Concept,NA,SPL
+974650,black olive allergenic extract,PE,IN,NA,RxNorm
+974650,black olive allergenic extract,PE,Concept,NA,SPL
+974687,radish allergenic extract,PE,IN,NA,RxNorm
+974687,radish allergenic extract,PE,Concept,NA,SPL
+974741,mosquito allergenic extract,PE,IN,NA,RxNorm
+974741,mosquito allergenic extract,PE,Concept,NA,SPL
+975119,turkey allergenic extract,PE,IN,NA,RxNorm
+975119,turkey allergenic extract,PE,Concept,NA,SPL
+975509,squash allergenic extract,PE,IN,NA,RxNorm
+975509,squash allergenic extract,PE,Concept,NA,SPL
+975763,dill allergenic extract,PE,IN,NA,RxNorm
+975763,dill allergenic extract,PE,Concept,NA,SPL
+976711,perch allergenic extract,PE,IN,NA,RxNorm
+976711,perch allergenic extract,PE,Concept,NA,SPL
+99,6-aminocaproic acid,PE,IN,NA,RxNorm
+99,6-aminocaproic acid,PE,Concept,NA,SPL
+9947,sotalol,PE,IN,NA,RxNorm
+9947,sotalol,PE,Concept,NA,SPL
+995699,cochliobolus spicifer allergenic extract,PE,IN,NA,RxNorm
+995699,cochliobolus spicifer allergenic extract,PE,Concept,NA,SPL
+995703,dendryphiella vinosa allergenic extract,PE,IN,NA,RxNorm
+995703,dendryphiella vinosa allergenic extract,PE,Concept,NA,SPL
+995707,epidermophyton floccosum allergenic extract,PE,IN,NA,RxNorm
+995707,epidermophyton floccosum allergenic extract,PE,Concept,NA,SPL
+995727,Lichtheimia corymbifera allergenic extract,PE,IN,NA,RxNorm
+995727,Lichtheimia corymbifera allergenic extract,PE,Concept,NA,SPL
+995738,black imported fire ant allergenic extract,PE,IN,NA,RxNorm
+995738,black imported fire ant allergenic extract,PE,Concept,NA,SPL
+995743,Canada goldenrod pollen extract,PE,IN,NA,RxNorm
+995743,Canada goldenrod pollen extract,PE,Concept,NA,SPL
+995747,bald cypress pollen extract,PE,IN,NA,RxNorm
+995747,bald cypress pollen extract,PE,Concept,NA,SPL
+995754,American basswood pollen extract,PE,IN,NA,RxNorm
+995754,American basswood pollen extract,PE,Concept,NA,SPL
+996051,cabazitaxel,PE,IN,NA,RxNorm
+996051,cabazitaxel,PE,Concept,NA,SPL
+997261,sipuleucel-T,PE,IN,NA,RxNorm
+997261,sipuleucel-T,PE,Concept,NA,SPL
+999384,Aspergillus flavus allergenic extract,PE,IN,NA,RxNorm
+999384,Aspergillus flavus allergenic extract,PE,Concept,NA,SPL
+999438,Curvularia inequalis allergenic extract,PE,IN,NA,RxNorm
+999438,Curvularia inequalis allergenic extract,PE,Concept,NA,SPL
+999450,Eurotium herbariorum allergenic extract,PE,IN,NA,RxNorm
+999450,Eurotium herbariorum allergenic extract,PE,Concept,NA,SPL
+999457,Fusarium compactum allergenic extract,PE,IN,NA,RxNorm
+999457,Fusarium compactum allergenic extract,PE,Concept,NA,SPL
+999463,Geotrichum candidum allergenic extract,PE,IN,NA,RxNorm
+999463,Geotrichum candidum allergenic extract,PE,Concept,NA,SPL
+999487,Puccinia graminis allergenic extract,PE,IN,NA,RxNorm
+999487,Puccinia graminis allergenic extract,PE,Concept,NA,SPL

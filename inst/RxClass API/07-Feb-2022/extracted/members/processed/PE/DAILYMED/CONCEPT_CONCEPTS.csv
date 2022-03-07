@@ -1,0 +1,2031 @@
+concept_code,concept_name,class_type,concept_class_id,standard_concept,vocabulary_id
+005990WHZZ,DEOXYCHOLIC ACID,PE,Concept,NA,DailyMed
+00CR8124AS,ENGLISH SOLE,PE,Concept,NA,DailyMed
+00UK7646FG,CAPSICUM,PE,Concept,NA,DailyMed
+01695YPV36,SWORDFISH,PE,Concept,NA,DailyMed
+01G73H6H83,HOPS,PE,Concept,NA,DailyMed
+01W430XXSQ,TETRAMETHYLTHIURAM MONOSULFIDE,PE,Concept,NA,DailyMed
+01ZG3TPX31,BUPROPION,PE,Concept,NA,DailyMed
+02RVY6X9EC,QUERCUS KELLOGGII POLLEN,PE,Concept,NA,DailyMed
+02WM57RXZJ,BLACK WALNUT,PE,Concept,NA,DailyMed
+030R993R8E,ULMUS PUMILA POLLEN,PE,Concept,NA,DailyMed
+042SUA2DS9,PINUS PONDEROSA POLLEN,PE,Concept,NA,DailyMed
+046O35D44R,PRILOCAINE,PE,Concept,NA,DailyMed
+05S7L91ZTR,CANIS LUPUS FAMILIARIS HAIR,PE,Concept,NA,DailyMed
+0619F35CGV,TETRACAINE,PE,Concept,NA,DailyMed
+065C5D077J,SAGE,PE,Concept,NA,DailyMed
+07A108ZKW5,BASSIA SCOPARIA POLLEN,PE,Concept,NA,DailyMed
+098LKX5NCN,CHENOPODIUM ALBUM POLLEN,PE,Concept,NA,DailyMed
+09N62XQ70Y,ORYCTOLAGUS CUNICULUS HAIR,PE,Concept,NA,DailyMed
+0AWH8BFG9A,POLIDOCANOL,PE,Concept,NA,DailyMed
+0B535E0BN0,NEDOCROMIL,PE,Concept,NA,DailyMed
+0D771IS0FH,THIRAM,PE,Concept,NA,DailyMed
+0E5AT8T16U,OREGANO,PE,Concept,NA,DailyMed
+0G76K8X6C0,METHSUXIMIDE,PE,Concept,NA,DailyMed
+0G82TT8ZFY,JUNIPERUS SCOPULORUM POLLEN,PE,Concept,NA,DailyMed
+0GTO5BR99M,KRASCHENINNIKOVIA LANATA POLLEN,PE,Concept,NA,DailyMed
+0H1V4V5V9L,JUNIPERUS CALIFORNICA POLLEN,PE,Concept,NA,DailyMed
+0H73WJJ391,TOPIRAMATE,PE,Concept,NA,DailyMed
+0IEO0F56LV,INOTERSEN,PE,Concept,NA,DailyMed
+0J0X819B3C,MUCOR CIRCINELLOIDES F. LUSITANICUS,PE,Concept,NA,DailyMed
+0J48LPH2TH,HYDROCHLOROTHIAZIDE,PE,Concept,NA,DailyMed
+0K0S2P98ZJ,STREPTOCOCCUS PNEUMONIAE TYPE 7F CAPSULAR POLYSACCHARIDE DIPHTHERIA CRM197 PROTEIN CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+0K5C5T2QPG,LANSOPRAZOLE,PE,Concept,NA,DailyMed
+0LVY784C09,POLIOVIRUS TYPE 1 ANTIGEN (FORMALDEHYDE INACTIVATED),PE,Concept,NA,DailyMed
+0M3S43XK27,BENZPHETAMINE,PE,Concept,NA,DailyMed
+0M7PSL4100,"N-ISOPROPYL-N'-PHENYL-1,4-PHENYLENEDIAMINE",PE,Concept,NA,DailyMed
+0MGE63QPFJ,POPULUS NIGRA POLLEN,PE,Concept,NA,DailyMed
+0MVO31Q3QS,CRANBERRY,PE,Concept,NA,DailyMed
+0MZI008M96,SALMONELLA TYPHI TY21A LIVE ANTIGEN,PE,Concept,NA,DailyMed
+0N3Z1P4B2W,PLEOSPORA HERBARUM,PE,Concept,NA,DailyMed
+0N8672707O,CORN,PE,Concept,NA,DailyMed
+0P94UQE6SY,COAGULATION FACTOR X HUMAN,PE,Concept,NA,DailyMed
+0R0008Q3JB,CHROMIUM,PE,Concept,NA,DailyMed
+0R4AQI398X,RYE,PE,Concept,NA,DailyMed
+0U790UB32K,CITRUS SINENSIS POLLEN,PE,Concept,NA,DailyMed
+0V3J4YEX2W,USTILAGO CYNODONTIS,PE,Concept,NA,DailyMed
+0WLY635722,HADDOCK,PE,Concept,NA,DailyMed
+0X5GW3050M,VEAL,PE,Concept,NA,DailyMed
+0X8Q245Y7B,CHICKEN,PE,Concept,NA,DailyMed
+0X9PA28K43,VERTEPORFIN,PE,Concept,NA,DailyMed
+0XH1TH76XZ,AMERICAN CHESTNUT,PE,Concept,NA,DailyMed
+0Y2S3XUQ5H,BUMETANIDE,PE,Concept,NA,DailyMed
+0YJW8KYT51,BLACK SEA BASS,PE,Concept,NA,DailyMed
+0ZK6G3W3BI,XANTHIUM STRUMARIUM VAR. CANADENSE POLLEN,PE,Concept,NA,DailyMed
+1006258,Apiospora montagnei allergenic extract,PE,IN,NA,RxNorm
+1006310,Aspergillus repens allergenic extract,PE,IN,NA,RxNorm
+1006495,Indian wormwood sage pollen extract,PE,IN,NA,RxNorm
+1006506,tall oat grass pollen extract,PE,IN,NA,RxNorm
+1006510,barley malt allergenic extract,PE,IN,NA,RxNorm
+1010915,chocolate allergenic extract,PE,IN,NA,RxNorm
+1010932,leek allergenic extract,PE,IN,NA,RxNorm
+1010965,oregano allergenic extract,PE,IN,NA,RxNorm
+1011017,poppy seed allergenic extract,PE,IN,NA,RxNorm
+1011021,okra allergenic extract,PE,IN,NA,RxNorm
+1011027,parsnip allergenic extract,PE,IN,NA,RxNorm
+1011043,horseradish allergenic extract,PE,IN,NA,RxNorm
+1011049,chickpea allergenic extract,PE,IN,NA,RxNorm
+1011060,lime allergenic extract,PE,IN,NA,RxNorm
+1011404,mango allergenic extract,PE,IN,NA,RxNorm
+1011412,tangerine allergenic extract,PE,IN,NA,RxNorm
+1011418,watercress allergenic extract,PE,IN,NA,RxNorm
+1011426,papaya allergenic extract,PE,IN,NA,RxNorm
+1011627,sage leaf allergenic extract,PE,IN,NA,RxNorm
+1012026,veal allergenic extract,PE,IN,NA,RxNorm
+1012134,sour cherry allergenic extract,PE,IN,NA,RxNorm
+1013913,scrub pine pollen extract,PE,IN,NA,RxNorm
+1013944,water oak pollen extract,PE,IN,NA,RxNorm
+1014191,cedar elm pollen extract,PE,IN,NA,RxNorm
+1014340,Italian rye grass pollen extract,PE,IN,NA,RxNorm
+1014360,longleaf pine pollen extract,PE,IN,NA,RxNorm
+1014385,Bermuda grass smut allergenic extract,PE,IN,NA,RxNorm
+1014391,Humicola grisea allergenic extract,PE,IN,NA,RxNorm
+1014395,Microsporum audouinii allergenic extract,PE,IN,NA,RxNorm
+1014399,microsporum canis allergenic extract,PE,IN,NA,RxNorm
+1014447,yellow sweet clover pollen extract,PE,IN,NA,RxNorm
+1014690,jack pine pollen extract,PE,IN,NA,RxNorm
+1014707,redwood pollen extract,PE,IN,NA,RxNorm
+1014721,California black oak pollen extract,PE,IN,NA,RxNorm
+1014731,Canadian bluegrass pollen extract,PE,IN,NA,RxNorm
+1014735,white sweet clover pollen extract,PE,IN,NA,RxNorm
+1014739,bitter dock pollen extract,PE,IN,NA,RxNorm
+1014743,white (mexican) dock pollen extract,PE,IN,NA,RxNorm
+1014755,western black willow pollen extract,PE,IN,NA,RxNorm
+1014762,balsam poplar pollen extract,PE,IN,NA,RxNorm
+1014766,Jerusalem oak pollen extract,PE,IN,NA,RxNorm
+1014774,cultivated rye grass pollen extract,PE,IN,NA,RxNorm
+10154,succinylcholine,PE,IN,NA,RxNorm
+10391,tetracaine,PE,IN,NA,RxNorm
+10432,thalidomide,PE,IN,NA,RxNorm
+1044584,tesamorelin,PE,IN,NA,RxNorm
+1045453,eribulin,PE,IN,NA,RxNorm
+10517,thiram,PE,IN,NA,RxNorm
+10528,thrombin,PE,IN,NA,RxNorm
+105694,epoetin alfa,PE,IN,NA,RxNorm
+10594,ticlopidine,PE,IN,NA,RxNorm
+10691,tranexamic acid,PE,IN,NA,RxNorm
+107044,rabbit anti-human T-lymphocyte globulin,PE,PIN,NA,RxNorm
+10763,triamterene,PE,IN,NA,RxNorm
+1091605,"factor XIII, human",PE,PIN,NA,RxNorm
+1091643,azilsartan,PE,IN,NA,RxNorm
+1092437,belimumab,PE,IN,NA,RxNorm
+1094116,creeping bentgrass pollen extract,PE,IN,NA,RxNorm
+1094193,broomweed pollen extract,PE,IN,NA,RxNorm
+1094833,ipilimumab,PE,IN,NA,RxNorm
+1098118,cultivated barley pollen extract,PE,IN,NA,RxNorm
+1098130,narrowleaf marshelder pollen extract,PE,IN,NA,RxNorm
+1098183,largemouth bass allergenic extract,PE,IN,NA,RxNorm
+1098189,osage orange pollen extract,PE,IN,NA,RxNorm
+1098200,Neurospora sitophila allergenic extract,PE,IN,NA,RxNorm
+1098232,littleseed canary grass pollen extract,PE,IN,NA,RxNorm
+1098257,Douglas fir pollen extract,PE,IN,NA,RxNorm
+1098353,orris root allergenic extract,PE,IN,NA,RxNorm
+1098455,Sudan grass pollen extract,PE,IN,NA,RxNorm
+1098619,Trichophyton tonsurans allergenic extract,PE,IN,NA,RxNorm
+10X0709Y6I,BISACODYL,PE,Concept,NA,DailyMed
+11055,urokinase,PE,IN,NA,RxNorm
+1111024,valley oak pollen extract,PE,IN,NA,RxNorm
+11118,valproic acid,PE,PIN,NA,RxNorm
+1112973,belatacept,PE,IN,NA,RxNorm
+1114345,bronopol,PE,IN,NA,RxNorm
+1116632,ticagrelor,PE,IN,NA,RxNorm
+1116977,American house dust mite allergenic extract,PE,IN,NA,RxNorm
+1116979,European house dust mite allergenic extract,PE,IN,NA,RxNorm
+1117083,weakleaf bur ragweed pollen extract,PE,IN,NA,RxNorm
+1119986,Centruroides (scorpion) immune F(ab')2 (equine),PE,IN,NA,RxNorm
+112YH1ZMX2,LIMA BEAN,PE,Concept,NA,DailyMed
+114477,levetiracetam,PE,IN,NA,RxNorm
+1147320,brentuximab vedotin,PE,IN,NA,RxNorm
+118886,verteporfin,PE,IN,NA,RxNorm
+1191,aspirin,PE,IN,NA,RxNorm
+1192729,Colletotrichum coccodes allergenic extract,PE,IN,NA,RxNorm
+1192968,Hypomyces perniciosus allergenic extract,PE,IN,NA,RxNorm
+1192987,parakeet feather allergenic extract,PE,IN,NA,RxNorm
+1192992,Microascus brevicaulis allergenic extract,PE,IN,NA,RxNorm
+1192997,gliocladium allergenic extract,PE,IN,NA,RxNorm
+11JCK302I4,CANIS LUPUS FAMILIARIS DANDER,PE,Concept,NA,DailyMed
+1218,atracurium,PE,IN,NA,RxNorm
+1232604,pale dock pollen extract,PE,IN,NA,RxNorm
+1232637,broadleaf cattail pollen extract,PE,IN,NA,RxNorm
+1242806,ingenol mebutate,PE,IN,NA,RxNorm
+124323,grapefruit extract,PE,IN,NA,RxNorm
+1244607,tafluprost,PE,IN,NA,RxNorm
+125933,cranberry preparation,PE,IN,NA,RxNorm
+125OD7737X,METHOCARBAMOL,PE,Concept,NA,DailyMed
+1291,bacitracin,PE,IN,NA,RxNorm
+1292422,varicella-zoster virus vaccine live (Oka-Merck) strain,PE,IN,NA,RxNorm
+1294632,northern paper wasp venom protein,PE,IN,NA,RxNorm
+1297525,bald-faced hornet venom protein,PE,IN,NA,RxNorm
+1297527,common wasp venom protein,PE,IN,NA,RxNorm
+1297529,eastern yellow jacket venom protein,PE,IN,NA,RxNorm
+1297531,German wasp venom protein,PE,IN,NA,RxNorm
+1297533,southern yellow jacket venom protein,PE,IN,NA,RxNorm
+1297535,western yellow jacket venom protein,PE,IN,NA,RxNorm
+1297537,yellow hornet venom protein,PE,IN,NA,RxNorm
+1299785,human adenovirus E serotype 4 strain CL-68578,PE,PIN,NA,RxNorm
+1299922,docetaxel anhydrous,PE,PIN,NA,RxNorm
+1299981,Siberian elm pollen extract,PE,IN,NA,RxNorm
+129L90A25N,HUMAN CYTOMEGALOVIRUS IMMUNE GLOBULIN,PE,Concept,NA,DailyMed
+12MCS4H09N,QUINCE,PE,Concept,NA,DailyMed
+12ZC3K09X7,YELLOWFIN TUNA,PE,Concept,NA,DailyMed
+1300180,"Bordetella pertussis filamentous hemagglutinin vaccine, inactivated",PE,PIN,NA,RxNorm
+1300182,"Bordetella pertussis fimbriae 2/3 vaccine, inactivated",PE,PIN,NA,RxNorm
+1300184,"Bordetella pertussis pertactin vaccine, inactivated",PE,PIN,NA,RxNorm
+1300186,"Bordetella pertussis toxoid vaccine, inactivated",PE,PIN,NA,RxNorm
+1300464,"Haemophilus influenzae type b strain 1482, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine",PE,PIN,NA,RxNorm
+1300486,"antihemophilic factor, human recombinant",PE,PIN,NA,RxNorm
+1300488,nonacog alfa,PE,PIN,NA,RxNorm
+1300779,"Japanese encephalitis virus vaccine Nakayama-NIH strain, inactivated",PE,PIN,NA,RxNorm
+1305551,Carya laciniosa pollen extract,PE,IN,NA,RxNorm
+1305719,cucumber extract,PE,IN,NA,RxNorm
+1305725,lime (citrus) extract,PE,IN,NA,RxNorm
+1306108,silver birch pollen allergenic extract,PE,IN,NA,RxNorm
+1306112,"2,2'-dithiobisbenzothiazole",PE,IN,NA,RxNorm
+1306883,barley malt syrup,PE,IN,NA,RxNorm
+1306886,N-cyclohexyl-2-benzothiazosulfenamide,PE,IN,NA,RxNorm
+1306937,butylparaben,PE,IN,NA,RxNorm
+1307040,Aspergillus flavus var. oryzae protease,PE,IN,NA,RxNorm
+1307044,methyldibromo glutaronitrile,PE,IN,NA,RxNorm
+1307595,Cola acuminata seed extract,PE,IN,NA,RxNorm
+1307699,Lawsonia inermis leaf extract,PE,IN,NA,RxNorm
+1307718,wine grape extract,PE,IN,NA,RxNorm
+1309242,Solidago virgaurea pollen extract,PE,IN,NA,RxNorm
+1309292,anise seed extract,PE,IN,NA,RxNorm
+1309391,sunflower seed extract,PE,IN,NA,RxNorm
+1309678,Strychnos nux-vomica seed extract,PE,IN,NA,RxNorm
+1310046,sesame seed extract,PE,IN,NA,RxNorm
+1310189,Juniperus communis fruit extract,PE,IN,NA,RxNorm
+1310300,cobalt,PE,IN,NA,RxNorm
+1310602,diazolidinylurea,PE,IN,NA,RxNorm
+1311040,brown rice preparation,PE,IN,NA,RxNorm
+1311190,gold,PE,IN,NA,RxNorm
+1311406,Sorghum bicolor pollen extract,PE,IN,NA,RxNorm
+1311606,amyl cinnamal,PE,IN,NA,RxNorm
+1311611,avocado oil,PE,IN,NA,RxNorm
+1311629,nickel,PE,IN,NA,RxNorm
+1313692,red pepper extract,PE,IN,NA,RxNorm
+1314592,Streptomyces griseus allergenic extract,PE,IN,NA,RxNorm
+1314656,radish extract,PE,IN,NA,RxNorm
+1314927,Salsola tragus pollen extract,PE,IN,NA,RxNorm
+1315113,cotton fiber extract,PE,IN,NA,RxNorm
+1315115,egg extract,PE,IN,NA,RxNorm
+1315116,eggplant extract,PE,IN,NA,RxNorm
+1315118,green bell pepper extract,PE,IN,NA,RxNorm
+1315120,lamb preparation,PE,IN,NA,RxNorm
+1315121,"oyster, unspecified preparation",PE,IN,NA,RxNorm
+1315126,blue crab preparation,PE,IN,NA,RxNorm
+1316581,calcium ion,PE,IN,NA,RxNorm
+1318915,potassium ion,PE,IN,NA,RxNorm
+1330085,beef liver preparation,PE,IN,NA,RxNorm
+1346617,Blatta orientalis preparation,PE,IN,NA,RxNorm
+1352501,Evernia prunastri extract,PE,IN,NA,RxNorm
+1353217,nutmeg extract,PE,IN,NA,RxNorm
+1353891,apricot extract,PE,IN,NA,RxNorm
+135391,olopatadine,PE,IN,NA,RxNorm
+1354504,sage extract,PE,IN,NA,RxNorm
+1358845,2-mercaptobenzothiazole,PE,IN,NA,RxNorm
+1358897,grapefruit peel extract,PE,IN,NA,RxNorm
+1362740,4-phenylenediamine,PE,IN,NA,RxNorm
+1362889,cinnamyl alcohol,PE,IN,NA,RxNorm
+1362892,ethyl-p-hydroxybenzoate,PE,IN,NA,RxNorm
+1362893,hydroxycitronellal,PE,IN,NA,RxNorm
+1362931,rosin,PE,IN,NA,RxNorm
+1363352,hydroxyethyl starch 130-0.4,PE,IN,NA,RxNorm
+1363561,Amaranthus hybridus pollen extract,PE,IN,NA,RxNorm
+1363563,Trifolium repens pollen extract,PE,IN,NA,RxNorm
+1363706,isoeugenol,PE,IN,NA,RxNorm
+1363709,"N,N'-diphenyl-4-phenylenediamine",PE,IN,NA,RxNorm
+1363710,N-isopropyl-N-phenyl-4-phenylenediamine,PE,IN,NA,RxNorm
+1363711,N-oxydiethylene-2-benzothiazole sulfenamide,PE,IN,NA,RxNorm
+1363713,tetramethylthiuram monosulfide,PE,IN,NA,RxNorm
+1364291,lemon extract,PE,IN,NA,RxNorm
+1364295,clove preparation,PE,IN,NA,RxNorm
+1364429,sodium cation,PE,IN,NA,RxNorm
+1367075,thrombin alfa,PE,PIN,NA,RxNorm
+1367119,5-chloro-2-methyl-4-isothiazolin-3-one,PE,IN,NA,RxNorm
+1367125,pear preparation,PE,IN,NA,RxNorm
+1367839,mipomersen,PE,IN,NA,RxNorm
+1368138,"2,2-bis(4-glycidyloxyphenyl)propane",PE,IN,NA,RxNorm
+1368153,cinnamic aldehyde,PE,IN,NA,RxNorm
+1368170,diphenylguanidine,PE,IN,NA,RxNorm
+1368171,disperse blue 106,PE,IN,NA,RxNorm
+1368197,tragacanth,PE,IN,NA,RxNorm
+1368357,Aspergillus nidulans allergenic extract,PE,IN,NA,RxNorm
+1368875,geraniol,PE,IN,NA,RxNorm
+1368885,imidurea,PE,IN,NA,RxNorm
+1369,bendroflumethiazide,PE,IN,NA,RxNorm
+1370435,Glycyrrhiza glabra extract,PE,IN,NA,RxNorm
+1370469,onion extract,PE,IN,NA,RxNorm
+1370761,quince extract,PE,IN,NA,RxNorm
+1370766,barley extract,PE,IN,NA,RxNorm
+1370769,raspberry extract,PE,IN,NA,RxNorm
+1370773,bean extract,PE,IN,NA,RxNorm
+1370781,wheat gluten extract,PE,IN,NA,RxNorm
+1370787,okra extract,PE,IN,NA,RxNorm
+1372248,coconut extract,PE,IN,NA,RxNorm
+1372258,spearmint extract,PE,IN,NA,RxNorm
+1373895,cocoa extract,PE,IN,NA,RxNorm
+138LUT2DWV,CAULIFLOWER,PE,Concept,NA,DailyMed
+1399,benzocaine,PE,IN,NA,RxNorm
+13AFD7670Q,PRIMIDONE,PE,Concept,NA,DailyMed
+13KFG30UBR,IVA AXILLARIS POLLEN,PE,Concept,NA,DailyMed
+13S1S8SF37,ZINC CATION,PE,Concept,NA,DailyMed
+141704,everolimus,PE,IN,NA,RxNorm
+1421430,salmon preparation,PE,IN,NA,RxNorm
+1422,benzphetamine,PE,IN,NA,RxNorm
+1423924,corn grain extract,PE,IN,NA,RxNorm
+1424865,apple extract,PE,IN,NA,RxNorm
+14255EXE39,ETHYLPARABEN,PE,Concept,NA,DailyMed
+1426164,"factor VII, human",PE,PIN,NA,RxNorm
+1426166,"coagulation factor X, human",PE,PIN,NA,RxNorm
+1426332,mango extract,PE,IN,NA,RxNorm
+1426364,tangerine extract,PE,IN,NA,RxNorm
+1426396,sea scallop preparation,PE,IN,NA,RxNorm
+1426437,"cod, unspecified preparation",PE,IN,NA,RxNorm
+1426478,lanolin alcohols,PE,IN,NA,RxNorm
+1426481,Clonostachys rosea f. rosea allergenic extract,PE,IN,NA,RxNorm
+1426598,sulfate ion,PE,IN,NA,RxNorm
+1426632,Ulmus rubra pollen allergenic extract,PE,IN,NA,RxNorm
+1426680,"immunoglobulin G, human",PE,PIN,NA,RxNorm
+1426773,dipentamethylenethiuram disulfide,PE,IN,NA,RxNorm
+1426853,magnesium cation,PE,IN,NA,RxNorm
+1426912,Pisum sativum (pea) extract,PE,IN,NA,RxNorm
+1426921,lentil seed extract,PE,IN,NA,RxNorm
+1426942,zinc dibutyldithiocarbamate,PE,PIN,NA,RxNorm
+1427044,Penicillium digitatum allergenic extract,PE,IN,NA,RxNorm
+1427059,Lolium perenne allergenic extract,PE,IN,NA,RxNorm
+1427134,Ustilago maydis extract,PE,IN,NA,RxNorm
+1427136,"N-cyclohexyl-N'-phenyl-1,4-phenylenediamine",PE,IN,NA,RxNorm
+1427179,antithrombin alfa,PE,PIN,NA,RxNorm
+1427189,p-tert-butylphenol-formaldehyde resin (low molecular weight),PE,IN,NA,RxNorm
+1427192,"ditiocarb, zinc salt",PE,PIN,NA,RxNorm
+1437222,Quercus marilandica pollen extract,PE,IN,NA,RxNorm
+1441543,Alnus glutinosa bark extract,PE,IN,NA,RxNorm
+1441652,wheat preparation,PE,IN,NA,RxNorm
+1441689,"prothrombin, human",PE,PIN,NA,RxNorm
+144O8QL0L1,DICLOFENAC,PE,Concept,NA,DailyMed
+1482502,eslicarbazepine,PE,IN,NA,RxNorm
+1484937,colonial bent grass pollen extract,PE,IN,NA,RxNorm
+1484974,meadow foxtail pollen extract,PE,IN,NA,RxNorm
+1484979,common hazel pollen extract,PE,IN,NA,RxNorm
+1484980,crested dogstail pollen extract,PE,IN,NA,RxNorm
+1484981,European beech pollen extract,PE,IN,NA,RxNorm
+1484982,ash pollen extract,PE,IN,NA,RxNorm
+1484983,broadleaf plantain pollen extract,PE,IN,NA,RxNorm
+1484984,English oak pollen extract,PE,IN,NA,RxNorm
+1484985,bulbous buttercup pollen extract,PE,IN,NA,RxNorm
+1484986,white willow pollen extract,PE,IN,NA,RxNorm
+1489913,droxidopa,PE,IN,NA,RxNorm
+1492174,pineapple extract,PE,IN,NA,RxNorm
+1492300,vaccinia virus strain New York City Board of Health live antigen,PE,IN,NA,RxNorm
+1534K8653J,WHEAT GLUTEN,PE,Concept,NA,DailyMed
+1545989,enalaprilat anhydrous,PE,PIN,NA,RxNorm
+1546196,benazeprilat,PE,PIN,NA,RxNorm
+1546264,zinc cation,PE,IN,NA,RxNorm
+1546380,4-hydroxybutyric acid,PE,PIN,NA,RxNorm
+1546399,vecuronium cation,PE,PIN,NA,RxNorm
+1549330,Coccidioides immitis spherule,PE,IN,NA,RxNorm
+1564HD0N96,FELIS CATUS HAIR,PE,Concept,NA,DailyMed
+1594963,turkey feather extract,PE,IN,NA,RxNorm
+1594964,pheasant feather extract,PE,IN,NA,RxNorm
+1594965,Syrian hamster hair extract,PE,IN,NA,RxNorm
+1596,bisacodyl,PE,IN,NA,RxNorm
+15L060HV8H,JUNIPERUS OSTEOSPERMA POLLEN,PE,Concept,NA,DailyMed
+15UQ94PT4P,DARBEPOETIN ALFA,PE,Concept,NA,DailyMed
+15W81V867R,RHODOTORULA RUBRA,PE,Concept,NA,DailyMed
+15XI414745,ANSER ANSER FEATHER,PE,Concept,NA,DailyMed
+1603849,Corylus americana nut oil,PE,IN,NA,RxNorm
+1606480,bay leaf extract,PE,IN,NA,RxNorm
+1649134,zucchini extract,PE,IN,NA,RxNorm
+1656052,cangrelor,PE,IN,NA,RxNorm
+1657226,influenza B virus B/Brisbane/60/2008 antigen,PE,PIN,NA,RxNorm
+1657331,influenza A virus A/California/7/2009 (H1N1) antigen,PE,PIN,NA,RxNorm
+169D1260KM,NITROPRUSSIDE,PE,Concept,NA,DailyMed
+16M9MK8C4W,CAPRA HIRCUS HAIR,PE,Concept,NA,DailyMed
+17128,lansoprazole,PE,IN,NA,RxNorm
+1740937,Humulus lupulus pollen extract,PE,IN,NA,RxNorm
+1747556,venetoclax,PE,IN,NA,RxNorm
+1756J4PM8P,CEPHALOSPORIUM ROSEUM,PE,Concept,NA,DailyMed
+175F461W10,CYNODON DACTYLON POLLEN,PE,Concept,NA,DailyMed
+1789837,"Rho(D) immune globulin, human",PE,PIN,NA,RxNorm
+17Q05812N1,PINUS NIGRA POLLEN,PE,Concept,NA,DailyMed
+17RH99LQ7G,MUCOR RACEMOSUS,PE,Concept,NA,DailyMed
+1801702,Acer pseudoplatanus pollen extract,PE,IN,NA,RxNorm
+1802483,human adenovirus B serotype 7 strain 55142,PE,PIN,NA,RxNorm
+1808,bumetanide,PE,IN,NA,RxNorm
+1815,bupivacaine,PE,IN,NA,RxNorm
+1824QUA0U3,FRAXINUS EXCELSIOR POLLEN,PE,Concept,NA,DailyMed
+18602,azelaic acid,PE,PIN,NA,RxNorm
+1863556,nusinersen,PE,IN,NA,RxNorm
+1872905,deacetylbisacodyl,PE,IN,NA,RxNorm
+1886,caffeine,PE,IN,NA,RxNorm
+18867,benazepril,PE,IN,NA,RxNorm
+1891LE191T,SHRIMP,PE,Concept,NA,DailyMed
+18993,benzonatate,PE,IN,NA,RxNorm
+18JOK51CZH,MACLURA POMIFERA POLLEN,PE,Concept,NA,DailyMed
+19075,benzylparaben,PE,IN,NA,RxNorm
+1922751,Gibberella zeae allergenic extract,PE,IN,NA,RxNorm
+1925437,northern quahog preparation,PE,IN,NA,RxNorm
+1925834,Cephalosporium roseum extract,PE,IN,NA,RxNorm
+1942950,inotuzumab ozogamicin,PE,IN,NA,RxNorm
+1963,Candida albicans,PE,IN,NA,RxNorm
+196319,palifermin,PE,IN,NA,RxNorm
+197,acetylcysteine,PE,IN,NA,RxNorm
+1986792,Penicillium glaucum allergenic extract,PE,IN,NA,RxNorm
+1992412,papaya extract,PE,IN,NA,RxNorm
+1993210,house mouse hair extract,PE,IN,NA,RxNorm
+1993233,Iris germanica var. florentina root extract,PE,IN,NA,RxNorm
+1996102,golden chain pollen extract,PE,IN,NA,RxNorm
+1997187,American lobster allergenic extract,PE,IN,NA,RxNorm
+1997443,"cytomegalovirus immune globulin, human",PE,PIN,NA,RxNorm
+1999003,angiotensin II,PE,IN,NA,RxNorm
+199I7J3JIV,TRICHOPHYTON MENTAGROPHYTES,PE,Concept,NA,DailyMed
+19W019ZDRJ,CICLOPIROX,PE,Concept,NA,DailyMed
+1BV28146ZR,JUGLANS NIGRA POLLEN,PE,Concept,NA,DailyMed
+1EDY616508,ARTEMISIA CALIFORNICA POLLEN,PE,Concept,NA,DailyMed
+1F8VIW1479,COLA ACUMINATA SEED,PE,Concept,NA,DailyMed
+1FCM16V0FV,GALLUS GALLUS FEATHER,PE,Concept,NA,DailyMed
+1FH355G8HF,FRAXINUS LATIFOLIA POLLEN,PE,Concept,NA,DailyMed
+1GH3WV23KH,AMARANTHUS PALMERI POLLEN,PE,Concept,NA,DailyMed
+1GVO236S58,HYDROXYETHYL STARCH 130/0.4,PE,Concept,NA,DailyMed
+1HG84L3525,FORMALDEHYDE,PE,Concept,NA,DailyMed
+1IEK4UDP5M,STEMPHYLIUM SOLANI,PE,Concept,NA,DailyMed
+1JQS135EYN,OXYTOCIN,PE,Concept,NA,DailyMed
+1L29G6428X,SOUR CHERRY,PE,Concept,NA,DailyMed
+1L67OBT731,LARIX OCCIDENTALIS POLLEN,PE,Concept,NA,DailyMed
+1LIB31N73G,MUNG BEAN,PE,Concept,NA,DailyMed
+1M4E76V32I,MYCOCLADUS CORYMBIFERUS,PE,Concept,NA,DailyMed
+1NMA9J598Y,METAXALONE,PE,Concept,NA,DailyMed
+1O0600285A,BORDETELLA PERTUSSIS FIMBRIAE 2/3 ANTIGEN,PE,Concept,NA,DailyMed
+1O6WQ6T7G3,TAFLUPROST,PE,Concept,NA,DailyMed
+1P1OT1MFZ9,PERIPLANETA AUSTRALASIAE,PE,Concept,NA,DailyMed
+1SB49SV239,PENICILLIUM DIGITATUM,PE,Concept,NA,DailyMed
+1V3SHR7QB7,ENGLISH WALNUT,PE,Concept,NA,DailyMed
+1XSC3BB35Z,PENICILLIUM EXPANSUM,PE,Concept,NA,DailyMed
+1XY644QKWG,MELOPSITTACUS UNDULATUS FEATHER,PE,Concept,NA,DailyMed
+1ZWG7J43CL,AGROSTIS CAPILLARIS POLLEN,PE,Concept,NA,DailyMed
+2002,carbamazepine,PE,IN,NA,RxNorm
+203083,"antihemophilic factor, human",PE,PIN,NA,RxNorm
+2043450,Gibberella fujikuroi extract,PE,IN,NA,RxNorm
+2043451,Grindelia ciliata pollen extract,PE,IN,NA,RxNorm
+2057909,black carpenter ant allergenic extract,PE,IN,NA,RxNorm
+2072U60DUI,NEUROSPORA INTERMEDIA,PE,Concept,NA,DailyMed
+207ZZ9QZ49,METHYLPHENIDATE,PE,Concept,NA,DailyMed
+20859,chloroprocaine,PE,IN,NA,RxNorm
+2099289,inotersen,PE,IN,NA,RxNorm
+2101,carisoprodol,PE,IN,NA,RxNorm
+2101007,Aspergillus amstelodami extract,PE,IN,NA,RxNorm
+2101008,Gliocladium viride extract,PE,IN,NA,RxNorm
+2101422,Mucor circinelloides f. circinelloides allergenic extract,PE,IN,NA,RxNorm
+2101473,Mucor circinelloides f. lusitanicus allergenic extract,PE,IN,NA,RxNorm
+2101722,Fusarium oxysporum allergenic extract,PE,IN,NA,RxNorm
+2102006,Leucanthemum vulgare pollen,PE,IN,NA,RxNorm
+2102052,Trifolium pratense pollen extract,PE,IN,NA,RxNorm
+2102474,black sea bass allergenic extract,PE,IN,NA,RxNorm
+2102487,velvetleaf huckleberry allergenic extract,PE,IN,NA,RxNorm
+2102488,yellowfin tuna allergenic extract,PE,IN,NA,RxNorm
+21090,ciclopirox,PE,IN,NA,RxNorm
+21232,clidinium,PE,IN,NA,RxNorm
+214355,Candida albicans allergenic extract,PE,IN,NA,RxNorm
+2147EPR64I,JUGLANS CALIFORNICA POLLEN,PE,Concept,NA,DailyMed
+2166591,domestic cow dander extract,PE,IN,NA,RxNorm
+2166593,guinea pig dander,PE,IN,NA,RxNorm
+2166596,European aspen pollen extract,PE,IN,NA,RxNorm
+2166614,western larch pollen extract,PE,IN,NA,RxNorm
+2166616,London planetree,PE,IN,NA,RxNorm
+2167548,horse dander extract,PE,IN,NA,RxNorm
+2167551,dog dander extract,PE,IN,NA,RxNorm
+2167695,chinquapin oak pollen extract,PE,IN,NA,RxNorm
+2167819,sweet wormwood pollen extract,PE,IN,NA,RxNorm
+2168418,Cytisus scoparius flowering top extract,PE,IN,NA,RxNorm
+2168421,peppermint flowering top extract,PE,IN,NA,RxNorm
+2171260,Callistemon citrinus pollen extract,PE,IN,NA,RxNorm
+21925K482H,CARISOPRODOL,PE,Concept,NA,DailyMed
+21949,cyclobenzaprine,PE,IN,NA,RxNorm
+2198984,Atlantic mackerel allergenic extract,PE,IN,NA,RxNorm
+21C2F5E8RE,ANISE,PE,Concept,NA,DailyMed
+2202946,Acacia dealbata pollen extract,PE,IN,NA,RxNorm
+221050,"BCG, live, Tice strain",PE,IN,NA,RxNorm
+221082,colloidal oatmeal,PE,IN,NA,RxNorm
+221099,"coagulation factor IX, human",PE,PIN,NA,RxNorm
+221147,polyethylene glycol 3350,PE,IN,NA,RxNorm
+221946,"citric acid, anhydrous",PE,PIN,NA,RxNorm
+2261370,Atlantic halibut allergenic extract,PE,IN,NA,RxNorm
+2264108,"fibrinogen, human",PE,PIN,NA,RxNorm
+226LY0AFR9,CLAM,PE,Concept,NA,DailyMed
+2274413,"hepatitis A virus strain CR 326F antigen, inactivated",PE,IN,NA,RxNorm
+2275721,vanilla bean extract,PE,IN,NA,RxNorm
+23036553F6,STREPTOCOCCUS PNEUMONIAE TYPE 18C CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+23066,dihematoporphyrin ether,PE,IN,NA,RxNorm
+231473QB6R,WATERMELON,PE,Concept,NA,DailyMed
+232539,calfactant,PE,IN,NA,RxNorm
+232DMH0XVF,CUPRESSUS ARIZONICA POLLEN,PE,Concept,NA,DailyMed
+2358,chlorhexidine,PE,IN,NA,RxNorm
+235940,Cynara preparation,PE,IN,NA,RxNorm
+236381,poractant alfa,PE,IN,NA,RxNorm
+2369372,Ulmus glabra pollen extract,PE,IN,NA,RxNorm
+236YGP181O,HUMAN ROTAVIRUS A TYPE G3P7(5) STRAIN WI78 LIVE ANTIGEN,PE,Concept,NA,DailyMed
+2396,chlorothiazide,PE,IN,NA,RxNorm
+23H70FYJ5U,BETULA POPULIFOLIA POLLEN,PE,Concept,NA,DailyMed
+23JE9KDF4R,POLIOVIRUS TYPE 2 ANTIGEN (FORMALDEHYDE INACTIVATED),PE,Concept,NA,DailyMed
+2407,chlorquinaldol,PE,IN,NA,RxNorm
+2409,chlorthalidone,PE,IN,NA,RxNorm
+2410,chlorzoxazone,PE,IN,NA,RxNorm
+242A53RB80,ASPERGILLUS NIDULANS,PE,Concept,NA,DailyMed
+24457,ethanolamine,PE,IN,NA,RxNorm
+2471704,Rattus norvegicus hair preparation,PE,IN,NA,RxNorm
+24812,felbamate,PE,IN,NA,RxNorm
+248123,cat hair extract,PE,IN,NA,RxNorm
+2496,chromium,PE,IN,NA,RxNorm
+24A0VB48CA,ALNUS GLUTINOSA BARK,PE,Concept,NA,DailyMed
+24RS0A988O,LEMON,PE,Concept,NA,DailyMed
+24SO2J296O,ACACIA LONGIFOLIA POLLEN,PE,Concept,NA,DailyMed
+253149,eptacog alfa activated,PE,PIN,NA,RxNorm
+253172,grape extract,PE,IN,NA,RxNorm
+2533912,Salix repens pollen extract,PE,IN,NA,RxNorm
+25480,gabapentin,PE,IN,NA,RxNorm
+255H8VT4RK,AGROSTIS STOLONIFERA POLLEN,PE,Concept,NA,DailyMed
+257GC6QO0Q,LEYMUS CONDENSATUS POLLEN,PE,Concept,NA,DailyMed
+2582,clindamycin,PE,IN,NA,RxNorm
+2590183,Periplaneta australasiae extract,PE,IN,NA,RxNorm
+2590185,Tabanus nigrovittatus extract,PE,IN,NA,RxNorm
+259266,hops extract,PE,IN,NA,RxNorm
+259314,black pepper preparation,PE,IN,NA,RxNorm
+25ADE2236L,THROMBIN,PE,Concept,NA,DailyMed
+25N8E57V6T,STREPTOCOCCUS PNEUMONIAE TYPE 23F CAPSULAR POLYSACCHARIDE DIPHTHERIA CRM197 PROTEIN CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+25VC15141Q,HUMAN ROTAVIRUS A TYPE G1P7(5) STRAIN WI79 LIVE ANTIGEN,PE,Concept,NA,DailyMed
+265647,garlic preparation,PE,IN,NA,RxNorm
+26744,hepatitis B immune globulin,PE,IN,NA,RxNorm
+269CJD5GZ9,APRICOT,PE,Concept,NA,DailyMed
+269XH13919,STRYCHNOS NUX-VOMICA SEED,PE,Concept,NA,DailyMed
+26NAK24LS8,HYDRALAZINE,PE,Concept,NA,DailyMed
+26U0BU8G83,ATRIPLEX CANESCENS POLLEN,PE,Concept,NA,DailyMed
+27340,desflurane,PE,IN,NA,RxNorm
+2788Z9758H,GLYCYRRHIZA GLABRA,PE,Concept,NA,DailyMed
+28004,isosorbide mononitrate,PE,PIN,NA,RxNorm
+283678,quaternium-15,PE,IN,NA,RxNorm
+2837,copper,PE,IN,NA,RxNorm
+283838,darbepoetin alfa,PE,IN,NA,RxNorm
+28439,lamotrigine,PE,IN,NA,RxNorm
+285149,banana extract,PE,IN,NA,RxNorm
+285219,Apis mellifera preparation,PE,IN,NA,RxNorm
+285241,ginger extract,PE,IN,NA,RxNorm
+285245,cinnamon preparation,PE,IN,NA,RxNorm
+285251,oats preparation,PE,IN,NA,RxNorm
+287515,soybean preparation,PE,IN,NA,RxNorm
+28D6K7E9IP,HELIANTHUS ANNUUS POLLEN,PE,Concept,NA,DailyMed
+28ON068RWM,DUCK,PE,Concept,NA,DailyMed
+291P45F896,EGG,PE,Concept,NA,DailyMed
+2944357O2O,TRAGACANTH,PE,Concept,NA,DailyMed
+294L626TT0,QUERCUS VELUTINA POLLEN,PE,Concept,NA,DailyMed
+295O53K152,POTASSIUM CATION,PE,Concept,NA,DailyMed
+296FK85FY6,CHRYSONILIA SITOPHILA,PE,Concept,NA,DailyMed
+29903,methylparaben,PE,IN,NA,RxNorm
+2A64U81OQ3,AILANTHUS ALTISSIMA POLLEN,PE,Concept,NA,DailyMed
+2A88ZO081O,PINEAPPLE,PE,Concept,NA,DailyMed
+2E1M7F958B,STREPTOCOCCUS PNEUMONIAE TYPE 19F CAPSULAR POLYSACCHARIDE DIPHTHERIA CRM197 PROTEIN CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+2FV55IRB5B,PHOENIX DACTYLIFERA POLLEN,PE,Concept,NA,DailyMed
+2GQ1IRY63P,ATRACURIUM,PE,Concept,NA,DailyMed
+2I30IJ24E8,MUS MUSCULUS HAIR,PE,Concept,NA,DailyMed
+2J57K2523T,NEISSERIA MENINGITIDIS GROUP C CAPSULAR POLYSACCHARIDE DIPHTHERIA TOXOID CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+2KIK19R45Y,ANTHOXANTHUM ODORATUM POLLEN,PE,Concept,NA,DailyMed
+2LN3M29LNI,HORDEUM VULGARE POLLEN,PE,Concept,NA,DailyMed
+2M6QWV94OC,BLACK OLIVE,PE,Concept,NA,DailyMed
+2M83C4R6ZB,CALCIUM CATION,PE,Concept,NA,DailyMed
+2MGG3XW1L2,STREPTOCOCCUS PNEUMONIAE TYPE 33F CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+2MH135KC6G,SALSOLA KALI POLLEN,PE,Concept,NA,DailyMed
+2P471X1Z11,OMALIZUMAB,PE,Concept,NA,DailyMed
+2QOF601J1M,XANTHIUM STRUMARIUM POLLEN,PE,Concept,NA,DailyMed
+2RDB26I5ZB,PARTHENOLIDE,PE,Concept,NA,DailyMed
+2RQ1L9N089,ALLERGENIC EXTRACT- COCKROACH PERIPLANETA AMERICANA,PE,Concept,NA,DailyMed
+2U0KZP0FDW,BASIL,PE,Concept,NA,DailyMed
+2VF3V7175U,STREPTOCOCCUS PNEUMONIAE TYPE 3 CAPSULAR POLYSACCHARIDE DIPHTHERIA CRM197 PROTEIN CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+2VWV12V9WR,SYNCEPHALASTRUM RACEMOSUM,PE,Concept,NA,DailyMed
+2W566Z2PEJ,NEISSERIA MENINGITIDIS GROUP Y CAPSULAR OLIGOSACCHARIDE DIPHTHERIA CRM197 PROTEIN CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+2WZG2G15WX,FRAXINUS PENNSYLVANICA POLLEN,PE,Concept,NA,DailyMed
+2XO08315X1,BOUTELOUA GRACILIS POLLEN,PE,Concept,NA,DailyMed
+2XQ558L16Z,BACILLUS CALMETTE-GUERIN SUBSTRAIN TICE LIVE ANTIGEN,PE,Concept,NA,DailyMed
+2Z41EEQ491,AMBROSIA CHAMISSONIS POLLEN,PE,Concept,NA,DailyMed
+2ZAU32517N,TRICHOPHYTON RUBRUM,PE,Concept,NA,DailyMed
+2ZN8DWC0YF,PEAR,PE,Concept,NA,DailyMed
+30125,modafinil,PE,IN,NA,RxNorm
+302379,omalizumab,PE,IN,NA,RxNorm
+30IW36W5B2,4-HYDROXYBUTANOIC ACID,PE,Concept,NA,DailyMed
+3105,dantrolene,PE,IN,NA,RxNorm
+313LJP87ET,STREPTOCOCCUS PNEUMONIAE TYPE 9N CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+314324,Aspergillus terreus allergenic extract,PE,IN,NA,RxNorm
+314411,Chrysonilia sitophila allergenic extract,PE,IN,NA,RxNorm
+314415,Mucor plumbeus allergenic extract,PE,IN,NA,RxNorm
+314443,Rhizopus arrhizus allergenic extract,PE,IN,NA,RxNorm
+314455,silk allergenic extract,PE,IN,NA,RxNorm
+314488,corn smut allergenic extract,PE,IN,NA,RxNorm
+314504,anti-inhibitor coagulant complex,PE,IN,NA,RxNorm
+31563,nedocromil,PE,IN,NA,RxNorm
+318224,flaxseed extract,PE,IN,NA,RxNorm
+31914,tiagabine,PE,IN,NA,RxNorm
+3194,deoxycholic acid,PE,PIN,NA,RxNorm
+319780,Capsicum extract,PE,IN,NA,RxNorm
+319823,thyme preparation,PE,IN,NA,RxNorm
+319864,cisatracurium,PE,IN,NA,RxNorm
+31C4KY9ESH,NITRIC OXIDE,PE,Concept,NA,DailyMed
+324072,dimethicone,PE,IN,NA,RxNorm
+3251,desmopressin,PE,IN,NA,RxNorm
+32624,oxcarbazepine,PE,IN,NA,RxNorm
+3272,dextran 40,PE,IN,NA,RxNorm
+3274,dextran 70,PE,IN,NA,RxNorm
+3275,dextran 75,PE,IN,NA,RxNorm
+3288,dextroamphetamine,PE,IN,NA,RxNorm
+328VNB72T8,STREPTOCOCCUS PNEUMONIAE TYPE 10A CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+32941,parthenolide,PE,IN,NA,RxNorm
+32968,clopidogrel,PE,IN,NA,RxNorm
+32HRV3E3D5,GRISEOFULVIN,PE,Concept,NA,DailyMed
+33093,peppermint preparation,PE,IN,NA,RxNorm
+33219,Peruvian balsam,PE,IN,NA,RxNorm
+33272,phendimetrazine,PE,IN,NA,RxNorm
+3339,dibucaine,PE,IN,NA,RxNorm
+3355,diclofenac,PE,IN,NA,RxNorm
+337523,ixabepilone,PE,IN,NA,RxNorm
+337623,dornase alfa,PE,IN,NA,RxNorm
+338036,pegfilgrastim,PE,IN,NA,RxNorm
+3389,diethylpropion,PE,IN,NA,RxNorm
+33CM23913M,CARBAMAZEPINE,PE,Concept,NA,DailyMed
+341248,ezetimibe,PE,IN,NA,RxNorm
+341PDX5PLM,TYPHA LATIFOLIA POLLEN,PE,Concept,NA,DailyMed
+343048,treprostinil,PE,IN,NA,RxNorm
+34706,propylparaben,PE,IN,NA,RxNorm
+34905,proparacaine,PE,IN,NA,RxNorm
+349978,oat smut allergenic extract,PE,IN,NA,RxNorm
+34EX28T4C1,HERRING,PE,Concept,NA,DailyMed
+34K66TBT99,PRASUGREL,PE,Concept,NA,DailyMed
+34X886W1H4,FAGUS GRANDIFOLIA POLLEN,PE,Concept,NA,DailyMed
+350141,saccharomyces cerevisiae allergenic extract,PE,IN,NA,RxNorm
+350173,house fly allergenic extract,PE,IN,NA,RxNorm
+3521,dipyridamole,PE,IN,NA,RxNorm
+352372,dexmethylphenidate,PE,IN,NA,RxNorm
+35302,sirolimus,PE,IN,NA,RxNorm
+3538FNV8AY,BETULA PAPYRIFERA POLLEN,PE,Concept,NA,DailyMed
+35487N1IC9,BASSIA HYSSOPIFOLIA POLLEN,PE,Concept,NA,DailyMed
+35780,ropivacaine,PE,IN,NA,RxNorm
+35825,ganirelix,PE,IN,NA,RxNorm
+3637,doxapram,PE,IN,NA,RxNorm
+36453,sevoflurane,PE,IN,NA,RxNorm
+36780APV5N,POLYTHIAZIDE,PE,Concept,NA,DailyMed
+36R82U4DL6,ARTEMISIA ANNUA POLLEN,PE,Concept,NA,DailyMed
+3755,edetic acid,PE,IN,NA,RxNorm
+380W4HYR6N,AMARANTHUS SPINOSUS POLLEN,PE,Concept,NA,DailyMed
+3827,enalapril,PE,IN,NA,RxNorm
+382L14738L,COAGULATION FACTOR IX RECOMBINANT HUMAN,PE,Concept,NA,DailyMed
+38404,topiramate,PE,IN,NA,RxNorm
+38413,torsemide,PE,IN,NA,RxNorm
+38685,trimethobenzamide,PE,IN,NA,RxNorm
+38LVP0K73A,SEVOFLURANE,PE,Concept,NA,DailyMed
+390AN9GB09,MUS MUSCULUS SKIN,PE,Concept,NA,DailyMed
+3966,ephedrine,PE,IN,NA,RxNorm
+39684,epinastine,PE,IN,NA,RxNorm
+39993,zolpidem,PE,IN,NA,RxNorm
+39998,zonisamide,PE,IN,NA,RxNorm
+3A58010674,PEGFILGRASTIM,PE,Concept,NA,DailyMed
+3E0I92Z2GR,EGG WHITE,PE,Concept,NA,DailyMed
+3EM4VW6TQN,SUS SCROFA SKIN,PE,Concept,NA,DailyMed
+3F36V0451W,ACREMONIUM STRICTUM,PE,Concept,NA,DailyMed
+3G0H8C9362,COBALT,PE,Concept,NA,DailyMed
+3G6A5W338E,CAFFEINE,PE,Concept,NA,DailyMed
+3GOV20705G,WINE GRAPE,PE,Concept,NA,DailyMed
+3H5U5CX7KO,CASHEW,PE,Concept,NA,DailyMed
+3I9T68187H,MORUS ALBA POLLEN,PE,Concept,NA,DailyMed
+3J888Y9L13,ASPERGILLUS FLAVUS,PE,Concept,NA,DailyMed
+3K873H631W,MESOCRICETUS AURATUS SKIN,PE,Concept,NA,DailyMed
+3L5TQ84570,MECLIZINE,PE,Concept,NA,DailyMed
+3LN5B70U4W,COCHLIOBOLUS SATIVUS,PE,Concept,NA,DailyMed
+3MDX759C0W,PINUS MONTICOLA POLLEN,PE,Concept,NA,DailyMed
+3NY3SM6B8U,YEAST,PE,Concept,NA,DailyMed
+3O44U6XYQK,NEISSERIA MENINGITIDIS GROUP A CAPSULAR OLIGOSACCHARIDE DIPHTHERIA CRM197 PROTEIN CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+3OKE88I3QG,PEACH,PE,Concept,NA,DailyMed
+3OWL53L36A,MANNITOL,PE,Concept,NA,DailyMed
+3QPI1U3FV8,BUTYLPARABEN,PE,Concept,NA,DailyMed
+3R393IX840,BETULA ALLEGHANIENSIS POLLEN,PE,Concept,NA,DailyMed
+3RED79E75R,STREPTOCOCCUS PNEUMONIAE TYPE 17F CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+3RT3536DHY,COCONUT,PE,Concept,NA,DailyMed
+3SNK70F46Y,TRIFOLIUM PRATENSE POLLEN,PE,Concept,NA,DailyMed
+3SW678MX72,ARABICA COFFEE BEAN,PE,Concept,NA,DailyMed
+3T8H1794QW,EUGENOL,PE,Concept,NA,DailyMed
+3U02EL437C,CLINDAMYCIN,PE,Concept,NA,DailyMed
+3Y1PE1GCIG,PENICILLIUM CHRYSOGENUM VAR. CHRYSOGENUM,PE,Concept,NA,DailyMed
+3Z252A2K9G,ALMOND,PE,Concept,NA,DailyMed
+3Z6S89TXPW,PROTEIN C,PE,Concept,NA,DailyMed
+3ZO9YGZ8ZJ,UROCHLOA MUTICA POLLEN,PE,Concept,NA,DailyMed
+4053,erythromycin,PE,IN,NA,RxNorm
+40575,zileuton,PE,IN,NA,RxNorm
+4109,ethacrynic acid,PE,PIN,NA,RxNorm
+4110YT348C,FLAX SEED,PE,Concept,NA,DailyMed
+4135,ethosuximide,PE,IN,NA,RxNorm
+4136,ethotoin,PE,IN,NA,RxNorm
+4156XVB4QD,COAGULATION FACTOR VII HUMAN,PE,Concept,NA,DailyMed
+4158,ethylenediamine,PE,IN,NA,RxNorm
+4177,etomidate,PE,IN,NA,RxNorm
+4186,eugenol,PE,IN,NA,RxNorm
+41Y752Y34M,PHYCOMYCES BLAKESLEEANUS,PE,Concept,NA,DailyMed
+42347,bupropion,PE,IN,NA,RxNorm
+42612,cromolyn,PE,IN,NA,RxNorm
+426RHB4302,POPULUS FREMONTII POLLEN,PE,Concept,NA,DailyMed
+434DQ2U4JX,QUERCUS MUEHLENBERGII POLLEN,PE,Concept,NA,DailyMed
+43DDR2YDYZ,ACACIA POLLEN,PE,Concept,NA,DailyMed
+43IR7KR479,TAMARIX GALLICA POLLEN,PE,Concept,NA,DailyMed
+43R41XZ627,OLEA EUROPAEA POLLEN,PE,Concept,NA,DailyMed
+44IDY6DTKX,CELERY,PE,Concept,NA,DailyMed
+44RAL3456C,METHAMPHETAMINE,PE,Concept,NA,DailyMed
+44YRR34555,LEVETIRACETAM,PE,Concept,NA,DailyMed
+4530,formaldehyde,PE,IN,NA,RxNorm
+459384H98V,ZONISAMIDE,PE,Concept,NA,DailyMed
+459ROM8M9M,POLIOVIRUS TYPE 3 ANTIGEN (FORMALDEHYDE INACTIVATED),PE,Concept,NA,DailyMed
+45E2IPU4MG,INFLUENZA B VIRUS B/BRISBANE/60/2008 HEMAGGLUTININ ANTIGEN (PROPIOLACTONE INACTIVATED),PE,Concept,NA,DailyMed
+4603,furosemide,PE,IN,NA,RxNorm
+466192,Aspergillus fumigatus allergenic extract,PE,IN,NA,RxNorm
+466195,Botrytis cinerea allergenic extract,PE,IN,NA,RxNorm
+466197,Chaetomium globosum allergenic extract,PE,IN,NA,RxNorm
+466198,Cladosporium herbarum allergenic extract,PE,IN,NA,RxNorm
+46QG38NC4U,ETHOTOIN,PE,Concept,NA,DailyMed
+475247QF1Z,EQUINE THYMOCYTE IMMUNE GLOBULIN,PE,Concept,NA,DailyMed
+476DVV63WP,POPULUS DELTOIDES POLLEN,PE,Concept,NA,DailyMed
+47858,methsuximide,PE,IN,NA,RxNorm
+47QB6MX9KU,MUMPS VIRUS STRAIN B LEVEL JERYL LYNN LIVE ANTIGEN,PE,Concept,NA,DailyMed
+48268V50D5,CASEIN,PE,Concept,NA,DailyMed
+4832,glucagon,PE,IN,NA,RxNorm
+48937,dexmedetomidine,PE,IN,NA,RxNorm
+48W7181FLP,HUMAN RHO(D) IMMUNE GLOBULIN,PE,Concept,NA,DailyMed
+48Z8OUT98B,MUCOR CIRCINELLOIDES F. CIRCINELLOIDES,PE,Concept,NA,DailyMed
+4910,glycerin,PE,IN,NA,RxNorm
+4917,nitroglycerin,PE,IN,NA,RxNorm
+492225Q21H,ONION,PE,Concept,NA,DailyMed
+49VI1ZSO06,APIOSPORA MONTAGNEI,PE,Concept,NA,DailyMed
+49W168AES4,EUROTIUM HERBARIORUM,PE,Concept,NA,DailyMed
+4AJZ4765R9,BANANA,PE,Concept,NA,DailyMed
+4D7G21HDBC,CANDIDA ALBICANS,PE,Concept,NA,DailyMed
+4F35XG0149,EQUUS CABALLUS HAIR,PE,Concept,NA,DailyMed
+4F3W47PLBE,ARTICHOKE,PE,Concept,NA,DailyMed
+4FVB62AFF1,STREPTOCOCCUS PNEUMONIAE TYPE 3 CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+4I8HAB65SZ,NISOLDIPINE,PE,Concept,NA,DailyMed
+4IPS17B70T,EGG YOLK,PE,Concept,NA,DailyMed
+4J2I0SN84Y,WHEAT,PE,Concept,NA,DailyMed
+4J2TY8Y81V,STRAWBERRY,PE,Concept,NA,DailyMed
+4J4DOU3HEK,GREEN BELL PEPPER,PE,Concept,NA,DailyMed
+4K7Z7K7SWG,USTILAGO MAYDIS,PE,Concept,NA,DailyMed
+4M543JVT7G,STREPTOCOCCUS PNEUMONIAE TYPE 6B CAPSULAR POLYSACCHARIDE DIPHTHERIA CRM197 PROTEIN CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+4N14V5R27W,RASPBERRY,PE,Concept,NA,DailyMed
+4O1FFR8ARN,PINUS TAEDA POLLEN,PE,Concept,NA,DailyMed
+4PIB2155QP,BEEF,PE,Concept,NA,DailyMed
+4PNW66TTHR,QUERCUS ROBUR POLLEN,PE,Concept,NA,DailyMed
+4SV59689SK,VACCINIA VIRUS STRAIN NEW YORK CITY BOARD OF HEALTH LIVE ANTIGEN,PE,Concept,NA,DailyMed
+4T81LB52R0,LOLIUM PERENNE POLLEN,PE,Concept,NA,DailyMed
+4T82EA86AJ,COCHLIOBOLUS LUNATUS,PE,Concept,NA,DailyMed
+4Z8R6ORS6L,THALIDOMIDE,PE,Concept,NA,DailyMed
+4ZWY20GTGO,CLADOSPORIUM CLADOSPORIOIDES,PE,Concept,NA,DailyMed
+5016WB8B8A,CHAETOMIUM GLOBOSUM,PE,Concept,NA,DailyMed
+501CFL162R,HYDROFLUMETHIAZIDE,PE,Concept,NA,DailyMed
+5021,griseofulvin,PE,IN,NA,RxNorm
+50HCQ1NYV5,POA COMPRESSA POLLEN,PE,Concept,NA,DailyMed
+50Y07N9X03,PERCH,PE,Concept,NA,DailyMed
+51F690397J,CABAZITAXEL,PE,Concept,NA,DailyMed
+51I6N3XIML,BROUSSONETIA PAPYRIFERA POLLEN,PE,Concept,NA,DailyMed
+51ME2L7STL,OKRA,PE,Concept,NA,DailyMed
+51VMV119C5,PLANTAGO MAJOR POLLEN,PE,Concept,NA,DailyMed
+52151,lodoxamide,PE,IN,NA,RxNorm
+52202H034Z,RUBELLA VIRUS STRAIN WISTAR RA 27/3 LIVE ANTIGEN,PE,Concept,NA,DailyMed
+52B29REC7H,ALTERNARIA ALTERNATA,PE,Concept,NA,DailyMed
+5308ED00EL,FELIS CATUS SKIN,PE,Concept,NA,DailyMed
+535787266D,BLATTA ORIENTALIS,PE,Concept,NA,DailyMed
+5398RXP8KU,FUSARIUM OXYSPORUM,PE,Concept,NA,DailyMed
+5438723848,VECURONIUM,PE,Concept,NA,DailyMed
+544488,botulism immune globulin IV human,PE,IN,NA,RxNorm
+544F8MEY0Y,JUNIPERUS ASHEI POLLEN,PE,Concept,NA,DailyMed
+5470,hydralazine,PE,IN,NA,RxNorm
+5487,hydrochlorothiazide,PE,IN,NA,RxNorm
+5495,hydroflumethiazide,PE,IN,NA,RxNorm
+54C8E6W6JY,CULTIVATED MUSHROOM,PE,Concept,NA,DailyMed
+54EC0SE5PZ,STREPTOCOCCUS PNEUMONIAE TYPE 1 CAPSULAR POLYSACCHARIDE DIPHTHERIA CRM197 PROTEIN CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+54UN9R2798,CARYA OVATA POLLEN,PE,Concept,NA,DailyMed
+5509,hydroquinone,PE,IN,NA,RxNorm
+5531,hetastarch,PE,IN,NA,RxNorm
+563KS2PQY5,LACOSAMIDE,PE,Concept,NA,DailyMed
+56946,paclitaxel,PE,IN,NA,RxNorm
+57586C96ZL,PARKINSONIA FLORIDA POLLEN,PE,Concept,NA,DailyMed
+5764,indapamide,PE,IN,NA,RxNorm
+577VA5B4HP,SORGHUM HALEPENSE POLLEN,PE,Concept,NA,DailyMed
+57BTU4547U,QUERCUS MACROCARPA POLLEN,PE,Concept,NA,DailyMed
+57F7254B6Q,STREPTOCOCCUS PNEUMONIAE TYPE 6B CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+57KIJ4772H,ARTEMISIA LUDOVICIANA POLLEN,PE,Concept,NA,DailyMed
+57L1Z5378K,DERMATOPHAGOIDES PTERONYSSINUS,PE,Concept,NA,DailyMed
+57W5SO585B,AMBROSIA TENUIFOLIA POLLEN,PE,Concept,NA,DailyMed
+58FMD0Q0EV,PARSLEY,PE,Concept,NA,DailyMed
+58H6RWO52I,BACITRACIN,PE,Concept,NA,DailyMed
+58RXI817UT,MUSTARD SEED,PE,Concept,NA,DailyMed
+59070I8M63,PINUS SYLVESTRIS POLLEN,PE,Concept,NA,DailyMed
+59078,metaxalone,PE,IN,NA,RxNorm
+592464,articaine,PE,IN,NA,RxNorm
+5928LJ1441,POPULUS DELTOIDES SUBSP. MONILIFERA POLLEN,PE,Concept,NA,DailyMed
+5942,clioquinol,PE,IN,NA,RxNorm
+5964J742O8,GEOTRICHUM CANDIDUM,PE,Concept,NA,DailyMed
+5965120SH1,MINOXIDIL,PE,Concept,NA,DailyMed
+596724,anagrelide,PE,IN,NA,RxNorm
+597392,human vaccinia immune globulin,PE,IN,NA,RxNorm
+598,alprostadil,PE,IN,NA,RxNorm
+59943,imiquimod,PE,IN,NA,RxNorm
+59WAV8G5X5,ACACIA BAILEYANA POLLEN,PE,Concept,NA,DailyMed
+5AN5LR8L3F,ARTEMISIA FRIGIDA POLLEN,PE,Concept,NA,DailyMed
+5BFC8LZ6LQ,HEPATITIS A VIRUS STRAIN HM175 ANTIGEN (FORMALDEHYDE INACTIVATED),PE,Concept,NA,DailyMed
+5BGG872373,CARYA LACINIOSA POLLEN,PE,Concept,NA,DailyMed
+5EVU04N5QU,ORANGE,PE,Concept,NA,DailyMed
+5JKY494U4L,NORTHERN PIKE,PE,Concept,NA,DailyMed
+5JT3N61JSP,NEISSERIA MENINGITIDIS GROUP W-135 CAPSULAR OLIGOSACCHARIDE DIPHTHERIA CRM197 PROTEIN CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+5K0VU709JD,STREPTOCOCCUS PNEUMONIAE TYPE 19F CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+5KV86114PT,MONOETHANOLAMINE,PE,Concept,NA,DailyMed
+5M0MWY797U,ISOEUGENOL,PE,Concept,NA,DailyMed
+5M338IN22E,MUSTARD GREENS,PE,Concept,NA,DailyMed
+5MG5Z946UO,CAROB,PE,Concept,NA,DailyMed
+5O7CR4P444,SOLENOPSIS INVICTA,PE,Concept,NA,DailyMed
+5P4DHS6ENR,BENZONATATE,PE,Concept,NA,DailyMed
+5PO6NN3RRJ,LETTUCE,PE,Concept,NA,DailyMed
+5PWM7YLI7R,BARLEY,PE,Concept,NA,DailyMed
+5Q246DS5BS,LIQUIDAMBAR STYRACIFLUA POLLEN,PE,Concept,NA,DailyMed
+5Q52X6ICJI,BENDROFLUMETHIAZIDE,PE,Concept,NA,DailyMed
+5Q768OY0GI,STREPTOCOCCUS PNEUMONIAE TYPE 9V CAPSULAR POLYSACCHARIDE DIPHTHERIA CRM197 PROTEIN CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+5RLR54Z22K,2-MERCAPTOBENZOTHIAZOLE,PE,Concept,NA,DailyMed
+5S29HWU6QB,CINNAMON,PE,Concept,NA,DailyMed
+5SEH9X1D1D,ETHOSUXIMIDE,PE,Concept,NA,DailyMed
+5SKG37872O,STREPTOCOCCUS PNEUMONIAE TYPE 5 CAPSULAR POLYSACCHARIDE DIPHTHERIA CRM197 PROTEIN CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+5TAA004E22,SARGRAMOSTIM,PE,Concept,NA,DailyMed
+5VJA14972G,BLACK WIDOW SPIDER (LATRODECTUS MACTANS) IMMUNE GLOBULIN ANTIVENIN (EQUINE),PE,Concept,NA,DailyMed
+5W6JAI84OI,ALLENROLFEA OCCIDENTALIS POLLEN,PE,Concept,NA,DailyMed
+5W7SIA7YZW,LEVONORGESTREL,PE,Concept,NA,DailyMed
+5X9Y89ENI9,CTENOCEPHALIDES FELIS,PE,Concept,NA,DailyMed
+5YVB0POT2H,CHLOROPROCAINE,PE,Concept,NA,DailyMed
+5Z9SP3X666,NUSINERSEN,PE,Concept,NA,DailyMed
+6026,isoflurane,PE,IN,NA,RxNorm
+6058,isosorbide dinitrate,PE,IN,NA,RxNorm
+605T96G8Y5,ALNUS INCANA SUBSP. RUGOSA POLLEN,PE,Concept,NA,DailyMed
+60RO23IR87,POPPY SEED,PE,Concept,NA,DailyMed
+60V9STC53F,ETHYLENEDIAMINE,PE,Concept,NA,DailyMed
+6122W2M0GB,"SALMON, UNSPECIFIED",PE,Concept,NA,DailyMed
+6130,ketamine,PE,IN,NA,RxNorm
+613391,prasugrel,PE,IN,NA,RxNorm
+614391,abatacept,PE,IN,NA,RxNorm
+614OI1Z5WI,VALPROIC ACID,PE,Concept,NA,DailyMed
+6158TKW0C5,PHENYTOIN,PE,Concept,NA,DailyMed
+61746O90DY,HUMAN PAPILLOMAVIRUS TYPE 6 L1 CAPSID PROTEIN ANTIGEN,PE,Concept,NA,DailyMed
+6218,lactulose,PE,IN,NA,RxNorm
+623400,lacosamide,PE,IN,NA,RxNorm
+62OII98F1T,CALLISTEMON CITRINUS POLLEN,PE,Concept,NA,DailyMed
+62TY3X4N9Z,RHODOTORULA MUCILAGINOSA,PE,Concept,NA,DailyMed
+63218N1ZBI,FAGUS SYLVATICA POLLEN,PE,Concept,NA,DailyMed
+6334XMP4KC,HUMAN ROTAVIRUS A TYPE G4P7(5) STRAIN BRB LIVE ANTIGEN,PE,Concept,NA,DailyMed
+6373,levonorgestrel,PE,IN,NA,RxNorm
+6387,lidocaine,PE,IN,NA,RxNorm
+63937KV33D,ERYTHROMYCIN,PE,Concept,NA,DailyMed
+63TBJ590BL,AMBROSIA CONFERTIFLORA POLLEN,PE,Concept,NA,DailyMed
+644,amiloride,PE,IN,NA,RxNorm
+644CZ16IR5,SOLIDAGO CANADENSIS POLLEN,PE,Concept,NA,DailyMed
+64ALC7F90C,DIPYRIDAMOLE,PE,Concept,NA,DailyMed
+64FS3BFH5W,ERYTHROPOIETIN,PE,Concept,NA,DailyMed
+6532U64A3X,SARCOBATUS VERMICULATUS POLLEN,PE,Concept,NA,DailyMed
+659G217HPG,BROWN RICE,PE,Concept,NA,DailyMed
+65M88RW2EG,PHLEUM PRATENSE POLLEN,PE,Concept,NA,DailyMed
+6607IKD2XX,PINUS THUNBERGII POLLEN,PE,Concept,NA,DailyMed
+6628,mannitol,PE,IN,NA,RxNorm
+662J7FTA7T,AMBROSIA SALSOLA POLLEN,PE,Concept,NA,DailyMed
+6673,mecamylamine,PE,IN,NA,RxNorm
+6676,meclizine,PE,IN,NA,RxNorm
+667Y1EG6EW,STREPTOCOCCUS PNEUMONIAE TYPE 15B CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+669818346F,STREPTOCOCCUS PNEUMONIAE TYPE 8 CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+66Y330CJHS,HUMAN IMMUNOGLOBULIN G,PE,Concept,NA,DailyMed
+6759,mepivacaine,PE,IN,NA,RxNorm
+67M3EQ6BE1,PLUM,PE,Concept,NA,DailyMed
+67VB76HONO,DEXMEDETOMIDINE,PE,Concept,NA,DailyMed
+68139,rocuronium,PE,IN,NA,RxNorm
+68147,cetrorelix,PE,IN,NA,RxNorm
+6815CPT6ZJ,PISTACHIO,PE,Concept,NA,DailyMed
+6816,methamphetamine,PE,IN,NA,RxNorm
+68442,filgrastim,PE,IN,NA,RxNorm
+6845,methocarbamol,PE,IN,NA,RxNorm
+6854,methoxsalen,PE,IN,NA,RxNorm
+68P4F4M6VD,ELAEAGNUS ANGUSTIFOLIA POLLEN,PE,Concept,NA,DailyMed
+68R9X9Y96X,CELTIS OCCIDENTALIS POLLEN,PE,Concept,NA,DailyMed
+6901,methylphenidate,PE,IN,NA,RxNorm
+690G0D6V8H,KETAMINE,PE,Concept,NA,DailyMed
+6916,metolazone,PE,IN,NA,RxNorm
+69634,sargramostim,PE,IN,NA,RxNorm
+6984,minoxidil,PE,IN,NA,RxNorm
+699121PHCA,DOCETAXEL ANHYDROUS,PE,Concept,NA,DailyMed
+69KDL2830A,RATTUS NORVEGICUS HAIR,PE,Concept,NA,DailyMed
+69O5WQQ5TI,CYCLOBENZAPRINE,PE,Concept,NA,DailyMed
+69PN84IO1A,ENALAPRIL,PE,Concept,NA,DailyMed
+6AQ1Y404U7,CANGRELOR,PE,Concept,NA,DailyMed
+6AU0ZD8T1O,PASCOPYRUM SMITHII POLLEN,PE,Concept,NA,DailyMed
+6CW7F3G59X,GABAPENTIN,PE,Concept,NA,DailyMed
+6EE945D3OK,MECAMYLAMINE,PE,Concept,NA,DailyMed
+6EIJ3D04MR,PROSOPIS JULIFLORA POLLEN,PE,Concept,NA,DailyMed
+6HD2W46UEG,GREEN OLIVE,PE,Concept,NA,DailyMed
+6JR6JTN25S,EPIDERMOPHYTON FLOCCOSUM,PE,Concept,NA,DailyMed
+6K15ABL77G,HUMAN THROMBIN,PE,Concept,NA,DailyMed
+6K41G30A6U,HYPOMYCES PERNICIOSUS,PE,Concept,NA,DailyMed
+6KIC4BB60G,HUMAN C1-ESTERASE INHIBITOR,PE,Concept,NA,DailyMed
+6LK42KUV6W,BOMBYX MORI FIBER,PE,Concept,NA,DailyMed
+6LTE2DNX63,HUMAN PAPILLOMAVIRUS TYPE 16 L1 CAPSID PROTEIN ANTIGEN,PE,Concept,NA,DailyMed
+6M2JIH93ZN,SALIX NIGRA POLLEN,PE,Concept,NA,DailyMed
+6M47G7C4SY,RED PEPPER,PE,Concept,NA,DailyMed
+6M98DC08TZ,FUSARIUM OXYSPORUM VASINFECTUM,PE,Concept,NA,DailyMed
+6MRZ85RNHQ,DIPHENYLGUANIDINE,PE,Concept,NA,DailyMed
+6O38V6B52O,LENTIL,PE,Concept,NA,DailyMed
+6OK753033Z,"2,2'-DITHIOBISBENZOTHIAZOLE",PE,Concept,NA,DailyMed
+6PU1E16C9W,BRONOPOL,PE,Concept,NA,DailyMed
+6T362S6JF6,AMERICAN LOBSTER,PE,Concept,NA,DailyMed
+6T84R30KC1,TRANEXAMIC ACID,PE,Concept,NA,DailyMed
+6T8C155666,IPILIMUMAB,PE,Concept,NA,DailyMed
+6U600U1326,QUERCUS NIGRA POLLEN,PE,Concept,NA,DailyMed
+6U90Y1795T,COAGULATION FACTOR IX HUMAN,PE,Concept,NA,DailyMed
+6WO75C6WVB,SPINACH,PE,Concept,NA,DailyMed
+6X543N684K,GRAPE,PE,Concept,NA,DailyMed
+6YR2608RSU,TOBACCO LEAF,PE,Concept,NA,DailyMed
+700810,lisdexamfetamine,PE,IN,NA,RxNorm
+700NK45C76,ACER RUBRUM POLLEN,PE,Concept,NA,DailyMed
+70223,aldesleukin,PE,IN,NA,RxNorm
+7062I37LB3,ATLANTIC SALMON,PE,Concept,NA,DailyMed
+70LDW53ROO,COTTON FIBER,PE,Concept,NA,DailyMed
+70O1TP6H01,HOLCUS LANATUS POLLEN,PE,Concept,NA,DailyMed
+711942,eltrombopag,PE,IN,NA,RxNorm
+71535,vecuronium,PE,IN,NA,RxNorm
+7194H8W3KT,SALMONELLA TYPHI TY2 VI POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+723868,"protein C, human",PE,PIN,NA,RxNorm
+725,amphetamine,PE,IN,NA,RxNorm
+729596,methoxy polyethylene glycol-epoetin beta,PE,IN,NA,RxNorm
+72G3UY6T4N,PROTAMINE,PE,Concept,NA,DailyMed
+73137,tirofiban,PE,IN,NA,RxNorm
+733003,plerixafor,PE,IN,NA,RxNorm
+739684T11W,SOLENOPSIS RICHTERI,PE,Concept,NA,DailyMed
+73B0K5S26A,BELIMUMAB,PE,Concept,NA,DailyMed
+73B14PX5FW,AMARANTHUS RETROFLEXUS POLLEN,PE,Concept,NA,DailyMed
+73W9IQY50Q,KARAYA GUM,PE,Concept,NA,DailyMed
+7435,nisoldipine,PE,IN,NA,RxNorm
+7442,nitric oxide,PE,IN,NA,RxNorm
+74667,zaleplon,PE,IN,NA,RxNorm
+7476,nitroprusside,PE,IN,NA,RxNorm
+74PD8J616H,ZEA MAYS POLLEN,PE,Concept,NA,DailyMed
+75635,eptifibatide,PE,IN,NA,RxNorm
+758Z9H9WV9,CEIBA PENTANDRA FIBER,PE,Concept,NA,DailyMed
+762595,Salmonella typhi Ty21a live antigen,PE,IN,NA,RxNorm
+762817,rubella virus vaccine live (Wistar RA 27-3 strain),PE,IN,NA,RxNorm
+763096,"poliovirus vaccine inactivated, type 1 (Mahoney)",PE,IN,NA,RxNorm
+763098,"poliovirus vaccine inactivated, type 2 (MEF-1)",PE,IN,NA,RxNorm
+763100,"poliovirus vaccine inactivated, type 3 (Saukett)",PE,IN,NA,RxNorm
+766QT72BK6,BROMUS INERMIS POLLEN,PE,Concept,NA,DailyMed
+76780GX08D,EUROPEAN PILCHARD,PE,Concept,NA,DailyMed
+7686S50JAH,INGENOL MEBUTATE,PE,Concept,NA,DailyMed
+76LA80IG2G,GLUCAGON,PE,Concept,NA,DailyMed
+7715,orphenadrine,PE,IN,NA,RxNorm
+77K87U8X7J,SOLIDAGO VIRGAUREA POLLEN,PE,Concept,NA,DailyMed
+77W477J15H,CHLOROTHIAZIDE,PE,Concept,NA,DailyMed
+77X11O684J,PLATANUS HYBRIDA POLLEN,PE,Concept,NA,DailyMed
+7812,oxymetazoline,PE,IN,NA,RxNorm
+7824,oxytocin,PE,IN,NA,RxNorm
+786YV7B602,BLACK-EYED PEA,PE,Concept,NA,DailyMed
+7883,pancuronium,PE,IN,NA,RxNorm
+789U1901C5,COPPER,PE,Concept,NA,DailyMed
+797629,Neisseria meningitidis serogroup A capsular polysaccharide diphtheria toxoid protein conjugate vaccine,PE,IN,NA,RxNorm
+797631,Neisseria meningitidis serogroup C capsular polysaccharide diphtheria toxoid protein conjugate vaccine,PE,IN,NA,RxNorm
+797633,Neisseria meningitidis serogroup W-135 capsular polysaccharide diphtheria toxoid protein conjugate vaccine,PE,IN,NA,RxNorm
+797635,Neisseria meningitidis serogroup Y capsular polysaccharide diphtheria toxoid protein conjugate vaccine,PE,IN,NA,RxNorm
+797752,hepatitis B surface antigen vaccine,PE,IN,NA,RxNorm
+798220,Streptococcus pneumoniae serotype 14 capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+798222,Streptococcus pneumoniae serotype 18C capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+798224,Streptococcus pneumoniae serotype 19F capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+798226,Streptococcus pneumoniae serotype 23F capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+798228,Streptococcus pneumoniae serotype 4 capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+798230,Streptococcus pneumoniae serotype 6B capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+798232,Streptococcus pneumoniae serotype 9V capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+798262,"L1 protein, human papillomavirus type 11 vaccine",PE,IN,NA,RxNorm
+798264,"L1 protein, human papillomavirus type 16 vaccine",PE,IN,NA,RxNorm
+798266,"L1 protein, human papillomavirus type 18 vaccine",PE,IN,NA,RxNorm
+798268,"L1 protein, human papillomavirus type 6 vaccine",PE,IN,NA,RxNorm
+798286,human-bovine reassortant rotavirus strain G1 vaccine,PE,IN,NA,RxNorm
+798288,human-bovine reassortant rotavirus strain G2 vaccine,PE,IN,NA,RxNorm
+798290,human-bovine reassortant rotavirus strain G3 vaccine,PE,IN,NA,RxNorm
+798292,human-bovine reassortant rotavirus strain G4 vaccine,PE,IN,NA,RxNorm
+798294,human-bovine reassortant rotavirus strain P1A[8] vaccine,PE,IN,NA,RxNorm
+798304,"diphtheria toxoid vaccine, inactivated",PE,IN,NA,RxNorm
+798306,"tetanus toxoid vaccine, inactivated",PE,IN,NA,RxNorm
+798361,hepatitis A vaccine (inactivated) strain HM175,PE,IN,NA,RxNorm
+798372,"mumps virus vaccine live, Jeryl Lynn strain",PE,IN,NA,RxNorm
+798444,Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine,PE,IN,NA,RxNorm
+79U8P8X3Q5,BLUEFISH,PE,Concept,NA,DailyMed
+79Y1949PYO,GOLD,PE,Concept,NA,DailyMed
+7BHQ856EJ5,CLIOQUINOL,PE,Concept,NA,DailyMed
+7D0YB67S97,ABATACEPT,PE,Concept,NA,DailyMed
+7DZO8EB0Z3,AMILORIDE,PE,Concept,NA,DailyMed
+7E34E106BO,ATLANTIC HALIBUT,PE,Concept,NA,DailyMed
+7IO5LYA57N,ROPIVACAINE,PE,Concept,NA,DailyMed
+7IS9N8KPMG,SULFATE ION,PE,Concept,NA,DailyMed
+7J12CD6O9L,BOS TAURUS SKIN,PE,Concept,NA,DailyMed
+7JWJ3HXZ9U,JUNIPERUS OCCIDENTALIS POLLEN,PE,Concept,NA,DailyMed
+7K383OQI23,ZOLPIDEM,PE,Concept,NA,DailyMed
+7LXU5N7ZO5,FUROSEMIDE,PE,Concept,NA,DailyMed
+7NLV25LOSI,STREPTOCOCCUS PNEUMONIAE TYPE 22F CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+7ORP6R724L,PENICILLIUM ROQUEFORTI,PE,Concept,NA,DailyMed
+7OV03QG267,NICKEL,PE,Concept,NA,DailyMed
+7PI26E943G,DOLICHOVESPULA ARENARIA VENOM PROTEIN,PE,Concept,NA,DailyMed
+7Q7T9Z7QUW,SUS SCROFA HAIR,PE,Concept,NA,DailyMed
+7S6NW5FH8X,DENDRYPHIELLA VINOSA,PE,Concept,NA,DailyMed
+7S82P3R43Z,APIS MELLIFERA,PE,Concept,NA,DailyMed
+7SA290YK68,DEXTRAN 70,PE,Concept,NA,DailyMed
+7TI7U5PF2U,TROUT,PE,Concept,NA,DailyMed
+7TLR512M4A,HAEMATONECTRIA HAEMATOCOCCA,PE,Concept,NA,DailyMed
+7U437HHU5C,POA ANNUA POLLEN,PE,Concept,NA,DailyMed
+7UB4J759TD,HUMAN VACCINIA VIRUS IMMUNE GLOBULIN,PE,Concept,NA,DailyMed
+7WZ1744G86,CROTALUS SCUTULATUS IMMUNE FAB ANTIVENIN (OVINE),PE,Concept,NA,DailyMed
+7X8HL8GRTM,ALNUS RHOMBIFOLIA POLLEN,PE,Concept,NA,DailyMed
+7XL5ISS668,BRENTUXIMAB VEDOTIN,PE,Concept,NA,DailyMed
+7XW7TB10X9,EUCALYPTUS GLOBULUS POLLEN,PE,Concept,NA,DailyMed
+7Y1255HVXR,SESAME SEED,PE,Concept,NA,DailyMed
+8003NOJ82F,ROBINIA PSEUDOACACIA POLLEN,PE,Concept,NA,DailyMed
+8013,pentoxifylline,PE,IN,NA,RxNorm
+804179,"measles virus vaccine live, Enders' attenuated Edmonston strain",PE,IN,NA,RxNorm
+804187,yellow fever virus strain 17D-204 live antigen,PE,IN,NA,RxNorm
+805452,romiplostim,PE,IN,NA,RxNorm
+805573,"rotavirus vaccine, live attenuated, G1P[8] human 89-12 strain",PE,IN,NA,RxNorm
+807219,"typhoid Vi polysaccharide vaccine, S typhi Ty2 strain",PE,IN,NA,RxNorm
+808UWJ59FI,SALIX LASIOLEPIS POLLEN,PE,Concept,NA,DailyMed
+809864,C1 esterase inhibitor (human),PE,PIN,NA,RxNorm
+81214Y871U,AMBROSIA AMBROSIOIDES POLLEN,PE,Concept,NA,DailyMed
+813859,rabbit allergenic extract,PE,IN,NA,RxNorm
+8152,phentermine,PE,IN,NA,RxNorm
+815V716OR2,GIBBERELLA FUJIKUROI,PE,Concept,NA,DailyMed
+8183,phenytoin,PE,IN,NA,RxNorm
+81GS97HVFO,ARTEMISIA ABSINTHIUM POLLEN,PE,Concept,NA,DailyMed
+825006,"thrombin, human",PE,PIN,NA,RxNorm
+826072,"von Willebrand factor, human",PE,PIN,NA,RxNorm
+828529,"albumin human, USP",PE,IN,NA,RxNorm
+830457,rabies virus vaccine flury-lep strain,PE,IN,NA,RxNorm
+830464,"rabies virus vaccine wistar strain PM-1503-3M (human), inactivated",PE,IN,NA,RxNorm
+8308,vitamin K1,PE,IN,NA,RxNorm
+839MOZ74GK,ANTIHEMOPHILIC FACTOR HUMAN,PE,Concept,NA,DailyMed
+83B65P4796,ANAS PLATYRHYNCHOS FEATHER,PE,Concept,NA,DailyMed
+83G67E21XI,UROKINASE,PE,Concept,NA,DailyMed
+83N78IDA7P,DACTYLIS GLOMERATA POLLEN,PE,Concept,NA,DailyMed
+83X1I1RR5F,AMPHIACHYRIS DRACUNCULOIDES POLLEN,PE,Concept,NA,DailyMed
+8463,podofilox,PE,IN,NA,RxNorm
+8476849N1Y,RHIZOPUS ARRHIZUS,PE,Concept,NA,DailyMed
+84Q71TU5SU,CAVIA PORCELLUS DANDER,PE,Concept,NA,DailyMed
+84ZOM591BB,SYAGRUS ROMANZOFFIANA POLLEN,PE,Concept,NA,DailyMed
+851732,Acacia pollen extract,PE,IN,NA,RxNorm
+851736,coast maple pollen extract,PE,IN,NA,RxNorm
+851740,box elder maple pollen extract,PE,IN,NA,RxNorm
+851744,red maple pollen extract,PE,IN,NA,RxNorm
+851866,silver maple pollen extract,PE,IN,NA,RxNorm
+851870,redtop grass pollen extract,PE,IN,NA,RxNorm
+851874,hard maple pollen extract,PE,IN,NA,RxNorm
+851878,orchard grass pollen extract,PE,IN,NA,RxNorm
+851882,sisal fiber allergenic extract,PE,IN,NA,RxNorm
+851890,tree of heaven pollen extract,PE,IN,NA,RxNorm
+851894,iodine bush pollen extract,PE,IN,NA,RxNorm
+851898,sweet vernal grass pollen extract,PE,IN,NA,RxNorm
+851902,tag alder pollen extract,PE,IN,NA,RxNorm
+851906,Bermuda grass pollen extract,PE,IN,NA,RxNorm
+851910,white alder pollen extract,PE,IN,NA,RxNorm
+851914,red alder pollen extract,PE,IN,NA,RxNorm
+851918,meadow fescue grass pollen extract,PE,IN,NA,RxNorm
+851926,careless weed pollen extract,PE,IN,NA,RxNorm
+851930,redroot pigweed pollen extract,PE,IN,NA,RxNorm
+851934,western waterhemp pollen extract,PE,IN,NA,RxNorm
+851938,false ragweed pollen extract,PE,IN,NA,RxNorm
+851942,canyon ragweed pollen extract,PE,IN,NA,RxNorm
+851949,cat skin extract,PE,IN,NA,RxNorm
+851955,sandbur ragweed pollen extract,PE,IN,NA,RxNorm
+851969,rabbit bush pollen extract,PE,IN,NA,RxNorm
+851981,desert ragweed pollen extract,PE,IN,NA,RxNorm
+851985,western ragweed pollen extract,PE,IN,NA,RxNorm
+851990,slender ragweed pollen extract,PE,IN,NA,RxNorm
+851994,Timothy grass pollen extract,PE,IN,NA,RxNorm
+851998,giant ragweed pollen extract,PE,IN,NA,RxNorm
+852007,wormwood sage pollen extract,PE,IN,NA,RxNorm
+852011,coast sage pollen extract,PE,IN,NA,RxNorm
+852015,corn pollen extract,PE,IN,NA,RxNorm
+852020,common sagebrush pollen extract,PE,IN,NA,RxNorm
+852025,cocklebur pollen extract,PE,IN,NA,RxNorm
+852029,mugwort sage pollen extract,PE,IN,NA,RxNorm
+852046,nettle pollen extract,PE,IN,NA,RxNorm
+852054,American elm pollen extract,PE,IN,NA,RxNorm
+852062,tobacco leaf allergenic extract,PE,IN,NA,RxNorm
+852070,linden pollen extract,PE,IN,NA,RxNorm
+852074,wing scale pollen extract,PE,IN,NA,RxNorm
+852079,dandelion pollen extract,PE,IN,NA,RxNorm
+852087,shad scale pollen extract,PE,IN,NA,RxNorm
+852096,lens scale pollen extract,PE,IN,NA,RxNorm
+852102,Aureobasidium pullulans var. pullutans allergenic extract,PE,IN,NA,RxNorm
+852106,alkali blite pollen extract,PE,IN,NA,RxNorm
+852114,cultivated oat pollen extract,PE,IN,NA,RxNorm
+852124,fivehorn smotherweed pollen extract,PE,IN,NA,RxNorm
+852128,Johnson grass smut allergenic extract,PE,IN,NA,RxNorm
+852132,sugar beet pollen extract,PE,IN,NA,RxNorm
+852136,Johnson grass pollen extract,PE,IN,NA,RxNorm
+852140,pepper tree pollen extract,PE,IN,NA,RxNorm
+852144,cherry birch pollen extract,PE,IN,NA,RxNorm
+852148,river birch pollen extract,PE,IN,NA,RxNorm
+852152,greasewood pollen extract,PE,IN,NA,RxNorm
+852158,Russian thistle pollen extract,PE,IN,NA,RxNorm
+852162,black willow pollen extract,PE,IN,NA,RxNorm
+852166,water birch pollen extract,PE,IN,NA,RxNorm
+852170,arroyo willow pollen extract,PE,IN,NA,RxNorm
+852174,pussy willow pollen extract,PE,IN,NA,RxNorm
+852178,gray birch pollen extract,PE,IN,NA,RxNorm
+852193,white hickory pollen extract,PE,IN,NA,RxNorm
+852197,grama grass pollen extract,PE,IN,NA,RxNorm
+852205,mustard pollen extract,PE,IN,NA,RxNorm
+852209,yellow dock pollen extract,PE,IN,NA,RxNorm
+852213,sheep sorrel pollen extract,PE,IN,NA,RxNorm
+852217,smooth brome pollen extract,PE,IN,NA,RxNorm
+852221,shagbark hickory pollen extract,PE,IN,NA,RxNorm
+852225,cheat grass pollen extract,PE,IN,NA,RxNorm
+852229,Australian pine pollen extract,PE,IN,NA,RxNorm
+852237,lambs quarters pollen extract,PE,IN,NA,RxNorm
+852252,domestic goat skin extract,PE,IN,NA,RxNorm
+852256,domestic cow skin extract,PE,IN,NA,RxNorm
+852260,black oak pollen extract,PE,IN,NA,RxNorm
+852264,Cochliobolus lunatus allergenic extract,PE,IN,NA,RxNorm
+852268,red oak pollen extract,PE,IN,NA,RxNorm
+852272,pecan pollen extract,PE,IN,NA,RxNorm
+852276,Gambels oak pollen extract,PE,IN,NA,RxNorm
+852281,hazelnut pollen extract,PE,IN,NA,RxNorm
+852294,white oak pollen extract,PE,IN,NA,RxNorm
+852298,guinea pig skin extract,PE,IN,NA,RxNorm
+852302,coast live oak pollen extract,PE,IN,NA,RxNorm
+852306,silver ragweed pollen extract,PE,IN,NA,RxNorm
+852311,Puccinia striiformis allergenic extract,PE,IN,NA,RxNorm
+852315,kapok tree fiber allergenic extract,PE,IN,NA,RxNorm
+852320,mesquite pollen extract,PE,IN,NA,RxNorm
+852324,hackberry pollen extract,PE,IN,NA,RxNorm
+852329,salt grass pollen extract,PE,IN,NA,RxNorm
+852339,aspen pollen extract,PE,IN,NA,RxNorm
+852343,quackgrass pollen extract,PE,IN,NA,RxNorm
+852348,Lombardy poplar pollen extract,PE,IN,NA,RxNorm
+852355,Fremont cottonwood pollen extract,PE,IN,NA,RxNorm
+852359,palo verde pollen extract,PE,IN,NA,RxNorm
+852363,eastern cottonwood pollen extract,PE,IN,NA,RxNorm
+852367,Russian olive pollen extract,PE,IN,NA,RxNorm
+852376,black cottonwood pollen extract,PE,IN,NA,RxNorm
+852382,white poplar pollen extract,PE,IN,NA,RxNorm
+852386,Eucalyptus globulus pollen extract,PE,IN,NA,RxNorm
+852398,Cochliobolus sativus allergenic extract,PE,IN,NA,RxNorm
+852404,Pleospora tarda allergenic extract,PE,IN,NA,RxNorm
+852412,jute fiber allergenic extract,PE,IN,NA,RxNorm
+852419,beech pollen extract,PE,IN,NA,RxNorm
+852440,cottonseed allergenic extract,PE,IN,NA,RxNorm
+852450,white ash pollen extract,PE,IN,NA,RxNorm
+852466,Epicoccum nigrum allergenic extract,PE,IN,NA,RxNorm
+852479,horse skin extract,PE,IN,NA,RxNorm
+852491,green ash pollen extract,PE,IN,NA,RxNorm
+852496,Arizona ash pollen extract,PE,IN,NA,RxNorm
+852503,Haematonectria haematococca allergenic extract,PE,IN,NA,RxNorm
+852509,sunflower pollen extract,PE,IN,NA,RxNorm
+852514,velvet grass pollen extract,PE,IN,NA,RxNorm
+852519,house dust allergenic extract,PE,IN,NA,RxNorm
+852526,burrobrush pollen extract,PE,IN,NA,RxNorm
+852532,rough marshelder pollen extract,PE,IN,NA,RxNorm
+852539,poverty weed pollen extract,PE,IN,NA,RxNorm
+852551,burweed marshelder pollen extract,PE,IN,NA,RxNorm
+852561,California black walnut pollen extract,PE,IN,NA,RxNorm
+852569,black walnut pollen extract,PE,IN,NA,RxNorm
+852577,English walnut pollen extract,PE,IN,NA,RxNorm
+852581,mountain cedar pollen extract,PE,IN,NA,RxNorm
+852585,California juniper pollen extract,PE,IN,NA,RxNorm
+852589,western juniper pollen extract,PE,IN,NA,RxNorm
+852593,burning bush pollen extract,PE,IN,NA,RxNorm
+852597,Utah juniper pollen extract,PE,IN,NA,RxNorm
+852601,Rocky Mountain juniper pollen extract,PE,IN,NA,RxNorm
+852605,Koelers grass pollen extract,PE,IN,NA,RxNorm
+852609,red cedar pollen extract,PE,IN,NA,RxNorm
+852613,winterfat pollen extract,PE,IN,NA,RxNorm
+852617,karaya gum extract,PE,IN,NA,RxNorm
+852622,privet pollen extract,PE,IN,NA,RxNorm
+852627,sweet gum pollen extract,PE,IN,NA,RxNorm
+852634,alfalfa pollen extract,PE,IN,NA,RxNorm
+852653,european olive pollen extract,PE,IN,NA,RxNorm
+852659,western wheatgrass pollen extract,PE,IN,NA,RxNorm
+852663,Syrian hamster skin extract,PE,IN,NA,RxNorm
+852669,white mulberry pollen extract,PE,IN,NA,RxNorm
+852673,bahia grass pollen extract,PE,IN,NA,RxNorm
+852680,red mulberry pollen extract,PE,IN,NA,RxNorm
+852687,Mucor racemosus allergenic extract,PE,IN,NA,RxNorm
+852693,house mouse skin extract,PE,IN,NA,RxNorm
+852697,canary grass pollen extract,PE,IN,NA,RxNorm
+852704,date palm pollen extract,PE,IN,NA,RxNorm
+852709,shortleaf pine pollen extract,PE,IN,NA,RxNorm
+852716,yellow pine pollen extract,PE,IN,NA,RxNorm
+852738,eastern white pine pollen extract,PE,IN,NA,RxNorm
+852742,English plantain pollen extract,PE,IN,NA,RxNorm
+852746,eastern sycamore pollen extract,PE,IN,NA,RxNorm
+852750,western sycamore pollen extract,PE,IN,NA,RxNorm
+852756,Pleospora betae allergenic extract,PE,IN,NA,RxNorm
+852797,wheat smut allergenic extract,PE,IN,NA,RxNorm
+852802,California scrub oak pollen extract,PE,IN,NA,RxNorm
+852806,salt cedar pollen extract,PE,IN,NA,RxNorm
+852814,Arizona cypress pollen extract,PE,IN,NA,RxNorm
+852819,perennial rye grass pollen extract,PE,IN,NA,RxNorm
+852834,Kentucky bluegrass pollen extract,PE,IN,NA,RxNorm
+852839,hog skin extract,PE,IN,NA,RxNorm
+852844,Chinese elm pollen extract,PE,IN,NA,RxNorm
+853406,cottonseed extract,PE,IN,NA,RxNorm
+854025,Canis lupus familiaris hair extract,PE,IN,NA,RxNorm
+854082,Aspergillus niger var. niger extract,PE,IN,NA,RxNorm
+854130,Penicillium chrysogenum var. chrysogenum allergenic extract,PE,IN,NA,RxNorm
+854930,Streptococcus pneumoniae type 1 capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854932,Streptococcus pneumoniae type 10A capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854934,Streptococcus pneumoniae type 11A capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854936,Streptococcus pneumoniae type 12F capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854938,Streptococcus pneumoniae type 14 capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854940,Streptococcus pneumoniae type 15B capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854942,Streptococcus pneumoniae type 17F capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854944,Streptococcus pneumoniae type 18C capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854946,Streptococcus pneumoniae type 19A capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854948,Streptococcus pneumoniae type 19F capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854950,Streptococcus pneumoniae type 2 capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854952,Streptococcus pneumoniae type 20 capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854954,Streptococcus pneumoniae type 22F capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854956,Streptococcus pneumoniae type 23F capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854958,Streptococcus pneumoniae type 3 capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854960,Streptococcus pneumoniae type 33F capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854962,Streptococcus pneumoniae type 4 capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854964,Streptococcus pneumoniae type 5 capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854966,Streptococcus pneumoniae type 6B capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854968,Streptococcus pneumoniae type 7F capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854970,Streptococcus pneumoniae type 8 capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854972,Streptococcus pneumoniae type 9N capsular polysaccharide antigen,PE,IN,NA,RxNorm
+854974,Streptococcus pneumoniae type 9V capsular polysaccharide antigen,PE,IN,NA,RxNorm
+8565,polythiazide,PE,IN,NA,RxNorm
+85EA9K88OY,VENISON,PE,Concept,NA,DailyMed
+85Z8OHV3K7,BRASSICA RAPA POLLEN,PE,Concept,NA,DailyMed
+862453,barley allergenic extract,PE,IN,NA,RxNorm
+862460,casein allergenic extract,PE,IN,NA,RxNorm
+862475,goat milk allergenic extract,PE,IN,NA,RxNorm
+862478,green bell pepper allergenic extract,PE,IN,NA,RxNorm
+867142,prairie sagebrush pollen extract,PE,IN,NA,RxNorm
+867198,Cladosporium cladosporioides extract,PE,IN,NA,RxNorm
+867202,cladosporium sphaerospermum allergenic extract,PE,IN,NA,RxNorm
+867218,dogfennel pollen extract,PE,IN,NA,RxNorm
+867228,Fusarium oxysporum vasinfectum allergenic extract,PE,IN,NA,RxNorm
+867232,Helminthosporium solani allergenic extract,PE,IN,NA,RxNorm
+867260,southern bayberry pollen extract,PE,IN,NA,RxNorm
+867274,neurospora intermedia allergenic extract,PE,IN,NA,RxNorm
+867284,Phoma exigua var. exigua allergenic extract,PE,IN,NA,RxNorm
+867297,plains cottonwood pollen extract,PE,IN,NA,RxNorm
+867311,live oak pollen extract,PE,IN,NA,RxNorm
+867321,Rhodotorula rubra allergenic extract,PE,IN,NA,RxNorm
+867325,black locust pollen extract,PE,IN,NA,RxNorm
+867341,red imported fire ant allergenic extract,PE,IN,NA,RxNorm
+867349,Stemphylium solani allergenic extract,PE,IN,NA,RxNorm
+867353,queen palm pollen extract,PE,IN,NA,RxNorm
+867357,Trichophyton mentagrophytes allergenic extract,PE,IN,NA,RxNorm
+867361,wheat pollen extract,PE,IN,NA,RxNorm
+8686,prilocaine,PE,IN,NA,RxNorm
+8691,primidone,PE,IN,NA,RxNorm
+86LWA5503I,ATRIPLEX LENTIFORMIS POLLEN,PE,Concept,NA,DailyMed
+875Y4127EA,HETASTARCH,PE,Concept,NA,DailyMed
+8782,propofol,PE,IN,NA,RxNorm
+87U156LEN7,EPICOCCUM NIGRUM,PE,Concept,NA,DailyMed
+8814,epoprostenol,PE,IN,NA,RxNorm
+882469,Pacific halibut allergenic extract,PE,IN,NA,RxNorm
+882482,trout allergenic extract,PE,IN,NA,RxNorm
+882488,venison allergenic extract,PE,IN,NA,RxNorm
+8826,protamines,PE,IN,NA,RxNorm
+883414,turnip allergenic extract,PE,IN,NA,RxNorm
+883442,Passalora fulva allergenic extract,PE,IN,NA,RxNorm
+883459,pumpkin allergenic extract,PE,IN,NA,RxNorm
+884C3FA9HE,LANOLIN ALCOHOLS,PE,Concept,NA,DailyMed
+885183,Agkistrodon piscivorus antivenin,PE,IN,NA,RxNorm
+885185,Crotalus adamanteus antivenin,PE,IN,NA,RxNorm
+885187,Crotalus atrox antivenin,PE,IN,NA,RxNorm
+885189,Crotalus scutulatus antivenin,PE,IN,NA,RxNorm
+885750,southern ragweed pollen extract,PE,IN,NA,RxNorm
+886637,dog flea allergenic extract,PE,IN,NA,RxNorm
+886638,cat flea allergenic extract,PE,IN,NA,RxNorm
+887H5VPG09,RANUNCULUS BULBOSUS POLLEN,PE,Concept,NA,DailyMed
+889602,northern pike allergenic extract,PE,IN,NA,RxNorm
+889646,red snapper allergenic extract,PE,IN,NA,RxNorm
+88S87KL877,ROSIN,PE,Concept,NA,DailyMed
+88VZV9HGT4,EQUUS CABALLUS SKIN,PE,Concept,NA,DailyMed
+891502,arabica coffee bean allergenic extract,PE,IN,NA,RxNorm
+891514,brazil nut allergenic extract,PE,IN,NA,RxNorm
+891611,coconut allergenic extract,PE,IN,NA,RxNorm
+891633,hazelnut allergenic extract,PE,IN,NA,RxNorm
+891637,kidney bean allergenic extract,PE,IN,NA,RxNorm
+891641,lima bean allergenic extract,PE,IN,NA,RxNorm
+891647,mung bean allergenic extract,PE,IN,NA,RxNorm
+891652,nutmeg allergenic extract,PE,IN,NA,RxNorm
+891658,peanut allergenic extract,PE,IN,NA,RxNorm
+891668,soybean allergenic extract,PE,IN,NA,RxNorm
+891676,string bean allergenic extract,PE,IN,NA,RxNorm
+891687,English walnut allergenic extract,PE,IN,NA,RxNorm
+891695,black walnut allergenic extract,PE,IN,NA,RxNorm
+891721,cocoa bean allergenic extract,PE,IN,NA,RxNorm
+891727,coffee bean allergenic extract,PE,IN,NA,RxNorm
+891752,American chestnut allergenic extract,PE,IN,NA,RxNorm
+891771,apple allergenic extract,PE,IN,NA,RxNorm
+891796,asparagus allergenic extract,PE,IN,NA,RxNorm
+891830,banana allergenic extract,PE,IN,NA,RxNorm
+892181,bluefish allergenic extract,PE,IN,NA,RxNorm
+892317,wine grape allergenic extract,PE,IN,NA,RxNorm
+892338,Khuskia oryzae allergenic extract,PE,IN,NA,RxNorm
+892368,carrot allergenic extract,PE,IN,NA,RxNorm
+892372,celery allergenic extract,PE,IN,NA,RxNorm
+892484,strawberry allergenic extract,PE,IN,NA,RxNorm
+892499,tomato allergenic extract,PE,IN,NA,RxNorm
+892503,tuna allergenic extract,PE,IN,NA,RxNorm
+892507,almond allergenic extract,PE,IN,NA,RxNorm
+892517,cantaloupe allergenic extract,PE,IN,NA,RxNorm
+892526,cashew nut allergenic extract,PE,IN,NA,RxNorm
+892539,clam allergenic extract,PE,IN,NA,RxNorm
+892543,codfish allergenic extract,PE,IN,NA,RxNorm
+892547,corn allergenic extract,PE,IN,NA,RxNorm
+892561,lobster allergenic extract,PE,IN,NA,RxNorm
+892565,orange allergenic extract,PE,IN,NA,RxNorm
+892569,pea allergenic extract,PE,IN,NA,RxNorm
+892575,peach allergenic extract,PE,IN,NA,RxNorm
+892584,salmon allergenic extract,PE,IN,NA,RxNorm
+892592,shrimp allergenic extract,PE,IN,NA,RxNorm
+892599,beef allergenic extract,PE,IN,NA,RxNorm
+892610,crab allergenic extract,PE,IN,NA,RxNorm
+892616,egg white (chicken) allergenic extract,PE,IN,NA,RxNorm
+892620,egg yolk (chicken) allergenic extract,PE,IN,NA,RxNorm
+892628,pork allergenic extract,PE,IN,NA,RxNorm
+892632,potato allergenic extract,PE,IN,NA,RxNorm
+892638,rye allergenic extract,PE,IN,NA,RxNorm
+892653,chicken allergenic extract,PE,IN,NA,RxNorm
+892665,cow milk allergenic extract,PE,IN,NA,RxNorm
+892734,California mugwort pollen extract,PE,IN,NA,RxNorm
+892851,duck feather extract,PE,IN,NA,RxNorm
+894750,para grass pollen extract,PE,IN,NA,RxNorm
+894783,goose feather extract,PE,IN,NA,RxNorm
+8948,purified protein derivative of tuberculin,PE,IN,NA,RxNorm
+894934,chicken feather extract,PE,IN,NA,RxNorm
+894961,canary feather extract,PE,IN,NA,RxNorm
+894987,dog skin extract,PE,IN,NA,RxNorm
+895070,Mongolian gerbil skin allergenic extract,PE,IN,NA,RxNorm
+895195,European rabbit skin extract,PE,IN,NA,RxNorm
+895279,rat skin extract,PE,IN,NA,RxNorm
+895353,Cootamundra wattle pollen extract,PE,IN,NA,RxNorm
+895365,Sydney golden wattle pollen extract,PE,IN,NA,RxNorm
+895488,domestic cow hair extract,PE,IN,NA,RxNorm
+895503,domestic goat hair extract,PE,IN,NA,RxNorm
+895507,guinea pig hair extract,PE,IN,NA,RxNorm
+895515,horse hair extract,PE,IN,NA,RxNorm
+895527,European rabbit hair extract,PE,IN,NA,RxNorm
+895542,hog hair extract,PE,IN,NA,RxNorm
+895552,allspice allergenic extract,PE,IN,NA,RxNorm
+895574,apricot allergenic extract,PE,IN,NA,RxNorm
+895582,avocado allergenic extract,PE,IN,NA,RxNorm
+895919,spiny pigweed pollen extract,PE,IN,NA,RxNorm
+896135,short ragweed pollen extract,PE,IN,NA,RxNorm
+896246,dark leaved mugwort pollen extract,PE,IN,NA,RxNorm
+897304,allscale pollen extract,PE,IN,NA,RxNorm
+897316,saltbush pollen extract,PE,IN,NA,RxNorm
+897332,groundsel pollen extract,PE,IN,NA,RxNorm
+897391,Mexican tea pollen extract,PE,IN,NA,RxNorm
+897403,orange pollen extract,PE,IN,NA,RxNorm
+898324,lodgepole pine pollen extract,PE,IN,NA,RxNorm
+898404,annual bluegrass pollen extract,PE,IN,NA,RxNorm
+89887,Latrodectus mactans antivenin,PE,IN,NA,RxNorm
+899355,basil allergenic extract,PE,IN,NA,RxNorm
+899359,sugar beet allergenic extract,PE,IN,NA,RxNorm
+899363,black pepper allergenic extract,PE,IN,NA,RxNorm
+899386,broccoli allergenic extract,PE,IN,NA,RxNorm
+899390,brussels sprout allergenic extract,PE,IN,NA,RxNorm
+899394,buckwheat allergenic extract,PE,IN,NA,RxNorm
+899398,cabbage allergenic extract,PE,IN,NA,RxNorm
+899414,garlic allergenic extract,PE,IN,NA,RxNorm
+899420,ginger allergenic extract,PE,IN,NA,RxNorm
+899424,grapefruit allergenic extract,PE,IN,NA,RxNorm
+899428,haddock allergenic extract,PE,IN,NA,RxNorm
+899434,herring allergenic extract,PE,IN,NA,RxNorm
+899444,lentil allergenic extract,PE,IN,NA,RxNorm
+899448,lettuce allergenic extract,PE,IN,NA,RxNorm
+899452,mustard greens allergenic extract,PE,IN,NA,RxNorm
+899456,mustard seed allergenic extract,PE,IN,NA,RxNorm
+899466,onion allergenic extract,PE,IN,NA,RxNorm
+899470,plum allergenic extract,PE,IN,NA,RxNorm
+899476,honeydew melon allergenic extract,PE,IN,NA,RxNorm
+899490,black-eyed pea allergenic extract,PE,IN,NA,RxNorm
+899550,yellow birch pollen extract,PE,IN,NA,RxNorm
+899576,paper birch pollen extract,PE,IN,NA,RxNorm
+899593,mulberry pollen extract,PE,IN,NA,RxNorm
+899611,blue beech pollen extract,PE,IN,NA,RxNorm
+899637,caraway seed allergenic extract,PE,IN,NA,RxNorm
+899645,bitternut hickory pollen extract,PE,IN,NA,RxNorm
+899650,pignut hickory pollen extract,PE,IN,NA,RxNorm
+899661,cauliflower allergenic extract,PE,IN,NA,RxNorm
+899673,cinnamon allergenic extract,PE,IN,NA,RxNorm
+899724,clove allergenic extract,PE,IN,NA,RxNorm
+899734,cranberry allergenic extract,PE,IN,NA,RxNorm
+899738,cucumber allergenic extract,PE,IN,NA,RxNorm
+899742,date allergenic extract,PE,IN,NA,RxNorm
+899746,flounder allergenic extract,PE,IN,NA,RxNorm
+899873,paprika allergenic extract,PE,IN,NA,RxNorm
+899877,parsley allergenic extract,PE,IN,NA,RxNorm
+899906,raspberry allergenic extract,PE,IN,NA,RxNorm
+899916,scallop allergenic extract,PE,IN,NA,RxNorm
+89BAT511BD,ULMUS AMERICANA POLLEN,PE,Concept,NA,DailyMed
+8B1QWR724A,RESERPINE,PE,Concept,NA,DailyMed
+8C367IY4EY,BORDETELLA PERTUSSIS FILAMENTOUS HEMAGGLUTININ ANTIGEN (FORMALDEHYDE INACTIVATED),PE,Concept,NA,DailyMed
+8CZS546954,LIME (CITRUS),PE,Concept,NA,DailyMed
+8D6Q5LNG3D,COD,PE,Concept,NA,DailyMed
+8DS6G120HJ,HORSERADISH,PE,Concept,NA,DailyMed
+8E9NT44R8I,TURKEY,PE,Concept,NA,DailyMed
+8FB1K07F16,PROTHROMBIN,PE,Concept,NA,DailyMed
+8J18RFO4A8,BLUE CRAB,PE,Concept,NA,DailyMed
+8JAG41IE4M,PHOMA EXIGUA VAR. EXIGUA,PE,Concept,NA,DailyMed
+8KDG09A4GO,QUERCUS VIRGINIANA POLLEN,PE,Concept,NA,DailyMed
+8P5F881OCY,BALSAM PERU,PE,Concept,NA,DailyMed
+8PI54V663Y,OATMEAL,PE,Concept,NA,DailyMed
+8Q622VDR18,SIPULEUCEL-T,PE,Concept,NA,DailyMed
+8QF5D5H6UH,CANTALOUPE,PE,Concept,NA,DailyMed
+8SH7583MUK,VESPULA GERMANICA VENOM PROTEIN,PE,Concept,NA,DailyMed
+8SQ0VA4YUR,HYDROXYCITRONELLAL,PE,Concept,NA,DailyMed
+8VLN5B44ZY,OXYMETAZOLINE,PE,Concept,NA,DailyMed
+8WB9PV3YW5,BEAN,PE,Concept,NA,DailyMed
+8Y41DYV4VG,BENZYLPARABEN,PE,Concept,NA,DailyMed
+8Z8C642TPL,GLIOCLADIUM VIRIDE,PE,Concept,NA,DailyMed
+900025,Atlantic cod allergenic extract,PE,IN,NA,RxNorm
+900031,Atlantic salmon allergenic extract,PE,IN,NA,RxNorm
+900045,Oregon ash pollen extract,PE,IN,NA,RxNorm
+900108,oneseed juniper pollen extract,PE,IN,NA,RxNorm
+900113,redberry juniper pollen extract,PE,IN,NA,RxNorm
+900148,giant wild rye pollen extract,PE,IN,NA,RxNorm
+900704,blue spruce pollen extract,PE,IN,NA,RxNorm
+900731,slash pine pollen extract,PE,IN,NA,RxNorm
+900743,western white pine pollen extract,PE,IN,NA,RxNorm
+900750,Austrian pine pollen extract,PE,IN,NA,RxNorm
+900754,red pine pollen extract,PE,IN,NA,RxNorm
+900758,pitch pine pollen extract,PE,IN,NA,RxNorm
+900764,Scotch pine pollen extract,PE,IN,NA,RxNorm
+900770,loblolly pine pollen extract,PE,IN,NA,RxNorm
+900777,Japanese black pine pollen extract,PE,IN,NA,RxNorm
+900987,Garrys oak pollen extract,PE,IN,NA,RxNorm
+900991,bur oak pollen extract,PE,IN,NA,RxNorm
+900999,pin oak pollen extract,PE,IN,NA,RxNorm
+901011,post oak pollen extract,PE,IN,NA,RxNorm
+901191,Concord grape allergenic extract,PE,IN,NA,RxNorm
+901199,sesame seed allergenic extract,PE,IN,NA,RxNorm
+901203,sunflower seed allergenic extract,PE,IN,NA,RxNorm
+901258,watermelon allergenic extract,PE,IN,NA,RxNorm
+901265,white fish allergenic extract,PE,IN,NA,RxNorm
+901283,swordfish allergenic extract,PE,IN,NA,RxNorm
+901291,vanilla bean allergenic extract,PE,IN,NA,RxNorm
+901299,whole wheat allergenic extract,PE,IN,NA,RxNorm
+901307,sweet potato allergenic extract,PE,IN,NA,RxNorm
+901313,spearmint allergenic extract,PE,IN,NA,RxNorm
+901317,spinach allergenic extract,PE,IN,NA,RxNorm
+901329,red bell pepper allergenic extract,PE,IN,NA,RxNorm
+901351,flaxseed allergenic extract,PE,IN,NA,RxNorm
+901365,cumin allergenic extract,PE,IN,NA,RxNorm
+901369,cultivated mushroom allergenic extract,PE,IN,NA,RxNorm
+901382,lemon allergenic extract,PE,IN,NA,RxNorm
+901390,common carp allergenic extract,PE,IN,NA,RxNorm
+901505,Neisseria meningitidis serogroup A oligosaccharide diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+901507,Neisseria meningitidis serogroup C oligosaccharide diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+901509,Neisseria meningitidis serogroup W-135 oligosaccharide diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+901511,Neisseria meningitidis serogroup Y oligosaccharide diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+901620,Streptococcus pneumoniae serotype 1 capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+901624,Streptococcus pneumoniae serotype 19A capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+901628,Streptococcus pneumoniae serotype 3 capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+901631,Streptococcus pneumoniae serotype 5 capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+901633,Streptococcus pneumoniae serotype 6A capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+901636,Streptococcus pneumoniae serotype 7F capsular antigen diphtheria CRM197 protein conjugate vaccine,PE,IN,NA,RxNorm
+901845,Alternaria alternata allergenic extract,PE,IN,NA,RxNorm
+902215,common cocklebur pollen extract,PE,IN,NA,RxNorm
+903913,broad leaved paperbark pollen extract,PE,IN,NA,RxNorm
+904498,carob allergenic extract,PE,IN,NA,RxNorm
+904507,egg (chicken) allergenic extract,PE,IN,NA,RxNorm
+904606,pistachio nut allergenic extract,PE,IN,NA,RxNorm
+905070,Acremonium strictum allergenic extract,PE,IN,NA,RxNorm
+905088,Acrothecium robustum allergenic extract,PE,IN,NA,RxNorm
+905258,American cockroach allergenic extract,PE,IN,NA,RxNorm
+905276,German cockroach allergenic extract,PE,IN,NA,RxNorm
+91266,rhubarb preparation,PE,IN,NA,RxNorm
+91601,"lymphocyte immune globulin, anti-thymocyte globulin, equine",PE,PIN,NA,RxNorm
+917J3173FT,COW MILK,PE,Concept,NA,DailyMed
+91M9RWP3TD,COCHLIOBOLUS SPICIFER,PE,Concept,NA,DailyMed
+9260,reserpine,PE,IN,NA,RxNorm
+928OC2TJDA,POPULUS TREMULOIDES POLLEN,PE,Concept,NA,DailyMed
+92N6W6KO2G,AMARANTHUS TUBERCULATUS POLLEN,PE,Concept,NA,DailyMed
+92RU3N3Y1O,DIMETHICONE,PE,Concept,NA,DailyMed
+93963RFO1P,BETULA NIGRA POLLEN,PE,Concept,NA,DailyMed
+945EBG995A,HUMULUS LUPULUS POLLEN,PE,Concept,NA,DailyMed
+94F3830Q73,DOXAPRAM,PE,Concept,NA,DailyMed
+9511,Saccharomyces cerevisiae,PE,IN,NA,RxNorm
+953A26OA1Y,DORNASE ALFA,PE,Concept,NA,DailyMed
+95447163DG,ACER SACCHARINUM POLLEN,PE,Concept,NA,DailyMed
+95ZNE214EZ,PHASIANUS COLCHICUS FEATHER,PE,Concept,NA,DailyMed
+966692,algal fungi allergenic extract,PE,IN,NA,RxNorm
+966696,orange pekoe tea allergenic extract,PE,IN,NA,RxNorm
+966925,cotton fiber allergenic extract,PE,IN,NA,RxNorm
+966943,Penicillium camemberti allergenic extract,PE,IN,NA,RxNorm
+966979,Paecilomyces variotii allergenic extract,PE,IN,NA,RxNorm
+966995,Phoma destructiva allergenic extract,PE,IN,NA,RxNorm
+967033,Candida tropicalis allergenic extract,PE,IN,NA,RxNorm
+967111,Penicillium expansum allergenic extract,PE,IN,NA,RxNorm
+967529,Rhodotorula mucilaginosa allergenic extract,PE,IN,NA,RxNorm
+967721,Rhizopus stolonifer allergenic extract,PE,IN,NA,RxNorm
+967960,Penicillium italicum allergenic extract,PE,IN,NA,RxNorm
+967970,Pyrethrum cinerariifolium allergenic extract,PE,IN,NA,RxNorm
+968114,Phanerodontia chrysosporium allergenic extract,PE,IN,NA,RxNorm
+968123,Stachybotrys chartarum allergenic extract,PE,IN,NA,RxNorm
+968130,Stemphylium sarciniforme allergenic extract,PE,IN,NA,RxNorm
+968170,polidocanol,PE,IN,NA,RxNorm
+968197,Trichoderma harzianum allergenic extract,PE,IN,NA,RxNorm
+968401,Trichoderma viride allergenic extract,PE,IN,NA,RxNorm
+968413,Trichophyton rubrum allergenic extract,PE,IN,NA,RxNorm
+968422,Trichophyton schoenleinii allergenic extract,PE,IN,NA,RxNorm
+968426,Trichothecium roseum allergenic extract,PE,IN,NA,RxNorm
+968437,loose wheat smut allergenic extract,PE,IN,NA,RxNorm
+968467,Verticillium albo-atrum allergenic extract,PE,IN,NA,RxNorm
+968492,loose barley smut allergenic extract,PE,IN,NA,RxNorm
+968498,tea leaf extract,PE,IN,NA,RxNorm
+968502,Tetracoccosporium paxianum allergenic extract,PE,IN,NA,RxNorm
+968506,Syncephalastrum racemosum allergenic extract,PE,IN,NA,RxNorm
+96LRW14765,PINUS ECHINATA POLLEN,PE,Concept,NA,DailyMed
+971166,white catfish allergenic extract,PE,IN,NA,RxNorm
+971198,Pleospora herbarum allergenic extract,PE,IN,NA,RxNorm
+971379,green olive allergenic extract,PE,IN,NA,RxNorm
+971849,lamb allergenic extract,PE,IN,NA,RxNorm
+971932,oat allergenic extract,PE,IN,NA,RxNorm
+972037,duck allergenic extract,PE,IN,NA,RxNorm
+972365,Penicillium roquefortii allergenic extract,PE,IN,NA,RxNorm
+972480,red currant allergenic extract,PE,IN,NA,RxNorm
+972601,eggplant allergenic extract,PE,IN,NA,RxNorm
+972689,beef liver allergenic extract,PE,IN,NA,RxNorm
+973274,oyster allergenic extract,PE,IN,NA,RxNorm
+973447,cricket allergenic extract,PE,IN,NA,RxNorm
+973880,fig allergenic extract,PE,IN,NA,RxNorm
+974129,sardine allergenic extract,PE,IN,NA,RxNorm
+974140,English sole allergenic extract,PE,IN,NA,RxNorm
+974527,thyme allergenic extract,PE,IN,NA,RxNorm
+974650,black olive allergenic extract,PE,IN,NA,RxNorm
+974687,radish allergenic extract,PE,IN,NA,RxNorm
+974741,mosquito allergenic extract,PE,IN,NA,RxNorm
+975119,turkey allergenic extract,PE,IN,NA,RxNorm
+975509,squash allergenic extract,PE,IN,NA,RxNorm
+975763,dill allergenic extract,PE,IN,NA,RxNorm
+976711,perch allergenic extract,PE,IN,NA,RxNorm
+978D8U419H,SACCHAROMYCES CEREVISIAE,PE,Concept,NA,DailyMed
+98PI200987,LIDOCAINE,PE,Concept,NA,DailyMed
+99,6-aminocaproic acid,PE,IN,NA,RxNorm
+9947,sotalol,PE,IN,NA,RxNorm
+995699,cochliobolus spicifer allergenic extract,PE,IN,NA,RxNorm
+995703,dendryphiella vinosa allergenic extract,PE,IN,NA,RxNorm
+995707,epidermophyton floccosum allergenic extract,PE,IN,NA,RxNorm
+995727,Lichtheimia corymbifera allergenic extract,PE,IN,NA,RxNorm
+995738,black imported fire ant allergenic extract,PE,IN,NA,RxNorm
+995743,Canada goldenrod pollen extract,PE,IN,NA,RxNorm
+995747,bald cypress pollen extract,PE,IN,NA,RxNorm
+995754,American basswood pollen extract,PE,IN,NA,RxNorm
+996051,cabazitaxel,PE,IN,NA,RxNorm
+9961HBA483,SQUASH,PE,Concept,NA,DailyMed
+997261,sipuleucel-T,PE,IN,NA,RxNorm
+999384,Aspergillus flavus allergenic extract,PE,IN,NA,RxNorm
+999438,Curvularia inequalis allergenic extract,PE,IN,NA,RxNorm
+999450,Eurotium herbariorum allergenic extract,PE,IN,NA,RxNorm
+999457,Fusarium compactum allergenic extract,PE,IN,NA,RxNorm
+999463,Geotrichum candidum allergenic extract,PE,IN,NA,RxNorm
+999487,Puccinia graminis allergenic extract,PE,IN,NA,RxNorm
+9EL3384IQY,SERINUS CANARIA FEATHER,PE,Concept,NA,DailyMed
+9G34HU7RV0,EDETIC ACID,PE,Concept,NA,DailyMed
+9GJ8S4GU0M,MIPOMERSEN,PE,Concept,NA,DailyMed
+9HC15X34LX,QUERCUS GAMBELII POLLEN,PE,Concept,NA,DailyMed
+9HW64Q8G6G,EVEROLIMUS,PE,Concept,NA,DailyMed
+9IOA40ANG6,ASPERGILLUS NIGER,PE,Concept,NA,DailyMed
+9J6GJ0890E,CAMPONOTUS PENNSYLVANICUS,PE,Concept,NA,DailyMed
+9L67M8B78R,MELILOTUS ALBUS POLLEN,PE,Concept,NA,DailyMed
+9LYI4RTZ52,MORUS RUBRA POLLEN,PE,Concept,NA,DailyMed
+9NLW29GJAX,PUCCINIA STRIIFORMIS VAR. STRIIFORMIS,PE,Concept,NA,DailyMed
+9P9T267QMR,SALIX LUCIDA SSP. LASIANDRA POLLEN,PE,Concept,NA,DailyMed
+9S54D5MCPF,GRINDELIA CILIATA POLLEN,PE,Concept,NA,DailyMed
+9U7D5QH5AE,LACTULOSE,PE,Concept,NA,DailyMed
+9UC4BM3IZ0,CARPINUS CAROLINIANA POLLEN,PE,Concept,NA,DailyMed
+9W2T4OSF98,STREPTOCOCCUS PNEUMONIAE TYPE 19A CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+9WN2H714TG,MERIONES UNGUICULATUS SKIN,PE,Concept,NA,DailyMed
+9Y53ZS6I82,USTILAGO NUDA,PE,Concept,NA,DailyMed
+A034SE7857,PHYTONADIONE,PE,Concept,NA,DailyMed
+A0WFQ8P6N1,FESTUCA PRATENSIS POLLEN,PE,Concept,NA,DailyMed
+A17SE577FM,PHOMA DESTRUCTIVA,PE,Concept,NA,DailyMed
+A2I8C7HI9T,METHYLPARABEN,PE,Concept,NA,DailyMed
+A4229A7019,CROTALUS ADAMANTEUS IMMUNE FAB ANTIVENIN (OVINE),PE,Concept,NA,DailyMed
+A6D97U294I,SOTALOL,PE,Concept,NA,DailyMed
+A74586SNO7,CLOPIDOGREL,PE,Concept,NA,DailyMed
+A7IKY24TR7,AVENA SATIVA POLLEN,PE,Concept,NA,DailyMed
+A7XVZ7S0Y5,POPULUS BALSAMIFERA POLLEN,PE,Concept,NA,DailyMed
+AB2794W8KV,PHENDIMETRAZINE,PE,Concept,NA,DailyMed
+AC71R787OV,COAGULATION FACTOR VIIA RECOMBINANT HUMAN,PE,Concept,NA,DailyMed
+AEE24M3MQ9,NUTMEG,PE,Concept,NA,DailyMed
+AG9BNA51DQ,CUMIN,PE,Concept,NA,DailyMed
+AKT0E6058K,POLISTES FUSCATUS VENOM PROTEIN,PE,Concept,NA,DailyMed
+AL805O9OG9,ORPHENADRINE,PE,Concept,NA,DailyMed
+ANT994T71D,ARTEMISIA VULGARIS POLLEN,PE,Concept,NA,DailyMed
+ARW43087I1,JUGLANS REGIA POLLEN,PE,Concept,NA,DailyMed
+AWV6I5L6H2,ANTITHROMBIN ALFA,PE,Concept,NA,DailyMed
+AZJ5XKM7W3,PENICILLIUM ITALICUM,PE,Concept,NA,DailyMed
+B087VK617J,TABANUS NIGROVITTATUS,PE,Concept,NA,DailyMed
+B423VGH5S9,APPLE,PE,Concept,NA,DailyMed
+B43R30VP73,SORGHUM BICOLOR SSP. DRUMMONDII POLLEN,PE,Concept,NA,DailyMed
+B4OB0JHI1X,PROPARACAINE,PE,Concept,NA,DailyMed
+B55BD1QM4Q,ARRHENATHERUM ELATIUS POLLEN,PE,Concept,NA,DailyMed
+B67NF86HF0,EUPATORIUM CAPILLIFOLIUM POLLEN,PE,Concept,NA,DailyMed
+B6E06QE59J,MEPIVACAINE,PE,Concept,NA,DailyMed
+B7B86Y84R8,MICROSPORUM AUDOUINII,PE,Concept,NA,DailyMed
+B970MQT365,STREPTOCOCCUS PNEUMONIAE TYPE 19A CAPSULAR POLYSACCHARIDE DIPHTHERIA CRM197 PROTEIN CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+BBO1IJ3ZIW,BACCHARIS HALIMIFOLIA POLLEN,PE,Concept,NA,DailyMed
+BHS470V9ON,RUMEX SALICIFOLIUS VAR. MEXICANUS POLLEN,PE,Concept,NA,DailyMed
+BKZ683617P,PACIFIC HALIBUT,PE,Concept,NA,DailyMed
+BML0J15H8W,RUMEX ALTISSIMUS POLLEN,PE,Concept,NA,DailyMed
+BN2DNW66IQ,AEDES TAENIORHYNCHUS,PE,Concept,NA,DailyMed
+BO76JF850N,CLIDINIUM,PE,Concept,NA,DailyMed
+BV82OL2IZ8,USTILAGO TRITICI,PE,Concept,NA,DailyMed
+BWC8DYU8OS,PLATANUS RACEMOSA POLLEN,PE,Concept,NA,DailyMed
+BY65V9YV1I,SEA SCALLOP,PE,Concept,NA,DailyMed
+C045TQL4WP,PHENTERMINE,PE,Concept,NA,DailyMed
+C1Z9U7094Z,CORN GRAIN,PE,Concept,NA,DailyMed
+C3WCM64N28,POPULUS TREMULA POLLEN,PE,Concept,NA,DailyMed
+C48O4QYD6N,DISPERSE BLUE 106,PE,Concept,NA,DailyMed
+C4HQF74XMW,RABIES VIRUS STRAIN PM-1503-3M ANTIGEN (PROPIOLACTONE INACTIVATED),PE,Concept,NA,DailyMed
+C5529G5JPQ,GINGER,PE,Concept,NA,DailyMed
+C7000B9PQI,TILLETIA CARIES,PE,Concept,NA,DailyMed
+C8VYS726O8,BOS TAURUS DANDER,PE,Concept,NA,DailyMed
+C91ZMT66YA,ACROTHECIUM ROBUSTUM,PE,Concept,NA,DailyMed
+CA33Q4013Q,TRICHODERMA HARZIANUM,PE,Concept,NA,DailyMed
+CAC78E2Q9S,MELEAGRIS GALLOPAVO FEATHER,PE,Concept,NA,DailyMed
+CFE1S8DYWD,POTATO,PE,Concept,NA,DailyMed
+CGF76TP7X6,PYRETHRUM CINERARIIFOLIUM,PE,Concept,NA,DailyMed
+CGS5KI3Q2M,STREPTOCOCCUS PNEUMONIAE TYPE 4 CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+CK833KGX7E,AMPHETAMINE,PE,Concept,NA,DailyMed
+CR113982E5,DIPENTAMETHYLENETHIURAM DISULFIDE,PE,Concept,NA,DailyMed
+CR2J49TL6L,CORYLUS AVELLANA POLLEN,PE,Concept,NA,DailyMed
+CRS35BZ94Q,DESFLURANE,PE,Concept,NA,DailyMed
+CS849DUN3M,ANTI-INHIBITOR COAGULANT COMPLEX,PE,Concept,NA,DailyMed
+CU781COT7M,QUERCUS PALUSTRIS POLLEN,PE,Concept,NA,DailyMed
+CW657OBU4N,GARDEN THYME,PE,Concept,NA,DailyMed
+CYS9AKD70P,ISOFLURANE,PE,Concept,NA,DailyMed
+D1A2NG69CK,AUREOBASIDIUM PULLULANS VAR. PULLUTANS,PE,Concept,NA,DailyMed
+D27V6190PM,OLOPATADINE,PE,Concept,NA,DailyMed
+D380C73WOU,SCALLOP,PE,Concept,NA,DailyMed
+D3SQ406G9X,ARTICAINE,PE,Concept,NA,DailyMed
+D6G49OV9IM,NORTHERN QUAHOG,PE,Concept,NA,DailyMed
+D6VHC87LLS,CHLORQUINALDOL,PE,Concept,NA,DailyMed
+D7401PWY6E,MUCOR PLUMBEUS,PE,Concept,NA,DailyMed
+D7974DM2EJ,VESPULA SQUAMOSA VENOM PROTEIN,PE,Concept,NA,DailyMed
+D7RD81HE4W,LAPINE T-LYMPHOCYTE IMMUNE GLOBULIN,PE,Concept,NA,DailyMed
+D9108TZ9KG,CHOCOLATE,PE,Concept,NA,DailyMed
+D932NLL87Z,EUROTIUM AMSTELODAMI,PE,Concept,NA,DailyMed
+DCR9Z582X0,EPOPROSTENOL,PE,Concept,NA,DailyMed
+DD517SCM92,"N,N'-DIPHENYL-P-PHENYLENEDIAMINE",PE,Concept,NA,DailyMed
+DDA050FCEA,CENTRUROIDES FAB2 ANTIVENIN (EQUINE),PE,Concept,NA,DailyMed
+DEL7T5QRPN,METHYLCHLOROISOTHIAZOLINONE,PE,Concept,NA,DailyMed
+DG1ZL6W96V,ALOPECURUS PRATENSIS POLLEN,PE,Concept,NA,DailyMed
+DHI513VXU7,MICROASCUS BREVICAULIS,PE,Concept,NA,DailyMed
+DI0ZRJ0MXN,COTTON SEED,PE,Concept,NA,DailyMed
+DL82PE6ANE,STREPTOCOCCUS PNEUMONIAE TYPE 9V CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+DNB59M1NVU,URTICA DIOICA POLLEN,PE,Concept,NA,DailyMed
+DO87T1U2CI,PLANTAGO LANCEOLATA POLLEN,PE,Concept,NA,DailyMed
+DZ854I04ZE,JAPANESE ENCEPHALITIS VIRUS STRAIN SA 14-14-2 ANTIGEN (FORMALDEHYDE INACTIVATED),PE,Concept,NA,DailyMed
+E03U1K03LK,PLATANUS OCCIDENTALIS POLLEN,PE,Concept,NA,DailyMed
+E11P4F3X4S,STREPTOCOCCUS PNEUMONIAE TYPE 2 CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+E2B4Q4BXJG,TILIA AMERICANA POLLEN,PE,Concept,NA,DailyMed
+E3A7U1HWIO,PINUS PALUSTRIS POLLEN,PE,Concept,NA,DailyMed
+E3B2GI648A,BELATACEPT,PE,Concept,NA,DailyMed
+E3X33F517C,PENICILLIUM GLAUCUM,PE,Concept,NA,DailyMed
+E40U03LEM0,QUATERNIUM-15,PE,Concept,NA,DailyMed
+E4CG5Q55M1,ACER MACROPHYLLUM POLLEN,PE,Concept,NA,DailyMed
+E5818YZ355,LAWSONIA INERMIS LEAF,PE,Concept,NA,DailyMed
+E917XHH50V,RED BELL PEPPER,PE,Concept,NA,DailyMed
+E9H4GR1NMP,DICORIA CANESCENS POLLEN,PE,Concept,NA,DailyMed
+EFG2YD102P,MESOCRICETUS AURATUS HAIR,PE,Concept,NA,DailyMed
+EK7F0414PI,AMARANTHUS HYBRIDUS POLLEN,PE,Concept,NA,DailyMed
+EM5RP35463,RADISH,PE,Concept,NA,DailyMed
+ENR1LLB0FP,DESMOPRESSIN,PE,Concept,NA,DailyMed
+EOR26LQQ24,EZETIMIBE,PE,Concept,NA,DailyMed
+EQU1BON34S,ZUCCHINI,PE,Concept,NA,DailyMed
+ER172J09FM,SALIX DISCOLOR POLLEN,PE,Concept,NA,DailyMed
+EYO007VX98,HOUSE DUST,PE,Concept,NA,DailyMed
+F089I0511L,INDAPAMIDE,PE,Concept,NA,DailyMed
+F14P91GB5F,PECAN,PE,Concept,NA,DailyMed
+F1KAH8374D,TRITICUM AESTIVUM POLLEN,PE,Concept,NA,DailyMed
+F2VW3D43YT,AZELAIC ACID,PE,Concept,NA,DailyMed
+F3XRM1NX4H,BISPHENOL A DIGLYCIDYL ETHER,PE,Concept,NA,DailyMed
+F4TN0IPY37,BORDETELLA PERTUSSIS TOXOID ANTIGEN (GLUTARALDEHYDE INACTIVATED),PE,Concept,NA,DailyMed
+F5TD010360,ALPROSTADIL,PE,Concept,NA,DailyMed
+F64QU97QCR,DANTROLENE,PE,Concept,NA,DailyMed
+F7R0FBC1XD,FACTOR XIII CONCENTRATE (HUMAN),PE,Concept,NA,DailyMed
+F9NUX55P23,AZILSARTAN,PE,Concept,NA,DailyMed
+FAY1Y90VJ9,PHALARIS ARUNDINACEA POLLEN,PE,Concept,NA,DailyMed
+FB7IP650ET,PINUS CONTORTA POLLEN,PE,Concept,NA,DailyMed
+FEE198DK4Q,RHIZOPUS STOLONIFER,PE,Concept,NA,DailyMed
+FK894Q51YE,RABIES VIRUS STRAIN FLURY LEP ANTIGEN (PROPIOLACTONE INACTIVATED),PE,Concept,NA,DailyMed
+FKD3DUK39I,HUMAN ADENOVIRUS E SEROTYPE 4 STRAIN CL-68578,PE,Concept,NA,DailyMed
+FLV5I5W26R,HAEMOPHILUS INFLUENZAE TYPE B STRAIN 1482 CAPSULAR POLYSACCHARIDE TETANUS TOXOID CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+FOF26T73HA,LAMB,PE,Concept,NA,DailyMed
+FZU040QDS7,SUAEDA NIGRA POLLEN,PE,Concept,NA,DailyMed
+G0O5980Z7W,STREPTOMYCES GRISEUS,PE,Concept,NA,DailyMed
+G1GFK9898U,STREPTOCOCCUS PNEUMONIAE TYPE 14 CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+G280W4MW6E,RHUBARB,PE,Concept,NA,DailyMed
+G2A764T54B,CARYA ALBA POLLEN,PE,Concept,NA,DailyMed
+G2M7P15E5P,POLYETHYLENE GLYCOL 3350,PE,Concept,NA,DailyMed
+G515RAI9FY,MEDICAGO SATIVA POLLEN,PE,Concept,NA,DailyMed
+G59M7S0WS3,NITROGLYCERIN,PE,Concept,NA,DailyMed
+G684LX721Q,FRAXINUS AMERICANA POLLEN,PE,Concept,NA,DailyMed
+G82398SD3I,ULMUS CRASSIFOLIA POLLEN,PE,Concept,NA,DailyMed
+G9O67I0A8Q,"ALLERGENIC EXTRACT- COCKROACH, GERMAN BLATELLA GERMANICA",PE,Concept,NA,DailyMed
+GG8WX068MX,ATRIPLEX CONFERTIFOLIA POLLEN,PE,Concept,NA,DailyMed
+GGX234SI5H,TIROFIBAN,PE,Concept,NA,DailyMed
+GH42T47V24,TEA LEAF,PE,Concept,NA,DailyMed
+GHC6OHK0W0,ULMUS RUBRA POLLEN,PE,Concept,NA,DailyMed
+GLH0314RVC,TICAGRELOR,PE,Concept,NA,DailyMed
+GM3H4U6QS8,CAVIA PORCELLUS SKIN,PE,Concept,NA,DailyMed
+GN5XU2DXKV,ROMIPLOSTIM,PE,Concept,NA,DailyMed
+GN83C131XS,EPHEDRINE,PE,Concept,NA,DailyMed
+GOA51670YV,DISTICHLIS SPICATA POLLEN,PE,Concept,NA,DailyMed
+GPV39ZGD8C,VARICELLA-ZOSTER VIRUS STRAIN OKA/MERCK LIVE ANTIGEN,PE,Concept,NA,DailyMed
+GQM6LVU5V8,SPORISORIUM CRUENTUM,PE,Concept,NA,DailyMed
+GW0W1Y9I97,CABBAGE,PE,Concept,NA,DailyMed
+H0DE420U8G,CHLORZOXAZONE,PE,Concept,NA,DailyMed
+H20KU95UBG,SPOROTRICHUM PRUINOSUM,PE,Concept,NA,DailyMed
+H2W22AGF1P,NEISSERIA MENINGITIDIS GROUP C CAPSULAR OLIGOSACCHARIDE DIPHTHERIA CRM197 PROTEIN CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+H3O7QI5HY7,DATE,PE,Concept,NA,DailyMed
+H5RIZ3MPW4,DIAZOLIDINYL UREA,PE,Concept,NA,DailyMed
+H645GUL8KJ,LISDEXAMFETAMINE,PE,Concept,NA,DailyMed
+H8QYU50Z2D,POPULUS BALSAMIFERA SUBSP. TRICHOCARPA POLLEN,PE,Concept,NA,DailyMed
+H9E0IX4MOX,LEUCANTHEMUM VULGARE POLLEN,PE,Concept,NA,DailyMed
+H9NOI61UH1,STREPTOCOCCUS PNEUMONIAE TYPE 1 CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+HGH5K3653K,QUERCUS LOBATA POLLEN,PE,Concept,NA,DailyMed
+HJ4L70T1ZP,STACHYBOTRYS CHARTARUM,PE,Concept,NA,DailyMed
+HNM5J934VP,ZINC DIBUTYLDITHIOCARBAMATE,PE,Concept,NA,DailyMed
+HO615U86UJ,ATLANTIC MACKEREL,PE,Concept,NA,DailyMed
+HR6H5057CO,PASSALORA FULVA,PE,Concept,NA,DailyMed
+HU8V6E7HOA,AGROSTIS GIGANTEA POLLEN,PE,Concept,NA,DailyMed
+I05O535NV6,BORDETELLA PERTUSSIS PERTACTIN ANTIGEN (FORMALDEHYDE INACTIVATED),PE,Concept,NA,DailyMed
+I526G6336T,SALIX REPENS POLLEN,PE,Concept,NA,DailyMed
+I5F729WZ2H,CLONOSTACHYS ROSEA F. ROSEA,PE,Concept,NA,DailyMed
+I5GZG55B36,ALLSPICE,PE,Concept,NA,DailyMed
+I629I3NR86,MANGO,PE,Concept,NA,DailyMed
+I6KAZ8AO1O,SECALE CEREALE POLLEN,PE,Concept,NA,DailyMed
+I7L8FKN87J,TUBERCULIN PURIFIED PROTEIN DERIVATIVE,PE,Concept,NA,DailyMed
+I9D9Z5GCW5,NEUROSPORA SITOPHILA,PE,Concept,NA,DailyMed
+IA4C8ND0DT,WHITE FISH,PE,Concept,NA,DailyMed
+IA6O0K772M,AGKISTRODON PISCIVORUS IMMUNE FAB ANTIVENIN (OVINE),PE,Concept,NA,DailyMed
+IA7306519N,ISOSORBIDE DINITRATE,PE,Concept,NA,DailyMed
+ICW4708Z8G,DITIOCARB ZINC,PE,Concept,NA,DailyMed
+IIC6H3WF6J,KOELERIA MACRANTHA POLLEN,PE,Concept,NA,DailyMed
+IQV1MZ32RL,TRIFOLIUM REPENS POLLEN,PE,Concept,NA,DailyMed
+IRH51QN26H,CORYNEBACTERIUM DIPHTHERIAE TOXOID ANTIGEN (FORMALDEHYDE INACTIVATED),PE,Concept,NA,DailyMed
+ITY7G7Q744,COCCIDIOIDES IMMITIS SPHERULE,PE,Concept,NA,DailyMed
+IU0Z41653U,ULMUS PARVIFOLIA POLLEN,PE,Concept,NA,DailyMed
+IUP4S55D8S,AMERICAN HAZELNUT,PE,Concept,NA,DailyMed
+IVU789297D,CHENOPODIUM BOTRYS POLLEN,PE,Concept,NA,DailyMed
+IW0OM96F6O,HAZELNUT,PE,Concept,NA,DailyMed
+IX503L9WN0,GANIRELIX,PE,Concept,NA,DailyMed
+J2D279PEM5,HUMAN PAPILLOMAVIRUS TYPE 18 L1 CAPSID PROTEIN ANTIGEN,PE,Concept,NA,DailyMed
+J2R869A8YF,SUCCINYLCHOLINE,PE,Concept,NA,DailyMed
+J76UF062FS,PANCURONIUM,PE,Concept,NA,DailyMed
+J7A92W69L7,DROXIDOPA,PE,Concept,NA,DailyMed
+J7I2T6IV1N,SPEARMINT,PE,Concept,NA,DailyMed
+J81SZ18495,EQUUS CABALLUS DANDER,PE,Concept,NA,DailyMed
+J8DAZ3T66L,DOLICHOVESPULA MACULATA VENOM PROTEIN,PE,Concept,NA,DailyMed
+JFH385Y744,COFFEE BEAN,PE,Concept,NA,DailyMed
+JLG9853E2P,CAPRA HIRCUS SKIN,PE,Concept,NA,DailyMed
+JQ5HI5004M,BETULA LENTA POLLEN,PE,Concept,NA,DailyMed
+JQ87AA60GU,ATRIPLEX POLYCARPA POLLEN,PE,Concept,NA,DailyMed
+JRM708L703,BENAZEPRILAT,PE,Concept,NA,DailyMed
+JU499IS53H,HUMAN ROTAVIRUS A TYPE G2P7(5) STRAIN SC2 LIVE ANTIGEN,PE,Concept,NA,DailyMed
+JX345H5MPP,LABURNUM ANAGYROIDES POLLEN,PE,Concept,NA,DailyMed
+JY1BE33I3Y,TRICHOPHYTON TONSURANS,PE,Concept,NA,DailyMed
+JY83SHX053,DEXTRAN 75,PE,Concept,NA,DailyMed
+K1301R7883,ARTEMISIA DOUGLASIANA POLLEN,PE,Concept,NA,DailyMed
+K20Y81ACO3,AMBROSIA ARTEMISIIFOLIA POLLEN,PE,Concept,NA,DailyMed
+K27005NP0A,IXABEPILONE,PE,Concept,NA,DailyMed
+K3R6ZDH4DU,DEXTRAN 40,PE,Concept,NA,DailyMed
+K3W1N8YP13,CLOSTRIDIUM TETANI TOXOID ANTIGEN (FORMALDEHYDE INACTIVATED),PE,Concept,NA,DailyMed
+K48IKT5321,CLOVE,PE,Concept,NA,DailyMed
+K5877MW0LE,WATERCRESS,PE,Concept,NA,DailyMed
+K9X45X0051,ANAGRELIDE,PE,Concept,NA,DailyMed
+KBA5Y6X57N,CAVIA PORCELLUS HAIR,PE,Concept,NA,DailyMed
+KE3U2023NP,PORACTANT ALFA,PE,Concept,NA,DailyMed
+KH3E3096OO,TANGERINE,PE,Concept,NA,DailyMed
+KHX46H31F8,BRUSSELS SPROUT,PE,Concept,NA,DailyMed
+KM66971LVF,BLACK PEPPER,PE,Concept,NA,DailyMed
+KO7V58BY40,PAECILOMYCES VARIOTII,PE,Concept,NA,DailyMed
+KPO1Z9N98A,CARYA GLABRA POLLEN,PE,Concept,NA,DailyMed
+KSY1AWN59I,TETRACOCCOSPORIUM PAXIANUM,PE,Concept,NA,DailyMed
+KU1V1898XX,AMBROSIA TRIFIDA POLLEN,PE,Concept,NA,DailyMed
+KU94FIY6JB,PAPAYA,PE,Concept,NA,DailyMed
+KV6DYF25M4,PINUS RIGIDA POLLEN,PE,Concept,NA,DailyMed
+KZ3L01D2PC,HUMAN ROTAVIRUS A TYPE G1P(8) STRAIN RIX4414 LIVE ANTIGEN,PE,Concept,NA,DailyMed
+L16Z5HLP8V,ACACIA DEALBATA POLLEN,PE,Concept,NA,DailyMed
+L1977Q86S5,HUMAN ROTAVIRUS A TYPE G6P1A(8) STRAIN WI79 LIVE ANTIGEN,PE,Concept,NA,DailyMed
+L2V28YP49S,PARSNIP,PE,Concept,NA,DailyMed
+L36H50F353,PODOFILOX,PE,Concept,NA,DailyMed
+L56Z1JK48B,CARROT,PE,Concept,NA,DailyMed
+L6JW2TJG99,DIBUCAINE,PE,Concept,NA,DailyMed
+L7HT8F1ZOD,SOYBEAN,PE,Concept,NA,DailyMed
+L837108USY,GERANIOL,PE,Concept,NA,DailyMed
+LC8MEV9S89,MORELLA CERIFERA POLLEN,PE,Concept,NA,DailyMed
+LD795V73G4,SORGHUM BICOLOR POLLEN,PE,Concept,NA,DailyMed
+LJT6I6Z8FD,FRAXINUS VELUTINA POLLEN,PE,Concept,NA,DailyMed
+LN7IM9RDEA,CTENOCEPHALIDES CANIS,PE,Concept,NA,DailyMed
+LR24G6354G,ERIBULIN,PE,Concept,NA,DailyMed
+LR3UXN0193,METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA,PE,Concept,NA,DailyMed
+LUY6P8763W,HAEMOPHILUS INFLUENZAE TYPE B CAPSULAR POLYSACCHARIDE MENINGOCOCCAL OUTER MEMBRANE PROTEIN CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+LX1OH63030,ISOSORBIDE MONONITRATE,PE,Concept,NA,DailyMed
+LYR4M0NH37,SODIUM CATION,PE,Concept,NA,DailyMed
+M089EFU921,ANGIOTENSIN II,PE,Concept,NA,DailyMed
+M0G28FH9K1,SCHINUS MOLLE POLLEN,PE,Concept,NA,DailyMed
+M15H03K69B,PORFIMER,PE,Concept,NA,DailyMed
+M30XO5X4XD,IRIS GERMANICA VAR. FLORENTINA ROOT,PE,Concept,NA,DailyMed
+M32RH9MFGP,DEXMETHYLPHENIDATE,PE,Concept,NA,DailyMed
+M3S672G75O,AMBROSIA BIDENTATA POLLEN,PE,Concept,NA,DailyMed
+M5DP350VZV,ETHACRYNIC ACID,PE,Concept,NA,DailyMed
+M629807ATL,IMIDUREA,PE,Concept,NA,DailyMed
+M89N0Q7EQR,ALDESLEUKIN,PE,Concept,NA,DailyMed
+M98C8416QO,KIDNEY BEAN,PE,Concept,NA,DailyMed
+M9WGG9Z9GK,SWEET POTATO,PE,Concept,NA,DailyMed
+MFZ8I7277D,MEASLES VIRUS STRAIN ENDERS' ATTENUATED EDMONSTON LIVE ANTIGEN,PE,Concept,NA,DailyMed
+MHG4XW7BIG,INFLUENZA A VIRUS A/CALIFORNIA/7/2009 X-181 (H1N1) HEMAGGLUTININ ANTIGEN (PROPIOLACTONE INACTIVATED),PE,Concept,NA,DailyMed
+MI340WV90B,NEISSERIA MENINGITIDIS GROUP Y CAPSULAR POLYSACCHARIDE DIPHTHERIA TOXOID CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+MQG94M5EEO,TESAMORELIN,PE,Concept,NA,DailyMed
+MRJ91HVV4H,AGAVE SISALANA FIBER,PE,Concept,NA,DailyMed
+N0Y68724R3,BUCKWHEAT,PE,Concept,NA,DailyMed
+N487KM8COK,BEET,PE,Concept,NA,DailyMed
+N4F4RQ7BY7,MICROSPORUM CANIS,PE,Concept,NA,DailyMed
+N52MIQ81ZW,RUMEX ACETOSELLA POLLEN,PE,Concept,NA,DailyMed
+N54AIC43PW,VENETOCLAX,PE,Concept,NA,DailyMed
+N8R9GL539D,STREPTOCOCCUS PNEUMONIAE TYPE 5 CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+N91637DNW9,CHICKPEA,PE,Concept,NA,DailyMed
+N94833051K,FIBRINOGEN HUMAN,PE,Concept,NA,DailyMed
+N967BGT6XW,STREPTOCOCCUS PNEUMONIAE TYPE 11A CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+N9D69B2Q7Y,STRING BEAN,PE,Concept,NA,DailyMed
+"NA8320J834",EPTIFIBATIDE,PE,Concept,NA,DailyMed
+NBV527E8B4,SEQUOIA SEMPERVIRENS POLLEN,PE,Concept,NA,DailyMed
+NX974IRT8E,MELALEUCA QUINQUENERVIA POLLEN,PE,Concept,NA,DailyMed
+NXH9EU7QU9,VELVETLEAF HUCKLEBERRY,PE,Concept,NA,DailyMed
+O0HJ02QBWN,PUCCINIA GRAMINIS,PE,Concept,NA,DailyMed
+O12H03B41R,TAXODIUM DISTICHUM POLLEN,PE,Concept,NA,DailyMed
+O138UB266J,PORK,PE,Concept,NA,DailyMed
+O3034Q5AHK,EVERNIA PRUNASTRI,PE,Concept,NA,DailyMed
+O4AB4546TP,AMBROSIA DELTOIDEA POLLEN,PE,Concept,NA,DailyMed
+O5V0F26RUW,RABBIT,PE,Concept,NA,DailyMed
+O64JF11198,CLADOSPORIUM HERBARUM,PE,Concept,NA,DailyMed
+O82C39RR8C,GRAPEFRUIT,PE,Concept,NA,DailyMed
+O84B5194RL,JUNIPER BERRY,PE,Concept,NA,DailyMed
+O99P60FU6G,CARYA CORDIFORMIS POLLEN,PE,Concept,NA,DailyMed
+OCO1LJR5YN,TILIA CORDATA POLLEN,PE,Concept,NA,DailyMed
+OM90ZUW7M1,TICLOPIDINE,PE,Concept,NA,DailyMed
+ON2T85TA2O,ELYMUS REPENS POLLEN,PE,Concept,NA,DailyMed
+OON1HFZ4BA,CETRORELIX,PE,Concept,NA,DailyMed
+OZJ4OE173N,CASUARINA EQUISETIFOLIA POLLEN,PE,Concept,NA,DailyMed
+P1QW714R7M,IMIQUIMOD,PE,Concept,NA,DailyMed
+P5W45RU6E4,QUERCUS DUMOSA POLLEN,PE,Concept,NA,DailyMed
+P6818UI2E4,PINUS VIRGINIANA POLLEN,PE,Concept,NA,DailyMed
+P6K070AR8V,ACER NEGUNDO POLLEN,PE,Concept,NA,DailyMed
+P87YCA1U8R,CLADOSPORIUM SPHAEROSPERMUM,PE,Concept,NA,DailyMed
+P88XT4IS4D,PACLITAXEL,PE,Concept,NA,DailyMed
+P89DR4NY54,"ANTIHEMOPHILIC FACTOR, HUMAN RECOMBINANT",PE,Concept,NA,DailyMed
+P93RUU11P7,INOTUZUMAB OZOGAMICIN,PE,Concept,NA,DailyMed
+P9S201X6LH,ACHETA DOMESTICUS,PE,Concept,NA,DailyMed
+PDC6A3C0OX,GLYCERIN,PE,Concept,NA,DailyMed
+PM6E3FG1QK,JUNIPERUS MONOSPERMA POLLEN,PE,Concept,NA,DailyMed
+PR9U2YPF3Q,DERMATOPHAGOIDES FARINAE,PE,Concept,NA,DailyMed
+PV7823W303,MUSCA DOMESTICA,PE,Concept,NA,DailyMed
+PVI5M0M1GW,FILGRASTIM,PE,Concept,NA,DailyMed
+PY0JA16R2G,JUNIPERUS VIRGINIANA POLLEN,PE,Concept,NA,DailyMed
+PY4EET359T,YELLOW FEVER VIRUS STRAIN 17D-204 LIVE ANTIGEN,PE,Concept,NA,DailyMed
+PYD255827T,STREPTOCOCCUS PNEUMONIAE TYPE 23F CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+PYO4JR720Y,CARYA ILLINOINENSIS POLLEN,PE,Concept,NA,DailyMed
+Q04Q922K9Q,HEPATITIS A VIRUS STRAIN CR 326F ANTIGEN (FORMALDEHYDE INACTIVATED),PE,Concept,NA,DailyMed
+Q0MQD1073Q,CHLORTHALIDONE,PE,Concept,NA,DailyMed
+Q13WX941EF,EPINASTINE,PE,Concept,NA,DailyMed
+Q222J2186W,CANDIDA TROPICALIS,PE,Concept,NA,DailyMed
+Q4K217VGA9,CALFACTANT,PE,Concept,NA,DailyMed
+Q4T1SJ3046,BROMUS SECALINUS POLLEN,PE,Concept,NA,DailyMed
+Q508Q118JM,ENALAPRILAT ANHYDROUS,PE,Concept,NA,DailyMed
+Q51LPW21CH,P-TERT-BUTYLPHENOL-FORMALDEHYDE RESIN (LOW MOLECULAR WEIGHT),PE,Concept,NA,DailyMed
+Q5YG47WU3D,RED CURRANT,PE,Concept,NA,DailyMed
+Q74T35078H,VANILLA,PE,Concept,NA,DailyMed
+Q79PS8P34R,VESPULA PENSYLVANICA VENOM PROTEIN,PE,Concept,NA,DailyMed
+Q7Y557L8UZ,PINUS RESINOSA POLLEN,PE,Concept,NA,DailyMed
+Q94YYU22B8,DIETHYLPROPION,PE,Concept,NA,DailyMed
+QBN8K7055X,ASPERGILLUS TERREUS,PE,Concept,NA,DailyMed
+QE1QX6B99R,PEANUT,PE,Concept,NA,DailyMed
+QJB9OQO689,PINUS ELLIOTTII POLLEN,PE,Concept,NA,DailyMed
+QMS40680K6,PALIFERMIN,PE,Concept,NA,DailyMed
+QQ00BED0DV,QUERCUS GARRYANA POLLEN,PE,Concept,NA,DailyMed
+QSN5XO8ZSU,"BORDETELLA PERTUSSIS TOXOID ANTIGEN (FORMALDEHYDE, GLUTARALDEHYDE INACTIVATED)",PE,Concept,NA,DailyMed
+QX62KLI41N,CISATRACURIUM,PE,Concept,NA,DailyMed
+R09078E41Y,DEACETYLBISACODYL,PE,Concept,NA,DailyMed
+R16CO5Y76E,ASPIRIN,PE,Concept,NA,DailyMed
+R3NBG8914U,BARLEY MALT,PE,Concept,NA,DailyMed
+R3UK8X3U3D,MODAFINIL,PE,Concept,NA,DailyMed
+R4KO0DY52L,CHLORHEXIDINE,PE,Concept,NA,DailyMed
+R6H8O3GVL9,RUMEX OBTUSIFOLIUS POLLEN,PE,Concept,NA,DailyMed
+R889N2L976,BETULA OCCIDENTALIS POLLEN,PE,Concept,NA,DailyMed
+R9JBC6687X,PICEA PUNGENS POLLEN,PE,Concept,NA,DailyMed
+R9N3379M4Z,SUNFLOWER SEED,PE,Concept,NA,DailyMed
+RBR61YAJ4V,CROTALUS ATROX IMMUNE FAB ANTIVENIN (OVINE),PE,Concept,NA,DailyMed
+RCU76P419D,LEEK,PE,Concept,NA,DailyMed
+RE9A0H8OAB,NEISSERIA MENINGITIDIS GROUP A CAPSULAR POLYSACCHARIDE DIPHTHERIA TOXOID CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+RN8P45F92A,HONEYDEW MELON,PE,Concept,NA,DailyMed
+RPX7J99EXW,ATLANTIC COD,PE,Concept,NA,DailyMed
+RUM6K67ESG,TREPROSTINIL,PE,Concept,NA,DailyMed
+RX18M46K8L,AMBROSIA PSILOSTACHYA POLLEN,PE,Concept,NA,DailyMed
+RZ55S3AQOJ,HUMICOLA GRISEA,PE,Concept,NA,DailyMed
+S125N1F5X5,VESPULA VULGARIS VENOM PROTEIN,PE,Concept,NA,DailyMed
+S1VF61QLO9,CRAB,PE,Concept,NA,DailyMed
+S46U1CM432,STREPTOCOCCUS PNEUMONIAE TYPE 12F CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+S56D65XJ9G,ELTROMBOPAG,PE,Concept,NA,DailyMed
+S5VXA428R4,ESLICARBAZEPINE,PE,Concept,NA,DailyMed
+S614XWR17V,OYSTER,PE,Concept,NA,DailyMed
+S62U433RMH,ZALEPLON,PE,Concept,NA,DailyMed
+S8A4X05W7J,JUNIPERUS PINCHOTII POLLEN,PE,Concept,NA,DailyMed
+S915P5499N,PLERIXAFOR,PE,Concept,NA,DailyMed
+SCB8J7LS3T,POA PRATENSIS POLLEN,PE,Concept,NA,DailyMed
+SCK81AMR7R,THROMBIN ALFA,PE,Concept,NA,DailyMed
+SD6QCT3TSU,PENTOXIFYLLINE,PE,Concept,NA,DailyMed
+SDS87L369F,AVOCADO,PE,Concept,NA,DailyMed
+SES68PF95U,CYNOSURUS CRISTATUS POLLEN,PE,Concept,NA,DailyMed
+SK54I0S386,STREPTOCOCCUS PNEUMONIAE TYPE 14 CAPSULAR POLYSACCHARIDE DIPHTHERIA CRM197 PROTEIN CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+SPU695OD73,LODOXAMIDE,PE,Concept,NA,DailyMed
+SQ89E6LOME,ASPERGILLUS REPENS,PE,Concept,NA,DailyMed
+SR60A3XG0F,CINNAMALDEHYDE,PE,Concept,NA,DailyMed
+SS8YOP444F,CINNAMYL ALCOHOL,PE,Concept,NA,DailyMed
+SVW19ET93C,QUERCUS RUBRA POLLEN,PE,Concept,NA,DailyMed
+SYW0QUB89Y,ALLERGENIC EXTRACT- PUMPKIN CUCURBITA PEPO,PE,Concept,NA,DailyMed
+T069R9OPVG,PENICILLIUM CAMEMBERTI,PE,Concept,NA,DailyMed
+T197LO581X,FLOUNDER,PE,Concept,NA,DailyMed
+T29JGK5V4R,N-CYCLOHEXYL-N'-PHENYL-P-PHENYLENEDIAMINE,PE,Concept,NA,DailyMed
+T2K08L297Q,ULMUS GLABRA POLLEN,PE,Concept,NA,DailyMed
+T3PW93IB4Q,CONCORD GRAPE,PE,Concept,NA,DailyMed
+T6V3LHY838,MAGNESIUM CATION,PE,Concept,NA,DailyMed
+T8678F0P0Q,TRICHODERMA VIRIDE,PE,Concept,NA,DailyMed
+T9GHE8H4RX,GIBBERELLA ZEAE,PE,Concept,NA,DailyMed
+TBW53313S7,BOTRYTIS CINEREA,PE,Concept,NA,DailyMed
+TGD87RII2U,FIG,PE,Concept,NA,DailyMed
+TGJ6YZC4W7,STREPTOCOCCUS PNEUMONIAE TYPE 4 CAPSULAR POLYSACCHARIDE DIPHTHERIA CRM197 PROTEIN CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+TGO054E31O,TRICHOTHECIUM ROSEUM,PE,Concept,NA,DailyMed
+TM54L796SN,HUMAN ADENOVIRUS B SEROTYPE 7 STRAIN 55142 ANTIGEN,PE,Concept,NA,DailyMed
+TOQ97Z8644,BOS TAURUS HAIR,PE,Concept,NA,DailyMed
+TPL549N9R8,PLEOSPORA TARDA,PE,Concept,NA,DailyMed
+TVA75O7S63,CORCORUS CAPSULARIS FIBER,PE,Concept,NA,DailyMed
+TX1ER5UV3T,PINUS STROBUS POLLEN,PE,Concept,NA,DailyMed
+TZ47U051FI,DEXTROAMPHETAMINE,PE,Concept,NA,DailyMed
+TZ7V40X7VX,METOLAZONE,PE,Concept,NA,DailyMed
+U2AI3H2J5Y,AMBROSIA ACANTHICARPA POLLEN,PE,Concept,NA,DailyMed
+U3H27498KS,LAMOTRIGINE,PE,Concept,NA,DailyMed
+U3RSY48JW5,BENZOCAINE,PE,Concept,NA,DailyMed
+U4VJ29L7BQ,METHOXSALEN,PE,Concept,NA,DailyMed
+U6F3787206,AMINOCAPROIC ACID,PE,Concept,NA,DailyMed
+U6Z259H815,HELMINTHOSPORIUM SOLANI,PE,Concept,NA,DailyMed
+U770QIT64J,P-PHENYLENEDIAMINE,PE,Concept,NA,DailyMed
+UBW6O1H50I,IVA ANGUSTIFOLIA POLLEN,PE,Concept,NA,DailyMed
+UCA53G94EV,N-CYCLOHEXYL-2-BENZOTHIAZOSULFENAMIDE,PE,Concept,NA,DailyMed
+UDM7Q7QWP8,BENAZEPRIL,PE,Concept,NA,DailyMed
+UOI4FT57BZ,BROCCOLI,PE,Concept,NA,DailyMed
+UU78E56M7L,ARTEMISIA DRACUNCULUS POLLEN,PE,Concept,NA,DailyMed
+UVC3Z60VTX,MELILOTUS OFFICINALIS POLLEN,PE,Concept,NA,DailyMed
+UVP9UR815M,WHITE CATFISH,PE,Concept,NA,DailyMed
+V003SHB7VK,PASPALUM NOTATUM POLLEN,PE,Concept,NA,DailyMed
+V174354MDI,SALSOLA TRAGUS POLLEN,PE,Concept,NA,DailyMed
+V1L22WVE2S,ZILEUTON,PE,Concept,NA,DailyMed
+V1V998DC17,GARLIC,PE,Concept,NA,DailyMed
+V2T3IHT3E2,TUNA,PE,Concept,NA,DailyMed
+V34908RT03,VESPULA MACULIFRONS VENOM PROTEIN,PE,Concept,NA,DailyMed
+V38QUQ7861,ACER SACCHARUM POLLEN,PE,Concept,NA,DailyMed
+V3FC0DK9XS,STREPTOCOCCUS PNEUMONIAE TYPE 20 CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+V4OQR60A5P,FUSARIUM COMPACTUM,PE,Concept,NA,DailyMed
+V58BK047ES,PLEOSPORA BETAE,PE,Concept,NA,DailyMed
+V80TPZ0T6J,CYCLACHAENA XANTHIFOLIA POLLEN,PE,Concept,NA,DailyMed
+V825XJG64G,RUMEX CRISPUS POLLEN,PE,Concept,NA,DailyMed
+V95R5KMY2B,PEPPERMINT,PE,Concept,NA,DailyMed
+VBT3DRA2R9,PHALARIS MINOR POLLEN,PE,Concept,NA,DailyMed
+VCD7623F3K,MORPHOLINYLMERCAPTOBENZOTHIAZOLE,PE,Concept,NA,DailyMed
+VJI0WKK736,LOLIUM MULTIFLORUM POLLEN,PE,Concept,NA,DailyMed
+VK8C112WTS,KHUSKIA ORYZAE,PE,Concept,NA,DailyMed
+VOT5MA71M7,QUERCUS AGRIFOLIA POLLEN,PE,Concept,NA,DailyMed
+VU8C8SB23P,POPULUS ALBA POLLEN,PE,Concept,NA,DailyMed
+VZI5B1W380,OXCARBAZEPINE,PE,Concept,NA,DailyMed
+W042YAB8JC,CURVULARIA INAEQUALIS,PE,Concept,NA,DailyMed
+W2FH8O2BBE,CARAWAY,PE,Concept,NA,DailyMed
+W2X096QY97,TRIMETHOBENZAMIDE,PE,Concept,NA,DailyMed
+W31X2H97FB,TORSEMIDE,PE,Concept,NA,DailyMed
+W34X0P8636,QUERCUS STELLATA POLLEN,PE,Concept,NA,DailyMed
+W36ZG6FT64,SIROLIMUS,PE,Concept,NA,DailyMed
+W4X7H8GYFM,PEA,PE,Concept,NA,DailyMed
+W5K7RAS4VK,EGGPLANT,PE,Concept,NA,DailyMed
+W5U19AK212,MYROTHECIUM VERRUCARIA,PE,Concept,NA,DailyMed
+W7NU4B5CIY,BETA VULGARIS POLLEN,PE,Concept,NA,DailyMed
+W8N8R55022,ALLERGENIC EXTRACT- BEEF LIVER,PE,Concept,NA,DailyMed
+W8RT4P7T0H,ACER PSEUDOPLATANUS POLLEN,PE,Concept,NA,DailyMed
+WC51CA3418,.ALPHA.-AMYLCINNAMALDEHYDE,PE,Concept,NA,DailyMed
+WF621S7K14,RED SNAPPER,PE,Concept,NA,DailyMed
+WIB701MW2H,CHENOPODIUM AMBROSIOIDES POLLEN,PE,Concept,NA,DailyMed
+WQ3S5294XY,TARAXACUM OFFICINALE POLLEN,PE,Concept,NA,DailyMed
+WQ580684IZ,SALIX ALBA POLLEN,PE,Concept,NA,DailyMed
+WRE554RFEZ,ROCURONIUM,PE,Concept,NA,DailyMed
+WS0Y3M85RF,BAY LEAF,PE,Concept,NA,DailyMed
+WS821Z52LQ,TRIAMTERENE,PE,Concept,NA,DailyMed
+WYQ7N0BPYC,ACETYLCYSTEINE,PE,Concept,NA,DailyMed
+X1K54R2P9I,STREPTOCOCCUS PNEUMONIAE TYPE 7F CAPSULAR POLYSACCHARIDE ANTIGEN,PE,Concept,NA,DailyMed
+X2W7CLE97T,CANIS LUPUS FAMILIARIS SKIN,PE,Concept,NA,DailyMed
+X641Y30OA7,HUMAN BOTULINUM NEUROTOXIN A/B IMMUNE GLOBULIN,PE,Concept,NA,DailyMed
+X72RBB02N8,FELBAMATE,PE,Concept,NA,DailyMed
+X72Z47861V,PAPRIKA,PE,Concept,NA,DailyMed
+X88DF51T48,ASPERGILLUS FUMIGATUS,PE,Concept,NA,DailyMed
+X92O101CS2,VERTICILLIUM ALBO-ATRUM,PE,Concept,NA,DailyMed
+XC209ITL3J,LARGEMOUTH BASS,PE,Concept,NA,DailyMed
+XE5K5I4RP7,GOAT MILK,PE,Concept,NA,DailyMed
+XF417D3PSL,ANHYDROUS CITRIC ACID,PE,Concept,NA,DailyMed
+XII270YC6M,HUMAN HEPATITIS B VIRUS IMMUNE GLOBULIN,PE,Concept,NA,DailyMed
+XK87D9J012,STREPTOCOCCUS PNEUMONIAE TYPE 18C CAPSULAR POLYSACCHARIDE DIPHTHERIA CRM197 PROTEIN CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+XKR79OET1K,BRAZIL NUT,PE,Concept,NA,DailyMed
+XL4HLC6JH6,HEPATITIS B VIRUS SUBTYPE ADW HBSAG SURFACE PROTEIN ANTIGEN,PE,Concept,NA,DailyMed
+XQ14H1462M,STEMPHYLIUM SARCINIFORME,PE,Concept,NA,DailyMed
+XV74C1N1AE,HYDROQUINONE,PE,Concept,NA,DailyMed
+XZC6H8R666,CYTISUS SCOPARIUS FLOWERING TOP,PE,Concept,NA,DailyMed
+Y05PC4JZRH,DILL,PE,Concept,NA,DailyMed
+Y0M7LGE3Z8,COLLETOTRICHUM COCCODES,PE,Concept,NA,DailyMed
+Y0TK0FS77W,CROMOLYN,PE,Concept,NA,DailyMed
+Y2U5S5PF22,IVA ANNUA POLLEN,PE,Concept,NA,DailyMed
+Y3FRX92Z0E,LIGUSTRUM VULGARE POLLEN,PE,Concept,NA,DailyMed
+Y69HPD48AI,RATTUS NORVEGICUS SKIN,PE,Concept,NA,DailyMed
+Y8335394RO,BUPIVACAINE,PE,Concept,NA,DailyMed
+YB1308W43O,ATRIPLEX WRIGHTII POLLEN,PE,Concept,NA,DailyMed
+YI19RB8YFD,ARTEMISIA TRIDENTATA POLLEN,PE,Concept,NA,DailyMed
+YI7VU623SF,PROPOFOL,PE,Concept,NA,DailyMed
+YIH315U1TU,USTILAGO AVENAE,PE,Concept,NA,DailyMed
+YM2P5UN502,PINUS BANKSIANA POLLEN,PE,Concept,NA,DailyMed
+YX089CPS05,METHYLDIBROMO GLUTARONITRILE,PE,Concept,NA,DailyMed
+YY7C30VXJT,CUCUMBER,PE,Concept,NA,DailyMed
+Z0F2YK1B7H,ALNUS RUBRA POLLEN,PE,Concept,NA,DailyMed
+Z1EJP3037Z,ASPARAGUS,PE,Concept,NA,DailyMed
+Z22628B598,ETOMIDATE,PE,Concept,NA,DailyMed
+Z38C7FBM49,TURNIP,PE,Concept,NA,DailyMed
+Z3GVO2327F,ASPERGILLUS FLAVUS VAR. ORYZAE PROTEASE,PE,Concept,NA,DailyMed
+Z4KHF2C175,TOMATO,PE,Concept,NA,DailyMed
+Z4MD1809H1,TRICHOPHYTON SCHOENLEINII,PE,Concept,NA,DailyMed
+Z4Y9ZSV4KK,QUERCUS ALBA POLLEN,PE,Concept,NA,DailyMed
+Z6J799EAJK,OAT,PE,Concept,NA,DailyMed
+Z6R9D1D3KJ,NEISSERIA MENINGITIDIS GROUP W-135 CAPSULAR POLYSACCHARIDE DIPHTHERIA TOXOID CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+Z80I64HMNP,TIAGABINE,PE,Concept,NA,DailyMed
+Z845VHQ61P,HUMAN PAPILLOMAVIRUS TYPE 11 L1 CAPSID PROTEIN ANTIGEN,PE,Concept,NA,DailyMed
+Z8IX2SC1OH,PROPYLPARABEN,PE,Concept,NA,DailyMed
+Z91WAU43WC,ORYCTOLAGUS CUNICULUS SKIN,PE,Concept,NA,DailyMed
+Z9HK08690W,STREPTOCOCCUS PNEUMONIAE TYPE 6A CAPSULAR POLYSACCHARIDE DIPHTHERIA CRM197 PROTEIN CONJUGATE ANTIGEN,PE,Concept,NA,DailyMed
+ZB2SV6JJY5,COMMON CARP,PE,Concept,NA,DailyMed
+ZE22NE22F1,VON WILLEBRAND FACTOR HUMAN,PE,Concept,NA,DailyMed
+ZEI09763J3,PSEUDOTSUGA MENZIESII POLLEN,PE,Concept,NA,DailyMed
+ZGS382Y3AV,CORYLUS AMERICANA POLLEN,PE,Concept,NA,DailyMed
+ZIF514RVZR,ALBUMIN (HUMAN),PE,Concept,NA,DailyMed
+ZIO18VN6HJ,AMBROSIA DUMOSA POLLEN,PE,Concept,NA,DailyMed
+ZL5TV40C5Y,BETULA PENDULA POLLEN,PE,Concept,NA,DailyMed
+ZQ6LG2C39M,LOBSTER,PE,Concept,NA,DailyMed
+ZTR043UHDE,QUERCUS MARILANDICA POLLEN,PE,Concept,NA,DailyMed

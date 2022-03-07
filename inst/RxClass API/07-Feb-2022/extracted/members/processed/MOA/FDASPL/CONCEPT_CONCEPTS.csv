@@ -1,0 +1,1791 @@
+concept_code,concept_name,class_type,concept_class_id,standard_concept,vocabulary_id
+1000082,alcaftadine,MOA,IN,NA,RxNorm
+1000082,alcaftadine,MOA,Concept,NA,SPL
+1005921,ulipristal,MOA,IN,NA,RxNorm
+1005921,ulipristal,MOA,Concept,NA,SPL
+10114,streptozocin,MOA,IN,NA,RxNorm
+10114,streptozocin,MOA,Concept,NA,SPL
+1012892,fingolimod,MOA,IN,NA,RxNorm
+1012892,fingolimod,MOA,Concept,NA,SPL
+10167,sulbactam,MOA,IN,NA,RxNorm
+10167,sulbactam,MOA,Concept,NA,SPL
+10180,sulfamethoxazole,MOA,IN,NA,RxNorm
+10180,sulfamethoxazole,MOA,Concept,NA,SPL
+10237,sulindac,MOA,IN,NA,RxNorm
+10237,sulindac,MOA,Concept,NA,SPL
+10324,tamoxifen,MOA,IN,NA,RxNorm
+10324,tamoxifen,MOA,Concept,NA,SPL
+10349,sodium pertechnetate Tc 99m,MOA,PIN,NA,RxNorm
+10349,sodium pertechnetate Tc 99m,MOA,Concept,NA,SPL
+10379,testosterone,MOA,IN,NA,RxNorm
+10379,testosterone,MOA,Concept,NA,SPL
+10390,tetrabenazine,MOA,IN,NA,RxNorm
+10390,tetrabenazine,MOA,Concept,NA,SPL
+1043,apomorphine,MOA,IN,NA,RxNorm
+1043,apomorphine,MOA,Concept,NA,SPL
+10473,thiotepa,MOA,IN,NA,RxNorm
+10473,thiotepa,MOA,Concept,NA,SPL
+10636,tolmetin,MOA,IN,NA,RxNorm
+10636,tolmetin,MOA,Concept,NA,SPL
+10689,tramadol,MOA,IN,NA,RxNorm
+10689,tramadol,MOA,Concept,NA,SPL
+107044,rabbit anti-human T-lymphocyte globulin,MOA,PIN,NA,RxNorm
+107044,rabbit anti-human T-lymphocyte globulin,MOA,Concept,NA,SPL
+10734,tranylcypromine,MOA,IN,NA,RxNorm
+10734,tranylcypromine,MOA,Concept,NA,SPL
+10759,triamcinolone,MOA,IN,NA,RxNorm
+10759,triamcinolone,MOA,Concept,NA,SPL
+10761,triamcinolone acetonide,MOA,PIN,NA,RxNorm
+10761,triamcinolone acetonide,MOA,Concept,NA,SPL
+10798,trientine,MOA,IN,NA,RxNorm
+10798,trientine,MOA,Concept,NA,SPL
+10803,trifluridine,MOA,IN,NA,RxNorm
+10803,trifluridine,MOA,Concept,NA,SPL
+108088,alclometasone,MOA,IN,NA,RxNorm
+108088,alclometasone,MOA,Concept,NA,SPL
+108118,mometasone,MOA,IN,NA,RxNorm
+108118,mometasone,MOA,Concept,NA,SPL
+10829,trimethoprim,MOA,IN,NA,RxNorm
+10829,trimethoprim,MOA,Concept,NA,SPL
+10869,tropicamide,MOA,IN,NA,RxNorm
+10869,tropicamide,MOA,Concept,NA,SPL
+1091643,azilsartan,MOA,IN,NA,RxNorm
+1091643,azilsartan,MOA,Concept,NA,SPL
+1091836,roflumilast,MOA,IN,NA,RxNorm
+1091836,roflumilast,MOA,Concept,NA,SPL
+1092437,belimumab,MOA,IN,NA,RxNorm
+1092437,belimumab,MOA,Concept,NA,SPL
+1094833,ipilimumab,MOA,IN,NA,RxNorm
+1094833,ipilimumab,MOA,Concept,NA,SPL
+1098413,vandetanib,MOA,IN,NA,RxNorm
+1098413,vandetanib,MOA,Concept,NA,SPL
+1100072,abiraterone,MOA,IN,NA,RxNorm
+1100072,abiraterone,MOA,Concept,NA,SPL
+1100699,linagliptin,MOA,IN,NA,RxNorm
+1100699,linagliptin,MOA,Concept,NA,SPL
+1102270,rilpivirine,MOA,IN,NA,RxNorm
+1102270,rilpivirine,MOA,Concept,NA,SPL
+1112973,belatacept,MOA,IN,NA,RxNorm
+1112973,belatacept,MOA,Concept,NA,SPL
+1114195,rivaroxaban,MOA,IN,NA,RxNorm
+1114195,rivaroxaban,MOA,Concept,NA,SPL
+1116632,ticagrelor,MOA,IN,NA,RxNorm
+1116632,ticagrelor,MOA,Concept,NA,SPL
+11170,verapamil,MOA,IN,NA,RxNorm
+11170,verapamil,MOA,Concept,NA,SPL
+11196,viloxazine,MOA,IN,NA,RxNorm
+11196,viloxazine,MOA,Concept,NA,SPL
+1119986,Centruroides (scorpion) immune F(ab')2 (equine),MOA,IN,NA,RxNorm
+1119986,Centruroides (scorpion) immune F(ab')2 (equine),MOA,Concept,NA,SPL
+11289,warfarin,MOA,IN,NA,RxNorm
+11289,warfarin,MOA,Concept,NA,SPL
+11413,zidovudine,MOA,IN,NA,RxNorm
+11413,zidovudine,MOA,Concept,NA,SPL
+1147220,vemurafenib,MOA,IN,NA,RxNorm
+1147220,vemurafenib,MOA,Concept,NA,SPL
+1147320,brentuximab vedotin,MOA,IN,NA,RxNorm
+1147320,brentuximab vedotin,MOA,Concept,NA,SPL
+1148138,icatibant,MOA,IN,NA,RxNorm
+1148138,icatibant,MOA,Concept,NA,SPL
+1148495,crizotinib,MOA,IN,NA,RxNorm
+1148495,crizotinib,MOA,Concept,NA,SPL
+114934,desirudin,MOA,IN,NA,RxNorm
+114934,desirudin,MOA,Concept,NA,SPL
+114970,zafirlukast,MOA,IN,NA,RxNorm
+114970,zafirlukast,MOA,Concept,NA,SPL
+114979,rabeprazole,MOA,IN,NA,RxNorm
+114979,rabeprazole,MOA,Concept,NA,SPL
+11645,deferiprone,MOA,IN,NA,RxNorm
+11645,deferiprone,MOA,Concept,NA,SPL
+117055,alemtuzumab,MOA,IN,NA,RxNorm
+117055,alemtuzumab,MOA,Concept,NA,SPL
+118886,verteporfin,MOA,IN,NA,RxNorm
+118886,verteporfin,MOA,Concept,NA,SPL
+1193326,ruxolitinib,MOA,IN,NA,RxNorm
+1193326,ruxolitinib,MOA,Concept,NA,SPL
+119565,tolterodine,MOA,IN,NA,RxNorm
+119565,tolterodine,MOA,Concept,NA,SPL
+1202,atenolol,MOA,IN,NA,RxNorm
+1202,atenolol,MOA,Concept,NA,SPL
+121191,rituximab,MOA,IN,NA,RxNorm
+121191,rituximab,MOA,Concept,NA,SPL
+121243,voriconazole,MOA,IN,NA,RxNorm
+121243,voriconazole,MOA,Concept,NA,SPL
+1223,atropine,MOA,IN,NA,RxNorm
+1223,atropine,MOA,Concept,NA,SPL
+1232150,aflibercept,MOA,IN,NA,RxNorm
+1232150,aflibercept,MOA,Concept,NA,SPL
+1242987,vismodegib,MOA,IN,NA,RxNorm
+1242987,vismodegib,MOA,Concept,NA,SPL
+1242999,axitinib,MOA,IN,NA,RxNorm
+1242999,axitinib,MOA,Concept,NA,SPL
+1243041,ivacaftor,MOA,IN,NA,RxNorm
+1243041,ivacaftor,MOA,Concept,NA,SPL
+1244607,tafluprost,MOA,IN,NA,RxNorm
+1244607,tafluprost,MOA,Concept,NA,SPL
+1251,azacitidine,MOA,IN,NA,RxNorm
+1251,azacitidine,MOA,Concept,NA,SPL
+1256,azathioprine,MOA,IN,NA,RxNorm
+1256,azathioprine,MOA,Concept,NA,SPL
+12574,gemcitabine,MOA,IN,NA,RxNorm
+12574,gemcitabine,MOA,Concept,NA,SPL
+1291301,avanafil,MOA,IN,NA,RxNorm
+1291301,avanafil,MOA,Concept,NA,SPL
+1292,baclofen,MOA,IN,NA,RxNorm
+1292,baclofen,MOA,Concept,NA,SPL
+1294580,gemtuzumab ozogamicin,MOA,IN,NA,RxNorm
+1294580,gemtuzumab ozogamicin,MOA,Concept,NA,SPL
+1298944,pertuzumab,MOA,IN,NA,RxNorm
+1298944,pertuzumab,MOA,Concept,NA,SPL
+1300701,lorcaserin,MOA,IN,NA,RxNorm
+1300701,lorcaserin,MOA,Concept,NA,SPL
+1300786,mirabegron,MOA,IN,NA,RxNorm
+1300786,mirabegron,MOA,Concept,NA,SPL
+1302966,carfilzomib,MOA,IN,NA,RxNorm
+1302966,carfilzomib,MOA,Concept,NA,SPL
+1303098,aclidinium,MOA,IN,NA,RxNorm
+1303098,aclidinium,MOA,Concept,NA,SPL
+1305558,ammonia N-13,MOA,PIN,NA,RxNorm
+1305558,ammonia N-13,MOA,Concept,NA,SPL
+1306284,cobicistat,MOA,IN,NA,RxNorm
+1306284,cobicistat,MOA,Concept,NA,SPL
+1306286,elvitegravir,MOA,IN,NA,RxNorm
+1306286,elvitegravir,MOA,Concept,NA,SPL
+1307298,enzalutamide,MOA,IN,NA,RxNorm
+1307298,enzalutamide,MOA,Concept,NA,SPL
+1307404,linaclotide,MOA,IN,NA,RxNorm
+1307404,linaclotide,MOA,Concept,NA,SPL
+1307619,bosutinib,MOA,IN,NA,RxNorm
+1307619,bosutinib,MOA,Concept,NA,SPL
+1310520,teriflunomide,MOA,IN,NA,RxNorm
+1310520,teriflunomide,MOA,Concept,NA,SPL
+1312397,regorafenib,MOA,IN,NA,RxNorm
+1312397,regorafenib,MOA,Concept,NA,SPL
+1314372,indium In-111 oxyquinoline,MOA,PIN,NA,RxNorm
+1314372,indium In-111 oxyquinoline,MOA,Concept,NA,SPL
+1318915,potassium ion,MOA,IN,NA,RxNorm
+1318915,potassium ion,MOA,Concept,NA,SPL
+1331,barium sulfate,MOA,IN,NA,RxNorm
+1331,barium sulfate,MOA,Concept,NA,SPL
+134527,nelfinavir,MOA,IN,NA,RxNorm
+134527,nelfinavir,MOA,Concept,NA,SPL
+134547,bendamustine,MOA,IN,NA,RxNorm
+134547,bendamustine,MOA,Concept,NA,SPL
+134615,brimonidine,MOA,IN,NA,RxNorm
+134615,brimonidine,MOA,Concept,NA,SPL
+1347,beclomethasone,MOA,IN,NA,RxNorm
+1347,beclomethasone,MOA,Concept,NA,SPL
+134748,rasagiline,MOA,IN,NA,RxNorm
+134748,rasagiline,MOA,Concept,NA,SPL
+135391,olopatadine,MOA,IN,NA,RxNorm
+135391,olopatadine,MOA,Concept,NA,SPL
+135447,donepezil,MOA,IN,NA,RxNorm
+135447,donepezil,MOA,Concept,NA,SPL
+1356552,perampanel,MOA,IN,NA,RxNorm
+1356552,perampanel,MOA,Concept,NA,SPL
+1357536,tofacitinib,MOA,IN,NA,RxNorm
+1357536,tofacitinib,MOA,Concept,NA,SPL
+135775,zolmitriptan,MOA,IN,NA,RxNorm
+135775,zolmitriptan,MOA,Concept,NA,SPL
+1361657,iodide ion I-123,MOA,PIN,NA,RxNorm
+1361657,iodide ion I-123,MOA,Concept,NA,SPL
+136198,darifenacin,MOA,IN,NA,RxNorm
+136198,darifenacin,MOA,Concept,NA,SPL
+1362737,fluorodeoxyglucose F18,MOA,IN,NA,RxNorm
+1362737,fluorodeoxyglucose F18,MOA,Concept,NA,SPL
+1363268,cabozantinib,MOA,IN,NA,RxNorm
+1363268,cabozantinib,MOA,Concept,NA,SPL
+1363352,hydroxyethyl starch 130-0.4,MOA,IN,NA,RxNorm
+1363352,hydroxyethyl starch 130-0.4,MOA,Concept,NA,SPL
+1364105,pasireotide,MOA,IN,NA,RxNorm
+1364105,pasireotide,MOA,Concept,NA,SPL
+136411,sildenafil,MOA,IN,NA,RxNorm
+136411,sildenafil,MOA,Concept,NA,SPL
+1364290,gadofosveset,MOA,IN,NA,RxNorm
+1364290,gadofosveset,MOA,Concept,NA,SPL
+1364347,ponatinib,MOA,IN,NA,RxNorm
+1364347,ponatinib,MOA,Concept,NA,SPL
+1364429,sodium cation,MOA,IN,NA,RxNorm
+1364429,sodium cation,MOA,Concept,NA,SPL
+1364430,apixaban,MOA,IN,NA,RxNorm
+1364430,apixaban,MOA,Concept,NA,SPL
+1364468,teduglutide,MOA,IN,NA,RxNorm
+1364468,teduglutide,MOA,Concept,NA,SPL
+1364479,lomitapide,MOA,IN,NA,RxNorm
+1364479,lomitapide,MOA,Concept,NA,SPL
+1366567,raxibacumab,MOA,IN,NA,RxNorm
+1366567,raxibacumab,MOA,Concept,NA,SPL
+1368001,alogliptin,MOA,IN,NA,RxNorm
+1368001,alogliptin,MOA,Concept,NA,SPL
+1370439,"albumin microspheres, human",MOA,IN,NA,RxNorm
+1370439,"albumin microspheres, human",MOA,Concept,NA,SPL
+1370971,ospemifene,MOA,IN,NA,RxNorm
+1370971,ospemifene,MOA,Concept,NA,SPL
+1373391,technetium Tc 99m tilmanocept,MOA,PIN,NA,RxNorm
+1373391,technetium Tc 99m tilmanocept,MOA,Concept,NA,SPL
+1374802,potassium citrate anhydrous,MOA,PIN,NA,RxNorm
+1374802,potassium citrate anhydrous,MOA,Concept,NA,SPL
+139778,tegaserod,MOA,IN,NA,RxNorm
+139778,tegaserod,MOA,Concept,NA,SPL
+139896,enfuvirtide,MOA,IN,NA,RxNorm
+139896,enfuvirtide,MOA,Concept,NA,SPL
+139953,pramlintide,MOA,IN,NA,RxNorm
+139953,pramlintide,MOA,Concept,NA,SPL
+140587,celecoxib,MOA,IN,NA,RxNorm
+140587,celecoxib,MOA,Concept,NA,SPL
+141366,naratriptan,MOA,IN,NA,RxNorm
+141366,naratriptan,MOA,Concept,NA,SPL
+141626,colesevelam,MOA,IN,NA,RxNorm
+141626,colesevelam,MOA,Concept,NA,SPL
+141704,everolimus,MOA,IN,NA,RxNorm
+141704,everolimus,MOA,Concept,NA,SPL
+1423270,technetium Tc-99m sulfur colloid,MOA,PIN,NA,RxNorm
+1423270,technetium Tc-99m sulfur colloid,MOA,Concept,NA,SPL
+1424,benztropine,MOA,IN,NA,RxNorm
+1424,benztropine,MOA,Concept,NA,SPL
+1424884,vilanterol,MOA,IN,NA,RxNorm
+1424884,vilanterol,MOA,Concept,NA,SPL
+1424911,dabrafenib,MOA,IN,NA,RxNorm
+1424911,dabrafenib,MOA,Concept,NA,SPL
+1425099,trametinib,MOA,IN,NA,RxNorm
+1425099,trametinib,MOA,Concept,NA,SPL
+1425419,choline C-11,MOA,PIN,NA,RxNorm
+1425419,choline C-11,MOA,Concept,NA,SPL
+1426598,sulfate ion,MOA,IN,NA,RxNorm
+1426598,sulfate ion,MOA,Concept,NA,SPL
+1426680,"immunoglobulin G, human",MOA,PIN,NA,RxNorm
+1426680,"immunoglobulin G, human",MOA,Concept,NA,SPL
+1426853,magnesium cation,MOA,IN,NA,RxNorm
+1426853,magnesium cation,MOA,Concept,NA,SPL
+1426874,ioflupane I-123,MOA,PIN,NA,RxNorm
+1426874,ioflupane I-123,MOA,Concept,NA,SPL
+1427179,antithrombin alfa,MOA,PIN,NA,RxNorm
+1427179,antithrombin alfa,MOA,Concept,NA,SPL
+1427223,iobenguane sulfate I-123,MOA,PIN,NA,RxNorm
+1427223,iobenguane sulfate I-123,MOA,Concept,NA,SPL
+1427224,florbetapir F-18,MOA,PIN,NA,RxNorm
+1427224,florbetapir F-18,MOA,Concept,NA,SPL
+1430438,afatinib,MOA,IN,NA,RxNorm
+1430438,afatinib,MOA,Concept,NA,SPL
+1431726,technetium Tc 99m exametazime,MOA,PIN,NA,RxNorm
+1431726,technetium Tc 99m exametazime,MOA,Concept,NA,SPL
+1433212,levomilnacipran,MOA,IN,NA,RxNorm
+1433212,levomilnacipran,MOA,Concept,NA,SPL
+1433868,dolutegravir,MOA,IN,NA,RxNorm
+1433868,dolutegravir,MOA,Concept,NA,SPL
+1439816,riociguat,MOA,IN,NA,RxNorm
+1439816,riociguat,MOA,Concept,NA,SPL
+1440051,lixisenatide,MOA,IN,NA,RxNorm
+1440051,lixisenatide,MOA,Concept,NA,SPL
+1441386,bazedoxifene,MOA,IN,NA,RxNorm
+1441386,bazedoxifene,MOA,Concept,NA,SPL
+1442132,macitentan,MOA,IN,NA,RxNorm
+1442132,macitentan,MOA,Concept,NA,SPL
+1442981,ibrutinib,MOA,IN,NA,RxNorm
+1442981,ibrutinib,MOA,Concept,NA,SPL
+1468845,bosentan anhydrous,MOA,PIN,NA,RxNorm
+1468845,bosentan anhydrous,MOA,Concept,NA,SPL
+1482502,eslicarbazepine,MOA,IN,NA,RxNorm
+1482502,eslicarbazepine,MOA,Concept,NA,SPL
+1482680,luliconazole,MOA,IN,NA,RxNorm
+1482680,luliconazole,MOA,Concept,NA,SPL
+1482913,technetium Tc 99m sestamibi,MOA,PIN,NA,RxNorm
+1482913,technetium Tc 99m sestamibi,MOA,Concept,NA,SPL
+14845,apraclonidine,MOA,IN,NA,RxNorm
+14845,apraclonidine,MOA,Concept,NA,SPL
+1484911,sofosbuvir,MOA,IN,NA,RxNorm
+1484911,sofosbuvir,MOA,Concept,NA,SPL
+1486025,flutemetamol F-18,MOA,PIN,NA,RxNorm
+1486025,flutemetamol F-18,MOA,Concept,NA,SPL
+1487514,umeclidinium,MOA,IN,NA,RxNorm
+1487514,umeclidinium,MOA,Concept,NA,SPL
+1488368,technetium Tc-99m pyrophosphate,MOA,PIN,NA,RxNorm
+1488368,technetium Tc-99m pyrophosphate,MOA,Concept,NA,SPL
+1488564,dapagliflozin,MOA,IN,NA,RxNorm
+1488564,dapagliflozin,MOA,Concept,NA,SPL
+1488818,technetium Tc 99m medronate,MOA,PIN,NA,RxNorm
+1488818,technetium Tc 99m medronate,MOA,Concept,NA,SPL
+149,acebutolol,MOA,IN,NA,RxNorm
+149,acebutolol,MOA,Concept,NA,SPL
+1490468,tasimelteon,MOA,IN,NA,RxNorm
+1490468,tasimelteon,MOA,Concept,NA,SPL
+1492940,florbetaben f-18,MOA,PIN,NA,RxNorm
+1492940,florbetaben f-18,MOA,Concept,NA,SPL
+1512,betaine,MOA,IN,NA,RxNorm
+1512,betaine,MOA,Concept,NA,SPL
+1514,betamethasone,MOA,IN,NA,RxNorm
+1514,betamethasone,MOA,Concept,NA,SPL
+1516803,alvimopan anhydrous,MOA,PIN,NA,RxNorm
+1516803,alvimopan anhydrous,MOA,Concept,NA,SPL
+1520,betaxolol,MOA,IN,NA,RxNorm
+1520,betaxolol,MOA,Concept,NA,SPL
+15202,argatroban,MOA,IN,NA,RxNorm
+15202,argatroban,MOA,Concept,NA,SPL
+1535218,siltuximab,MOA,IN,NA,RxNorm
+1535218,siltuximab,MOA,Concept,NA,SPL
+1535457,ceritinib,MOA,IN,NA,RxNorm
+1535457,ceritinib,MOA,Concept,NA,SPL
+1535922,ramucirumab,MOA,IN,NA,RxNorm
+1535922,ramucirumab,MOA,Concept,NA,SPL
+1537034,vorapaxar,MOA,IN,NA,RxNorm
+1537034,vorapaxar,MOA,Concept,NA,SPL
+1538097,vedolizumab,MOA,IN,NA,RxNorm
+1538097,vedolizumab,MOA,Concept,NA,SPL
+1540825,tedizolid,MOA,IN,NA,RxNorm
+1540825,tedizolid,MOA,Concept,NA,SPL
+1540828,perflexane,MOA,IN,NA,RxNorm
+1540828,perflexane,MOA,Concept,NA,SPL
+1543173,tavaborole,MOA,IN,NA,RxNorm
+1543173,tavaborole,MOA,Concept,NA,SPL
+1543543,belinostat,MOA,IN,NA,RxNorm
+1543543,belinostat,MOA,Concept,NA,SPL
+1544460,idelalisib,MOA,IN,NA,RxNorm
+1544460,idelalisib,MOA,Concept,NA,SPL
+1545653,empagliflozin,MOA,IN,NA,RxNorm
+1545653,empagliflozin,MOA,Concept,NA,SPL
+1545976,codeine anhydrous,MOA,PIN,NA,RxNorm
+1545976,codeine anhydrous,MOA,Concept,NA,SPL
+1545987,amifostine anhydrous,MOA,PIN,NA,RxNorm
+1545987,amifostine anhydrous,MOA,Concept,NA,SPL
+1545988,cyclophosphamide anhydrous,MOA,PIN,NA,RxNorm
+1545988,cyclophosphamide anhydrous,MOA,Concept,NA,SPL
+1545989,enalaprilat anhydrous,MOA,PIN,NA,RxNorm
+1545989,enalaprilat anhydrous,MOA,Concept,NA,SPL
+1545996,methyldopa anhydrous,MOA,PIN,NA,RxNorm
+1545996,methyldopa anhydrous,MOA,Concept,NA,SPL
+1546004,timolol anhydrous,MOA,PIN,NA,RxNorm
+1546004,timolol anhydrous,MOA,Concept,NA,SPL
+1546007,cidofovir anhydrous,MOA,PIN,NA,RxNorm
+1546007,cidofovir anhydrous,MOA,Concept,NA,SPL
+1546015,regadenoson anhydrous,MOA,PIN,NA,RxNorm
+1546015,regadenoson anhydrous,MOA,Concept,NA,SPL
+1546017,tenofovir anhydrous,MOA,PIN,NA,RxNorm
+1546017,tenofovir anhydrous,MOA,Concept,NA,SPL
+1546019,dasatinib anhydrous,MOA,PIN,NA,RxNorm
+1546019,dasatinib anhydrous,MOA,Concept,NA,SPL
+1546022,lisinopril anhydrous,MOA,PIN,NA,RxNorm
+1546022,lisinopril anhydrous,MOA,Concept,NA,SPL
+1546024,indinavir anhydrous,MOA,PIN,NA,RxNorm
+1546024,indinavir anhydrous,MOA,Concept,NA,SPL
+1546027,entecavir anhydrous,MOA,PIN,NA,RxNorm
+1546027,entecavir anhydrous,MOA,Concept,NA,SPL
+1546028,mercaptopurine anhydrous,MOA,PIN,NA,RxNorm
+1546028,mercaptopurine anhydrous,MOA,Concept,NA,SPL
+1546030,saxagliptin anhydrous,MOA,PIN,NA,RxNorm
+1546030,saxagliptin anhydrous,MOA,Concept,NA,SPL
+1546031,canagliflozin anhydrous,MOA,PIN,NA,RxNorm
+1546031,canagliflozin anhydrous,MOA,Concept,NA,SPL
+1546059,olodaterol,MOA,IN,NA,RxNorm
+1546059,olodaterol,MOA,Concept,NA,SPL
+1546196,benazeprilat,MOA,PIN,NA,RxNorm
+1546196,benazeprilat,MOA,Concept,NA,SPL
+1546207,argatroban anhydrous,MOA,PIN,NA,RxNorm
+1546207,argatroban anhydrous,MOA,Concept,NA,SPL
+1546223,diatrizoic acid,MOA,IN,NA,RxNorm
+1546223,diatrizoic acid,MOA,Concept,NA,SPL
+1546272,manganese cation (2+),MOA,IN,NA,RxNorm
+1546272,manganese cation (2+),MOA,Concept,NA,SPL
+1546273,fluoride ion F-18,MOA,PIN,NA,RxNorm
+1546273,fluoride ion F-18,MOA,Concept,NA,SPL
+1546279,oseltamivir carboxylate,MOA,IN,NA,RxNorm
+1546279,oseltamivir carboxylate,MOA,Concept,NA,SPL
+1546356,dabigatran,MOA,IN,NA,RxNorm
+1546356,dabigatran,MOA,Concept,NA,SPL
+1546357,ferric cation,MOA,IN,NA,RxNorm
+1546357,ferric cation,MOA,Concept,NA,SPL
+1546358,moexiprilat,MOA,IN,NA,RxNorm
+1546358,moexiprilat,MOA,Concept,NA,SPL
+1546359,quinaprilat,MOA,IN,NA,RxNorm
+1546359,quinaprilat,MOA,Concept,NA,SPL
+1546370,thallous cation Tl-201,MOA,PIN,NA,RxNorm
+1546370,thallous cation Tl-201,MOA,Concept,NA,SPL
+1546373,ipratropium cation,MOA,PIN,NA,RxNorm
+1546373,ipratropium cation,MOA,Concept,NA,SPL
+1546377,ramiprilat,MOA,IN,NA,RxNorm
+1546377,ramiprilat,MOA,Concept,NA,SPL
+1546379,trandolaprilat,MOA,IN,NA,RxNorm
+1546379,trandolaprilat,MOA,Concept,NA,SPL
+1546387,carbamoylcholine,MOA,IN,NA,RxNorm
+1546387,carbamoylcholine,MOA,Concept,NA,SPL
+1546393,fosinoprilat,MOA,IN,NA,RxNorm
+1546393,fosinoprilat,MOA,Concept,NA,SPL
+1546400,perindoprilat,MOA,IN,NA,RxNorm
+1546400,perindoprilat,MOA,Concept,NA,SPL
+1546414,methylene blue cation,MOA,PIN,NA,RxNorm
+1546414,methylene blue cation,MOA,Concept,NA,SPL
+1546415,iodide ion I-131,MOA,PIN,NA,RxNorm
+1546415,iodide ion I-131,MOA,Concept,NA,SPL
+1546421,edrophonium cation,MOA,PIN,NA,RxNorm
+1546421,edrophonium cation,MOA,Concept,NA,SPL
+1546428,flunisolide anhydrous,MOA,PIN,NA,RxNorm
+1546428,flunisolide anhydrous,MOA,Concept,NA,SPL
+1546429,gadolinium cation (3+),MOA,IN,NA,RxNorm
+1546429,gadolinium cation (3+),MOA,Concept,NA,SPL
+1546434,82 rubidium,MOA,PIN,NA,RxNorm
+1546434,82 rubidium,MOA,Concept,NA,SPL
+1546438,glycopyrronium,MOA,IN,NA,RxNorm
+1546438,glycopyrronium,MOA,Concept,NA,SPL
+1546443,lanthanum cation (3+),MOA,IN,NA,RxNorm
+1546443,lanthanum cation (3+),MOA,Concept,NA,SPL
+1546447,4-phenylbutyric acid,MOA,PIN,NA,RxNorm
+1546447,4-phenylbutyric acid,MOA,Concept,NA,SPL
+1546451,iothalamic acid,MOA,IN,NA,RxNorm
+1546451,iothalamic acid,MOA,Concept,NA,SPL
+1546452,iothalamic acid I-125,MOA,PIN,NA,RxNorm
+1546452,iothalamic acid I-125,MOA,Concept,NA,SPL
+1547099,suvorexant,MOA,IN,NA,RxNorm
+1547099,suvorexant,MOA,Concept,NA,SPL
+1547220,eliglustat,MOA,IN,NA,RxNorm
+1547220,eliglustat,MOA,Concept,NA,SPL
+1547545,pembrolizumab,MOA,IN,NA,RxNorm
+1547545,pembrolizumab,MOA,Concept,NA,SPL
+1547611,oritavancin,MOA,IN,NA,RxNorm
+1547611,oritavancin,MOA,Concept,NA,SPL
+155080,methacholine,MOA,IN,NA,RxNorm
+155080,methacholine,MOA,Concept,NA,SPL
+1551291,dulaglutide,MOA,IN,NA,RxNorm
+1551291,dulaglutide,MOA,Concept,NA,SPL
+1551777,naloxegol,MOA,IN,NA,RxNorm
+1551777,naloxegol,MOA,Concept,NA,SPL
+1552337,netupitant,MOA,IN,NA,RxNorm
+1552337,netupitant,MOA,Concept,NA,SPL
+15657,decitabine,MOA,IN,NA,RxNorm
+15657,decitabine,MOA,Concept,NA,SPL
+1591922,ledipasvir,MOA,IN,NA,RxNorm
+1591922,ledipasvir,MOA,Concept,NA,SPL
+1592737,nintedanib,MOA,IN,NA,RxNorm
+1592737,nintedanib,MOA,Concept,NA,SPL
+1597258,blinatumomab,MOA,IN,NA,RxNorm
+1597258,blinatumomab,MOA,Concept,NA,SPL
+1597371,ombitasvir,MOA,IN,NA,RxNorm
+1597371,ombitasvir,MOA,Concept,NA,SPL
+1597373,paritaprevir,MOA,IN,NA,RxNorm
+1597373,paritaprevir,MOA,Concept,NA,SPL
+1597381,dasabuvir,MOA,IN,NA,RxNorm
+1597381,dasabuvir,MOA,Concept,NA,SPL
+1597582,olaparib,MOA,IN,NA,RxNorm
+1597582,olaparib,MOA,Concept,NA,SPL
+1597876,nivolumab,MOA,IN,NA,RxNorm
+1597876,nivolumab,MOA,Concept,NA,SPL
+1599276,sulfur hexafluoride,MOA,IN,NA,RxNorm
+1599276,sulfur hexafluoride,MOA,Concept,NA,SPL
+1599538,edoxaban,MOA,IN,NA,RxNorm
+1599538,edoxaban,MOA,Concept,NA,SPL
+1599788,secukinumab,MOA,IN,NA,RxNorm
+1599788,secukinumab,MOA,Concept,NA,SPL
+1601374,palbociclib,MOA,IN,NA,RxNorm
+1601374,palbociclib,MOA,Concept,NA,SPL
+1603296,lenvatinib,MOA,IN,NA,RxNorm
+1603296,lenvatinib,MOA,Concept,NA,SPL
+1603350,panobinostat,MOA,IN,NA,RxNorm
+1603350,panobinostat,MOA,Concept,NA,SPL
+1603834,avibactam,MOA,IN,NA,RxNorm
+1603834,avibactam,MOA,Concept,NA,SPL
+1606274,dinutuximab,MOA,IN,NA,RxNorm
+1606274,dinutuximab,MOA,Concept,NA,SPL
+1649480,ivabradine,MOA,IN,NA,RxNorm
+1649480,ivabradine,MOA,Concept,NA,SPL
+16521,adefovir,MOA,IN,NA,RxNorm
+16521,adefovir,MOA,Concept,NA,SPL
+1653781,eluxadoline,MOA,IN,NA,RxNorm
+1653781,eluxadoline,MOA,Concept,NA,SPL
+1655922,lumacaftor,MOA,IN,NA,RxNorm
+1655922,lumacaftor,MOA,Concept,NA,SPL
+1656052,cangrelor,MOA,IN,NA,RxNorm
+1656052,cangrelor,MOA,Concept,NA,SPL
+1659152,alirocumab,MOA,IN,NA,RxNorm
+1659152,alirocumab,MOA,Concept,NA,SPL
+1659191,sonidegib,MOA,IN,NA,RxNorm
+1659191,sonidegib,MOA,Concept,NA,SPL
+1665496,rolapitant,MOA,IN,NA,RxNorm
+1665496,rolapitant,MOA,Concept,NA,SPL
+1665509,flibanserin,MOA,IN,NA,RxNorm
+1665509,flibanserin,MOA,Concept,NA,SPL
+1665684,evolocumab,MOA,IN,NA,RxNorm
+1665684,evolocumab,MOA,Concept,NA,SPL
+16681,acarbose,MOA,IN,NA,RxNorm
+16681,acarbose,MOA,Concept,NA,SPL
+167,acetazolamide,MOA,IN,NA,RxNorm
+167,acetazolamide,MOA,Concept,NA,SPL
+1670304,tipiracil,MOA,IN,NA,RxNorm
+1670304,tipiracil,MOA,Concept,NA,SPL
+16728,acetohydroxamic acid,MOA,IN,NA,RxNorm
+16728,acetohydroxamic acid,MOA,Concept,NA,SPL
+1712,botulinum toxin type A,MOA,IN,NA,RxNorm
+1712,botulinum toxin type A,MOA,Concept,NA,SPL
+17128,lansoprazole,MOA,IN,NA,RxNorm
+17128,lansoprazole,MOA,Concept,NA,SPL
+1716203,patiromer,MOA,IN,NA,RxNorm
+1716203,patiromer,MOA,Concept,NA,SPL
+1716278,trabectedin,MOA,IN,NA,RxNorm
+1716278,trabectedin,MOA,Concept,NA,SPL
+1720597,mepolizumab,MOA,IN,NA,RxNorm
+1720597,mepolizumab,MOA,Concept,NA,SPL
+1720882,isavuconazole,MOA,IN,NA,RxNorm
+1720882,isavuconazole,MOA,Concept,NA,SPL
+1721560,osimertinib,MOA,IN,NA,RxNorm
+1721560,osimertinib,MOA,Concept,NA,SPL
+1721947,daratumumab,MOA,IN,NA,RxNorm
+1721947,daratumumab,MOA,Concept,NA,SPL
+1722365,cobimetinib,MOA,IN,NA,RxNorm
+1722365,cobimetinib,MOA,Concept,NA,SPL
+1723735,ixazomib,MOA,IN,NA,RxNorm
+1723735,ixazomib,MOA,Concept,NA,SPL
+1723738,necitumumab,MOA,IN,NA,RxNorm
+1723738,necitumumab,MOA,Concept,NA,SPL
+1724429,indium In-111 pentetreotide,MOA,PIN,NA,RxNorm
+1724429,indium In-111 pentetreotide,MOA,Concept,NA,SPL
+1726081,trypan blue free acid,MOA,IN,NA,RxNorm
+1726081,trypan blue free acid,MOA,Concept,NA,SPL
+1726104,elotuzumab,MOA,IN,NA,RxNorm
+1726104,elotuzumab,MOA,Concept,NA,SPL
+1727455,alectinib,MOA,IN,NA,RxNorm
+1727455,alectinib,MOA,Concept,NA,SPL
+1729002,selexipag,MOA,IN,NA,RxNorm
+1729002,selexipag,MOA,Concept,NA,SPL
+17300,alfuzosin,MOA,IN,NA,RxNorm
+17300,alfuzosin,MOA,Concept,NA,SPL
+1731071,fosaprepitant,MOA,IN,NA,RxNorm
+1731071,fosaprepitant,MOA,Concept,NA,SPL
+1734628,elbasvir,MOA,IN,NA,RxNorm
+1734628,elbasvir,MOA,Concept,NA,SPL
+1739745,brivaracetam,MOA,IN,NA,RxNorm
+1739745,brivaracetam,MOA,Concept,NA,SPL
+1745075,radium Ra-223 cation,MOA,PIN,NA,RxNorm
+1745075,radium Ra-223 cation,MOA,Concept,NA,SPL
+1745099,ixekizumab,MOA,IN,NA,RxNorm
+1745099,ixekizumab,MOA,Concept,NA,SPL
+1745257,ovine digoxin immune fab,MOA,PIN,NA,RxNorm
+1745257,ovine digoxin immune fab,MOA,Concept,NA,SPL
+1746889,reslizumab,MOA,IN,NA,RxNorm
+1746889,reslizumab,MOA,Concept,NA,SPL
+1746906,obiltoxaximab,MOA,IN,NA,RxNorm
+1746906,obiltoxaximab,MOA,Concept,NA,SPL
+1747556,venetoclax,MOA,IN,NA,RxNorm
+1747556,venetoclax,MOA,Concept,NA,SPL
+17652,amcinonide,MOA,IN,NA,RxNorm
+17652,amcinonide,MOA,Concept,NA,SPL
+17767,amlodipine,MOA,IN,NA,RxNorm
+17767,amlodipine,MOA,Concept,NA,SPL
+1789837,"Rho(D) immune globulin, human",MOA,PIN,NA,RxNorm
+1789837,"Rho(D) immune globulin, human",MOA,Concept,NA,SPL
+1792776,atezolizumab,MOA,IN,NA,RxNorm
+1792776,atezolizumab,MOA,Concept,NA,SPL
+1796118,fluciclovine F-18,MOA,PIN,NA,RxNorm
+1796118,fluciclovine F-18,MOA,Concept,NA,SPL
+1798288,obeticholic acid,MOA,IN,NA,RxNorm
+1798288,obeticholic acid,MOA,Concept,NA,SPL
+1799206,velpatasvir,MOA,IN,NA,RxNorm
+1799206,velpatasvir,MOA,Concept,NA,SPL
+1801820,lifitegrast,MOA,IN,NA,RxNorm
+1801820,lifitegrast,MOA,Concept,NA,SPL
+1811461,hydroxypropyl cellulose (type H),MOA,IN,NA,RxNorm
+1811461,hydroxypropyl cellulose (type H),MOA,Concept,NA,SPL
+1813,levobunolol,MOA,IN,NA,RxNorm
+1813,levobunolol,MOA,Concept,NA,SPL
+1819,buprenorphine,MOA,IN,NA,RxNorm
+1819,buprenorphine,MOA,Concept,NA,SPL
+1828,busulfan,MOA,IN,NA,RxNorm
+1828,busulfan,MOA,Concept,NA,SPL
+183379,rivastigmine,MOA,IN,NA,RxNorm
+183379,rivastigmine,MOA,Concept,NA,SPL
+1841,butorphanol,MOA,IN,NA,RxNorm
+1841,butorphanol,MOA,Concept,NA,SPL
+18603,azelastine,MOA,IN,NA,RxNorm
+18603,azelastine,MOA,Concept,NA,SPL
+1860608,sacubitrilat,MOA,IN,NA,RxNorm
+1860608,sacubitrilat,MOA,Concept,NA,SPL
+1862579,rucaparib,MOA,IN,NA,RxNorm
+1862579,rucaparib,MOA,Concept,NA,SPL
+1865953,crisaborole,MOA,IN,NA,RxNorm
+1865953,crisaborole,MOA,Concept,NA,SPL
+1871173,grazoprevir anhydrous,MOA,PIN,NA,RxNorm
+1871173,grazoprevir anhydrous,MOA,Concept,NA,SPL
+1872251,brodalumab,MOA,IN,NA,RxNorm
+1872251,brodalumab,MOA,Concept,NA,SPL
+1872382,telotristat,MOA,IN,NA,RxNorm
+1872382,telotristat,MOA,Concept,NA,SPL
+1873752,plecanatide,MOA,IN,NA,RxNorm
+1873752,plecanatide,MOA,Concept,NA,SPL
+1873916,ribociclib,MOA,IN,NA,RxNorm
+1873916,ribociclib,MOA,Concept,NA,SPL
+1875534,avelumab,MOA,IN,NA,RxNorm
+1875534,avelumab,MOA,Concept,NA,SPL
+1876119,etelcalcetide,MOA,IN,NA,RxNorm
+1876119,etelcalcetide,MOA,Concept,NA,SPL
+1876366,ocrelizumab,MOA,IN,NA,RxNorm
+1876366,ocrelizumab,MOA,Concept,NA,SPL
+1876376,dupilumab,MOA,IN,NA,RxNorm
+1876376,dupilumab,MOA,Concept,NA,SPL
+1876597,naldemedine,MOA,IN,NA,RxNorm
+1876597,naldemedine,MOA,Concept,NA,SPL
+18867,benazepril,MOA,IN,NA,RxNorm
+18867,benazepril,MOA,Concept,NA,SPL
+1895,calcium,MOA,IN,NA,RxNorm
+1895,calcium,MOA,Concept,NA,SPL
+18989,benzoic acid,MOA,PIN,NA,RxNorm
+18989,benzoic acid,MOA,Concept,NA,SPL
+190521,abacavir,MOA,IN,NA,RxNorm
+190521,abacavir,MOA,Concept,NA,SPL
+190548,tipranavir,MOA,IN,NA,RxNorm
+190548,tipranavir,MOA,Concept,NA,SPL
+1918219,valbenazine,MOA,IN,NA,RxNorm
+1918219,valbenazine,MOA,Concept,NA,SPL
+1918231,niraparib,MOA,IN,NA,RxNorm
+1918231,niraparib,MOA,Concept,NA,SPL
+191831,infliximab,MOA,IN,NA,RxNorm
+191831,infliximab,MOA,Concept,NA,SPL
+1919083,midostaurin,MOA,IN,NA,RxNorm
+1919083,midostaurin,MOA,Concept,NA,SPL
+1919503,durvalumab,MOA,IN,NA,RxNorm
+1919503,durvalumab,MOA,Concept,NA,SPL
+1921217,brigatinib,MOA,IN,NA,RxNorm
+1921217,brigatinib,MOA,Concept,NA,SPL
+1922448,safinamide,MOA,IN,NA,RxNorm
+1922448,safinamide,MOA,Concept,NA,SPL
+1923319,sarilumab,MOA,IN,NA,RxNorm
+1923319,sarilumab,MOA,Concept,NA,SPL
+19257,bethanechol,MOA,IN,NA,RxNorm
+19257,bethanechol,MOA,Concept,NA,SPL
+1928588,guselkumab,MOA,IN,NA,RxNorm
+1928588,guselkumab,MOA,Concept,NA,SPL
+1939323,voxilaprevir,MOA,IN,NA,RxNorm
+1939323,voxilaprevir,MOA,Concept,NA,SPL
+194,acetylcholine,MOA,IN,NA,RxNorm
+194,acetylcholine,MOA,Concept,NA,SPL
+194000,capecitabine,MOA,IN,NA,RxNorm
+194000,capecitabine,MOA,Concept,NA,SPL
+1940332,enasidenib,MOA,IN,NA,RxNorm
+1940332,enasidenib,MOA,Concept,NA,SPL
+1940635,glecaprevir,MOA,IN,NA,RxNorm
+1940635,glecaprevir,MOA,Concept,NA,SPL
+1940636,pibrentasvir,MOA,IN,NA,RxNorm
+1940636,pibrentasvir,MOA,Concept,NA,SPL
+1940643,neratinib,MOA,IN,NA,RxNorm
+1940643,neratinib,MOA,Concept,NA,SPL
+194279,palivizumab,MOA,IN,NA,RxNorm
+194279,palivizumab,MOA,Concept,NA,SPL
+1942950,inotuzumab ozogamicin,MOA,IN,NA,RxNorm
+1942950,inotuzumab ozogamicin,MOA,Concept,NA,SPL
+194337,vorinostat,MOA,IN,NA,RxNorm
+194337,vorinostat,MOA,Concept,NA,SPL
+1945077,copanlisib,MOA,IN,NA,RxNorm
+1945077,copanlisib,MOA,Concept,NA,SPL
+1945213,vaborbactam,MOA,IN,NA,RxNorm
+1945213,vaborbactam,MOA,Concept,NA,SPL
+1946825,abemaciclib,MOA,IN,NA,RxNorm
+1946825,abemaciclib,MOA,Concept,NA,SPL
+19484,bisoprolol,MOA,IN,NA,RxNorm
+19484,bisoprolol,MOA,Concept,NA,SPL
+194881,brinzolamide,MOA,IN,NA,RxNorm
+194881,brinzolamide,MOA,Concept,NA,SPL
+195085,efavirenz,MOA,IN,NA,RxNorm
+195085,efavirenz,MOA,Concept,NA,SPL
+195088,lopinavir,MOA,IN,NA,RxNorm
+195088,lopinavir,MOA,Concept,NA,SPL
+196102,basiliximab,MOA,IN,NA,RxNorm
+196102,basiliximab,MOA,Concept,NA,SPL
+197,acetylcysteine,MOA,IN,NA,RxNorm
+197,acetylcysteine,MOA,Concept,NA,SPL
+19737,bromfenac,MOA,IN,NA,RxNorm
+19737,bromfenac,MOA,Concept,NA,SPL
+19831,budesonide,MOA,IN,NA,RxNorm
+19831,budesonide,MOA,Concept,NA,SPL
+1986438,tisagenlecleucel,MOA,IN,NA,RxNorm
+1986438,tisagenlecleucel,MOA,Concept,NA,SPL
+1986808,acalabrutinib,MOA,IN,NA,RxNorm
+1986808,acalabrutinib,MOA,Concept,NA,SPL
+1987398,axicabtagene ciloleucel,MOA,IN,NA,RxNorm
+1987398,axicabtagene ciloleucel,MOA,Concept,NA,SPL
+1988648,letermovir,MOA,IN,NA,RxNorm
+1988648,letermovir,MOA,Concept,NA,SPL
+1989100,benralizumab,MOA,IN,NA,RxNorm
+1989100,benralizumab,MOA,Concept,NA,SPL
+1991302,semaglutide,MOA,IN,NA,RxNorm
+1991302,semaglutide,MOA,Concept,NA,SPL
+1992864,netarsudil,MOA,IN,NA,RxNorm
+1992864,netarsudil,MOA,Concept,NA,SPL
+19959,acrivastine,MOA,IN,NA,RxNorm
+19959,acrivastine,MOA,Concept,NA,SPL
+1997443,"cytomegalovirus immune globulin, human",MOA,PIN,NA,RxNorm
+1997443,"cytomegalovirus immune globulin, human",MOA,Concept,NA,SPL
+1998,captopril,MOA,IN,NA,RxNorm
+1998,captopril,MOA,Concept,NA,SPL
+1999420,macimorelin,MOA,IN,NA,RxNorm
+1999420,macimorelin,MOA,Concept,NA,SPL
+2002,carbamazepine,MOA,IN,NA,RxNorm
+2002,carbamazepine,MOA,Concept,NA,SPL
+2019,carbidopa,MOA,IN,NA,RxNorm
+2019,carbidopa,MOA,Concept,NA,SPL
+20220,carbinoxamine,MOA,IN,NA,RxNorm
+20220,carbinoxamine,MOA,Concept,NA,SPL
+2034,carbon dioxide,MOA,IN,NA,RxNorm
+2034,carbon dioxide,MOA,Concept,NA,SPL
+20352,carvedilol,MOA,IN,NA,RxNorm
+20352,carvedilol,MOA,Concept,NA,SPL
+2043283,ibalizumab,MOA,IN,NA,RxNorm
+2043283,ibalizumab,MOA,Concept,NA,SPL
+2045371,cannabidiol,MOA,IN,NA,RxNorm
+2045371,cannabidiol,MOA,Concept,NA,SPL
+2047232,baricitinib,MOA,IN,NA,RxNorm
+2047232,baricitinib,MOA,Concept,NA,SPL
+2048727,hydroxypropyl cellulose (1600000 WAMW),MOA,IN,NA,RxNorm
+2048727,hydroxypropyl cellulose (1600000 WAMW),MOA,Concept,NA,SPL
+2049846,elagolix,MOA,IN,NA,RxNorm
+2049846,elagolix,MOA,Concept,NA,SPL
+2053281,iobenguane I-131,MOA,PIN,NA,RxNorm
+2053281,iobenguane I-131,MOA,Concept,NA,SPL
+2053436,tildrakizumab,MOA,IN,NA,RxNorm
+2053436,tildrakizumab,MOA,Concept,NA,SPL
+2054068,mogamulizumab,MOA,IN,NA,RxNorm
+2054068,mogamulizumab,MOA,Concept,NA,SPL
+2055104,tecovirimat,MOA,IN,NA,RxNorm
+2055104,tecovirimat,MOA,Concept,NA,SPL
+2055641,lanadelumab,MOA,IN,NA,RxNorm
+2055641,lanadelumab,MOA,Concept,NA,SPL
+2055755,doravirine,MOA,IN,NA,RxNorm
+2055755,doravirine,MOA,Concept,NA,SPL
+2059018,sarecycline,MOA,IN,NA,RxNorm
+2059018,sarecycline,MOA,Concept,NA,SPL
+20610,cetirizine,MOA,IN,NA,RxNorm
+20610,cetirizine,MOA,Concept,NA,SPL
+2099704,talazoparib,MOA,IN,NA,RxNorm
+2099704,talazoparib,MOA,Concept,NA,SPL
+2102775,revefenacin,MOA,IN,NA,RxNorm
+2102775,revefenacin,MOA,Concept,NA,SPL
+2103164,lorlatinib,MOA,IN,NA,RxNorm
+2103164,lorlatinib,MOA,Concept,NA,SPL
+2104604,emapalumab,MOA,IN,NA,RxNorm
+2104604,emapalumab,MOA,Concept,NA,SPL
+2105,carmustine,MOA,IN,NA,RxNorm
+2105,carmustine,MOA,Concept,NA,SPL
+2105628,larotrectinib,MOA,IN,NA,RxNorm
+2105628,larotrectinib,MOA,Concept,NA,SPL
+2105845,glasdegib,MOA,IN,NA,RxNorm
+2105845,glasdegib,MOA,Concept,NA,SPL
+2106338,amifampridine,MOA,IN,NA,RxNorm
+2106338,amifampridine,MOA,Concept,NA,SPL
+2107301,ravulizumab,MOA,IN,NA,RxNorm
+2107301,ravulizumab,MOA,Concept,NA,SPL
+2107310,prucalopride,MOA,IN,NA,RxNorm
+2107310,prucalopride,MOA,Concept,NA,SPL
+21090,ciclopirox,MOA,IN,NA,RxNorm
+21090,ciclopirox,MOA,Concept,NA,SPL
+2109055,tagraxofusp,MOA,IN,NA,RxNorm
+2109055,tagraxofusp,MOA,Concept,NA,SPL
+21107,cilostazol,MOA,IN,NA,RxNorm
+21107,cilostazol,MOA,Concept,NA,SPL
+2116,carteolol,MOA,IN,NA,RxNorm
+2116,carteolol,MOA,Concept,NA,SPL
+2118525,triclabendazole,MOA,IN,NA,RxNorm
+2118525,triclabendazole,MOA,Concept,NA,SPL
+21212,clarithromycin,MOA,IN,NA,RxNorm
+21212,clarithromycin,MOA,Concept,NA,SPL
+21216,clavulanic acid,MOA,PIN,NA,RxNorm
+21216,clavulanic acid,MOA,Concept,NA,SPL
+21232,clidinium,MOA,IN,NA,RxNorm
+21232,clidinium,MOA,Concept,NA,SPL
+21241,clobazam,MOA,IN,NA,RxNorm
+21241,clobazam,MOA,Concept,NA,SPL
+21249,clocortolone,MOA,IN,NA,RxNorm
+21249,clocortolone,MOA,Concept,NA,SPL
+214354,candesartan,MOA,IN,NA,RxNorm
+214354,candesartan,MOA,Concept,NA,SPL
+214555,etanercept,MOA,IN,NA,RxNorm
+214555,etanercept,MOA,Concept,NA,SPL
+214824,sevelamer,MOA,IN,NA,RxNorm
+214824,sevelamer,MOA,Concept,NA,SPL
+2197842,baloxavir,MOA,IN,NA,RxNorm
+2197842,baloxavir,MOA,Concept,NA,SPL
+221147,polyethylene glycol 3350,MOA,IN,NA,RxNorm
+221147,polyethylene glycol 3350,MOA,Concept,NA,SPL
+221946,"citric acid, anhydrous",MOA,PIN,NA,RxNorm
+221946,"citric acid, anhydrous",MOA,Concept,NA,SPL
+22298,dapiprazole,MOA,IN,NA,RxNorm
+22298,dapiprazole,MOA,Concept,NA,SPL
+22396,deflazacort,MOA,IN,NA,RxNorm
+22396,deflazacort,MOA,Concept,NA,SPL
+224905,trastuzumab,MOA,IN,NA,RxNorm
+224905,trastuzumab,MOA,Concept,NA,SPL
+2262435,zanubrutinib,MOA,IN,NA,RxNorm
+2262435,zanubrutinib,MOA,Concept,NA,SPL
+2272107,avapritinib,MOA,IN,NA,RxNorm
+2272107,avapritinib,MOA,Concept,NA,SPL
+2274378,tazemetostat,MOA,IN,NA,RxNorm
+2274378,tazemetostat,MOA,Concept,NA,SPL
+2274803,Teprotumumab,MOA,IN,NA,RxNorm
+2274803,Teprotumumab,MOA,Concept,NA,SPL
+2280602,strontium cation Sr-89,MOA,PIN,NA,RxNorm
+2280602,strontium cation Sr-89,MOA,Concept,NA,SPL
+2282018,isatuximab,MOA,IN,NA,RxNorm
+2282018,isatuximab,MOA,Concept,NA,SPL
+2282307,Rimegepant,MOA,IN,NA,RxNorm
+2282307,Rimegepant,MOA,Concept,NA,SPL
+2282403,bempedoic acid,MOA,IN,NA,RxNorm
+2282403,bempedoic acid,MOA,Concept,NA,SPL
+2282660,eptinezumab,MOA,IN,NA,RxNorm
+2282660,eptinezumab,MOA,Concept,NA,SPL
+2286252,osilodrostat,MOA,IN,NA,RxNorm
+2286252,osilodrostat,MOA,Concept,NA,SPL
+228656,amprenavir,MOA,IN,NA,RxNorm
+228656,amprenavir,MOA,Concept,NA,SPL
+228783,frovatriptan,MOA,IN,NA,RxNorm
+228783,frovatriptan,MOA,Concept,NA,SPL
+228790,dutasteride,MOA,IN,NA,RxNorm
+228790,dutasteride,MOA,Concept,NA,SPL
+2289225,trastuzumab-dttb,MOA,PIN,NA,RxNorm
+2289225,trastuzumab-dttb,MOA,Concept,NA,SPL
+2289380,selumetinib,MOA,IN,NA,RxNorm
+2289380,selumetinib,MOA,Concept,NA,SPL
+23066,dihematoporphyrin ether,MOA,IN,NA,RxNorm
+23066,dihematoporphyrin ether,MOA,Concept,NA,SPL
+23088,dihydrocodeine,MOA,IN,NA,RxNorm
+23088,dihydrocodeine,MOA,Concept,NA,SPL
+231049,eletriptan,MOA,IN,NA,RxNorm
+231049,eletriptan,MOA,Concept,NA,SPL
+232539,calfactant,MOA,IN,NA,RxNorm
+232539,calfactant,MOA,Concept,NA,SPL
+233603,clevidipine,MOA,IN,NA,RxNorm
+233603,clevidipine,MOA,Concept,NA,SPL
+2346,chlorambucil,MOA,IN,NA,RxNorm
+2346,chlorambucil,MOA,Concept,NA,SPL
+2359268,pemigatinib,MOA,IN,NA,RxNorm
+2359268,pemigatinib,MOA,Concept,NA,SPL
+235991,anhydrous tacrolimus,MOA,PIN,NA,RxNorm
+235991,anhydrous tacrolimus,MOA,Concept,NA,SPL
+2361285,tucatinib,MOA,IN,NA,RxNorm
+2361285,tucatinib,MOA,Concept,NA,SPL
+2362165,capmatinib,MOA,IN,NA,RxNorm
+2362165,capmatinib,MOA,Concept,NA,SPL
+2362167,opicapone,MOA,IN,NA,RxNorm
+2362167,opicapone,MOA,Concept,NA,SPL
+236381,poractant alfa,MOA,IN,NA,RxNorm
+236381,poractant alfa,MOA,Concept,NA,SPL
+236778,trospium,MOA,IN,NA,RxNorm
+236778,trospium,MOA,Concept,NA,SPL
+2369389,ripretinib,MOA,IN,NA,RxNorm
+2369389,ripretinib,MOA,Concept,NA,SPL
+2370147,selpercatinib,MOA,IN,NA,RxNorm
+2370147,selpercatinib,MOA,Concept,NA,SPL
+237027,loteprednol,MOA,IN,NA,RxNorm
+237027,loteprednol,MOA,Concept,NA,SPL
+237159,levalbuterol,MOA,IN,NA,RxNorm
+237159,levalbuterol,MOA,Concept,NA,SPL
+2372221,fluoroestradiol F-18,MOA,PIN,NA,RxNorm
+2372221,fluoroestradiol F-18,MOA,Concept,NA,SPL
+2382,proguanil,MOA,IN,NA,RxNorm
+2382,proguanil,MOA,Concept,NA,SPL
+2394936,pralsetinib,MOA,IN,NA,RxNorm
+2394936,pralsetinib,MOA,Concept,NA,SPL
+2396442,copper oxodotreotide CU-64,MOA,PIN,NA,RxNorm
+2396442,copper oxodotreotide CU-64,MOA,Concept,NA,SPL
+24457,ethanolamine,MOA,IN,NA,RxNorm
+24457,ethanolamine,MOA,Concept,NA,SPL
+2447,cholestyramine resin,MOA,IN,NA,RxNorm
+2447,cholestyramine resin,MOA,Concept,NA,SPL
+24605,etodolac,MOA,IN,NA,RxNorm
+24605,etodolac,MOA,Concept,NA,SPL
+2467553,lonafarnib,MOA,IN,NA,RxNorm
+2467553,lonafarnib,MOA,Concept,NA,SPL
+2469247,setmelanotide,MOA,IN,NA,RxNorm
+2469247,setmelanotide,MOA,Concept,NA,SPL
+24698,fludarabine,MOA,IN,NA,RxNorm
+24698,fludarabine,MOA,Concept,NA,SPL
+2472778,relugolix,MOA,IN,NA,RxNorm
+2472778,relugolix,MOA,Concept,NA,SPL
+2474039,naxitamab,MOA,IN,NA,RxNorm
+2474039,naxitamab,MOA,Concept,NA,SPL
+2474340,Clascoterone,MOA,IN,NA,RxNorm
+2474340,Clascoterone,MOA,Concept,NA,SPL
+2475077,cabotegravir,MOA,IN,NA,RxNorm
+2475077,cabotegravir,MOA,Concept,NA,SPL
+2475166,voclosporin,MOA,IN,NA,RxNorm
+2475166,voclosporin,MOA,Concept,NA,SPL
+2475830,vericiguat,MOA,IN,NA,RxNorm
+2475830,vericiguat,MOA,Concept,NA,SPL
+2477103,tepotinib,MOA,IN,NA,RxNorm
+2477103,tepotinib,MOA,Concept,NA,SPL
+2478335,evinacumab,MOA,IN,NA,RxNorm
+2478335,evinacumab,MOA,Concept,NA,SPL
+2478439,umbralisib,MOA,IN,NA,RxNorm
+2478439,umbralisib,MOA,Concept,NA,SPL
+2479690,trilaciclib,MOA,IN,NA,RxNorm
+2479690,trilaciclib,MOA,Concept,NA,SPL
+24853,fenoldopam,MOA,IN,NA,RxNorm
+24853,fenoldopam,MOA,Concept,NA,SPL
+24902,prussian blue insoluble,MOA,IN,NA,RxNorm
+24902,prussian blue insoluble,MOA,Concept,NA,SPL
+25025,finasteride,MOA,IN,NA,RxNorm
+25025,finasteride,MOA,Concept,NA,SPL
+25138,fluorescein,MOA,IN,NA,RxNorm
+25138,fluorescein,MOA,Concept,NA,SPL
+25255,formoterol,MOA,IN,NA,RxNorm
+25255,formoterol,MOA,Concept,NA,SPL
+2531369,melphalan flufenamide,MOA,IN,NA,RxNorm
+2531369,melphalan flufenamide,MOA,Concept,NA,SPL
+2532300,ponesimod,MOA,IN,NA,RxNorm
+2532300,ponesimod,MOA,Concept,NA,SPL
+253337,bevacizumab,MOA,IN,NA,RxNorm
+253337,bevacizumab,MOA,Concept,NA,SPL
+2534233,tivozanib,MOA,IN,NA,RxNorm
+2534233,tivozanib,MOA,Concept,NA,SPL
+2535233,dasiglucagon,MOA,IN,NA,RxNorm
+2535233,dasiglucagon,MOA,Concept,NA,SPL
+2539031,estetrol,MOA,IN,NA,RxNorm
+2539031,estetrol,MOA,Concept,NA,SPL
+2539967,dostarlimab,MOA,IN,NA,RxNorm
+2539967,dostarlimab,MOA,Concept,NA,SPL
+2540,cilastatin,MOA,IN,NA,RxNorm
+2540,cilastatin,MOA,Concept,NA,SPL
+2541,cimetidine,MOA,IN,NA,RxNorm
+2541,cimetidine,MOA,Concept,NA,SPL
+25483,gadoteridol,MOA,IN,NA,RxNorm
+25483,gadoteridol,MOA,Concept,NA,SPL
+2556,citalopram,MOA,IN,NA,RxNorm
+2556,citalopram,MOA,Concept,NA,SPL
+2556616,piflufolastat F-18,MOA,PIN,NA,RxNorm
+2556616,piflufolastat F-18,MOA,Concept,NA,SPL
+2557217,aducanumab,MOA,IN,NA,RxNorm
+2557217,aducanumab,MOA,Concept,NA,SPL
+2557372,pegcetacoplan,MOA,IN,NA,RxNorm
+2557372,pegcetacoplan,MOA,Concept,NA,SPL
+2559612,samidorphan,MOA,IN,NA,RxNorm
+2559612,samidorphan,MOA,Concept,NA,SPL
+2560213,ibrexafungerp,MOA,IN,NA,RxNorm
+2560213,ibrexafungerp,MOA,Concept,NA,SPL
+2562811,finerenone,MOA,IN,NA,RxNorm
+2562811,finerenone,MOA,Concept,NA,SPL
+2563966,odevixibat,MOA,IN,NA,RxNorm
+2563966,odevixibat,MOA,Concept,NA,SPL
+2564146,fexinidazole,MOA,IN,NA,RxNorm
+2564146,fexinidazole,MOA,Concept,NA,SPL
+2565265,anifrolumab,MOA,IN,NA,RxNorm
+2565265,anifrolumab,MOA,Concept,NA,SPL
+25842,gluconolactone,MOA,IN,NA,RxNorm
+25842,gluconolactone,MOA,Concept,NA,SPL
+258494,exemestane,MOA,IN,NA,RxNorm
+258494,exemestane,MOA,Concept,NA,SPL
+2590,clobetasol,MOA,IN,NA,RxNorm
+2590,clobetasol,MOA,Concept,NA,SPL
+259268,indium In-111 pentetate disodium,MOA,PIN,NA,RxNorm
+259268,indium In-111 pentetate disodium,MOA,Concept,NA,SPL
+259282,xenon-133,MOA,PIN,NA,RxNorm
+259282,xenon-133,MOA,Concept,NA,SPL
+2596,clomiphene,MOA,IN,NA,RxNorm
+2596,clomiphene,MOA,Concept,NA,SPL
+2599,clonidine,MOA,IN,NA,RxNorm
+2599,clonidine,MOA,Concept,NA,SPL
+260101,oseltamivir,MOA,IN,NA,RxNorm
+260101,oseltamivir,MOA,Concept,NA,SPL
+26225,ondansetron,MOA,IN,NA,RxNorm
+26225,ondansetron,MOA,Concept,NA,SPL
+262323,ibritumomab tiuxetan,MOA,IN,NA,RxNorm
+262323,ibritumomab tiuxetan,MOA,Concept,NA,SPL
+26237,granisetron,MOA,IN,NA,RxNorm
+26237,granisetron,MOA,Concept,NA,SPL
+263034,panitumumab,MOA,IN,NA,RxNorm
+263034,panitumumab,MOA,Concept,NA,SPL
+266604,metyrosine,MOA,IN,NA,RxNorm
+266604,metyrosine,MOA,Concept,NA,SPL
+26744,hepatitis B immune globulin,MOA,IN,NA,RxNorm
+26744,hepatitis B immune globulin,MOA,Concept,NA,SPL
+2683,colchicine,MOA,IN,NA,RxNorm
+2683,colchicine,MOA,Concept,NA,SPL
+2685,colestipol,MOA,IN,NA,RxNorm
+2685,colestipol,MOA,Concept,NA,SPL
+27084,homatropine,MOA,IN,NA,RxNorm
+27084,homatropine,MOA,Concept,NA,SPL
+272758,gallium 67 citrate,MOA,PIN,NA,RxNorm
+272758,gallium 67 citrate,MOA,Concept,NA,SPL
+27291,hydroxypropylcellulose,MOA,IN,NA,RxNorm
+27291,hydroxypropylcellulose,MOA,Concept,NA,SPL
+274332,nateglinide,MOA,IN,NA,RxNorm
+274332,nateglinide,MOA,Concept,NA,SPL
+274771,nelarabine,MOA,IN,NA,RxNorm
+274771,nelarabine,MOA,Concept,NA,SPL
+275635,desloratadine,MOA,IN,NA,RxNorm
+275635,desloratadine,MOA,Concept,NA,SPL
+275891,valganciclovir,MOA,IN,NA,RxNorm
+275891,valganciclovir,MOA,Concept,NA,SPL
+276237,emtricitabine,MOA,IN,NA,RxNorm
+276237,emtricitabine,MOA,Concept,NA,SPL
+27729,iodixanol,MOA,IN,NA,RxNorm
+27729,iodixanol,MOA,Concept,NA,SPL
+27781,iopromide,MOA,IN,NA,RxNorm
+27781,iopromide,MOA,Concept,NA,SPL
+27792,ioversol,MOA,IN,NA,RxNorm
+27792,ioversol,MOA,Concept,NA,SPL
+278739,pegvisomant,MOA,IN,NA,RxNorm
+278739,pegvisomant,MOA,Concept,NA,SPL
+279645,almotriptan,MOA,IN,NA,RxNorm
+279645,almotriptan,MOA,Concept,NA,SPL
+28031,itraconazole,MOA,IN,NA,RxNorm
+28031,itraconazole,MOA,Concept,NA,SPL
+281,acyclovir,MOA,IN,NA,RxNorm
+281,acyclovir,MOA,Concept,NA,SPL
+282357,fulvestrant,MOA,IN,NA,RxNorm
+282357,fulvestrant,MOA,Concept,NA,SPL
+282388,imatinib,MOA,IN,NA,RxNorm
+282388,imatinib,MOA,Concept,NA,SPL
+283742,esomeprazole,MOA,IN,NA,RxNorm
+283742,esomeprazole,MOA,Concept,NA,SPL
+283753,perflutren,MOA,IN,NA,RxNorm
+283753,perflutren,MOA,Concept,NA,SPL
+28395,lactitol,MOA,IN,NA,RxNorm
+28395,lactitol,MOA,Concept,NA,SPL
+28656,nafarelin,MOA,IN,NA,RxNorm
+28656,nafarelin,MOA,Concept,NA,SPL
+2878,cortisone,MOA,IN,NA,RxNorm
+2878,cortisone,MOA,Concept,NA,SPL
+29439,medrysone,MOA,IN,NA,RxNorm
+29439,medrysone,MOA,Concept,NA,SPL
+296,adenosine,MOA,IN,NA,RxNorm
+296,adenosine,MOA,Concept,NA,SPL
+298665,nepafenac,MOA,IN,NA,RxNorm
+298665,nepafenac,MOA,Concept,NA,SPL
+298869,eplerenone,MOA,IN,NA,RxNorm
+298869,eplerenone,MOA,Concept,NA,SPL
+29899,methylnaltrexone,MOA,IN,NA,RxNorm
+29899,methylnaltrexone,MOA,Concept,NA,SPL
+30009,miglitol,MOA,IN,NA,RxNorm
+30009,miglitol,MOA,Concept,NA,SPL
+3008,cyclosporine,MOA,IN,NA,RxNorm
+3008,cyclosporine,MOA,Concept,NA,SPL
+301542,rosuvastatin,MOA,IN,NA,RxNorm
+301542,rosuvastatin,MOA,Concept,NA,SPL
+3022,cysteamine,MOA,IN,NA,RxNorm
+3022,cysteamine,MOA,Concept,NA,SPL
+302285,conivaptan,MOA,IN,NA,RxNorm
+302285,conivaptan,MOA,Concept,NA,SPL
+302379,omalizumab,MOA,IN,NA,RxNorm
+302379,omalizumab,MOA,Concept,NA,SPL
+3041,cytarabine,MOA,IN,NA,RxNorm
+3041,cytarabine,MOA,Concept,NA,SPL
+304962,arformoterol,MOA,IN,NA,RxNorm
+304962,arformoterol,MOA,Concept,NA,SPL
+306674,vardenafil,MOA,IN,NA,RxNorm
+306674,vardenafil,MOA,Concept,NA,SPL
+3098,dacarbazine,MOA,IN,NA,RxNorm
+3098,dacarbazine,MOA,Concept,NA,SPL
+3100,dactinomycin,MOA,IN,NA,RxNorm
+3100,dactinomycin,MOA,Concept,NA,SPL
+3102,danazol,MOA,IN,NA,RxNorm
+3102,danazol,MOA,Concept,NA,SPL
+3109,daunorubicin,MOA,IN,NA,RxNorm
+3109,daunorubicin,MOA,Concept,NA,SPL
+3131,deferoxamine,MOA,IN,NA,RxNorm
+3131,deferoxamine,MOA,Concept,NA,SPL
+314301,"albumin,iodinated I-131 serum",MOA,IN,NA,RxNorm
+314301,"albumin,iodinated I-131 serum",MOA,Concept,NA,SPL
+31448,nabumetone,MOA,IN,NA,RxNorm
+31448,nabumetone,MOA,Concept,NA,SPL
+31479,nalmefene,MOA,IN,NA,RxNorm
+31479,nalmefene,MOA,Concept,NA,SPL
+31555,nebivolol,MOA,IN,NA,RxNorm
+31555,nebivolol,MOA,Concept,NA,SPL
+317177,"albumin,iodinated I-125 serum",MOA,IN,NA,RxNorm
+317177,"albumin,iodinated I-125 serum",MOA,Concept,NA,SPL
+317675,samarium Sm-153 lexidronam pentasodium,MOA,PIN,NA,RxNorm
+317675,samarium Sm-153 lexidronam pentasodium,MOA,Concept,NA,SPL
+31805,nilutamide,MOA,IN,NA,RxNorm
+31805,nilutamide,MOA,Concept,NA,SPL
+318341,cetuximab,MOA,IN,NA,RxNorm
+318341,cetuximab,MOA,Concept,NA,SPL
+321064,olmesartan,MOA,IN,NA,RxNorm
+321064,olmesartan,MOA,Concept,NA,SPL
+321208,fondaparinux,MOA,IN,NA,RxNorm
+321208,fondaparinux,MOA,Concept,NA,SPL
+321952,pimecrolimus,MOA,IN,NA,RxNorm
+321952,pimecrolimus,MOA,Concept,NA,SPL
+321988,escitalopram,MOA,IN,NA,RxNorm
+321988,escitalopram,MOA,Concept,NA,SPL
+322167,solifenacin,MOA,IN,NA,RxNorm
+322167,solifenacin,MOA,Concept,NA,SPL
+3254,desonide,MOA,IN,NA,RxNorm
+3254,desonide,MOA,Concept,NA,SPL
+3255,desoximetasone,MOA,IN,NA,RxNorm
+3255,desoximetasone,MOA,Concept,NA,SPL
+325646,aliskiren,MOA,IN,NA,RxNorm
+325646,aliskiren,MOA,Concept,NA,SPL
+32613,oxaprozin,MOA,IN,NA,RxNorm
+32613,oxaprozin,MOA,Concept,NA,SPL
+3264,dexamethasone,MOA,IN,NA,RxNorm
+3264,dexamethasone,MOA,Concept,NA,SPL
+32675,oxybutynin,MOA,IN,NA,RxNorm
+32675,oxybutynin,MOA,Concept,NA,SPL
+3272,dextran 40,MOA,IN,NA,RxNorm
+3272,dextran 40,MOA,Concept,NA,SPL
+327361,adalimumab,MOA,IN,NA,RxNorm
+327361,adalimumab,MOA,Concept,NA,SPL
+3274,dextran 70,MOA,IN,NA,RxNorm
+3274,dextran 70,MOA,Concept,NA,SPL
+3275,dextran 75,MOA,IN,NA,RxNorm
+3275,dextran 75,MOA,Concept,NA,SPL
+328134,gefitinib,MOA,IN,NA,RxNorm
+328134,gefitinib,MOA,Concept,NA,SPL
+3289,dextromethorphan,MOA,IN,NA,RxNorm
+3289,dextromethorphan,MOA,Concept,NA,SPL
+32937,paroxetine,MOA,IN,NA,RxNorm
+32937,paroxetine,MOA,Concept,NA,SPL
+32968,clopidogrel,MOA,IN,NA,RxNorm
+32968,clopidogrel,MOA,Concept,NA,SPL
+33332,phenylacetic acid,MOA,PIN,NA,RxNorm
+33332,phenylacetic acid,MOA,Concept,NA,SPL
+3353,dichlorphenamide,MOA,IN,NA,RxNorm
+3353,dichlorphenamide,MOA,Concept,NA,SPL
+3355,diclofenac,MOA,IN,NA,RxNorm
+3355,diclofenac,MOA,Concept,NA,SPL
+33562,foscarnet,MOA,IN,NA,RxNorm
+33562,foscarnet,MOA,Concept,NA,SPL
+3361,dicyclomine,MOA,IN,NA,RxNorm
+3361,dicyclomine,MOA,Concept,NA,SPL
+3364,didanosine,MOA,IN,NA,RxNorm
+3364,didanosine,MOA,Concept,NA,SPL
+33738,pioglitazone,MOA,IN,NA,RxNorm
+33738,pioglitazone,MOA,Concept,NA,SPL
+337525,erlotinib,MOA,IN,NA,RxNorm
+337525,erlotinib,MOA,Concept,NA,SPL
+33910,isradipine,MOA,IN,NA,RxNorm
+33910,isradipine,MOA,Concept,NA,SPL
+3393,diflunisal,MOA,IN,NA,RxNorm
+3393,diflunisal,MOA,Concept,NA,SPL
+3423,hydromorphone,MOA,IN,NA,RxNorm
+3423,hydromorphone,MOA,Concept,NA,SPL
+342965,cellulose sodium phosphate,MOA,PIN,NA,RxNorm
+342965,cellulose sodium phosphate,MOA,Concept,NA,SPL
+343047,atazanavir,MOA,IN,NA,RxNorm
+343047,atazanavir,MOA,Concept,NA,SPL
+34345,pralidoxime,MOA,IN,NA,RxNorm
+34345,pralidoxime,MOA,Concept,NA,SPL
+34369,prednicarbate,MOA,IN,NA,RxNorm
+34369,prednicarbate,MOA,Concept,NA,SPL
+3443,diltiazem,MOA,IN,NA,RxNorm
+3443,diltiazem,MOA,Concept,NA,SPL
+3445,dimercaprol,MOA,IN,NA,RxNorm
+3445,dimercaprol,MOA,Concept,NA,SPL
+3446,succimer,MOA,IN,NA,RxNorm
+3446,succimer,MOA,Concept,NA,SPL
+3498,diphenhydramine,MOA,IN,NA,RxNorm
+3498,diphenhydramine,MOA,Concept,NA,SPL
+350374,"betaine, anhydrous",MOA,PIN,NA,RxNorm
+350374,"betaine, anhydrous",MOA,Concept,NA,SPL
+35208,quinapril,MOA,IN,NA,RxNorm
+35208,quinapril,MOA,Concept,NA,SPL
+35296,ramipril,MOA,IN,NA,RxNorm
+35296,ramipril,MOA,Concept,NA,SPL
+35302,sirolimus,MOA,IN,NA,RxNorm
+35302,sirolimus,MOA,Concept,NA,SPL
+354770,natalizumab,MOA,IN,NA,RxNorm
+354770,natalizumab,MOA,Concept,NA,SPL
+3554,disulfiram,MOA,IN,NA,RxNorm
+3554,disulfiram,MOA,Concept,NA,SPL
+356887,levocetirizine,MOA,IN,NA,RxNorm
+356887,levocetirizine,MOA,Concept,NA,SPL
+357977,sunitinib,MOA,IN,NA,RxNorm
+357977,sunitinib,MOA,Concept,NA,SPL
+35825,ganirelix,MOA,IN,NA,RxNorm
+35825,ganirelix,MOA,Concept,NA,SPL
+358255,aprepitant,MOA,IN,NA,RxNorm
+358255,aprepitant,MOA,Concept,NA,SPL
+358257,tolvaptan,MOA,IN,NA,RxNorm
+358257,tolvaptan,MOA,Concept,NA,SPL
+358258,bortezomib,MOA,IN,NA,RxNorm
+358258,bortezomib,MOA,Concept,NA,SPL
+358263,tadalafil,MOA,IN,NA,RxNorm
+358263,tadalafil,MOA,Concept,NA,SPL
+35827,ketorolac,MOA,IN,NA,RxNorm
+35827,ketorolac,MOA,Concept,NA,SPL
+358274,ambrisentan,MOA,IN,NA,RxNorm
+358274,ambrisentan,MOA,Concept,NA,SPL
+35829,ranolazine,MOA,IN,NA,RxNorm
+35829,ranolazine,MOA,Concept,NA,SPL
+36117,salmeterol,MOA,IN,NA,RxNorm
+36117,salmeterol,MOA,Concept,NA,SPL
+3616,dobutamine,MOA,IN,NA,RxNorm
+3616,dobutamine,MOA,Concept,NA,SPL
+3639,doxorubicin,MOA,IN,NA,RxNorm
+3639,doxorubicin,MOA,Concept,NA,SPL
+3642,doxylamine,MOA,IN,NA,RxNorm
+3642,doxylamine,MOA,Concept,NA,SPL
+36437,sertraline,MOA,IN,NA,RxNorm
+36437,sertraline,MOA,Concept,NA,SPL
+3648,droperidol,MOA,IN,NA,RxNorm
+3648,droperidol,MOA,Concept,NA,SPL
+36567,simvastatin,MOA,IN,NA,RxNorm
+36567,simvastatin,MOA,Concept,NA,SPL
+3690,pentetic acid,MOA,PIN,NA,RxNorm
+3690,pentetic acid,MOA,Concept,NA,SPL
+37418,sumatriptan,MOA,IN,NA,RxNorm
+37418,sumatriptan,MOA,Concept,NA,SPL
+3755,edetic acid,MOA,IN,NA,RxNorm
+3755,edetic acid,MOA,Concept,NA,SPL
+37617,tazobactam,MOA,IN,NA,RxNorm
+37617,tazobactam,MOA,Concept,NA,SPL
+37776,temozolomide,MOA,IN,NA,RxNorm
+37776,temozolomide,MOA,Concept,NA,SPL
+37798,terazosin,MOA,IN,NA,RxNorm
+37798,terazosin,MOA,Concept,NA,SPL
+37925,orlistat,MOA,IN,NA,RxNorm
+37925,orlistat,MOA,Concept,NA,SPL
+3827,enalapril,MOA,IN,NA,RxNorm
+3827,enalapril,MOA,Concept,NA,SPL
+38400,atomoxetine,MOA,IN,NA,RxNorm
+38400,atomoxetine,MOA,Concept,NA,SPL
+38404,topiramate,MOA,IN,NA,RxNorm
+38404,topiramate,MOA,Concept,NA,SPL
+38409,toremifene,MOA,IN,NA,RxNorm
+38409,toremifene,MOA,Concept,NA,SPL
+38454,trandolapril,MOA,IN,NA,RxNorm
+38454,trandolapril,MOA,Concept,NA,SPL
+38782,triptorelin,MOA,IN,NA,RxNorm
+38782,triptorelin,MOA,Concept,NA,SPL
+3966,ephedrine,MOA,IN,NA,RxNorm
+3966,ephedrine,MOA,Concept,NA,SPL
+39684,epinastine,MOA,IN,NA,RxNorm
+39684,epinastine,MOA,Concept,NA,SPL
+39786,venlafaxine,MOA,IN,NA,RxNorm
+39786,venlafaxine,MOA,Concept,NA,SPL
+3992,epinephrine,MOA,IN,NA,RxNorm
+3992,epinephrine,MOA,Concept,NA,SPL
+3995,epirubicin,MOA,IN,NA,RxNorm
+3995,epirubicin,MOA,Concept,NA,SPL
+39993,zolpidem,MOA,IN,NA,RxNorm
+39993,zolpidem,MOA,Concept,NA,SPL
+39998,zonisamide,MOA,IN,NA,RxNorm
+39998,zonisamide,MOA,Concept,NA,SPL
+40114,guanfacine,MOA,IN,NA,RxNorm
+40114,guanfacine,MOA,Concept,NA,SPL
+401713,carglumic acid,MOA,IN,NA,RxNorm
+401713,carglumic acid,MOA,Concept,NA,SPL
+402316,miglustat,MOA,IN,NA,RxNorm
+402316,miglustat,MOA,Concept,NA,SPL
+40575,zileuton,MOA,IN,NA,RxNorm
+40575,zileuton,MOA,Concept,NA,SPL
+40790,pantoprazole,MOA,IN,NA,RxNorm
+40790,pantoprazole,MOA,Concept,NA,SPL
+407990,cinacalcet,MOA,IN,NA,RxNorm
+407990,cinacalcet,MOA,Concept,NA,SPL
+4083,estradiol,MOA,IN,NA,RxNorm
+4083,estradiol,MOA,Concept,NA,SPL
+4089,estramustine,MOA,IN,NA,RxNorm
+4089,estramustine,MOA,Concept,NA,SPL
+4099,"estrogens, conjugated (USP)",MOA,IN,NA,RxNorm
+4099,"estrogens, conjugated (USP)",MOA,Concept,NA,SPL
+41126,fluticasone,MOA,IN,NA,RxNorm
+41126,fluticasone,MOA,Concept,NA,SPL
+41127,fluvastatin,MOA,IN,NA,RxNorm
+41127,fluvastatin,MOA,Concept,NA,SPL
+41144,gadodiamide,MOA,IN,NA,RxNorm
+41144,gadodiamide,MOA,Concept,NA,SPL
+41208,halobetasol,MOA,IN,NA,RxNorm
+41208,halobetasol,MOA,Concept,NA,SPL
+4124,ethinyl estradiol,MOA,IN,NA,RxNorm
+4124,ethinyl estradiol,MOA,Concept,NA,SPL
+4125,ethiodized oil,MOA,IN,NA,RxNorm
+4125,ethiodized oil,MOA,Concept,NA,SPL
+41493,meloxicam,MOA,IN,NA,RxNorm
+41493,meloxicam,MOA,Concept,NA,SPL
+4179,etoposide,MOA,IN,NA,RxNorm
+4179,etoposide,MOA,Concept,NA,SPL
+42319,nizatidine,MOA,IN,NA,RxNorm
+42319,nizatidine,MOA,Concept,NA,SPL
+42347,bupropion,MOA,IN,NA,RxNorm
+42347,bupropion,MOA,Concept,NA,SPL
+42355,fluvoxamine,MOA,IN,NA,RxNorm
+42355,fluvoxamine,MOA,Concept,NA,SPL
+42372,mupirocin,MOA,IN,NA,RxNorm
+42372,mupirocin,MOA,Concept,NA,SPL
+42375,leuprolide,MOA,IN,NA,RxNorm
+42375,leuprolide,MOA,Concept,NA,SPL
+42463,pravastatin,MOA,IN,NA,RxNorm
+42463,pravastatin,MOA,Concept,NA,SPL
+4278,famotidine,MOA,IN,NA,RxNorm
+4278,famotidine,MOA,Concept,NA,SPL
+42987,indium In-111 chloride,MOA,PIN,NA,RxNorm
+42987,indium In-111 chloride,MOA,Concept,NA,SPL
+430,albendazole,MOA,IN,NA,RxNorm
+430,albendazole,MOA,Concept,NA,SPL
+4316,felodipine,MOA,IN,NA,RxNorm
+4316,felodipine,MOA,Concept,NA,SPL
+4331,fenoprofen,MOA,IN,NA,RxNorm
+4331,fenoprofen,MOA,Concept,NA,SPL
+4337,fentanyl,MOA,IN,NA,RxNorm
+4337,fentanyl,MOA,Concept,NA,SPL
+435,albuterol,MOA,IN,NA,RxNorm
+435,albuterol,MOA,Concept,NA,SPL
+44151,clofarabine,MOA,IN,NA,RxNorm
+44151,clofarabine,MOA,Concept,NA,SPL
+44281,cevimeline,MOA,IN,NA,RxNorm
+44281,cevimeline,MOA,Concept,NA,SPL
+4440,flavoxate,MOA,IN,NA,RxNorm
+4440,flavoxate,MOA,Concept,NA,SPL
+4450,fluconazole,MOA,IN,NA,RxNorm
+4450,fluconazole,MOA,Concept,NA,SPL
+4461,fluocinolone acetonide,MOA,PIN,NA,RxNorm
+4461,fluocinolone acetonide,MOA,Concept,NA,SPL
+4462,fluocinonide,MOA,IN,NA,RxNorm
+4462,fluocinonide,MOA,Concept,NA,SPL
+4491,fluorometholone,MOA,IN,NA,RxNorm
+4491,fluorometholone,MOA,Concept,NA,SPL
+4492,fluorouracil,MOA,IN,NA,RxNorm
+4492,fluorouracil,MOA,Concept,NA,SPL
+4493,fluoxetine,MOA,IN,NA,RxNorm
+4493,fluoxetine,MOA,Concept,NA,SPL
+4494,fluoxymesterone,MOA,IN,NA,RxNorm
+4494,fluoxymesterone,MOA,Concept,NA,SPL
+4500,flurandrenolide,MOA,IN,NA,RxNorm
+4500,flurandrenolide,MOA,Concept,NA,SPL
+4502,flurbiprofen,MOA,IN,NA,RxNorm
+4502,flurbiprofen,MOA,Concept,NA,SPL
+4508,flutamide,MOA,IN,NA,RxNorm
+4508,flutamide,MOA,Concept,NA,SPL
+460132,darunavir,MOA,IN,NA,RxNorm
+460132,darunavir,MOA,Concept,NA,SPL
+46303,amisulpride,MOA,IN,NA,RxNorm
+46303,amisulpride,MOA,Concept,NA,SPL
+4637,galantamine,MOA,IN,NA,RxNorm
+4637,galantamine,MOA,Concept,NA,SPL
+4678,ganciclovir,MOA,IN,NA,RxNorm
+4678,ganciclovir,MOA,Concept,NA,SPL
+46967,beractant,MOA,IN,NA,RxNorm
+46967,beractant,MOA,Concept,NA,SPL
+4719,gemfibrozil,MOA,IN,NA,RxNorm
+4719,gemfibrozil,MOA,Concept,NA,SPL
+475230,degarelix,MOA,IN,NA,RxNorm
+475230,degarelix,MOA,Concept,NA,SPL
+475968,liraglutide,MOA,IN,NA,RxNorm
+475968,liraglutide,MOA,Concept,NA,SPL
+475969,etravirine,MOA,IN,NA,RxNorm
+475969,etravirine,MOA,Concept,NA,SPL
+480,alfentanil,MOA,IN,NA,RxNorm
+480,alfentanil,MOA,Concept,NA,SPL
+480167,lapatinib,MOA,IN,NA,RxNorm
+480167,lapatinib,MOA,Concept,NA,SPL
+48937,dexmedetomidine,MOA,IN,NA,RxNorm
+48937,dexmedetomidine,MOA,Concept,NA,SPL
+49276,doxazosin,MOA,IN,NA,RxNorm
+49276,doxazosin,MOA,Concept,NA,SPL
+495881,sorafenib,MOA,IN,NA,RxNorm
+495881,sorafenib,MOA,Concept,NA,SPL
+49737,esmolol,MOA,IN,NA,RxNorm
+49737,esmolol,MOA,Concept,NA,SPL
+50166,fosinopril,MOA,IN,NA,RxNorm
+50166,fosinopril,MOA,Concept,NA,SPL
+5033,guanabenz,MOA,IN,NA,RxNorm
+5033,guanabenz,MOA,Concept,NA,SPL
+50610,goserelin,MOA,IN,NA,RxNorm
+50610,goserelin,MOA,Concept,NA,SPL
+5084,halcinonide,MOA,IN,NA,RxNorm
+5084,halcinonide,MOA,Concept,NA,SPL
+50975,histrelin,MOA,IN,NA,RxNorm
+50975,histrelin,MOA,Concept,NA,SPL
+51499,irinotecan,MOA,IN,NA,RxNorm
+51499,irinotecan,MOA,Concept,NA,SPL
+519,allopurinol,MOA,IN,NA,RxNorm
+519,allopurinol,MOA,Concept,NA,SPL
+52175,losartan,MOA,IN,NA,RxNorm
+52175,losartan,MOA,Concept,NA,SPL
+52769,milrinone,MOA,IN,NA,RxNorm
+52769,milrinone,MOA,Concept,NA,SPL
+53654,nevirapine,MOA,IN,NA,RxNorm
+53654,nevirapine,MOA,Concept,NA,SPL
+544488,botulism immune globulin IV human,MOA,IN,NA,RxNorm
+544488,botulism immune globulin IV human,MOA,Concept,NA,SPL
+54552,perindopril,MOA,IN,NA,RxNorm
+54552,perindopril,MOA,Concept,NA,SPL
+5489,hydrocodone,MOA,IN,NA,RxNorm
+5489,hydrocodone,MOA,Concept,NA,SPL
+5509,hydroquinone,MOA,IN,NA,RxNorm
+5509,hydroquinone,MOA,Concept,NA,SPL
+5531,hetastarch,MOA,IN,NA,RxNorm
+5531,hetastarch,MOA,Concept,NA,SPL
+5553,hydroxyzine,MOA,IN,NA,RxNorm
+5553,hydroxyzine,MOA,Concept,NA,SPL
+5640,ibuprofen,MOA,IN,NA,RxNorm
+5640,ibuprofen,MOA,Concept,NA,SPL
+5650,idarubicin,MOA,IN,NA,RxNorm
+5650,idarubicin,MOA,Concept,NA,SPL
+56512,sodium polystyrene sulfonate,MOA,IN,NA,RxNorm
+56512,sodium polystyrene sulfonate,MOA,Concept,NA,SPL
+5657,ifosfamide,MOA,IN,NA,RxNorm
+5657,ifosfamide,MOA,Concept,NA,SPL
+56795,sufentanil,MOA,IN,NA,RxNorm
+56795,sufentanil,MOA,Concept,NA,SPL
+569,eflornithine,MOA,IN,NA,RxNorm
+569,eflornithine,MOA,Concept,NA,SPL
+57258,tizanidine,MOA,IN,NA,RxNorm
+57258,tizanidine,MOA,Concept,NA,SPL
+57308,topotecan,MOA,IN,NA,RxNorm
+57308,topotecan,MOA,Concept,NA,SPL
+5775,indocyanine green,MOA,IN,NA,RxNorm
+5775,indocyanine green,MOA,Concept,NA,SPL
+5781,indomethacin,MOA,IN,NA,RxNorm
+5781,indomethacin,MOA,Concept,NA,SPL
+588250,milnacipran,MOA,IN,NA,RxNorm
+588250,milnacipran,MOA,Concept,NA,SPL
+591622,varenicline,MOA,IN,NA,RxNorm
+591622,varenicline,MOA,Concept,NA,SPL
+591781,eculizumab,MOA,IN,NA,RxNorm
+591781,eculizumab,MOA,Concept,NA,SPL
+593411,sitagliptin,MOA,IN,NA,RxNorm
+593411,sitagliptin,MOA,Concept,NA,SPL
+595060,ranibizumab,MOA,IN,NA,RxNorm
+595060,ranibizumab,MOA,Concept,NA,SPL
+5956,iohexol,MOA,IN,NA,RxNorm
+5956,iohexol,MOA,Concept,NA,SPL
+596205,ramelteon,MOA,IN,NA,RxNorm
+596205,ramelteon,MOA,Concept,NA,SPL
+5966,iopamidol,MOA,IN,NA,RxNorm
+5966,iopamidol,MOA,Concept,NA,SPL
+596724,anagrelide,MOA,IN,NA,RxNorm
+596724,anagrelide,MOA,Concept,NA,SPL
+597392,human vaccinia immune globulin,MOA,IN,NA,RxNorm
+597392,human vaccinia immune globulin,MOA,Concept,NA,SPL
+59763,stavudine,MOA,IN,NA,RxNorm
+59763,stavudine,MOA,Concept,NA,SPL
+598,alprostadil,MOA,IN,NA,RxNorm
+598,alprostadil,MOA,Concept,NA,SPL
+59839,penciclovir,MOA,IN,NA,RxNorm
+59839,penciclovir,MOA,Concept,NA,SPL
+59943,imiquimod,MOA,IN,NA,RxNorm
+59943,imiquimod,MOA,Concept,NA,SPL
+6011,isocarboxazid,MOA,IN,NA,RxNorm
+6011,isocarboxazid,MOA,Concept,NA,SPL
+60207,dorzolamide,MOA,IN,NA,RxNorm
+60207,dorzolamide,MOA,Concept,NA,SPL
+60307,entacapone,MOA,IN,NA,RxNorm
+60307,entacapone,MOA,Concept,NA,SPL
+6054,isoproterenol,MOA,IN,NA,RxNorm
+6054,isoproterenol,MOA,Concept,NA,SPL
+60548,exenatide,MOA,IN,NA,RxNorm
+60548,exenatide,MOA,Concept,NA,SPL
+60819,bivalirudin,MOA,IN,NA,RxNorm
+60819,bivalirudin,MOA,Concept,NA,SPL
+612865,tocilizumab,MOA,IN,NA,RxNorm
+612865,tocilizumab,MOA,Concept,NA,SPL
+613391,prasugrel,MOA,IN,NA,RxNorm
+613391,prasugrel,MOA,Concept,NA,SPL
+6135,ketoconazole,MOA,IN,NA,RxNorm
+6135,ketoconazole,MOA,Concept,NA,SPL
+6142,ketoprofen,MOA,IN,NA,RxNorm
+6142,ketoprofen,MOA,Concept,NA,SPL
+614373,deferasirox,MOA,IN,NA,RxNorm
+614373,deferasirox,MOA,Concept,NA,SPL
+6146,ketotifen,MOA,IN,NA,RxNorm
+6146,ketotifen,MOA,Concept,NA,SPL
+61805,nitisinone,MOA,IN,NA,RxNorm
+61805,nitisinone,MOA,Concept,NA,SPL
+6185,labetalol,MOA,IN,NA,RxNorm
+6185,labetalol,MOA,Concept,NA,SPL
+619693,peramivir,MOA,IN,NA,RxNorm
+619693,peramivir,MOA,Concept,NA,SPL
+620,amantadine,MOA,IN,NA,RxNorm
+620,amantadine,MOA,Concept,NA,SPL
+620216,maraviroc,MOA,IN,NA,RxNorm
+620216,maraviroc,MOA,Concept,NA,SPL
+6218,lactulose,MOA,IN,NA,RxNorm
+6218,lactulose,MOA,Concept,NA,SPL
+623033,lubiprostone,MOA,IN,NA,RxNorm
+623033,lubiprostone,MOA,Concept,NA,SPL
+632,mitomycin,MOA,IN,NA,RxNorm
+632,mitomycin,MOA,Concept,NA,SPL
+6378,levorphanol,MOA,IN,NA,RxNorm
+6378,levorphanol,MOA,Concept,NA,SPL
+640062,regadenoson,MOA,IN,NA,RxNorm
+640062,regadenoson,MOA,Concept,NA,SPL
+6466,lomustine,MOA,IN,NA,RxNorm
+6466,lomustine,MOA,Concept,NA,SPL
+6468,loperamide,MOA,IN,NA,RxNorm
+6468,loperamide,MOA,Concept,NA,SPL
+6472,lovastatin,MOA,IN,NA,RxNorm
+6472,lovastatin,MOA,Concept,NA,SPL
+657797,temsirolimus,MOA,IN,NA,RxNorm
+657797,temsirolimus,MOA,Concept,NA,SPL
+658708,ecallantide,MOA,IN,NA,RxNorm
+658708,ecallantide,MOA,Concept,NA,SPL
+6606,malathion,MOA,IN,NA,RxNorm
+6606,malathion,MOA,Concept,NA,SPL
+662281,nilotinib,MOA,IN,NA,RxNorm
+662281,nilotinib,MOA,Concept,NA,SPL
+6628,mannitol,MOA,IN,NA,RxNorm
+6628,mannitol,MOA,Concept,NA,SPL
+6674,mechlorethamine,MOA,IN,NA,RxNorm
+6674,mechlorethamine,MOA,Concept,NA,SPL
+6693,mefenamic acid,MOA,PIN,NA,RxNorm
+6693,mefenamic acid,MOA,Concept,NA,SPL
+6718,melphalan,MOA,IN,NA,RxNorm
+6718,melphalan,MOA,Concept,NA,SPL
+6719,memantine,MOA,IN,NA,RxNorm
+6719,memantine,MOA,Concept,NA,SPL
+6754,meperidine,MOA,IN,NA,RxNorm
+6754,meperidine,MOA,Concept,NA,SPL
+6765,tiopronin,MOA,IN,NA,RxNorm
+6765,tiopronin,MOA,Concept,NA,SPL
+676679,dotatate gallium ga-68,MOA,PIN,NA,RxNorm
+676679,dotatate gallium ga-68,MOA,Concept,NA,SPL
+68091,dolasetron,MOA,IN,NA,RxNorm
+68091,dolasetron,MOA,Concept,NA,SPL
+68092,lanreotide,MOA,IN,NA,RxNorm
+68092,lanreotide,MOA,Concept,NA,SPL
+68099,famciclovir,MOA,IN,NA,RxNorm
+68099,famciclovir,MOA,Concept,NA,SPL
+6813,methadone,MOA,IN,NA,RxNorm
+6813,methadone,MOA,Concept,NA,SPL
+68147,cetrorelix,MOA,IN,NA,RxNorm
+68147,cetrorelix,MOA,Concept,NA,SPL
+68244,lamivudine,MOA,IN,NA,RxNorm
+68244,lamivudine,MOA,Concept,NA,SPL
+6835,methimazole,MOA,IN,NA,RxNorm
+6835,methimazole,MOA,Concept,NA,SPL
+68446,pemetrexed,MOA,IN,NA,RxNorm
+68446,pemetrexed,MOA,Concept,NA,SPL
+68503,ziconotide,MOA,IN,NA,RxNorm
+68503,ziconotide,MOA,Concept,NA,SPL
+6851,methotrexate,MOA,IN,NA,RxNorm
+6851,methotrexate,MOA,Concept,NA,SPL
+6854,methoxsalen,MOA,IN,NA,RxNorm
+6854,methoxsalen,MOA,Concept,NA,SPL
+6902,methylprednisolone,MOA,IN,NA,RxNorm
+6902,methylprednisolone,MOA,Concept,NA,SPL
+6904,methyltestosterone,MOA,IN,NA,RxNorm
+6904,methyltestosterone,MOA,Concept,NA,SPL
+69120,tiotropium,MOA,IN,NA,RxNorm
+69120,tiotropium,MOA,Concept,NA,SPL
+6915,metoclopramide,MOA,IN,NA,RxNorm
+6915,metoclopramide,MOA,Concept,NA,SPL
+6918,metoprolol,MOA,IN,NA,RxNorm
+6918,metoprolol,MOA,Concept,NA,SPL
+6923,metyrapone,MOA,IN,NA,RxNorm
+6923,metyrapone,MOA,Concept,NA,SPL
+6963,midodrine,MOA,IN,NA,RxNorm
+6963,midodrine,MOA,Concept,NA,SPL
+6964,mifepristone,MOA,IN,NA,RxNorm
+6964,mifepristone,MOA,Concept,NA,SPL
+69722,zanamivir,MOA,IN,NA,RxNorm
+69722,zanamivir,MOA,Concept,NA,SPL
+69749,valsartan,MOA,IN,NA,RxNorm
+69749,valsartan,MOA,Concept,NA,SPL
+7004,mitotane,MOA,IN,NA,RxNorm
+7004,mitotane,MOA,Concept,NA,SPL
+7005,mitoxantrone,MOA,IN,NA,RxNorm
+7005,mitoxantrone,MOA,Concept,NA,SPL
+703,amiodarone,MOA,IN,NA,RxNorm
+703,amiodarone,MOA,Concept,NA,SPL
+7052,morphine,MOA,IN,NA,RxNorm
+7052,morphine,MOA,Concept,NA,SPL
+70561,palonosetron,MOA,IN,NA,RxNorm
+70561,palonosetron,MOA,Concept,NA,SPL
+709271,certolizumab pegol,MOA,IN,NA,RxNorm
+709271,certolizumab pegol,MOA,Concept,NA,SPL
+711942,eltrombopag,MOA,IN,NA,RxNorm
+711942,eltrombopag,MOA,Concept,NA,SPL
+712566,ofatumumab,MOA,IN,NA,RxNorm
+712566,ofatumumab,MOA,Concept,NA,SPL
+714438,pazopanib,MOA,IN,NA,RxNorm
+714438,pazopanib,MOA,Concept,NA,SPL
+719872,raltegravir,MOA,IN,NA,RxNorm
+719872,raltegravir,MOA,Concept,NA,SPL
+720825,silodosin,MOA,IN,NA,RxNorm
+720825,silodosin,MOA,Concept,NA,SPL
+7213,ipratropium,MOA,IN,NA,RxNorm
+7213,ipratropium,MOA,Concept,NA,SPL
+72143,raloxifene,MOA,IN,NA,RxNorm
+72143,raloxifene,MOA,Concept,NA,SPL
+7226,nadolol,MOA,IN,NA,RxNorm
+7226,nadolol,MOA,Concept,NA,SPL
+72302,ropinirole,MOA,IN,NA,RxNorm
+72302,ropinirole,MOA,Concept,NA,SPL
+7238,nalbuphine,MOA,IN,NA,RxNorm
+7238,nalbuphine,MOA,Concept,NA,SPL
+7242,naloxone,MOA,IN,NA,RxNorm
+7242,naloxone,MOA,Concept,NA,SPL
+7243,naltrexone,MOA,IN,NA,RxNorm
+7243,naltrexone,MOA,Concept,NA,SPL
+72435,anakinra,MOA,IN,NA,RxNorm
+72435,anakinra,MOA,Concept,NA,SPL
+7258,naproxen,MOA,IN,NA,RxNorm
+7258,naproxen,MOA,Concept,NA,SPL
+72625,duloxetine,MOA,IN,NA,RxNorm
+72625,duloxetine,MOA,Concept,NA,SPL
+72901,ferumoxides,MOA,IN,NA,RxNorm
+72901,ferumoxides,MOA,Concept,NA,SPL
+72937,tolcapone,MOA,IN,NA,RxNorm
+72937,tolcapone,MOA,Concept,NA,SPL
+72965,letrozole,MOA,IN,NA,RxNorm
+72965,letrozole,MOA,Concept,NA,SPL
+73032,remifentanil,MOA,IN,NA,RxNorm
+73032,remifentanil,MOA,Concept,NA,SPL
+73044,repaglinide,MOA,IN,NA,RxNorm
+73044,repaglinide,MOA,Concept,NA,SPL
+7315,neostigmine,MOA,IN,NA,RxNorm
+7315,neostigmine,MOA,Concept,NA,SPL
+734064,desvenlafaxine,MOA,IN,NA,RxNorm
+734064,desvenlafaxine,MOA,Concept,NA,SPL
+73494,telmisartan,MOA,IN,NA,RxNorm
+73494,telmisartan,MOA,Concept,NA,SPL
+73645,valacyclovir,MOA,IN,NA,RxNorm
+73645,valacyclovir,MOA,Concept,NA,SPL
+73689,febuxostat,MOA,IN,NA,RxNorm
+73689,febuxostat,MOA,Concept,NA,SPL
+7396,nicardipine,MOA,IN,NA,RxNorm
+7396,nicardipine,MOA,Concept,NA,SPL
+7417,nifedipine,MOA,IN,NA,RxNorm
+7417,nifedipine,MOA,Concept,NA,SPL
+7426,nimodipine,MOA,IN,NA,RxNorm
+7426,nimodipine,MOA,Concept,NA,SPL
+7435,nisoldipine,MOA,IN,NA,RxNorm
+7435,nisoldipine,MOA,Concept,NA,SPL
+74667,zaleplon,MOA,IN,NA,RxNorm
+74667,zaleplon,MOA,Concept,NA,SPL
+746741,pramipexole,MOA,IN,NA,RxNorm
+746741,pramipexole,MOA,Concept,NA,SPL
+753340,sapropterin,MOA,IN,NA,RxNorm
+753340,sapropterin,MOA,Concept,NA,SPL
+7617,octreotide,MOA,IN,NA,RxNorm
+7617,octreotide,MOA,Concept,NA,SPL
+7646,omeprazole,MOA,IN,NA,RxNorm
+7646,omeprazole,MOA,Concept,NA,SPL
+7688,metaproterenol,MOA,IN,NA,RxNorm
+7688,metaproterenol,MOA,Concept,NA,SPL
+77492,tamsulosin,MOA,IN,NA,RxNorm
+77492,tamsulosin,MOA,Concept,NA,SPL
+7804,oxycodone,MOA,IN,NA,RxNorm
+7804,oxycodone,MOA,Concept,NA,SPL
+7814,oxymorphone,MOA,IN,NA,RxNorm
+7814,oxymorphone,MOA,Concept,NA,SPL
+7839,p-hydroxyamphetamine,MOA,IN,NA,RxNorm
+7839,p-hydroxyamphetamine,MOA,Concept,NA,SPL
+787390,tapentadol,MOA,IN,NA,RxNorm
+787390,tapentadol,MOA,Concept,NA,SPL
+8001,pentazocine,MOA,IN,NA,RxNorm
+8001,pentazocine,MOA,Concept,NA,SPL
+8011,pentostatin,MOA,IN,NA,RxNorm
+8011,pentostatin,MOA,Concept,NA,SPL
+8047,pergolide,MOA,IN,NA,RxNorm
+8047,pergolide,MOA,Concept,NA,SPL
+805452,romiplostim,MOA,IN,NA,RxNorm
+805452,romiplostim,MOA,Concept,NA,SPL
+809864,C1 esterase inhibitor (human),MOA,PIN,NA,RxNorm
+809864,C1 esterase inhibitor (human),MOA,Concept,NA,SPL
+8123,phenelzine,MOA,IN,NA,RxNorm
+8123,phenelzine,MOA,Concept,NA,SPL
+8149,phenoxybenzamine,MOA,IN,NA,RxNorm
+8149,phenoxybenzamine,MOA,Concept,NA,SPL
+8153,phentolamine,MOA,IN,NA,RxNorm
+8153,phentolamine,MOA,Concept,NA,SPL
+816346,dexlansoprazole,MOA,IN,NA,RxNorm
+816346,dexlansoprazole,MOA,Concept,NA,SPL
+8183,phenytoin,MOA,IN,NA,RxNorm
+8183,phenytoin,MOA,Concept,NA,SPL
+819300,golimumab,MOA,IN,NA,RxNorm
+819300,golimumab,MOA,Concept,NA,SPL
+828529,"albumin human, USP",MOA,IN,NA,RxNorm
+828529,"albumin human, USP",MOA,Concept,NA,SPL
+83008,bicalutamide,MOA,IN,NA,RxNorm
+83008,bicalutamide,MOA,Concept,NA,SPL
+8328,pilocarpine,MOA,IN,NA,RxNorm
+8328,pilocarpine,MOA,Concept,NA,SPL
+8332,pindolol,MOA,IN,NA,RxNorm
+8332,pindolol,MOA,Concept,NA,SPL
+83367,atorvastatin,MOA,IN,NA,RxNorm
+83367,atorvastatin,MOA,Concept,NA,SPL
+83395,saquinavir,MOA,IN,NA,RxNorm
+83395,saquinavir,MOA,Concept,NA,SPL
+83515,eprosartan,MOA,IN,NA,RxNorm
+83515,eprosartan,MOA,Concept,NA,SPL
+8356,piroxicam,MOA,IN,NA,RxNorm
+8356,piroxicam,MOA,Concept,NA,SPL
+83818,irbesartan,MOA,IN,NA,RxNorm
+83818,irbesartan,MOA,Concept,NA,SPL
+84108,rosiglitazone,MOA,IN,NA,RxNorm
+84108,rosiglitazone,MOA,Concept,NA,SPL
+847083,ustekinumab,MOA,IN,NA,RxNorm
+847083,ustekinumab,MOA,Concept,NA,SPL
+84857,anastrozole,MOA,IN,NA,RxNorm
+84857,anastrozole,MOA,Concept,NA,SPL
+84990,gadobutrol,MOA,IN,NA,RxNorm
+84990,gadobutrol,MOA,Concept,NA,SPL
+85248,alosetron,MOA,IN,NA,RxNorm
+85248,alosetron,MOA,Concept,NA,SPL
+85762,ritonavir,MOA,IN,NA,RxNorm
+85762,ritonavir,MOA,Concept,NA,SPL
+860168,abobotulinumtoxinA,MOA,PIN,NA,RxNorm
+860168,abobotulinumtoxinA,MOA,Concept,NA,SPL
+860178,rimabotulinumtoxinB,MOA,PIN,NA,RxNorm
+860178,rimabotulinumtoxinB,MOA,Concept,NA,SPL
+861634,pitavastatin,MOA,IN,NA,RxNorm
+861634,pitavastatin,MOA,Concept,NA,SPL
+8629,prazosin,MOA,IN,NA,RxNorm
+8629,prazosin,MOA,Concept,NA,SPL
+8638,prednisolone,MOA,IN,NA,RxNorm
+8638,prednisolone,MOA,Concept,NA,SPL
+8640,prednisone,MOA,IN,NA,RxNorm
+8640,prednisone,MOA,Concept,NA,SPL
+8702,procarbazine,MOA,IN,NA,RxNorm
+8702,procarbazine,MOA,Concept,NA,SPL
+8703,fenofibrate,MOA,IN,NA,RxNorm
+8703,fenofibrate,MOA,Concept,NA,SPL
+8761,propantheline,MOA,IN,NA,RxNorm
+8761,propantheline,MOA,Concept,NA,SPL
+87636,fexofenadine,MOA,IN,NA,RxNorm
+87636,fexofenadine,MOA,Concept,NA,SPL
+877510,romidepsin,MOA,IN,NA,RxNorm
+877510,romidepsin,MOA,Concept,NA,SPL
+8785,propoxyphene,MOA,IN,NA,RxNorm
+8785,propoxyphene,MOA,Concept,NA,SPL
+8787,propranolol,MOA,IN,NA,RxNorm
+8787,propranolol,MOA,Concept,NA,SPL
+8794,propylthiouracil,MOA,IN,NA,RxNorm
+8794,propylthiouracil,MOA,Concept,NA,SPL
+88014,rizatriptan,MOA,IN,NA,RxNorm
+88014,rizatriptan,MOA,Concept,NA,SPL
+88249,montelukast,MOA,IN,NA,RxNorm
+88249,montelukast,MOA,Concept,NA,SPL
+8826,protamines,MOA,IN,NA,RxNorm
+8826,protamines,MOA,Concept,NA,SPL
+885183,Agkistrodon piscivorus antivenin,MOA,IN,NA,RxNorm
+885183,Agkistrodon piscivorus antivenin,MOA,Concept,NA,SPL
+885185,Crotalus adamanteus antivenin,MOA,IN,NA,RxNorm
+885185,Crotalus adamanteus antivenin,MOA,Concept,NA,SPL
+885187,Crotalus atrox antivenin,MOA,IN,NA,RxNorm
+885187,Crotalus atrox antivenin,MOA,Concept,NA,SPL
+885189,Crotalus scutulatus antivenin,MOA,IN,NA,RxNorm
+885189,Crotalus scutulatus antivenin,MOA,Concept,NA,SPL
+897018,dalfampridine,MOA,IN,NA,RxNorm
+897018,dalfampridine,MOA,Concept,NA,SPL
+89778,ecothiopate,MOA,IN,NA,RxNorm
+89778,ecothiopate,MOA,Concept,NA,SPL
+89785,methscopolamine,MOA,IN,NA,RxNorm
+89785,methscopolamine,MOA,Concept,NA,SPL
+89887,Latrodectus mactans antivenin,MOA,IN,NA,RxNorm
+89887,Latrodectus mactans antivenin,MOA,Concept,NA,SPL
+9000,pyridostigmine,MOA,IN,NA,RxNorm
+9000,pyridostigmine,MOA,Concept,NA,SPL
+9010,pyrimethamine,MOA,IN,NA,RxNorm
+9010,pyrimethamine,MOA,Concept,NA,SPL
+9068,quinidine,MOA,IN,NA,RxNorm
+9068,quinidine,MOA,Concept,NA,SPL
+91311,diflorasone,MOA,IN,NA,RxNorm
+91311,diflorasone,MOA,Concept,NA,SPL
+9143,ranitidine,MOA,IN,NA,RxNorm
+9143,ranitidine,MOA,Concept,NA,SPL
+91601,"lymphocyte immune globulin, anti-thymocyte globulin, equine",MOA,PIN,NA,RxNorm
+91601,"lymphocyte immune globulin, anti-thymocyte globulin, equine",MOA,Concept,NA,SPL
+9386,rimantadine,MOA,IN,NA,RxNorm
+9386,rimantadine,MOA,Concept,NA,SPL
+9601,scopolamine,MOA,IN,NA,RxNorm
+9601,scopolamine,MOA,Concept,NA,SPL
+9639,selegiline,MOA,IN,NA,RxNorm
+9639,selegiline,MOA,Concept,NA,SPL
+968170,polidocanol,MOA,IN,NA,RxNorm
+968170,polidocanol,MOA,Concept,NA,SPL
+974779,obinutuzumab,MOA,IN,NA,RxNorm
+974779,obinutuzumab,MOA,Concept,NA,SPL
+991743,"alpha 1-proteinase inhibitor, human",MOA,PIN,NA,RxNorm
+991743,"alpha 1-proteinase inhibitor, human",MOA,Concept,NA,SPL
+993449,denosumab,MOA,IN,NA,RxNorm
+993449,denosumab,MOA,Concept,NA,SPL
+9947,sotalol,MOA,IN,NA,RxNorm
+9947,sotalol,MOA,Concept,NA,SPL
+9997,spironolactone,MOA,IN,NA,RxNorm
+9997,spironolactone,MOA,Concept,NA,SPL
