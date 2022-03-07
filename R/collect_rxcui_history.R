@@ -50,16 +50,16 @@ collect_rxcui_history <-
 
 
     cli::cli_text(
-      "[{as.character(Sys.time())}] {.emph {'Collecting...'}}"
+      "[{as.character(Sys.time())}] {.emph {'Collecting RxCUI Data...'}}"
     )
 
     cli::cli_progress_bar(
       format = paste0(
-        "[{as.character(Sys.time())}] {.var RXCUI} {.emph {rxcui}}",
+        "[{as.character(Sys.time())}] {.var RXCUI} {.emph {rxcui}} ",
         "({cli::pb_current}/{cli::pb_total})  ETA:{time_remaining}  Elapsed:{cli::pb_elapsed}"
       ),
       format_done = paste0(
-        "[{as.character(Sys.time())}] {cli::col_green(cli::symbol$tick)} Collected {cli::pb_total} {classType} graphs ",
+        "[{as.character(Sys.time())}] {cli::col_green(cli::symbol$tick)} Collected data for {cli::pb_total} RxCUIs ",
         "in {cli::pb_elapsed}."
       ),
       total = length(rxcuis),
@@ -72,7 +72,7 @@ collect_rxcui_history <-
 
       i <- i+1
       time_remaining <- 3*(length(rxcuis)-i)
-      time_remaining <- sprintf("%s secs", time_remaining)
+      time_remaining <- as.character(lubridate::duration(seconds = time_remaining))
 
       cli::cli_progress_update()
 

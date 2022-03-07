@@ -56,7 +56,7 @@ load_rxcui_history <-
 
 
     cli::cli_text(
-      "[{as.character(Sys.time())}] {.emph {'Collecting RxCUI Data...'}}"
+      "[{as.character(Sys.time())}] {.emph {'Loading RxCUI Data...'}}"
     )
 
     cli::cli_progress_bar(
@@ -65,7 +65,7 @@ load_rxcui_history <-
         "({cli::pb_current}/{cli::pb_total})  ETA:{time_remaining}  Elapsed:{cli::pb_elapsed}"
       ),
       format_done = paste0(
-        "[{as.character(Sys.time())}] {cli::col_green(cli::symbol$tick)} Collected data on {cli::pb_total} rxcuis",
+        "[{as.character(Sys.time())}] {cli::col_green(cli::symbol$tick)} Loaded data on {cli::pb_total} RxCUIs",
         "in {cli::pb_elapsed}."
       ),
       total = length(rxcuis),
@@ -139,7 +139,7 @@ load_rxcui_history <-
 
     }
 
-    output[[length(output)+1]] <-
+    out[[length(out)+1]] <-
       results
 
 
@@ -147,7 +147,7 @@ load_rxcui_history <-
     }
 
 
-    output
+    out
 
 
 

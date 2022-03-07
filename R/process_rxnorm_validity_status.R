@@ -8,6 +8,24 @@
 #' table that maps an input RxCUI or RxNorm
 #' code to its most current RxCUI or RxNorm code.
 #'
+#' @details
+#'
+#' Default Schema: `rxtra`
+#'
+#' Time Requirement: Approximately 30 minutes to an hour
+#'
+#' Resource Requirements:
+#' \itemize{
+#'   \item RxNorm schema
+#'   \item RxNorm API
+#' }
+#'
+#' Disk Requirements:
+#' \itemize{
+#'   \item Cache folder (R.cache package)
+#'   \item Run in developer mode (working directory is local copy of main setupRxNorm branch)
+#' }
+#'
 #'
 #'
 #'
@@ -362,12 +380,6 @@ WHERE
         unname()
 
 
-      extract_rxcui_history(
-        rxcuis = input_rxcuis_to_call,
-        prior_version = version_key$version,
-        prior_api_version = version_key$apiVersion
-      )
-
       source_file <-
         system.file(
           package = "setupRxNorm",
@@ -376,6 +388,17 @@ WHERE
           "extracted",
           "history",
           "history.csv")
+
+
+      if (!file.exists(source_file)) {
+
+        extract_rxcui_history(
+          rxcuis = input_rxcuis_to_call,
+          prior_version = version_key$version,
+          prior_api_version = version_key$apiVersion
+        )
+
+      }
 
       rxcui_history_data <-
         readr::read_csv(
@@ -512,13 +535,124 @@ WHERE
       )
 
 
+      # Performing final export of file
+
+
+      source_file <-
+        system.file(
+          package = "setupRxNorm",
+          "RxNorm API",
+          version_key$version,
+          "processed",
+          "rxnorm_validity_status.csv")
+
+
+      if (!file.exists(source_file)) {
+
+        path_vctr <-
+          c(here::here(),
+            "inst",
+            "RxNorm API",
+            version_key$version,
+            "processed")
+
+        for (j in 1:length(path_vctr)) {
+
+          write_dir <-
+            paste(path_vctr[1:j],
+                  collapse = .Platform$file.sep)
+
+          if (!dir.exists(write_dir)) {
+
+            dir.create(write_dir)
+
+          }
+
+
+          data <-
+            pg13::query(
+              conn = conn,
+              sql_statement = glue::glue("SELECT * FROM {processing_schema}.rxnorm_concept_status10;"),
+              checks = checks,
+              verbose = verbose,
+              render_sql = render_sql
+            )
+
+
+          readr::write_csv(
+            x = data,
+            file = source_file
+          )
+
+
+        }
+
+
+
+
+      }
+
+
+      rxnorm_validity_status_data <-
+      readr::read_csv(
+        file = source_file,
+        col_types = readr::cols(.default = "c"),
+        show_col_types = FALSE
+      )
+
+      tmp_csv <- tempfile()
+      readr::write_csv(
+        x = rxnorm_validity_status_data,
+        file = tmp_csv,
+        na = "",
+        quote = "all"
+      )
+
+
       sql_statement <-
-        glue::glue("CREATE SCHEMA IF NOT EXISTS {destination_schema};
+        glue::glue(
+          "
+      DROP SCHEMA IF EXISTS {processing_schema} CASCADE;
+
+      CREATE SCHEMA {processing_schema};
+
+      DROP TABLE IF EXISTS {processing_schema}.rxnorm_concept_status0;
+      CREATE TABLE {processing_schema}.rxnorm_concept_status0 (
+              rxcui     INTEGER NOT NULL,
+              code      VARCHAR(50) NOT NULL,
+              str       VARCHAR(3000) NOT NULL,
+              tty       VARCHAR(20) NULL,
+              status    VARCHAR(10) NOT NULL,
+              rxnorm_api_version VARCHAR(30) NOT NULL
+      )
+      ;
+
+      COPY {processing_schema}.rxnorm_concept_status0 FROM '{tmp_csv}' CSV HEADER QUOTE E'\"' NULL AS '';
+      ")
+
+      sql_statement <-
+        glue::glue("
+        CREATE SCHEMA IF NOT EXISTS {destination_schema};
              DROP TABLE IF EXISTS {destination_schema}.rxnorm_validity_status;
-             CREATE TABLE {destination_schema}.rxnorm_validity_status AS (
-               SELECT *
-               FROM {processing_schema}.rxnorm_concept_status10
-             );")
+             CREATE TABLE {destination_schema}.rxnorm_validity_status (
+                input_rxcui integer,
+                input_code character varying(50),
+                input_str character varying(3000),
+                input_tty character varying(20),
+                input_status character varying(10),
+                output_rxcui integer,
+                output_code character varying(50),
+                output_str character varying(3000),
+                output_tty character varying(20),
+                output_code_cardinality bigint,
+                output_codes text,
+                output_source character varying,
+                output_source_version character varying
+            );
+
+        COPY {destination_schema}.rxnorm_validity_status FROM '{tmp_csv}' CSV HEADER QUOTE E'\"' NULL AS '';
+
+        ;")
 
       pg13::send(
         conn = conn,
