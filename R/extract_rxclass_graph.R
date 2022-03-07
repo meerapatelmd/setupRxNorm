@@ -98,7 +98,7 @@ for (class_type in class_types) {
     class_type_data <- load_rxclass_graph(class_types = class_type)
 
     readr::write_csv(
-      x = distinct(class_type_data$NODE),
+      x = dplyr::distinct(class_type_data$NODE),
       file = class_type_node_csv
     )
 
@@ -364,14 +364,14 @@ for (class_type in class_types) {
 
     tmp_concept_ancestor2 <-
       tmp_concept_ancestor %>%
-      select(starts_with("parent_")) %>%
-      rename_all(str_remove_all, "parent_") %>%
+      dplyr::select(starts_with("parent_")) %>%
+      dplyr::rename_all(stringr::str_remove_all, "parent_") %>%
       dplyr::distinct()
 
     tmp_concept_ancestor3 <-
       tmp_concept_ancestor2 %>%
       # Adding an identifier per path to recurse later
-      rowid_to_column("rowid")
+      tibble::rowid_to_column("rowid")
 
     readr::write_csv(
       x = tmp_concept_ancestor3,
@@ -379,7 +379,7 @@ for (class_type in class_types) {
     )
 
     tmp_concept_ancestor4 <-
-      pivot_longer(tmp_concept_ancestor3,
+      tidyr::pivot_longer(tmp_concept_ancestor3,
                    cols = !rowid,
                    names_to = "levels_of_separation",
                    values_to = "descendant_concept_code",
@@ -392,14 +392,14 @@ for (class_type in class_types) {
       # Ancestor of a given rowid at the level i
       tmp_concept_ancestor5[[i]] <-
       tmp_concept_ancestor4 %>%
-        group_by(rowid) %>%
+        dplyr::group_by(rowid) %>%
         dplyr::filter(levels_of_separation == i) %>%
-        ungroup() %>%
+        dplyr::ungroup() %>%
         dplyr::filter(!is.na(descendant_concept_code)) %>%
-        transmute(rowid,
+        dplyr::transmute(rowid,
                   ancestor_concept_code = descendant_concept_code) %>%
-        distinct() %>%
-        left_join(tmp_concept_ancestor4,
+        dplyr::distinct() %>%
+        dplyr::left_join(tmp_concept_ancestor4,
                   by = "rowid") %>%
         dplyr::filter(!is.na(descendant_concept_code)) %>%
         distinct() %>%
@@ -410,15 +410,15 @@ for (class_type in class_types) {
     }
 
     tmp_concept_ancestor6 <-
-      bind_rows(tmp_concept_ancestor5) %>%
-      select(-rowid) %>%
-      distinct() %>%
-      group_by(ancestor_concept_code,
+      dplyr::bind_rows(tmp_concept_ancestor5) %>%
+      dplyr::select(-rowid) %>%
+      dplyr::distinct() %>%
+      dplyr::group_by(ancestor_concept_code,
                descendant_concept_code) %>%
-      summarize(min_levels_of_separation = min(levels_of_separation),
+      dplyr::summarize(min_levels_of_separation = min(levels_of_separation),
                 max_levels_of_separation = max(levels_of_separation),
                 .groups = "drop") %>%
-      ungroup()
+      dplyr::ungroup()
 
     readr::write_csv(
       x =  tmp_concept_ancestor6,
@@ -436,12 +436,12 @@ for (class_type in class_types) {
 
 
   class_type_concept_csv <-
-    file.path(dir, "concept.csv")
+    file.path(dir, "CONCEPT.csv")
   cli::cli_text("[{as.character(Sys.time())}] {.file {class_type_concept_csv}} ")
 
   # objects for the progress bar
   classType <- class_type
-  fileType  <-  "concept.csv"
+  fileType  <-  "CONCEPT.csv"
   cli::cli_progress_update()
 
 
@@ -482,7 +482,7 @@ for (class_type in class_types) {
       )
 
     class_type_concept_synonym_csv <-
-      file.path(dir, "concept_synonym.csv")
+      file.path(dir, "CONCEPT_SYNONYM.csv")
     cli::cli_text("[{as.character(Sys.time())}] {.file {class_type_concept_synonym_csv}} ")
 
     readr::write_csv(
@@ -498,27 +498,27 @@ for (class_type in class_types) {
   node_check <-
     list(
       graph_data$node %>%
-        distinct(classId) %>%
-        transmute(node_in_node_csv = classId,
+        dplyr::distinct(classId) %>%
+        dplyr::transmute(node_in_node_csv = classId,
                   classId),
       graph_data$edge %>%
-        distinct(classId1) %>%
-        transmute(node1_in_edge_csv = classId1,
+        dplyr::distinct(classId1) %>%
+        dplyr::transmute(node1_in_edge_csv = classId1,
                   classId = classId1),
       graph_data$edge %>%
-        distinct(classId2) %>%
-        transmute(node2_in_edge_csv = classId2,
+        dplyr::distinct(classId2) %>%
+        dplyr::transmute(node2_in_edge_csv = classId2,
                   classId = classId2),
       graph_data$concept_ancestor %>%
-        distinct(ancestor_concept_code) %>%
-        transmute(ancestor_in_ca_csv = ancestor_concept_code,
+        dplyr::distinct(ancestor_concept_code) %>%
+        dplyr::transmute(ancestor_in_ca_csv = ancestor_concept_code,
                   classId = ancestor_concept_code),
       graph_data$concept_ancestor %>%
-        distinct(descendant_concept_code) %>%
-        transmute(descendant_in_ca_csv = descendant_concept_code,
+        dplyr::distinct(descendant_concept_code) %>%
+        dplyr::transmute(descendant_in_ca_csv = descendant_concept_code,
                   classId = descendant_concept_code)) %>%
-    reduce(full_join, by = "classId") %>%
-    transmute(
+    purrr::reduce(dplyr::full_join, by = "classId") %>%
+    dplyr::transmute(
       all_classId = classId,
       node_in_node_csv,
       node1_in_edge_csv,
@@ -528,37 +528,37 @@ for (class_type in class_types) {
 
   concept_map <-
   node_check %>%
-    mutate(
+    dplyr::mutate(
       node_class_type =
-        case_when(
+        dplyr::case_when(
           is.na(node1_in_edge_csv) & !is.na(node2_in_edge_csv) ~ "Root",
           !is.na(node1_in_edge_csv) & is.na(node2_in_edge_csv) ~ "Leaf",
           !is.na(node1_in_edge_csv) & !is.na(node2_in_edge_csv) ~ "SubClass",
           TRUE ~ "(Node Not Found in Edge)")) %>%
-    select(concept_code =
+    dplyr::select(concept_code =
              all_classId,
            concept_class_id = node_class_type) %>%
-    distinct() %>%
-    mutate(standard_concept = 'C')
+    dplyr::distinct() %>%
+    dplyr::mutate(standard_concept = 'C')
 
 
   concept0 <-
   graph_data$node %>%
-    select(concept_code = classId,
+    dplyr::select(concept_code = classId,
            concept_name = className,
            class_type   = classType) %>%
-    left_join(concept_map,
+    dplyr::left_join(concept_map,
               by = "concept_code") %>%
-    distinct()
+    dplyr::distinct()
 
   # Dedupe codes
   concept0 <-
   concept0 %>%
-    group_by(concept_code,
+    dplyr::group_by(concept_code,
              class_type) %>%
     dplyr::arrange(concept_name,
                    .by_group = TRUE) %>%
-    dplyr::mutate(concept_name_rank = 1:n()) %>%
+    dplyr::mutate(concept_name_rank = 1:dplyr::n()) %>%
     dplyr::ungroup()
 
   concept <-
@@ -572,7 +572,7 @@ for (class_type in class_types) {
           vocabulary_id =
             dplyr::coalesce(omop_vocabulary_id, custom_vocabulary_id)),
       by = "class_type") %>%
-    distinct()
+    dplyr::distinct()
 
   readr::write_csv(
     x =  concept,
@@ -585,7 +585,7 @@ for (class_type in class_types) {
     dplyr::select(concept_code,
                   concept_synonym_name = concept_name,
                   class_type) %>%
-    distinct()
+    dplyr::distinct()
 
   class_type_concept_synonym_csv <-
     file.path(dir, "CONCEPT_SYNONYM.csv")
