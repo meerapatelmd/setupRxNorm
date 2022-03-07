@@ -350,7 +350,7 @@ extract_rxclass_members <-
           relationship_type
         )
 
-      concept_concepts <-
+      concept_concepts0 <-
         bind_rows(
           members_data %>%
             dplyr::transmute(
@@ -372,11 +372,44 @@ extract_rxclass_members <-
             distinct()
         )
 
+      concept_concepts0 <-
+      concept_concepts0 %>%
+        group_by(concept_code, vocabulary_id) %>%
+        arrange(concept_name, .by_group = TRUE) %>%
+        mutate(concept_name_rank = 1:n()) %>%
+        ungroup()
+
+
+      concept_concepts <-
+        concept_concepts0 %>%
+        dplyr::filter(concept_name_rank == 1) %>%
+        dplyr::select(-concept_name_rank) %>%
+        distinct()
+
 
       readr::write_csv(
         file = concept_csv,
         x = concept_concepts
       )
+
+
+      concept_synonym_concepts_csv <-
+        file.path(dir, "CONCEPT_SYNONYM_CONCEPTS.csv")
+
+      concept_synonym_concepts <-
+        concept_concepts0 %>%
+        dplyr::filter(concept_name_rank != 1) %>%
+        dplyr::transmute(
+          concept_code,
+          concept_synonym_name = concept_name,
+          class_type) %>%
+        distinct()
+
+      readr::write_csv(
+        x = concept_synonym_concepts,
+        file = concept_synonym_concepts_csv
+      )
+
 
       concept_classes_csv <-
         file.path(dir, "CONCEPT_CLASSES.csv")
@@ -393,6 +426,7 @@ extract_rxclass_members <-
         x = concept_classes,
         file = concept_classes_csv
       )
+
 
       cr_csv <-
         file.path(dir, "CONCEPT_RELATIONSHIP.csv")
