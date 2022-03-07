@@ -215,10 +215,24 @@ develop_rxclass_data <-
                   show_col_types = FALSE) %>%
        dplyr::bind_rows()
 
-      concept_classes_b <-
         qa_rxclass_concept_classes(
           prior_version = version_key$version,
-          prior_api_version = version_key$apiVersion) %>%
+          prior_api_version = version_key$apiVersion)
+
+      orphan_classes_csv <-
+        file.path(here::here(),
+                  "inst",
+                  "RxClass API",
+                  version_key$version,
+                  "extracted",
+                  "members",
+                  "processed",
+                  "CONCEPT_CLASSES.csv")
+
+      concept_classes_b <-
+        readr::read_csv(file = orphan_classes_csv,
+                        col_types = readr::cols(.default = "c"),
+                        show_col_types = FALSE) %>%
         dplyr::filter(class_type %in% class_type)
 
 
@@ -246,8 +260,8 @@ develop_rxclass_data <-
         dplyr::bind_rows(
           concept_classes_a,
           concept_classes_b,
-          concept_concepts
-        )
+          concept_concepts) %>%
+        dplyr::distinct()
 
       readr::write_csv(
         x = CONCEPT,

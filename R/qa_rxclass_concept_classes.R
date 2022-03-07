@@ -14,14 +14,14 @@ function(prior_version = NULL,
 
   }
 
-  member_concept_classes_data <<-
+  member_concept_classes_data <-
     read_members_concept_classes_csvs(
       prior_version = version_key$version,
       prior_api_version = version_key$apiVersion
     )
 
 
-  graph_concept_classes_data <<-
+  graph_concept_classes_data <-
     read_graph_concept_csvs(
       prior_version = version_key$version,
       prior_api_version = version_key$apiVersion
@@ -62,7 +62,17 @@ function(prior_version = NULL,
   print_lookup(concept_classes_orphans %>%
                  dplyr::count(vocabulary_id, class_type))
 
+  orphan_classes_csv <-
+    file.path(here::here(),
+              "inst",
+              "RxClass API",
+              version_key$version,
+              "extracted",
+              "members",
+              "processed",
+              "CONCEPT_CLASSES.csv")
 
+  if (!file.exists(orphan_classes_csv)) {
   cli::cli_progress_bar(
     format = paste0(
       "[{as.character(Sys.time())}] {.strong {classType} ({vocabulary_id}) code}: {orphanClassId} ",
@@ -150,6 +160,7 @@ function(prior_version = NULL,
       concept_name = className) %>%
     dplyr::distinct()
 
+  concept_classes <-
   dplyr::left_join(
     concept_classes_orphans,
     concept_classes_orphans_b,
@@ -163,6 +174,15 @@ function(prior_version = NULL,
       standard_concept,
       vocabulary_id) %>%
     dplyr::distinct()
+
+
+  readr::write_csv(
+    x = concept_classes,
+    file = orphan_classes_csv
+  )
+
+
+  }
 
 
   }
