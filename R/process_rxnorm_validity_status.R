@@ -77,11 +77,11 @@ process_rxnorm_validity_status <-
 
       cli::cli_progress_bar(
         format = paste0(
-          "{pb_spin} Calling {.url {link}} ",
+          "[{as.character(Sys.time())}] {pb_spin} Calling {.url {link}} ",
           "[{pb_current}/{pb_total}]   ETA:{pb_eta}"
         ),
         format_done = paste0(
-          "[as.character(Sys.time())] {col_green(symbol$tick)} Downloaded {pb_total} files ",
+          "{[as.character(Sys.time())]} {col_green(symbol$tick)} Downloaded {pb_total} files ",
           "in {pb_elapsed}."
         ),
         total = length(rxnorm_statuses),
@@ -95,7 +95,7 @@ process_rxnorm_validity_status <-
         link <-
           glue::glue("https://rxnav.nlm.nih.gov/REST/allstatus.json?status={rxnorm_status}")
         status_key <-
-          c(key,
+          c(version_key,
             link = link
           )
 
@@ -118,10 +118,10 @@ process_rxnorm_validity_status <-
               x = updated_rxcui,
               as = "parsed"
             )[[1]][[1]] %>%
-            transpose() %>%
-            map(unlist) %>%
-            as_tibble() %>%
-            transmute(
+            purrr::transpose() %>%
+            purrr::map(unlist) %>%
+            tibble::as_tibble() %>%
+            dplyr::transmute(
               rxcui,
               code = rxcui,
               str = name,
@@ -148,7 +148,7 @@ process_rxnorm_validity_status <-
 
 
       rxnorm_api_version <-
-        sprintf("%s %s", key$version, key$apiVersion)
+        sprintf("%s %s", version_key$version, version_key$apiVersion)
 
       out <-
         bind_rows(out) %>%
@@ -411,7 +411,7 @@ WHERE
 
       cli::cli_progress_bar(
         format = paste0(
-          "{pb_spin} Calling {.url {link}} ",
+          "[{as.character(Sys.time())}] {pb_spin} Calling {.url {link}} ",
           "[{pb_current}/{pb_total}]   ETA:{pb_eta}"
         ),
         format_done = paste0(
@@ -439,7 +439,7 @@ WHERE
           glue::glue("https://rxnav.nlm.nih.gov/REST/rxcui/{rxcui}/historystatus.json")
 
         rxcui_key <-
-          c(key,
+          c(version_key,
             link = link
           )
 
@@ -467,12 +467,12 @@ WHERE
           if (!is.null(rxcui_out)) {
             rxcui_out <-
               rxcui_out$rxcuiStatusHistory$derivedConcepts$remappedConcept %>%
-              map(unlist) %>%
-              map(as_tibble_row) %>%
-              bind_rows()
+              purrr::map(unlist) %>%
+              purrr::map(tibble::as_tibble_row) %>%
+              dplyr::bind_rows()
           } else {
             rxcui_out <-
-              tribble(
+              tibble::tribble(
                 ~remappedRxCui,
                 ~remappedName,
                 ~remappedTTY
@@ -496,18 +496,18 @@ WHERE
 
       output2 <-
         output %>%
-        bind_rows(.id = "input_rxcui") %>%
-        transmute(
+        dplyr::bind_rows(.id = "input_rxcui") %>%
+        dplyr::transmute(
           input_rxcui,
           output_code = remappedRxCui,
           output_str = remappedName,
           output_tty = remappedTTY
         ) %>%
-        group_by(input_rxcui) %>%
-        arrange(as.integer(output_code),
+        dplyr::group_by(input_rxcui) %>%
+        dplyr::arrange(as.integer(output_code),
           .by_group = TRUE
         ) %>%
-        mutate(
+        dplyr::mutate(
           output_code_cardinality =
             length(unique(output_code)),
           output_codes =
@@ -516,8 +516,8 @@ WHERE
             )
         ) %>%
         dplyr::filter(row_number() == 1) %>%
-        ungroup() %>%
-        mutate(
+        dplyr::ungroup() %>%
+        dplyr::mutate(
           output_source = "RxNav REST API",
           output_source_version = rxnorm_api_version
         )
