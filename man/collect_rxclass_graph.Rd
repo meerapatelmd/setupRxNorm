@@ -6,7 +6,9 @@
 \usage{
 collect_rxclass_graph(
   class_types = c("MESHPA", "EPC", "MOA", "PE", "PK", "TC", "VA", "DISEASE", "DISPOS",
-    "CHEM", "SCHEDULE", "STRUCT")
+    "CHEM", "SCHEDULE", "STRUCT"),
+  prior_version = NULL,
+  prior_api_version = "3.1.174"
 )
 }
 \arguments{

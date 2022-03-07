@@ -7,8 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "patelmeeray@gmail.com",
            comment = c(ORCID = "0000-0002-3401-3948"))
-Description: Instantiate NIH's RxNorm monthly release and process RxNav RxClass 
-API calls in relational database format.  
+Description: Instantiate NIH's RxNorm monthly release and process RxNav RxClass API calls in relational database format.  
 License: MIT + file LICENSE
 Suggests: 
     testthat (>= 3.0.0)
