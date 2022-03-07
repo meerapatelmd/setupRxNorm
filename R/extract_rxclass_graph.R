@@ -49,7 +49,20 @@ extract_rxclass_graph <-
     "CHEM",
     "SCHEDULE",
     "STRUCT",
-    "DISPOS")) {
+    "DISPOS"),
+  prior_version = NULL,
+  prior_api_version = "3.1.174") {
+
+    version_key <-
+      list(version = prior_version,
+           apiVersion = prior_api_version)
+
+
+    if (is.null(prior_version)) {
+
+      version_key <- get_rxnav_api_version()
+
+    }
 
     cli::cli_h1(text = "RxClass Graph")
 
@@ -66,8 +79,6 @@ extract_rxclass_graph <-
       total = length(class_types)*4, # 4 for nodes, edges, concept_ancestor, and concept (tandem concept_synonym)
       clear = FALSE
     )
-
-version_key <- get_rxnav_api_version()
 
 for (class_type in class_types) {
 
@@ -95,7 +106,9 @@ for (class_type in class_types) {
 
   if (!file.exists(class_type_node_csv)) {
 
-    class_type_data <- load_rxclass_graph(class_types = class_type)
+    class_type_data <- load_rxclass_graph(class_types = class_type,
+                                          prior_version = version_key$version,
+                                          prior_api_version = version_key$apiVersion)
 
     readr::write_csv(
       x = dplyr::distinct(class_type_data$NODE),
@@ -115,7 +128,9 @@ for (class_type in class_types) {
 
   if (!file.exists(class_type_edge_csv)) {
 
-    class_type_data <- load_rxclass_graph(class_types = class_type)
+    class_type_data <- load_rxclass_graph(class_types = class_type,
+                                          prior_version = version_key$version,
+                                          prior_api_version = version_key$apiVersion)
 
     readr::write_csv(
       x = class_type_data$EDGE,

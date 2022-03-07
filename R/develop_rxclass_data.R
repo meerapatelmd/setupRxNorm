@@ -58,6 +58,8 @@ develop_rxclass_data <-
                "SCHEDULE",
                "STRUCT"
                ),
+           prior_version = NULL,
+           prior_api_version = "3.1.174",
            open_readme = TRUE) {
 
 
@@ -80,6 +82,17 @@ develop_rxclass_data <-
     #
     # rela_sources <-
     #   "SNOMEDCT"
+
+    version_key <-
+      list(version = prior_version,
+           apiVersion = prior_api_version)
+
+
+    if (is.null(prior_version)) {
+
+    version_key <- get_rxnav_api_version()
+
+    }
 
 
     lookup <- get_lookup()
@@ -111,17 +124,18 @@ develop_rxclass_data <-
 
     }
 
-
-    version_key <- get_rxnav_api_version()
-
     for (zz in 1:nrow(lookup)) {
 
       class_type  <- lookup$classType[zz]
       rela_source <- lookup$relaSources[zz]
 
       extract_rxclass_members(class_types = class_type,
-                              rela_sources = rela_source)
-      extract_rxclass_graph(class_types = class_type)
+                              rela_sources = rela_source,
+                              prior_version = version_key$version,
+                              prior_api_version = version_key$apiVersion)
+      extract_rxclass_graph(class_types = class_type,
+                            prior_version = version_key$version,
+                            prior_api_version = version_key$apiVersion)
 
 
       # Output Path
@@ -202,7 +216,9 @@ develop_rxclass_data <-
        dplyr::bind_rows()
 
       concept_classes_b <-
-        qa_rxclass_concept_classes() %>%
+        qa_rxclass_concept_classes(
+          prior_version = version_key$version,
+          prior_api_version = version_key$apiVersion) %>%
         dplyr::filter(class_type %in% class_type)
 
 

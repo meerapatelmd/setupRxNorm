@@ -34,7 +34,21 @@ extract_rxclass_members <-
                "DISPOS",
                "CHEM",
                "SCHEDULE",
-               "STRUCT")) {
+               "STRUCT"),
+           prior_version = NULL,
+           prior_api_version = "3.1.174") {
+
+
+    version_key <-
+      list(version = prior_version,
+           apiVersion = prior_api_version)
+
+
+    if (is.null(prior_version)) {
+
+      version_key <- get_rxnav_api_version()
+
+    }
 
 
     cli::cli_h1(text = "RxClass Members")
@@ -130,7 +144,6 @@ extract_rxclass_members <-
       clear = FALSE
     )
 
-  version_key <- get_rxnav_api_version()
   for (ii in 1:nrow(lookup)) {
 
     class_type  <- lookup$classType[ii]
@@ -184,7 +197,9 @@ extract_rxclass_members <-
     dir.create(tmp_dir)
 
     members_data <- load_rxclass_members(rela_sources = rela_source,
-                                         class_types = class_type)
+                                         class_types = class_type,
+                                         prior_version = version_key$version,
+                                         prior_api_version = version_key$apiVersion)
     for (aa in seq_along(members_data)) {
       output <- list()
       class_id <- names(members_data)[aa]

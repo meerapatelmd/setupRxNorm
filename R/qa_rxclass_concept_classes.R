@@ -1,12 +1,30 @@
 qa_rxclass_concept_classes <-
-function() {
+function(prior_version = NULL,
+         prior_api_version = "3.1.174") {
+
+  version_key <-
+    list(version = prior_version,
+         apiVersion = prior_api_version)
+
+
+  if (is.null(prior_version)) {
+
+    version_key <- get_rxnav_api_version()
+
+  }
 
   member_concept_classes_data <-
-    read_members_concept_classes_csvs()
+    read_members_concept_classes_csvs(
+      prior_version = version_key$version,
+      prior_api_version = version_key$apiVersion
+    )
 
 
   graph_concept_classes_data <-
-    read_graph_concept_csvs()
+    read_graph_concept_csvs(
+      prior_version = version_key$version,
+      prior_api_version = version_key$apiVersion
+    )
 
   reconciled_data <-
     dplyr::full_join(
@@ -34,11 +52,11 @@ function() {
           vocabulary_id = dplyr::coalesce(omop_vocabulary_id, custom_vocabulary_id)
         ),
       by = "class_type") %>%
-    distinct()
+    dplyr::distinct()
 
 
   cli::cli_text(
-    "[{as.character(Sys.time())}] There are {nrow(concept_classes_orphans)} Classes that are provided by RxClass Members, but not found in RxClass Graph."
+    "[{as.character(Sys.time())}] {nrow(concept_classes_orphans)} classes in RxClass Members, but not found in RxClass Graph:"
   )
 
   print_lookup(concept_classes_orphans %>%
@@ -47,7 +65,7 @@ function() {
 
   cli::cli_progress_bar(
     format = paste0(
-      "[{as.character(Sys.time())}] {.strong {classType} [{vocabulary_id}]} code: {orphanClassId} ",
+      "[{as.character(Sys.time())}] {.strong {classType} ({vocabulary_id}) code}: {orphanClassId} ",
       "({cli::pb_current}/{cli::pb_total})  Elapsed:{cli::pb_elapsed}"
     ),
     format_done = paste0(
@@ -59,7 +77,6 @@ function() {
   )
 
   orphanClassDetails <- list()
-  version_key <- get_rxnav_api_version()
   dirs <- file.path(R.cache::getCacheRootPath(), "setupRxNorm", version_key$version, "RxClass API", "Orphan Classes")
   for (i in 1:nrow(concept_classes_orphans)) {
 

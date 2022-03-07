@@ -1,9 +1,17 @@
 read_graph_concept_csvs <-
-function() {
+function(prior_version = NULL,
+         prior_api_version = "3.1.174") {
 
   version_key <-
-    get_rxnav_api_version()
+    list(version = prior_version,
+         apiVersion = prior_api_version)
 
+
+  if (is.null(prior_version)) {
+
+    version_key <- get_rxnav_api_version()
+
+  }
 
   extracted_graph_processed_path <-
     file.path(getwd(),

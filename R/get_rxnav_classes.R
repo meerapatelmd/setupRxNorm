@@ -11,12 +11,24 @@ get_rxnav_classes <-
                "CHEM",
                "SCHEDULE",
                "STRUCT",
-               "DISPOS")) {
+               "DISPOS"),
+           prior_version = NULL,
+           prior_api_version = "3.1.174") {
+
+    version_key <-
+      list(version = prior_version,
+           apiVersion = prior_api_version)
+
+
+    if (is.null(prior_version)) {
+
+      version_key <- get_rxnav_api_version()
+
+    }
+
 
 
   service_domain <- "https://rxnav.nlm.nih.gov"
-
-version_key <- get_rxnav_api_version()
 
 full_path_ls <-
   list(

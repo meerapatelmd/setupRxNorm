@@ -25,12 +25,23 @@ collect_rxclass_graph <-
       "DISPOS",
       "CHEM",
       "SCHEDULE",
-      "STRUCT")) {
+      "STRUCT"),
+    prior_version = NULL,
+    prior_api_version = "3.1.174") {
+
+
+    version_key <-
+      list(version = prior_version,
+           apiVersion = prior_api_version)
+
+
+    if (is.null(prior_version)) {
+
+      version_key <- get_rxnav_api_version()
+
+    }
 
     service_domain <- "https://rxnav.nlm.nih.gov"
-
-    version_key <- get_rxnav_api_version()
-
 
     # If the version folder was not present in the cache, it means that
     # this is a brand new version
@@ -65,15 +76,17 @@ collect_rxclass_graph <-
       )
 
 
-    class_df <- get_rxnav_classes()
+    class_df <- get_rxnav_classes(
+      prior_version = version_key$version,
+      prior_api_version = version_key$apiVersion)
     class_df <-
       class_df %>%
       dplyr::filter(classType %in% class_types) %>%
-      mutate(
+      dplyr::mutate(
         classType =
           factor(classType, levels = class_types)) %>%
-      arrange(classType) %>%
-      mutate(classType = as.character(classType))
+      dplyr::arrange(classType) %>%
+      dplyr::mutate(classType = as.character(classType))
 
     cli::cli_text(
       "[{as.character(Sys.time())}] {.emph {'Collecting...'}}"
@@ -130,13 +143,13 @@ collect_rxclass_graph <-
       if (is.null(results)) {
         Sys.sleep(3)
         resp <-
-          GET(url = url)
+          httr::GET(url = url)
 
         output0 <-
-          content(resp) %>%
-          pluck("rxclassGraph") %>%
-          map(function(x) map(x, tibble::as_tibble_row)) %>%
-          map(bind_rows)
+          httr::content(resp) %>%
+          purrr::pluck("rxclassGraph") %>%
+          purrr::map(function(x) purrr::map(x, tibble::as_tibble_row)) %>%
+          purrr::map(dplyr::bind_rows)
 
         if (length(output0)==0) {
 
