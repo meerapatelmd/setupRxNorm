@@ -18,7 +18,6 @@
 #' @importFrom pg13 send query write_table drop_table
 #' @importFrom glue glue
 #' @importFrom dplyr arrange filter
-#' @importFrom curl has_internet
 #' @importFrom cli cli_abort
 
 process_rxnorm_validity_status <-
@@ -30,7 +29,21 @@ process_rxnorm_validity_status <-
            checks = "",
            verbose = TRUE,
            render_sql = TRUE,
-           render_only = FALSE) {
+           render_only = FALSE,
+           prior_version = NULL,
+           prior_api_version = "3.1.174") {
+
+    if (is.null(prior_version)) {
+
+      version_key <- get_rxnav_api_version()
+
+    } else {
+
+      version_key <-
+        list(version = prior_version,
+             apiVersion = prior_api_version)
+
+    }
 
     if (missing(conn)) {
       conn <- eval(rlang::parse_expr(conn_fun))
@@ -48,119 +61,45 @@ process_rxnorm_validity_status <-
           render_sql = render_sql)) {
 
 
-      if (!curl::has_internet()) {
+      source_file <-
+        system.file(
+          package = "setupRxNorm",
+          "RxNorm API",
+          version_key$version,
+          "extracted",
+          "status",
+          "status.csv")
 
-        cli::cli_abort("No internet connection to make API call.")
+
+      if (!file.exists(source_file)) {
+
+        extract_rxnorm_status(
+          prior_version = version_key$version,
+          prior_api_version = version_key$apiVersion
+        )
 
       }
 
-      version_key  <- get_rxnav_api_version()
-      dirs <- file.path("setupRxNorm", version_key$version, "RxNorm Validity Status")
-
-
-      rxnorm_statuses <-
-        c(
-          "Active",
-          "Remapped",
-          "Obsolete",
-          "Quantified",
-          "NotCurrent"
+      status_data <-
+        readr::read_csv(
+          file = source_file,
+          col_types = readr::cols(.default = "c"),
+          show_col_types = FALSE
         )
 
-      out <-
-        vector(
-          mode = "list",
-          length = length(rxnorm_statuses)
-        )
-      names(out) <-
-        rxnorm_statuses
 
-      cli::cli_progress_bar(
-        format = paste0(
-          "[{as.character(Sys.time())}] {pb_spin} Calling {.url {link}} ",
-          "[{pb_current}/{pb_total}]   ETA:{pb_eta}"
-        ),
-        format_done = paste0(
-          "{[as.character(Sys.time())]} {col_green(symbol$tick)} Downloaded {pb_total} files ",
-          "in {pb_elapsed}."
-        ),
-        total = length(rxnorm_statuses),
-        clear = FALSE
-      )
-
-      for (rxnorm_status in rxnorm_statuses) {
-        cli::cli_progress_update()
-        Sys.sleep(.1)
-
-        link <-
-          glue::glue("https://rxnav.nlm.nih.gov/REST/allstatus.json?status={rxnorm_status}")
-        status_key <-
-          c(version_key,
-            link = link
-          )
-
-        status_results <-
-          R.cache::loadCache(
-            dirs = dirs,
-            key = status_key
-          )
-
-        if (is.null(status_results)) {
-          Sys.sleep(2.9)
-          updated_rxcui <-
-            GET(link)
-
-          abort_on_api_error(updated_rxcui)
-
-
-          status_content <-
-            content(
-              x = updated_rxcui,
-              as = "parsed"
-            )[[1]][[1]] %>%
-            purrr::transpose() %>%
-            purrr::map(unlist) %>%
-            tibble::as_tibble() %>%
-            dplyr::transmute(
-              rxcui,
-              code = rxcui,
-              str = name,
-              tty,
-              status = rxnorm_status
-            )
-
-          R.cache::saveCache(
-            dirs = dirs,
-            key = status_key,
-            object = status_content
-          )
-
-          status_results <-
-            R.cache::loadCache(
-              dirs = dirs,
-              key = status_key
-            )
-        }
-
-        out[[rxnorm_status]] <-
-          status_results
-      }
-
-
-      rxnorm_api_version <-
+      status_version <-
         sprintf("%s %s", version_key$version, version_key$apiVersion)
 
-      out <-
-        bind_rows(out) %>%
-        mutate(
-          "rxnorm_api_version" =
-            rxnorm_api_version
-        )
+      status_data <-
+        status_data %>%
+        dplyr::mutate(rxnorm_api_version = status_version)
+
 
 
       tmp_csv <- tempfile()
       readr::write_csv(
-        x = out,
+        x = status_data,
         file = tmp_csv,
         na = "",
         quote = "all"
@@ -179,14 +118,27 @@ process_rxnorm_validity_status <-
               rxcui     INTEGER NOT NULL,
               code      VARCHAR(50) NOT NULL,
               str       VARCHAR(3000) NOT NULL,
-              tty       VARCHAR(20) NOT NULL,
+              tty       VARCHAR(20) NULL,
               status    VARCHAR(10) NOT NULL,
               rxnorm_api_version VARCHAR(30) NOT NULL
       )
       ;
 
       COPY {processing_schema}.rxnorm_concept_status0 FROM '{tmp_csv}' CSV HEADER QUOTE E'\"' NULL AS '';
+      ")
 
+      pg13::send(
+        conn = conn,
+        sql_statement = sql_statement,
+        checks = checks,
+        verbose = verbose,
+        render_sql = render_sql,
+        render_only = render_only
+      )
+
+
+      sql_statement <-
+        glue::glue("
       DROP TABLE IF EXISTS {processing_schema}.rxnorm_concept_status1;
       CREATE TABLE {processing_schema}.rxnorm_concept_status1 AS (
         SELECT
@@ -409,123 +361,32 @@ WHERE
         unlist() %>%
         unname()
 
-      cli::cli_progress_bar(
-        format = paste0(
-          "[{as.character(Sys.time())}] {pb_spin} Calling {.url {link}} ",
-          "[{pb_current}/{pb_total}]   ETA:{pb_eta}"
-        ),
-        format_done = paste0(
-          "{col_green(symbol$tick)} Downloaded {pb_total} files ",
-          "in {pb_elapsed}."
-        ),
-        total = length(input_rxcuis_to_call),
-        clear = FALSE
+
+      extract_rxcui_history(
+        rxcuis = input_rxcuis_to_call,
+        prior_version = version_key$version,
+        prior_api_version = version_key$apiVersion
       )
 
-      output <-
-        vector(
-          mode = "list",
-          length = length(input_rxcuis_to_call)
+      source_file <-
+        system.file(
+          package = "setupRxNorm",
+          "RxNorm API",
+          version_key$version,
+          "extracted",
+          "history",
+          "history.csv")
+
+      rxcui_history_data <-
+        readr::read_csv(
+          file = source_file,
+          col_types = readr::cols(.default = "c"),
+          show_col_types = FALSE
         )
-
-      names(output) <-
-        input_rxcuis_to_call
-
-      for (rxcui in input_rxcuis_to_call) {
-        cli::cli_progress_update()
-        Sys.sleep(0.05)
-
-        link <-
-          glue::glue("https://rxnav.nlm.nih.gov/REST/rxcui/{rxcui}/historystatus.json")
-
-        rxcui_key <-
-          c(version_key,
-            link = link
-          )
-
-
-        rxcui_content <-
-          R.cache::loadCache(
-            dirs = dirs,
-            key = rxcui_key
-          )
-
-        if (is.null(rxcui_content)) {
-          Sys.sleep(2.9)
-          rxcui_resp <-
-            GET(
-              url = link
-            )
-
-          abort_on_api_error(rxcui_resp)
-
-          rxcui_out <-
-            content(rxcui_resp,
-              as = "parsed"
-            )
-
-          if (!is.null(rxcui_out)) {
-            rxcui_out <-
-              rxcui_out$rxcuiStatusHistory$derivedConcepts$remappedConcept %>%
-              purrr::map(unlist) %>%
-              purrr::map(tibble::as_tibble_row) %>%
-              dplyr::bind_rows()
-          } else {
-            rxcui_out <-
-              tibble::tribble(
-                ~remappedRxCui,
-                ~remappedName,
-                ~remappedTTY
-              )
-          }
-
-
-          R.cache::saveCache(
-            dirs = dirs,
-            key = rxcui_key,
-            object = rxcui_out
-          )
-
-          rxcui_content <-
-            rxcui_out
-        }
-
-        output[[as.character(rxcui)]] <-
-          rxcui_content
-      }
-
-      output2 <-
-        output %>%
-        dplyr::bind_rows(.id = "input_rxcui") %>%
-        dplyr::transmute(
-          input_rxcui,
-          output_code = remappedRxCui,
-          output_str = remappedName,
-          output_tty = remappedTTY
-        ) %>%
-        dplyr::group_by(input_rxcui) %>%
-        dplyr::arrange(as.integer(output_code),
-          .by_group = TRUE
-        ) %>%
-        dplyr::mutate(
-          output_code_cardinality =
-            length(unique(output_code)),
-          output_codes =
-            paste(unique(output_code),
-              collapse = "|"
-            )
-        ) %>%
-        dplyr::filter(row_number() == 1) %>%
-        dplyr::ungroup() %>%
-        dplyr::mutate(
-          output_source = "RxNav REST API",
-          output_source_version = rxnorm_api_version
-        )
-
 
       tmp_csv <- tempfile()
       readr::write_csv(
-        x = output2,
+        x = rxcui_history_data,
         file = tmp_csv,
         na = "",
         quote = "all"
