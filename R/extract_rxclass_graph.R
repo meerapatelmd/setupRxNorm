@@ -564,7 +564,15 @@ for (class_type in class_types) {
   concept <-
     concept0 %>%
     dplyr::filter(concept_name_rank == 1) %>%
-    dplyr::select(-concept_name_rank)
+    dplyr::select(-concept_name_rank) %>%
+    dplyr::left_join(
+      classtype_lookup %>%
+        dplyr::transmute(
+          class_type = classType,
+          vocabulary_id =
+            dplyr::coalesce(omop_vocabulary_id, custom_vocabulary_id)),
+      by = "class_type") %>%
+    distinct()
 
   readr::write_csv(
     x =  concept,
