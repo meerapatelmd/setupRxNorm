@@ -157,6 +157,10 @@ develop_rxclass_data <-
         }
 
       }
+      # Reset tmp folder
+      unlink(dir, recursive = TRUE)
+      unlink(dir)
+      dir.create(dir)
 
       tmp_concept_ancestor_csv <-
         file.path(dir, "CONCEPT_ANCESTOR.csv")
@@ -215,19 +219,22 @@ develop_rxclass_data <-
                   show_col_types = FALSE) %>%
        dplyr::bind_rows()
 
+     orphan_classes_csv <-
+       file.path(here::here(),
+                 "inst",
+                 "RxClass API",
+                 version_key$version,
+                 "extracted",
+                 "members",
+                 "processed",
+                 "CONCEPT_CLASSES.csv")
+
+     if (!file.exists(orphan_classes_csv)) {
         qa_rxclass_concept_classes(
           prior_version = version_key$version,
           prior_api_version = version_key$apiVersion)
 
-      orphan_classes_csv <-
-        file.path(here::here(),
-                  "inst",
-                  "RxClass API",
-                  version_key$version,
-                  "extracted",
-                  "members",
-                  "processed",
-                  "CONCEPT_CLASSES.csv")
+     }
 
       concept_classes_b <-
         readr::read_csv(file = orphan_classes_csv,
@@ -506,13 +513,13 @@ develop_rxclass_data <-
       "STRUCT", "SNOMEDCT",
       "TC", "FMTSME",
       "VA", "VA") %>%
-      left_join(lookup,
+      dplyr::left_join(lookup,
                 by = c("classType", "relaSources"),
                 keep = TRUE,
                 suffix = c(".default", ".version")) %>%
-      mutate_at(dplyr::vars(ends_with(".version")),
+      dplyr::mutate_at(dplyr::vars(dplyr::ends_with(".version")),
                 ~ifelse(is.na(.), "", "X")) %>%
-      rename(
+      dplyr::rename(
         classType = classType.default,
         relaSources = relaSources.default,
         `version classType` = classType.version,

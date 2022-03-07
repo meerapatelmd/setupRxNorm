@@ -45,6 +45,7 @@ read_members_concept_classes_csvs <-
       purrr::set_names(rela_sources) %>%
       dplyr::bind_rows(.id = "rela_source")
 
-    member_concept_classes_data
+    member_concept_classes_data %>%
+      dplyr::filter(rela_source %in% unique(get_lookup()$relaSources))
 
   }
