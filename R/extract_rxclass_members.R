@@ -301,14 +301,14 @@ extract_rxclass_members <-
     cli::cli_progress_update()
     if (!file.exists(concept_csv)) {
 
-      raw_members_data <-
+      raw_members_data <<-
         readr::read_csv(
           file = source_members_csv,
           col_types = readr::cols(.default = "c"),
           show_col_types = FALSE
         )
 
-      members_data <-
+      members_data <<-
       raw_members_data %>%
         dplyr::transmute(
           rxnorm_concept_code = rxcui,
@@ -345,7 +345,9 @@ extract_rxclass_members <-
           relationship_type,
           class_concept_code,
           class_standard_concept,
-          class_class_type
+          class_class_type,
+          relationship_source,
+          relationship_type
         )
 
       concept_concepts <-
@@ -398,6 +400,45 @@ extract_rxclass_members <-
       cli::cli_text("[{as.character(Sys.time())}] {.file {cr_csv}} ")
 
 
+      cr <-
+      bind_rows(
+        members_data %>%
+          dplyr::transmute(
+            concept_code_1  = rxnorm_concept_code,
+            class_type_1    = class_type,
+            relationship_id = 'Mapped from',
+            relationship_source,
+            relationship_type,
+            concept_code_1  = source_concept_code,
+            class_type_2    = class_type) %>%
+          distinct(),
+        members_data %>%
+          dplyr::transmute(
+            concept_code_1  = source_concept_code,
+            class_type_1    = class_type,
+            relationship_id = 'Maps to',
+            relationship_source,
+            relationship_type,
+            concept_code_1  = rxnorm_concept_code,
+            class_type_2    = class_type) %>%
+          distinct(),
+        members_data %>%
+        dplyr::transmute(
+          concept_code_1  = class_concept_code,
+          class_type_1    = class_type,
+          relationship_id = 'Subsumes',
+          relationship_source,
+          relationship_type,
+          concept_code_1  = rxnorm_concept_code,
+          class_type_2    = class_type) %>%
+          distinct()
+      )
+
+
+      readr::write_csv(
+        x = cr,
+        file = cr_csv
+      )
 
 
 
