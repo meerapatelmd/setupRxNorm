@@ -11,6 +11,8 @@
 #' @param log_schema Schema for the table that logs the process, Default: 'public'
 #' @param log_table_name Name of log table, Default: 'setup_rxnorm_log'
 #' @param log_release_date (Required) \href{https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html}{RxNorm Monthly} Release Date.
+#' @param rxrel_tables (Optional) Which RxRel schema tables to process for this run?
+#' @param rxtra_tables (Optional) Which RxTra schema tables to process for this run?
 #' @rdname run_setup
 #' @export
 #' @importFrom pg13 schema_exists drop_cascade send ls_tables query render_row_count table_exists read_table drop_table write_table
@@ -27,7 +29,8 @@ run_setup <-
            conn_fun = "pg13::local_connect()",
            schema = "rxnorm",
            rrf_path,
-           postprocessing = c("rxnorm_to_brand_and_generic", "rxnorm_validity_status"),
+           rxrel_tables = c("rxnorm_to_brand_and_generic"),
+           rxtra_tables = c("rxnorm_validity_status"),
            verbose = TRUE,
            render_sql = TRUE,
            render_only = FALSE,
@@ -405,25 +408,39 @@ run_setup <-
     }
 
 
-    for (i in seq_along(postprocessing)) {
-      postprocess <- postprocessing[i]
+    if ("rxnorm_to_brand_and_generic" %in% rxrel_tables) {
+      sql_file <-
+      system.file(
+        package = "setupRxNorm",
+        "RxRel SQL",
+        "rxnorm_to_brand_and_generic.sql"
+      )
 
-      if (postprocess == "rxnorm_validity_status") {
-        process_rxnorm_validity_status(
-          conn = conn,
-          render_sql = render_sql,
-          render_only = render_only,
-          checks = checks
-        )
-      } else {
-        run_postprocessing(
-          conn = conn,
-          postprocess = postprocess,
-          verbose = verbose,
-          render_sql = render_sql,
-          render_only = render_only,
-          checks = checks
-        )
-      }
+
+      sql_statement <-
+        paste(readLines(con =sql_file), collapse = "\n")
+
+      pg13::send(
+        conn = conn,
+        sql_statement = sql_statement,
+        verbose = verbose,
+        render_sql = render_sql,
+        render_only = render_only,
+        checks = checks
+      )
+
+    }
+
+    if ("rxnorm_validity_status" %in% rxtra_tables) {
+
+      process_rxnorm_validity_status(
+        conn = conn,
+        render_sql = render_sql,
+        render_only = render_only,
+        checks = checks
+      )
+
+
+
     }
   }

@@ -20,15 +20,6 @@
 #'   \item RxNorm API
 #' }
 #'
-#' Disk Requirements:
-#' \itemize{
-#'   \item Cache folder (R.cache package)
-#'   \item Run in developer mode (working directory is local copy of main setupRxNorm branch)
-#' }
-#'
-#'
-#'
-#'
 #' @rdname process_rxnorm_validity_status
 #' @export
 #' @import httr
@@ -567,9 +558,14 @@ WHERE
             dir.create(write_dir)
 
           }
+        }
 
 
-          data <-
+        local_file_path <-
+          file.path(write_dir, "rxnorm_validity_status.csv")
+
+
+        rxnorm_validity_status_data <-
             pg13::query(
               conn = conn,
               sql_statement = glue::glue("SELECT * FROM {processing_schema}.rxnorm_concept_status10;"),
@@ -578,10 +574,11 @@ WHERE
               render_sql = render_sql
             )
 
+        if (!file.exists(local_file_path)) {
 
           readr::write_csv(
-            x = data,
-            file = source_file
+            x = rxnorm_validity_status_data,
+            file = local_file_path
           )
 
 
@@ -590,7 +587,7 @@ WHERE
 
 
 
-      }
+        } else {
 
 
       rxnorm_validity_status_data <-
@@ -600,6 +597,8 @@ WHERE
         show_col_types = FALSE
       )
 
+        }
+
       tmp_csv <- tempfile()
       readr::write_csv(
         x = rxnorm_validity_status_data,
@@ -607,28 +606,6 @@ WHERE
         na = "",
         quote = "all"
       )
-
-
-      sql_statement <-
-        glue::glue(
-          "
-      DROP SCHEMA IF EXISTS {processing_schema} CASCADE;
-
-      CREATE SCHEMA {processing_schema};
-
-      DROP TABLE IF EXISTS {processing_schema}.rxnorm_concept_status0;
-      CREATE TABLE {processing_schema}.rxnorm_concept_status0 (
-              rxcui     INTEGER NOT NULL,
-              code      VARCHAR(50) NOT NULL,
-              str       VARCHAR(3000) NOT NULL,
-              tty       VARCHAR(20) NULL,
-              status    VARCHAR(10) NOT NULL,
-              rxnorm_api_version VARCHAR(30) NOT NULL
-      )
-      ;
-
-      COPY {processing_schema}.rxnorm_concept_status0 FROM '{tmp_csv}' CSV HEADER QUOTE E'\"' NULL AS '';
-      ")
 
       sql_statement <-
         glue::glue("
