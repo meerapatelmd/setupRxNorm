@@ -28,3 +28,8 @@ in the order of the API calls will be made. Can be one or more of the following:
 \description{
 Collect RxClass Members Data
 }
+\seealso{
+Other Collect functions: 
+\code{\link{collect_rxclass_graph}()}
+}
+\concept{Collect functions}

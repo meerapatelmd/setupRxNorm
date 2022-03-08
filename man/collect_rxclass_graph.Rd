@@ -20,3 +20,9 @@ in the order of the API calls will be made. Can be one or more of the following:
 \description{
 Collect RxClass Graph Data
 }
+\seealso{
+Other Collect functions: 
+\code{\link{collect_rxclass_members}()}
+}
+\concept{Collect functions}
+\concept{RxClass Graph functions}

@@ -4,12 +4,19 @@
 #' in the order of the API calls will be made. Can be one or more of the following:
 #' "MESHPA", "EPC", "MOA", "PE", "PK", "DISEASE", "DISPOS", "CHEM",
 #' "SCHEDULE", "STRUCT", "TC", "VA", "ATC1-4".
-#' @import tidyverse
-#' @import cli
-#' @import httr
-#' @import purrr
 #' @rdname collect_rxclass_graph
+#' @importFrom R.cache getCacheRootPath loadCache saveCache
+#' @importFrom dplyr filter mutate arrange bind_rows
+#' @importFrom cli cli_text cli_progress_bar cli_progress_update
+#' @importFrom lubridate duration
+#' @importFrom glue glue
+#' @importFrom httr GET content
+#' @importFrom purrr pluck map
+#' @importFrom tibble as_tibble_row
 #' @export
+#' @family Collect functions
+#' @family RxClass Graph functions
+
 collect_rxclass_graph <-
   function(
     class_types =

@@ -10,11 +10,15 @@
 #' 'MEDRT',
 #' 'RXNORM',
 #' 'SNOMEDCT'.
-#' @import tidyverse
-#' @import cli
-#' @import httr
+#' @importFrom tibble tribble
+#' @importFrom dplyr filter
+#' @importFrom R.cache getCacheRootPath loadCache saveCache
+#' @importFrom cli cli_text cli_progress_bar cli_progress_update
+#' @importFrom lubridate duration
+#' @importFrom glue glue
 #' @rdname collect_rxclass_members
 #' @export
+#' @family Collect functions
 
 
 collect_rxclass_members <-
