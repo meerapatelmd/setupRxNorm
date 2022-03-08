@@ -1,16 +1,17 @@
 #' @title
 #' Load RxNorm Monthly Release into Postgres
 #' @description
-#' The CSV files unpacked from a RxNorm Full Monthly Release download from
-#' \url{https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html} are loaded into Postgres.The
-#' file release dates are taken along with the table names and row
-#' counts are logged to a separate table after the loading is completed.
+#' The CSV files downloaded from \href{RxNorm Full Monthly Release}{https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html}
+#' are loaded into Postgres.
+#'
 #' @param conn Connection to a Postgres database.
 #' @param schema Target schema for the RxNorm load, Default: 'rxnorm'.
 #' @param rrf_path Path to the unpacked RxNorm files.
 #' @param log_schema Schema for the table that logs the process, Default: 'public'
 #' @param log_table_name Name of log table, Default: 'setup_rxnorm_log'
 #' @param log_release_date (Required) \href{https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html}{RxNorm Monthly} Release Date.
+#' @param rxrel_tables (Optional) Which RxRel schema tables to process for this run?
+#' @param rxtra_tables (Optional) Which RxTra schema tables to process for this run?
 #' @rdname run_setup
 #' @export
 #' @importFrom pg13 schema_exists drop_cascade send ls_tables query render_row_count table_exists read_table drop_table write_table
@@ -27,7 +28,8 @@ run_setup <-
            conn_fun = "pg13::local_connect()",
            schema = "rxnorm",
            rrf_path,
-           postprocessing = c("rxnorm_to_brand_and_generic", "rxnorm_validity_status"),
+           rxrel_tables = c("rxnorm_to_brand_and_generic"),
+           rxtra_tables = c("rxnorm_validity_status"),
            verbose = TRUE,
            render_sql = TRUE,
            render_only = FALSE,
@@ -405,25 +407,62 @@ run_setup <-
     }
 
 
-    for (i in seq_along(postprocessing)) {
-      postprocess <- postprocessing[i]
+    if ("rxnorm_to_brand_and_generic" %in% rxrel_tables) {
+      sql_file <-
+      system.file(
+        package = "setupRxNorm",
+        "RxRel SQL",
+        "rxnorm_to_brand_and_generic.sql"
+      )
 
-      if (postprocess == "rxnorm_validity_status") {
-        process_rxnorm_validity_status(
-          conn = conn,
-          render_sql = render_sql,
-          render_only = render_only,
-          checks = checks
-        )
-      } else {
-        run_postprocessing(
-          conn = conn,
-          postprocess = postprocess,
-          verbose = verbose,
-          render_sql = render_sql,
-          render_only = render_only,
-          checks = checks
-        )
-      }
+
+      sql_statement <-
+        paste(readLines(con =sql_file), collapse = "\n")
+
+      pg13::send(
+        conn = conn,
+        sql_statement = sql_statement,
+        verbose = verbose,
+        render_sql = render_sql,
+        render_only = render_only,
+        checks = checks
+      )
+
+      pg13::drop_table(
+        conn = conn,
+        schema = log_schema,
+        table = log_table_name,
+        verbose = verbose,
+        render_sql = render_sql,
+        render_only = render_only
+      )
+
+      pg13::write_table(
+        conn = conn,
+        schema = log_schema,
+        table_name = log_table_name,
+        data = updated_log,
+        verbose = verbose,
+        render_sql = render_sql,
+        render_only = render_only
+      )
+
+      cli::cat_line()
+      cli::cat_boxx("Log Results",
+        float = "center"
+      )
+      print(tibble::as_tibble(updated_log))
+      cli::cat_line()
+    }
+
+    if ("rxnorm_validity_status" %in% rxtra_tables) {
+
+      process_rxnorm_validity_status(
+        conn = conn,
+        render_sql = render_sql,
+        render_only = render_only,
+        checks = checks
+      )
+
     }
   }

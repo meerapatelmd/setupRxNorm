@@ -1,3 +1,6 @@
+#' @importFrom httr GET content status_code
+#' @importFrom cli cli_abort
+
 get_rxnav_api_version <-
   function() {
     service_domain <- "https://rxnav.nlm.nih.gov"
@@ -10,7 +13,7 @@ get_rxnav_api_version <-
     ver_resp <-
       httr::GET(url)
 
-    if (status_code(ver_resp) != 200) {
+    if (httr::status_code(ver_resp) != 200) {
       cli::cli_abort("API call to {.url {url}} returned Status Code {status_code(ver_resp)}.")
     }
 
@@ -18,6 +21,8 @@ get_rxnav_api_version <-
   }
 
 
+#' @importFrom httr status_code
+#' @importFrom cli cli_abort
 
 abort_on_api_error <-
   function(response) {

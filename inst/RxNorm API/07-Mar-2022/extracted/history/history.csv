@@ -1,0 +1,520 @@
+input_rxcui,output_code,output_str,output_tty,output_code_cardinality,output_codes,output_source,output_source_version
+1,992670,homatropine / hydrocodone Oral Solution [Hycodan],SBDF,1,992670,RxNav REST API,07-Mar-2022 3.1.174
+10,1667909,1 ML isoproterenol hydrochloride 0.2 MG/ML Injection,SCD,2,1667909|1667915,RxNav REST API,07-Mar-2022 3.1.174
+100,1098911,dextromethorphan hydrobromide 1 MG/ML / guaifenesin 10 MG/ML / pseudoephedrine hydrochloride 3 MG/ML Oral Solution,SCD,1,1098911,RxNav REST API,07-Mar-2022 3.1.174
+101,1147823,dextromethorphan hydrobromide 2 MG/ML / phenylephrine hydrochloride 1 MG/ML / pyrilamine maleate 1.67 MG/ML Oral Solution,SCD,1,1147823,RxNav REST API,07-Mar-2022 3.1.174
+102,1112864,acetaminophen 325 MG / chlorpheniramine maleate 2 MG Oral Tablet,SCD,1,1112864,RxNav REST API,07-Mar-2022 3.1.174
+103,1726321,2 ML irinotecan hydrochloride 20 MG/ML Injection [Camptosar],SBD,3,1726321|1726325|1726335,RxNav REST API,07-Mar-2022 3.1.174
+104,1047908,hyoscyamine sulfate 0.125 MG Sublingual Tablet [Levsin],SBD,1,1047908,RxNav REST API,07-Mar-2022 3.1.174
+105,1116341,24 HR naproxen 500 MG Extended Release Oral Tablet [Naprelan],SBD,1,1116341,RxNav REST API,07-Mar-2022 3.1.174
+106,1867552,potassium chloride 25 MEQ Powder for Oral Solution,SCD,1,1867552,RxNav REST API,07-Mar-2022 3.1.174
+107,1797876,azelastine hydrochloride 0.137 MG/ACTUAT Metered Dose Nasal Spray [Astelin],SBD,1,1797876,RxNav REST API,07-Mar-2022 3.1.174
+108,1734204,10 ML ropivacaine hydrochloride 2 MG/ML Injection [Naropin],SBD,4,1734204|1734208|1734348|1734356,RxNav REST API,07-Mar-2022 3.1.174
+109,853501,aspirin 228 MG Chewing Gum [Aspergum],SBD,1,853501,RxNav REST API,07-Mar-2022 3.1.174
+11,1726324,5 ML irinotecan hydrochloride 20 MG/ML Injection,SCD,3,1726324|1726333|1726492,RxNav REST API,07-Mar-2022 3.1.174
+110,1661220,"alpha 1-proteinase inhibitor, human 1 MG Injection [Prolastin]",SBD,1,1661220,RxNav REST API,07-Mar-2022 3.1.174
+111,1734086,20 ML ropivacaine hydrochloride 10 MG/ML Injection [Naropin],SBD,2,1734086|1734091,RxNav REST API,07-Mar-2022 3.1.174
+112,1724792,2 ML bupivacaine hydrochloride 7.5 MG/ML Injection [Marcaine],SBD,3,1724792|1724794|1724796,RxNav REST API,07-Mar-2022 3.1.174
+113,998465,miconazole nitrate 0.02 MG/MG Topical Powder [Desenex],SBD,1,998465,RxNav REST API,07-Mar-2022 3.1.174
+114,1089968,acetaminophen 500 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 15 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,SCD,1,1089968,RxNav REST API,07-Mar-2022 3.1.174
+115,1359107,diclofenac sodium 50 MG / misoprostol 0.2 MG Delayed Release Oral Tablet [Arthrotec],SBD,1,1359107,RxNav REST API,07-Mar-2022 3.1.174
+116,1293649,glycerin 144 MG/ML / petrolatum 150 MG/ML / phenylephrine hydrochloride 2.5 MG/ML / pramoxine hydrochloride 10 MG/ML Rectal Cream,SCD,1,1293649,RxNav REST API,07-Mar-2022 3.1.174
+117,1544968,mineral oil 0.14 MG/MG / petrolatum 0.719 MG/MG / phenylephrine hydrochloride 0.0025 MG/MG / shark liver oil 0.03 MG/MG Rectal Ointment,SCD,1,1544968,RxNav REST API,07-Mar-2022 3.1.174
+118,1010946,carbinoxamine maleate 0.8 MG/ML / dextromethorphan hydrobromide 3 MG/ML / pseudoephedrine hydrochloride 12 MG/ML Oral Solution,SCD,1,1010946,RxNav REST API,07-Mar-2022 3.1.174
+119,1010946,carbinoxamine maleate 0.8 MG/ML / dextromethorphan hydrobromide 3 MG/ML / pseudoephedrine hydrochloride 12 MG/ML Oral Solution,SCD,1,1010946,RxNav REST API,07-Mar-2022 3.1.174
+12,1116349,24 HR naproxen 750 MG Extended Release Oral Tablet,SCD,1,1116349,RxNav REST API,07-Mar-2022 3.1.174
+120,1010946,carbinoxamine maleate 0.8 MG/ML / dextromethorphan hydrobromide 3 MG/ML / pseudoephedrine hydrochloride 12 MG/ML Oral Solution,SCD,1,1010946,RxNav REST API,07-Mar-2022 3.1.174
+121,1010946,carbinoxamine maleate 0.8 MG/ML / dextromethorphan hydrobromide 3 MG/ML / pseudoephedrine hydrochloride 12 MG/ML Oral Solution,SCD,1,1010946,RxNav REST API,07-Mar-2022 3.1.174
+122,1010946,carbinoxamine maleate 0.8 MG/ML / dextromethorphan hydrobromide 3 MG/ML / pseudoephedrine hydrochloride 12 MG/ML Oral Solution,SCD,1,1010946,RxNav REST API,07-Mar-2022 3.1.174
+123,1010946,carbinoxamine maleate 0.8 MG/ML / dextromethorphan hydrobromide 3 MG/ML / pseudoephedrine hydrochloride 12 MG/ML Oral Solution,SCD,1,1010946,RxNav REST API,07-Mar-2022 3.1.174
+124,1010946,carbinoxamine maleate 0.8 MG/ML / dextromethorphan hydrobromide 3 MG/ML / pseudoephedrine hydrochloride 12 MG/ML Oral Solution,SCD,1,1010946,RxNav REST API,07-Mar-2022 3.1.174
+125,1797917,beclomethasone dipropionate 0.042 MG/ACTUAT Metered Dose Nasal Spray [Beconase],SBD,1,1797917,RxNav REST API,07-Mar-2022 3.1.174
+126,1046862,atropine sulfate 0.00388 MG/ML / hyoscyamine sulfate 0.0207 MG/ML / phenobarbital 3.24 MG/ML / scopolamine hydrobromide 0.0013 MG/ML Oral Solution [D-Tal],SBD,1,1046862,RxNav REST API,07-Mar-2022 3.1.174
+127,1046924,atropine sulfate 0.00388 MG/ML / hyoscyamine sulfate 0.0207 MG/ML / phenobarbital 3.24 MG/ML / scopolamine hydrobromide 0.0013 MG/ML Oral Solution [Donnatal],SBD,1,1046924,RxNav REST API,07-Mar-2022 3.1.174
+128,1053618,chlorpheniramine maleate 0.4 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution,SCD,1,1053618,RxNav REST API,07-Mar-2022 3.1.174
+129,1053618,chlorpheniramine maleate 0.4 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution,SCD,1,1053618,RxNav REST API,07-Mar-2022 3.1.174
+13,1357402,brompheniramine maleate 0.4 MG/ML / codeine phosphate 2 MG/ML / phenylpropanolamine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,1357402,RxNav REST API,07-Mar-2022 3.1.174
+130,1053618,chlorpheniramine maleate 0.4 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution,SCD,1,1053618,RxNav REST API,07-Mar-2022 3.1.174
+131,1053618,chlorpheniramine maleate 0.4 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution,SCD,1,1053618,RxNav REST API,07-Mar-2022 3.1.174
+132,1053618,chlorpheniramine maleate 0.4 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution,SCD,1,1053618,RxNav REST API,07-Mar-2022 3.1.174
+133,1053618,chlorpheniramine maleate 0.4 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution,SCD,1,1053618,RxNav REST API,07-Mar-2022 3.1.174
+134,1053618,chlorpheniramine maleate 0.4 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution,SCD,1,1053618,RxNav REST API,07-Mar-2022 3.1.174
+135,1293468,chlorpheniramine tannate 0.4 MG/ML / phenylephrine tannate 1 MG/ML / pyrilamine tannate 2.5 MG/ML Oral Suspension,SCD,1,1293468,RxNav REST API,07-Mar-2022 3.1.174
+136,1731345,deferoxamine mesylate 2000 MG Injection,SCD,2,1731345|1731350,RxNav REST API,07-Mar-2022 3.1.174
+137,1361226,"heparin sodium, porcine 1000 UNT/ML Injectable Solution",SCD,1,1361226,RxNav REST API,07-Mar-2022 3.1.174
+138,1361577,"10 ML heparin sodium, porcine 2500 UNT/ML Injection",SCD,1,1361577,RxNav REST API,07-Mar-2022 3.1.174
+139,1362831,"heparin sodium, porcine 10000 UNT/ML Injectable Solution",SCD,1,1362831,RxNav REST API,07-Mar-2022 3.1.174
+14,1357402,brompheniramine maleate 0.4 MG/ML / codeine phosphate 2 MG/ML / phenylpropanolamine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,1357402,RxNav REST API,07-Mar-2022 3.1.174
+140,1361574,"heparin sodium, porcine 20000 UNT/ML Injectable Solution",SCD,1,1361574,RxNav REST API,07-Mar-2022 3.1.174
+141,1362831,"heparin sodium, porcine 10000 UNT/ML Injectable Solution",SCD,1,1362831,RxNav REST API,07-Mar-2022 3.1.174
+142,1361226,"heparin sodium, porcine 1000 UNT/ML Injectable Solution",SCD,1,1361226,RxNav REST API,07-Mar-2022 3.1.174
+143,1361029,"heparin sodium, porcine 10 UNT/ML Injectable Solution",SCD,1,1361029,RxNav REST API,07-Mar-2022 3.1.174
+144,1361048,"heparin sodium, porcine 100 UNT/ML Injectable Solution",SCD,2,1361048|1362060,RxNav REST API,07-Mar-2022 3.1.174
+145,1362935,"heparin sodium, porcine 2 UNT/ML Injectable Solution",SCD,1,1362935,RxNav REST API,07-Mar-2022 3.1.174
+146,1361607,"500 ML heparin sodium, porcine 40 UNT/ML Injection",SCD,1,1361607,RxNav REST API,07-Mar-2022 3.1.174
+147,1658259,50 ML magnesium sulfate 40 MG/ML Injection,SCD,4,1658259|1658262|1658264|1658265,RxNav REST API,07-Mar-2022 3.1.174
+148,1661208,"alpha 1-proteinase inhibitor, human 1 MG Injection",SCD,1,1661208,RxNav REST API,07-Mar-2022 3.1.174
+149,1652634,citric acid 1002 MG / potassium citrate 3300 MG Powder for Oral Solution,SCD,1,1652634,RxNav REST API,07-Mar-2022 3.1.174
+15,1357402,brompheniramine maleate 0.4 MG/ML / codeine phosphate 2 MG/ML / phenylpropanolamine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,1357402,RxNav REST API,07-Mar-2022 3.1.174
+150,1300385,"0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.05 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.016 MG/ML / Bordetella pertussis toxoid vaccine, inactivated 0.05 MG/ML / diphtheria toxoid vaccine, inactivated 50 UNT/ML / tetanus toxoid vaccine, inactivated 20 UNT/ML Injection",SCD,1,1300385,RxNav REST API,07-Mar-2022 3.1.174
+151,1661504,1.7 ML levonordefrin 0.05 MG/ML / mepivacaine hydrochloride 20 MG/ML Cartridge,SCD,1,1661504,RxNav REST API,07-Mar-2022 3.1.174
+152,1536457,acetaminophen 500 MG / codeine phosphate 8 MG Effervescent Oral Tablet,SCD,1,1536457,RxNav REST API,07-Mar-2022 3.1.174
+153,1046787,atropine sulfate 0.00388 MG/ML / hyoscyamine sulfate 0.0207 MG/ML / phenobarbital 3.24 MG/ML / scopolamine hydrobromide 0.0013 MG/ML Oral Solution,SCD,1,1046787,RxNav REST API,07-Mar-2022 3.1.174
+154,1658127,5 ML hepatitis B immune globulin 312 UNT/ML Injection [Nabi-HB],SBD,2,1658127|1658148,RxNav REST API,07-Mar-2022 3.1.174
+155,1922764,Atrial Fibrillation sotalol hydrochloride 160 MG Oral Tablet [Betapace],SBD,2,1922764|1923425,RxNav REST API,07-Mar-2022 3.1.174
+156,198776,phenol 14 MG/ML Mucosal Spray,SCD,1,198776,RxNav REST API,07-Mar-2022 3.1.174
+157,1922721,Atrial Fibrillation sotalol hydrochloride 120 MG Oral Tablet [Betapace],SBD,2,1922721|1923423,RxNav REST API,07-Mar-2022 3.1.174
+158,998465,miconazole nitrate 0.02 MG/MG Topical Powder [Desenex],SBD,1,998465,RxNav REST API,07-Mar-2022 3.1.174
+159,998465,miconazole nitrate 0.02 MG/MG Topical Powder [Desenex],SBD,1,998465,RxNav REST API,07-Mar-2022 3.1.174
+16,1357402,brompheniramine maleate 0.4 MG/ML / codeine phosphate 2 MG/ML / phenylpropanolamine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,1357402,RxNav REST API,07-Mar-2022 3.1.174
+160,1370216,dextromethorphan hydrobromide 2 MG/ML Oral Solution,SCD,1,1370216,RxNav REST API,07-Mar-2022 3.1.174
+161,1370216,dextromethorphan hydrobromide 2 MG/ML Oral Solution,SCD,1,1370216,RxNav REST API,07-Mar-2022 3.1.174
+162,1922766,Atrial Fibrillation sotalol hydrochloride 80 MG Oral Tablet [Betapace],SBD,2,1922766|1923427,RxNav REST API,07-Mar-2022 3.1.174
+163,1797853,cromolyn sodium 5.2 MG/ACTUAT Metered Dose Nasal Spray [Nasalcrom],SBD,1,1797853,RxNav REST API,07-Mar-2022 3.1.174
+164,152770,calcium carbonate 1250 MG / cholecalciferol 0.01 MG Oral Tablet,SCD,1,152770,RxNav REST API,07-Mar-2022 3.1.174
+165,250983,nicotine 4 MG Inhalation Solution,SCD,1,250983,RxNav REST API,07-Mar-2022 3.1.174
+166,1806177,50/50 Release 24 HR methylphenidate hydrochloride 20 MG Extended Release Oral Capsule,SCD,3,1806177|1806187|1806202,RxNav REST API,07-Mar-2022 3.1.174
+167,211365,chlorhexidine gluconate 40 MG/ML Medicated Liquid Soap,SCD,1,211365,RxNav REST API,07-Mar-2022 3.1.174
+168,858967,guaiacolsulfonate 60 MG/ML / hydrocodone bitartrate 0.9 MG/ML Oral Solution,SCD,1,858967,RxNav REST API,07-Mar-2022 3.1.174
+169,1305603,12 HR guaifenesin 600 MG / pseudoephedrine hydrochloride 60 MG Extended Release Oral Tablet,SCD,1,1305603,RxNav REST API,07-Mar-2022 3.1.174
+17,1357402,brompheniramine maleate 0.4 MG/ML / codeine phosphate 2 MG/ML / phenylpropanolamine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,1357402,RxNav REST API,07-Mar-2022 3.1.174
+170,1734204,10 ML ropivacaine hydrochloride 2 MG/ML Injection [Naropin],SBD,4,1734204|1734208|1734348|1734356,RxNav REST API,07-Mar-2022 3.1.174
+171,1734086,20 ML ropivacaine hydrochloride 10 MG/ML Injection [Naropin],SBD,2,1734086|1734091,RxNav REST API,07-Mar-2022 3.1.174
+172,1731348,deferoxamine mesylate 2000 MG Injection [Desferal],SBD,2,1731348|1731352,RxNav REST API,07-Mar-2022 3.1.174
+173,1791495,20 ML idarubicin hydrochloride 1 MG/ML Injection [Idamycin],SBD,3,1791495|1791499|1791501,RxNav REST API,07-Mar-2022 3.1.174
+174,1099085,dextromethorphan hydrobromide 2 MG/ML / guaifenesin 20 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution,SCD,1,1099085,RxNav REST API,07-Mar-2022 3.1.174
+175,1367426,12 HR naproxen sodium 220 MG / pseudoephedrine hydrochloride 120 MG Extended Release Oral Tablet,SCD,1,1367426,RxNav REST API,07-Mar-2022 3.1.174
+176,1251625,butabarbital sodium 6 MG/ML Oral Solution,SCD,1,1251625,RxNav REST API,07-Mar-2022 3.1.174
+177,1294356,bromodiphenhydramine hydrochloride 2.5 MG/ML / codeine phosphate 2 MG/ML Oral Solution,SCD,1,1294356,RxNav REST API,07-Mar-2022 3.1.174
+178,1113417,chlorpheniramine maleate 0.4 MG/ML / codeine phosphate 2 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution,SCD,1,1113417,RxNav REST API,07-Mar-2022 3.1.174
+179,996757,codeine phosphate 2 MG/ML / phenylephrine hydrochloride 1 MG/ML / promethazine hydrochloride 1.25 MG/ML Oral Solution,SCD,1,996757,RxNav REST API,07-Mar-2022 3.1.174
+18,1357402,brompheniramine maleate 0.4 MG/ML / codeine phosphate 2 MG/ML / phenylpropanolamine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,1357402,RxNav REST API,07-Mar-2022 3.1.174
+180,849548,cromolyn sodium 5.2 MG/ACTUAT Nasal Spray,SCD,1,849548,RxNav REST API,07-Mar-2022 3.1.174
+181,1734917,cyclophosphamide 500 MG Injection,SCD,3,1734917|1734919|1734921,RxNav REST API,07-Mar-2022 3.1.174
+182,1734917,cyclophosphamide 500 MG Injection,SCD,3,1734917|1734919|1734921,RxNav REST API,07-Mar-2022 3.1.174
+183,1797859,desmopressin acetate 0.15 MG/ACTUAT Metered Dose Nasal Spray,SCD,1,1797859,RxNav REST API,07-Mar-2022 3.1.174
+184,1359105,diclofenac sodium 75 MG / misoprostol 0.2 MG Delayed Release Oral Tablet,SCD,1,1359105,RxNav REST API,07-Mar-2022 3.1.174
+185,1088245,docusate sodium 3.33 MG/ML Oral Solution,SCD,1,1088245,RxNav REST API,07-Mar-2022 3.1.174
+186,1245686,docusate sodium 10 MG/ML Oral Solution,SCD,2,1245686|1248119,RxNav REST API,07-Mar-2022 3.1.174
+187,857099,acetaminophen 33.3 MG/ML / hydrocodone bitartrate 0.5 MG/ML Oral Solution,SCD,1,857099,RxNav REST API,07-Mar-2022 3.1.174
+188,864978,methadone hydrochloride 40 MG Tablet for Oral Suspension,SCD,2,864978|991147,RxNav REST API,07-Mar-2022 3.1.174
+189,1797878,nafarelin 0.2 MG/ACTUAT Metered Dose Nasal Spray,SCD,1,1797878,RxNav REST API,07-Mar-2022 3.1.174
+19,1357402,brompheniramine maleate 0.4 MG/ML / codeine phosphate 2 MG/ML / phenylpropanolamine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,1357402,RxNav REST API,07-Mar-2022 3.1.174
+190,1737451,10 ML pamidronate disodium 6 MG/ML Injection,SCD,2,1737451|1737457,RxNav REST API,07-Mar-2022 3.1.174
+191,992668,homatropine methylbromide 0.3 MG/ML / hydrocodone bitartrate 1 MG/ML Oral Solution,SCD,1,992668,RxNav REST API,07-Mar-2022 3.1.174
+192,1044949,dextromethorphan hydrobromide 2 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,SCD,1,1044949,RxNav REST API,07-Mar-2022 3.1.174
+193,836262,docusate sodium 50 MG,SCDC,1,836262,RxNav REST API,07-Mar-2022 3.1.174
+194,1362064,"heparin sodium, porcine 2 UNT/ML",SCDC,1,1362064,RxNav REST API,07-Mar-2022 3.1.174
+195,864978,methadone hydrochloride 40 MG Tablet for Oral Suspension,SCD,1,864978,RxNav REST API,07-Mar-2022 3.1.174
+196,1367410,ergocalciferol 1.25 MG Oral Capsule,SCD,1,1367410,RxNav REST API,07-Mar-2022 3.1.174
+197,1867544,potassium chloride 20 MEQ Powder for Oral Solution,SCD,2,1867544|1867552,RxNav REST API,07-Mar-2022 3.1.174
+198,1113417,chlorpheniramine maleate 0.4 MG/ML / codeine phosphate 2 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution,SCD,1,1113417,RxNav REST API,07-Mar-2022 3.1.174
+199,1098906,brompheniramine maleate 0.4 MG/ML / guaifenesin 40 MG/ML / hydrocodone bitartrate 1 MG/ML Oral Solution,SCD,1,1098906,RxNav REST API,07-Mar-2022 3.1.174
+2,1536459,acetaminophen 500 MG / codeine phosphate 30 MG Effervescent Oral Tablet,SCD,1,1536459,RxNav REST API,07-Mar-2022 3.1.174
+20,1357402,brompheniramine maleate 0.4 MG/ML / codeine phosphate 2 MG/ML / phenylpropanolamine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,1357402,RxNav REST API,07-Mar-2022 3.1.174
+200,861064,sertraline 20 MG/ML Oral Solution,SCD,1,861064,RxNav REST API,07-Mar-2022 3.1.174
+201,858939,guaiacolsulfonate 24 MG/ML / hydrocodone bitartrate 0.5 MG/ML Oral Solution,SCD,1,858939,RxNav REST API,07-Mar-2022 3.1.174
+202,1658125,5 ML hepatitis B immune globulin 312 UNT/ML Injection,SCD,2,1658125|1658147,RxNav REST API,07-Mar-2022 3.1.174
+203,1658125,5 ML hepatitis B immune globulin 312 UNT/ML Injection,SCD,2,1658125|1658147,RxNav REST API,07-Mar-2022 3.1.174
+204,1806183,50/50 Release 24 HR methylphenidate hydrochloride 40 MG Extended Release Oral Capsule,SCD,3,1806183|1806191|1806210,RxNav REST API,07-Mar-2022 3.1.174
+205,1806179,50/50 Release 24 HR methylphenidate hydrochloride 30 MG Extended Release Oral Capsule,SCD,3,1806179|1806189|1806206,RxNav REST API,07-Mar-2022 3.1.174
+206,1305603,12 HR guaifenesin 600 MG / pseudoephedrine hydrochloride 60 MG Extended Release Oral Tablet,SCD,1,1305603,RxNav REST API,07-Mar-2022 3.1.174
+207,1248057,phenylephrine hydrochloride 1 MG/ML / promethazine hydrochloride 1.25 MG/ML Oral Solution,SCD,1,1248057,RxNav REST API,07-Mar-2022 3.1.174
+208,1536675,aspirin 325 MG / citric acid 1000 MG / sodium bicarbonate 1916 MG Effervescent Oral Tablet,SCD,2,1536675|1536680,RxNav REST API,07-Mar-2022 3.1.174
+209,1536675,aspirin 325 MG / citric acid 1000 MG / sodium bicarbonate 1916 MG Effervescent Oral Tablet,SCD,2,1536675|1536680,RxNav REST API,07-Mar-2022 3.1.174
+21,1357402,brompheniramine maleate 0.4 MG/ML / codeine phosphate 2 MG/ML / phenylpropanolamine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,1357402,RxNav REST API,07-Mar-2022 3.1.174
+210,1536675,aspirin 325 MG / citric acid 1000 MG / sodium bicarbonate 1916 MG Effervescent Oral Tablet,SCD,2,1536675|1536680,RxNav REST API,07-Mar-2022 3.1.174
+211,1047881,hyoscyamine sulfate 0.025 MG/ML Oral Solution,SCD,1,1047881,RxNav REST API,07-Mar-2022 3.1.174
+212,847121,calcium citrate 1500 MG / cholecalciferol 250 UNT Oral Tablet,SCD,1,847121,RxNav REST API,07-Mar-2022 3.1.174
+213,1037164,brompheniramine maleate 0.8 MG/ML / dextromethorphan hydrobromide 3 MG/ML / pseudoephedrine hydrochloride 9 MG/ML Oral Solution,SCD,1,1037164,RxNav REST API,07-Mar-2022 3.1.174
+214,1037164,brompheniramine maleate 0.8 MG/ML / dextromethorphan hydrobromide 3 MG/ML / pseudoephedrine hydrochloride 9 MG/ML Oral Solution,SCD,1,1037164,RxNav REST API,07-Mar-2022 3.1.174
+215,1010980,carbinoxamine maleate 1 MG/ML / dextromethorphan hydrobromide 4 MG/ML / pseudoephedrine hydrochloride 15 MG/ML Oral Solution,SCD,1,1010980,RxNav REST API,07-Mar-2022 3.1.174
+216,1293472,chlorpheniramine tannate 0.9 MG/ML / phenylephrine tannate 1 MG/ML Oral Suspension,SCD,1,1293472,RxNav REST API,07-Mar-2022 3.1.174
+217,2122799,guaifenesin 20 MG/ML / phenylephrine hydrochloride 1.5 MG/ML Oral Solution,SCD,1,2122799,RxNav REST API,07-Mar-2022 3.1.174
+218,2122799,guaifenesin 20 MG/ML / phenylephrine hydrochloride 1.5 MG/ML Oral Solution,SCD,1,2122799,RxNav REST API,07-Mar-2022 3.1.174
+219,2182346,chlorpheniramine maleate 0.2 MG/ML / pseudoephedrine hydrochloride 3 MG/ML Oral Solution,SCD,1,2182346,RxNav REST API,07-Mar-2022 3.1.174
+22,1294356,bromodiphenhydramine hydrochloride 2.5 MG/ML / codeine phosphate 2 MG/ML Oral Solution,SCD,1,1294356,RxNav REST API,07-Mar-2022 3.1.174
+220,1098497,brompheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1 MG/ML / pseudoephedrine hydrochloride 3 MG/ML Oral Solution,SCD,1,1098497,RxNav REST API,07-Mar-2022 3.1.174
+221,1098498,brompheniramine maleate 0.2 MG/ML / pseudoephedrine hydrochloride 3 MG/ML Oral Solution,SCD,1,1098498,RxNav REST API,07-Mar-2022 3.1.174
+222,1236419,acetaminophen 250 MG / dextromethorphan hydrobromide 10 MG / pseudoephedrine hydrochloride 30 MG Oral Capsule,SCD,1,1236419,RxNav REST API,07-Mar-2022 3.1.174
+223,1536840,aspirin 325 MG / chlorpheniramine maleate 2 MG / phenylephrine bitartrate 7.8 MG Effervescent Oral Tablet,SCD,1,1536840,RxNav REST API,07-Mar-2022 3.1.174
+224,1536862,chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Effervescent Oral Tablet,SCD,1,1536862,RxNav REST API,07-Mar-2022 3.1.174
+225,1091182,50/50 Release 24 HR methylphenidate hydrochloride 30 MG Extended Release Oral Capsule [Ritalin],SBD,1,1091182,RxNav REST API,07-Mar-2022 3.1.174
+226,1242705,hyoscyamine sulfate 0.125 MG Disintegrating Oral Tablet [Nulev],SBD,1,1242705,RxNav REST API,07-Mar-2022 3.1.174
+227,1293468,chlorpheniramine tannate 0.4 MG/ML / phenylephrine tannate 1 MG/ML / pyrilamine tannate 2.5 MG/ML Oral Suspension,SCD,1,1293468,RxNav REST API,07-Mar-2022 3.1.174
+228,1361567,"heparin sodium, porcine 2000 UNT/ML",SCDC,1,1361567,RxNav REST API,07-Mar-2022 3.1.174
+229,1659195,"500 ML heparin sodium, porcine 50 UNT/ML Injection",SCD,2,1659195|1659197,RxNav REST API,07-Mar-2022 3.1.174
+23,1294356,bromodiphenhydramine hydrochloride 2.5 MG/ML / codeine phosphate 2 MG/ML Oral Solution,SCD,1,1294356,RxNav REST API,07-Mar-2022 3.1.174
+230,865097,insulin lispro Injectable Solution [Humalog],SBDF,1,865097,RxNav REST API,07-Mar-2022 3.1.174
+231,1010767,epinephrine / lidocaine Injectable Solution [Xylocaine with Epinephrine],SBDF,1,1010767,RxNav REST API,07-Mar-2022 3.1.174
+232,991478,methenamine / salicylic acid Oral Tablet [Cystex],SBDF,1,991478,RxNav REST API,07-Mar-2022 3.1.174
+233,1361568,"5 ML heparin sodium, porcine 2000 UNT/ML Injection",SCD,1,1361568,RxNav REST API,07-Mar-2022 3.1.174
+234,836307,2 ML penicillin G benzathine 450000 UNT/ML / penicillin G procaine 150000 UNT/ML Prefilled Syringe [Bicillin],SBD,1,836307,RxNav REST API,07-Mar-2022 3.1.174
+235,1099278,docusate sodium 100 MG,SCDC,1,1099278,RxNav REST API,07-Mar-2022 3.1.174
+236,1723156,2 ML amikacin 250 MG/ML Injection,SCD,2,1723156|1723160,RxNav REST API,07-Mar-2022 3.1.174
+237,1729418,1 ML vinorelbine 10 MG/ML Injection,SCD,2,1729418|1729422,RxNav REST API,07-Mar-2022 3.1.174
+238,891172,guaifenesin 20 MG/ML / hydrocodone bitartrate 0.4 MG/ML / phenylephrine hydrochloride 2 MG/ML Oral Solution [De-Chlor G],SBD,1,891172,RxNav REST API,07-Mar-2022 3.1.174
+239,1422103,lidocaine 40 MG/ML Topical Cream [LMX],SBD,1,1422103,RxNav REST API,07-Mar-2022 3.1.174
+24,1294356,bromodiphenhydramine hydrochloride 2.5 MG/ML / codeine phosphate 2 MG/ML Oral Solution,SCD,1,1294356,RxNav REST API,07-Mar-2022 3.1.174
+240,1356346,12 HR guaifenesin 1200 MG / pseudoephedrine hydrochloride 75 MG Extended Release Oral Tablet,SCD,1,1356346,RxNav REST API,07-Mar-2022 3.1.174
+241,1430404,12 HR dextromethorphan hydrobromide 60 MG / guaifenesin 1200 MG / pseudoephedrine hydrochloride 60 MG Extended Release Oral Tablet,SCD,1,1430404,RxNav REST API,07-Mar-2022 3.1.174
+242,860983,24 HR metformin hydrochloride 750 MG Extended Release Oral Tablet [Glucophage],SBD,1,860983,RxNav REST API,07-Mar-2022 3.1.174
+243,1053618,chlorpheniramine maleate 0.4 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution,SCD,1,1053618,RxNav REST API,07-Mar-2022 3.1.174
+244,1737449,10 ML pamidronate disodium 3 MG/ML Injection,SCD,2,1737449|1737459,RxNav REST API,07-Mar-2022 3.1.174
+245,1737453,10 ML pamidronate disodium 9 MG/ML Injection,SCD,2,1737453|1737461,RxNav REST API,07-Mar-2022 3.1.174
+246,1806181,30/70 Release 24 HR methylphenidate hydrochloride 10 MG Extended Release Oral Capsule,SCD,3,1806181|1806195|1806200,RxNav REST API,07-Mar-2022 3.1.174
+247,1293727,hydrocortisone acetate 0.02 MG/MG / pramoxine hydrochloride 0.01 MG/MG Topical Gel,SCD,1,1293727,RxNav REST API,07-Mar-2022 3.1.174
+248,1737449,10 ML pamidronate disodium 3 MG/ML Injection,SCD,2,1737449|1737459,RxNav REST API,07-Mar-2022 3.1.174
+249,835726,acamprosate calcium 333 MG Delayed Release Oral Tablet,SCD,1,835726,RxNav REST API,07-Mar-2022 3.1.174
+25,1357422,brompheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 2 MG/ML / phenylpropanolamine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,1357422,RxNav REST API,07-Mar-2022 3.1.174
+250,1244214,budesonide 3 MG Delayed Release Oral Capsule,SCD,1,1244214,RxNav REST API,07-Mar-2022 3.1.174
+251,861066,sertraline 20 MG/ML Oral Solution [Zoloft],SBD,1,861066,RxNav REST API,07-Mar-2022 3.1.174
+252,1367416,ergocalciferol 1.25 MG Oral Capsule [Drisdol],SBD,1,1367416,RxNav REST API,07-Mar-2022 3.1.174
+253,835726,acamprosate calcium 333 MG Delayed Release Oral Tablet,SCD,1,835726,RxNav REST API,07-Mar-2022 3.1.174
+254,996520,dextromethorphan hydrobromide 2 MG/ML / guaifenesin 20 MG/ML Oral Solution,SCD,1,996520,RxNav REST API,07-Mar-2022 3.1.174
+255,1248057,phenylephrine hydrochloride 1 MG/ML / promethazine hydrochloride 1.25 MG/ML Oral Solution,SCD,1,1248057,RxNav REST API,07-Mar-2022 3.1.174
+256,1098906,brompheniramine maleate 0.4 MG/ML / guaifenesin 40 MG/ML / hydrocodone bitartrate 1 MG/ML Oral Solution,SCD,1,1098906,RxNav REST API,07-Mar-2022 3.1.174
+257,1357013,brompheniramine maleate 0.4 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,SCD,1,1357013,RxNav REST API,07-Mar-2022 3.1.174
+258,995868,codeine phosphate 2 MG/ML / guaifenesin 20 MG/ML Oral Solution,SCD,1,995868,RxNav REST API,07-Mar-2022 3.1.174
+259,801957,0.5 ML diazepam 5 MG/ML Rectal Gel,SCD,3,801957|801961|801966,RxNav REST API,07-Mar-2022 3.1.174
+26,1357422,brompheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 2 MG/ML / phenylpropanolamine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,1357422,RxNav REST API,07-Mar-2022 3.1.174
+260,1806181,30/70 Release 24 HR methylphenidate hydrochloride 10 MG Extended Release Oral Capsule,SCD,3,1806181|1806195|1806200,RxNav REST API,07-Mar-2022 3.1.174
+261,1091143,50/50 Release 24 HR methylphenidate hydrochloride 10 MG Extended Release Oral Capsule [Ritalin],SBD,1,1091143,RxNav REST API,07-Mar-2022 3.1.174
+262,1251625,butabarbital sodium 6 MG/ML Oral Solution,SCD,1,1251625,RxNav REST API,07-Mar-2022 3.1.174
+263,857104,acetaminophen / hydrocodone Oral Solution [Lortab],SBDF,1,857104,RxNav REST API,07-Mar-2022 3.1.174
+264,1049906,diphenhydramine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,1049906,RxNav REST API,07-Mar-2022 3.1.174
+265,1048056,hyoscyamine sulfate 0.125 MG Disintegrating Oral Tablet [Anaspaz],SBD,1,1048056,RxNav REST API,07-Mar-2022 3.1.174
+266,1661220,"alpha 1-proteinase inhibitor, human 1 MG Injection [Prolastin]",SBD,1,1661220,RxNav REST API,07-Mar-2022 3.1.174
+267,1661208,"alpha 1-proteinase inhibitor, human 1 MG Injection",SCD,1,1661208,RxNav REST API,07-Mar-2022 3.1.174
+268,1244700,12 HR guaifenesin 900 MG / phenylephrine hydrochloride 25 MG Extended Release Oral Tablet,SCD,1,1244700,RxNav REST API,07-Mar-2022 3.1.174
+269,1012956,carbinoxamine maleate 1 MG/ML / pseudoephedrine hydrochloride 15 MG/ML Oral Solution,SCD,1,1012956,RxNav REST API,07-Mar-2022 3.1.174
+27,1357422,brompheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 2 MG/ML / phenylpropanolamine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,1357422,RxNav REST API,07-Mar-2022 3.1.174
+270,1658127,5 ML hepatitis B immune globulin 312 UNT/ML Injection [Nabi-HB],SBD,2,1658127|1658148,RxNav REST API,07-Mar-2022 3.1.174
+271,1053618,chlorpheniramine maleate 0.4 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution,SCD,1,1053618,RxNav REST API,07-Mar-2022 3.1.174
+272,1053618,chlorpheniramine maleate 0.4 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution,SCD,1,1053618,RxNav REST API,07-Mar-2022 3.1.174
+273,2122799,guaifenesin 20 MG/ML / phenylephrine hydrochloride 1.5 MG/ML Oral Solution,SCD,1,2122799,RxNav REST API,07-Mar-2022 3.1.174
+274,859383,guaifenesin 40 MG/ML / hydrocodone bitartrate 0.5 MG/ML Oral Solution,SCD,1,859383,RxNav REST API,07-Mar-2022 3.1.174
+275,1797859,desmopressin acetate 0.15 MG/ACTUAT Metered Dose Nasal Spray,SCD,1,1797859,RxNav REST API,07-Mar-2022 3.1.174
+276,1797833,ipratropium bromide 0.021 MG/ACTUAT Metered Dose Nasal Spray,SCD,1,1797833,RxNav REST API,07-Mar-2022 3.1.174
+277,1797844,ipratropium bromide 0.042 MG/ACTUAT Metered Dose Nasal Spray,SCD,1,1797844,RxNav REST API,07-Mar-2022 3.1.174
+278,1302740,butorphanol 10 MG/ML [Dolorex Solution],SBDC,1,1302740,RxNav REST API,07-Mar-2022 3.1.174
+279,1302741,butorphanol 10 MG/ML Injectable Solution [Dolorex Solution],SBD,1,1302741,RxNav REST API,07-Mar-2022 3.1.174
+28,1357422,brompheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 2 MG/ML / phenylpropanolamine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,1357422,RxNav REST API,07-Mar-2022 3.1.174
+280,477215,sulfonated phenol 500 MG/ML / sulfuric acid 300 MG/ML Mucous Membrane Topical Solution,SCD,1,477215,RxNav REST API,07-Mar-2022 3.1.174
+281,1547711,sulfonated phenol 500 MG/ML / sulfuric acid 300 MG/ML Mucous Membrane Topical Solution [Debacterol],SBD,1,1547711,RxNav REST API,07-Mar-2022 3.1.174
+282,1010980,carbinoxamine maleate 1 MG/ML / dextromethorphan hydrobromide 4 MG/ML / pseudoephedrine hydrochloride 15 MG/ML Oral Solution,SCD,1,1010980,RxNav REST API,07-Mar-2022 3.1.174
+283,1358623,dextromethorphan hydrobromide 4 MG/ML / guaifenesin 20 MG/ML / pseudoephedrine hydrochloride 10 MG/ML Oral Solution,SCD,1,1358623,RxNav REST API,07-Mar-2022 3.1.174
+284,477215,sulfonated phenol 500 MG/ML / sulfuric acid 300 MG/ML Mucous Membrane Topical Solution,SCD,1,477215,RxNav REST API,07-Mar-2022 3.1.174
+285,1547711,sulfonated phenol 500 MG/ML / sulfuric acid 300 MG/ML Mucous Membrane Topical Solution [Debacterol],SBD,1,1547711,RxNav REST API,07-Mar-2022 3.1.174
+286,834127,chlorhexidine gluconate 1.2 MG/ML Mouthwash,SCD,1,834127,RxNav REST API,07-Mar-2022 3.1.174
+287,1098911,dextromethorphan hydrobromide 1 MG/ML / guaifenesin 10 MG/ML / pseudoephedrine hydrochloride 3 MG/ML Oral Solution,SCD,1,1098911,RxNav REST API,07-Mar-2022 3.1.174
+288,1098911,dextromethorphan hydrobromide 1 MG/ML / guaifenesin 10 MG/ML / pseudoephedrine hydrochloride 3 MG/ML Oral Solution,SCD,1,1098911,RxNav REST API,07-Mar-2022 3.1.174
+289,1037164,brompheniramine maleate 0.8 MG/ML / dextromethorphan hydrobromide 3 MG/ML / pseudoephedrine hydrochloride 9 MG/ML Oral Solution,SCD,1,1037164,RxNav REST API,07-Mar-2022 3.1.174
+29,1357422,brompheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 2 MG/ML / phenylpropanolamine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,1357422,RxNav REST API,07-Mar-2022 3.1.174
+290,1037164,brompheniramine maleate 0.8 MG/ML / dextromethorphan hydrobromide 3 MG/ML / pseudoephedrine hydrochloride 9 MG/ML Oral Solution,SCD,1,1037164,RxNav REST API,07-Mar-2022 3.1.174
+291,1037164,brompheniramine maleate 0.8 MG/ML / dextromethorphan hydrobromide 3 MG/ML / pseudoephedrine hydrochloride 9 MG/ML Oral Solution,SCD,1,1037164,RxNav REST API,07-Mar-2022 3.1.174
+292,1037164,brompheniramine maleate 0.8 MG/ML / dextromethorphan hydrobromide 3 MG/ML / pseudoephedrine hydrochloride 9 MG/ML Oral Solution,SCD,1,1037164,RxNav REST API,07-Mar-2022 3.1.174
+293,1012984,carbinoxamine maleate 0.8 MG/ML / dextromethorphan hydrobromide 2.5 MG/ML / pseudoephedrine hydrochloride 12 MG/ML Oral Solution,SCD,1,1012984,RxNav REST API,07-Mar-2022 3.1.174
+294,1363752,chlorpheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 2 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,SCD,1,1363752,RxNav REST API,07-Mar-2022 3.1.174
+295,1190174,chlorpheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 3 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,SCD,1,1190174,RxNav REST API,07-Mar-2022 3.1.174
+296,1190174,chlorpheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 3 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,SCD,1,1190174,RxNav REST API,07-Mar-2022 3.1.174
+297,1086443,chlorpheniramine maleate 0.8 MG/ML / dextromethorphan hydrobromide 3 MG/ML / phenylephrine hydrochloride 2 MG/ML Oral Solution,SCD,1,1086443,RxNav REST API,07-Mar-2022 3.1.174
+298,1423702,brompheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 2 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,SCD,1,1423702,RxNav REST API,07-Mar-2022 3.1.174
+299,1300164,dexbrompheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 4 MG/ML / phenylephrine hydrochloride 2 MG/ML Oral Solution,SCD,1,1300164,RxNav REST API,07-Mar-2022 3.1.174
+3,1726216,cilastatin 500 MG / imipenem 500 MG Injection [Primaxin],SBD,1,1726216,RxNav REST API,07-Mar-2022 3.1.174
+30,1357422,brompheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 2 MG/ML / phenylpropanolamine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,1357422,RxNav REST API,07-Mar-2022 3.1.174
+300,1251031,dextromethorphan hydrobromide 3 MG/ML / guaifenesin 60 MG/ML / phenylephrine hydrochloride 2 MG/ML Oral Solution,SCD,1,1251031,RxNav REST API,07-Mar-2022 3.1.174
+301,1358620,dextromethorphan hydrobromide 3 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,SCD,1,1358620,RxNav REST API,07-Mar-2022 3.1.174
+302,1098647,dextromethorphan hydrobromide 2 MG/ML / guaifenesin 40 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,SCD,1,1098647,RxNav REST API,07-Mar-2022 3.1.174
+303,2167800,dextromethorphan hydrobromide 5 MG/ML / guaifenesin 35 MG/ML / phenylephrine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,2167800,RxNav REST API,07-Mar-2022 3.1.174
+304,2167800,dextromethorphan hydrobromide 5 MG/ML / guaifenesin 35 MG/ML / phenylephrine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,2167800,RxNav REST API,07-Mar-2022 3.1.174
+305,1357905,12 HR dextromethorphan hydrobromide 25 MG / guaifenesin 550 MG / phenylephrine hydrochloride 20 MG Extended Release Oral Tablet,SCD,1,1357905,RxNav REST API,07-Mar-2022 3.1.174
+306,1357905,12 HR dextromethorphan hydrobromide 25 MG / guaifenesin 550 MG / phenylephrine hydrochloride 20 MG Extended Release Oral Tablet,SCD,1,1357905,RxNav REST API,07-Mar-2022 3.1.174
+307,1536675,aspirin 325 MG / citric acid 1000 MG / sodium bicarbonate 1916 MG Effervescent Oral Tablet,SCD,1,1536675,RxNav REST API,07-Mar-2022 3.1.174
+308,1661208,"alpha 1-proteinase inhibitor, human 1 MG Injection",SCD,1,1661208,RxNav REST API,07-Mar-2022 3.1.174
+309,860426,guaifenesin 20 MG/ML / hydrocodone bitartrate 0.4 MG/ML / phenylephrine hydrochloride 2 MG/ML Oral Solution,SCD,1,860426,RxNav REST API,07-Mar-2022 3.1.174
+31,1357422,brompheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 2 MG/ML / phenylpropanolamine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,1357422,RxNav REST API,07-Mar-2022 3.1.174
+310,979469,hydrochlorothiazide 12.5 MG / losartan potassium 50 MG [Hyzaar],SBDC,1,979469,RxNav REST API,07-Mar-2022 3.1.174
+311,1053851,acetaminophen 500 MG / pamabrom 25 MG / pyrilamine maleate 15 MG [Pamprin Multi-Symptom],SBDC,1,1053851,RxNav REST API,07-Mar-2022 3.1.174
+312,1053851,acetaminophen 500 MG / pamabrom 25 MG / pyrilamine maleate 15 MG [Pamprin Multi-Symptom],SBDC,1,1053851,RxNav REST API,07-Mar-2022 3.1.174
+313,998464,miconazole nitrate 0.02 MG/MG [Desenex],SBDC,1,998464,RxNav REST API,07-Mar-2022 3.1.174
+314,979472,hydrochlorothiazide 25 MG / losartan potassium 100 MG [Hyzaar],SBDC,1,979472,RxNav REST API,07-Mar-2022 3.1.174
+315,998464,miconazole nitrate 0.02 MG/MG [Desenex],SBDC,1,998464,RxNav REST API,07-Mar-2022 3.1.174
+316,998464,miconazole nitrate 0.02 MG/MG [Desenex],SBDC,1,998464,RxNav REST API,07-Mar-2022 3.1.174
+317,1536678,aspirin 325 MG / citric acid 1000 MG / sodium bicarbonate 1916 MG [Alka-Seltzer],SBDC,1,1536678,RxNav REST API,07-Mar-2022 3.1.174
+318,1536678,aspirin 325 MG / citric acid 1000 MG / sodium bicarbonate 1916 MG [Alka-Seltzer],SBDC,1,1536678,RxNav REST API,07-Mar-2022 3.1.174
+319,1536678,aspirin 325 MG / citric acid 1000 MG / sodium bicarbonate 1916 MG [Alka-Seltzer],SBDC,1,1536678,RxNav REST API,07-Mar-2022 3.1.174
+32,1357422,brompheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 2 MG/ML / phenylpropanolamine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,1357422,RxNav REST API,07-Mar-2022 3.1.174
+320,1422102,lidocaine 40 MG/ML [LMX],SBDC,1,1422102,RxNav REST API,07-Mar-2022 3.1.174
+321,1359107,diclofenac sodium 50 MG / misoprostol 0.2 MG Delayed Release Oral Tablet [Arthrotec],SBD,1,1359107,RxNav REST API,07-Mar-2022 3.1.174
+322,1359109,diclofenac sodium 75 MG / misoprostol 0.2 MG Delayed Release Oral Tablet [Arthrotec],SBD,1,1359109,RxNav REST API,07-Mar-2022 3.1.174
+323,1046631,dextromethorphan hydrobromide 2 MG/ML / guaifenesin 40 MG/ML Oral Solution,SCD,1,1046631,RxNav REST API,07-Mar-2022 3.1.174
+324,1098911,dextromethorphan hydrobromide 1 MG/ML / guaifenesin 10 MG/ML / pseudoephedrine hydrochloride 3 MG/ML Oral Solution,SCD,1,1098911,RxNav REST API,07-Mar-2022 3.1.174
+325,2181318,chlorpheniramine maleate 4 MG / phenylephrine hydrochloride 10 MG / pyrilamine maleate 25 MG Extended Release Oral Tablet,SCD,1,2181318,RxNav REST API,07-Mar-2022 3.1.174
+326,1537772,12 HR guaifenesin 800 MG / pseudoephedrine hydrochloride 120 MG Extended Release Oral Tablet,SCD,1,1537772,RxNav REST API,07-Mar-2022 3.1.174
+327,2122799,guaifenesin 20 MG/ML / phenylephrine hydrochloride 1.5 MG/ML Oral Solution,SCD,1,2122799,RxNav REST API,07-Mar-2022 3.1.174
+328,572147,lactic acid 100 MG/ML [Lactinol],SBDC,1,572147,RxNav REST API,07-Mar-2022 3.1.174
+329,904428,lactate Topical Cream [Lactinol],SBDF,1,904428,RxNav REST API,07-Mar-2022 3.1.174
+33,1357010,brompheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 2 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution,SCD,1,1357010,RxNav REST API,07-Mar-2022 3.1.174
+330,904429,lactic acid 100 MG/ML Topical Cream [Lactinol],SBD,1,904429,RxNav REST API,07-Mar-2022 3.1.174
+331,1361048,"heparin sodium, porcine 100 UNT/ML Injectable Solution",SCD,2,1361048|1362060,RxNav REST API,07-Mar-2022 3.1.174
+332,801957,0.5 ML diazepam 5 MG/ML Rectal Gel,SCD,3,801957|801961|801966,RxNav REST API,07-Mar-2022 3.1.174
+333,885110,megestrol acetate 125 MG/ML [Megace],SBDC,1,885110,RxNav REST API,07-Mar-2022 3.1.174
+334,885111,megestrol acetate 125 MG/ML Oral Suspension [Megace],SBD,1,885111,RxNav REST API,07-Mar-2022 3.1.174
+335,1232713,tetrahydrozoline hydrochloride 0.5 MG/ML [Tyzine],SBDC,1,1232713,RxNav REST API,07-Mar-2022 3.1.174
+336,1232714,tetrahydrozoline hydrochloride 0.5 MG/ML Nasal Solution [Tyzine],SBD,1,1232714,RxNav REST API,07-Mar-2022 3.1.174
+337,1718970,"antihemophilic factor, human 1 UNT Injection [Koate]",SBD,1,1718970,RxNav REST API,07-Mar-2022 3.1.174
+338,979466,hydrochlorothiazide 12.5 MG / losartan potassium 100 MG Oral Tablet [Hyzaar],SBD,1,979466,RxNav REST API,07-Mar-2022 3.1.174
+339,835726,acamprosate calcium 333 MG Delayed Release Oral Tablet,SCD,1,835726,RxNav REST API,07-Mar-2022 3.1.174
+34,1357010,brompheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 2 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution,SCD,1,1357010,RxNav REST API,07-Mar-2022 3.1.174
+340,1726296,onabotulinumtoxinA 50 UNT Injection [Botox Cosmetic],SBD,2,1726296|1726313,RxNav REST API,07-Mar-2022 3.1.174
+341,1098498,brompheniramine maleate 0.2 MG/ML / pseudoephedrine hydrochloride 3 MG/ML Oral Solution,SCD,1,1098498,RxNav REST API,07-Mar-2022 3.1.174
+342,1090506,dextromethorphan hydrobromide 1.5 MG/ML / pseudoephedrine hydrochloride 3 MG/ML Oral Solution,SCD,1,1090506,RxNav REST API,07-Mar-2022 3.1.174
+343,1357010,brompheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 2 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution,SCD,1,1357010,RxNav REST API,07-Mar-2022 3.1.174
+344,996757,codeine phosphate 2 MG/ML / phenylephrine hydrochloride 1 MG/ML / promethazine hydrochloride 1.25 MG/ML Oral Solution,SCD,1,996757,RxNav REST API,07-Mar-2022 3.1.174
+345,1098497,brompheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1 MG/ML / pseudoephedrine hydrochloride 3 MG/ML Oral Solution,SCD,1,1098497,RxNav REST API,07-Mar-2022 3.1.174
+346,1422102,lidocaine 40 MG/ML [LMX],SBDC,1,1422102,RxNav REST API,07-Mar-2022 3.1.174
+347,1422103,lidocaine 40 MG/ML Topical Cream [LMX],SBD,1,1422103,RxNav REST API,07-Mar-2022 3.1.174
+348,1250693,loperamide hydrochloride 0.133 MG/ML Oral Suspension [Imodium],SBD,1,1250693,RxNav REST API,07-Mar-2022 3.1.174
+349,1300369,"Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.016 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.005 MG/ML / Bordetella pertussis toxoid vaccine, inactivated 0.016 MG/ML / diphtheria toxoid vaccine, inactivated 5 UNT/ML / tetanus toxoid vaccine, inactivated 10 UNT/ML [Boostrix]",SBDC,1,1300369,RxNav REST API,07-Mar-2022 3.1.174
+35,1357010,brompheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 2 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution,SCD,1,1357010,RxNav REST API,07-Mar-2022 3.1.174
+350,1658102,"1 ML hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML Injection [Vaqta]",SBD,2,1658102|1658106,RxNav REST API,07-Mar-2022 3.1.174
+351,1659195,"500 ML heparin sodium, porcine 50 UNT/ML Injection",SCD,2,1659195|1659197,RxNav REST API,07-Mar-2022 3.1.174
+352,1090487,dextromethorphan hydrobromide 15 MG Oral Capsule,SCD,1,1090487,RxNav REST API,07-Mar-2022 3.1.174
+353,1357928,12 HR guaifenesin 550 MG / phenylephrine hydrochloride 8.5 MG Extended Release Oral Tablet,SCD,1,1357928,RxNav REST API,07-Mar-2022 3.1.174
+354,631799,isopropyl alcohol 0.95 ML/ML Otic Solution,SCD,1,631799,RxNav REST API,07-Mar-2022 3.1.174
+355,1357905,12 HR dextromethorphan hydrobromide 25 MG / guaifenesin 550 MG / phenylephrine hydrochloride 20 MG Extended Release Oral Tablet,SCD,1,1357905,RxNav REST API,07-Mar-2022 3.1.174
+356,1659964,acetaminophen 650 MG / pheniramine maleate 20 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution,SCD,1,1659964,RxNav REST API,07-Mar-2022 3.1.174
+357,836262,docusate sodium 50 MG,SCDC,1,836262,RxNav REST API,07-Mar-2022 3.1.174
+358,1044608,12 HR hyoscyamine sulfate 0.375 MG Extended Release Oral Capsule,SCD,1,1044608,RxNav REST API,07-Mar-2022 3.1.174
+359,1357928,12 HR guaifenesin 550 MG / phenylephrine hydrochloride 8.5 MG Extended Release Oral Tablet,SCD,1,1357928,RxNav REST API,07-Mar-2022 3.1.174
+36,1724807,2 ML bupivacaine hydrochloride 7.5 MG/ML Injection [Sensorcaine],SBD,3,1724807|1724809|1724810,RxNav REST API,07-Mar-2022 3.1.174
+360,687099,ferrous fumarate 162 MG / folic acid 1 MG / polysaccharide iron complex 115.2 MG Oral Capsule,SCD,1,687099,RxNav REST API,07-Mar-2022 3.1.174
+361,1110988,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / guaifenesin 200 MG / phenylephrine hydrochloride 5 MG Oral Tablet,SCD,1,1110988,RxNav REST API,07-Mar-2022 3.1.174
+362,1661504,1.7 ML levonordefrin 0.05 MG/ML / mepivacaine hydrochloride 20 MG/ML Cartridge,SCD,1,1661504,RxNav REST API,07-Mar-2022 3.1.174
+363,1432465,calcium carbonate 1177 MG Chewable Tablet,SCD,1,1432465,RxNav REST API,07-Mar-2022 3.1.174
+364,1357928,12 HR guaifenesin 550 MG / phenylephrine hydrochloride 8.5 MG Extended Release Oral Tablet,SCD,1,1357928,RxNav REST API,07-Mar-2022 3.1.174
+365,2183676,chlorpheniramine tannate 1 MG/ML / pseudoephedrine tannate 15 MG/ML Oral Suspension,SCD,1,2183676,RxNav REST API,07-Mar-2022 3.1.174
+366,1797833,ipratropium bromide 0.021 MG/ACTUAT Metered Dose Nasal Spray,SCD,1,1797833,RxNav REST API,07-Mar-2022 3.1.174
+367,996757,codeine phosphate 2 MG/ML / phenylephrine hydrochloride 1 MG/ML / promethazine hydrochloride 1.25 MG/ML Oral Solution,SCD,1,996757,RxNav REST API,07-Mar-2022 3.1.174
+368,631799,isopropyl alcohol 0.95 ML/ML Otic Solution,SCD,1,631799,RxNav REST API,07-Mar-2022 3.1.174
+369,1044949,dextromethorphan hydrobromide 2 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,SCD,1,1044949,RxNav REST API,07-Mar-2022 3.1.174
+37,1797933,fluticasone propionate 0.05 MG/ACTUAT Metered Dose Nasal Spray [Flonase],SBD,1,1797933,RxNav REST API,07-Mar-2022 3.1.174
+370,883726,"sennosides, USP 35.2 MG/ML Oral Solution",SCD,1,883726,RxNav REST API,07-Mar-2022 3.1.174
+371,1370211,dextromethorphan hydrobromide 1.5 MG/ML Oral Solution,SCD,1,1370211,RxNav REST API,07-Mar-2022 3.1.174
+372,864978,methadone hydrochloride 40 MG Tablet for Oral Suspension,SCD,1,864978,RxNav REST API,07-Mar-2022 3.1.174
+373,1536999,acetaminophen 250 MG / dextromethorphan hydrobromide 10 MG / doxylamine succinate 6.25 MG / phenylephrine hydrochloride 5 MG Effervescent Oral Tablet,SCD,1,1536999,RxNav REST API,07-Mar-2022 3.1.174
+374,1053258,brompheniramine maleate 0.2 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,SCD,1,1053258,RxNav REST API,07-Mar-2022 3.1.174
+375,1048519,12 HR carbetapentane citrate 5 MG / guaifenesin 1000 MG Extended Release Oral Tablet,SCD,1,1048519,RxNav REST API,07-Mar-2022 3.1.174
+376,1536678,aspirin 325 MG / citric acid 1000 MG / sodium bicarbonate 1916 MG [Alka-Seltzer],SBDC,1,1536678,RxNav REST API,07-Mar-2022 3.1.174
+377,1090443,chlorpheniramine maleate 4 MG / phenylephrine hydrochloride 10 MG Oral Tablet,SCD,1,1090443,RxNav REST API,07-Mar-2022 3.1.174
+378,1734086,20 ML ropivacaine hydrochloride 10 MG/ML Injection [Naropin],SBD,2,1734086|1734091,RxNav REST API,07-Mar-2022 3.1.174
+379,701984,mineral oil 0.425 MG/MG / petrolatum 0.568 MG/MG Ophthalmic Ointment,SCD,1,701984,RxNav REST API,07-Mar-2022 3.1.174
+38,1665214,200 ML ciprofloxacin 2 MG/ML Injection [Cipro],SBD,1,1665214,RxNav REST API,07-Mar-2022 3.1.174
+380,1431245,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / doxylamine succinate 0.417 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution,SCD,1,1431245,RxNav REST API,07-Mar-2022 3.1.174
+381,1431245,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / doxylamine succinate 0.417 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution,SCD,1,1431245,RxNav REST API,07-Mar-2022 3.1.174
+382,1090463,brompheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,SCD,1,1090463,RxNav REST API,07-Mar-2022 3.1.174
+383,1111440,chlorpheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1.5 MG/ML Oral Solution,SCD,1,1111440,RxNav REST API,07-Mar-2022 3.1.174
+384,1797892,fluticasone furoate 0.0275 MG/ACTUAT Metered Dose Nasal Spray [Veramyst],SBD,1,1797892,RxNav REST API,07-Mar-2022 3.1.174
+385,1090743,acetaminophen 500 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,SCD,1,1090743,RxNav REST API,07-Mar-2022 3.1.174
+386,1246306,120 ACTUAT budesonide 0.16 MG/ACTUAT / formoterol fumarate 0.0045 MG/ACTUAT Metered Dose Inhaler [Symbicort],SBD,1,1246306,RxNav REST API,07-Mar-2022 3.1.174
+387,1244936,calcium carbonate 1250 MG / cholecalciferol 100 UNT / vitamin K 0.04 MG Chewable Tablet,SCD,1,1244936,RxNav REST API,07-Mar-2022 3.1.174
+388,1098435,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / guaifenesin 100 MG / phenylephrine hydrochloride 5 MG Oral Tablet,SCD,1,1098435,RxNav REST API,07-Mar-2022 3.1.174
+389,898694,calcium citrate 950 MG / cholecalciferol 250 UNT Oral Tablet,SCD,1,898694,RxNav REST API,07-Mar-2022 3.1.174
+39,1244695,12 HR guaifenesin 600 MG / pseudoephedrine hydrochloride 120 MG Extended Release Oral Tablet,SCD,1,1244695,RxNav REST API,07-Mar-2022 3.1.174
+390,1670195,10 ML fosphenytoin sodium 75 MG/ML Injection,SCD,2,1670195|1670200,RxNav REST API,07-Mar-2022 3.1.174
+391,1435117,28 ACTUAT teriparatide 0.02 MG/ACTUAT Pen Injector [Forteo],SBD,1,1435117,RxNav REST API,07-Mar-2022 3.1.174
+392,1485599,guaifenesin 20 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,SCD,1,1485599,RxNav REST API,07-Mar-2022 3.1.174
+393,1037164,brompheniramine maleate 0.8 MG/ML / dextromethorphan hydrobromide 3 MG/ML / pseudoephedrine hydrochloride 9 MG/ML Oral Solution,SCD,1,1037164,RxNav REST API,07-Mar-2022 3.1.174
+394,1370125,chlorpheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 3 MG/ML Oral Solution,SCD,1,1370125,RxNav REST API,07-Mar-2022 3.1.174
+395,1361853,"0.5 ML heparin sodium, porcine 10000 UNT/ML Cartridge",SCD,1,1361853,RxNav REST API,07-Mar-2022 3.1.174
+396,1044949,dextromethorphan hydrobromide 2 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,SCD,1,1044949,RxNav REST API,07-Mar-2022 3.1.174
+397,836307,2 ML penicillin G benzathine 450000 UNT/ML / penicillin G procaine 150000 UNT/ML Prefilled Syringe [Bicillin],SBD,1,836307,RxNav REST API,07-Mar-2022 3.1.174
+398,861042,2.7 ML pramlintide acetate 1 MG/ML Pen Injector,SCD,2,861042|861044,RxNav REST API,07-Mar-2022 3.1.174
+399,1357940,dexchlorpheniramine maleate 0.4 MG/ML / hydrocodone bitartrate 0.8 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,SCD,1,1357940,RxNav REST API,07-Mar-2022 3.1.174
+4,1726216,cilastatin 500 MG / imipenem 500 MG Injection [Primaxin],SBD,1,1726216,RxNav REST API,07-Mar-2022 3.1.174
+40,1360954,hydrocortisone acetate 10 MG/ML / pramoxine hydrochloride 10 MG/ML Rectal Cream [Analpram HC],SBD,1,1360954,RxNav REST API,07-Mar-2022 3.1.174
+400,1797910,beclomethasone dipropionate 0.042 MG/ACTUAT Metered Dose Nasal Spray,SCD,1,1797910,RxNav REST API,07-Mar-2022 3.1.174
+401,1797917,beclomethasone dipropionate 0.042 MG/ACTUAT Metered Dose Nasal Spray [Beconase],SBD,1,1797917,RxNav REST API,07-Mar-2022 3.1.174
+402,1797917,beclomethasone dipropionate 0.042 MG/ACTUAT Metered Dose Nasal Spray [Beconase],SBD,1,1797917,RxNav REST API,07-Mar-2022 3.1.174
+403,1357940,dexchlorpheniramine maleate 0.4 MG/ML / hydrocodone bitartrate 0.8 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,SCD,1,1357940,RxNav REST API,07-Mar-2022 3.1.174
+404,1044949,dextromethorphan hydrobromide 2 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,SCD,1,1044949,RxNav REST API,07-Mar-2022 3.1.174
+405,1670195,10 ML fosphenytoin sodium 75 MG/ML Injection,SCD,2,1670195|1670200,RxNav REST API,07-Mar-2022 3.1.174
+406,1665210,100 ML ciprofloxacin 2 MG/ML Injection,SCD,2,1665210|1665212,RxNav REST API,07-Mar-2022 3.1.174
+407,1244951,{10 (acetaminophen 325 MG / chlorpheniramine maleate 2 MG / phenylephrine hydrochloride 5 MG Oral Tablet) / 10 (acetaminophen 325 MG / phenylephrine hydrochloride 5 MG Oral Tablet) } Pack,GPCK,1,1244951,RxNav REST API,07-Mar-2022 3.1.174
+408,1037164,brompheniramine maleate 0.8 MG/ML / dextromethorphan hydrobromide 3 MG/ML / pseudoephedrine hydrochloride 9 MG/ML Oral Solution,SCD,1,1037164,RxNav REST API,07-Mar-2022 3.1.174
+409,1037164,brompheniramine maleate 0.8 MG/ML / dextromethorphan hydrobromide 3 MG/ML / pseudoephedrine hydrochloride 9 MG/ML Oral Solution,SCD,1,1037164,RxNav REST API,07-Mar-2022 3.1.174
+41,1658259,50 ML magnesium sulfate 40 MG/ML Injection,SCD,4,1658259|1658262|1658264|1658265,RxNav REST API,07-Mar-2022 3.1.174
+410,1098497,brompheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1 MG/ML / pseudoephedrine hydrochloride 3 MG/ML Oral Solution,SCD,1,1098497,RxNav REST API,07-Mar-2022 3.1.174
+411,1357402,brompheniramine maleate 0.4 MG/ML / codeine phosphate 2 MG/ML / phenylpropanolamine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,1357402,RxNav REST API,07-Mar-2022 3.1.174
+412,1357402,brompheniramine maleate 0.4 MG/ML / codeine phosphate 2 MG/ML / phenylpropanolamine hydrochloride 2.5 MG/ML Oral Solution,SCD,1,1357402,RxNav REST API,07-Mar-2022 3.1.174
+413,1098906,brompheniramine maleate 0.4 MG/ML / guaifenesin 40 MG/ML / hydrocodone bitartrate 1 MG/ML Oral Solution,SCD,1,1098906,RxNav REST API,07-Mar-2022 3.1.174
+414,1358620,dextromethorphan hydrobromide 3 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,SCD,1,1358620,RxNav REST API,07-Mar-2022 3.1.174
+415,1098647,dextromethorphan hydrobromide 2 MG/ML / guaifenesin 40 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,SCD,1,1098647,RxNav REST API,07-Mar-2022 3.1.174
+416,1090496,dextromethorphan hydrobromide 3 MG/ML Oral Solution,SCD,1,1090496,RxNav REST API,07-Mar-2022 3.1.174
+417,996757,codeine phosphate 2 MG/ML / phenylephrine hydrochloride 1 MG/ML / promethazine hydrochloride 1.25 MG/ML Oral Solution,SCD,1,996757,RxNav REST API,07-Mar-2022 3.1.174
+418,996757,codeine phosphate 2 MG/ML / phenylephrine hydrochloride 1 MG/ML / promethazine hydrochloride 1.25 MG/ML Oral Solution,SCD,1,996757,RxNav REST API,07-Mar-2022 3.1.174
+419,1010946,carbinoxamine maleate 0.8 MG/ML / dextromethorphan hydrobromide 3 MG/ML / pseudoephedrine hydrochloride 12 MG/ML Oral Solution,SCD,1,1010946,RxNav REST API,07-Mar-2022 3.1.174
+42,1737637,20 ML lidocaine hydrochloride 15 MG/ML Injection [Xylocaine],SBD,2,1737637|1737641,RxNav REST API,07-Mar-2022 3.1.174
+420,1098498,brompheniramine maleate 0.2 MG/ML / pseudoephedrine hydrochloride 3 MG/ML Oral Solution,SCD,1,1098498,RxNav REST API,07-Mar-2022 3.1.174
+421,1098498,brompheniramine maleate 0.2 MG/ML / pseudoephedrine hydrochloride 3 MG/ML Oral Solution,SCD,1,1098498,RxNav REST API,07-Mar-2022 3.1.174
+422,1011832,lidocaine hydrochloride 40 MG/ML [LTA],SBDC,1,1011832,RxNav REST API,07-Mar-2022 3.1.174
+423,1011833,lidocaine hydrochloride 40 MG/ML Mucous Membrane Topical Solution [LTA],SBD,1,1011833,RxNav REST API,07-Mar-2022 3.1.174
+424,1098140,{1 (0.5 ML chondroitin sulfates 40 MG/ML / sodium hyaluronate 30 MG/ML Prefilled Syringe [Viscoat]) / 1 (0.55 ML sodium hyaluronate 10 MG/ML Prefilled Syringe [Provisc]) } Pack [Duovisc Kit 0.5/0.55],BPCK,1,1098140,RxNav REST API,07-Mar-2022 3.1.174
+425,1098125,{1 (0.35 ML chondroitin sulfates 40 MG/ML / sodium hyaluronate 30 MG/ML Prefilled Syringe [Viscoat]) / 1 (0.4 ML sodium hyaluronate 10 MG/ML Prefilled Syringe [Provisc]) } Pack [Duovisc Kit 0.35/0.4],BPCK,1,1098125,RxNav REST API,07-Mar-2022 3.1.174
+426,1670195,10 ML fosphenytoin sodium 75 MG/ML Injection,SCD,2,1670195|1670200,RxNav REST API,07-Mar-2022 3.1.174
+427,1670197,10 ML fosphenytoin sodium 75 MG/ML Injection [Cerebyx],SBD,2,1670197|1670201,RxNav REST API,07-Mar-2022 3.1.174
+428,1797895,olopatadine hydrochloride 0.665 MG/ACTUAT Metered Dose Nasal Spray,SCD,1,1797895,RxNav REST API,07-Mar-2022 3.1.174
+429,854247,0.8 ML enoxaparin sodium 150 MG/ML Prefilled Syringe [Lovenox],SBD,2,854247|854253,RxNav REST API,07-Mar-2022 3.1.174
+43,1737637,20 ML lidocaine hydrochloride 15 MG/ML Injection [Xylocaine],SBD,2,1737637|1737641,RxNav REST API,07-Mar-2022 3.1.174
+430,1797898,olopatadine hydrochloride 0.665 MG/ACTUAT Metered Dose Nasal Spray [PATANASE],SBD,1,1797898,RxNav REST API,07-Mar-2022 3.1.174
+431,1718965,"antihemophilic factor, human 1 UNT Injection [Hemofil]",SBD,1,1718965,RxNav REST API,07-Mar-2022 3.1.174
+432,1718962,"antihemophilic factor, human 1 UNT Injection",SCD,2,1718962|1719222,RxNav REST API,07-Mar-2022 3.1.174
+433,1718965,"antihemophilic factor, human 1 UNT Injection [Hemofil]",SBD,1,1718965,RxNav REST API,07-Mar-2022 3.1.174
+434,1718965,"antihemophilic factor, human 1 UNT Injection [Hemofil]",SBD,1,1718965,RxNav REST API,07-Mar-2022 3.1.174
+435,1719243,"antihemophilic factor, human recombinant 1 UNT Injection [Recombinate]",SBD,1,1719243,RxNav REST API,07-Mar-2022 3.1.174
+436,1719243,"antihemophilic factor, human recombinant 1 UNT Injection [Recombinate]",SBD,1,1719243,RxNav REST API,07-Mar-2022 3.1.174
+437,1661332,"factor VIII, human 1 UNT / von Willebrand factor, human 1 UNT Injection",SCD,3,1661332|1718962|1719222,RxNav REST API,07-Mar-2022 3.1.174
+438,1719243,"antihemophilic factor, human recombinant 1 UNT Injection [Recombinate]",SBD,1,1719243,RxNav REST API,07-Mar-2022 3.1.174
+439,1237110,acetaminophen 33.3 MG/ML / dextromethorphan hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML / pseudoephedrine hydrochloride 2 MG/ML Oral Solution,SCD,1,1237110,RxNav REST API,07-Mar-2022 3.1.174
+44,1667911,1 ML isoproterenol hydrochloride 0.2 MG/ML Injection [Isuprel],SBD,2,1667911|1667916,RxNav REST API,07-Mar-2022 3.1.174
+440,1719222,"antihemophilic factor, human recombinant 1 UNT Injection",SCD,1,1719222,RxNav REST API,07-Mar-2022 3.1.174
+441,1719225,"antihemophilic factor, human recombinant 1 UNT Injection [Advate]",SBD,1,1719225,RxNav REST API,07-Mar-2022 3.1.174
+442,1719222,"antihemophilic factor, human recombinant 1 UNT Injection",SCD,1,1719222,RxNav REST API,07-Mar-2022 3.1.174
+443,1719225,"antihemophilic factor, human recombinant 1 UNT Injection [Advate]",SBD,1,1719225,RxNav REST API,07-Mar-2022 3.1.174
+444,1718962,"antihemophilic factor, human 1 UNT Injection",SCD,2,1718962|1719222,RxNav REST API,07-Mar-2022 3.1.174
+445,1719225,"antihemophilic factor, human recombinant 1 UNT Injection [Advate]",SBD,1,1719225,RxNav REST API,07-Mar-2022 3.1.174
+446,1719225,"antihemophilic factor, human recombinant 1 UNT Injection [Advate]",SBD,1,1719225,RxNav REST API,07-Mar-2022 3.1.174
+447,1236435,acetaminophen 325 MG / dextromethorphan hydrobromide 15 MG / pseudoephedrine hydrochloride 30 MG Oral Capsule,SCD,1,1236435,RxNav REST API,07-Mar-2022 3.1.174
+448,1098647,dextromethorphan hydrobromide 2 MG/ML / guaifenesin 40 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,SCD,1,1098647,RxNav REST API,07-Mar-2022 3.1.174
+449,1797895,olopatadine hydrochloride 0.665 MG/ACTUAT Metered Dose Nasal Spray,SCD,1,1797895,RxNav REST API,07-Mar-2022 3.1.174
+45,991149,methadone hydrochloride 10 MG/ML Oral Solution [Methadose],SBD,1,991149,RxNav REST API,07-Mar-2022 3.1.174
+450,1797898,olopatadine hydrochloride 0.665 MG/ACTUAT Metered Dose Nasal Spray [PATANASE],SBD,1,1797898,RxNav REST API,07-Mar-2022 3.1.174
+451,1247707,witch hazel 500 MG/ML [Tucks],SBDC,1,1247707,RxNav REST API,07-Mar-2022 3.1.174
+452,1247708,witch hazel Medicated Pad [Tucks],SBDF,1,1247708,RxNav REST API,07-Mar-2022 3.1.174
+453,1247709,witch hazel 500 MG/ML Medicated Pad [Tucks],SBD,1,1247709,RxNav REST API,07-Mar-2022 3.1.174
+454,1011852,lidocaine hydrochloride 0.02 MG/MG Topical Gel,SCD,1,1011852,RxNav REST API,07-Mar-2022 3.1.174
+455,1011852,lidocaine hydrochloride 0.02 MG/MG Topical Gel,SCD,1,1011852,RxNav REST API,07-Mar-2022 3.1.174
+456,1537119,acetaminophen 300 MG / oxycodone hydrochloride 10 MG [Primlev],SBDC,1,1537119,RxNav REST API,07-Mar-2022 3.1.174
+457,1537120,acetaminophen 300 MG / oxycodone hydrochloride 10 MG Oral Tablet [Primlev],SBD,1,1537120,RxNav REST API,07-Mar-2022 3.1.174
+458,1537112,acetaminophen 300 MG / oxycodone hydrochloride 5 MG [Primlev],SBDC,1,1537112,RxNav REST API,07-Mar-2022 3.1.174
+459,1537116,acetaminophen 300 MG / oxycodone hydrochloride 5 MG Oral Tablet [Primlev],SBD,1,1537116,RxNav REST API,07-Mar-2022 3.1.174
+46,1797880,nafarelin 0.2 MG/ACTUAT Metered Dose Nasal Spray [Synarel],SBD,1,1797880,RxNav REST API,07-Mar-2022 3.1.174
+460,1537121,acetaminophen 300 MG / oxycodone hydrochloride 7.5 MG [Primlev],SBDC,1,1537121,RxNav REST API,07-Mar-2022 3.1.174
+461,1537122,acetaminophen 300 MG / oxycodone hydrochloride 7.5 MG Oral Tablet [Primlev],SBD,1,1537122,RxNav REST API,07-Mar-2022 3.1.174
+462,1234954,chlorpheniramine maleate 0.4 MG/ML / dihydrocodeine bitartrate 0.6 MG/ML / phenylephrine hydrochloride 1.5 MG/ML [ColdCough PD],SBDC,1,1234954,RxNav REST API,07-Mar-2022 3.1.174
+463,1234957,chlorpheniramine maleate 0.4 MG/ML / dihydrocodeine bitartrate 0.6 MG/ML / phenylephrine hydrochloride 1.5 MG/ML Oral Solution [ColdCough PD],SBD,1,1234957,RxNav REST API,07-Mar-2022 3.1.174
+464,1113385,levoleucovorin 10 MG/ML [Fusilev],SBDC,1,1113385,RxNav REST API,07-Mar-2022 3.1.174
+465,1720760,levoleucovorin 50 MG Injection,SCD,4,1720760|1720763|1720765|1720773,RxNav REST API,07-Mar-2022 3.1.174
+466,631799,isopropyl alcohol 0.95 ML/ML Otic Solution,SCD,1,631799,RxNav REST API,07-Mar-2022 3.1.174
+467,1298405,guaifenesin 150 MG / pseudoephedrine hydrochloride 30 MG Oral Capsule,SCD,1,1298405,RxNav REST API,07-Mar-2022 3.1.174
+468,1726324,5 ML irinotecan hydrochloride 20 MG/ML Injection,SCD,3,1726324|1726333|1726492,RxNav REST API,07-Mar-2022 3.1.174
+469,1659964,acetaminophen 650 MG / pheniramine maleate 20 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution,SCD,1,1659964,RxNav REST API,07-Mar-2022 3.1.174
+47,836307,2 ML penicillin G benzathine 450000 UNT/ML / penicillin G procaine 150000 UNT/ML Prefilled Syringe [Bicillin],SBD,1,836307,RxNav REST API,07-Mar-2022 3.1.174
+470,1796460,acetaminophen 325 MG / pheniramine maleate 20 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution,SCD,1,1796460,RxNav REST API,07-Mar-2022 3.1.174
+471,1422080,lidocaine 40 MG/ML Topical Cream [AneCream],SBD,1,1422080,RxNav REST API,07-Mar-2022 3.1.174
+472,1090487,dextromethorphan hydrobromide 15 MG Oral Capsule,SCD,1,1090487,RxNav REST API,07-Mar-2022 3.1.174
+473,847121,calcium citrate 1500 MG / cholecalciferol 250 UNT Oral Tablet,SCD,1,847121,RxNav REST API,07-Mar-2022 3.1.174
+474,1362211,hydrocortisone acetate 25 MG/ML / pramoxine hydrochloride 10 MG/ML Rectal Cream [Analpram HC],SBD,1,1362211,RxNav REST API,07-Mar-2022 3.1.174
+475,1359460,benzoyl peroxide 70 MG/ML Medicated Liquid Soap [NeoBenz Micro Wash],SBD,1,1359460,RxNav REST API,07-Mar-2022 3.1.174
+476,1367219,brompheniramine tannate 2.2 MG / phenylephrine tannate 1.58 MG Chewable Tablet,SCD,1,1367219,RxNav REST API,07-Mar-2022 3.1.174
+477,1661332,"factor VIII, human 1 UNT / von Willebrand factor, human 1 UNT Injection",SCD,1,1661332,RxNav REST API,07-Mar-2022 3.1.174
+478,1661345,"factor VIII, human 1 UNT / von Willebrand factor, human 1 UNT Injection [Alphanate]",SBD,1,1661345,RxNav REST API,07-Mar-2022 3.1.174
+479,1431245,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / doxylamine succinate 0.417 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution,SCD,1,1431245,RxNav REST API,07-Mar-2022 3.1.174
+48,1728784,10 ML morphine sulfate 0.5 MG/ML Injection [Astramorph],SBD,2,1728784|1728792,RxNav REST API,07-Mar-2022 3.1.174
+480,1116351,24 HR naproxen 750 MG Extended Release Oral Tablet [Naprelan],SBD,1,1116351,RxNav REST API,07-Mar-2022 3.1.174
+481,1718965,"antihemophilic factor, human 1 UNT Injection [Hemofil]",SBD,1,1718965,RxNav REST API,07-Mar-2022 3.1.174
+482,1718965,"antihemophilic factor, human 1 UNT Injection [Hemofil]",SBD,1,1718965,RxNav REST API,07-Mar-2022 3.1.174
+483,1718965,"antihemophilic factor, human 1 UNT Injection [Hemofil]",SBD,1,1718965,RxNav REST API,07-Mar-2022 3.1.174
+484,1359460,benzoyl peroxide 70 MG/ML Medicated Liquid Soap [NeoBenz Micro Wash],SBD,1,1359460,RxNav REST API,07-Mar-2022 3.1.174
+485,1659967,acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution,SCD,1,1659967,RxNav REST API,07-Mar-2022 3.1.174
+486,1010878,lidocaine hydrochloride 40 MG/ML Mucous Membrane Topical Solution,SCD,1,1010878,RxNav REST API,07-Mar-2022 3.1.174
+487,1113705,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution,SCD,1,1113705,RxNav REST API,07-Mar-2022 3.1.174
+488,1298348,acetaminophen 21.7 MG/ML / diphenhydramine hydrochloride 0.833 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution,SCD,1,1298348,RxNav REST API,07-Mar-2022 3.1.174
+489,898694,calcium citrate 950 MG / cholecalciferol 250 UNT Oral Tablet,SCD,1,898694,RxNav REST API,07-Mar-2022 3.1.174
+49,995868,codeine phosphate 2 MG/ML / guaifenesin 20 MG/ML Oral Solution,SCD,1,995868,RxNav REST API,07-Mar-2022 3.1.174
+490,1362211,hydrocortisone acetate 25 MG/ML / pramoxine hydrochloride 10 MG/ML Rectal Cream [Analpram HC],SBD,1,1362211,RxNav REST API,07-Mar-2022 3.1.174
+491,1089021,codeine phosphate 1 MG/ML / guaifenesin 20 MG/ML / pseudoephedrine hydrochloride 4.29 MG/ML Oral Suspension,SCD,1,1089021,RxNav REST API,07-Mar-2022 3.1.174
+492,1089022,codeine phosphate 1 MG/ML / guaifenesin 20 MG/ML / pseudoephedrine hydrochloride 4.29 MG/ML [Zodryl DEC],SBDC,1,1089022,RxNav REST API,07-Mar-2022 3.1.174
+493,1089023,codeine phosphate 1 MG/ML / guaifenesin 20 MG/ML / pseudoephedrine hydrochloride 4.29 MG/ML Oral Suspension [Zodryl DEC],SBD,1,1089023,RxNav REST API,07-Mar-2022 3.1.174
+494,1720760,levoleucovorin 50 MG Injection,SCD,3,1720760|1720765|1720773,RxNav REST API,07-Mar-2022 3.1.174
+495,1720760,levoleucovorin 50 MG Injection,SCD,4,1720760|1720763|1720765|1720773,RxNav REST API,07-Mar-2022 3.1.174
+496,1049123,benzalkonium chloride 1.3 MG/ML / pramoxine hydrochloride 10 MG/ML Topical Spray,SCD,1,1049123,RxNav REST API,07-Mar-2022 3.1.174
+497,1365984,ascorbic acid 35 MG/ML / cholecalciferol 0.01 MG/ML / sodium fluoride 1.1 MG/ML / vitamin A palmitate 1500 UNT/ML Oral Solution,SCD,1,1365984,RxNav REST API,07-Mar-2022 3.1.174
+498,1370211,dextromethorphan hydrobromide 1.5 MG/ML Oral Solution,SCD,1,1370211,RxNav REST API,07-Mar-2022 3.1.174
+499,1661220,"alpha 1-proteinase inhibitor, human 1 MG Injection [Prolastin]",SBD,1,1661220,RxNav REST API,07-Mar-2022 3.1.174
+5,1246113,lidocaine hydrochloride 40 MG/ML Mucous Membrane Topical Solution [Xylocaine],SBD,1,1246113,RxNav REST API,07-Mar-2022 3.1.174
+50,995868,codeine phosphate 2 MG/ML / guaifenesin 20 MG/ML Oral Solution,SCD,1,995868,RxNav REST API,07-Mar-2022 3.1.174
+500,1536464,citric acid 1000 MG,SCDC,1,1536464,RxNav REST API,07-Mar-2022 3.1.174
+501,1536675,aspirin 325 MG / citric acid 1000 MG / sodium bicarbonate 1916 MG Effervescent Oral Tablet,SCD,1,1536675,RxNav REST API,07-Mar-2022 3.1.174
+502,1661208,"alpha 1-proteinase inhibitor, human 1 MG Injection",SCD,1,1661208,RxNav REST API,07-Mar-2022 3.1.174
+503,1422080,lidocaine 40 MG/ML Topical Cream [AneCream],SBD,1,1422080,RxNav REST API,07-Mar-2022 3.1.174
+504,1188426,carboxymethylcellulose sodium 5 MG/ML Ophthalmic Solution,SCD,1,1188426,RxNav REST API,07-Mar-2022 3.1.174
+505,1431245,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / doxylamine succinate 0.417 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution,SCD,1,1431245,RxNav REST API,07-Mar-2022 3.1.174
+506,1362234,dextromethorphan hydrobromide 4 MG/ML / guaifenesin 40 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Suspension,SCD,1,1362234,RxNav REST API,07-Mar-2022 3.1.174
+507,1188426,carboxymethylcellulose sodium 5 MG/ML Ophthalmic Solution,SCD,1,1188426,RxNav REST API,07-Mar-2022 3.1.174
+508,1796460,acetaminophen 325 MG / pheniramine maleate 20 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution,SCD,1,1796460,RxNav REST API,07-Mar-2022 3.1.174
+509,1659967,acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution,SCD,1,1659967,RxNav REST API,07-Mar-2022 3.1.174
+51,995868,codeine phosphate 2 MG/ML / guaifenesin 20 MG/ML Oral Solution,SCD,1,995868,RxNav REST API,07-Mar-2022 3.1.174
+510,1659964,acetaminophen 650 MG / pheniramine maleate 20 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution,SCD,1,1659964,RxNav REST API,07-Mar-2022 3.1.174
+511,1542452,dextromethorphan hydrobromide 2 MG/ML / guaifenesin 40 MG/ML Oral Suspension,SCD,1,1542452,RxNav REST API,07-Mar-2022 3.1.174
+512,1659967,acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution,SCD,1,1659967,RxNav REST API,07-Mar-2022 3.1.174
+513,1659967,acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution,SCD,1,1659967,RxNav REST API,07-Mar-2022 3.1.174
+514,1428880,{6 (acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution) / 6 (acetaminophen 650 MG / diphenhydramine hydrochloride 25 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution) } Pack,GPCK,1,1428880,RxNav REST API,07-Mar-2022 3.1.174
+515,1661332,"factor VIII, human 1 UNT / von Willebrand factor, human 1 UNT Injection",SCD,1,1661332,RxNav REST API,07-Mar-2022 3.1.174
+516,1661345,"factor VIII, human 1 UNT / von Willebrand factor, human 1 UNT Injection [Alphanate]",SBD,1,1661345,RxNav REST API,07-Mar-2022 3.1.174
+517,1428880,{6 (acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution) / 6 (acetaminophen 650 MG / diphenhydramine hydrochloride 25 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution) } Pack,GPCK,1,1428880,RxNav REST API,07-Mar-2022 3.1.174
+518,1659967,acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution,SCD,1,1659967,RxNav REST API,07-Mar-2022 3.1.174
+519,1659967,acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution,SCD,1,1659967,RxNav REST API,07-Mar-2022 3.1.174
+52,995868,codeine phosphate 2 MG/ML / guaifenesin 20 MG/ML Oral Solution,SCD,1,995868,RxNav REST API,07-Mar-2022 3.1.174
+53,995868,codeine phosphate 2 MG/ML / guaifenesin 20 MG/ML Oral Solution,SCD,1,995868,RxNav REST API,07-Mar-2022 3.1.174
+54,995868,codeine phosphate 2 MG/ML / guaifenesin 20 MG/ML Oral Solution,SCD,1,995868,RxNav REST API,07-Mar-2022 3.1.174
+55,995868,codeine phosphate 2 MG/ML / guaifenesin 20 MG/ML Oral Solution,SCD,1,995868,RxNav REST API,07-Mar-2022 3.1.174
+56,1728801,10 ML morphine sulfate 1 MG/ML Injection [Astramorph],SBD,2,1728801|1728806,RxNav REST API,07-Mar-2022 3.1.174
+57,992671,homatropine methylbromide 0.3 MG/ML / hydrocodone bitartrate 1 MG/ML Oral Solution [Hycodan],SBD,1,992671,RxNav REST API,07-Mar-2022 3.1.174
+58,992675,homatropine methylbromide 0.3 MG/ML / hydrocodone bitartrate 1 MG/ML Oral Solution [Hydromet],SBD,1,992675,RxNav REST API,07-Mar-2022 3.1.174
+59,979470,hydrochlorothiazide 12.5 MG / losartan potassium 50 MG Oral Tablet [Hyzaar],SBD,1,979470,RxNav REST API,07-Mar-2022 3.1.174
+6,1244215,budesonide 3 MG Delayed Release Oral Capsule [Entocort],SBD,1,1244215,RxNav REST API,07-Mar-2022 3.1.174
+60,1922877,Preservative-Free timolol 2.5 MG/ML Ophthalmic Solution [Timoptic],SBD,2,1922877|1923429,RxNav REST API,07-Mar-2022 3.1.174
+61,1922895,Preservative-Free timolol 5 MG/ML Ophthalmic Solution [Timoptic],SBD,2,1922895|1992304,RxNav REST API,07-Mar-2022 3.1.174
+62,142034,benzoyl peroxide 100 MG/ML Medicated Liquid Soap,SCD,1,142034,RxNav REST API,07-Mar-2022 3.1.174
+63,1305588,12 HR dexbrompheniramine maleate 6 MG / pseudoephedrine hydrochloride 120 MG Extended Release Oral Tablet,SCD,1,1305588,RxNav REST API,07-Mar-2022 3.1.174
+64,996520,dextromethorphan hydrobromide 2 MG/ML / guaifenesin 20 MG/ML Oral Solution,SCD,1,996520,RxNav REST API,07-Mar-2022 3.1.174
+65,996520,dextromethorphan hydrobromide 2 MG/ML / guaifenesin 20 MG/ML Oral Solution,SCD,1,996520,RxNav REST API,07-Mar-2022 3.1.174
+66,1867547,potassium chloride 20 MEQ Powder for Oral Solution [Klor-Con],SBD,2,1867547|1867554,RxNav REST API,07-Mar-2022 3.1.174
+67,897693,verapamil hydrochloride 120 MG Extended Release Oral Tablet [Isoptin],SBD,1,897693,RxNav REST API,07-Mar-2022 3.1.174
+68,1867992,10 ML epinephrine 0.005 MG/ML / lidocaine hydrochloride 15 MG/ML Injection,SCD,6,1867992|1867993|1867996|1867997|1867998|1867999,RxNav REST API,07-Mar-2022 3.1.174
+69,1867940,10 ML epinephrine 0.005 MG/ML / lidocaine hydrochloride 10 MG/ML Injection [Xylocaine with Epinephrine],SBD,2,1867940|1867944,RxNav REST API,07-Mar-2022 3.1.174
+7,1359109,diclofenac sodium 75 MG / misoprostol 0.2 MG Delayed Release Oral Tablet [Arthrotec],SBD,1,1359109,RxNav REST API,07-Mar-2022 3.1.174
+70,1357013,brompheniramine maleate 0.4 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,SCD,1,1357013,RxNav REST API,07-Mar-2022 3.1.174
+71,1099310,pseudoephedrine hydrochloride 6 MG/ML / triprolidine hydrochloride 0.25 MG/ML Oral Solution [A-Phedrin],SBD,1,1099310,RxNav REST API,07-Mar-2022 3.1.174
+72,1099308,pseudoephedrine hydrochloride 6 MG/ML / triprolidine hydrochloride 0.25 MG/ML Oral Solution,SCD,1,1099308,RxNav REST API,07-Mar-2022 3.1.174
+73,1099308,pseudoephedrine hydrochloride 6 MG/ML / triprolidine hydrochloride 0.25 MG/ML Oral Solution,SCD,1,1099308,RxNav REST API,07-Mar-2022 3.1.174
+74,1099308,pseudoephedrine hydrochloride 6 MG/ML / triprolidine hydrochloride 0.25 MG/ML Oral Solution,SCD,1,1099308,RxNav REST API,07-Mar-2022 3.1.174
+75,1099308,pseudoephedrine hydrochloride 6 MG/ML / triprolidine hydrochloride 0.25 MG/ML Oral Solution,SCD,1,1099308,RxNav REST API,07-Mar-2022 3.1.174
+76,1099308,pseudoephedrine hydrochloride 6 MG/ML / triprolidine hydrochloride 0.25 MG/ML Oral Solution,SCD,1,1099308,RxNav REST API,07-Mar-2022 3.1.174
+77,1099308,pseudoephedrine hydrochloride 6 MG/ML / triprolidine hydrochloride 0.25 MG/ML Oral Solution,SCD,1,1099308,RxNav REST API,07-Mar-2022 3.1.174
+78,1099308,pseudoephedrine hydrochloride 6 MG/ML / triprolidine hydrochloride 0.25 MG/ML Oral Solution,SCD,1,1099308,RxNav REST API,07-Mar-2022 3.1.174
+79,1099446,pseudoephedrine hydrochloride 60 MG / triprolidine hydrochloride 2.5 MG Oral Tablet,SCD,1,1099446,RxNav REST API,07-Mar-2022 3.1.174
+8,1797915,triamcinolone acetonide 0.055 MG/ACTUAT Metered Dose Nasal Spray [Nasacort],SBD,1,1797915,RxNav REST API,07-Mar-2022 3.1.174
+80,1115005,docusate sodium 100 MG Oral Capsule,SCD,1,1115005,RxNav REST API,07-Mar-2022 3.1.174
+81,1090743,acetaminophen 500 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,SCD,1,1090743,RxNav REST API,07-Mar-2022 3.1.174
+82,1245686,docusate sodium 10 MG/ML Oral Solution,SCD,2,1245686|1248119,RxNav REST API,07-Mar-2022 3.1.174
+83,1245391,docusate sodium 4 MG/ML Oral Solution,SCD,1,1245391,RxNav REST API,07-Mar-2022 3.1.174
+84,1245391,docusate sodium 4 MG/ML Oral Solution,SCD,1,1245391,RxNav REST API,07-Mar-2022 3.1.174
+85,1245391,docusate sodium 4 MG/ML Oral Solution,SCD,1,1245391,RxNav REST API,07-Mar-2022 3.1.174
+86,631799,isopropyl alcohol 0.95 ML/ML Otic Solution,SCD,1,631799,RxNav REST API,07-Mar-2022 3.1.174
+87,1370125,chlorpheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 3 MG/ML Oral Solution,SCD,1,1370125,RxNav REST API,07-Mar-2022 3.1.174
+88,1370125,chlorpheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 3 MG/ML Oral Solution,SCD,1,1370125,RxNav REST API,07-Mar-2022 3.1.174
+89,1370211,dextromethorphan hydrobromide 1.5 MG/ML Oral Solution,SCD,1,1370211,RxNav REST API,07-Mar-2022 3.1.174
+9,1726321,2 ML irinotecan hydrochloride 20 MG/ML Injection [Camptosar],SBD,3,1726321|1726325|1726335,RxNav REST API,07-Mar-2022 3.1.174
+90,1370211,dextromethorphan hydrobromide 1.5 MG/ML Oral Solution,SCD,1,1370211,RxNav REST API,07-Mar-2022 3.1.174
+91,1090496,dextromethorphan hydrobromide 3 MG/ML Oral Solution,SCD,1,1090496,RxNav REST API,07-Mar-2022 3.1.174
+92,1090496,dextromethorphan hydrobromide 3 MG/ML Oral Solution,SCD,1,1090496,RxNav REST API,07-Mar-2022 3.1.174
+93,1090496,dextromethorphan hydrobromide 3 MG/ML Oral Solution,SCD,1,1090496,RxNav REST API,07-Mar-2022 3.1.174
+94,1234473,dextromethorphan hydrobromide 3 MG/ML / guaifenesin 20 MG/ML Oral Solution,SCD,1,1234473,RxNav REST API,07-Mar-2022 3.1.174
+95,1234473,dextromethorphan hydrobromide 3 MG/ML / guaifenesin 20 MG/ML Oral Solution,SCD,1,1234473,RxNav REST API,07-Mar-2022 3.1.174
+96,1250528,acetaminophen 4.17 MG/ML / chlorpheniramine maleate 0.0167 MG/ML / dextromethorphan hydrobromide 0.125 MG/ML / pseudoephedrine hydrochloride 0.25 MG/ML Oral Solution,SCD,1,1250528,RxNav REST API,07-Mar-2022 3.1.174
+97,1251928,acetaminophen 500 MG / chlorpheniramine maleate 2 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,SCD,1,1251928,RxNav REST API,07-Mar-2022 3.1.174
+98,1251928,acetaminophen 500 MG / chlorpheniramine maleate 2 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,SCD,1,1251928,RxNav REST API,07-Mar-2022 3.1.174
+99,1044949,dextromethorphan hydrobromide 2 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,SCD,1,1044949,RxNav REST API,07-Mar-2022 3.1.174

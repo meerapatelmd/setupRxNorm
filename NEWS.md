@@ -1,4 +1,14 @@
-# setupRxNorm 1.4.0.9000  
+# setupRxNorm 1.5.0  
+
+## RxNorm Proper  
+
+* `run_setup()` arguments updated to represent the 2 additional 
+schemas that processed tables are written to: RxRel and RxTra. 
+RxRel contains tables laterally map between RxNorm tty while 
+RxTra are tables with RxNorm data that has been enhanced with 
+data pulled directly from the RxNorm API somehow such as 
+RxCUI data for RxCUIs no longer available in the RRF files.  
+
 
 ## RxNav RxClass  
 
