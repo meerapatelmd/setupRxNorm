@@ -71,7 +71,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">setupRxNorm</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.5.0</span>
       </span>
     </div>
 
@@ -109,13 +109,58 @@
       
     </div>
 
-    <div id="setuprxnorm-0-1-0" class="section level1">
-<h1 class="page-header" data-toc-text="0.1.0">
-<a href="#setuprxnorm-0-1-0" class="anchor"></a>setupRxNorm 0.1.0</h1>
+    <div id="setuprxnorm-150" class="section level1">
+<h1 class="page-header" data-toc-text="1.5.0">
+<a href="#setuprxnorm-150" class="anchor"></a>setupRxNorm 1.5.0</h1>
+<div id="rxnorm-proper" class="section level2">
+<h2 class="hasAnchor">
+<a href="#rxnorm-proper" class="anchor"></a>RxNorm Proper</h2>
 <ul>
-<li>Added a <code>NEWS.md</code> file to track changes to the package.<br>
-</li>
-<li>Fixed bug at logging step</li>
+<li>
+<code><a href="../reference/run_setup.html">run_setup()</a></code> arguments updated to represent the 2 additional schemas that processed tables are written to: RxRel and RxTra. RxRel contains tables laterally map between RxNorm tty while RxTra are tables with RxNorm data that has been enhanced with data pulled directly from the RxNorm API somehow such as RxCUI data for RxCUIs no longer available in the RRF files.</li>
+</ul>
+</div>
+<div id="rxnav-rxclass" class="section level2">
+<h2 class="hasAnchor">
+<a href="#rxnav-rxclass" class="anchor"></a>RxNav RxClass</h2>
+<div id="features" class="section level3">
+<h3 class="hasAnchor">
+<a href="#features" class="anchor"></a>Features</h3>
+<ul>
+<li><p>Added option to point to a prior RxClass RxNav version with a <code>prior_version</code> argument. This allows to test out development using extracted data when a new version is available via that API and having to rerun all the API calls.</p></li>
+<li><p>Added CONCEPT_SYNONYM table</p></li>
+</ul>
+</div>
+<div id="bugs" class="section level3">
+<h3 class="hasAnchor">
+<a href="#bugs" class="anchor"></a>Bugs</h3>
+<ul>
+<li><p>Fixed DDL to match new format</p></li>
+<li><p><code>NA</code> concept codes are filtered out of the CONCEPT table after confirming that they are duplicates, but the root cause of this error still needs to be investigated.</p></li>
+</ul>
+</div>
+</div>
+</div>
+    <div id="setuprxnorm-140" class="section level1">
+<h1 class="page-header" data-toc-text="1.4.0">
+<a href="#setuprxnorm-140" class="anchor"></a>setupRxNorm 1.4.0</h1>
+<ul>
+<li>Added RxClass Data v12 in new format</li>
+</ul>
+</div>
+    <div id="setuprxnorm-130" class="section level1">
+<h1 class="page-header" data-toc-text="1.3.0">
+<a href="#setuprxnorm-130" class="anchor"></a>setupRxNorm 1.3.0</h1>
+<ul>
+<li>Added RxClass Data v11</li>
+<li>Updated RxClass CONCEPT table output to include concept_class_id</li>
+</ul>
+</div>
+    <div id="setuprxnorm-120" class="section level1">
+<h1 class="page-header" data-toc-text="1.2.0">
+<a href="#setuprxnorm-120" class="anchor"></a>setupRxNorm 1.2.0</h1>
+<ul>
+<li>Added feature that converts RxClass API responses into relational database format</li>
 </ul>
 </div>
   </div>
@@ -131,7 +176,7 @@
 
       <footer>
       <div class="copyright">
-  <p>Developed by First Last.</p>
+  <p>Developed by Meera Patel, MD.</p>
 </div>
 
 <div class="pkgdown">

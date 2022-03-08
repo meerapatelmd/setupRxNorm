@@ -9,6 +9,7 @@ RxTra are tables with RxNorm data that has been enhanced with
 data pulled directly from the RxNorm API somehow such as 
 RxCUI data for RxCUIs no longer available in the RRF files.  
 
+
 ## RxNav RxClass  
 
 ### Features  

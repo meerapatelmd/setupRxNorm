@@ -20,6 +20,7 @@ get_rxnav_api_version <-
     httr::content(ver_resp)
   }
 
+
 #' @importFrom httr status_code
 #' @importFrom cli cli_abort
 

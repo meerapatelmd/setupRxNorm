@@ -40,10 +40,8 @@
 
 
 <meta property="og:title" content="Load RxNorm Monthly Release into Postgres — run_setup" />
-<meta property="og:description" content="The CSV files unpacked from a RxNorm Full Monthly Release download from
-https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html are loaded into Postgres.The
-file release dates are taken along with the table names and row
-counts are logged to a separate table after the loading is completed." />
+<meta property="og:description" content="The CSV files downloaded from https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html
+are loaded into Postgres." />
 
 
 
@@ -75,7 +73,7 @@ counts are logged to a separate table after the loading is completed." />
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">setupRxNorm</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.5.0</span>
       </span>
     </div>
 
@@ -115,19 +113,21 @@ counts are logged to a separate table after the loading is completed." />
     </div>
 
     <div class="ref-description">
-    <p>The CSV files unpacked from a RxNorm Full Monthly Release download from
-<a href='https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html'>https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html</a> are loaded into Postgres.The
-file release dates are taken along with the table names and row
-counts are logged to a separate table after the loading is completed.</p>
+    <p>The CSV files downloaded from <a href='RxNorm Full Monthly Release'>https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html</a>
+are loaded into Postgres.</p>
     </div>
 
     <pre class="usage"><span class='fu'>run_setup</span><span class='op'>(</span>
   <span class='va'>conn</span>,
+  conn_fun <span class='op'>=</span> <span class='st'>"pg13::local_connect()"</span>,
   schema <span class='op'>=</span> <span class='st'>"rxnorm"</span>,
   <span class='va'>rrf_path</span>,
+  rxrel_tables <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"rxnorm_to_brand_and_generic"</span><span class='op'>)</span>,
+  rxtra_tables <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"rxnorm_validity_status"</span><span class='op'>)</span>,
   verbose <span class='op'>=</span> <span class='cn'>TRUE</span>,
   render_sql <span class='op'>=</span> <span class='cn'>TRUE</span>,
   render_only <span class='op'>=</span> <span class='cn'>FALSE</span>,
+  checks <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"conn_status"</span>, <span class='st'>"conn_type"</span><span class='op'>)</span>,
   log_schema <span class='op'>=</span> <span class='st'>"public"</span>,
   log_table_name <span class='op'>=</span> <span class='st'>"setup_rxnorm_log"</span>,
   <span class='va'>log_release_date</span>
@@ -149,6 +149,14 @@ counts are logged to a separate table after the loading is completed.</p>
       <td><p>Path to the unpacked RxNorm files.</p></td>
     </tr>
     <tr>
+      <th>rxrel_tables</th>
+      <td><p>(Optional) Which RxRel schema tables to process for this run?</p></td>
+    </tr>
+    <tr>
+      <th>rxtra_tables</th>
+      <td><p>(Optional) Which RxTra schema tables to process for this run?</p></td>
+    </tr>
+    <tr>
       <th>log_schema</th>
       <td><p>Schema for the table that logs the process, Default: 'public'</p></td>
     </tr>
@@ -162,15 +170,6 @@ counts are logged to a separate table after the loading is completed.</p>
     </tr>
     </table>
 
-    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
-
-    <div class='dont-index'><p><code><a href='https://meerapatelmd.github.io/pg13/reference/schema_exists.html'>schema_exists</a></code>,<code><a href='https://meerapatelmd.github.io/pg13/reference/drop_cascade.html'>drop_cascade</a></code>,<code><a href='https://meerapatelmd.github.io/pg13/reference/send.html'>send</a></code>,<code><a href='https://meerapatelmd.github.io/pg13/reference/ls_tables.html'>ls_tables</a></code>,<code><a href='https://rdrr.io/r/base/c.html'>c("query", "query")</a></code>,<code><a href='https://meerapatelmd.github.io/pg13/reference/render_row_count.html'>render_row_count</a></code>,<code><a href='https://meerapatelmd.github.io/pg13/reference/table_exists.html'>table_exists</a></code>,<code><a href='https://meerapatelmd.github.io/pg13/reference/read_table.html'>read_table</a></code>,<code><a href='https://meerapatelmd.github.io/pg13/reference/drop_table.html'>drop_table</a></code>,<code><a href='https://meerapatelmd.github.io/pg13/reference/write_table.html'>write_table</a></code>
-<code><a href='https://ohdsi.github.io/SqlRender/reference/render.html'>render</a></code>
-<code><a href='https://purrr.tidyverse.org/reference/map.html'>map</a></code>,<code><a href='https://purrr.tidyverse.org/reference/set_names.html'>set_names</a></code>
-<code><a href='https://dplyr.tidyverse.org/reference/bind.html'>bind</a></code>,<code><a href='https://dplyr.tidyverse.org/reference/rename.html'>rename</a></code>,<code><a href='https://dplyr.tidyverse.org/reference/mutate.html'>mutate</a></code>,<code><a href='https://dplyr.tidyverse.org/reference/select.html'>select</a></code>,<code>reexports</code>
-<code><a href='https://tidyr.tidyverse.org/reference/pivot_wider.html'>pivot_wider</a></code>
-<code><a href='https://rdrr.io/pkg/cli/man/cat_line.html'>cat_line</a></code>
-<code><a href='https://tibble.tidyverse.org/reference/as_tibble.html'>as_tibble</a></code></p></div>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
@@ -183,7 +182,7 @@ counts are logged to a separate table after the loading is completed.</p>
 
       <footer>
       <div class="copyright">
-  <p>Developed by First Last.</p>
+  <p>Developed by Meera Patel, MD.</p>
 </div>
 
 <div class="pkgdown">
