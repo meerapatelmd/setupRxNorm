@@ -105,7 +105,6 @@ process_rxnorm_validity_status <-
         dplyr::mutate(rxnorm_api_version = status_version)
 
 
-
       tmp_csv <- tempfile()
       readr::write_csv(
         x = status_data,
@@ -369,7 +368,6 @@ WHERE
         ) %>%
         unlist() %>%
         unname()
-
 
       source_file <-
         system.file(

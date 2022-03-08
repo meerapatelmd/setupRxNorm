@@ -428,6 +428,31 @@ run_setup <-
         checks = checks
       )
 
+      pg13::drop_table(
+        conn = conn,
+        schema = log_schema,
+        table = log_table_name,
+        verbose = verbose,
+        render_sql = render_sql,
+        render_only = render_only
+      )
+
+      pg13::write_table(
+        conn = conn,
+        schema = log_schema,
+        table_name = log_table_name,
+        data = updated_log,
+        verbose = verbose,
+        render_sql = render_sql,
+        render_only = render_only
+      )
+
+      cli::cat_line()
+      cli::cat_boxx("Log Results",
+        float = "center"
+      )
+      print(tibble::as_tibble(updated_log))
+      cli::cat_line()
     }
 
     if ("rxnorm_validity_status" %in% rxtra_tables) {
@@ -438,8 +463,6 @@ run_setup <-
         render_only = render_only,
         checks = checks
       )
-
-
 
     }
   }

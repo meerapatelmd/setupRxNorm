@@ -13,9 +13,13 @@ process_rxnorm_validity_status(
   checks = "",
   verbose = TRUE,
   render_sql = TRUE,
+<<<<<<< HEAD
   render_only = FALSE,
   prior_version = NULL,
   prior_api_version = "3.1.174"
+=======
+  render_only = FALSE
+>>>>>>> 9286fb8b6c9a2e2e0bbdcf588d320089a030bce4
 )
 }
 \description{
@@ -25,6 +29,7 @@ the RxNav REST API and write a
 table that maps an input RxCUI or RxNorm
 code to its most current RxCUI or RxNorm code.
 }
+<<<<<<< HEAD
 \details{
 Default Schema: \code{rxtra}
 
@@ -36,3 +41,5 @@ Resource Requirements:
 \item RxNorm API
 }
 }
+=======
+>>>>>>> 9286fb8b6c9a2e2e0bbdcf588d320089a030bce4
