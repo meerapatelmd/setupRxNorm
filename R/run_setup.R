@@ -1,10 +1,9 @@
 #' @title
 #' Load RxNorm Monthly Release into Postgres
 #' @description
-#' The CSV files unpacked from a RxNorm Full Monthly Release download from
-#' \url{https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html} are loaded into Postgres.The
-#' file release dates are taken along with the table names and row
-#' counts are logged to a separate table after the loading is completed.
+#' The CSV files downloaded from \href{RxNorm Full Monthly Release}{https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html}
+#' are loaded into Postgres.
+#'
 #' @param conn Connection to a Postgres database.
 #' @param schema Target schema for the RxNorm load, Default: 'rxnorm'.
 #' @param rrf_path Path to the unpacked RxNorm files.
