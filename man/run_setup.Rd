@@ -9,12 +9,8 @@ run_setup(
   conn_fun = "pg13::local_connect()",
   schema = "rxnorm",
   rrf_path,
-<<<<<<< HEAD
   rxrel_tables = c("rxnorm_to_brand_and_generic"),
   rxtra_tables = c("rxnorm_validity_status"),
-=======
-  postprocessing = c("rxnorm_to_brand_and_generic", "rxnorm_validity_status"),
->>>>>>> 9286fb8b6c9a2e2e0bbdcf588d320089a030bce4
   verbose = TRUE,
   render_sql = TRUE,
   render_only = FALSE,
@@ -42,13 +38,6 @@ run_setup(
 \item{log_release_date}{(Required) \href{https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html}{RxNorm Monthly} Release Date.}
 }
 \description{
-<<<<<<< HEAD
 The CSV files downloaded from \href{RxNorm Full Monthly Release}{https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html}
 are loaded into Postgres.
-=======
-The CSV files unpacked from a RxNorm Full Monthly Release download from
-\url{https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html} are loaded into Postgres.The
-file release dates are taken along with the table names and row
-counts are logged to a separate table after the loading is completed.
->>>>>>> 9286fb8b6c9a2e2e0bbdcf588d320089a030bce4
 }
