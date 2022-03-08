@@ -323,7 +323,7 @@ extract_rxclass_members <-
           show_col_types = FALSE
         )
 
-      members_data <<-
+      members_data <-
       raw_members_data %>%
         dplyr::transmute(
           rxnorm_concept_code = rxcui,
