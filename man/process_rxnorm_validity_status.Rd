@@ -13,7 +13,9 @@ process_rxnorm_validity_status(
   checks = "",
   verbose = TRUE,
   render_sql = TRUE,
-  render_only = FALSE
+  render_only = FALSE,
+  prior_version = NULL,
+  prior_api_version = "3.1.174"
 )
 }
 \description{
@@ -22,4 +24,15 @@ its validity status from
 the RxNav REST API and write a
 table that maps an input RxCUI or RxNorm
 code to its most current RxCUI or RxNorm code.
+}
+\details{
+Default Schema: \code{rxtra}
+
+Time Requirement: Approximately 30 minutes to an hour
+
+Resource Requirements:
+\itemize{
+\item RxNorm schema
+\item RxNorm API
+}
 }
