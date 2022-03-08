@@ -109,6 +109,7 @@ load_rxclass_graph <-
       className <- class_df$className[kk]
       classType <- class_df$classType[kk]
       dirs_kk        <- dirs_ls$class_types[[classType]]
+      time_remaining <- as.character(lubridate::duration(seconds = ((nrow(class_df)-kk))*3))
 
       http_request <-
         glue::glue("/REST/rxclass/classGraph.json?classId={classId}")

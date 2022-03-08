@@ -59,9 +59,6 @@ function(prior_version = NULL,
     "[{as.character(Sys.time())}] {nrow(concept_classes_orphans)} classes in RxClass Members, but not found in RxClass Graph:"
   )
 
-  print_lookup(concept_classes_orphans %>%
-                 dplyr::count(vocabulary_id, class_type))
-
   orphan_classes_csv <-
     file.path(here::here(),
               "inst",
@@ -71,6 +68,30 @@ function(prior_version = NULL,
               "members",
               "processed",
               "CONCEPT_CLASSES.csv")
+
+  if (nrow(concept_classes_orphans)==0) {
+
+    orphan_concept_classes <-
+      tibble::tribble(
+    ~concept_code,
+    ~concept_name,
+    ~class_type,
+    ~standard_concept,
+    ~vocabulary_id
+      )
+
+    readr::write_csv(
+      x = orphan_concept_classes,
+      file = orphan_classes_csv
+    )
+
+
+
+  } else {
+
+  print_lookup(concept_classes_orphans %>%
+                 dplyr::count(vocabulary_id, class_type))
+
 
   cli::cli_progress_bar(
     format = paste0(
@@ -179,6 +200,8 @@ function(prior_version = NULL,
     x = orphan_concept_classes,
     file = orphan_classes_csv
   )
+
+  }
 
 
   }
