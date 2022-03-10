@@ -84,7 +84,7 @@ load_rxclass_graph <-
       dplyr::mutate(classType = as.character(classType))
 
     cli::cli_text(
-      "[{as.character(Sys.time())}] {.emph {'Loading RxClass Graphs...'}}"
+      "[{as.character(Sys.time())}] {.emph {'Loading hierachies (graphs)...'}}"
     )
 
     cli::cli_progress_bar(
@@ -94,7 +94,7 @@ load_rxclass_graph <-
         "[{as.character(Sys.time())}] {.url {url}}"
       ),
       format_done = paste0(
-        "[{as.character(Sys.time())}] {cli::col_green(symbol$tick)} Loaded {cli::pb_total} RxClass graphs ",
+        "[{as.character(Sys.time())}] {cli::col_green(symbol$tick)} Loaded {cli::pb_total} {classType} graphs ",
         "in {cli::pb_elapsed}."
       ),
       total = nrow(class_df),
