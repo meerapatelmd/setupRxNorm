@@ -114,17 +114,17 @@ rels_df <-
 
 if (is.null(rels_df)) {
   resp <-
-    GET(url = url)
+    httr::GET(url = url)
 
 
   abort_on_api_error(response = resp)
 
   rels_df <-
-    content(resp) %>%
-    pluck("relaSourceList") %>%
-    pluck("relaSourceName") %>%
+    httr::content(resp) %>%
+    purrr::pluck("relaSourceList") %>%
+    purrr::pluck("relaSourceName") %>%
     unlist() %>%
-    as_tibble_col()
+    tibble::as_tibble_col()
 
   names(rels_df) <- "relaSource"
 
