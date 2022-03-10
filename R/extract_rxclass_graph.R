@@ -346,6 +346,9 @@ for (class_type in class_types) {
 
     }
     dir.create(tmp_ca_dir)
+    on.exit(drop_dir(tmp_ca_dir),
+            add = TRUE,
+            after = TRUE)
 
 
     tmp_ca_files <- vector()

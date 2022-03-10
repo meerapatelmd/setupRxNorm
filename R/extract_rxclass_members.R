@@ -180,6 +180,10 @@ extract_rxclass_members <-
     unlink(tmp_dir, recursive = TRUE)
     unlink(tmp_dir)
     dir.create(tmp_dir)
+    on.exit(drop_dir(tmp_dir),
+            add = TRUE,
+            after = TRUE)
+
 
     members_data <- load_rxclass_members(rela_sources = rela_source,
                                          class_types = class_type,

@@ -169,7 +169,6 @@ develop_rxclass_data <-
 
       if (!file.exists(tmp_concept_ancestor_csv)) {
 
-        cli_file_missing(file_path = tmp_concept_ancestor_csv)
 
       graph_concept_ancestor_csv <-
         file.path(here::here(),
@@ -195,11 +194,9 @@ develop_rxclass_data <-
       )
 
 
-      cli_missing_file_written(tmp_concept_ancestor_csv)
 
       }
 
-      cli_file_exists(tmp_concept_ancestor_csv)
 
       tmp_concept_csv <-
         file.path(dir, "CONCEPT.csv")
