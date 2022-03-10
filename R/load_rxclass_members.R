@@ -155,12 +155,12 @@ load_rxclass_members <-
     class_df <-
       class_df %>%
       dplyr::filter(classType %in% class_types) %>%
-      mutate(
+      dplyr::mutate(
         classType =
           factor(classType, levels = class_types)) %>%
-      arrange(classType) %>%
-      mutate(classType = as.character(classType)) %>%
-      inner_join(lookup,
+      dplyr::arrange(classType) %>%
+      dplyr::mutate(classType = as.character(classType)) %>%
+      dplyr::inner_join(lookup,
                  by = "classType")
 
     cli::cli_text(
