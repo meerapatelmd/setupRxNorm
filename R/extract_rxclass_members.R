@@ -316,7 +316,7 @@ extract_rxclass_members <-
     cli::cli_progress_update()
     if (!file.exists(concept_csv)) {
 
-      raw_members_data <<-
+      raw_members_data <-
         readr::read_csv(
           file = source_members_csv,
           col_types = readr::cols(.default = "c"),
@@ -346,8 +346,8 @@ extract_rxclass_members <-
               relationship_source = relaSources,
               source_vocabulary_id = dplyr::coalesce(omop_vocabulary_id, custom_vocabulary_id)),
           by = "relationship_source") %>%
-        distinct() %>%
-        select(
+        dplyr::distinct() %>%
+        dplyr::select(
           rxnorm_concept_code,
           rxnorm_concept_name,
           rxnorm_concept_class_id,
@@ -375,7 +375,7 @@ extract_rxclass_members <-
               concept_class_id = rxnorm_concept_class_id,
               standard_concept = rxnorm_standard_concept,
               vocabulary_id = 'RxNorm') %>%
-            distinct(),
+            dplyr::distinct(),
           members_data %>%
             dplyr::transmute(
               concept_code  = source_concept_code,
@@ -384,22 +384,22 @@ extract_rxclass_members <-
               concept_class_id = "Concept",
               standard_concept = source_standard_concept,
               vocabulary_id =  source_vocabulary_id) %>%
-            distinct()
+            dplyr::distinct()
         )
 
       concept_concepts0 <-
       concept_concepts0 %>%
-        group_by(concept_code, vocabulary_id) %>%
-        arrange(concept_name, .by_group = TRUE) %>%
-        mutate(concept_name_rank = 1:n()) %>%
-        ungroup()
+        dplyr::group_by(concept_code, vocabulary_id) %>%
+        dplyr::arrange(concept_name, .by_group = TRUE) %>%
+        dplyr::mutate(concept_name_rank = 1:n()) %>%
+        dplyr::ungroup()
 
 
       concept_concepts <-
         concept_concepts0 %>%
         dplyr::filter(concept_name_rank == 1) %>%
         dplyr::select(-concept_name_rank) %>%
-        distinct()
+        dplyr::distinct()
 
 
       readr::write_csv(
@@ -435,7 +435,7 @@ extract_rxclass_members <-
           concept_code  = class_concept_code,
           standard_concept = class_standard_concept,
           class_type = class_class_type) %>%
-        distinct()
+        dplyr::distinct()
 
       readr::write_csv(
         x = concept_classes,
