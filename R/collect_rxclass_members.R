@@ -150,7 +150,7 @@ collect_rxclass_members <-
                  by = "classType")
 
     cli::cli_text(
-      "[{as.character(Sys.time())}] {.emph {'Collecting...'}}"
+      "[{as.character(Sys.time())}] {.emph {'Collecting members...'}}"
     )
 
 cli::cli_progress_bar(
@@ -159,7 +159,7 @@ cli::cli_progress_bar(
     "({cli::pb_current}/{cli::pb_total})  ETA:{time_remaining}  Elapsed:{cli::pb_elapsed}"
       ),
   format_done = paste0(
-    "[{as.character(Sys.time())}] {cli::col_green(symbol$tick)} Collected {cli::pb_total} {classType} graphs ",
+    "[{as.character(Sys.time())}] {cli::col_green(symbol$tick)} Collected {cli::pb_total} {classType} members ",
     "in {cli::pb_elapsed}."
     ),
   total = nrow(class_df),

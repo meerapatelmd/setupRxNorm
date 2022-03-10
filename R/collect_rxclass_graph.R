@@ -96,7 +96,7 @@ collect_rxclass_graph <-
       dplyr::mutate(classType = as.character(classType))
 
     cli::cli_text(
-      "[{as.character(Sys.time())}] {.emph {'Collecting...'}}"
+      "[{as.character(Sys.time())}] {.emph {'Collecting graphs...'}}"
     )
 
     cli::cli_progress_bar(

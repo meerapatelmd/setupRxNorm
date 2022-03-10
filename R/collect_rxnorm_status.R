@@ -56,7 +56,7 @@ collect_rxnorm_status <-
 
 
     cli::cli_text(
-      "[{as.character(Sys.time())}] {.emph {'Collecting...'}}"
+      "[{as.character(Sys.time())}] {.emph {'Collecting Statuses...'}}"
     )
 
     cli::cli_progress_bar(
