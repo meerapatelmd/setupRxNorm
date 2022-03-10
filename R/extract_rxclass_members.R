@@ -51,63 +51,24 @@ extract_rxclass_members <-
     }
 
 
-    cli::cli_h1(text = "RxClass Members")
+    cli::cli_h1(text = "RxClass Members -> Concept Relationship")
 
     # Derived from https://lhncbc.nlm.nih.gov/RxNav/applications/RxClassIntro.html
     # to reduce the number of API calls needed per relaSource
-    lookup <-
-      tibble::tribble(
-        ~classType, ~relaSources,
-        "ATC1-4", "ATC",
-        "CHEM", "DAILYMED",
-        "CHEM", "FDASPL",
-        "CHEM", "MEDRT",
-        "DISEASE", "MEDRT",
-        "DISPOS", "SNOMEDCT",
-        "EPC", "DAILYMED",
-        "EPC", "FDASPL",
-        "MESHPA", "MESH",
-        "MOA", "DAILYMED",
-        "MOA", "FDASPL",
-        "MOA", "MEDRT",
-        "PE", "DAILYMED",
-        "PE", "FDASPL",
-        "PE", "MEDRT",
-        "PK", "MEDRT",
-        "SCHEDULE", "RXNORM",
-        "STRUCT", "SNOMEDCT",
-        "TC", "FMTSME",
-        "VA", "VA") %>%
+    full_lookup <-
+      get_lookup()
+
+    run_lookup <-
+      full_lookup %>%
       dplyr::filter(relaSources %in% rela_sources) %>%
       dplyr::filter(classType %in% class_types)
 
-    if (nrow(lookup)==0) {
+    if (nrow(run_lookup)==0) {
 
       cli::cat_rule(cli::style_bold(cli::col_red(" * Error * ")),
                     line_col = "red")
 
-      tibble::tribble(
-        ~classType, ~relaSources,
-        "ATC1-4", "ATC",
-        "CHEM", "DAILYMED",
-        "CHEM", "FDASPL",
-        "CHEM", "MEDRT",
-        "DISEASE", "MEDRT",
-        "DISPOS", "SNOMEDCT",
-        "EPC", "DAILYMED",
-        "EPC", "FDASPL",
-        "MESHPA", "MESH",
-        "MOA", "DAILYMED",
-        "MOA", "FDASPL",
-        "MOA", "MEDRT",
-        "PE", "DAILYMED",
-        "PE", "FDASPL",
-        "PE", "MEDRT",
-        "PK", "MEDRT",
-        "SCHEDULE", "RXNORM",
-        "STRUCT", "SNOMEDCT",
-        "TC", "FMTSME",
-        "VA", "VA") %>%
+      full_lookup %>%
       huxtable::hux() %>%
         huxtable::theme_article() %>%
         huxtable::print_screen(colnames = FALSE)
@@ -121,33 +82,51 @@ extract_rxclass_members <-
 
     } else {
 
-      huxtable::hux(lookup) %>%
-      huxtable::theme_article() %>%
-      huxtable::print_screen(colnames = FALSE)
+
+      lookup <-
+        dplyr::left_join(
+          full_lookup,
+          run_lookup,
+          by = c("classType", "relaSources"),
+          keep = TRUE,
+          suffix = c("", ".run")) %>%
+        dplyr::mutate_at(
+          dplyr::vars(dplyr::ends_with(".run")),
+          ~ifelse(is.na(.), "", "X"))
+
+
+      print_lookup(lookup)
+
 
 
     }
 
     class_types <- unique(lookup$classType)
 
+    cli::cli_h2("Saving Raw Members Data to CSV")
 
     cli::cli_progress_bar(
       format = paste0(
-        "[{as.character(Sys.time())}] {.strong {class_type}} {.file {members_csv}} ",
+        "[{as.character(Sys.time())}] {.strong {class_type}} {.emph {rela_source}} ",
         "({cli::pb_current}/{cli::pb_total}) Elapsed:{cli::pb_elapsed}"
       ),
       format_done = paste0(
-        "[{as.character(Sys.time())}] {cli::col_green(cli::symbol$tick)} Wrote {cli::pb_total} csvs ",
+        "[{as.character(Sys.time())}] {cli::col_green(cli::symbol$tick)} Extracted {nrow(lookup)} member{?s} to csvs.",
         "in {cli::pb_elapsed}"
       ),
-      total = nrow(lookup)*2,
-      clear = FALSE
+      total = nrow(lookup),
+      clear = TRUE
     )
 
   for (ii in 1:nrow(lookup)) {
 
+    class_type_status  <- lookup$classType.run[ii]
+    rela_source_status <- lookup$relaSources.run[ii]
+
     class_type  <- lookup$classType[ii]
     rela_source <- lookup$relaSources[ii]
+
+    if (identical(class_type_status, "X") & identical(rela_source_status, "X")) {
     path_vctr   <-
       c(here::here(),
         "inst",
@@ -157,6 +136,9 @@ extract_rxclass_members <-
         "members",
         "raw",
         class_type)
+
+    print_df(df = lookup,
+             highlight_row = ii)
 
     for (i in 1:length(path_vctr)) {
 
@@ -170,13 +152,14 @@ extract_rxclass_members <-
     }
 
 
-    members_csv <-
+    raw_members_csv <-
       file.path(dir, sprintf("%s.csv", rela_source))
 
     cli::cli_progress_update()
-  if (!file.exists(members_csv)) {
-    cli_file_missing(file_path = members_csv)
-    #cli::cli_text("[{as.character(Sys.time())}] {.file {members_csv}} ")
+
+  if (!file.exists(raw_members_csv)) {
+    cli_file_missing(file_path = raw_members_csv)
+    #cli::cli_text("[{as.character(Sys.time())}] {.file {raw_members_csv}} ")
     tmp_path_vctr <-
       c(path_vctr,
         "tmp",
@@ -202,6 +185,8 @@ extract_rxclass_members <-
                                          class_types = class_type,
                                          prior_version = version_key$version,
                                          prior_api_version = version_key$apiVersion)
+
+    cli_message(glue::glue("Processing {length(members_data)} members..."))
     for (aa in seq_along(members_data)) {
       output <- list()
       class_id <- names(members_data)[aa]
@@ -257,7 +242,7 @@ extract_rxclass_members <-
 
     readr::write_csv(
       x = final_output,
-      file = members_csv
+      file = raw_members_csv
     )
 
     unlink(tmp_dir,
@@ -265,16 +250,14 @@ extract_rxclass_members <-
 
     unlink(tmp_dir)
 
+    cli_missing_file_written(raw_members_csv)
+
+  } else {
+  cli_file_exists(file_path = raw_members_csv)
+
   }
-  }
-  cli_file_exists(file_path = members_csv)
 
 
-
-  for (ii in 1:nrow(lookup)) {
-
-    class_type  <- lookup$classType[ii]
-    rela_source <- lookup$relaSources[ii]
     raw_source_path <-
       file.path(
         here::here(),
@@ -308,26 +291,38 @@ extract_rxclass_members <-
 
     }
 
+    print_df(lookup,
+             highlight_row = ii)
 
-    source_members_csv <-
+
+    raw_members_csv <-
       file.path(raw_source_path, sprintf("%s.csv", rela_source))
 
     concept_csv <-
       file.path(dir, "CONCEPT_CONCEPTS.csv")
+    concept_synonym_concepts_csv <-
+      file.path(dir, "CONCEPT_SYNONYM_CONCEPTS.csv")
+    concept_classes_csv <-
+      file.path(dir, "CONCEPT_CLASSES.csv")
+    cr_csv <-
+      file.path(dir, "CONCEPT_RELATIONSHIP.csv")
 
-    cli::cli_text("[{as.character(Sys.time())}] {.file {concept_csv}} ")
-    cli::cli_progress_update()
-    if (!file.exists(concept_csv)) {
+    if (!file.exists(concept_csv)|
+        !file.exists(concept_synonym_concepts_csv)|
+        !file.exists(concept_classes_csv)|
+        !file.exists(cr_csv)) {
+
+      cli_file_missing(concept_csv)
 
       raw_members_data <-
         readr::read_csv(
-          file = source_members_csv,
+          file = raw_members_csv,
           col_types = readr::cols(.default = "c"),
           show_col_types = FALSE
         )
 
       members_data <-
-      raw_members_data %>%
+        raw_members_data %>%
         dplyr::transmute(
           rxnorm_concept_code = rxcui,
           rxnorm_concept_name = name,
@@ -391,7 +386,7 @@ extract_rxclass_members <-
         )
 
       concept_concepts0 <-
-      concept_concepts0 %>%
+        concept_concepts0 %>%
         dplyr::group_by(concept_code, vocabulary_id) %>%
         dplyr::arrange(concept_name, .by_group = TRUE) %>%
         dplyr::mutate(concept_name_rank = 1:dplyr::n()) %>%
@@ -410,9 +405,7 @@ extract_rxclass_members <-
         x = concept_concepts
       )
 
-
-      concept_synonym_concepts_csv <-
-        file.path(dir, "CONCEPT_SYNONYM_CONCEPTS.csv")
+      cli_missing_file_written(concept_csv)
 
       concept_synonym_concepts <-
         concept_concepts0 %>%
@@ -428,12 +421,10 @@ extract_rxclass_members <-
         file = concept_synonym_concepts_csv
       )
 
-
-      concept_classes_csv <-
-        file.path(dir, "CONCEPT_CLASSES.csv")
+      cli_missing_file_written(concept_synonym_concepts_csv)
 
       concept_classes <-
-      members_data %>%
+        members_data %>%
         dplyr::transmute(
           concept_code  = class_concept_code,
           standard_concept = class_standard_concept,
@@ -445,45 +436,40 @@ extract_rxclass_members <-
         file = concept_classes_csv
       )
 
-
-      cr_csv <-
-        file.path(dir, "CONCEPT_RELATIONSHIP.csv")
-
-      cli::cli_text("[{as.character(Sys.time())}] {.file {cr_csv}} ")
-
+      cli_missing_file_written(concept_classes_csv)
 
       cr <-
-      dplyr::bind_rows(
-        members_data %>%
-          dplyr::transmute(
-            concept_code_1  = rxnorm_concept_code,
-            class_type_1    = class_type,
-            relationship_id = 'Mapped from',
-            relationship_source,
-            relationship_type = NA_character_,
-            concept_code_2  = source_concept_code,
-            class_type_2    = class_type) %>%
-          distinct(),
-        members_data %>%
-          dplyr::transmute(
-            concept_code_1  = source_concept_code,
-            class_type_1    = class_type,
-            relationship_id = 'Maps to',
-            relationship_source,
-            relationship_type = NA_character_,
-            concept_code_2  = rxnorm_concept_code,
-            class_type_2    = class_type) %>%
-          distinct(),
-        members_data %>%
-        dplyr::transmute(
-          concept_code_1  = class_concept_code,
-          class_type_1    = class_type,
-          relationship_id = 'Subsumes',
-          relationship_source,
-          relationship_type,
-          concept_code_2  = rxnorm_concept_code,
-          class_type_2    = class_type) %>%
-          distinct()) %>%
+        dplyr::bind_rows(
+          members_data %>%
+            dplyr::transmute(
+              concept_code_1  = rxnorm_concept_code,
+              class_type_1    = class_type,
+              relationship_id = 'Mapped from',
+              relationship_source,
+              relationship_type = NA_character_,
+              concept_code_2  = source_concept_code,
+              class_type_2    = class_type) %>%
+            distinct(),
+          members_data %>%
+            dplyr::transmute(
+              concept_code_1  = source_concept_code,
+              class_type_1    = class_type,
+              relationship_id = 'Maps to',
+              relationship_source,
+              relationship_type = NA_character_,
+              concept_code_2  = rxnorm_concept_code,
+              class_type_2    = class_type) %>%
+            distinct(),
+          members_data %>%
+            dplyr::transmute(
+              concept_code_1  = class_concept_code,
+              class_type_1    = class_type,
+              relationship_id = 'Subsumes',
+              relationship_source,
+              relationship_type,
+              concept_code_2  = rxnorm_concept_code,
+              class_type_2    = class_type) %>%
+            distinct()) %>%
         dplyr::filter(!is.na(concept_code_1),
                       !is.na(concept_code_2))
 
@@ -493,9 +479,28 @@ extract_rxclass_members <-
         file = cr_csv
       )
 
+      cli_missing_file_written(cr_csv)
+
+
+    } else {
+
+      cli_file_exists(concept_csv)
+
+      cli_file_exists(concept_synonym_concepts_csv)
+
+      cli_file_exists(concept_classes_csv)
+
+      cli_file_exists(cr_csv)
 
 
     }
+
+
+    }
+
+
+
+
   }
 
 }
