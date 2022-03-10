@@ -391,7 +391,7 @@ extract_rxclass_members <-
       concept_concepts0 %>%
         dplyr::group_by(concept_code, vocabulary_id) %>%
         dplyr::arrange(concept_name, .by_group = TRUE) %>%
-        dplyr::mutate(concept_name_rank = 1:n()) %>%
+        dplyr::mutate(concept_name_rank = 1:dplyr::n()) %>%
         dplyr::ungroup()
 
 
