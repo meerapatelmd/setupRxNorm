@@ -1,0 +1,5 @@
+rxcui,name,tty,SourceId,SourceName,Relation,classId
+235404,barbital sodium,PIN,NA,NA,INDIRECT,SCHEDULE0
+32926,paregoric,IN,NA,NA,INDIRECT,SCHEDULE0
+32926,paregoric,IN,NA,NA,DIRECT,SCHEDULE3
+235404,barbital sodium,PIN,NA,NA,DIRECT,SCHEDULE4

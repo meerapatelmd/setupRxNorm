@@ -1,0 +1,1637 @@
+concept_code,concept_name,class_type,concept_class_id,standard_concept,vocabulary_id
+003N66TS6T,RASAGILINE,MOA,Concept,NA,DailyMed
+004F72P8F4,BETHANECHOL,MOA,Concept,NA,DailyMed
+013TE6E4WV,LEDIPASVIR,MOA,Concept,NA,DailyMed
+0199MV609F,GADOTERIDOL,MOA,Concept,NA,DailyMed
+01K63SUP8D,FLUOXETINE,MOA,Concept,NA,DailyMed
+01MI4Q9DI3,PILOCARPINE,MOA,Concept,NA,DailyMed
+01ZG3TPX31,BUPROPION,MOA,Concept,NA,DailyMed
+028LZY775B,VILANTEROL,MOA,Concept,NA,DailyMed
+030PYR8953,ROPINIROLE,MOA,Concept,NA,DailyMed
+030Y90569U,NEBIVOLOL,MOA,Concept,NA,DailyMed
+038E5L962W,LIFITEGRAST,MOA,Concept,NA,DailyMed
+03KSI6WLXH,"NALDEMEDINE",MOA,Concept,NA,DailyMed
+03V657ZD3V,METHACHOLINE,MOA,Concept,NA,DailyMed
+04079A1RDZ,CYTARABINE,MOA,Concept,NA,DailyMed
+0462Z4S4OZ,OBETICHOLIC ACID,MOA,Concept,NA,DailyMed
+04Q9AIZ7NO,PEMETREXED,MOA,Concept,NA,DailyMed
+0570F37359,VOXILAPREVIR,MOA,Concept,NA,DailyMed
+05V02F2KDG,ROSIGLITAZONE,MOA,Concept,NA,DailyMed
+06A33308KH,STRONTIUM CATION SR-89,MOA,Concept,NA,DailyMed
+081L192FO9,SUVOREXANT,MOA,Concept,NA,DailyMed
+089658A12D,GUSELKUMAB,MOA,Concept,NA,DailyMed
+094ZI81Y45,TAMOXIFEN,MOA,Concept,NA,DailyMed
+0AWH8BFG9A,POLIDOCANOL,MOA,Concept,NA,DailyMed
+0C50HW4FO1,ETRAVIRINE,MOA,Concept,NA,DailyMed
+0CD5FD6S2M,FLUOCINOLONE ACETONIDE,MOA,Concept,NA,DailyMed
+0CPP32S55X,DIMERCAPROL,MOA,Concept,NA,DailyMed
+0D3Q044KCA,GALANTAMINE,MOA,Concept,NA,DailyMed
+0DHU5B8D6V,CITALOPRAM,MOA,Concept,NA,DailyMed
+0EB439235F,TIOTROPIUM,MOA,Concept,NA,DailyMed
+0F350BVT6S,ECHOTHIOPHATE,MOA,Concept,NA,DailyMed
+0F65R8P09N,GOSERELIN,MOA,Concept,NA,DailyMed
+0G3DE8943Y,LANREOTIDE,MOA,Concept,NA,DailyMed
+0H73WJJ391,TOPIRAMATE,MOA,Concept,NA,DailyMed
+0J9L7J6V8C,NEPAFENAC,MOA,Concept,NA,DailyMed
+0K47UL67F2,CARVEDILOL,MOA,Concept,NA,DailyMed
+0K5C5T2QPG,LANSOPRAZOLE,MOA,Concept,NA,DailyMed
+0NJ98Y462X,CONIVAPTAN,MOA,Concept,NA,DailyMed
+0P6C6ZOP5U,ROFLUMILAST,MOA,Concept,NA,DailyMed
+0RK7M7IABE,METHYLNALTREXONE,MOA,Concept,NA,DailyMed
+0RLU3VTK5M,SONIDEGIB,MOA,Concept,NA,DailyMed
+0T2EF4JQTU,RIMANTADINE,MOA,Concept,NA,DailyMed
+0TTZ664R7Z,PHENOXYBENZAMINE,MOA,Concept,NA,DailyMed
+0V5436JAQW,MIGLITOL,MOA,Concept,NA,DailyMed
+0VUA21238F,LAPATINIB,MOA,Concept,NA,DailyMed
+0X9PA28K43,VERTEPORFIN,MOA,Concept,NA,DailyMed
+0Y70779M1F,RIMABOTULINUMTOXINB,MOA,Concept,NA,DailyMed
+0Z5B2CJX4D,FLUDEOXYGLUCOSE F-18,MOA,Concept,NA,DailyMed
+1000082,alcaftadine,MOA,IN,NA,RxNorm
+1005921,ulipristal,MOA,IN,NA,RxNorm
+10114,streptozocin,MOA,IN,NA,RxNorm
+1012892,fingolimod,MOA,IN,NA,RxNorm
+10167,sulbactam,MOA,IN,NA,RxNorm
+10180,sulfamethoxazole,MOA,IN,NA,RxNorm
+101V0R1N2E,FEBUXOSTAT,MOA,Concept,NA,DailyMed
+10237,sulindac,MOA,IN,NA,RxNorm
+10324,tamoxifen,MOA,IN,NA,RxNorm
+10379,testosterone,MOA,IN,NA,RxNorm
+10390,tetrabenazine,MOA,IN,NA,RxNorm
+1043,apomorphine,MOA,IN,NA,RxNorm
+10473,thiotepa,MOA,IN,NA,RxNorm
+10636,tolmetin,MOA,IN,NA,RxNorm
+10689,tramadol,MOA,IN,NA,RxNorm
+107044,rabbit anti-human T-lymphocyte globulin,MOA,PIN,NA,RxNorm
+10734,tranylcypromine,MOA,IN,NA,RxNorm
+10759,triamcinolone,MOA,IN,NA,RxNorm
+10761,triamcinolone acetonide,MOA,PIN,NA,RxNorm
+10798,trientine,MOA,IN,NA,RxNorm
+10803,trifluridine,MOA,IN,NA,RxNorm
+108088,alclometasone,MOA,IN,NA,RxNorm
+108118,mometasone,MOA,IN,NA,RxNorm
+10829,trimethoprim,MOA,IN,NA,RxNorm
+10869,tropicamide,MOA,IN,NA,RxNorm
+1091643,azilsartan,MOA,IN,NA,RxNorm
+1091836,roflumilast,MOA,IN,NA,RxNorm
+1092437,belimumab,MOA,IN,NA,RxNorm
+1094833,ipilimumab,MOA,IN,NA,RxNorm
+1098413,vandetanib,MOA,IN,NA,RxNorm
+1100072,abiraterone,MOA,IN,NA,RxNorm
+1100699,linagliptin,MOA,IN,NA,RxNorm
+1102270,rilpivirine,MOA,IN,NA,RxNorm
+1112973,belatacept,MOA,IN,NA,RxNorm
+1114195,rivaroxaban,MOA,IN,NA,RxNorm
+1116632,ticagrelor,MOA,IN,NA,RxNorm
+11170,verapamil,MOA,IN,NA,RxNorm
+1119986,Centruroides (scorpion) immune F(ab')2 (equine),MOA,IN,NA,RxNorm
+11289,warfarin,MOA,IN,NA,RxNorm
+11413,zidovudine,MOA,IN,NA,RxNorm
+1147220,vemurafenib,MOA,IN,NA,RxNorm
+1147320,brentuximab vedotin,MOA,IN,NA,RxNorm
+1148138,icatibant,MOA,IN,NA,RxNorm
+1148495,crizotinib,MOA,IN,NA,RxNorm
+114934,desirudin,MOA,IN,NA,RxNorm
+114970,zafirlukast,MOA,IN,NA,RxNorm
+114979,rabeprazole,MOA,IN,NA,RxNorm
+11645,deferiprone,MOA,IN,NA,RxNorm
+117055,alemtuzumab,MOA,IN,NA,RxNorm
+118886,verteporfin,MOA,IN,NA,RxNorm
+1191,aspirin,MOA,IN,NA,RxNorm
+1193326,ruxolitinib,MOA,IN,NA,RxNorm
+119565,tolterodine,MOA,IN,NA,RxNorm
+1202,atenolol,MOA,IN,NA,RxNorm
+121191,rituximab,MOA,IN,NA,RxNorm
+121243,voriconazole,MOA,IN,NA,RxNorm
+1223,atropine,MOA,IN,NA,RxNorm
+1232150,aflibercept,MOA,IN,NA,RxNorm
+1242987,vismodegib,MOA,IN,NA,RxNorm
+1242999,axitinib,MOA,IN,NA,RxNorm
+1243041,ivacaftor,MOA,IN,NA,RxNorm
+1244607,tafluprost,MOA,IN,NA,RxNorm
+1251,azacitidine,MOA,IN,NA,RxNorm
+1256,azathioprine,MOA,IN,NA,RxNorm
+12574,gemcitabine,MOA,IN,NA,RxNorm
+1291301,avanafil,MOA,IN,NA,RxNorm
+1292,baclofen,MOA,IN,NA,RxNorm
+1294580,gemtuzumab ozogamicin,MOA,IN,NA,RxNorm
+1298944,pertuzumab,MOA,IN,NA,RxNorm
+129L90A25N,HUMAN CYTOMEGALOVIRUS IMMUNE GLOBULIN,MOA,Concept,NA,DailyMed
+1300701,lorcaserin,MOA,IN,NA,RxNorm
+1300786,mirabegron,MOA,IN,NA,RxNorm
+1302966,carfilzomib,MOA,IN,NA,RxNorm
+1303098,aclidinium,MOA,IN,NA,RxNorm
+1305558,ammonia N-13,MOA,PIN,NA,RxNorm
+1306284,cobicistat,MOA,IN,NA,RxNorm
+1306286,elvitegravir,MOA,IN,NA,RxNorm
+1306V2B0Q8,PROPANTHELINE,MOA,Concept,NA,DailyMed
+1307298,enzalutamide,MOA,IN,NA,RxNorm
+1307404,linaclotide,MOA,IN,NA,RxNorm
+1307619,bosutinib,MOA,IN,NA,RxNorm
+1310520,teriflunomide,MOA,IN,NA,RxNorm
+1312397,regorafenib,MOA,IN,NA,RxNorm
+1314372,indium In-111 oxyquinoline,MOA,PIN,NA,RxNorm
+1318915,potassium ion,MOA,IN,NA,RxNorm
+1331,barium sulfate,MOA,IN,NA,RxNorm
+134527,nelfinavir,MOA,IN,NA,RxNorm
+134547,bendamustine,MOA,IN,NA,RxNorm
+134615,brimonidine,MOA,IN,NA,RxNorm
+1347,beclomethasone,MOA,IN,NA,RxNorm
+134748,rasagiline,MOA,IN,NA,RxNorm
+1351PE5UGS,ELOTUZUMAB,MOA,Concept,NA,DailyMed
+135391,olopatadine,MOA,IN,NA,RxNorm
+135447,donepezil,MOA,IN,NA,RxNorm
+1356552,perampanel,MOA,IN,NA,RxNorm
+1357536,tofacitinib,MOA,IN,NA,RxNorm
+135775,zolmitriptan,MOA,IN,NA,RxNorm
+1361657,iodide ion I-123,MOA,PIN,NA,RxNorm
+136198,darifenacin,MOA,IN,NA,RxNorm
+1362737,fluorodeoxyglucose F18,MOA,IN,NA,RxNorm
+1363268,cabozantinib,MOA,IN,NA,RxNorm
+1363352,hydroxyethyl starch 130-0.4,MOA,IN,NA,RxNorm
+1364105,pasireotide,MOA,IN,NA,RxNorm
+136411,sildenafil,MOA,IN,NA,RxNorm
+1364290,gadofosveset,MOA,IN,NA,RxNorm
+1364347,ponatinib,MOA,IN,NA,RxNorm
+1364429,sodium cation,MOA,IN,NA,RxNorm
+1364430,apixaban,MOA,IN,NA,RxNorm
+1364468,teduglutide,MOA,IN,NA,RxNorm
+1364479,lomitapide,MOA,IN,NA,RxNorm
+1366567,raxibacumab,MOA,IN,NA,RxNorm
+1368001,alogliptin,MOA,IN,NA,RxNorm
+136H45TB7B,ALCLOMETASONE,MOA,Concept,NA,DailyMed
+1370439,"albumin microspheres, human",MOA,IN,NA,RxNorm
+1370971,ospemifene,MOA,IN,NA,RxNorm
+1373391,technetium Tc 99m tilmanocept,MOA,PIN,NA,RxNorm
+139778,tegaserod,MOA,IN,NA,RxNorm
+139896,enfuvirtide,MOA,IN,NA,RxNorm
+139953,pramlintide,MOA,IN,NA,RxNorm
+13T4O6VMAM,PIROXICAM,MOA,Concept,NA,DailyMed
+13Z9HTH115,ALOSETRON,MOA,Concept,NA,DailyMed
+140587,celecoxib,MOA,IN,NA,RxNorm
+141366,naratriptan,MOA,IN,NA,RxNorm
+141626,colesevelam,MOA,IN,NA,RxNorm
+141704,everolimus,MOA,IN,NA,RxNorm
+141A6AMN38,CILASTATIN,MOA,Concept,NA,DailyMed
+1423270,technetium Tc-99m sulfur colloid,MOA,PIN,NA,RxNorm
+1424,benztropine,MOA,IN,NA,RxNorm
+1424884,vilanterol,MOA,IN,NA,RxNorm
+1424911,dabrafenib,MOA,IN,NA,RxNorm
+1425099,trametinib,MOA,IN,NA,RxNorm
+1425419,choline C-11,MOA,PIN,NA,RxNorm
+1426598,sulfate ion,MOA,IN,NA,RxNorm
+1426680,"immunoglobulin G, human",MOA,PIN,NA,RxNorm
+1426853,magnesium cation,MOA,IN,NA,RxNorm
+1426874,ioflupane I-123,MOA,PIN,NA,RxNorm
+1427179,antithrombin alfa,MOA,PIN,NA,RxNorm
+1427224,florbetapir F-18,MOA,PIN,NA,RxNorm
+142M471B3J,CARBON DIOXIDE,MOA,Concept,NA,DailyMed
+1430438,afatinib,MOA,IN,NA,RxNorm
+1431726,technetium Tc 99m exametazime,MOA,PIN,NA,RxNorm
+1433212,levomilnacipran,MOA,IN,NA,RxNorm
+1433868,dolutegravir,MOA,IN,NA,RxNorm
+1439816,riociguat,MOA,IN,NA,RxNorm
+1440051,lixisenatide,MOA,IN,NA,RxNorm
+1441386,bazedoxifene,MOA,IN,NA,RxNorm
+1442132,macitentan,MOA,IN,NA,RxNorm
+1442981,ibrutinib,MOA,IN,NA,RxNorm
+144O8QL0L1,DICLOFENAC,MOA,Concept,NA,DailyMed
+1468845,bosentan anhydrous,MOA,PIN,NA,RxNorm
+1482502,eslicarbazepine,MOA,IN,NA,RxNorm
+1482680,luliconazole,MOA,IN,NA,RxNorm
+1482913,technetium Tc 99m sestamibi,MOA,PIN,NA,RxNorm
+14845,apraclonidine,MOA,IN,NA,RxNorm
+1484911,sofosbuvir,MOA,IN,NA,RxNorm
+1486025,flutemetamol F-18,MOA,PIN,NA,RxNorm
+1487514,umeclidinium,MOA,IN,NA,RxNorm
+1488368,technetium Tc-99m pyrophosphate,MOA,PIN,NA,RxNorm
+1488564,dapagliflozin,MOA,IN,NA,RxNorm
+1488818,technetium Tc 99m medronate,MOA,PIN,NA,RxNorm
+149,acebutolol,MOA,IN,NA,RxNorm
+1490468,tasimelteon,MOA,IN,NA,RxNorm
+1492940,florbetaben f-18,MOA,PIN,NA,RxNorm
+1512,betaine,MOA,IN,NA,RxNorm
+1514,betamethasone,MOA,IN,NA,RxNorm
+1516803,alvimopan anhydrous,MOA,PIN,NA,RxNorm
+1520,betaxolol,MOA,IN,NA,RxNorm
+1535218,siltuximab,MOA,IN,NA,RxNorm
+1535457,ceritinib,MOA,IN,NA,RxNorm
+1535922,ramucirumab,MOA,IN,NA,RxNorm
+1537034,vorapaxar,MOA,IN,NA,RxNorm
+1538097,vedolizumab,MOA,IN,NA,RxNorm
+1540825,tedizolid,MOA,IN,NA,RxNorm
+1543173,tavaborole,MOA,IN,NA,RxNorm
+1543543,belinostat,MOA,IN,NA,RxNorm
+1544460,idelalisib,MOA,IN,NA,RxNorm
+1545653,empagliflozin,MOA,IN,NA,RxNorm
+1545976,codeine anhydrous,MOA,PIN,NA,RxNorm
+1545987,amifostine anhydrous,MOA,PIN,NA,RxNorm
+1545988,cyclophosphamide anhydrous,MOA,PIN,NA,RxNorm
+1545989,enalaprilat anhydrous,MOA,PIN,NA,RxNorm
+1545996,methyldopa anhydrous,MOA,PIN,NA,RxNorm
+1546004,timolol anhydrous,MOA,PIN,NA,RxNorm
+1546007,cidofovir anhydrous,MOA,PIN,NA,RxNorm
+1546015,regadenoson anhydrous,MOA,PIN,NA,RxNorm
+1546017,tenofovir anhydrous,MOA,PIN,NA,RxNorm
+1546019,dasatinib anhydrous,MOA,PIN,NA,RxNorm
+1546022,lisinopril anhydrous,MOA,PIN,NA,RxNorm
+1546024,indinavir anhydrous,MOA,PIN,NA,RxNorm
+1546027,entecavir anhydrous,MOA,PIN,NA,RxNorm
+1546028,mercaptopurine anhydrous,MOA,PIN,NA,RxNorm
+1546030,saxagliptin anhydrous,MOA,PIN,NA,RxNorm
+1546031,canagliflozin anhydrous,MOA,PIN,NA,RxNorm
+1546059,olodaterol,MOA,IN,NA,RxNorm
+1546196,benazeprilat,MOA,PIN,NA,RxNorm
+1546207,argatroban anhydrous,MOA,PIN,NA,RxNorm
+1546223,diatrizoic acid,MOA,IN,NA,RxNorm
+1546272,manganese cation (2+),MOA,IN,NA,RxNorm
+1546273,fluoride ion F-18,MOA,PIN,NA,RxNorm
+1546357,ferric cation,MOA,IN,NA,RxNorm
+1546358,moexiprilat,MOA,IN,NA,RxNorm
+1546359,quinaprilat,MOA,IN,NA,RxNorm
+1546370,thallous cation Tl-201,MOA,PIN,NA,RxNorm
+1546373,ipratropium cation,MOA,PIN,NA,RxNorm
+1546377,ramiprilat,MOA,IN,NA,RxNorm
+1546379,trandolaprilat,MOA,IN,NA,RxNorm
+1546387,carbamoylcholine,MOA,IN,NA,RxNorm
+1546393,fosinoprilat,MOA,IN,NA,RxNorm
+1546400,perindoprilat,MOA,IN,NA,RxNorm
+1546414,methylene blue cation,MOA,PIN,NA,RxNorm
+1546415,iodide ion I-131,MOA,PIN,NA,RxNorm
+1546421,edrophonium cation,MOA,PIN,NA,RxNorm
+1546428,flunisolide anhydrous,MOA,PIN,NA,RxNorm
+1546429,gadolinium cation (3+),MOA,IN,NA,RxNorm
+1546434,82 rubidium,MOA,PIN,NA,RxNorm
+1546438,glycopyrronium,MOA,IN,NA,RxNorm
+1546443,lanthanum cation (3+),MOA,IN,NA,RxNorm
+1546447,4-phenylbutyric acid,MOA,PIN,NA,RxNorm
+1546451,iothalamic acid,MOA,IN,NA,RxNorm
+1546452,iothalamic acid I-125,MOA,PIN,NA,RxNorm
+1547099,suvorexant,MOA,IN,NA,RxNorm
+1547220,eliglustat,MOA,IN,NA,RxNorm
+1547545,pembrolizumab,MOA,IN,NA,RxNorm
+1547611,oritavancin,MOA,IN,NA,RxNorm
+155080,methacholine,MOA,IN,NA,RxNorm
+1551291,dulaglutide,MOA,IN,NA,RxNorm
+1551777,naloxegol,MOA,IN,NA,RxNorm
+1552337,netupitant,MOA,IN,NA,RxNorm
+15657,decitabine,MOA,IN,NA,RxNorm
+1591922,ledipasvir,MOA,IN,NA,RxNorm
+1592737,nintedanib,MOA,IN,NA,RxNorm
+1597258,blinatumomab,MOA,IN,NA,RxNorm
+1597371,ombitasvir,MOA,IN,NA,RxNorm
+1597373,paritaprevir,MOA,IN,NA,RxNorm
+1597381,dasabuvir,MOA,IN,NA,RxNorm
+1597582,olaparib,MOA,IN,NA,RxNorm
+1597876,nivolumab,MOA,IN,NA,RxNorm
+1599276,sulfur hexafluoride,MOA,IN,NA,RxNorm
+1599538,edoxaban,MOA,IN,NA,RxNorm
+1599788,secukinumab,MOA,IN,NA,RxNorm
+15C2VL427D,AFLIBERCEPT,MOA,Concept,NA,DailyMed
+1601374,palbociclib,MOA,IN,NA,RxNorm
+1603296,lenvatinib,MOA,IN,NA,RxNorm
+1603350,panobinostat,MOA,IN,NA,RxNorm
+1603834,avibactam,MOA,IN,NA,RxNorm
+1606274,dinutuximab,MOA,IN,NA,RxNorm
+1649480,ivabradine,MOA,IN,NA,RxNorm
+16521,adefovir,MOA,IN,NA,RxNorm
+1653781,eluxadoline,MOA,IN,NA,RxNorm
+1655922,lumacaftor,MOA,IN,NA,RxNorm
+1656052,cangrelor,MOA,IN,NA,RxNorm
+1659152,alirocumab,MOA,IN,NA,RxNorm
+1659191,sonidegib,MOA,IN,NA,RxNorm
+1665496,rolapitant,MOA,IN,NA,RxNorm
+1665509,flibanserin,MOA,IN,NA,RxNorm
+1665684,evolocumab,MOA,IN,NA,RxNorm
+16681,acarbose,MOA,IN,NA,RxNorm
+167,acetazolamide,MOA,IN,NA,RxNorm
+1670304,tipiracil,MOA,IN,NA,RxNorm
+16728,acetohydroxamic acid,MOA,IN,NA,RxNorm
+16CHD79MIX,IOTHALAMIC ACID,MOA,Concept,NA,DailyMed
+1712,botulinum toxin type A,MOA,IN,NA,RxNorm
+17128,lansoprazole,MOA,IN,NA,RxNorm
+1716203,patiromer,MOA,IN,NA,RxNorm
+1716278,trabectedin,MOA,IN,NA,RxNorm
+1720597,mepolizumab,MOA,IN,NA,RxNorm
+1720882,isavuconazole,MOA,IN,NA,RxNorm
+1721560,osimertinib,MOA,IN,NA,RxNorm
+1721947,daratumumab,MOA,IN,NA,RxNorm
+1722365,cobimetinib,MOA,IN,NA,RxNorm
+1723735,ixazomib,MOA,IN,NA,RxNorm
+1723738,necitumumab,MOA,IN,NA,RxNorm
+1724429,indium In-111 pentetreotide,MOA,PIN,NA,RxNorm
+1726081,trypan blue free acid,MOA,IN,NA,RxNorm
+1726104,elotuzumab,MOA,IN,NA,RxNorm
+1727455,alectinib,MOA,IN,NA,RxNorm
+1729002,selexipag,MOA,IN,NA,RxNorm
+17300,alfuzosin,MOA,IN,NA,RxNorm
+1734628,elbasvir,MOA,IN,NA,RxNorm
+1739745,brivaracetam,MOA,IN,NA,RxNorm
+1745075,radium Ra-223 cation,MOA,PIN,NA,RxNorm
+1745099,ixekizumab,MOA,IN,NA,RxNorm
+1746889,reslizumab,MOA,IN,NA,RxNorm
+1746906,obiltoxaximab,MOA,IN,NA,RxNorm
+1747556,venetoclax,MOA,IN,NA,RxNorm
+17652,amcinonide,MOA,IN,NA,RxNorm
+17767,amlodipine,MOA,IN,NA,RxNorm
+1789837,"Rho(D) immune globulin, human",MOA,PIN,NA,RxNorm
+1792776,atezolizumab,MOA,IN,NA,RxNorm
+1796118,fluciclovine F-18,MOA,PIN,NA,RxNorm
+1798288,obeticholic acid,MOA,IN,NA,RxNorm
+1799206,velpatasvir,MOA,IN,NA,RxNorm
+1801820,lifitegrast,MOA,IN,NA,RxNorm
+1811461,hydroxypropyl cellulose (type H),MOA,IN,NA,RxNorm
+1813,levobunolol,MOA,IN,NA,RxNorm
+1819,buprenorphine,MOA,IN,NA,RxNorm
+1828,busulfan,MOA,IN,NA,RxNorm
+183379,rivastigmine,MOA,IN,NA,RxNorm
+1841,butorphanol,MOA,IN,NA,RxNorm
+184SNS8VUH,SULINDAC,MOA,Concept,NA,DailyMed
+18603,azelastine,MOA,IN,NA,RxNorm
+1860608,sacubitrilat,MOA,IN,NA,RxNorm
+1862579,rucaparib,MOA,IN,NA,RxNorm
+1865953,crisaborole,MOA,IN,NA,RxNorm
+1871173,grazoprevir anhydrous,MOA,PIN,NA,RxNorm
+1872251,brodalumab,MOA,IN,NA,RxNorm
+1872382,telotristat,MOA,IN,NA,RxNorm
+1873752,plecanatide,MOA,IN,NA,RxNorm
+1873916,ribociclib,MOA,IN,NA,RxNorm
+1875534,avelumab,MOA,IN,NA,RxNorm
+1876119,etelcalcetide,MOA,IN,NA,RxNorm
+1876366,ocrelizumab,MOA,IN,NA,RxNorm
+1876376,dupilumab,MOA,IN,NA,RxNorm
+1876597,naldemedine,MOA,IN,NA,RxNorm
+18867,benazepril,MOA,IN,NA,RxNorm
+1895,calcium,MOA,IN,NA,RxNorm
+18989,benzoic acid,MOA,PIN,NA,RxNorm
+18D0SL7309,CHLORAMBUCIL,MOA,Concept,NA,DailyMed
+190521,abacavir,MOA,IN,NA,RxNorm
+190548,tipranavir,MOA,IN,NA,RxNorm
+1918219,valbenazine,MOA,IN,NA,RxNorm
+1918231,niraparib,MOA,IN,NA,RxNorm
+191831,infliximab,MOA,IN,NA,RxNorm
+1919083,midostaurin,MOA,IN,NA,RxNorm
+1919503,durvalumab,MOA,IN,NA,RxNorm
+1921217,brigatinib,MOA,IN,NA,RxNorm
+1922448,safinamide,MOA,IN,NA,RxNorm
+1923319,sarilumab,MOA,IN,NA,RxNorm
+19257,bethanechol,MOA,IN,NA,RxNorm
+1928588,guselkumab,MOA,IN,NA,RxNorm
+1939323,voxilaprevir,MOA,IN,NA,RxNorm
+194,acetylcholine,MOA,IN,NA,RxNorm
+194000,capecitabine,MOA,IN,NA,RxNorm
+1940332,enasidenib,MOA,IN,NA,RxNorm
+1940635,glecaprevir,MOA,IN,NA,RxNorm
+1940636,pibrentasvir,MOA,IN,NA,RxNorm
+1940643,neratinib,MOA,IN,NA,RxNorm
+194279,palivizumab,MOA,IN,NA,RxNorm
+1942950,inotuzumab ozogamicin,MOA,IN,NA,RxNorm
+194337,vorinostat,MOA,IN,NA,RxNorm
+1945077,copanlisib,MOA,IN,NA,RxNorm
+1945213,vaborbactam,MOA,IN,NA,RxNorm
+1946825,abemaciclib,MOA,IN,NA,RxNorm
+19484,bisoprolol,MOA,IN,NA,RxNorm
+194881,brinzolamide,MOA,IN,NA,RxNorm
+195085,efavirenz,MOA,IN,NA,RxNorm
+195088,lopinavir,MOA,IN,NA,RxNorm
+196102,basiliximab,MOA,IN,NA,RxNorm
+197,acetylcysteine,MOA,IN,NA,RxNorm
+19737,bromfenac,MOA,IN,NA,RxNorm
+19831,budesonide,MOA,IN,NA,RxNorm
+1986438,tisagenlecleucel,MOA,IN,NA,RxNorm
+1986808,acalabrutinib,MOA,IN,NA,RxNorm
+1987398,axicabtagene ciloleucel,MOA,IN,NA,RxNorm
+1988648,letermovir,MOA,IN,NA,RxNorm
+1989100,benralizumab,MOA,IN,NA,RxNorm
+1991302,semaglutide,MOA,IN,NA,RxNorm
+1992864,netarsudil,MOA,IN,NA,RxNorm
+19959,acrivastine,MOA,IN,NA,RxNorm
+1997443,"cytomegalovirus immune globulin, human",MOA,PIN,NA,RxNorm
+1998,captopril,MOA,IN,NA,RxNorm
+1999420,macimorelin,MOA,IN,NA,RxNorm
+19O2GP3B7Q,CLEVIDIPINE,MOA,Concept,NA,DailyMed
+19OWO1T3ZE,ENFUVIRTIDE,MOA,Concept,NA,DailyMed
+19QM69HH21,PYRIDOSTIGMINE,MOA,Concept,NA,DailyMed
+19W019ZDRJ,CICLOPIROX,MOA,Concept,NA,DailyMed
+1C058IKG3B,TERIFLUNOMIDE,MOA,Concept,NA,DailyMed
+1C39JW444G,CABOZANTINIB,MOA,Concept,NA,DailyMed
+1C75676F8V,VABORBACTAM,MOA,Concept,NA,DailyMed
+1CC1JFE158,DACTINOMYCIN,MOA,Concept,NA,DailyMed
+1FQ2RY5YHH,PATIROMER,MOA,Concept,NA,DailyMed
+1GVO236S58,HYDROXYETHYL STARCH 130/0.4,MOA,Concept,NA,DailyMed
+1H09Y5WO1F,LETERMOVIR,MOA,Concept,NA,DailyMed
+1HRS458QU2,CLOMIPHENE,MOA,Concept,NA,DailyMed
+1J444QC288,AMLODIPINE,MOA,Concept,NA,DailyMed
+1N74HM2BS7,ALFENTANIL,MOA,Concept,NA,DailyMed
+1NF15YR6UY,APREPITANT,MOA,Concept,NA,DailyMed
+1NHL2J4X8K,BENZTROPINE,MOA,Concept,NA,DailyMed
+1O4XL5SN61,ALMOTRIPTAN,MOA,Concept,NA,DailyMed
+1O6WQ6T7G3,TAFLUPROST,MOA,Concept,NA,DailyMed
+1T0N3G9CRC,TRANDOLAPRIL,MOA,Concept,NA,DailyMed
+1ULL0QJ8UC,DAPAGLIFLOZIN,MOA,Concept,NA,DailyMed
+1WS297W6MV,PHENYLEPHRINE,MOA,Concept,NA,DailyMed
+1X0094V6JV,"NAFARELIN",MOA,Concept,NA,DailyMed
+1X70OSD4VX,IBRUTINIB,MOA,Concept,NA,DailyMed
+1XU104G55N,COLESEVELAM,MOA,Concept,NA,DailyMed
+1Y740ILL1Z,IVACAFTOR,MOA,Concept,NA,DailyMed
+1ZK20VI6TY,TRIAMCINOLONE,MOA,Concept,NA,DailyMed
+2002,carbamazepine,MOA,IN,NA,RxNorm
+2019,carbidopa,MOA,IN,NA,RxNorm
+20220,carbinoxamine,MOA,IN,NA,RxNorm
+2034,carbon dioxide,MOA,IN,NA,RxNorm
+20352,carvedilol,MOA,IN,NA,RxNorm
+2047232,baricitinib,MOA,IN,NA,RxNorm
+2048727,hydroxypropyl cellulose (1600000 WAMW),MOA,IN,NA,RxNorm
+2053281,iobenguane I-131,MOA,PIN,NA,RxNorm
+2053436,tildrakizumab,MOA,IN,NA,RxNorm
+2055755,doravirine,MOA,IN,NA,RxNorm
+2059018,sarecycline,MOA,IN,NA,RxNorm
+20610,cetirizine,MOA,IN,NA,RxNorm
+207SMY3FQT,VEMURAFENIB,MOA,Concept,NA,DailyMed
+2099704,talazoparib,MOA,IN,NA,RxNorm
+20O93L6F9H,OSELTAMIVIR,MOA,Concept,NA,DailyMed
+2102775,revefenacin,MOA,IN,NA,RxNorm
+2103164,lorlatinib,MOA,IN,NA,RxNorm
+2104604,emapalumab,MOA,IN,NA,RxNorm
+2105,carmustine,MOA,IN,NA,RxNorm
+2105628,larotrectinib,MOA,IN,NA,RxNorm
+2105845,glasdegib,MOA,IN,NA,RxNorm
+2106338,amifampridine,MOA,IN,NA,RxNorm
+2107301,ravulizumab,MOA,IN,NA,RxNorm
+21090,ciclopirox,MOA,IN,NA,RxNorm
+2109055,tagraxofusp,MOA,IN,NA,RxNorm
+21107,cilostazol,MOA,IN,NA,RxNorm
+2116,carteolol,MOA,IN,NA,RxNorm
+21212,clarithromycin,MOA,IN,NA,RxNorm
+21216,clavulanic acid,MOA,PIN,NA,RxNorm
+21232,clidinium,MOA,IN,NA,RxNorm
+21241,clobazam,MOA,IN,NA,RxNorm
+21249,clocortolone,MOA,IN,NA,RxNorm
+214354,candesartan,MOA,IN,NA,RxNorm
+214555,etanercept,MOA,IN,NA,RxNorm
+214824,sevelamer,MOA,IN,NA,RxNorm
+2197842,baloxavir,MOA,IN,NA,RxNorm
+21G72T1950,TOLVAPTAN,MOA,Concept,NA,DailyMed
+221147,polyethylene glycol 3350,MOA,IN,NA,RxNorm
+221946,"citric acid, anhydrous",MOA,PIN,NA,RxNorm
+22298,dapiprazole,MOA,IN,NA,RxNorm
+22396,deflazacort,MOA,IN,NA,RxNorm
+224905,trastuzumab,MOA,IN,NA,RxNorm
+2280602,strontium cation Sr-89,MOA,PIN,NA,RxNorm
+228656,amprenavir,MOA,IN,NA,RxNorm
+228783,frovatriptan,MOA,IN,NA,RxNorm
+228790,dutasteride,MOA,IN,NA,RxNorm
+2289225,trastuzumab-dttb,MOA,PIN,NA,RxNorm
+22QOO9B8KI,ELETRIPTAN,MOA,Concept,NA,DailyMed
+22VKV8053U,RALTEGRAVIR,MOA,Concept,NA,DailyMed
+22X328QOC4,FULVESTRANT,MOA,Concept,NA,DailyMed
+2302768XJ8,OMBITASVIR,MOA,Concept,NA,DailyMed
+23066,dihematoporphyrin ether,MOA,IN,NA,RxNorm
+23088,dihydrocodeine,MOA,IN,NA,RxNorm
+231049,eletriptan,MOA,IN,NA,RxNorm
+232539,calfactant,MOA,IN,NA,RxNorm
+233603,clevidipine,MOA,IN,NA,RxNorm
+2346,chlorambucil,MOA,IN,NA,RxNorm
+23521W1S24,CLAVULANIC ACID,MOA,Concept,NA,DailyMed
+235991,anhydrous tacrolimus,MOA,PIN,NA,RxNorm
+236381,poractant alfa,MOA,IN,NA,RxNorm
+236778,trospium,MOA,IN,NA,RxNorm
+237027,loteprednol,MOA,IN,NA,RxNorm
+237159,levalbuterol,MOA,IN,NA,RxNorm
+2382,proguanil,MOA,IN,NA,RxNorm
+2400,chlorpheniramine,MOA,IN,NA,RxNorm
+24457,ethanolamine,MOA,IN,NA,RxNorm
+2447,cholestyramine resin,MOA,IN,NA,RxNorm
+24605,etodolac,MOA,IN,NA,RxNorm
+24698,fludarabine,MOA,IN,NA,RxNorm
+24853,fenoldopam,MOA,IN,NA,RxNorm
+24902,prussian blue insoluble,MOA,IN,NA,RxNorm
+2494G1JF75,LOPINAVIR,MOA,Concept,NA,DailyMed
+24MJ822NZ9,PERGOLIDE,MOA,Concept,NA,DailyMed
+24T2A1DOYB,REGORAFENIB,MOA,Concept,NA,DailyMed
+25025,finasteride,MOA,IN,NA,RxNorm
+25138,fluorescein,MOA,IN,NA,RxNorm
+25255,formoterol,MOA,IN,NA,RxNorm
+253337,bevacizumab,MOA,IN,NA,RxNorm
+2540,cilastatin,MOA,IN,NA,RxNorm
+2541,cimetidine,MOA,IN,NA,RxNorm
+25483,gadoteridol,MOA,IN,NA,RxNorm
+2556,citalopram,MOA,IN,NA,RxNorm
+25842,gluconolactone,MOA,IN,NA,RxNorm
+258494,exemestane,MOA,IN,NA,RxNorm
+2590,clobetasol,MOA,IN,NA,RxNorm
+259282,xenon-133,MOA,PIN,NA,RxNorm
+2596,clomiphene,MOA,IN,NA,RxNorm
+2599,clonidine,MOA,IN,NA,RxNorm
+25BB7EKE2E,BARIUM SULFATE,MOA,Concept,NA,DailyMed
+25X868M3DS,VISMODEGIB,MOA,Concept,NA,DailyMed
+260101,oseltamivir,MOA,IN,NA,RxNorm
+26225,ondansetron,MOA,IN,NA,RxNorm
+262323,ibritumomab tiuxetan,MOA,IN,NA,RxNorm
+26237,granisetron,MOA,IN,NA,RxNorm
+263034,panitumumab,MOA,IN,NA,RxNorm
+266604,metyrosine,MOA,IN,NA,RxNorm
+26744,hepatitis B immune globulin,MOA,IN,NA,RxNorm
+2683,colchicine,MOA,IN,NA,RxNorm
+2685,colestipol,MOA,IN,NA,RxNorm
+27084,homatropine,MOA,IN,NA,RxNorm
+27291,hydroxypropylcellulose,MOA,IN,NA,RxNorm
+274332,nateglinide,MOA,IN,NA,RxNorm
+274771,nelarabine,MOA,IN,NA,RxNorm
+275635,desloratadine,MOA,IN,NA,RxNorm
+275891,valganciclovir,MOA,IN,NA,RxNorm
+27618J1N2X,LEVORPHANOL,MOA,Concept,NA,DailyMed
+276237,emtricitabine,MOA,IN,NA,RxNorm
+27729,iodixanol,MOA,IN,NA,RxNorm
+27781,iopromide,MOA,IN,NA,RxNorm
+27792,ioversol,MOA,IN,NA,RxNorm
+278739,pegvisomant,MOA,IN,NA,RxNorm
+279645,almotriptan,MOA,IN,NA,RxNorm
+27O7W4T232,SPIRONOLACTONE,MOA,Concept,NA,DailyMed
+28031,itraconazole,MOA,IN,NA,RxNorm
+281,acyclovir,MOA,IN,NA,RxNorm
+282357,fulvestrant,MOA,IN,NA,RxNorm
+282388,imatinib,MOA,IN,NA,RxNorm
+283742,esomeprazole,MOA,IN,NA,RxNorm
+283753,perflutren,MOA,IN,NA,RxNorm
+28656,nafarelin,MOA,IN,NA,RxNorm
+2878,cortisone,MOA,IN,NA,RxNorm
+28X28X9OKV,DURVALUMAB,MOA,Concept,NA,DailyMed
+29439,medrysone,MOA,IN,NA,RxNorm
+295O53K152,POTASSIUM CATION,MOA,Concept,NA,DailyMed
+296,adenosine,MOA,IN,NA,RxNorm
+298665,nepafenac,MOA,IN,NA,RxNorm
+298869,eplerenone,MOA,IN,NA,RxNorm
+29899,methylnaltrexone,MOA,IN,NA,RxNorm
+29Z5DNL48C,OBILTOXAXIMAB,MOA,Concept,NA,DailyMed
+2BT4C47RUI,NECITUMUMAB,MOA,Concept,NA,DailyMed
+2BTY8KH53L,DEFERIPRONE,MOA,Concept,NA,DailyMed
+2FS66TH3YW,ZOLMITRIPTAN,MOA,Concept,NA,DailyMed
+2I4BC502BT,SALMETEROL,MOA,Concept,NA,DailyMed
+2K1V7GP655,SELEGILINE,MOA,Concept,NA,DailyMed
+2KH13Z0S0Y,EPROSARTAN,MOA,Concept,NA,DailyMed
+2M36281008,ETODOLAC,MOA,Concept,NA,DailyMed
+2MRO291B4U,CLOBAZAM,MOA,Concept,NA,DailyMed
+2P471X1Z11,OMALIZUMAB,MOA,Concept,NA,DailyMed
+2S9ZZM9Q9V,BEVACIZUMAB,MOA,Concept,NA,DailyMed
+2T8Q726O95,LAMIVUDINE,MOA,Concept,NA,DailyMed
+2UV6ZNQ92K,PERINDOPRILAT,MOA,Concept,NA,DailyMed
+2W4A77YPAN,FLUOCINONIDE,MOA,Concept,NA,DailyMed
+2WU922TK3L,PIBRENTASVIR,MOA,Concept,NA,DailyMed
+2XLB86RCW8,IOTHALAMIC ACID I-125,MOA,Concept,NA,DailyMed
+2Z07MYW1AZ,ANASTROZOLE,MOA,Concept,NA,DailyMed
+30009,miglitol,MOA,IN,NA,RxNorm
+3008,cyclosporine,MOA,IN,NA,RxNorm
+301542,rosuvastatin,MOA,IN,NA,RxNorm
+3022,cysteamine,MOA,IN,NA,RxNorm
+302285,conivaptan,MOA,IN,NA,RxNorm
+302379,omalizumab,MOA,IN,NA,RxNorm
+3041,cytarabine,MOA,IN,NA,RxNorm
+304962,arformoterol,MOA,IN,NA,RxNorm
+304NUG5GF4,ITRACONAZOLE,MOA,Concept,NA,DailyMed
+306674,vardenafil,MOA,IN,NA,RxNorm
+3098,dacarbazine,MOA,IN,NA,RxNorm
+30OMY4G3MK,GUANFACINE,MOA,Concept,NA,DailyMed
+30S50YM8OG,HYDROXYZINE,MOA,Concept,NA,DailyMed
+3100,dactinomycin,MOA,IN,NA,RxNorm
+3102,danazol,MOA,IN,NA,RxNorm
+3109,daunorubicin,MOA,IN,NA,RxNorm
+3131,deferoxamine,MOA,IN,NA,RxNorm
+314301,"albumin,iodinated I-131 serum",MOA,IN,NA,RxNorm
+31448,nabumetone,MOA,IN,NA,RxNorm
+31479,nalmefene,MOA,IN,NA,RxNorm
+31555,nebivolol,MOA,IN,NA,RxNorm
+317177,"albumin,iodinated I-125 serum",MOA,IN,NA,RxNorm
+31805,nilutamide,MOA,IN,NA,RxNorm
+318341,cetuximab,MOA,IN,NA,RxNorm
+31YO63LBSN,NIVOLUMAB,MOA,Concept,NA,DailyMed
+320T6RNW1F,MIFEPRISTONE,MOA,Concept,NA,DailyMed
+321064,olmesartan,MOA,IN,NA,RxNorm
+321208,fondaparinux,MOA,IN,NA,RxNorm
+321952,pimecrolimus,MOA,IN,NA,RxNorm
+321988,escitalopram,MOA,IN,NA,RxNorm
+322167,solifenacin,MOA,IN,NA,RxNorm
+3254,desonide,MOA,IN,NA,RxNorm
+3255,desoximetasone,MOA,IN,NA,RxNorm
+325646,aliskiren,MOA,IN,NA,RxNorm
+32613,oxaprozin,MOA,IN,NA,RxNorm
+3264,dexamethasone,MOA,IN,NA,RxNorm
+32675,oxybutynin,MOA,IN,NA,RxNorm
+3272,dextran 40,MOA,IN,NA,RxNorm
+327361,adalimumab,MOA,IN,NA,RxNorm
+3274,dextran 70,MOA,IN,NA,RxNorm
+3275,dextran 75,MOA,IN,NA,RxNorm
+328134,gefitinib,MOA,IN,NA,RxNorm
+32828355LL,RABEPRAZOLE,MOA,Concept,NA,DailyMed
+3289,dextromethorphan,MOA,IN,NA,RxNorm
+32937,paroxetine,MOA,IN,NA,RxNorm
+32968,clopidogrel,MOA,IN,NA,RxNorm
+33332,phenylacetic acid,MOA,PIN,NA,RxNorm
+3353,dichlorphenamide,MOA,IN,NA,RxNorm
+3355,diclofenac,MOA,IN,NA,RxNorm
+33562,foscarnet,MOA,IN,NA,RxNorm
+3361,dicyclomine,MOA,IN,NA,RxNorm
+3364,didanosine,MOA,IN,NA,RxNorm
+33738,pioglitazone,MOA,IN,NA,RxNorm
+337525,erlotinib,MOA,IN,NA,RxNorm
+33910,isradipine,MOA,IN,NA,RxNorm
+3393,diflunisal,MOA,IN,NA,RxNorm
+33CM23913M,CARBAMAZEPINE,MOA,Concept,NA,DailyMed
+33E86K87QN,TRAMETINIB,MOA,Concept,NA,DailyMed
+3423,hydromorphone,MOA,IN,NA,RxNorm
+34237V843T,ISOCARBOXAZID,MOA,Concept,NA,DailyMed
+343047,atazanavir,MOA,IN,NA,RxNorm
+34345,pralidoxime,MOA,IN,NA,RxNorm
+34369,prednicarbate,MOA,IN,NA,RxNorm
+3443,diltiazem,MOA,IN,NA,RxNorm
+3445,dimercaprol,MOA,IN,NA,RxNorm
+3446,succimer,MOA,IN,NA,RxNorm
+3498,diphenhydramine,MOA,IN,NA,RxNorm
+34K66TBT99,PRASUGREL,MOA,Concept,NA,DailyMed
+34SSX5LDE5,QUINAPRILAT,MOA,Concept,NA,DailyMed
+350374,"betaine, anhydrous",MOA,PIN,NA,RxNorm
+35208,quinapril,MOA,IN,NA,RxNorm
+35296,ramipril,MOA,IN,NA,RxNorm
+35302,sirolimus,MOA,IN,NA,RxNorm
+354770,natalizumab,MOA,IN,NA,RxNorm
+3554,disulfiram,MOA,IN,NA,RxNorm
+356887,levocetirizine,MOA,IN,NA,RxNorm
+357977,sunitinib,MOA,IN,NA,RxNorm
+35825,ganirelix,MOA,IN,NA,RxNorm
+358255,aprepitant,MOA,IN,NA,RxNorm
+358257,tolvaptan,MOA,IN,NA,RxNorm
+358258,bortezomib,MOA,IN,NA,RxNorm
+358263,tadalafil,MOA,IN,NA,RxNorm
+35827,ketorolac,MOA,IN,NA,RxNorm
+358274,ambrisentan,MOA,IN,NA,RxNorm
+35829,ranolazine,MOA,IN,NA,RxNorm
+359HUE8FJC,PENCICLOVIR,MOA,Concept,NA,DailyMed
+35A26E427H,RESLIZUMAB,MOA,Concept,NA,DailyMed
+35LT29625A,ESTRAMUSTINE,MOA,Concept,NA,DailyMed
+35S93Y190K,PROCARBAZINE,MOA,Concept,NA,DailyMed
+36117,salmeterol,MOA,IN,NA,RxNorm
+3616,dobutamine,MOA,IN,NA,RxNorm
+3639,doxorubicin,MOA,IN,NA,RxNorm
+3642,doxylamine,MOA,IN,NA,RxNorm
+36437,sertraline,MOA,IN,NA,RxNorm
+3648,droperidol,MOA,IN,NA,RxNorm
+364P9RVW4X,FOSCARNET,MOA,Concept,NA,DailyMed
+36567,simvastatin,MOA,IN,NA,RxNorm
+367589PJ2C,MEFENAMIC ACID,MOA,Concept,NA,DailyMed
+3690,pentetic acid,MOA,PIN,NA,RxNorm
+36B82AMQ7N,"NALOXONE",MOA,Concept,NA,DailyMed
+37418,sumatriptan,MOA,IN,NA,RxNorm
+3755,edetic acid,MOA,IN,NA,RxNorm
+37617,tazobactam,MOA,IN,NA,RxNorm
+37776,temozolomide,MOA,IN,NA,RxNorm
+37798,terazosin,MOA,IN,NA,RxNorm
+37925,orlistat,MOA,IN,NA,RxNorm
+37JK4STR6Z,FLIBANSERIN,MOA,Concept,NA,DailyMed
+381V4FCV2Z,TELOTRISTAT,MOA,Concept,NA,DailyMed
+3827,enalapril,MOA,IN,NA,RxNorm
+38400,atomoxetine,MOA,IN,NA,RxNorm
+38404,topiramate,MOA,IN,NA,RxNorm
+38409,toremifene,MOA,IN,NA,RxNorm
+38454,trandolapril,MOA,IN,NA,RxNorm
+38782,triptorelin,MOA,IN,NA,RxNorm
+38R1Q0L1ZE,FLUCICLOVINE F-18,MOA,Concept,NA,DailyMed
+395575MZO7,PENTOSTATIN,MOA,Concept,NA,DailyMed
+3966,ephedrine,MOA,IN,NA,RxNorm
+39684,epinastine,MOA,IN,NA,RxNorm
+39786,venlafaxine,MOA,IN,NA,RxNorm
+3982TWQ96G,NEOSTIGMINE,MOA,Concept,NA,DailyMed
+3992,epinephrine,MOA,IN,NA,RxNorm
+3995,epirubicin,MOA,IN,NA,RxNorm
+39993,zolpidem,MOA,IN,NA,RxNorm
+39998,zonisamide,MOA,IN,NA,RxNorm
+39J1LGJ30J,TRAMADOL,MOA,Concept,NA,DailyMed
+3A189DH42V,ALEMTUZUMAB,MOA,Concept,NA,DailyMed
+3B744AG22N,TECHNETIUM TC-99M EXAMETAZIME,MOA,Concept,NA,DailyMed
+3C06JJ0Z2O,OSIMERTINIB,MOA,Concept,NA,DailyMed
+3E3V44J4Z9,TRANYLCYPROMINE,MOA,Concept,NA,DailyMed
+3E74Y80MEY,FLAVOXATE,MOA,Concept,NA,DailyMed
+3H48L0LPZQ,IVABRADINE,MOA,Concept,NA,DailyMed
+3JB47N2Q2P,"NATALIZUMAB",MOA,Concept,NA,DailyMed
+3M7OB98Y7H,SILDENAFIL,MOA,Concept,NA,DailyMed
+3MM99T8R5Q,IOFLUPANE I-123,MOA,Concept,NA,DailyMed
+3OWL53L36A,MANNITOL,MOA,Concept,NA,DailyMed
+3QN8BYN5QF,FINGOLIMOD,MOA,Concept,NA,DailyMed
+3S12J47372,DOBUTAMINE,MOA,Concept,NA,DailyMed
+3S252O2Z4X,EMAPALUMAB,MOA,Concept,NA,DailyMed
+3SCV180C9W,BETAINE,MOA,Concept,NA,DailyMed
+3T1SS4E7AG,ENASIDENIB,MOA,Concept,NA,DailyMed
+3U6IO1965U,CHLORPHENIRAMINE,MOA,Concept,NA,DailyMed
+3X29ZEJ4R2,LINAGLIPTIN,MOA,Concept,NA,DailyMed
+3XMK78S47O,TESTOSTERONE,MOA,Concept,NA,DailyMed
+3Z8479ZZ5X,EPIRUBICIN,MOA,Concept,NA,DailyMed
+3Z9Y7UWC1J,APIXABAN,MOA,Concept,NA,DailyMed
+40114,guanfacine,MOA,IN,NA,RxNorm
+401713,carglumic acid,MOA,IN,NA,RxNorm
+402316,miglustat,MOA,IN,NA,RxNorm
+40575,zileuton,MOA,IN,NA,RxNorm
+40790,pantoprazole,MOA,IN,NA,RxNorm
+407990,cinacalcet,MOA,IN,NA,RxNorm
+4083,estradiol,MOA,IN,NA,RxNorm
+4089,estramustine,MOA,IN,NA,RxNorm
+4099,"estrogens, conjugated (USP)",MOA,IN,NA,RxNorm
+40D3SCR4GZ,BUPRENORPHINE,MOA,Concept,NA,DailyMed
+41126,fluticasone,MOA,IN,NA,RxNorm
+41127,fluvastatin,MOA,IN,NA,RxNorm
+41144,gadodiamide,MOA,IN,NA,RxNorm
+41208,halobetasol,MOA,IN,NA,RxNorm
+4124,ethinyl estradiol,MOA,IN,NA,RxNorm
+413KH5ZJ73,ROSUVASTATIN,MOA,Concept,NA,DailyMed
+41493,meloxicam,MOA,IN,NA,RxNorm
+4179,etoposide,MOA,IN,NA,RxNorm
+41UD74L59M,AFATINIB,MOA,Concept,NA,DailyMed
+41VRH5220H,PAROXETINE,MOA,Concept,NA,DailyMed
+41X3PWK4O2,"NATEGLINIDE",MOA,Concept,NA,DailyMed
+420K487FSG,DUPILUMAB,MOA,Concept,NA,DailyMed
+42319,nizatidine,MOA,IN,NA,RxNorm
+42347,bupropion,MOA,IN,NA,RxNorm
+42355,fluvoxamine,MOA,IN,NA,RxNorm
+42372,mupirocin,MOA,IN,NA,RxNorm
+42375,leuprolide,MOA,IN,NA,RxNorm
+423D2T571U,ETHINYL ESTRADIOL,MOA,Concept,NA,DailyMed
+423W026MA9,AMCINONIDE,MOA,Concept,NA,DailyMed
+42463,pravastatin,MOA,IN,NA,RxNorm
+4278,famotidine,MOA,IN,NA,RxNorm
+430,albendazole,MOA,IN,NA,RxNorm
+4316,felodipine,MOA,IN,NA,RxNorm
+4331,fenoprofen,MOA,IN,NA,RxNorm
+4337,fentanyl,MOA,IN,NA,RxNorm
+4340891KFS,PONATINIB,MOA,Concept,NA,DailyMed
+435,albuterol,MOA,IN,NA,RxNorm
+44151,clofarabine,MOA,IN,NA,RxNorm
+4419T9MX03,IOHEXOL,MOA,Concept,NA,DailyMed
+44281,cevimeline,MOA,IN,NA,RxNorm
+4440,flavoxate,MOA,IN,NA,RxNorm
+4450,fluconazole,MOA,IN,NA,RxNorm
+4461,fluocinolone acetonide,MOA,PIN,NA,RxNorm
+4462,fluocinonide,MOA,IN,NA,RxNorm
+4491,fluorometholone,MOA,IN,NA,RxNorm
+4492,fluorouracil,MOA,IN,NA,RxNorm
+4493,fluoxetine,MOA,IN,NA,RxNorm
+4494,fluoxymesterone,MOA,IN,NA,RxNorm
+44T7335BKE,"NALOXEGOL",MOA,Concept,NA,DailyMed
+4500,flurandrenolide,MOA,IN,NA,RxNorm
+4502,flurbiprofen,MOA,IN,NA,RxNorm
+4508,flutamide,MOA,IN,NA,RxNorm
+458VC51857,TEGASEROD,MOA,Concept,NA,DailyMed
+459384H98V,ZONISAMIDE,MOA,Concept,NA,DailyMed
+45TPJ4MBQ1,ELUXADOLINE,MOA,Concept,NA,DailyMed
+460132,darunavir,MOA,IN,NA,RxNorm
+4637,galantamine,MOA,IN,NA,RxNorm
+4678,ganciclovir,MOA,IN,NA,RxNorm
+4719,gemfibrozil,MOA,IN,NA,RxNorm
+475247QF1Z,EQUINE THYMOCYTE IMMUNE GLOBULIN,MOA,Concept,NA,DailyMed
+475968,liraglutide,MOA,IN,NA,RxNorm
+475969,etravirine,MOA,IN,NA,RxNorm
+480,alfentanil,MOA,IN,NA,RxNorm
+480167,lapatinib,MOA,IN,NA,RxNorm
+4877X14G4C,THALLOUS CATION TL-201,MOA,Concept,NA,DailyMed
+48937,dexmedetomidine,MOA,IN,NA,RxNorm
+48W7181FLP,HUMAN RHO(D) IMMUNE GLOBULIN,MOA,Concept,NA,DailyMed
+49276,doxazosin,MOA,IN,NA,RxNorm
+495881,sorafenib,MOA,IN,NA,RxNorm
+49737,esmolol,MOA,IN,NA,RxNorm
+4975G9NM6T,ENTACAPONE,MOA,Concept,NA,DailyMed
+4AF302ESOS,ONDANSETRON,MOA,Concept,NA,DailyMed
+4B33BGI082,CHOLESTYRAMINE,MOA,Concept,NA,DailyMed
+4B9XT59T7S,ZIDOVUDINE,MOA,Concept,NA,DailyMed
+4E07GXB7AU,DESOXIMETASONE,MOA,Concept,NA,DailyMed
+4EQZ6YO2HI,DENOSUMAB,MOA,Concept,NA,DailyMed
+4F4X42SYQ6,RITUXIMAB,MOA,Concept,NA,DailyMed
+4FR53SIF3A,BLINATUMOMAB,MOA,Concept,NA,DailyMed
+4G86Y4JT3F,BALOXAVIR,MOA,Concept,NA,DailyMed
+4GC1FOQ22U,IODIDE ION I-131,MOA,Concept,NA,DailyMed
+4GDQ854U53,ELVITEGRAVIR,MOA,Concept,NA,DailyMed
+4I8HAB65SZ,NISOLDIPINE,MOA,Concept,NA,DailyMed
+4KV4X8IF6V,DICYCLOMINE,MOA,Concept,NA,DailyMed
+4L066368AS,FLUVASTATIN,MOA,Concept,NA,DailyMed
+4M4WE5N2GE,FLUORIDE ION F-18,MOA,Concept,NA,DailyMed
+4O4S742ANY,ESCITALOPRAM,MOA,Concept,NA,DailyMed
+4Q52C550XK,IBRITUMOMAB TIUXETAN,MOA,Concept,NA,DailyMed
+4RZ82L2GY5,ACETOHYDROXAMIC ACID,MOA,Concept,NA,DailyMed
+4TI98Z838E,ESTRADIOL,MOA,Concept,NA,DailyMed
+4Z63YK6E0E,DARATUMUMAB,MOA,Concept,NA,DailyMed
+50166,fosinopril,MOA,IN,NA,RxNorm
+5018V4AEZ0,BOSUTINIB,MOA,Concept,NA,DailyMed
+502FWN4Q32,ALISKIREN,MOA,Concept,NA,DailyMed
+5033,guanabenz,MOA,IN,NA,RxNorm
+50610,goserelin,MOA,IN,NA,RxNorm
+5084,halcinonide,MOA,IN,NA,RxNorm
+50975,histrelin,MOA,IN,NA,RxNorm
+50D9XSG0VR,MECHLORETHAMINE,MOA,Concept,NA,DailyMed
+50SG953SK6,MITOMYCIN,MOA,Concept,NA,DailyMed
+50VV3VW0TI,ATENOLOL,MOA,Concept,NA,DailyMed
+51086HBW8G,RIZATRIPTAN,MOA,Concept,NA,DailyMed
+51499,irinotecan,MOA,IN,NA,RxNorm
+519,allopurinol,MOA,IN,NA,RxNorm
+51G6I8B902,NILUTAMIDE,MOA,Concept,NA,DailyMed
+52175,losartan,MOA,IN,NA,RxNorm
+52769,milrinone,MOA,IN,NA,RxNorm
+52CMI0WC3Y,ATEZOLIZUMAB,MOA,Concept,NA,DailyMed
+53654,nevirapine,MOA,IN,NA,RxNorm
+53AH36668S,CRIZOTINIB,MOA,Concept,NA,DailyMed
+53AXN4NNHX,SEMAGLUTIDE,MOA,Concept,NA,DailyMed
+53QOG569E0,METAPROTERENOL,MOA,Concept,NA,DailyMed
+544488,botulism immune globulin IV human,MOA,IN,NA,RxNorm
+54552,perindopril,MOA,IN,NA,RxNorm
+5489,hydrocodone,MOA,IN,NA,RxNorm
+5492,hydrocortisone,MOA,IN,NA,RxNorm
+54K37P50KH,VALBENAZINE,MOA,Concept,NA,DailyMed
+54Z8M50D6Q,CARBAMOYLCHOLINE,MOA,Concept,NA,DailyMed
+5509,hydroquinone,MOA,IN,NA,RxNorm
+550Z839889,RUBIDIUM CATION RB-82,MOA,Concept,NA,DailyMed
+5531,hetastarch,MOA,IN,NA,RxNorm
+554Z48XN5E,METHIMAZOLE,MOA,Concept,NA,DailyMed
+5553,hydroxyzine,MOA,IN,NA,RxNorm
+556Q0P6PB1,TECHNETIUM TC-99M SULFUR COLLOID,MOA,Concept,NA,DailyMed
+5640,ibuprofen,MOA,IN,NA,RxNorm
+5650,idarubicin,MOA,IN,NA,RxNorm
+5657,ifosfamide,MOA,IN,NA,RxNorm
+56795,sufentanil,MOA,IN,NA,RxNorm
+569,eflornithine,MOA,IN,NA,RxNorm
+57258,tizanidine,MOA,IN,NA,RxNorm
+57308,topotecan,MOA,IN,NA,RxNorm
+5775,indocyanine green,MOA,IN,NA,RxNorm
+5781,indomethacin,MOA,IN,NA,RxNorm
+57GNO57U7G,FINASTERIDE,MOA,Concept,NA,DailyMed
+57WA9QZ5WH,NIMODIPINE,MOA,Concept,NA,DailyMed
+57Y76R9ATQ,"NAPROXEN",MOA,Concept,NA,DailyMed
+588250,milnacipran,MOA,IN,NA,RxNorm
+58IFB293JI,VORINOSTAT,MOA,Concept,NA,DailyMed
+591622,varenicline,MOA,IN,NA,RxNorm
+591781,eculizumab,MOA,IN,NA,RxNorm
+593411,sitagliptin,MOA,IN,NA,RxNorm
+595060,ranibizumab,MOA,IN,NA,RxNorm
+5956,iohexol,MOA,IN,NA,RxNorm
+596205,ramelteon,MOA,IN,NA,RxNorm
+5966,iopamidol,MOA,IN,NA,RxNorm
+596724,anagrelide,MOA,IN,NA,RxNorm
+597392,human vaccinia immune globulin,MOA,IN,NA,RxNorm
+59763,stavudine,MOA,IN,NA,RxNorm
+598,alprostadil,MOA,IN,NA,RxNorm
+59839,penciclovir,MOA,IN,NA,RxNorm
+59943,imiquimod,MOA,IN,NA,RxNorm
+5D06587D6R,PALONOSETRON,MOA,Concept,NA,DailyMed
+5EXC0E384L,SELEXIPAG,MOA,Concept,NA,DailyMed
+5GRO578KLP,FLURBIPROFEN,MOA,Concept,NA,DailyMed
+5JKY92S7BR,TIMOLOL ANHYDROUS,MOA,Concept,NA,DailyMed
+5KV86114PT,MONOETHANOLAMINE,MOA,Concept,NA,DailyMed
+5L0HB4V1EW,CARGLUMIC ACID,MOA,Concept,NA,DailyMed
+5L76I61H2B,TECHNETIUM TC-99M PYROPHOSPHATE,MOA,Concept,NA,DailyMed
+5Q6TZN2HNM,ECALLANTIDE,MOA,Concept,NA,DailyMed
+5Q7ZVV76EI,WARFARIN,MOA,Concept,NA,DailyMed
+5QZO15J2Z8,FAMOTIDINE,MOA,Concept,NA,DailyMed
+5RNZ8GJO7K,DAPIPRAZOLE,MOA,Concept,NA,DailyMed
+5S0W860XNR,AMPRENAVIR,MOA,Concept,NA,DailyMed
+5S6W795CQM,"NALTREXONE",MOA,Concept,NA,DailyMed
+5UVC90J1LK,DIATRIZOIC ACID,MOA,Concept,NA,DailyMed
+5UX2SD1KE2,CYSTEAMINE,MOA,Concept,NA,DailyMed
+5VJA14972G,BLACK WIDOW SPIDER (LATRODECTUS MACTANS) IMMUNE GLOBULIN ANTIVENIN (EQUINE),MOA,Concept,NA,DailyMed
+5W494URQ81,STREPTOZOCIN,MOA,Concept,NA,DailyMed
+5ZZ84GCW8B,FORMOTEROL,MOA,Concept,NA,DailyMed
+6011,isocarboxazid,MOA,IN,NA,RxNorm
+60158CV180,NELARABINE,MOA,Concept,NA,DailyMed
+60207,dorzolamide,MOA,IN,NA,RxNorm
+60307,entacapone,MOA,IN,NA,RxNorm
+6054,isoproterenol,MOA,IN,NA,RxNorm
+60548,exenatide,MOA,IN,NA,RxNorm
+60819,bivalirudin,MOA,IN,NA,RxNorm
+60ME133FJB,ETELCALCETIDE,MOA,Concept,NA,DailyMed
+60UAB198HK,ABEMACICLIB,MOA,Concept,NA,DailyMed
+60UTO373KE,ISAVUCONAZOLE,MOA,Concept,NA,DailyMed
+612865,tocilizumab,MOA,IN,NA,RxNorm
+613391,prasugrel,MOA,IN,NA,RxNorm
+6135,ketoconazole,MOA,IN,NA,RxNorm
+6142,ketoprofen,MOA,IN,NA,RxNorm
+614373,deferasirox,MOA,IN,NA,RxNorm
+6146,ketotifen,MOA,IN,NA,RxNorm
+6158TKW0C5,PHENYTOIN,MOA,Concept,NA,DailyMed
+61805,nitisinone,MOA,IN,NA,RxNorm
+6185,labetalol,MOA,IN,NA,RxNorm
+620,amantadine,MOA,IN,NA,RxNorm
+620216,maraviroc,MOA,IN,NA,RxNorm
+6218,lactulose,MOA,IN,NA,RxNorm
+623033,lubiprostone,MOA,IN,NA,RxNorm
+624KN6GM2T,TEMSIROLIMUS,MOA,Concept,NA,DailyMed
+632,mitomycin,MOA,IN,NA,RxNorm
+632L571YDK,ELBASVIR,MOA,Concept,NA,DailyMed
+6378,levorphanol,MOA,IN,NA,RxNorm
+637E494O0Z,LORCASERIN,MOA,Concept,NA,DailyMed
+63CZ7GJN5I,ALLOPURINOL,MOA,Concept,NA,DailyMed
+6466,lomustine,MOA,IN,NA,RxNorm
+6468,loperamide,MOA,IN,NA,RxNorm
+6472,lovastatin,MOA,IN,NA,RxNorm
+657797,temsirolimus,MOA,IN,NA,RxNorm
+658708,ecallantide,MOA,IN,NA,RxNorm
+6606,malathion,MOA,IN,NA,RxNorm
+662281,nilotinib,MOA,IN,NA,RxNorm
+6628,mannitol,MOA,IN,NA,RxNorm
+6674,mechlorethamine,MOA,IN,NA,RxNorm
+668Z8C33LU,REPAGLINIDE,MOA,Concept,NA,DailyMed
+6693,mefenamic acid,MOA,PIN,NA,RxNorm
+66Y330CJHS,HUMAN IMMUNOGLOBULIN G,MOA,Concept,NA,DailyMed
+6718,melphalan,MOA,IN,NA,RxNorm
+6719,memantine,MOA,IN,NA,RxNorm
+6754,meperidine,MOA,IN,NA,RxNorm
+6765,tiopronin,MOA,IN,NA,RxNorm
+676679,dotatate gallium ga-68,MOA,PIN,NA,RxNorm
+67P356D8GH,ACEBUTOLOL,MOA,Concept,NA,DailyMed
+67VB76HONO,DEXMEDETOMIDINE,MOA,Concept,NA,DailyMed
+6804DJ8Z9U,CAPECITABINE,MOA,Concept,NA,DailyMed
+68091,dolasetron,MOA,IN,NA,RxNorm
+68092,lanreotide,MOA,IN,NA,RxNorm
+68099,famciclovir,MOA,IN,NA,RxNorm
+6813,methadone,MOA,IN,NA,RxNorm
+68147,cetrorelix,MOA,IN,NA,RxNorm
+68244,lamivudine,MOA,IN,NA,RxNorm
+6835,methimazole,MOA,IN,NA,RxNorm
+68446,pemetrexed,MOA,IN,NA,RxNorm
+68503,ziconotide,MOA,IN,NA,RxNorm
+6851,methotrexate,MOA,IN,NA,RxNorm
+6854,methoxsalen,MOA,IN,NA,RxNorm
+68WQQ3N9TI,HUMAN SERUM ALBUMIN I-125,MOA,Concept,NA,DailyMed
+6902,methylprednisolone,MOA,IN,NA,RxNorm
+6904,methyltestosterone,MOA,IN,NA,RxNorm
+69120,tiotropium,MOA,IN,NA,RxNorm
+6915,metoclopramide,MOA,IN,NA,RxNorm
+6918,metoprolol,MOA,IN,NA,RxNorm
+6923,metyrapone,MOA,IN,NA,RxNorm
+6963,midodrine,MOA,IN,NA,RxNorm
+6964,mifepristone,MOA,IN,NA,RxNorm
+69722,zanamivir,MOA,IN,NA,RxNorm
+69749,valsartan,MOA,IN,NA,RxNorm
+6995V82D0B,EPLERENONE,MOA,Concept,NA,DailyMed
+69G8BD63PP,BORTEZOMIB,MOA,Concept,NA,DailyMed
+69PN84IO1A,ENALAPRIL,MOA,Concept,NA,DailyMed
+6A901E312A,PANITUMUMAB,MOA,Concept,NA,DailyMed
+6AI06C00GW,TIZANIDINE,MOA,Concept,NA,DailyMed
+6AQ1Y404U7,CANGRELOR,MOA,Concept,NA,DailyMed
+6GQP90I798,ADEFOVIR,MOA,Concept,NA,DailyMed
+6J5J15Q2X8,ULIPRISTAL,MOA,Concept,NA,DailyMed
+6KIC4BB60G,HUMAN C1-ESTERASE INHIBITOR,MOA,Concept,NA,DailyMed
+6N5U4QFC3G,RAMIPRILAT,MOA,Concept,NA,DailyMed
+6PLQ3CP4P3,ETOPOSIDE,MOA,Concept,NA,DailyMed
+6S49DGR869,CANAGLIFLOZIN ANHYDROUS,MOA,Concept,NA,DailyMed
+6T8C155666,IPILIMUMAB,MOA,Concept,NA,DailyMed
+6U5EA9RT2O,LEVOCETIRIZINE,MOA,Concept,NA,DailyMed
+6UXW23996M,CYCLOPHOSPHAMIDE ANHYDROUS,MOA,Concept,NA,DailyMed
+6W15Z5R0RU,FLORBETAPIR F-18,MOA,Concept,NA,DailyMed
+6X9OC3H4II,LOPERAMIDE,MOA,Concept,NA,DailyMed
+6YE7PBM15H,MIDODRINE,MOA,Concept,NA,DailyMed
+6YKS4Y3WQ7,HYDROCODONE,MOA,Concept,NA,DailyMed
+6ZA31Y954Z,BRODALUMAB,MOA,Concept,NA,DailyMed
+7004,mitotane,MOA,IN,NA,RxNorm
+7005,mitoxantrone,MOA,IN,NA,RxNorm
+703,amiodarone,MOA,IN,NA,RxNorm
+7052,morphine,MOA,IN,NA,RxNorm
+70561,palonosetron,MOA,IN,NA,RxNorm
+709271,certolizumab pegol,MOA,IN,NA,RxNorm
+70FP3JLY7N,EDROPHONIUM CATION,MOA,Concept,NA,DailyMed
+71050168A2,IXAZOMIB,MOA,Concept,NA,DailyMed
+711942,eltrombopag,MOA,IN,NA,RxNorm
+712566,ofatumumab,MOA,IN,NA,RxNorm
+712BAC33MZ,IOPROMIDE,MOA,Concept,NA,DailyMed
+714438,pazopanib,MOA,IN,NA,RxNorm
+71492GE1FX,BENRALIZUMAB,MOA,Concept,NA,DailyMed
+719872,raltegravir,MOA,IN,NA,RxNorm
+720825,silodosin,MOA,IN,NA,RxNorm
+7213,ipratropium,MOA,IN,NA,RxNorm
+72143,raloxifene,MOA,IN,NA,RxNorm
+721M9407IY,PROPYLTHIOURACIL,MOA,Concept,NA,DailyMed
+7226,nadolol,MOA,IN,NA,RxNorm
+72302,ropinirole,MOA,IN,NA,RxNorm
+7238,nalbuphine,MOA,IN,NA,RxNorm
+7242,naloxone,MOA,IN,NA,RxNorm
+7243,naltrexone,MOA,IN,NA,RxNorm
+72435,anakinra,MOA,IN,NA,RxNorm
+7258,naproxen,MOA,IN,NA,RxNorm
+72625,duloxetine,MOA,IN,NA,RxNorm
+72937,tolcapone,MOA,IN,NA,RxNorm
+72965,letrozole,MOA,IN,NA,RxNorm
+72G3UY6T4N,PROTAMINE,MOA,Concept,NA,DailyMed
+72X6E3J5AR,CARFILZOMIB,MOA,Concept,NA,DailyMed
+73032,remifentanil,MOA,IN,NA,RxNorm
+73044,repaglinide,MOA,IN,NA,RxNorm
+7315,neostigmine,MOA,IN,NA,RxNorm
+734064,desvenlafaxine,MOA,IN,NA,RxNorm
+73494,telmisartan,MOA,IN,NA,RxNorm
+7352665165,AVIBACTAM,MOA,Concept,NA,DailyMed
+7355X3ROTS,DEXTROMETHORPHAN,MOA,Concept,NA,DailyMed
+73645,valacyclovir,MOA,IN,NA,RxNorm
+73689,febuxostat,MOA,IN,NA,RxNorm
+7396,nicardipine,MOA,IN,NA,RxNorm
+73B0K5S26A,BELIMUMAB,MOA,Concept,NA,DailyMed
+7417,nifedipine,MOA,IN,NA,RxNorm
+7426,nimodipine,MOA,IN,NA,RxNorm
+742SXX0ICT,TADALAFIL,MOA,Concept,NA,DailyMed
+7435,nisoldipine,MOA,IN,NA,RxNorm
+74667,zaleplon,MOA,IN,NA,RxNorm
+746741,pramipexole,MOA,IN,NA,RxNorm
+74O62BB01U,LIXISENATIDE,MOA,Concept,NA,DailyMed
+753340,sapropterin,MOA,IN,NA,RxNorm
+7617,octreotide,MOA,IN,NA,RxNorm
+762RDY0Y2H,CLOFARABINE,MOA,Concept,NA,DailyMed
+7646,omeprazole,MOA,IN,NA,RxNorm
+7662KG2R6K,LUBIPROSTONE,MOA,Concept,NA,DailyMed
+7673326042,IRINOTECAN,MOA,Concept,NA,DailyMed
+7688,metaproterenol,MOA,IN,NA,RxNorm
+768M1V522C,CIDOFOVIR ANHYDROUS,MOA,Concept,NA,DailyMed
+768N7QO4KH,TRYPAN BLUE FREE ACID,MOA,Concept,NA,DailyMed
+76I7G6D29C,MORPHINE,MOA,Concept,NA,DailyMed
+76W6J0943E,FLUTAMIDE,MOA,Concept,NA,DailyMed
+7732P08TIR,NETUPITANT,MOA,Concept,NA,DailyMed
+77492,tamsulosin,MOA,IN,NA,RxNorm
+776B62CQ27,DECITABINE,MOA,Concept,NA,DailyMed
+7804,oxycodone,MOA,IN,NA,RxNorm
+7814,oxymorphone,MOA,IN,NA,RxNorm
+7839,p-hydroxyamphetamine,MOA,IN,NA,RxNorm
+787390,tapentadol,MOA,IN,NA,RxNorm
+78E4J5IB5J,MITOTANE,MOA,Concept,NA,DailyMed
+78M02AA8KF,FLUNISOLIDE ANHYDROUS,MOA,Concept,NA,DailyMed
+794PGL549S,RAXIBACUMAB,MOA,Concept,NA,DailyMed
+7A314HQM0I,PENTETIC ACID,MOA,Concept,NA,DailyMed
+7AXV542LZ4,REGADENOSON ANHYDROUS,MOA,Concept,NA,DailyMed
+7BRF0Z81KG,LOMUSTINE,MOA,Concept,NA,DailyMed
+7C0697DR9I,ATROPINE,MOA,Concept,NA,DailyMed
+7C546U4DEN,DIFLUNISAL,MOA,Concept,NA,DailyMed
+7CUC9DDI9F,PSEUDOEPHEDRINE,MOA,Concept,NA,DailyMed
+7GR28W0FJI,DACARBAZINE,MOA,Concept,NA,DailyMed
+7I64C51O16,ZICONOTIDE,MOA,Concept,NA,DailyMed
+7IK8Z952OK,PLECANATIDE,MOA,Concept,NA,DailyMed
+7IS9N8KPMG,SULFATE ION,MOA,Concept,NA,DailyMed
+7K383OQI23,ZOLPIDEM,MOA,Concept,NA,DailyMed
+7KYV510875,PIMECROLIMUS,MOA,Concept,NA,DailyMed
+7LKK855W8I,LETROZOLE,MOA,Concept,NA,DailyMed
+7M19191IKG,TEDUGLUTIDE,MOA,Concept,NA,DailyMed
+7M7YKX2N15,TOPOTECAN,MOA,Concept,NA,DailyMed
+7NFE54O27T,TOREMIFENE,MOA,Concept,NA,DailyMed
+7PG89G35Q7,ICATIBANT,MOA,Concept,NA,DailyMed
+7Q3P4BS2FD,LISINOPRIL ANHYDROUS,MOA,Concept,NA,DailyMed
+7RN5DR86CK,PAZOPANIB,MOA,Concept,NA,DailyMed
+7S5I7G3JQL,DEXAMETHASONE,MOA,Concept,NA,DailyMed
+7SA290YK68,DEXTRAN 70,MOA,Concept,NA,DailyMed
+7SQY4ZUD30,DINUTUXIMAB,MOA,Concept,NA,DailyMed
+7UB4J759TD,HUMAN VACCINIA VIRUS IMMUNE GLOBULIN,MOA,Concept,NA,DailyMed
+7WY7YBI87E,PHENYLBUTYRIC ACID,MOA,Concept,NA,DailyMed
+7WZ1744G86,CROTALUS SCUTULATUS IMMUNE FAB ANTIVENIN (OVINE),MOA,Concept,NA,DailyMed
+7XL5ISS668,BRENTUXIMAB VEDOTIN,MOA,Concept,NA,DailyMed
+7Z8O94ECSX,ALCAFTADINE,MOA,Concept,NA,DailyMed
+8001,pentazocine,MOA,IN,NA,RxNorm
+80061L1WGD,CIMETIDINE,MOA,Concept,NA,DailyMed
+8011,pentostatin,MOA,IN,NA,RxNorm
+80168379AG,DOXORUBICIN,MOA,Concept,NA,DailyMed
+8047,pergolide,MOA,IN,NA,RxNorm
+805452,romiplostim,MOA,IN,NA,RxNorm
+809864,C1 esterase inhibitor (human),MOA,PIN,NA,RxNorm
+80M03YXJ7I,VALSARTAN,MOA,Concept,NA,DailyMed
+8123,phenelzine,MOA,IN,NA,RxNorm
+8149,phenoxybenzamine,MOA,IN,NA,RxNorm
+8153,phentolamine,MOA,IN,NA,RxNorm
+8163,phenylephrine,MOA,IN,NA,RxNorm
+816346,dexlansoprazole,MOA,IN,NA,RxNorm
+8183,phenytoin,MOA,IN,NA,RxNorm
+819300,golimumab,MOA,IN,NA,RxNorm
+8237F3U7EH,RUCAPARIB,MOA,Concept,NA,DailyMed
+828529,"albumin human, USP",MOA,IN,NA,RxNorm
+82KUB0583F,LOMITAPIDE,MOA,Concept,NA,DailyMed
+82S8X8XX8H,RUXOLITINIB,MOA,Concept,NA,DailyMed
+82WI2L7Q6E,DOLASETRON,MOA,Concept,NA,DailyMed
+83008,bicalutamide,MOA,IN,NA,RxNorm
+8328,pilocarpine,MOA,IN,NA,RxNorm
+8332,pindolol,MOA,IN,NA,RxNorm
+83367,atorvastatin,MOA,IN,NA,RxNorm
+83395,saquinavir,MOA,IN,NA,RxNorm
+83515,eprosartan,MOA,IN,NA,RxNorm
+8356,piroxicam,MOA,IN,NA,RxNorm
+83619PEU5T,PRAMIPEXOLE,MOA,Concept,NA,DailyMed
+83818,irbesartan,MOA,IN,NA,RxNorm
+839I73S42A,LIRAGLUTIDE,MOA,Concept,NA,DailyMed
+83HN0GTJ6D,CYCLOSPORINE,MOA,Concept,NA,DailyMed
+84108,rosiglitazone,MOA,IN,NA,RxNorm
+843CEN85DI,APRACLONIDINE,MOA,Concept,NA,DailyMed
+847083,ustekinumab,MOA,IN,NA,RxNorm
+84857,anastrozole,MOA,IN,NA,RxNorm
+84F6U3J2R6,GADODIAMIDE,MOA,Concept,NA,DailyMed
+85248,alosetron,MOA,IN,NA,RxNorm
+85762,ritonavir,MOA,IN,NA,RxNorm
+860168,abobotulinumtoxinA,MOA,PIN,NA,RxNorm
+860178,rimabotulinumtoxinB,MOA,PIN,NA,RxNorm
+861634,pitavastatin,MOA,IN,NA,RxNorm
+8629,prazosin,MOA,IN,NA,RxNorm
+8638,prednisolone,MOA,IN,NA,RxNorm
+8640,prednisone,MOA,IN,NA,RxNorm
+864P0921DW,BROMFENAC,MOA,Concept,NA,DailyMed
+8680B21W73,MACIMORELIN,MOA,Concept,NA,DailyMed
+8702,procarbazine,MOA,IN,NA,RxNorm
+8703,fenofibrate,MOA,IN,NA,RxNorm
+875Y4127EA,HETASTARCH,MOA,Concept,NA,DailyMed
+8761,propantheline,MOA,IN,NA,RxNorm
+87636,fexofenadine,MOA,IN,NA,RxNorm
+877510,romidepsin,MOA,IN,NA,RxNorm
+8785,propoxyphene,MOA,IN,NA,RxNorm
+8787,propranolol,MOA,IN,NA,RxNorm
+8794,propylthiouracil,MOA,IN,NA,RxNorm
+87LA6FU830,TOFACITINIB,MOA,Concept,NA,DailyMed
+88014,rizatriptan,MOA,IN,NA,RxNorm
+88249,montelukast,MOA,IN,NA,RxNorm
+8826,protamines,MOA,IN,NA,RxNorm
+884KT10YB7,RANITIDINE,MOA,Concept,NA,DailyMed
+885183,Agkistrodon piscivorus antivenin,MOA,IN,NA,RxNorm
+885185,Crotalus adamanteus antivenin,MOA,IN,NA,RxNorm
+885187,Crotalus atrox antivenin,MOA,IN,NA,RxNorm
+885189,Crotalus scutulatus antivenin,MOA,IN,NA,RxNorm
+8896,pseudoephedrine,MOA,IN,NA,RxNorm
+897018,dalfampridine,MOA,IN,NA,RxNorm
+89778,ecothiopate,MOA,IN,NA,RxNorm
+89785,methscopolamine,MOA,IN,NA,RxNorm
+89887,Latrodectus mactans antivenin,MOA,IN,NA,RxNorm
+8EUL29XUQT,FLURANDRENOLIDE,MOA,Concept,NA,DailyMed
+8GTS82S83M,DIPHENHYDRAMINE,MOA,Concept,NA,DailyMed
+8GZG754X6M,GEMTUZUMAB OZOGAMICIN,MOA,Concept,NA,DailyMed
+8HR4QJ6DW8,MOMETASONE,MOA,Concept,NA,DailyMed
+8I7IO46IVQ,SAXAGLIPTIN ANHYDROUS,MOA,Concept,NA,DailyMed
+8IHI69PQTC,TECHNETIUM TC-99M TILMANOCEPT,MOA,Concept,NA,DailyMed
+8L5014XET7,TERAZOSIN,MOA,Concept,NA,DailyMed
+8NF31401XG,CARTEOLOL,MOA,Concept,NA,DailyMed
+8QS6WCL55Z,HOMATROPINE,MOA,Concept,NA,DailyMed
+8R78F6L9VO,SUMATRIPTAN,MOA,Concept,NA,DailyMed
+8SKN0B0MIM,BENZOIC ACID,MOA,Concept,NA,DailyMed
+8SSC91326P,DONEPEZIL,MOA,Concept,NA,DailyMed
+8VZV102JFY,FLUCONAZOLE,MOA,Concept,NA,DailyMed
+8W1IQP3U10,OLMESARTAN,MOA,Concept,NA,DailyMed
+8YE81R1X1J,GRAZOPREVIR ANHYDROUS,MOA,Concept,NA,DailyMed
+8YWR746RPQ,IODIDE ION I-123,MOA,Concept,NA,DailyMed
+8ZHS5657EH,TAGRAXOFUSP,MOA,Concept,NA,DailyMed
+9000,pyridostigmine,MOA,IN,NA,RxNorm
+9010,pyrimethamine,MOA,IN,NA,RxNorm
+9013DUQ28K,ANAKINRA,MOA,Concept,NA,DailyMed
+901AS54I69,RAMELTEON,MOA,Concept,NA,DailyMed
+90347YTW5F,ALFUZOSIN,MOA,Concept,NA,DailyMed
+905Z5W3GKH,THIOTEPA,MOA,Concept,NA,DailyMed
+9068,quinidine,MOA,IN,NA,RxNorm
+9081Y98W2V,TRIPTORELIN,MOA,Concept,NA,DailyMed
+90ENL74SIG,SAFINAMIDE,MOA,Concept,NA,DailyMed
+90Y4QC304K,KETOPROFEN,MOA,Concept,NA,DailyMed
+90Z2UF0E52,MEPOLIZUMAB,MOA,Concept,NA,DailyMed
+91311,diflorasone,MOA,IN,NA,RxNorm
+913P6LK81M,DORAVIRINE,MOA,Concept,NA,DailyMed
+9143,ranitidine,MOA,IN,NA,RxNorm
+91601,"lymphocyte immune globulin, anti-thymocyte globulin, equine",MOA,PIN,NA,RxNorm
+91O4LML611,FERRIC CATION,MOA,Concept,NA,DailyMed
+91X1KLU43E,GOLIMUMAB,MOA,Concept,NA,DailyMed
+9266D9P3PQ,BENDAMUSTINE,MOA,Concept,NA,DailyMed
+9386,rimantadine,MOA,IN,NA,RxNorm
+93T0T9GKNU,ENZALUTAMIDE,MOA,Concept,NA,DailyMed
+941N5DUU5C,SEVELAMER,MOA,Concept,NA,DailyMed
+9451Z89515,BRINZOLAMIDE,MOA,Concept,NA,DailyMed
+94O110CX2E,SARECYCLINE,MOA,Concept,NA,DailyMed
+95M8R751W8,ORLISTAT,MOA,Concept,NA,DailyMed
+95QB77JKPL,DOXYLAMINE,MOA,Concept,NA,DailyMed
+9601,scopolamine,MOA,IN,NA,RxNorm
+9639,selegiline,MOA,IN,NA,RxNorm
+9647FM7Y3Z,PANOBINOSTAT,MOA,Concept,NA,DailyMed
+968170,polidocanol,MOA,IN,NA,RxNorm
+971Z4W1S09,TECHNETIUM TC-99M SESTAMIBI,MOA,Concept,NA,DailyMed
+974779,obinutuzumab,MOA,IN,NA,RxNorm
+97HLQ82NGL,TEDIZOLID,MOA,Concept,NA,DailyMed
+982A7M02H5,CARBINOXAMINE,MOA,Concept,NA,DailyMed
+9842X06Q6M,BETAMETHASONE,MOA,Concept,NA,DailyMed
+98H1T17066,PASIREOTIDE,MOA,Concept,NA,DailyMed
+991743,"alpha 1-proteinase inhibitor, human",MOA,PIN,NA,RxNorm
+9927MT646M,BASILIXIMAB,MOA,Concept,NA,DailyMed
+993449,denosumab,MOA,IN,NA,RxNorm
+9947,sotalol,MOA,IN,NA,RxNorm
+9997,spironolactone,MOA,IN,NA,RxNorm
+99DK7FVK1H,NEVIRAPINE,MOA,Concept,NA,DailyMed
+9E338QE28F,MEPERIDINE,MOA,Concept,NA,DailyMed
+9G34HU7RV0,EDETIC ACID,MOA,Concept,NA,DailyMed
+9G64RSX1XD,CAPTOPRIL,MOA,Concept,NA,DailyMed
+9H414A99MD,RADIUM RA-223 CATION,MOA,Concept,NA,DailyMed
+9HW64Q8G6G,EVEROLIMUS,MOA,Concept,NA,DailyMed
+9JDX055TW1,DORZOLAMIDE,MOA,Concept,NA,DailyMed
+9JU12S4YFY,FLUOXYMESTERONE,MOA,Concept,NA,DailyMed
+9L17Y0H71P,DOTATATE GALLIUM GA-68,MOA,Concept,NA,DailyMed
+9LHU78OQFD,LOVASTATIN,MOA,Concept,NA,DailyMed
+9MG78X43ZT,INDINAVIR ANHYDROUS,MOA,Concept,NA,DailyMed
+9NDF7JZ4M3,RIVAROXABAN,MOA,Concept,NA,DailyMed
+9OQO0E343Z,AMMONIA N-13,MOA,Concept,NA,DailyMed
+9P1872D4OL,EXENATIDE,MOA,Concept,NA,DailyMed
+9P6159HM7T,HALOBETASOL,MOA,Concept,NA,DailyMed
+9PHQ9Y1OLM,PREDNISOLONE,MOA,Concept,NA,DailyMed
+9QHX048FRV,TALAZOPARIB,MOA,Concept,NA,DailyMed
+9RV78Q2002,VEDOLIZUMAB,MOA,Concept,NA,DailyMed
+9U7D5QH5AE,LACTULOSE,MOA,Concept,NA,DailyMed
+9VXA968E0C,OXYMORPHONE,MOA,Concept,NA,DailyMed
+9Y8NXQ24VQ,PROPRANOLOL,MOA,Concept,NA,DailyMed
+9ZOQ3TZI87,SORAFENIB,MOA,Concept,NA,DailyMed
+A0JWA85V8F,ATORVASTATIN,MOA,Concept,NA,DailyMed
+A0Z3NAU9DP,BICALUTAMIDE,MOA,Concept,NA,DailyMed
+A10SJL62JY,OCRELIZUMAB,MOA,Concept,NA,DailyMed
+A14FB57V1D,GLYCOPYRRONIUM,MOA,Concept,NA,DailyMed
+A20F9XAI7W,ACRIVASTINE,MOA,Concept,NA,DailyMed
+A3ULP0F556,ECULIZUMAB,MOA,Concept,NA,DailyMed
+A4229A7019,CROTALUS ADAMANTEUS IMMUNE FAB ANTIVENIN (OVINE),MOA,Concept,NA,DailyMed
+A6D97U294I,SOTALOL,MOA,Concept,NA,DailyMed
+A6IEZ5M406,RANOLAZINE,MOA,Concept,NA,DailyMed
+A74586SNO7,CLOPIDOGREL,MOA,Concept,NA,DailyMed
+A8910SQJ1U,SOLIFENACIN,MOA,Concept,NA,DailyMed
+ACH35131L1,HUMAN SERUM ALBUMIN I-131,MOA,Concept,NA,DailyMed
+ADN3S497AZ,MIGLUSTAT,MOA,Concept,NA,DailyMed
+ADN79D536H,CLOBETASOL,MOA,Concept,NA,DailyMed
+AFE2YW0IIZ,SUFENTANIL,MOA,Concept,NA,DailyMed
+AGG2FN16EV,SIMVASTATIN,MOA,Concept,NA,DailyMed
+AN164J8Y0X,TRIMETHOPRIM,MOA,Concept,NA,DailyMed
+APG9819VLM,DARIFENACIN,MOA,Concept,NA,DailyMed
+ASW034S0B8,ATOMOXETINE,MOA,Concept,NA,DailyMed
+AWV6I5L6H2,ANTITHROMBIN ALFA,MOA,Concept,NA,DailyMed
+AZV954TZ9N,GADOLINIUM CATION (3+),MOA,Concept,NA,DailyMed
+B0P231ILBK,OSPEMIFENE,MOA,Concept,NA,DailyMed
+B72HH48FLU,INFLIXIMAB,MOA,Concept,NA,DailyMed
+B76N6SBZ8R,GEMCITABINE,MOA,Concept,NA,DailyMed
+BF4C9Z1J53,AMANTADINE,MOA,Concept,NA,DailyMed
+BH3B64OKL9,DALFAMPRIDINE,MOA,Concept,NA,DailyMed
+BJ4HF6IU1D,PINDOLOL,MOA,Concept,NA,DailyMed
+BKJ8M8G5HI,IMATINIB,MOA,Concept,NA,DailyMed
+BO76JF850N,CLIDINIUM,MOA,Concept,NA,DailyMed
+BO9LE4QFZF,STAVUDINE,MOA,Concept,NA,DailyMed
+BTY153760O,IXEKIZUMAB,MOA,Concept,NA,DailyMed
+BZ114NVM5P,MITOXANTRONE,MOA,Concept,NA,DailyMed
+C3VX249T6L,RAVULIZUMAB,MOA,Concept,NA,DailyMed
+C5W04GO61S,TIOPRONIN,MOA,Concept,NA,DailyMed
+C9LVQ0YUXG,AXITINIB,MOA,Concept,NA,DailyMed
+CD35PMG570,OXYCODONE,MOA,Concept,NA,DailyMed
+CIF6334OLY,TOLCAPONE,MOA,Concept,NA,DailyMed
+CJ0O37KU29,VERAPAMIL,MOA,Concept,NA,DailyMed
+CK0N3WH0SR,PERFLUTREN,MOA,Concept,NA,DailyMed
+CUT2W21N7U,FLUTICASONE,MOA,Concept,NA,DailyMed
+CUZ39LUY82,SILODOSIN,MOA,Concept,NA,DailyMed
+CX3T89XQBK,ROMIDEPSIN,MOA,Concept,NA,DailyMed
+CZ5312222S,NICARDIPINE,MOA,Concept,NA,DailyMed
+D0GX863OA5,MUPIROCIN,MOA,Concept,NA,DailyMed
+D27V6190PM,OLOPATADINE,MOA,Concept,NA,DailyMed
+D2UFC189XF,MEDRYSONE,MOA,Concept,NA,DailyMed
+D3FM8FA78T,PRAMLINTIDE,MOA,Concept,NA,DailyMed
+D7RD81HE4W,LAPINE T-LYMPHOCYTE IMMUNE GLOBULIN,MOA,Concept,NA,DailyMed
+D8K2JPN18B,TOLMETIN,MOA,Concept,NA,DailyMed
+D8TST4O562,PANTOPRAZOLE,MOA,Concept,NA,DailyMed
+D99YVK4L0X,RAMUCIRUMAB,MOA,Concept,NA,DailyMed
+DDA050FCEA,CENTRUROIDES FAB2 ANTIVENIN (EQUINE),MOA,Concept,NA,DailyMed
+DE54EQW8T1,DASABUVIR,MOA,Concept,NA,DailyMed
+DEW6X41BEK,TILDRAKIZUMAB,MOA,Concept,NA,DailyMed
+DKO1W9H7M1,DOLUTEGRAVIR,MOA,Concept,NA,DailyMed
+DL48G20X8X,SCOPOLAMINE,MOA,Concept,NA,DailyMed
+DLG4EML025,SECUKINUMAB,MOA,Concept,NA,DailyMed
+DOQ0J0TPF7,METYROSINE,MOA,Concept,NA,DailyMed
+DPT0O3T46P,PEMBROLIZUMAB,MOA,Concept,NA,DailyMed
+DQ448MW7KS,PALIVIZUMAB,MOA,Concept,NA,DailyMed
+DR40J4WA67,ELIGLUSTAT,MOA,Concept,NA,DailyMed
+DR5S136IVO,AVANAFIL,MOA,Concept,NA,DailyMed
+DX1U2629QE,SUCCIMER,MOA,Concept,NA,DailyMed
+E211KPY694,ABOBOTULINUMTOXINA,MOA,Concept,NA,DailyMed
+E3B2GI648A,BELATACEPT,MOA,Concept,NA,DailyMed
+E6582LOH6V,FEXOFENADINE,MOA,Concept,NA,DailyMed
+E65RW73PHS,GADOFOSVESET,MOA,Concept,NA,DailyMed
+E6GNX3HHTE,BRIMONIDINE,MOA,Concept,NA,DailyMed
+EDN2NBH5SS,LEVALBUTEROL,MOA,Concept,NA,DailyMed
+EE083865G2,LENVATINIB,MOA,Concept,NA,DailyMed
+EE92BBP03H,DILTIAZEM,MOA,Concept,NA,DailyMed
+EFY6W0M8TG,LEUPROLIDE,MOA,Concept,NA,DailyMed
+EGP8L81APK,LUMACAFTOR,MOA,Concept,NA,DailyMed
+EGX657432I,SAPROPTERIN,MOA,Concept,NA,DailyMed
+ER29L26N1X,COBIMETINIB,MOA,Concept,NA,DailyMed
+ER5I1W795A,PHENYLACETIC ACID,MOA,Concept,NA,DailyMed
+F41401512X,NILOTINIB,MOA,Concept,NA,DailyMed
+F4216019LN,ALBENDAZOLE,MOA,Concept,NA,DailyMed
+F43I396OIS,.ALPHA.1-PROTEINASE INHIBITOR HUMAN,MOA,Concept,NA,DailyMed
+F446C597KA,TRIAMCINOLONE ACETONIDE,MOA,Concept,NA,DailyMed
+F4H96P17NZ,BELINOSTAT,MOA,Concept,NA,DailyMed
+F5TD010360,ALPROSTADIL,MOA,Concept,NA,DailyMed
+F91H02EBWT,ARFORMOTEROL,MOA,Concept,NA,DailyMed
+F9NUX55P23,AZILSARTAN,MOA,Concept,NA,DailyMed
+FEN504330V,"NADOLOL",MOA,Concept,NA,DailyMed
+FI96A8X663,RILPIVIRINE,MOA,Concept,NA,DailyMed
+FQR280JW2N,HYDROXYAMPHETAMINE,MOA,Concept,NA,DailyMed
+FU77B4U5Z0,USTEKINUMAB,MOA,Concept,NA,DailyMed
+FVF865388R,DESLORATADINE,MOA,Concept,NA,DailyMed
+FYS6T7F842,ADALIMUMAB,MOA,Concept,NA,DailyMed
+G1LN9045DK,BUSULFAN,MOA,Concept,NA,DailyMed
+G2AE2VE07O,REVEFENACIN,MOA,Concept,NA,DailyMed
+G2M7P15E5P,POLYETHYLENE GLYCOL 3350,MOA,Concept,NA,DailyMed
+G3P28OML5I,TAMSULOSIN,MOA,Concept,NA,DailyMed
+G56VK1HF36,MILNACIPRAN,MOA,Concept,NA,DailyMed
+G6317AOI7K,LEVOBUNOLOL,MOA,Concept,NA,DailyMed
+G6HRD2P839,NINTEDANIB,MOA,Concept,NA,DailyMed
+G70B4ETF4S,EMTRICITABINE,MOA,Concept,NA,DailyMed
+G819A456D0,ABIRATERONE,MOA,Concept,NA,DailyMed
+G9ZF61LE7G,PALBOCICLIB,MOA,Concept,NA,DailyMed
+GCU97FKN3R,VALGANCICLOVIR,MOA,Concept,NA,DailyMed
+GE2T1418SV,UMECLIDINIUM,MOA,Concept,NA,DailyMed
+GEB06NHM23,METOPROLOL,MOA,Concept,NA,DailyMed
+GGD30112WC,GUANABENZ,MOA,Concept,NA,DailyMed
+GLH0314RVC,TICAGRELOR,MOA,Concept,NA,DailyMed
+GN5XU2DXKV,ROMIPLOSTIM,MOA,Concept,NA,DailyMed
+GN83C131XS,EPHEDRINE,MOA,Concept,NA,DailyMed
+GR88G0I6UL,IPRATROPIUM,MOA,Concept,NA,DailyMed
+GRZ5RCB1QG,VENLAFAXINE,MOA,Concept,NA,DailyMed
+H1250JIK0A,CLARITHROMYCIN,MOA,Concept,NA,DailyMed
+H3753190JS,MOEXIPRILAT,MOA,Concept,NA,DailyMed
+H50H3S3W74,HISTRELIN,MOA,Concept,NA,DailyMed
+H6EP7W5457,MANGANESE CATION (2+),MOA,Concept,NA,DailyMed
+H789N3FKE8,BACLOFEN,MOA,Concept,NA,DailyMed
+H821664NPK,PERAMPANEL,MOA,Concept,NA,DailyMed
+H82Q2D5WA7,FROVATRIPTAN,MOA,Concept,NA,DailyMed
+H8A007M585,TAPENTADOL,MOA,Concept,NA,DailyMed
+HDC1R2M35U,EMPAGLIFLOZIN,MOA,Concept,NA,DailyMed
+HMC2H89N35,NIRAPARIB,MOA,Concept,NA,DailyMed
+HO3OGH5D7I,NELFINAVIR,MOA,Concept,NA,DailyMed
+HW6NV07QEC,AMBRISENTAN,MOA,Concept,NA,DailyMed
+HW8W27HTXX,IODIXANOL,MOA,Concept,NA,DailyMed
+HYW8DB273J,BRIGATINIB,MOA,Concept,NA,DailyMed
+I031V2H011,TOCILIZUMAB,MOA,Concept,NA,DailyMed
+I42748ELQW,ACALABRUTINIB,MOA,Concept,NA,DailyMed
+I9ZF7L6G2L,NIFEDIPINE,MOA,Concept,NA,DailyMed
+IA6O0K772M,AGKISTRODON PISCIVORUS IMMUNE FAB ANTIVENIN (OVINE),MOA,Concept,NA,DailyMed
+ID0YZQ2TCP,TRABECTEDIN,MOA,Concept,NA,DailyMed
+ID912S5VON,MIDOSTAURIN,MOA,Concept,NA,DailyMed
+ILA426L95O,AMIFOSTINE ANHYDROUS,MOA,Concept,NA,DailyMed
+INU8H2KAWG,FENOLDOPAM,MOA,Concept,NA,DailyMed
+ISP4442I3Y,BARICITINIB,MOA,Concept,NA,DailyMed
+ITX08688JL,QUINIDINE,MOA,Concept,NA,DailyMed
+IU5QR144QX,"ESTROGENS, CONJUGATED",MOA,Concept,NA,DailyMed
+IX503L9WN0,GANIRELIX,MOA,Concept,NA,DailyMed
+IX6J1063HV,INDOCYANINE GREEN,MOA,Concept,NA,DailyMed
+J06Y7MXW4D,DEFEROXAMINE,MOA,Concept,NA,DailyMed
+J0E2756Z7N,IRBESARTAN,MOA,Concept,NA,DailyMed
+J177FOW5JL,FONDAPARINUX,MOA,Concept,NA,DailyMed
+J280872D1O,DESONIDE,MOA,Concept,NA,DailyMed
+J4T82NDH7E,ERLOTINIB,MOA,Concept,NA,DailyMed
+JCX84Q7J1L,CELECOXIB,MOA,Concept,NA,DailyMed
+JE42381TNV,SULFAMETHOXAZOLE,MOA,Concept,NA,DailyMed
+JE6H2O27P8,EFAVIRENZ,MOA,Concept,NA,DailyMed
+JFU09I87TR,VORICONAZOLE,MOA,Concept,NA,DailyMed
+JHC049LO86,ALOGLIPTIN,MOA,Concept,NA,DailyMed
+JJH94R3PWB,NERATINIB,MOA,Concept,NA,DailyMed
+JMS50MPO89,LOSARTAN,MOA,Concept,NA,DailyMed
+JR13W81H44,IOPAMIDOL,MOA,Concept,NA,DailyMed
+JRM708L703,BENAZEPRILAT,MOA,Concept,NA,DailyMed
+JU9YAX04C7,MILRINONE,MOA,Concept,NA,DailyMed
+JY83SHX053,DEXTRAN 75,MOA,Concept,NA,DailyMed
+K124A4EUQ3,TAVABOROLE,MOA,Concept,NA,DailyMed
+K16AIQ8CTM,PERTUZUMAB,MOA,Concept,NA,DailyMed
+K17VY42F6C,ACLIDINIUM,MOA,Concept,NA,DailyMed
+K3GDH6OH08,DIDANOSINE,MOA,Concept,NA,DailyMed
+K3R6ZDH4DU,DEXTRAN 40,MOA,Concept,NA,DailyMed
+K418KG2GET,CERITINIB,MOA,Concept,NA,DailyMed
+K50N755924,COLESTIPOL,MOA,Concept,NA,DailyMed
+K5BN214699,NITISINONE,MOA,Concept,NA,DailyMed
+K673DMO5H9,GLASDEGIB,MOA,Concept,NA,DailyMed
+K6BUU8J72P,GLECAPREVIR,MOA,Concept,NA,DailyMed
+K72T3FS567,ADENOSINE,MOA,Concept,NA,DailyMed
+K9P6MC7092,OXYBUTYNIN,MOA,Concept,NA,DailyMed
+K9V0CDQ56E,CEVIMELINE,MOA,Concept,NA,DailyMed
+K9X45X0051,ANAGRELIDE,MOA,Concept,NA,DailyMed
+KCU0C7RS7Z,VELPATASVIR,MOA,Concept,NA,DailyMed
+KE3U2023NP,PORACTANT ALFA,MOA,Concept,NA,DailyMed
+KG60484QX9,OMEPRAZOLE,MOA,Concept,NA,DailyMed
+KGZ1SLC28Z,BECLOMETHASONE,MOA,Concept,NA,DailyMed
+KR5YZ6AE4B,DEFLAZACORT,MOA,Concept,NA,DailyMed
+KXG2PJ551I,AVELUMAB,MOA,Concept,NA,DailyMed
+KXO2KT9N0G,PRAVASTATIN,MOA,Concept,NA,DailyMed
+L2T84IQI2K,"NALBUPHINE",MOA,Concept,NA,DailyMed
+L35JN3I7SJ,RAMIPRIL,MOA,Concept,NA,DailyMed
+L3JE09KZ2F,SAQUINAVIR,MOA,Concept,NA,DailyMed
+L49M066S0O,FLUTEMETAMOL F-18,MOA,Concept,NA,DailyMed
+L4YEB44I46,METOCLOPRAMIDE,MOA,Concept,NA,DailyMed
+L628TT009W,ISOPROTERENOL,MOA,Concept,NA,DailyMed
+L6O3XI777I,ZANAMIVIR,MOA,Concept,NA,DailyMed
+LGX9OL562T,INDIUM IN-111 OXYQUINOLINE,MOA,Concept,NA,DailyMed
+LIJ4CT1Z3Y,ALECTINIB,MOA,Concept,NA,DailyMed
+LKC0U3A8NJ,EVOLOCUMAB,MOA,Concept,NA,DailyMed
+LW0TIW155Z,"NABUMETONE",MOA,Concept,NA,DailyMed
+LW2E03M5PG,COBICISTAT,MOA,Concept,NA,DailyMed
+LYR4M0NH37,SODIUM CATION,MOA,Concept,NA,DailyMed
+M15H03K69B,PORFIMER,MOA,Concept,NA,DailyMed
+M312JJ6Z32,INDIUM IN-111 PENTETREOTIDE,MOA,Concept,NA,DailyMed
+M4AS4XGD4Q,CHOLINE C-11,MOA,Concept,NA,DailyMed
+M4R0H12F6M,METHYLDOPA ANHYDROUS,MOA,Concept,NA,DailyMed
+M5681Q5F9P,PITAVASTATIN,MOA,Concept,NA,DailyMed
+M801H13NRU,AZACITIDINE,MOA,Concept,NA,DailyMed
+M95KG522R0,OFATUMUMAB,MOA,Concept,NA,DailyMed
+MD6P741W8A,MARAVIROC,MOA,Concept,NA,DailyMed
+MDY902UXSR,ESMOLOL,MOA,Concept,NA,DailyMed
+MHJ80W9LRB,OXAPROZIN,MOA,Concept,NA,DailyMed
+MHM278SD3E,MONTELUKAST,MOA,Concept,NA,DailyMed
+MN3L5RMN02,CLONIDINE,MOA,Concept,NA,DailyMed
+MNX7R8C5VO,CARBIDOPA,MOA,Concept,NA,DailyMed
+MRK240IY2L,AZATHIOPRINE,MOA,Concept,NA,DailyMed
+MVR3JL3B2V,MIRABEGRON,MOA,Concept,NA,DailyMed
+MZ1IW7Q79D,VALACYCLOVIR,MOA,Concept,NA,DailyMed
+N0A3Z5XTC6,TROPICAMIDE,MOA,Concept,NA,DailyMed
+N0TXR0XR5X,LINACLOTIDE,MOA,Concept,NA,DailyMed
+N21FAR7B4S,APOMORPHINE,MOA,Concept,NA,DailyMed
+N29QWW3BUO,DANAZOL,MOA,Concept,NA,DailyMed
+N3PA6559FT,ESOMEPRAZOLE,MOA,Concept,NA,DailyMed
+N3RIB7X24K,IOVERSOL,MOA,Concept,NA,DailyMed
+N3RQ532IUT,AMIODARONE,MOA,Concept,NA,DailyMed
+N54AIC43PW,VENETOCLAX,MOA,Concept,NA,DailyMed
+N7Z035406B,CILOSTAZOL,MOA,Concept,NA,DailyMed
+N824AOU5XV,PEGVISOMANT,MOA,Concept,NA,DailyMed
+N8ZUB7XE0H,CLOCORTOLONE,MOA,Concept,NA,DailyMed
+N9I9HDB855,DIHYDROCODEINE,MOA,Concept,NA,DailyMed
+N9YNS0M02X,ACETYLCHOLINE,MOA,Concept,NA,DailyMed
+NDU3J18APO,EDOXABAN,MOA,Concept,NA,DailyMed
+NG99554ANW,DESVENLAFAXINE,MOA,Concept,NA,DailyMed
+NGO10K751P,TIPIRACIL,MOA,Concept,NA,DailyMed
+NLE429IZUC,ROLAPITANT,MOA,Concept,NA,DailyMed
+NNU2O4609D,ENTECAVIR ANHYDROUS,MOA,Concept,NA,DailyMed
+NU90V55F8I,SARILUMAB,MOA,Concept,NA,DailyMed
+NW1291F1W8,DOXAZOSIN,MOA,Concept,NA,DailyMed
+NY22HMQ4BX,EXEMESTANE,MOA,Concept,NA,DailyMed
+O0J6XJN02I,DUTASTERIDE,MOA,Concept,NA,DailyMed
+O0ZR1R6RZ2,BETAXOLOL,MOA,Concept,NA,DailyMed
+O3FX965V0I,ACETAZOLAMIDE,MOA,Concept,NA,DailyMed
+O3J8G9O825,RITONAVIR,MOA,Concept,NA,DailyMed
+O408N561GF,PHENELZINE,MOA,Concept,NA,DailyMed
+O43472U9X8,OBINUTUZUMAB,MOA,Concept,NA,DailyMed
+O4L1XPO44W,FLUVOXAMINE,MOA,Concept,NA,DailyMed
+O5TNM5N07U,DULOXETINE,MOA,Concept,NA,DailyMed
+O7FU5X12W5,LANTHANUM CATION (3+),MOA,Concept,NA,DailyMed
+O9U0F09D5X,DROPERIDOL,MOA,Concept,NA,DailyMed
+OCY3U280Y3,ARGATROBAN ANHYDROUS,MOA,Concept,NA,DailyMed
+OL961R6O2C,FELODIPINE,MOA,Concept,NA,DailyMed
+OON1HFZ4BA,CETRORELIX,MOA,Concept,NA,DailyMed
+OP401G7OJC,ETANERCEPT,MOA,Concept,NA,DailyMed
+OSP71S83EU,LORLATINIB,MOA,Concept,NA,DailyMed
+OU2YM37K86,PARITAPREVIR,MOA,Concept,NA,DailyMed
+P10582JYYK,REMIFENTANIL,MOA,Concept,NA,DailyMed
+P188ANX8CK,TRASTUZUMAB,MOA,Concept,NA,DailyMed
+P1QW714R7M,IMIQUIMOD,MOA,Concept,NA,DailyMed
+P2K93U8740,FLUDARABINE,MOA,Concept,NA,DailyMed
+P41PML4GHR,NIZATIDINE,MOA,Concept,NA,DailyMed
+P7MU9UTP52,PRALIDOXIME,MOA,Concept,NA,DailyMed
+P93RUU11P7,INOTUZUMAB OZOGAMICIN,MOA,Concept,NA,DailyMed
+P9G3CKZ4P5,GANCICLOVIR,MOA,Concept,NA,DailyMed
+PF9462I9HX,LAROTRECTINIB,MOA,Concept,NA,DailyMed
+PKI06M3IW0,RIVASTIGMINE,MOA,Concept,NA,DailyMed
+PKK6MUZ20G,MERCAPTOPURINE ANHYDROUS,MOA,Concept,NA,DailyMed
+PP0SHH6V16,ALIROCUMAB,MOA,Concept,NA,DailyMed
+PQX0D8J21J,CETUXIMAB,MOA,Concept,NA,DailyMed
+PUG62FRZ2E,ORITAVANCIN,MOA,Concept,NA,DailyMed
+Q13WX941EF,EPINASTINE,MOA,Concept,NA,DailyMed
+Q153V49P3Z,ALVIMOPAN ANHYDROUS,MOA,Concept,NA,DailyMed
+Q16TT9C5BK,BAZEDOXIFENE,MOA,Concept,NA,DailyMed
+Q2R47HGR7P,CRISABOROLE,MOA,Concept,NA,DailyMed
+Q3OKS62Q6X,BUDESONIDE,MOA,Concept,NA,DailyMed
+Q41OR9510P,MELPHALAN,MOA,Concept,NA,DailyMed
+Q461L7AK4R,IOBENGUANE I-131,MOA,Concept,NA,DailyMed
+Q4K217VGA9,CALFACTANT,MOA,Concept,NA,DailyMed
+Q508Q118JM,ENALAPRILAT ANHYDROUS,MOA,Concept,NA,DailyMed
+Q6C9WHR03O,TISAGENLECLEUCEL,MOA,Concept,NA,DailyMed
+Q812464R06,HYDROMORPHONE,MOA,Concept,NA,DailyMed
+Q8X02027X3,GEMFIBROZIL,MOA,Concept,NA,DailyMed
+QF8SVZ843E,ALBUTEROL,MOA,Concept,NA,DailyMed
+QFP0P1DV7Z,SITAGLIPTIN,MOA,Concept,NA,DailyMed
+QGP4HA4G1B,DABRAFENIB,MOA,Concept,NA,DailyMed
+QIC03ANI02,FAMCICLOVIR,MOA,Concept,NA,DailyMed
+QUC7NX6WMB,SERTRALINE,MOA,Concept,NA,DailyMed
+QV897JC36D,BUTORPHANOL,MOA,Concept,NA,DailyMed
+QX3KXL1ZA2,"NARATRIPTAN",MOA,Concept,NA,DailyMed
+QZU4H47A3S,ATAZANAVIR,MOA,Concept,NA,DailyMed
+R16CO5Y76E,ASPIRIN,MOA,Concept,NA,DailyMed
+R43D2573WO,FOSINOPRIL,MOA,Concept,NA,DailyMed
+R5H8897N95,LABETALOL,MOA,Concept,NA,DailyMed
+R9400W927I,KETOCONAZOLE,MOA,Concept,NA,DailyMed
+RA33EAC7KY,FENOPROFEN,MOA,Concept,NA,DailyMed
+RBR61YAJ4V,CROTALUS ATROX IMMUNE FAB ANTIVENIN (OVINE),MOA,Concept,NA,DailyMed
+RE91AN4S8G,LULICONAZOLE,MOA,Concept,NA,DailyMed
+RFW2ET671P,HYDROXYPROPYL CELLULOSE (1600000 WAMW),MOA,Concept,NA,DailyMed
+RJ84Y44811,QUINAPRIL,MOA,Concept,NA,DailyMed
+RMW9V5RW38,TRIFLURIDINE,MOA,Concept,NA,DailyMed
+RP4A60D26L,PENTAZOCINE,MOA,Concept,NA,DailyMed
+RR6866VL0O,TRANDOLAPRILAT,MOA,Concept,NA,DailyMed
+RU3FE2Y4XI,RIOCIGUAT,MOA,Concept,NA,DailyMed
+RU4S6E2G0J,AMIFAMPRIDINE,MOA,Concept,NA,DailyMed
+RWM8CCW8GP,OCTREOTIDE,MOA,Concept,NA,DailyMed
+S2F83W92TK,PROPOXYPHENE,MOA,Concept,NA,DailyMed
+S312EY6ZT8,FOSINOPRILAT,MOA,Concept,NA,DailyMed
+S4TF6I2330,SULBACTAM,MOA,Concept,NA,DailyMed
+S56D65XJ9G,ELTROMBOPAG,MOA,Concept,NA,DailyMed
+S5VXA428R4,ESLICARBAZEPINE,MOA,Concept,NA,DailyMed
+S61K3P7B2V,PROGUANIL,MOA,Concept,NA,DailyMed
+S62U433RMH,ZALEPLON,MOA,Concept,NA,DailyMed
+S65743JHBS,GEFITINIB,MOA,Concept,NA,DailyMed
+S8Q36MD2XX,CANDESARTAN,MOA,Concept,NA,DailyMed
+SE10G96M8W,TAZOBACTAM,MOA,Concept,NA,DailyMed
+SHS4PU80D9,TASIMELTEON,MOA,Concept,NA,DailyMed
+SI86V6QNEG,HALCINONIDE,MOA,Concept,NA,DailyMed
+SJ76Y07H5F,TRIENTINE,MOA,Concept,NA,DailyMed
+SML2Y3J35T,COLCHICINE,MOA,Concept,NA,DailyMed
+SPI5PBF81S,SACUBITRILAT,MOA,Concept,NA,DailyMed
+SV0CSG527L,FLUOROMETHOLONE,MOA,Concept,NA,DailyMed
+SY7Q814VUP,CALCIUM,MOA,Concept,NA,DailyMed
+T2DHJ9645W,DIFLORASONE,MOA,Concept,NA,DailyMed
+T4H8FMA7IM,SILTUXIMAB,MOA,Concept,NA,DailyMed
+T4Y8ORK057,TROSPIUM,MOA,Concept,NA,DailyMed
+T58MSI464G,ACARBOSE,MOA,Concept,NA,DailyMed
+T6V3LHY838,MAGNESIUM CATION,MOA,Concept,NA,DailyMed
+T8C6W1N6NW,HUMAN ALBUMIN MICROSPHERES,MOA,Concept,NA,DailyMed
+TK8ERE8P56,RIBOCICLIB,MOA,Concept,NA,DailyMed
+TLA7312TOI,FLORBETABEN F-18,MOA,Concept,NA,DailyMed
+TLE294X33A,FERRIC FERROCYANIDE,MOA,Concept,NA,DailyMed
+TN9BEX005G,BIVALIRUDIN,MOA,Concept,NA,DailyMed
+TOV02TDP9I,"NALMEFENE",MOA,Concept,NA,DailyMed
+TPY09G7XIR,FLUORESCEIN,MOA,Concept,NA,DailyMed
+TR3MLJ1UAI,DISULFIRAM,MOA,Concept,NA,DailyMed
+U0JZ726775,DESIRUDIN,MOA,Concept,NA,DailyMed
+U202363UOS,FENOFIBRATE,MOA,Concept,NA,DailyMed
+U2I8T43Y7R,AXICABTAGENE CILOLEUCEL,MOA,Concept,NA,DailyMed
+U3P01618RT,FLUOROURACIL,MOA,Concept,NA,DailyMed
+U4VJ29L7BQ,METHOXSALEN,MOA,Concept,NA,DailyMed
+U5N7SU872W,MALATHION,MOA,Concept,NA,DailyMed
+U5SYW473RQ,TELMISARTAN,MOA,Concept,NA,DailyMed
+U68WG3173Y,CARMUSTINE,MOA,Concept,NA,DailyMed
+U863JGG2IA,BRIVARACETAM,MOA,Concept,NA,DailyMed
+UAZ6V7728S,CINACALCET,MOA,Concept,NA,DailyMed
+UC6VBE7V1Z,METHADONE,MOA,Concept,NA,DailyMed
+UCE6F4125H,VARDENAFIL,MOA,Concept,NA,DailyMed
+UDM7Q7QWP8,BENAZEPRIL,MOA,Concept,NA,DailyMed
+UF599785JZ,FENTANYL,MOA,Concept,NA,DailyMed
+UGM0326TXX,LEVOMILNACIPRAN,MOA,Concept,NA,DailyMed
+UM20QQM95Y,IFOSFAMIDE,MOA,Concept,NA,DailyMed
+UMD07X179E,CERTOLIZUMAB PEGOL,MOA,Concept,NA,DailyMed
+UX6OWY2V7J,CODEINE ANHYDROUS,MOA,Concept,NA,DailyMed
+UYE4T5I70X,DEXLANSOPRAZOLE,MOA,Concept,NA,DailyMed
+V1L22WVE2S,ZILEUTON,MOA,Concept,NA,DailyMed
+V27W9254FZ,CORTISONE,MOA,Concept,NA,DailyMed
+V8G4MOF2V9,DEFERASIROX,MOA,Concept,NA,DailyMed
+V901LV1K7D,PREDNICARBATE,MOA,Concept,NA,DailyMed
+V99T50803M,SUNITINIB,MOA,Concept,NA,DailyMed
+V9EFU16ZIF,METHYLTESTOSTERONE,MOA,Concept,NA,DailyMed
+VB0R961HZT,PREDNISONE,MOA,Concept,NA,DailyMed
+VD2YSN1AFD,OLODATEROL,MOA,Concept,NA,DailyMed
+VDR09VTQ8U,METHSCOPOLAMINE,MOA,Concept,NA,DailyMed
+VG2QF83CGL,MELOXICAM,MOA,Concept,NA,DailyMed
+VVJ6673MHY,DICHLORPHENAMIDE,MOA,Concept,NA,DailyMed
+W36ZG6FT64,SIROLIMUS,MOA,Concept,NA,DailyMed
+W4HFE001U5,TENOFOVIR ANHYDROUS,MOA,Concept,NA,DailyMed
+W6HS99O8ZO,VARENICLINE,MOA,Concept,NA,DailyMed
+W6I5QDT7QI,NETARSUDIL,MOA,Concept,NA,DailyMed
+W8O17SJF3T,MEMANTINE,MOA,Concept,NA,DailyMed
+WHE7A56U7K,TOLTERODINE,MOA,Concept,NA,DailyMed
+WI4X0X7BPJ,HYDROCORTISONE,MOA,Concept,NA,DailyMed
+WI6V529FZ9,COPANLISIB,MOA,Concept,NA,DailyMed
+WJ6CA3ZU8B,SOFOSBUVIR,MOA,Concept,NA,DailyMed
+WK2XYI10QM,IBUPROFEN,MOA,Concept,NA,DailyMed
+WOH1JD9AR8,OLAPARIB,MOA,Concept,NA,DailyMed
+WQ29KQ9POT,GLUCONOLACTONE,MOA,Concept,NA,DailyMed
+WR2TIP26VS,ABACAVIR,MOA,Concept,NA,DailyMed
+WS7LR3I1D6,SULFUR HEXAFLUORIDE,MOA,Concept,NA,DailyMed
+WTT295HSY5,DULAGLUTIDE,MOA,Concept,NA,DailyMed
+WYQ7N0BPYC,ACETYLCYSTEINE,MOA,Concept,NA,DailyMed
+WZG3J2MCOL,GRANISETRON,MOA,Concept,NA,DailyMed
+X3P9A5HNYF,XENON XE-133,MOA,Concept,NA,DailyMed
+X49220T18G,KETOTIFEN,MOA,Concept,NA,DailyMed
+X4HES1O11F,ACYCLOVIR,MOA,Concept,NA,DailyMed
+X4OV71U42S,PIOGLITAZONE,MOA,Concept,NA,DailyMed
+X4W7ZR7023,METHYLPREDNISOLONE,MOA,Concept,NA,DailyMed
+X641Y30OA7,HUMAN BOTULINUM NEUROTOXIN A/B IMMUNE GLOBULIN,MOA,Concept,NA,DailyMed
+X78UG0A0RN,DASATINIB ANHYDROUS,MOA,Concept,NA,DailyMed
+X89XV46R07,TECHNETIUM TC-99M MEDRONATE,MOA,Concept,NA,DailyMed
+XF417D3PSL,ANHYDROUS CITRIC ACID,MOA,Concept,NA,DailyMed
+XII270YC6M,HUMAN HEPATITIS B VIRUS IMMUNE GLOBULIN,MOA,Concept,NA,DailyMed
+XM03YJ541D,PRAZOSIN,MOA,Concept,NA,DailyMed
+XUL93R30K2,BOSENTAN ANHYDROUS,MOA,Concept,NA,DailyMed
+XV74C1N1AE,HYDROQUINONE,MOA,Concept,NA,DailyMed
+XXE1CET956,INDOMETHACIN,MOA,Concept,NA,DailyMed
+XZ629S5L50,ZAFIRLUKAST,MOA,Concept,NA,DailyMed
+Y41JS2NL6U,BISOPROLOL,MOA,Concept,NA,DailyMed
+Y5GMK36KGY,PERINDOPRIL,MOA,Concept,NA,DailyMed
+Y5L2157C4J,TACROLIMUS ANHYDROUS,MOA,Concept,NA,DailyMed
+YF1K15M17Y,TEMOZOLOMIDE,MOA,Concept,NA,DailyMed
+YG57I8T5M0,IDELALISIB,MOA,Concept,NA,DailyMed
+YKH834O4BH,EPINEPHRINE,MOA,Concept,NA,DailyMed
+YL5FZ2Y5U1,METHOTREXATE,MOA,Concept,NA,DailyMed
+YO1UK1S598,ISRADIPINE,MOA,Concept,NA,DailyMed
+YO460OQ37K,VANDETANIB,MOA,Concept,NA,DailyMed
+YO603Y8113,DARUNAVIR,MOA,Concept,NA,DailyMed
+YO7261ME24,CETIRIZINE,MOA,Concept,NA,DailyMed
+YX9162EO3I,RALOXIFENE,MOA,Concept,NA,DailyMed
+YZI5105V0L,KETOROLAC,MOA,Concept,NA,DailyMed
+Z3614QOX8W,PYRIMETHAMINE,MOA,Concept,NA,DailyMed
+Z468598HBV,PHENTOLAMINE,MOA,Concept,NA,DailyMed
+Z8CBU6KR16,LOTEPREDNOL,MOA,Concept,NA,DailyMed
+Z9K9Y9WMVL,MACITENTAN,MOA,Concept,NA,DailyMed
+Z9O08YRN8O,TETRABENAZINE,MOA,Concept,NA,DailyMed
+ZCE93644N2,VORAPAXAR,MOA,Concept,NA,DailyMed
+ZIF514RVZR,ALBUMIN (HUMAN),MOA,Concept,NA,DailyMed
+ZL1R02VT79,RANIBIZUMAB,MOA,Concept,NA,DailyMed
+ZMZ79891ZH,METHYLENE BLUE CATION,MOA,Concept,NA,DailyMed
+ZQI909440X,AZELASTINE,MOA,Concept,NA,DailyMed
+ZQN1G5V6SR,EFLORNITHINE,MOA,Concept,NA,DailyMed
+ZRP63D75JW,IDARUBICIN,MOA,Concept,NA,DailyMed
+ZS7284E0ZP,DAUNORUBICIN,MOA,Concept,NA,DailyMed
+ZS9KD92H6V,METYRAPONE,MOA,Concept,NA,DailyMed
+ZZT404XD09,TIPRANAVIR,MOA,Concept,NA,DailyMed

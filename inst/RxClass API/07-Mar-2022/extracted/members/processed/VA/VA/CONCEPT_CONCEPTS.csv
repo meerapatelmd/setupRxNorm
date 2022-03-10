@@ -1,0 +1,97 @@
+concept_code,concept_name,class_type,concept_class_id,standard_concept,vocabulary_id
+1007537,chondroitin sulfates / glucosamine / methylsulfonylmethane,VA,MIN,NA,RxNorm
+1039062,corn starch,VA,IN,NA,RxNorm
+107129,sterile water,VA,PIN,NA,RxNorm
+1305608,fennel oil,VA,IN,NA,RxNorm
+1305638,almond oil,VA,IN,NA,RxNorm
+1305651,bergamot oil,VA,IN,NA,RxNorm
+1305653,wormwood oil,VA,IN,NA,RxNorm
+1305661,sage oil,VA,IN,NA,RxNorm
+1307580,Salvia miltiorrhiza root extract,VA,IN,NA,RxNorm
+1309206,myrrh oil,VA,IN,NA,RxNorm
+1309213,pennyroyal oil,VA,IN,NA,RxNorm
+1309229,cinnamon oil,VA,IN,NA,RxNorm
+1309236,parsley seed oil,VA,IN,NA,RxNorm
+1309243,cottonseed oil,VA,IN,NA,RxNorm
+1309245,juniper berry oil,VA,IN,NA,RxNorm
+1309250,olive oil,VA,IN,NA,RxNorm
+1309373,caraway oil,VA,IN,NA,RxNorm
+1309376,citronella oil,VA,IN,NA,RxNorm
+1356,beeswax,VA,IN,NA,RxNorm
+1358977,cranberry juice,VA,IN,NA,RxNorm
+1360631,mustard oil,VA,IN,NA,RxNorm
+1363043,ethyl ether,VA,IN,NA,RxNorm
+1431224,grapefruit juice,VA,IN,NA,RxNorm
+2118124,dillweed oil,VA,IN,NA,RxNorm
+2129,castor oil,VA,IN,NA,RxNorm
+221916,chamomile flowers,VA,IN,NA,RxNorm
+239351,liquefied phenol,VA,PIN,NA,RxNorm
+258439,heavy mineral oil,VA,IN,NA,RxNorm
+2669,cod liver oil,VA,IN,NA,RxNorm
+28486,lavender oil,VA,IN,NA,RxNorm
+285160,pokeweed preparation,VA,IN,NA,RxNorm
+32926,paregoric,VA,IN,NA,RxNorm
+33094,peppermint oil,VA,IN,NA,RxNorm
+350489,Viscum album preparation,VA,IN,NA,RxNorm
+4001272,PAREGORIC,VA,Concept,NA,VA
+4003007,"WATER,STERILE",VA,Concept,NA,VA
+4005590,COAL TAR DISTILLATE,VA,Concept,NA,VA
+4008142,EUCALYPTUS OIL,VA,Concept,NA,VA
+4008463,CASTOR OIL,VA,Concept,NA,VA
+4009123,"MINERAL OIL,LIGHT",VA,Concept,NA,VA
+4009127,"MINERAL OIL,HEAVY",VA,Concept,NA,VA
+4009442,COD LIVER OIL,VA,Concept,NA,VA
+4009545,PHENOL LIQUID,VA,Concept,NA,VA
+4009746,"BEESWAX,YELLOW",VA,Concept,NA,VA
+4009759,CHAMOMILE FLOWERS,VA,Concept,NA,VA
+4009766,COTTONSEED OIL,VA,Concept,NA,VA
+4009769,ETHER,VA,Concept,NA,VA
+4009793,LINSEED OIL,VA,Concept,NA,VA
+4009800,ALMOND OIL,VA,Concept,NA,VA
+4009801,ANISE OIL,VA,Concept,NA,VA
+4009803,CINNAMON OIL,VA,Concept,NA,VA
+4009804,CITRONELLA OIL,VA,Concept,NA,VA
+4009805,CLOVE OIL,VA,Concept,NA,VA
+4010025,OLIVE OIL,VA,Concept,NA,VA
+4010220,GLYCOLIC ACID,VA,Concept,NA,VA
+4010510,POLYETHYLENE GLYCOL 400,VA,Concept,NA,VA
+4010525,CORN STARCH,VA,Concept,NA,VA
+4015995,SAGE OIL,VA,Concept,NA,VA
+4016014,PARSLEY SEED OIL,VA,Concept,NA,VA
+4016017,WORMWOOD OIL,VA,Concept,NA,VA
+4017003,ROSEMARY OIL,VA,Concept,NA,VA
+4017007,FENNEL OIL,VA,Concept,NA,VA
+4017009,PEPPERMINT OIL,VA,Concept,NA,VA
+4017099,CHONDROITIN/GLUCOSAMINE/METHYLSULFONYLMETHAMANE,VA,Concept,NA,VA
+4017224,GRAPEFRUIT JUICE,VA,Concept,NA,VA
+4017225,CRANBERRY JUICE,VA,Concept,NA,VA
+4017300,BETA SITOSTEROL/ZINC CITRATE,VA,Concept,NA,VA
+4025048,PARAFFIN WAX,VA,Concept,NA,VA
+4025347,THYME OIL,VA,Concept,NA,VA
+4025352,JUNIPER BERRY OIL,VA,Concept,NA,VA
+4025354,LAVENDER OIL,VA,Concept,NA,VA
+4025356,MUSTARD OIL,VA,Concept,NA,VA
+4025357,PENNYROYAL OIL,VA,Concept,NA,VA
+4025364,DILLWEED OIL,VA,Concept,NA,VA
+4025365,CARUM (CARAWAY) OIL,VA,Concept,NA,VA
+4025374,DANSHEN EXTRACT,VA,Concept,NA,VA
+4025376,MISTLETOE EXTRACT,VA,Concept,NA,VA
+4025382,POKEWEED EXTRACT,VA,Concept,NA,VA
+4025385,MYRRH OIL,VA,Concept,NA,VA
+4026003,OREGANO OIL,VA,Concept,NA,VA
+4026083,SAFFLOWER OIL,VA,Concept,NA,VA
+4032020,BERGAMOT OIL,VA,Concept,NA,VA
+485876,beta sitosterol / zinc citrate,VA,MIN,NA,RxNorm
+577312,"mineral oil, light",VA,IN,NA,RxNorm
+587318,glycolic acid,VA,PIN,NA,RxNorm
+59087,Eucalyptus oil,VA,IN,NA,RxNorm
+6404,linseed oil,VA,IN,NA,RxNorm
+705279,oregano oil,VA,IN,NA,RxNorm
+7624,clove oil,VA,IN,NA,RxNorm
+7906,paraffin,VA,IN,NA,RxNorm
+8514,polyethylene glycol 400,VA,IN,NA,RxNorm
+90732,coal tar pitch volatiles,VA,PIN,NA,RxNorm
+90926,anise oil,VA,IN,NA,RxNorm
+90945,rosemary oil,VA,IN,NA,RxNorm
+90950,thyme oil,VA,IN,NA,RxNorm
+9515,safflower oil,VA,IN,NA,RxNorm

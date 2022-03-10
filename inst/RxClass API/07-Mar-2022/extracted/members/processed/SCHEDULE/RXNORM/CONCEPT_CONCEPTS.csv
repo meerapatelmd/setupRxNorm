@@ -1,0 +1,4 @@
+concept_code,concept_name,class_type,concept_class_id,standard_concept,vocabulary_id
+235404,barbital sodium,SCHEDULE,PIN,NA,RxNorm
+32926,paregoric,SCHEDULE,IN,NA,RxNorm
+NA,NA,SCHEDULE,Concept,NA,RxNorm
