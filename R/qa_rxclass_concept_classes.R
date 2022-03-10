@@ -37,7 +37,7 @@ function(prior_version = NULL,
     )
 
 
-  concept_classes_orphans <<-
+  concept_classes_orphans <-
     reconciled_data %>%
     dplyr::filter_at(dplyr::vars(ends_with(".graph")),
                      dplyr::all_vars(is.na(.))) %>%
