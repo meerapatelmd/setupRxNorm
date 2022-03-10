@@ -128,7 +128,16 @@ extract_rxclass_graph <-
       clear = TRUE
     )
 
-for (class_type in class_types) {
+for (jj in 1:nrow(lookup)) {
+
+  class_type_status <- lookup$classType.run[jj]
+  class_type <- lookup$classType[jj]
+
+  print_df(df = lookup,
+           highlight_row = jj)
+
+
+  if (identical(class_type_status, "X")) {
 
   path_vctr   <- c(here::here(), "inst", "RxClass API", version_key$version, "extracted", "graph", "raw", class_type)
 
@@ -713,6 +722,9 @@ for (class_type in class_types) {
 
 
   }
+
+  }
+
 
 }
 
