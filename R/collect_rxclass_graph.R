@@ -146,12 +146,14 @@ collect_rxclass_graph <-
 
 
       if (is.null(results)) {
+
         Sys.sleep(3)
         resp <-
           httr::GET(url = url)
 
         output0 <-
-          httr::content(resp) %>%
+          httr::content(resp,
+                        encoding = "UTF-8") %>%
           purrr::pluck("rxclassGraph") %>%
           purrr::map(function(x) purrr::map(x, tibble::as_tibble_row)) %>%
           purrr::map(dplyr::bind_rows)
