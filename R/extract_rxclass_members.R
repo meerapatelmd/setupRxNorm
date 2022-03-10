@@ -92,7 +92,17 @@ extract_rxclass_members <-
           suffix = c("", ".run")) %>%
         dplyr::mutate_at(
           dplyr::vars(dplyr::ends_with(".run")),
-          ~ifelse(is.na(.), "", "X"))
+          ~ifelse(is.na(.), "", "X")) %>%
+        dplyr::left_join(
+      get_rxnav_classes() %>%
+        dplyr::count(classType),
+      by = "classType") %>%
+  dplyr::distinct() %>%
+  dplyr::mutate(
+    total_time_estimation =
+      as.character(
+        calculate_total_time(total_iterations = n))
+  )
 
 
       print_lookup(lookup)
