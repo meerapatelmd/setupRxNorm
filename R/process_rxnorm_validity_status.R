@@ -26,7 +26,7 @@
 #' @import tidyverse
 #' @importFrom pg13 send query write_table drop_table
 #' @importFrom glue glue
-#' @importFrom dplyr arrange filter
+#' @importFrom dplyr filter
 #' @importFrom cli cli_abort
 
 process_rxnorm_validity_status <-

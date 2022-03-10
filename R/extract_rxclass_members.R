@@ -214,15 +214,15 @@ extract_rxclass_members <-
 
         nodeAttr <-
         member_concepts_data[[bb]]$nodeAttr %>%
-          map(tibble::as_tibble_row) %>%
-          bind_rows() %>%
-          pivot_wider(names_from = attrName,
+          purrr::map(tibble::as_tibble_row) %>%
+          dplyr::bind_rows() %>%
+          tidyr::pivot_wider(names_from = attrName,
                       values_from = attrValue,
                       values_fn = list)
 
         member_concept_df <-
-        bind_cols(minConcept, nodeAttr) %>%
-          unnest(everything())
+        dplyr::bind_cols(minConcept, nodeAttr) %>%
+          tidyr::unnest(dplyr::everything())
 
 
         output[[bb]] <-
@@ -233,8 +233,8 @@ extract_rxclass_members <-
 
       output <-
         output %>%
-        bind_rows() %>%
-        mutate(classId = class_id)
+        dplyr::bind_rows() %>%
+        dplyr::mutate(classId = class_id)
 
 
       readr::write_csv(

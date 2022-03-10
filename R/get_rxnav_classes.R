@@ -115,17 +115,17 @@ class_df <-
 
 if (is.null(class_df)) {
   resp <-
-    GET(url = url)
+    httr::GET(url = url)
 
 
   abort_on_api_error(response = resp)
 
   class_df <-
-    content(resp) %>%
-    pluck("rxclassMinConceptList") %>%
-    pluck("rxclassMinConcept") %>%
-    map(as_tibble_row) %>%
-    bind_rows()
+    httr::content(resp) %>%
+    purrr::pluck("rxclassMinConceptList") %>%
+    purrr::pluck("rxclassMinConcept") %>%
+    purrr::map(as_tibble_row) %>%
+    dplyr::bind_rows()
 
   if (is.null(class_df)) {
 

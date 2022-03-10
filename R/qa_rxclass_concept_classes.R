@@ -39,7 +39,7 @@ function(prior_version = NULL,
 
   concept_classes_orphans <-
     reconciled_data %>%
-    dplyr::filter_at(dplyr::vars(ends_with(".graph")),
+    dplyr::filter_at(dplyr::vars(dplyr::ends_with(".graph")),
                      dplyr::all_vars(is.na(.))) %>%
     dplyr::transmute(
       concept_code = concept_code.members,

@@ -379,7 +379,7 @@ for (class_type in class_types) {
 
     tmp_concept_ancestor2 <-
       tmp_concept_ancestor %>%
-      dplyr::select(starts_with("parent_")) %>%
+      dplyr::select(dplyr::starts_with("parent_")) %>%
       dplyr::rename_all(stringr::str_remove_all, "parent_") %>%
       dplyr::distinct()
 

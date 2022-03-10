@@ -77,11 +77,11 @@ load_rxclass_graph <-
     class_df <-
       class_df %>%
       dplyr::filter(classType %in% class_types) %>%
-      mutate(
+      dplyr::mutate(
         classType =
           factor(classType, levels = class_types)) %>%
-      arrange(classType) %>%
-      mutate(classType = as.character(classType))
+      dplyr::arrange(classType) %>%
+      dplyr::mutate(classType = as.character(classType))
 
     cli::cli_text(
       "[{as.character(Sys.time())}] {.emph {'Loading RxClass Graphs...'}}"
@@ -141,7 +141,7 @@ load_rxclass_graph <-
 
     output %>%
       purrr::transpose() %>%
-      purrr::map(bind_rows)
+      purrr::map(dplyr::bind_rows)
 
 
 
