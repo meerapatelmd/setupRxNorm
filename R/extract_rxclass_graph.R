@@ -285,7 +285,7 @@ for (class_type in class_types) {
         file.path(tmp_ca_dir, sprintf("%s.csv", i))
 
       readr::write_csv(
-        x = output[[i]] %>% select(-rela),
+        x = output[[i]] %>% dplyr::select(-rela),
         file = tmp_ca_file
       )
 
@@ -466,7 +466,7 @@ for (class_type in class_types) {
       node = class_type_node_csv,
       edge = class_type_edge_csv,
       concept_ancestor = class_type_concept_ancestor_csv) %>%
-    map(readr::read_csv,
+    purrr::map(readr::read_csv,
         col_types = readr::cols(.default = "c"),
         show_col_types = FALSE)
 

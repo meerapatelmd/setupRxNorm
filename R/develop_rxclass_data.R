@@ -361,14 +361,14 @@ develop_rxclass_data <-
                 version_key$version,
                 "tmp",
                 class_types) %>%
-     map(list.files, full.names = TRUE) %>%
-     set_names(class_types) %>%
-     map(
+     purrr::map(list.files, full.names = TRUE) %>%
+     purrr::set_names(class_types) %>%
+     purrr::map(
        function(x)
          x %>%
-         set_names(toupper(xfun::sans_ext(basename(x)))) %>%
+         purrr::set_names(toupper(xfun::sans_ext(basename(x)))) %>%
          as.list) %>%
-        transpose()
+        purrr::transpose()
 
 
     load_data <- list()

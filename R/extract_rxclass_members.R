@@ -248,9 +248,9 @@ extract_rxclass_members <-
     final_output <-
     list.files(tmp_dir,
                full.names = TRUE) %>%
-      map(read_csv,
+      purrr::map(read_csv,
           col_types = readr::cols(.default = "c")) %>%
-      bind_rows()
+      dplyr::bind_rows()
 
 
     readr::write_csv(
@@ -366,7 +366,7 @@ extract_rxclass_members <-
         )
 
       concept_concepts0 <-
-        bind_rows(
+        dplyr::bind_rows(
           members_data %>%
             dplyr::transmute(
               concept_code  = rxnorm_concept_code,
@@ -450,7 +450,7 @@ extract_rxclass_members <-
 
 
       cr <-
-      bind_rows(
+      dplyr::bind_rows(
         members_data %>%
           dplyr::transmute(
             concept_code_1  = rxnorm_concept_code,

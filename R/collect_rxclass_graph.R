@@ -66,7 +66,7 @@ collect_rxclass_graph <-
         rxclass = file.path(R.cache::getCacheRootPath(), "setupRxNorm", version_key$version, "RxClass API"),
         class_types =
           file.path(R.cache::getCacheRootPath(), "setupRxNorm", version_key$version, "RxClass API", class_types) %>%
-          set_names(class_types) %>%
+          purrr::set_names(class_types) %>%
           as.list()
       )
 
@@ -78,7 +78,7 @@ collect_rxclass_graph <-
         rxclass = file.path("setupRxNorm", version_key$version, "RxClass API"),
         class_types =
           file.path("setupRxNorm", version_key$version, "RxClass API", class_types) %>%
-          set_names(class_types) %>%
+          purrr::set_names(class_types) %>%
           as.list()
       )
 
