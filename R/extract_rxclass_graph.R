@@ -64,7 +64,55 @@ extract_rxclass_graph <-
 
     }
 
-    cli::cli_h1(text = "RxClass Graph")
+    cli::cli_h1(text = "RxClass Graph --> Concept Ancestor")
+
+    full_lookup <-
+      get_lookup()
+
+    run_lookup <-
+      full_lookup %>%
+      dplyr::filter(classType %in% class_types)
+
+    if (nrow(run_lookup)==0) {
+
+      cli::cat_rule(cli::style_bold(cli::col_red(" * Error * ")),
+                    line_col = "red")
+
+      full_lookup %>%
+        huxtable::hux() %>%
+        huxtable::theme_article() %>%
+        huxtable::print_screen(colnames = FALSE)
+
+      cli::cli_abort(
+        c("No association between {.var rela_sources} and {.var class_types}. See lookup above for correct combinations.",
+          "x" = "rela_sources: {glue::glue_collapse(glue::single_quote(rela_sources), sep = ', ', last = ', and ')}",
+          "x" = "class_types : {glue::glue_collapse(glue::single_quote(class_types), sep = ', ', last = ', and ')}"),
+        call = NULL,
+        trace = NULL)
+
+    } else {
+
+
+      lookup <-
+        dplyr::left_join(
+          full_lookup,
+          run_lookup,
+          by = c("classType"),
+          keep = TRUE,
+          suffix = c("", ".run")) %>%
+        dplyr::mutate_at(
+          dplyr::vars(dplyr::ends_with(".run")),
+          ~ifelse(is.na(.), "", "X")) %>%
+        dplyr::select(dplyr::starts_with("classType")) %>%
+        dplyr::distinct()
+
+
+      print_lookup(lookup)
+
+
+
+    }
+
 
 
     cli::cli_progress_bar(
@@ -77,7 +125,7 @@ extract_rxclass_graph <-
         "in {cli::pb_elapsed}."
       ),
       total = length(class_types)*4, # 4 for nodes, edges, concept_ancestor, and concept (tandem concept_synonym)
-      clear = FALSE
+      clear = TRUE
     )
 
 for (class_type in class_types) {
@@ -97,14 +145,14 @@ for (class_type in class_types) {
 
   class_type_node_csv <-
     file.path(dir, "node.csv")
-  cli::cli_text("[{as.character(Sys.time())}] {.file {class_type_node_csv}} ")
-
   # objects for the progress bar
   classType <- class_type
   fileType  <-  "node.csv"
   cli::cli_progress_update()
 
   if (!file.exists(class_type_node_csv)) {
+
+    cli_file_missing(class_type_node_csv)
 
     class_type_data <- load_rxclass_graph(class_types = class_type,
                                           prior_version = version_key$version,
@@ -114,6 +162,13 @@ for (class_type in class_types) {
       x = dplyr::distinct(class_type_data$NODE),
       file = class_type_node_csv
     )
+
+
+    cli_missing_file_written(class_type_node_csv)
+
+  } else {
+
+    cli_file_exists(class_type_node_csv)
 
   }
 
@@ -128,6 +183,8 @@ for (class_type in class_types) {
 
   if (!file.exists(class_type_edge_csv)) {
 
+    cli_file_missing(class_type_edge_csv)
+
     class_type_data <- load_rxclass_graph(class_types = class_type,
                                           prior_version = version_key$version,
                                           prior_api_version = version_key$apiVersion)
@@ -136,6 +193,14 @@ for (class_type in class_types) {
       x = class_type_data$EDGE,
       file = class_type_edge_csv
     )
+
+
+    cli_missing_file_written(class_type_edge_csv)
+
+  } else {
+
+
+    cli_file_exists(class_type_edge_csv)
 
   }
 
@@ -164,6 +229,9 @@ for (class_type in class_types) {
   if (!file.exists(class_type_concept_ancestor_csv)) {
 
 
+    cli_file_missing(class_type_concept_ancestor_csv)
+
+
     edge <-
       readr::read_csv(class_type_edge_csv, col_types = readr::cols(.default = "c"), show_col_types = FALSE)
 
@@ -173,6 +241,8 @@ for (class_type in class_types) {
         x = edge,
         file = class_type_concept_ancestor_csv
       )
+
+      cli_missing_file_written(class_type_concept_ancestor_csv)
 
 
     } else {
@@ -276,6 +346,9 @@ for (class_type in class_types) {
 
     }
     dir.create(tmp_ca_dir)
+    on.exit(drop_dir(tmp_ca_dir),
+            add = TRUE,
+            after = TRUE)
 
 
     tmp_ca_files <- vector()
@@ -441,12 +514,19 @@ for (class_type in class_types) {
     )
 
     unlink(tmp_ca_dir, recursive = TRUE)
+    unlink(tmp_ca_dir)
     file.remove(tmp_concept_ancestor_csv)
+
+    cli_missing_file_written(class_type_concept_ancestor_csv)
 
     }
 
 
-      }
+  } else {
+
+    cli_file_exists(class_type_concept_ancestor_csv)
+
+  }
 
 
 
@@ -454,13 +534,19 @@ for (class_type in class_types) {
     file.path(dir, "CONCEPT.csv")
   cli::cli_text("[{as.character(Sys.time())}] {.file {class_type_concept_csv}} ")
 
+  class_type_concept_synonym_csv <-
+    file.path(dir, "CONCEPT_SYNONYM.csv")
+  cli::cli_text("[{as.character(Sys.time())}] {.file {class_type_concept_synonym_csv}} ")
+
   # objects for the progress bar
   classType <- class_type
   fileType  <-  "CONCEPT.csv"
   cli::cli_progress_update()
 
 
-  if (!file.exists(class_type_concept_csv)) {
+  if (!file.exists(class_type_concept_csv)|!file.exists(class_type_concept_synonym_csv)) {
+
+    cli_file_missing(class_type_concept_csv)
   graph_data <-
     list(
       node = class_type_node_csv,
@@ -489,6 +575,8 @@ for (class_type in class_types) {
       file = class_type_concept_csv
     )
 
+    cli_missing_file_written(class_type_concept_csv)
+
     concept_synonym <-
       tibble::tribble(
         ~concept_code,
@@ -496,14 +584,12 @@ for (class_type in class_types) {
         ~class_type
       )
 
-    class_type_concept_synonym_csv <-
-      file.path(dir, "CONCEPT_SYNONYM.csv")
-    cli::cli_text("[{as.character(Sys.time())}] {.file {class_type_concept_synonym_csv}} ")
-
     readr::write_csv(
       x =  concept_synonym,
       file = class_type_concept_synonym_csv
     )
+
+    cli_missing_file_written(class_type_concept_synonym_csv)
 
 
   } else {
@@ -594,6 +680,8 @@ for (class_type in class_types) {
     file = class_type_concept_csv
   )
 
+  cli_missing_file_written(class_type_concept_csv)
+
   concept_synonym <-
     concept0 %>%
     dplyr::filter(concept_name_rank != 1) %>%
@@ -602,14 +690,12 @@ for (class_type in class_types) {
                   class_type) %>%
     dplyr::distinct()
 
-  class_type_concept_synonym_csv <-
-    file.path(dir, "CONCEPT_SYNONYM.csv")
-  cli::cli_text("[{as.character(Sys.time())}] {.file {class_type_concept_synonym_csv}} ")
-
   readr::write_csv(
     x =  concept_synonym,
     file = class_type_concept_synonym_csv
   )
+
+  cli_missing_file_written(class_type_concept_synonym_csv)
 
 
 
@@ -619,6 +705,12 @@ for (class_type in class_types) {
 
 
   }
+
+  } else {
+
+    cli_file_exists(class_type_concept_csv)
+    cli_file_exists(class_type_concept_synonym_csv)
+
 
   }
 

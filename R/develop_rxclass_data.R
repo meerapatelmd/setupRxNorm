@@ -157,6 +157,7 @@ develop_rxclass_data <-
         }
 
       }
+
       # Reset tmp folder
       unlink(dir, recursive = TRUE)
       unlink(dir)
@@ -167,6 +168,7 @@ develop_rxclass_data <-
 
 
       if (!file.exists(tmp_concept_ancestor_csv)) {
+
 
       graph_concept_ancestor_csv <-
         file.path(here::here(),
@@ -190,6 +192,8 @@ develop_rxclass_data <-
         x = CONCEPT_ANCESTOR,
         file = tmp_concept_ancestor_csv
       )
+
+
 
       }
 

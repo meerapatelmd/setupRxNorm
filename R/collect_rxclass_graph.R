@@ -96,7 +96,7 @@ collect_rxclass_graph <-
       dplyr::mutate(classType = as.character(classType))
 
     cli::cli_text(
-      "[{as.character(Sys.time())}] {.emph {'Collecting graphs...'}}"
+      "[{as.character(Sys.time())}] {.emph {'Collecting hierachies (graphs)...'}}"
     )
 
     cli::cli_progress_bar(
@@ -109,20 +109,18 @@ collect_rxclass_graph <-
         "in {cli::pb_elapsed}."
       ),
       total = nrow(class_df),
-      clear = FALSE
+      clear = TRUE
     )
 
-    # Total time it would take from scratch
-    # 3 seconds * total calls that need to be made
-    grand_total_calls <- nrow(class_df)
-
-    time_remaining <- as.character(lubridate::duration(seconds = (grand_total_calls)*3))
     for (kk in 1:nrow(class_df)) {
 
       classId        <- class_df$classId[kk]
       className      <- class_df$className[kk]
       classType      <- class_df$classType[kk]
-      time_remaining <- as.character(lubridate::duration(seconds = (grand_total_calls-kk)*3))
+      time_remaining <- as.character(calculate_time_remaining(total_iterations = nrow(class_df),
+                                                              iteration = kk,
+                                                              time_value_per_iteration = 3,
+                                                              time_unit_per_iteration = "seconds"))
       dirs_kk        <- dirs_ls$class_types[[classType]]
       http_request <-
         glue::glue("/REST/rxclass/classGraph.json?classId={classId}")
