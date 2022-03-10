@@ -103,6 +103,9 @@ collect_rxcui_history <-
                 as = "parsed")
 
       if (!is.null(rxcui_out)) {
+
+        httr::set_config(httr::config(http_version = 0))
+
         rxcui_out <-
           rxcui_out$rxcuiStatusHistory$derivedConcepts$remappedConcept %>%
           purrr::map(unlist) %>%

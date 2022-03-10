@@ -212,6 +212,9 @@ cli::cli_progress_bar(
 
 
       if (is.null(results)) {
+
+        httr::set_config(httr::config(http_version = 0))
+
         Sys.sleep(3)
         resp <-
           GET(url = url)

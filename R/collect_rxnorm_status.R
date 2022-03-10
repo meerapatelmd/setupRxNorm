@@ -95,6 +95,8 @@ collect_rxnorm_status <-
         )
 
       if (is.null(results)) {
+        httr::set_config(httr::config(http_version = 0))
+
         Sys.sleep(3)
         resp <-
           httr::GET(url)
