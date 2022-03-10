@@ -172,9 +172,11 @@ extract_rxclass_members <-
 
     members_csv <-
       file.path(dir, sprintf("%s.csv", rela_source))
-    cli::cli_text("[{as.character(Sys.time())}] {.file {members_csv}} ")
+
     cli::cli_progress_update()
   if (!file.exists(members_csv)) {
+    cli_file_missing(file_path = members_csv)
+    #cli::cli_text("[{as.character(Sys.time())}] {.file {members_csv}} ")
     tmp_path_vctr <-
       c(path_vctr,
         "tmp",
@@ -265,6 +267,7 @@ extract_rxclass_members <-
 
   }
   }
+  cli_file_exists(file_path = members_csv)
 
 
 
