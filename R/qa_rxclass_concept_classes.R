@@ -97,7 +97,7 @@ function(prior_version = NULL,
   print_lookup(concept_classes_orphans %>%
                  dplyr::count(vocabulary_id, class_type) %>%
                  dplyr::mutate(total_time_required =
-                                 calculate_total_time(n)))
+                                 as.character(calculate_total_time(n))))
 
 
   cli::cli_progress_bar(
