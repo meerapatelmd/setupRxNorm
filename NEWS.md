@@ -1,3 +1,8 @@
+# setupRxNorm 1.6.0  
+
+* Add 07-Mar-2022 RxClass Data  
+
+
 # setupRxNorm 1.5.0  
 
 ## RxNorm Proper  
