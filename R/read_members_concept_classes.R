@@ -19,7 +19,7 @@ read_members_concept_classes_csvs <-
 
     extracted_members_processed_path <-
       file.path(here::here(),
-                "inst",
+                "dev",
                 "RxClass API",
                 version_key$version,
                 "extracted",

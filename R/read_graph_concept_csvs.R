@@ -16,7 +16,7 @@ function(prior_version = NULL,
 
   extracted_graph_processed_path <-
     file.path(here::here(),
-              "inst",
+              "dev",
               "RxClass API",
               version_key$version,
               "extracted",

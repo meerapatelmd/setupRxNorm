@@ -61,7 +61,7 @@ function(prior_version = NULL,
 
   orphan_classes_csv <-
     file.path(here::here(),
-              "inst",
+              "dev",
               "RxClass API",
               version_key$version,
               "extracted",

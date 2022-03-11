@@ -540,7 +540,7 @@ WHERE
 
         path_vctr <-
           c(here::here(),
-            "inst",
+            "dev",
             "RxNorm API",
             version_key$version,
             "processed")

@@ -167,7 +167,7 @@ for (jj in 1:nrow(lookup)) {
 
   if (identical(class_type_status, "X")) {
 
-  path_vctr   <- c(here::here(), "inst", "RxClass API", version_key$version, "extracted", "graph", "raw", class_type)
+  path_vctr   <- c(here::here(), "dev", "RxClass API", version_key$version, "extracted", "graph", "raw", class_type)
 
   for (i in 1:length(path_vctr)) {
 
@@ -240,7 +240,7 @@ for (jj in 1:nrow(lookup)) {
 
   }
 
-  path_vctr   <- c(here::here(), "inst", "RxClass API", version_key$version, "extracted", "graph", "processed", class_type)
+  path_vctr   <- c(here::here(), "dev", "RxClass API", version_key$version, "extracted", "graph", "processed", class_type)
 
   for (i in 1:length(path_vctr)) {
 

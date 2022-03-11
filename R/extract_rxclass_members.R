@@ -139,7 +139,7 @@ extract_rxclass_members <-
     if (identical(class_type_status, "X") & identical(rela_source_status, "X")) {
     path_vctr   <-
       c(here::here(),
-        "inst",
+        "dev",
         "RxClass API",
         version_key$version,
         "extracted",
@@ -293,7 +293,7 @@ extract_rxclass_members <-
     raw_source_path <-
       file.path(
         here::here(),
-        "inst",
+        "dev",
         "RxClass API",
         version_key$version,
         "extracted",
@@ -303,7 +303,7 @@ extract_rxclass_members <-
 
     path_vctr   <-
       c(here::here(),
-        "inst",
+        "dev",
         "RxClass API",
         version_key$version,
         "extracted",

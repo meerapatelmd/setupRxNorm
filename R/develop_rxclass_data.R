@@ -141,7 +141,7 @@ develop_rxclass_data <-
       # Output Path
       path_vctr   <-
         c(here::here(),
-          "inst",
+          "dev",
           "RxClass API",
           version_key$version,
           "tmp",
@@ -172,7 +172,7 @@ develop_rxclass_data <-
 
       graph_concept_ancestor_csv <-
         file.path(here::here(),
-                  "inst",
+                  "dev",
                   "RxClass API",
                   version_key$version,
                   "extracted",
@@ -208,7 +208,7 @@ develop_rxclass_data <-
      concept_classes_a <-
         list.files(
         file.path(here::here(),
-                  "inst",
+                  "dev",
                   "RxClass API",
                   version_key$version,
                   "extracted",
@@ -225,7 +225,7 @@ develop_rxclass_data <-
 
      orphan_classes_csv <-
        file.path(here::here(),
-                 "inst",
+                 "dev",
                  "RxClass API",
                  version_key$version,
                  "extracted",
@@ -250,7 +250,7 @@ develop_rxclass_data <-
       concept_concepts <-
         list.files(
           file.path(here::here(),
-                    "inst",
+                    "dev",
                     "RxClass API",
                     version_key$version,
                     "extracted",
@@ -291,7 +291,7 @@ develop_rxclass_data <-
       cr_csvs <-
       list.files(
       file.path(here::here(),
-                "inst",
+                "dev",
                 "RxClass API",
                 version_key$version,
                 "extracted",
@@ -331,7 +331,7 @@ develop_rxclass_data <-
         cs <-
           list.files(
             file.path(here::here(),
-                      "inst",
+                      "dev",
                       "RxClass API",
                       version_key$version,
                       "extracted"),
@@ -360,7 +360,7 @@ develop_rxclass_data <-
 
     load_map <-
       file.path(here::here(),
-                "inst",
+                "dev",
                 "RxClass API",
                 version_key$version,
                 "tmp",
@@ -404,7 +404,7 @@ develop_rxclass_data <-
     list.dirs(
       file.path(
         here::here(),
-        "inst",
+        "dev",
         "RxClass API",
         version_key$version,
         "omop"),
@@ -437,7 +437,7 @@ develop_rxclass_data <-
 
     path_vctr   <-
       c(here::here(),
-        "inst",
+        "dev",
         "RxClass API",
         version_key$version,
         output_folder,

@@ -18,7 +18,7 @@ extract_rxcui_history <-
 
     path_vctr <-
       c(here::here(),
-        "inst",
+        "dev",
         "RxNorm API",
         version_key$version,
         "extracted",
@@ -89,7 +89,7 @@ extract_rxcui_history <-
 
     path_vctr <-
       c(here::here(),
-        "inst",
+        "dev",
         "RxNorm API",
         version_key$version,
         "extracted",

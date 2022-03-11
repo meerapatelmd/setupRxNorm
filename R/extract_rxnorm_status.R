@@ -34,7 +34,7 @@ prior_api_version = "3.1.174") {
 
     path_vctr <-
       c(here::here(),
-        "inst",
+        "dev",
         "RxNorm API",
         version_key$version,
         "extracted",
