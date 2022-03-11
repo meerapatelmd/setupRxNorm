@@ -146,6 +146,25 @@ for (jj in 1:nrow(lookup)) {
            highlight_row = jj)
 
 
+  cat(
+  glue::glue(
+      '\textracted /',
+      '\t  graph /',
+      '\t    raw /',
+      '\t      {class_type} /',
+      '\t        node.csv',
+      '\t        edge.csv',
+      '\t    processed /',
+      '\t      {class_type} /',
+      '\t        CONCEPT_ANCESTOR.csv',
+      '\t        CONCEPT.csv',
+      '\t        CONCEPT_SYNONYM.csv',
+      .sep = "\n"
+  ),
+  sep = "\n"
+  )
+
+
   if (identical(class_type_status, "X")) {
 
   path_vctr   <- c(here::here(), "inst", "RxClass API", version_key$version, "extracted", "graph", "raw", class_type)
@@ -192,7 +211,6 @@ for (jj in 1:nrow(lookup)) {
 
   class_type_edge_csv <-
     file.path(dir, "edge.csv")
-  cli::cli_text("[{as.character(Sys.time())}] {.file {class_type_edge_csv}} ")
 
   # objects for the progress bar
   classType <- class_type
@@ -237,7 +255,6 @@ for (jj in 1:nrow(lookup)) {
 
   class_type_concept_ancestor_csv <-
     file.path(dir, "CONCEPT_ANCESTOR.csv")
-  cli::cli_text("[{as.character(Sys.time())}] {.file {class_type_concept_ancestor_csv}} ")
 
   # objects for the progress bar
   classType <- class_type
@@ -550,11 +567,9 @@ for (jj in 1:nrow(lookup)) {
 
   class_type_concept_csv <-
     file.path(dir, "CONCEPT.csv")
-  cli::cli_text("[{as.character(Sys.time())}] {.file {class_type_concept_csv}} ")
 
   class_type_concept_synonym_csv <-
     file.path(dir, "CONCEPT_SYNONYM.csv")
-  cli::cli_text("[{as.character(Sys.time())}] {.file {class_type_concept_synonym_csv}} ")
 
   # objects for the progress bar
   classType <- class_type
@@ -612,8 +627,6 @@ for (jj in 1:nrow(lookup)) {
 
   } else {
 
-
-
   node_check <-
     list(
       graph_data$node %>%
@@ -635,7 +648,10 @@ for (jj in 1:nrow(lookup)) {
       graph_data$concept_ancestor %>%
         dplyr::distinct(descendant_concept_code) %>%
         dplyr::transmute(descendant_in_ca_csv = descendant_concept_code,
-                  classId = descendant_concept_code)) %>%
+                  classId = descendant_concept_code))
+
+  node_check <-
+  node_check %>%
     purrr::reduce(dplyr::full_join, by = "classId") %>%
     dplyr::transmute(
       all_classId = classId,
