@@ -151,23 +151,22 @@ extract_rxclass_members <-
              highlight_row = ii)
 
     cat(
-      glue::glue(
-        '\textracted /',
-        '\t  members /',
-        '\t    raw /',
-        '\t      {class_type} /',
-        '\t        {rela_source}.csv',
-        '\t    processed /',
-        '\t      {class_type} /',
-        '\t        {rela_source} /',
-        '\t          CONCEPT_RELATIONSHIP.csv',
-        '\t          CONCEPT_{.emph CONCEPTS}.csv',
-        '\t          CONCEPT_SYNONYM_{.emph CONCEPTS}.csv',
-        '\t          CONCEPT_{.emph CLASSES}.csv',
-        .sep = "\n"
-      ),
-      sep = "\n"
-    )
+    glue::glue(
+      '\textracted /',
+      '\t  members /',
+      '\t    raw /',
+      '\t      {class_type} /',
+      '\t        {rela_source}.csv',
+      '\t    processed /',
+      '\t      {class_type} /',
+      '\t        {rela_source} /',
+      '\t          CONCEPT_RELATIONSHIP.csv',
+      '\t          CONCEPT_CONCEPTS.csv',
+      '\t          CONCEPT_SYNONYM_CONCEPTS.csv',
+      '\t          CONCEPT_CLASSES.csv',
+      .sep = "\n"),
+    sep = "\n")
+
 
     for (i in 1:length(path_vctr)) {
 

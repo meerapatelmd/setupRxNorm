@@ -55,8 +55,8 @@ function(prior_version = NULL,
       by = "class_type") %>%
     dplyr::distinct()
 
-  cli::cli_text(
-    "[{as.character(Sys.time())}] {nrow(concept_classes_orphans)} classes in RxClass Members, but not found in RxClass Graph:"
+  cli_message(
+    glue::glue("Found {nrow(concept_classes_orphans)} orphan classes in RxClass Members (Concept Relationship) that were not given in RxClass Graph (Concept Ancestor).")
   )
 
   orphan_classes_csv <-
@@ -89,14 +89,21 @@ function(prior_version = NULL,
 
   } else {
 
+
+    cli_message(
+      glue::glue("Getting more details on the orphan classes:")
+    )
+
   print_lookup(concept_classes_orphans %>%
-                 dplyr::count(vocabulary_id, class_type))
+                 dplyr::count(vocabulary_id, class_type) %>%
+                 dplyr::mutate(total_time_required =
+                                 calculate_total_time(n)))
 
 
   cli::cli_progress_bar(
     format = paste0(
-      "[{as.character(Sys.time())}] {.strong {classType} ({vocabulary_id}) code}: {orphanClassId} ",
-      "({cli::pb_current}/{cli::pb_total})  Elapsed:{cli::pb_elapsed}"
+      "[{as.character(Sys.time())}] {.strong {classType} ({vocabulary_id}) code} {orphanClassId} ",
+      "({cli::pb_current}/{cli::pb_total}) ETA:{time_remaining}  Elapsed:{cli::pb_elapsed}"
     ),
     format_done = paste0(
       "[{as.character(Sys.time())}] {cli::col_green(cli::symbol$tick)} Collected {cli::pb_total} class details ",
@@ -113,6 +120,10 @@ function(prior_version = NULL,
     orphanClassId <- concept_classes_orphans$concept_code[i]
     classType     <- concept_classes_orphans$class_type[i]
     vocabulary_id <- concept_classes_orphans$vocabulary_id[i]
+    time_remaining <- calculate_time_remaining(iteration = i,
+                             total_iterations = nrow(concept_classes_orphans),
+                             time_value_per_iteration = 3,
+                             time_unit_per_iteration = "seconds")
     cli::cli_progress_update()
 
     url <-
