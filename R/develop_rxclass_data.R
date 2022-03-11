@@ -124,19 +124,19 @@ develop_rxclass_data <-
 
     }
 
+    extract_rxclass_members(class_types = lookup$classType,
+                            rela_sources = lookup$relaSources,
+                            prior_version = version_key$version,
+                            prior_api_version = version_key$apiVersion)
+    extract_rxclass_graph(class_types = lookup$classType,
+                          prior_version = version_key$version,
+                          prior_api_version = version_key$apiVersion)
+
+
     for (zz in 1:nrow(lookup)) {
 
       class_type  <- lookup$classType[zz]
       rela_source <- lookup$relaSources[zz]
-
-      extract_rxclass_members(class_types = class_type,
-                              rela_sources = rela_source,
-                              prior_version = version_key$version,
-                              prior_api_version = version_key$apiVersion)
-      extract_rxclass_graph(class_types = class_type,
-                            prior_version = version_key$version,
-                            prior_api_version = version_key$apiVersion)
-
 
       # Output Path
       path_vctr   <-
