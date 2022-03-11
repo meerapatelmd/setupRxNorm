@@ -219,7 +219,7 @@ extract_rxclass_members <-
                                          prior_version = version_key$version,
                                          prior_api_version = version_key$apiVersion)
 
-    cli_message(glue::glue("Processing {length(members_data)} members..."))
+    cli_message(glue::glue("Processing {length(members_data)} {class_type} members in {rela_source}..."))
     for (aa in seq_along(members_data)) {
       output <- list()
       class_id <- names(members_data)[aa]
