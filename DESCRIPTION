@@ -1,6 +1,6 @@
 Package: setupRxNorm
 Title: RxNorm and RxClass Postgres Database Management
-Version: 1.6.0
+Version: 1.6.0.9000
 Authors@R: 
     person(given = "Meera",
            family = "Patel, MD",

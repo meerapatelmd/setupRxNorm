@@ -1,3 +1,9 @@
+# setupRxNorm 1.6.0.9000  
+
+* Changed output directory from inst due to compression 
+issues  
+
+
 # setupRxNorm 1.6.0  
 
 * Add 07-Mar-2022 RxClass Data  
