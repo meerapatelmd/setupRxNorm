@@ -150,6 +150,25 @@ extract_rxclass_members <-
     print_df(df = lookup,
              highlight_row = ii)
 
+    cat(
+      glue::glue(
+        '\textracted /',
+        '\t  members /',
+        '\t    raw /',
+        '\t      {class_type} /',
+        '\t        {rela_source}.csv',
+        '\t    processed /',
+        '\t      {class_type} /',
+        '\t        {rela_source} /',
+        '\t          CONCEPT_RELATIONSHIP.csv',
+        '\t          CONCEPT_{.emph CONCEPTS}.csv',
+        '\t          CONCEPT_SYNONYM_{.emph CONCEPTS}.csv',
+        '\t          CONCEPT_{.emph CLASSES}.csv',
+        .sep = "\n"
+      ),
+      sep = "\n"
+    )
+
     for (i in 1:length(path_vctr)) {
 
       dir <- paste(path_vctr[1:i], collapse = .Platform$file.sep)
