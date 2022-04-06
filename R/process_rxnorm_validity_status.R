@@ -70,14 +70,36 @@ process_rxnorm_validity_status <-
           render_sql = render_sql)) {
 
 
-      source_file <-
-        system.file(
-          package = "setupRxNorm",
+      path_vctr <-
+        c(here::here(),
+          "dev",
           "RxNorm API",
           version_key$version,
           "extracted",
-          "status",
-          "status.csv")
+          "status")
+
+      for (i in 1:length(path_vctr)) {
+
+        write_dir <-
+          paste(path_vctr[1:i],
+                collapse = .Platform$file.sep)
+
+
+        if (!dir.exists(write_dir)) {
+
+
+          dir.create(write_dir)
+
+        }
+
+
+      }
+
+
+      source_file <-
+        file.path(write_dir,
+                  "status.csv")
+
 
 
       if (!file.exists(source_file)) {
