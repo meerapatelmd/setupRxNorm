@@ -391,14 +391,35 @@ WHERE
         unlist() %>%
         unname()
 
-      source_file <-
-        system.file(
-          package = "setupRxNorm",
+      path_vctr <-
+        c(here::here(),
+          "dev",
           "RxNorm API",
           version_key$version,
           "extracted",
-          "history",
-          "history.csv")
+          "history")
+
+      for (i in 1:length(path_vctr)) {
+
+        write_dir <-
+          paste(path_vctr[1:i],
+                collapse = .Platform$file.sep)
+
+
+        if (!dir.exists(write_dir)) {
+
+
+          dir.create(write_dir)
+
+        }
+
+
+      }
+
+
+      source_file <-
+        file.path(write_dir,
+                  "history.csv")
 
 
       if (!file.exists(source_file)) {
