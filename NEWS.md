@@ -1,4 +1,6 @@
-# setupRxNorm 1.6.0.9000  
+# setupRxNorm 1.7.0
+
+* Added 04-Apr-2022 RxClass Data version 19  
 
 * Changed output directory from inst due to compression 
 issues  
