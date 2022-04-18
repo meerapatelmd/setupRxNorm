@@ -1,7 +1,7 @@
 RxClass (setupRxNorm R package)
 Sourced from RxNav's RxClass API: https://lhncbc.nlm.nih.gov/RxNav/APIs/RxClassAPIs.html
 patelmeeray@gmail.com
-Version 3
+Version 19
 2022-04-18 12:55:53
 ---
 RxClass Version:		 04-Apr-2022
