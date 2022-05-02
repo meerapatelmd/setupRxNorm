@@ -9,7 +9,7 @@ run_setup(
   conn_fun = "pg13::local_connect()",
   schema = "rxnorm",
   rrf_path,
-  rxrel_tables = c("rxnorm_to_brand_and_generic"),
+  rxrel_tables = c(""),
   rxtra_tables = c("rxnorm_validity_status"),
   verbose = TRUE,
   render_sql = TRUE,
