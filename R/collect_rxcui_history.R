@@ -35,6 +35,8 @@ collect_rxcui_history <-
         rxnorm = file.path(R.cache::getCacheRootPath(), "setupRxNorm", version_key$version, "RxNorm API"),
         rxcui_history_status = file.path(R.cache::getCacheRootPath(), "setupRxNorm", version_key$version, "RxNorm API", "RxCUI History Status"))
 
+    R.cache::clearCache(full_path_ls$rxcui_history_status)
+
 
     dirs_ls <-
       full_path_ls %>%
@@ -110,10 +112,18 @@ collect_rxcui_history <-
           rxcui_out$rxcuiStatusHistory$derivedConcepts$remappedConcept %>%
           purrr::map(unlist) %>%
           purrr::map(tibble::as_tibble_row) %>%
-          dplyr::bind_rows()
+          dplyr::bind_rows() %>%
+          dplyr::transmute(
+            inputRxCui = rxcui,
+            remappedRxCui,
+            remappedName,
+            remappedTTY
+          )
+
       } else {
         rxcui_out <-
           tibble::tribble(
+            ~inputRxCui,
             ~remappedRxCui,
             ~remappedName,
             ~remappedTTY

@@ -34,7 +34,7 @@ process_rxnorm_validity_status <-
            conn_fun = "pg13::local_connect(verbose = {verbose})",
            processing_schema = "process_rxnorm_validity_status",
            destination_schema = "rxtra",
-           rm_processing_schema = TRUE,
+           rm_processing_schema = FALSE,
            checks = "",
            verbose = TRUE,
            render_sql = TRUE,

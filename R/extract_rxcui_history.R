@@ -51,7 +51,7 @@ extract_rxcui_history <-
     rxnorm_api_version <-
       sprintf("%s %s", version_key$version, version_key$apiVersion)
 
-    rxcui_history_data <-
+    rxcui_history_data <<-
       load_rxcui_history(
         rxcuis = rxcuis,
         prior_version = version_key$version,
@@ -60,9 +60,8 @@ extract_rxcui_history <-
 
     rxcui_history_data2 <-
     rxcui_history_data %>%
-      dplyr::bind_rows(.id = "input_rxcui") %>%
       dplyr::transmute(
-        input_rxcui,
+        input_rxcui = inputRxCui,
         output_code = remappedRxCui,
         output_str = remappedName,
         output_tty = remappedTTY

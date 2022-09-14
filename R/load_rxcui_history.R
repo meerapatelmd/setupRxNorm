@@ -114,10 +114,18 @@ load_rxcui_history <-
           rxcui_out$rxcuiStatusHistory$derivedConcepts$remappedConcept %>%
           purrr::map(unlist) %>%
           purrr::map(tibble::as_tibble_row) %>%
-          dplyr::bind_rows()
+          dplyr::bind_rows() %>%
+          dplyr::transmute(
+            inputRxCui = rxcui,
+            remappedRxCui,
+            remappedName,
+            remappedTTY
+          )
+
       } else {
         rxcui_out <-
           tibble::tribble(
+            ~inputRxCui,
             ~remappedRxCui,
             ~remappedName,
             ~remappedTTY
