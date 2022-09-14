@@ -35,7 +35,8 @@ collect_rxcui_history <-
         rxnorm = file.path(R.cache::getCacheRootPath(), "setupRxNorm", version_key$version, "RxNorm API"),
         rxcui_history_status = file.path(R.cache::getCacheRootPath(), "setupRxNorm", version_key$version, "RxNorm API", "RxCUI History Status"))
 
-    R.cache::clearCache(full_path_ls$rxcui_history_status)
+
+    # R.cache::clearCache(full_path_ls$rxcui_history_status)
 
 
     dirs_ls <-
